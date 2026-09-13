@@ -7,16 +7,9 @@
     --paper:#F6F4EF; --surface:#FFFDF9; --ink:#191C1E; --ink2:#4C5559;
     --ink3:#7E878B; --rule:#DDD8CD; --rule-firm:#C3BCAE;
   }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --paper:#14171A; --surface:#1B1F22; --ink:#ECE9E2; --ink2:#A8B1B4;
-      --ink3:#78827F; --rule:#2F3539; --rule-firm:#454D51;
-    }
-  }
-  :root[data-theme="dark"] {
-    --paper:#14171A; --surface:#1B1F22; --ink:#ECE9E2; --ink2:#A8B1B4;
-    --ink3:#78827F; --rule:#2F3539; --rule-firm:#454D51;
-  }
+  /* The charts commit to one light palette, so the page does too - a dark
+     page behind light charts reads as a mistake. */
+  :root { color-scheme: light; }
   body {
     background:var(--paper); color:var(--ink); margin:0; direction:rtl;
     padding:clamp(1.5rem,5vw,3.5rem) clamp(1rem,4vw,2rem) 5rem;
@@ -51,8 +44,8 @@
   <figure><div class="scroll"><img src="beitar-jerusalem.he.svg" alt="בית&quot;ר ירושלים" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="bnei-yehuda-tel-aviv.he.svg" alt="בני יהודה תל אביב" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="hapoel-be-er-sheva.he.svg" alt="הפועל באר שבע" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="beitar-tel-aviv.he.svg" alt="בית&quot;ר תל אביב" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="hapoel-jerusalem.he.svg" alt="הפועל ירושלים" loading="eager"></div></figure>
+  <figure><div class="scroll"><img src="beitar-tel-aviv.he.svg" alt="בית&quot;ר תל אביב" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="hapoel-kfar-saba.he.svg" alt="הפועל כפר סבא" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="maccabi-jaffa.he.svg" alt="מכבי יפו" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="shimshon-tel-aviv.he.svg" alt="שמשון תל אביב" loading="eager"></div></figure>
@@ -64,12 +57,12 @@
   <figure><div class="scroll"><img src="hapoel-hadera.he.svg" alt="הפועל חדרה" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="ironi-kiryat-shmona.he.svg" alt="עירוני קריית שמונה" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="hapoel-holon.he.svg" alt="הפועל חולון" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-nes-ziona.he.svg" alt="מכבי נס ציונה" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="maccabi-rehovot.he.svg" alt="מכבי רחובות" loading="eager"></div></figure>
+  <figure><div class="scroll"><img src="maccabi-nes-ziona.he.svg" alt="מכבי נס ציונה" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="hapoel-acre.he.svg" alt="הפועל עכו" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="maccabi-herzliya.he.svg" alt="מכבי הרצליה" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-ra-anana.he.svg" alt="הפועל רעננה" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="hakoah-tel-aviv.he.svg" alt="הכח תל אביב" loading="eager"></div></figure>
+  <figure><div class="scroll"><img src="hapoel-ra-anana.he.svg" alt="הפועל רעננה" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="hapoel-yehud.he.svg" alt="הפועל יהוד" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="hapoel-ironi-herzliya.he.svg" alt="הפועל הרצליה" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="maccabi-rishon-lezion.he.svg" alt="מכבי ראשון לציון" loading="eager"></div></figure>

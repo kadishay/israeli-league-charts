@@ -60,12 +60,19 @@ RSSSF_SECOND_TIER_FROM = 2008
 # half-modelled; no club charted here spent them below the top flight.
 SECOND_TIER_FROM = 1955
 
+# The Mandate-era top flight, which only Hebrew Wikipedia covers district by
+# district.
+MANDATE_UNTIL = 1948
+
 
 def wanted(meta: dict) -> bool:
     if not meta["played"] or not meta["title"] or meta["start"] > LATEST_COMPLETE:
         return False
     if meta["tier"] == 1:
-        return meta["start"] > RSSSF_TOP_FLIGHT_UNTIL
+        # The Mandate era too: English Wikipedia documents the Tel Aviv,
+        # Samaria and Southern districts of those regional seasons but not the
+        # Haifa one, which is where Maccabi Haifa and Hapoel Haifa played.
+        return meta["start"] <= MANDATE_UNTIL or meta["start"] > RSSSF_TOP_FLIGHT_UNTIL
     if meta["tier"] == 2:
         return meta["start"] >= SECOND_TIER_FROM and (
             meta["start"] < RSSSF_SECOND_TIER_FROM

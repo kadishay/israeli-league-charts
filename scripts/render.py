@@ -27,8 +27,10 @@ Four things the data forces, which are what most of this file is about:
 
 Colour: the tier bands are a sequential ramp (one hue, light to dark with
 depth).  The club's line and the champion marker are the only two colours that
-carry identity, and the pair passes the six-check validator in both light and
-dark mode (light #007C99/#A06A0A, dark #2FA3BC/#BE8B22).
+carry identity, and the pair (#007C99 and #A06A0A) passes the six-check
+validator against the light surface.  These charts commit to one light palette
+rather than following the viewer's theme, so they read the same wherever they
+are embedded.
 """
 
 import argparse
@@ -58,16 +60,7 @@ THEME = {
         "rule": "#C9CFD1", "accent": "#007C99", "champion": "#A06A0A",
         "hatch": "#A9B2B6",
     },
-    "dark": {
-        "surface": "#1A1A19", "ink": "#ECEAE4", "ink2": "#A6AEB1", "ink3": "#798285",
-        "band": ["#26343839", "#243135", "#1E2A2E", "#182226", "#131A1D"],
-        "rule": "#394346", "accent": "#2FA3BC", "champion": "#BE8B22",
-        "hatch": "#4C575B",
-    },
 }
-# The dark ramp's first entry above carries an alpha byte by mistake in some
-# editors; keep it a plain six-digit hex.
-THEME["dark"]["band"][0] = "#2A383C"
 
 STRINGS = {
     "en": {
@@ -106,6 +99,14 @@ STRINGS = {
                          "משתנים מפני שבליגה הבכירה שיחקו בין 10 ל-18 קבוצות."),
     },
 }
+
+
+def short_label(label: str) -> str:
+    """1929/1930 -> 29/30, and a single-year season stays as it is."""
+    if "/" not in label:
+        return label
+    start, end = label.split("/")
+    return f"{start[-2:]}/{end[-2:]}"
 
 
 def esc(text: str) -> str:
@@ -179,10 +180,23 @@ def load():
         depth = min(TIERS_SHOWN, len(era["tiers"]) if era else TIERS_SHOWN)
         s["bands"] = [got.get(t) or NOMINAL[t] for t in range(1, depth + 1)]
 
+    # A club can have more than one row for a season: a regional season may
+    # list it both in a district table and in the national play-off that
+    # decided the title, and two sources may name the same competition
+    # differently. Pick the shallowest tier, and prefer a national ranking over
+    # a district one - otherwise an arbitrary row wins and titles go missing.
+    def better(a: dict, b: dict) -> dict:
+        if a["tier"] != b["tier"]:
+            return a if a["tier"] < b["tier"] else b
+        if bool(a["division"]) != bool(b["division"]):
+            return a if not a["division"] else b
+        return a if a["position"] <= b["position"] else b
+
     by_club: dict[str, dict[str, dict]] = defaultdict(dict)
     for r in rows:
         if r["tier"]:
-            by_club[r["club"]][r["season"]] = r
+            seen = by_club[r["club"]].get(r["season"])
+            by_club[r["club"]][r["season"]] = better(seen, r) if seen else r
     return seasons, by_club
 
 
@@ -227,7 +241,6 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
     floor = PAD_T + plot_h
 
     css_light = ";".join(f"--{k}:{v}" for k, v in _vars("light").items())
-    css_dark = ";".join(f"--{k}:{v}" for k, v in _vars("dark").items())
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
         f'viewBox="0 0 {width} {height}" font-family="ui-sans-serif, -apple-system, '
@@ -240,7 +253,6 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
         "  .line{stroke:var(--accent);stroke-width:1.7;fill:none;stroke-linecap:square}",
         "  .champ{fill:var(--champion)}",
         f"  :root{{{css_light}}}",
-        f"  @media (prefers-color-scheme: dark){{:root{{{css_dark}}}}}",
         "</style>",
         "<defs>",
         '  <pattern id="notplayed" width="7" height="7" patternUnits="userSpaceOnUse" '
@@ -315,7 +327,8 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
 
     # ── Season axis: a tick every decade, plus the two end seasons.
     last_i = len(seasons) - 1
-    ticks = {0: seasons[0]["label"], last_i: seasons[-1]["label"]}
+    ticks = {0: short_label(seasons[0]["label"]),
+             last_i: short_label(seasons[-1]["label"])}
     # One tick per decade: two slots can start in the same year, since the 1940
     # season was played and 1940/1941 was not.
     seen_decade: set[int] = set()
@@ -424,16 +437,9 @@ def gallery_html(clubs: list[str], seasons: list[dict], lang: str,
     --paper:#F6F4EF; --surface:#FFFDF9; --ink:#191C1E; --ink2:#4C5559;
     --ink3:#7E878B; --rule:#DDD8CD; --rule-firm:#C3BCAE;
   }}
-  @media (prefers-color-scheme: dark) {{
-    :root:not([data-theme="light"]) {{
-      --paper:#14171A; --surface:#1B1F22; --ink:#ECE9E2; --ink2:#A8B1B4;
-      --ink3:#78827F; --rule:#2F3539; --rule-firm:#454D51;
-    }}
-  }}
-  :root[data-theme="dark"] {{
-    --paper:#14171A; --surface:#1B1F22; --ink:#ECE9E2; --ink2:#A8B1B4;
-    --ink3:#78827F; --rule:#2F3539; --rule-firm:#454D51;
-  }}
+  /* The charts commit to one light palette, so the page does too - a dark
+     page behind light charts reads as a mistake. */
+  :root {{ color-scheme: light; }}
   body {{
     background:var(--paper); color:var(--ink); margin:0; direction:{S['dir']};
     padding:clamp(1.5rem,5vw,3.5rem) clamp(1rem,4vw,2rem) 5rem;

@@ -6,7 +6,6 @@
   .line{stroke:var(--accent);stroke-width:1.7;fill:none;stroke-linecap:square}
   .champ{fill:var(--champion)}
   :root{--surface:#FCFCFB;--ink:#1A1D1F;--ink2:#565F63;--ink3:#868F93;--rule:#C9CFD1;--accent:#007C99;--champion:#A06A0A;--hatch:#A9B2B6;--band1:#E9F0F2;--band2:#DBE5E8;--band3:#CBD8DC;--band4:#B9C9CF;--band5:#A7BAC1}
-  @media (prefers-color-scheme: dark){:root{--surface:#1A1A19;--ink:#ECEAE4;--ink2:#A6AEB1;--ink3:#798285;--rule:#394346;--accent:#2FA3BC;--champion:#BE8B22;--hatch:#4C575B;--band1:#2A383C;--band2:#243135;--band3:#1E2A2E;--band4:#182226;--band5:#131A1D}}
 </style>
 <defs>
   <pattern id="notplayed" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="7" stroke="var(--hatch)" stroke-width="1.4"/></pattern>
@@ -64,9 +63,9 @@
 <rect x="304" y="76" width="13" height="70" fill="var(--band1)"/>
 <rect x="304" y="146" width="13" height="80" fill="var(--band2)"/>
 <rect x="304" y="226" width="13" height="205" fill="var(--band3)"/>
-<rect x="317" y="76" width="13" height="70" fill="var(--band1)"/>
-<rect x="317" y="146" width="13" height="65" fill="var(--band2)"/>
-<rect x="317" y="211" width="13" height="220" fill="var(--band3)"/>
+<rect x="317" y="76" width="13" height="75" fill="var(--band1)"/>
+<rect x="317" y="151" width="13" height="65" fill="var(--band2)"/>
+<rect x="317" y="216" width="13" height="215" fill="var(--band3)"/>
 <rect x="330" y="76" width="13" height="70" fill="var(--band1)"/>
 <rect x="330" y="146" width="13" height="80" fill="var(--band2)"/>
 <rect x="330" y="226" width="13" height="205" fill="var(--band3)"/>
@@ -92,10 +91,10 @@
 <rect x="408" y="206" width="13" height="80" fill="var(--band3)"/>
 <rect x="408" y="286" width="13" height="145" fill="var(--band4)"/>
 <rect x="421" y="76" width="13" height="70" fill="var(--band1)"/>
-<rect x="421" y="146" width="13" height="70" fill="var(--band2)"/>
-<rect x="421" y="216" width="13" height="60" fill="var(--band3)"/>
-<rect x="421" y="276" width="13" height="70" fill="var(--band4)"/>
-<rect x="421" y="346" width="13" height="85" fill="var(--band5)"/>
+<rect x="421" y="146" width="13" height="80" fill="var(--band2)"/>
+<rect x="421" y="226" width="13" height="60" fill="var(--band3)"/>
+<rect x="421" y="286" width="13" height="70" fill="var(--band4)"/>
+<rect x="421" y="356" width="13" height="75" fill="var(--band5)"/>
 <rect x="434" y="76" width="13" height="60" fill="var(--band1)"/>
 <rect x="434" y="136" width="13" height="60" fill="var(--band2)"/>
 <rect x="434" y="196" width="13" height="60" fill="var(--band3)"/>
@@ -463,7 +462,7 @@
 <rect x="278" y="216" width="13" height="215" fill="url(#uncovered)"/>
 <rect x="291" y="196" width="13" height="235" fill="url(#uncovered)"/>
 <rect x="304" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
-<rect x="317" y="211" width="13" height="220" fill="url(#uncovered)"/>
+<rect x="317" y="216" width="13" height="215" fill="url(#uncovered)"/>
 <rect x="330" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="343" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="356" y="221" width="13" height="210" fill="url(#uncovered)"/>
@@ -471,7 +470,7 @@
 <rect x="382" y="286" width="13" height="145" fill="url(#uncovered)"/>
 <rect x="395" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="408" y="286" width="13" height="145" fill="url(#uncovered)"/>
-<rect class="area" x="421" y="306" width="13" height="125" fill-opacity=".07"/>
+<rect class="area" x="421" y="316" width="13" height="115" fill-opacity=".07"/>
 <rect class="area" x="434" y="256" width="13" height="175" fill-opacity=".07"/>
 <rect class="area" x="447" y="216" width="13" height="215" fill-opacity=".07"/>
 <rect class="area" x="460" y="201" width="13" height="230" fill-opacity=".07"/>
@@ -542,8 +541,8 @@
 <rect class="area" x="1305" y="86" width="13" height="345"/>
 <rect class="area" x="1318" y="81" width="13" height="350"/>
 <rect class="area" x="1331" y="76" width="13" height="355"/>
-<path class="line" d="M421 306h13" stroke-dasharray="3 2"/>
-<path class="line" d="M434 306V256"/>
+<path class="line" d="M421 316h13" stroke-dasharray="3 2"/>
+<path class="line" d="M434 316V256"/>
 <path class="line" d="M434 256h13" stroke-dasharray="3 2"/>
 <path class="line" d="M447 256V216"/>
 <path class="line" d="M447 216h13" stroke-dasharray="3 2"/>
@@ -683,7 +682,7 @@
 <text class="ink3" x="85" y="401.5" text-anchor="start" font-size="10.5" direction="rtl" letter-spacing=".05em">דרג 5+</text>
 <path class="rule" d="M96 431.5h1248" fill="none"/>
 <path class="rule" d="M96 431v5" fill="none"/>
-<text class="ink3" x="96" y="448" text-anchor="start" font-size="10.5">1929/1930</text>
+<text class="ink3" x="96" y="448" text-anchor="start" font-size="10.5">29/30</text>
 <path class="rule" d="M232.5 431v5" fill="none"/>
 <text class="ink3" x="232.5" y="448" text-anchor="middle" font-size="10.5">1940</text>
 <path class="rule" d="M375.5 431v5" fill="none"/>
@@ -703,7 +702,7 @@
 <path class="rule" d="M1272.5 431v5" fill="none"/>
 <text class="ink3" x="1272.5" y="448" text-anchor="middle" font-size="10.5">2020</text>
 <path class="rule" d="M1344 431v5" fill="none"/>
-<text class="ink3" x="1344" y="448" text-anchor="end" font-size="10.5">2025/2026</text>
+<text class="ink3" x="1344" y="448" text-anchor="end" font-size="10.5">25/26</text>
 <text class="ink" x="96" y="33" text-anchor="end" font-size="19" font-weight="600" direction="rtl" letter-spacing="-.01em">הפועל באר שבע</text>
 <text class="ink2" x="96" y="54" text-anchor="end" font-size="11.5" direction="rtl">52 עונות מתוך 86 בליגה הבכירה · 6 אליפויות</text>
 <text class="ink3" x="1344" y="33" text-anchor="start" font-size="9.5" direction="rtl" letter-spacing=".08em">מיקום בליגה לפי עונה</text>

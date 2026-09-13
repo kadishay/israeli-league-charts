@@ -7,16 +7,9 @@
     --paper:#F6F4EF; --surface:#FFFDF9; --ink:#191C1E; --ink2:#4C5559;
     --ink3:#7E878B; --rule:#DDD8CD; --rule-firm:#C3BCAE;
   }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --paper:#14171A; --surface:#1B1F22; --ink:#ECE9E2; --ink2:#A8B1B4;
-      --ink3:#78827F; --rule:#2F3539; --rule-firm:#454D51;
-    }
-  }
-  :root[data-theme="dark"] {
-    --paper:#14171A; --surface:#1B1F22; --ink:#ECE9E2; --ink2:#A8B1B4;
-    --ink3:#78827F; --rule:#2F3539; --rule-firm:#454D51;
-  }
+  /* The charts commit to one light palette, so the page does too - a dark
+     page behind light charts reads as a mistake. */
+  :root { color-scheme: light; }
   body {
     background:var(--paper); color:var(--ink); margin:0; direction:ltr;
     padding:clamp(1.5rem,5vw,3.5rem) clamp(1rem,4vw,2rem) 5rem;
@@ -51,8 +44,8 @@
   <figure><div class="scroll"><img src="beitar-jerusalem.svg" alt="Beitar Jerusalem" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="bnei-yehuda-tel-aviv.svg" alt="Bnei Yehuda Tel Aviv" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="hapoel-be-er-sheva.svg" alt="Hapoel Be'er Sheva" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="beitar-tel-aviv.svg" alt="Beitar Tel Aviv" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="hapoel-jerusalem.svg" alt="Hapoel Jerusalem" loading="eager"></div></figure>
+  <figure><div class="scroll"><img src="beitar-tel-aviv.svg" alt="Beitar Tel Aviv" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="hapoel-kfar-saba.svg" alt="Hapoel Kfar Saba" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="maccabi-jaffa.svg" alt="Maccabi Jaffa" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="shimshon-tel-aviv.svg" alt="Shimshon Tel Aviv" loading="eager"></div></figure>
@@ -64,12 +57,12 @@
   <figure><div class="scroll"><img src="hapoel-hadera.svg" alt="Hapoel Hadera" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="ironi-kiryat-shmona.svg" alt="Ironi Kiryat Shmona" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="hapoel-holon.svg" alt="Hapoel Holon" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-nes-ziona.svg" alt="Maccabi Nes Ziona" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="maccabi-rehovot.svg" alt="Maccabi Rehovot" loading="eager"></div></figure>
+  <figure><div class="scroll"><img src="maccabi-nes-ziona.svg" alt="Maccabi Nes Ziona" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="hapoel-acre.svg" alt="Hapoel Acre" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="maccabi-herzliya.svg" alt="Maccabi Herzliya" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-ra-anana.svg" alt="Hapoel Ra'anana" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="hakoah-tel-aviv.svg" alt="Hakoah Tel Aviv" loading="eager"></div></figure>
+  <figure><div class="scroll"><img src="hapoel-ra-anana.svg" alt="Hapoel Ra'anana" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="hapoel-yehud.svg" alt="Hapoel Yehud" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="hapoel-ironi-herzliya.svg" alt="Hapoel Ironi Herzliya" loading="eager"></div></figure>
   <figure><div class="scroll"><img src="maccabi-rishon-lezion.svg" alt="Maccabi Rishon LeZion" loading="eager"></div></figure>

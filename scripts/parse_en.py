@@ -39,6 +39,13 @@ LEAGUE_NAMES = {"Palestine League": "Eretz Israel League"}
 # the Hebrew table's "1938" row exactly.
 LABEL_FIXUPS = {"1938/1939": "1938"}
 
+# Sources disagree on what the 1954/55 top flight was called: RSSSF heads its
+# table "Liga Leumit" and English Wikipedia "Liga Alef". They are the same
+# competition, so it is renamed here to match the era table - which leaves
+# build.py to drop it as already covered by RSSSF, rather than carrying the
+# season twice under two names and double-counting the clubs in it.
+LEAGUE_FIXUPS = {("1954/1955", "Liga Alef"): "Liga Leumit"}
+
 INVOKE = re.compile(r"\{\{#invoke:\s*sports table", re.I)
 HEADING = re.compile(r"^={2,}\s*(.+?)\s*={2,}\s*$", re.M)
 TEAM = re.compile(r"\|\s*team(\d{1,2})\s*=\s*([A-Za-z0-9_]+)")
@@ -141,6 +148,7 @@ def main() -> None:
         league = LEAGUE_NAMES.get(meta["league"], meta["league"])
         label = label_of(title)
         label = LABEL_FIXUPS.get(label, label)
+        league = LEAGUE_FIXUPS.get((label, league), league)
         year = meta["start"]
         if tier_of(year, league) is None:
             skipped_league.add(f"{year} {league}")

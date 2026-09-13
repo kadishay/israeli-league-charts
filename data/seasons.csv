@@ -20,10 +20,10 @@ season,season_start,league,division,position,club
 1934/1935,1934,Eretz Israel League,,1,Hapoel Tel Aviv
 1934/1935,1934,Eretz Israel League,,2,Hapoel Petah Tikva
 1934/1935,1934,Eretz Israel League,,3,Hakoah Tel Aviv
-1934/1935,1934,Eretz Israel League,,4,Maccabi Jerusalem
-1934/1935,1934,Eretz Israel League,,5,Hapoel Haifa
-1934/1935,1934,Eretz Israel League,,6,Maccabi Petah Tikva
-1934/1935,1934,Eretz Israel League,,7,Maccabi Tel Aviv
+1934/1935,1934,Eretz Israel League,,4,Maccabi Petah Tikva
+1934/1935,1934,Eretz Israel League,,5,Maccabi Tel Aviv
+1934/1935,1934,Eretz Israel League,,6,Maccabi Jerusalem
+1934/1935,1934,Eretz Israel League,,7,Hapoel Haifa
 1934/1935,1934,Eretz Israel League,,8,Maccabi Nes Ziona
 1934/1935,1934,Eretz Israel League,,9,Maccabi Rehovot
 1934/1935,1934,Eretz Israel League,,10,Hapoel Jerusalem
@@ -51,6 +51,7 @@ season,season_start,league,division,position,club
 1938,1938,Eretz Israel League,,6,Hapoel Ironi Herzliya
 1938,1938,Eretz Israel League,,7,Maccabi Petah Tikva
 1938,1938,Eretz Israel League,,8,Maccabi Nes Ziona
+1938,1938,Eretz Israel League,,9,HaMeofefim Ramla
 1938,1938,Eretz Israel League,,9,Royal Air Force
 1938,1938,Eretz Israel League,Tel Aviv League,1,Hapoel Tel Aviv
 1938,1938,Eretz Israel League,Tel Aviv League,2,Maccabi Tel Aviv
@@ -80,12 +81,37 @@ season,season_start,league,division,position,club
 1939,1939,Eretz Israel League,Division II,10,Hapoel Ra'anana
 1939,1939,Eretz Israel League,Division II,11,Maccabi Ramat Gan
 1939,1939,Eretz Israel League,Division II,12,HaKochav Tel Aviv
+1939,1939,Eretz Israel League,Jerusalem A,1,Palestine Police Force
+1939,1939,Eretz Israel League,Jerusalem A,2,Black Watch
+1939,1939,Eretz Israel League,Jerusalem A,3,Royal Air Force
+1939,1939,Eretz Israel League,Jerusalem A,4,District Police
+1939,1939,Eretz Israel League,Jerusalem A,5,Royal Signals
+1939,1939,Eretz Israel League,Jerusalem A,6,British HQ
+1939,1939,Eretz Israel League,Jerusalem A,7,Black Brigade
+1939,1939,Eretz Israel League,Jerusalem A,8,R.A.P.C.
+1939,1939,Eretz Israel League,Jerusalem A,9,No. 2/5 CC St.
+1939,1939,Eretz Israel League,Jerusalem A,10,H.Q.R. AF
+1939,1939,Eretz Israel League,Jerusalem A,11,11th Hussars B Squadron
+1939,1939,Eretz Israel League,Samaria B,1,Beitar Netanya
+1939,1939,Eretz Israel League,Samaria B,2,Hapoel Hadera
+1939,1939,Eretz Israel League,Samaria B,3,Maccabi Netanya
+1939,1939,Eretz Israel League,Samaria B,4,Maccabi Binyamina
+1939,1939,Eretz Israel League,Samaria B,5,Maccabi Hadera
+1939,1939,Eretz Israel League,Samaria B,6,Hapoel Netanya
 1939,1939,Eretz Israel League,Samaria regional league,1,Beitar Netanya
 1939,1939,Eretz Israel League,Samaria regional league,2,Hapoel Hadera
 1939,1939,Eretz Israel League,Samaria regional league,3,Maccabi Netanya
 1939,1939,Eretz Israel League,Samaria regional league,4,Maccabi Binyamina
 1939,1939,Eretz Israel League,Samaria regional league,5,Maccabi Hadera
 1939,1939,Eretz Israel League,Samaria regional league,6,Hapoel Netanya
+1939,1939,Eretz Israel League,South B,1,Maccabi Rehovot
+1939,1939,Eretz Israel League,South B,2,Hapoel Rishon LeZion
+1939,1939,Eretz Israel League,South B,3,RSG Rehovot
+1939,1939,Eretz Israel League,South B,4,Maccabi Gedera
+1939,1939,Eretz Israel League,South B,5,Maccabi Rishon LeZion
+1939,1939,Eretz Israel League,South B,6,Hapoel Rehovot
+1939,1939,Eretz Israel League,South B,7,Hapoel Nes Tziona
+1939,1939,Eretz Israel League,South B,8,Beitar Rishon LeZion
 1939,1939,Eretz Israel League,Southern regional league,1,Maccabi Rehovot
 1939,1939,Eretz Israel League,Southern regional league,2,Hapoel Rishon LeZion
 1939,1939,Eretz Israel League,Southern regional league,3,Royal Scots Greys
@@ -94,6 +120,24 @@ season,season_start,league,division,position,club
 1939,1939,Eretz Israel League,Southern regional league,6,Hapoel Rehovot
 1939,1939,Eretz Israel League,Southern regional league,7,Hapoel Nes Tziona
 1939,1939,Eretz Israel League,Southern regional league,8,Beitar Rishon LeZion
+1939,1939,Eretz Israel League,Tel Aviv A,1,Maccabi Tel Aviv
+1939,1939,Eretz Israel League,Tel Aviv A,2,Hapoel Tel Aviv
+1939,1939,Eretz Israel League,Tel Aviv A,3,Maccabi Petah Tikva
+1939,1939,Eretz Israel League,Tel Aviv A,4,Maccabi Nes Ziona
+1939,1939,Eretz Israel League,Tel Aviv A,5,Hapoel Ironi Herzliya
+1939,1939,Eretz Israel League,Tel Aviv A,6,Hakoah Tel Aviv
+1939,1939,Eretz Israel League,Tel Aviv B,1,Beitar Tel Aviv
+1939,1939,Eretz Israel League,Tel Aviv B,2,Degel Zion Tel Aviv
+1939,1939,Eretz Israel League,Tel Aviv B,3,Egged
+1939,1939,Eretz Israel League,Tel Aviv B,4,Hapoel Petah Tikva
+1939,1939,Eretz Israel League,Tel Aviv B,5,HaGa Tel Aviv
+1939,1939,Eretz Israel League,Tel Aviv B,6,HaTehiya Tel Aviv
+1939,1939,Eretz Israel League,Tel Aviv B,7,Hapoel Ramat Gan
+1939,1939,Eretz Israel League,Tel Aviv B,8,Hakoah Maccabi Petah Tikva
+1939,1939,Eretz Israel League,Tel Aviv B,9,Maccabi Herzliya
+1939,1939,Eretz Israel League,Tel Aviv B,10,Hapoel Ra'anana
+1939,1939,Eretz Israel League,Tel Aviv B,11,Maccabi Ramat Gan
+1939,1939,Eretz Israel League,Tel Aviv B,12,Hakoah Tel Aviv
 1940,1940,Eretz Israel League,,1,Hapoel Tel Aviv
 1940,1940,Eretz Israel League,,2,Beitar Tel Aviv
 1940,1940,Eretz Israel League,,3,Maccabi Tel Aviv
@@ -102,6 +146,19 @@ season,season_start,league,division,position,club
 1940,1940,Eretz Israel League,,6,Hakoah Tel Aviv
 1940,1940,Eretz Israel League,,7,Maccabi Petah Tikva
 1940,1940,Eretz Israel League,,8,Hapoel Ironi Herzliya
+1940,1940,Eretz Israel League,Jerusalem,1,Maccabi Jerusalem
+1940,1940,Eretz Israel League,Jerusalem,2,Hapoel Jerusalem
+1940,1940,Eretz Israel League,Jerusalem,3,Homenetmen Jerusalem
+1940,1940,Eretz Israel League,Jerusalem,4,R.A.M.C. + C.M.P.
+1940,1940,Eretz Israel League,Jerusalem,5,Club Jerusalem
+1940,1940,Eretz Israel League,Tel Aviv,1,Hapoel Tel Aviv
+1940,1940,Eretz Israel League,Tel Aviv,2,Beitar Tel Aviv
+1940,1940,Eretz Israel League,Tel Aviv,3,Maccabi Tel Aviv
+1940,1940,Eretz Israel League,Tel Aviv,4,Maccabi Nes Ziona
+1940,1940,Eretz Israel League,Tel Aviv,5,Hapoel Haifa
+1940,1940,Eretz Israel League,Tel Aviv,6,Hakoah Tel Aviv
+1940,1940,Eretz Israel League,Tel Aviv,7,Maccabi Petah Tikva
+1940,1940,Eretz Israel League,Tel Aviv,8,Hapoel Ironi Herzliya
 1940,1940,Liga Bet,Samaria,1,Degel Zion Tel Aviv
 1940,1940,Liga Bet,Samaria,2,Egged Tel Aviv
 1940,1940,Liga Bet,Samaria,3,Hapoel Ramat Gan
@@ -123,6 +180,16 @@ season,season_start,league,division,position,club
 1941/1942,1941,Eretz Israel League,,1,Maccabi Tel Aviv
 1941/1942,1941,Eretz Israel League,,2,Maccabi Rishon LeZion
 1941/1942,1941,Eretz Israel League,,3,Homenetmen Jerusalem
+1941/1942,1941,Eretz Israel League,Jerusalem,1,Homenetmen Jerusalem
+1941/1942,1941,Eretz Israel League,Jerusalem,2,Maccabi Jerusalem
+1941/1942,1941,Eretz Israel League,Jerusalem,3,Hapoel Jerusalem
+1941/1942,1941,Eretz Israel League,Jerusalem,4,Degel Zion Jerusalem
+1941/1942,1941,Eretz Israel League,Jerusalem,5,Christian Club Jerusalem
+1941/1942,1941,Eretz Israel League,Jerusalem,6,Whitman Club Jerusalem
+1941/1942,1941,Eretz Israel League,Jerusalem,7,R.A.F.S. Jerusalem
+1941/1942,1941,Eretz Israel League,Jerusalem,8,Araks Jerusalem
+1941/1942,1941,Eretz Israel League,Jerusalem,9,R.A.M.S. Jerusalem
+1941/1942,1941,Eretz Israel League,Jerusalem,10,Elitzur Jerusalem
 1941/1942,1941,Eretz Israel League,Jerusalem League,1,Homenetmen Jerusalem
 1941/1942,1941,Eretz Israel League,Jerusalem League,2,Maccabi Jerusalem
 1941/1942,1941,Eretz Israel League,Jerusalem League,3,Hapoel  Jerusalem
@@ -147,6 +214,20 @@ season,season_start,league,division,position,club
 1941/1942,1941,Eretz Israel League,Southern League,12,Hapoel Rishon LeZion
 1941/1942,1941,Eretz Israel League,Southern League,13,Hakoah Tel Aviv
 1941/1942,1941,Eretz Israel League,Southern League,14,Degel Zion Tel Aviv
+1941/1942,1941,Eretz Israel League,Tel Aviv,1,Maccabi Tel Aviv
+1941/1942,1941,Eretz Israel League,Tel Aviv,2,Maccabi Rishon LeZion
+1941/1942,1941,Eretz Israel League,Tel Aviv,3,Maccabi Nes Ziona
+1941/1942,1941,Eretz Israel League,Tel Aviv,4,Hapoel Tel Aviv
+1941/1942,1941,Eretz Israel League,Tel Aviv,5,Maccabi Petah Tikva
+1941/1942,1941,Eretz Israel League,Tel Aviv,6,Hapoel Petah Tikva
+1941/1942,1941,Eretz Israel League,Tel Aviv,7,Beitar Tel Aviv
+1941/1942,1941,Eretz Israel League,Tel Aviv,8,National Sport Club Jaffa
+1941/1942,1941,Eretz Israel League,Tel Aviv,9,Hapoel Ramat Gan
+1941/1942,1941,Eretz Israel League,Tel Aviv,10,Maccabi Rehovot
+1941/1942,1941,Eretz Israel League,Tel Aviv,11,Hapoel Ironi Herzliya
+1941/1942,1941,Eretz Israel League,Tel Aviv,12,Hapoel Rishon LeZion
+1941/1942,1941,Eretz Israel League,Tel Aviv,13,Hakoah Tel Aviv
+1941/1942,1941,Eretz Israel League,Tel Aviv,14,Degel Zion Tel Aviv
 1941/1942,1941,Liga Bet,North,1,Maccabi Netanya
 1941/1942,1941,Liga Bet,North,2,Hapoel Netanya
 1941/1942,1941,Liga Bet,North,3,Maccabi Kfar Saba
@@ -189,6 +270,14 @@ season,season_start,league,division,position,club
 1943/1944,1943,Liga Bet,,12,Beitar Rishon LeZion
 1943/1944,1943,Liga Bet,,13,Hapoel Netanya
 1943/1944,1943,Liga Bet,,14,Egged Tel Aviv
+1944/1945,1944,Eretz Israel League,North,1,Hapoel Tel Aviv
+1944/1945,1944,Eretz Israel League,North,2,Hapoel Ramat Gan
+1944/1945,1944,Eretz Israel League,North,3,Hapoel Haifa
+1944/1945,1944,Eretz Israel League,North,4,Maccabi Tel Aviv
+1944/1945,1944,Eretz Israel League,North,5,Hapoel Petah Tikva
+1944/1945,1944,Eretz Israel League,North,6,Maccabi Petah Tikva
+1944/1945,1944,Eretz Israel League,North,7,Maccabi Netanya
+1944/1945,1944,Eretz Israel League,North,8,Hapoel Ironi Herzliya
 1944/1945,1944,Eretz Israel League,Northern,1,Hapoel Tel Aviv
 1944/1945,1944,Eretz Israel League,Northern,2,Hapoel Ramat Gan
 1944/1945,1944,Eretz Israel League,Northern,3,Hapoel Haifa
@@ -197,6 +286,13 @@ season,season_start,league,division,position,club
 1944/1945,1944,Eretz Israel League,Northern,6,Maccabi Petah Tikva
 1944/1945,1944,Eretz Israel League,Northern,7,Maccabi Netanya
 1944/1945,1944,Eretz Israel League,Northern,8,Hapoel Ironi Herzliya
+1944/1945,1944,Eretz Israel League,South,1,Beitar Tel Aviv
+1944/1945,1944,Eretz Israel League,South,2,Maccabi Rehovot
+1944/1945,1944,Eretz Israel League,South,3,Maccabi Rishon LeZion
+1944/1945,1944,Eretz Israel League,South,4,Maccabi Nes Ziona
+1944/1945,1944,Eretz Israel League,South,5,Hapoel Rehovot
+1944/1945,1944,Eretz Israel League,South,6,Hapoel Rishon LeZion
+1944/1945,1944,Eretz Israel League,South,7,Hakoah Tel Aviv
 1944/1945,1944,Eretz Israel League,Southern,1,Beitar Tel Aviv
 1944/1945,1944,Eretz Israel League,Southern,2,Maccabi Rehovot
 1944/1945,1944,Eretz Israel League,Southern,3,Maccabi Rishon LeZion
@@ -218,6 +314,7 @@ season,season_start,league,division,position,club
 1946/1947,1946,Eretz Israel League,,12,Hapoel Rishon LeZion
 1946/1947,1946,Eretz Israel League,,13,Hapoel Rehovot
 1946/1947,1946,Eretz Israel League,,14,Hapoel Ironi Herzliya
+1946/1947,1946,Eretz Israel League,,15,Hakoah Tel Aviv
 1946/1947,1946,Liga Bet,North,1,Maccabi Haifa
 1946/1947,1946,Liga Bet,North,2,Hapoel Netanya
 1946/1947,1946,Liga Bet,North,3,Hapoel Hadera
@@ -303,6 +400,7 @@ season,season_start,league,division,position,club
 1953/1954,1953,Liga Alef,,10,Hapoel Kfar Saba
 1953/1954,1953,Liga Alef,,11,Beitar Tel Aviv
 1953/1954,1953,Liga Alef,,12,Hapoel Balfuria
+1953/1954,1953,Liga Alef,,12,Hapoel Balfouria
 1953/1954,1953,Liga Bet,North,1,Hapoel Hadera
 1953/1954,1953,Liga Bet,North,2,Hapoel Kiryat Haim
 1953/1954,1953,Liga Bet,North,3,Sport Club Atlit
@@ -328,20 +426,6 @@ season,season_start,league,division,position,club
 1953/1954,1953,Liga Bet,South,12,Bnei Yehuda Tel Aviv
 1953/1954,1953,Liga Bet,South,13,Hapoel Ironi Herzliya
 1953/1954,1953,Liga Bet,South,14,Hapoel Mishmar HaShiv'a
-1954/1955,1954,Liga Alef,,1,Hapoel Petah Tikva
-1954/1955,1954,Liga Alef,,2,Maccabi Tel Aviv
-1954/1955,1954,Liga Alef,,3,Hapoel Tel Aviv
-1954/1955,1954,Liga Alef,,4,Maccabi Netanya
-1954/1955,1954,Liga Alef,,5,Beitar Tel Aviv
-1954/1955,1954,Liga Alef,,6,Maccabi Haifa
-1954/1955,1954,Liga Alef,,7,Maccabi Petah Tikva
-1954/1955,1954,Liga Alef,,8,Maccabi Rehovot
-1954/1955,1954,Liga Alef,,9,Hapoel Haifa
-1954/1955,1954,Liga Alef,,10,Hapoel Ramat Gan
-1954/1955,1954,Liga Alef,,11,Beitar Jerusalem
-1954/1955,1954,Liga Alef,,12,Hapoel Kfar Saba
-1954/1955,1954,Liga Alef,,13,Hapoel Hadera
-1954/1955,1954,Liga Alef,,14,Hapoel Balfouria
 1954/1955,1954,Liga Bet,North,1,Hapoel Kiryat Haim
 1954/1955,1954,Liga Bet,North,2,Ahva Notzrit Haifa
 1954/1955,1954,Liga Bet,North,3,Hapoel Nahariya
@@ -450,6 +534,7 @@ season,season_start,league,division,position,club
 1954/1955,1954,Liga Leumit,,12,Hapoel Kfar Saba
 1954/1955,1954,Liga Leumit,,13,Hapoel Hadera
 1954/1955,1954,Liga Leumit,,14,Hapoel Balfuria
+1954/1955,1954,Liga Leumit,,14,Hapoel Balfouria
 1955/1956,1955,Liga Alef,,1,Hakoah Tel Aviv
 1955/1956,1955,Liga Alef,,2,Hapoel Kiryat Haim
 1955/1956,1955,Liga Alef,,3,Hapoel Jerusalem
@@ -462,6 +547,7 @@ season,season_start,league,division,position,club
 1955/1956,1955,Liga Alef,,10,Beitar Jerusalem
 1955/1956,1955,Liga Alef,,11,Hapoel Ra'anana
 1955/1956,1955,Liga Alef,,12,Hapoel Balfuria
+1955/1956,1955,Liga Alef,,12,Hapoel Balfouria
 1955/1956,1955,Liga Bet,North,1,Maccabi Hadera
 1955/1956,1955,Liga Bet,North,2,Hapoel Beit Lid
 1955/1956,1955,Liga Bet,North,3,Hapoel Netanya
@@ -903,6 +989,7 @@ season,season_start,league,division,position,club
 1961/1962,1961,Liga Alef,,9,Hapoel Ramla
 1961/1962,1961,Liga Alef,,10,Hapoel Kfar Saba
 1961/1962,1961,Liga Alef,,11,Beitar Netanya
+1961/1962,1961,Liga Alef,,11,Beitar Nes Tubruk
 1961/1962,1961,Liga Alef,,12,Maccabi Ramla
 1961/1962,1961,Liga Alef,,13,Maccabi Hadera
 1961/1962,1961,Liga Alef,,14,Hapoel Rehovot
@@ -994,6 +1081,7 @@ season,season_start,league,division,position,club
 1962/1963,1962,Liga Alef,,10,Hapoel Kiryat Haim
 1962/1963,1962,Liga Alef,,11,Beitar Tel Aviv
 1962/1963,1962,Liga Alef,,12,Beitar Netanya
+1962/1963,1962,Liga Alef,,12,Beitar Nes Tubruk
 1962/1963,1962,Liga Alef,,13,Hapoel Holon
 1962/1963,1962,Liga Alef,,14,Hapoel Ramla
 1962/1963,1962,Liga Alef,,15,Hapoel Safed
@@ -1233,6 +1321,7 @@ season,season_start,league,division,position,club
 1963/1964,1963,Liga Alef,North,4,Hapoel Acre
 1963/1964,1963,Liga Alef,North,5,Hapoel Kfar Saba
 1963/1964,1963,Liga Alef,North,6,Beitar Netanya
+1963/1964,1963,Liga Alef,North,6,Beitar Nes Tubruk
 1963/1964,1963,Liga Alef,North,7,Hapoel Kiryat Haim
 1963/1964,1963,Liga Alef,North,8,Hapoel Kfar Blum
 1963/1964,1963,Liga Alef,North,9,Hapoel Ironi Herzliya
@@ -1245,6 +1334,7 @@ season,season_start,league,division,position,club
 1963/1964,1963,Liga Alef,South,2,Hapoel Be'er Sheva
 1963/1964,1963,Liga Alef,South,3,Beitar Jerusalem
 1963/1964,1963,Liga Alef,South,4,Hapoel Givatayim
+1963/1964,1963,Liga Alef,South,4,Hapoel Giv'atayim
 1963/1964,1963,Liga Alef,South,5,Hapoel Holon
 1963/1964,1963,Liga Alef,South,6,Hapoel Ramla
 1963/1964,1963,Liga Alef,South,7,Maccabi Ramat Amidar
@@ -1484,6 +1574,7 @@ season,season_start,league,division,position,club
 1963/1964,1963,Liga Leumit,,15,Hapoel Lod
 1964/1965,1964,Liga Alef,North,1,Hapoel Mahane Yehuda
 1964/1965,1964,Liga Alef,North,2,Beitar Netanya
+1964/1965,1964,Liga Alef,North,2,Beitar Nes Tubruk
 1964/1965,1964,Liga Alef,North,3,Hapoel Kfar Saba
 1964/1965,1964,Liga Alef,North,4,Hapoel Acre
 1964/1965,1964,Liga Alef,North,5,Hapoel Hadera
@@ -1505,12 +1596,14 @@ season,season_start,league,division,position,club
 1964/1965,1964,Liga Alef,South,5,Hapoel Kiryat Ono
 1964/1965,1964,Liga Alef,South,6,Maccabi Ramat Amidar
 1964/1965,1964,Liga Alef,South,7,Hapoel Givatayim
+1964/1965,1964,Liga Alef,South,7,Hapoel Giv'atayim
 1964/1965,1964,Liga Alef,South,8,Hapoel Holon
 1964/1965,1964,Liga Alef,South,9,Hapoel Ashkelon
 1964/1965,1964,Liga Alef,South,10,Maccabi Holon
 1964/1965,1964,Liga Alef,South,11,Hapoel Lod
 1964/1965,1964,Liga Alef,South,12,Hapoel Marmorek
 1964/1965,1964,Liga Alef,South,13,YMCA Jerusalem
+1964/1965,1964,Liga Alef,South,13,HaBira Jerusalem
 1964/1965,1964,Liga Alef,South,14,Beitar Lod
 1964/1965,1964,Liga Alef,South,15,Hapoel Ramla
 1964/1965,1964,Liga Alef,South,16,Beitar Harari Tel Aviv
@@ -1760,6 +1853,7 @@ season,season_start,league,division,position,club
 1965/1966,1965,Liga Alef,North,3,Hapoel Kiryat Haim
 1965/1966,1965,Liga Alef,North,4,Hapoel Hadera
 1965/1966,1965,Liga Alef,North,5,Beitar Netanya
+1965/1966,1965,Liga Alef,North,5,Beitar Nes Tubruk
 1965/1966,1965,Liga Alef,North,6,Hapoel Kfar Blum
 1965/1966,1965,Liga Alef,North,7,Hapoel Tiberias
 1965/1966,1965,Liga Alef,North,8,Hapoel Safed
@@ -1786,7 +1880,9 @@ season,season_start,league,division,position,club
 1965/1966,1965,Liga Alef,South,13,Beitar Lod
 1965/1966,1965,Liga Alef,South,14,Beitar Kiryat Ono
 1965/1966,1965,Liga Alef,South,15,YMCA Jerusalem
+1965/1966,1965,Liga Alef,South,15,HaBira Jerusalem
 1965/1966,1965,Liga Alef,South,16,Hapoel Givatayim
+1965/1966,1965,Liga Alef,South,16,Hapoel Giv'atayim
 1965/1966,1965,Liga Bet,North Division A,1,Hapoel Nahariya
 1965/1966,1965,Liga Bet,North Division A,2,Hapoel Kiryat Ata
 1965/1966,1965,Liga Bet,North Division A,3,Hapoel Tirat Carmel
@@ -2044,6 +2140,7 @@ season,season_start,league,division,position,club
 1966/1968,1966,Liga Alef,North,5,Hapoel Tiberias
 1966/1968,1966,Liga Alef,North,6,Hapoel Ironi Herzliya
 1966/1968,1966,Liga Alef,North,7,Beitar Netanya
+1966/1968,1966,Liga Alef,North,7,Beitar Nes Tubruk
 1966/1968,1966,Liga Alef,North,8,Hapoel Acre
 1966/1968,1966,Liga Alef,North,9,Hapoel Kfar Blum
 1966/1968,1966,Liga Alef,North,10,Hapoel Ra'anana
@@ -2344,6 +2441,7 @@ season,season_start,league,division,position,club
 1968/1969,1968,Liga Alef,North,4,Hapoel Nahliel
 1968/1969,1968,Liga Alef,North,5,Hapoel Acre
 1968/1969,1968,Liga Alef,North,6,Beitar Netanya
+1968/1969,1968,Liga Alef,North,6,Beitar Nes Tubruk
 1968/1969,1968,Liga Alef,North,7,Hapoel Tiberias
 1968/1969,1968,Liga Alef,North,8,Hapoel Netanya
 1968/1969,1968,Liga Alef,North,9,Hapoel Bnei Nazareth
@@ -2453,6 +2551,7 @@ season,season_start,league,division,position,club
 1969/1970,1969,Liga Alef,North,2,Hapoel Ironi Herzliya
 1969/1970,1969,Liga Alef,North,3,Hapoel Acre
 1969/1970,1969,Liga Alef,North,4,Beitar Netanya
+1969/1970,1969,Liga Alef,North,4,Beitar Nes Tubruk
 1969/1970,1969,Liga Alef,North,5,Hapoel Mahane Yehuda
 1969/1970,1969,Liga Alef,North,6,Hapoel Netanya
 1969/1970,1969,Liga Alef,North,7,Hapoel Tiberias
@@ -2566,6 +2665,7 @@ season,season_start,league,division,position,club
 1970/1971,1970,Liga Alef,North,4,Hapoel Acre
 1970/1971,1970,Liga Alef,North,5,Hapoel Nahariya
 1970/1971,1970,Liga Alef,North,6,Beitar Netanya
+1970/1971,1970,Liga Alef,North,6,Beitar Nes Tubruk
 1970/1971,1970,Liga Alef,North,7,Hapoel Tiberias
 1970/1971,1970,Liga Alef,North,8,Hapoel Ironi Herzliya
 1970/1971,1970,Liga Alef,North,9,Hapoel Bnei Nazareth
@@ -2575,6 +2675,7 @@ season,season_start,league,division,position,club
 1970/1971,1970,Liga Alef,North,13,Hapoel Tirat Carmel
 1970/1971,1970,Liga Alef,North,14,Hapoel Mahane Yehuda
 1970/1971,1970,Liga Alef,North,15,Hapoel Zichron Ya'akov
+1970/1971,1970,Liga Alef,North,15,Hapoel Zikhron Ya'akov
 1970/1971,1970,Liga Alef,North,16,Maccabi Hadera
 1970/1971,1970,Liga Alef,South,1,Hapoel Be'er Sheva
 1970/1971,1970,Liga Alef,South,2,Hapoel Yehud
@@ -2680,6 +2781,7 @@ season,season_start,league,division,position,club
 1971/1972,1971,Liga Alef,North,7,Hapoel Mahane Yehuda
 1971/1972,1971,Liga Alef,North,8,Hapoel Nahliel
 1971/1972,1971,Liga Alef,North,9,Beitar Netanya
+1971/1972,1971,Liga Alef,North,9,Beitar Nes Tubruk
 1971/1972,1971,Liga Alef,North,10,Maccabi Herzliya
 1971/1972,1971,Liga Alef,North,11,Hapoel Bnei Nazareth
 1971/1972,1971,Liga Alef,North,12,Hapoel Nahariya
@@ -2791,6 +2893,7 @@ season,season_start,league,division,position,club
 1972/1973,1972,Liga Alef,North,6,Hapoel Tiberias
 1972/1973,1972,Liga Alef,North,7,Hapoel Ironi Herzliya
 1972/1973,1972,Liga Alef,North,8,Beitar Netanya
+1972/1973,1972,Liga Alef,North,8,Beitar Nes Tubruk
 1972/1973,1972,Liga Alef,North,9,Hapoel Nahliel
 1972/1973,1972,Liga Alef,North,10,Hapoel Kiryat Shmona
 1972/1973,1972,Liga Alef,North,11,Hapoel Safed
@@ -2901,6 +3004,7 @@ season,season_start,league,division,position,club
 1973/1974,1973,Liga Alef,North,4,Hapoel Tiberias
 1973/1974,1973,Liga Alef,North,5,Hapoel Tirat Carmel
 1973/1974,1973,Liga Alef,North,6,Beitar Netanya
+1973/1974,1973,Liga Alef,North,6,Beitar Nes Tubruk
 1973/1974,1973,Liga Alef,North,7,Hapoel Safed
 1973/1974,1973,Liga Alef,North,8,Hapoel Nahariya
 1973/1974,1973,Liga Alef,North,9,Hapoel Nahliel
@@ -3016,6 +3120,7 @@ season,season_start,league,division,position,club
 1974/1975,1974,Liga Alef,North,7,Maccabi Herzliya
 1974/1975,1974,Liga Alef,North,8,Hapoel Tirat Carmel
 1974/1975,1974,Liga Alef,North,9,Beitar Netanya
+1974/1975,1974,Liga Alef,North,9,Beitar Nes Tubruk
 1974/1975,1974,Liga Alef,North,10,Hapoel Bnei Nazareth
 1974/1975,1974,Liga Alef,North,11,Hapoel Tiberias
 1974/1975,1974,Liga Alef,North,12,Hapoel Nahariya
@@ -3121,6 +3226,7 @@ season,season_start,league,division,position,club
 1974/1975,1974,Liga Leumit,,16,Maccabi Petah Tikva
 1975/1976,1975,Liga Alef,North,1,Hapoel Acre
 1975/1976,1975,Liga Alef,North,2,Beitar Netanya
+1975/1976,1975,Liga Alef,North,2,Beitar Nes Tubruk
 1975/1976,1975,Liga Alef,North,3,Hapoel Ramat Gan
 1975/1976,1975,Liga Alef,North,4,Maccabi Hadera
 1975/1976,1975,Liga Alef,North,5,Hapoel Netanya
@@ -3270,6 +3376,7 @@ season,season_start,league,division,position,club
 1976/1977,1976,Liga Artzit,,9,Maccabi Ramat Amidar
 1976/1977,1976,Liga Artzit,,10,Hapoel Ashdod
 1976/1977,1976,Liga Artzit,,11,Beitar Netanya
+1976/1977,1976,Liga Artzit,,11,Beitar Nes Tubruk
 1976/1977,1976,Liga Artzit,,12,Maccabi Hadera
 1976/1977,1976,Liga Bet,North Division A,1,Hapoel Tiberias
 1976/1977,1976,Liga Bet,North Division A,2,Hapoel Kiryat Ata
@@ -4036,6 +4143,7 @@ season,season_start,league,division,position,club
 1981/1982,1981,Liga Artzit,,13,Hapoel Tel Hanan
 1981/1982,1981,Liga Artzit,,14,Maccabi Kiryat Gat
 1981/1982,1981,Liga Artzit,,15,Beitar Netanya
+1981/1982,1981,Liga Artzit,,15,Beitar Nes Tubruk
 1981/1982,1981,Liga Artzit,,16,Hapoel Tiberias
 1981/1982,1981,Liga Bet,North Division A,1,Maccabi Bnei Hatzor
 1981/1982,1981,Liga Bet,North Division A,2,Maccabi Afula
@@ -4256,6 +4364,7 @@ season,season_start,league,division,position,club
 1982/1983,1982,Liga Artzit,,12,Hapoel Beit Shemesh
 1982/1983,1982,Liga Artzit,,13,Hapoel Kiryat Shmona
 1982/1983,1982,Liga Artzit,,14,Maccabi Shfar'am
+1982/1983,1982,Liga Artzit,,14,Maccabi Shefa-'Amr
 1982/1983,1982,Liga Artzit,,15,Hapoel Acre
 1982/1983,1982,Liga Artzit,,16,Hapoel Tel Hanan
 1982/1983,1982,Liga Bet,North Division A,1,Maccabi Ahi Nazareth
@@ -4476,6 +4585,7 @@ season,season_start,league,division,position,club
 1984/1985,1984,Liga Artzit,,2,Maccabi Sha'arayim
 1984/1985,1984,Liga Artzit,,3,Hapoel Jerusalem
 1984/1985,1984,Liga Artzit,,4,Ironi Nir Ramat HaSharon
+1984/1985,1984,Liga Artzit,,4,Hapoel Ramat HaSharon
 1984/1985,1984,Liga Artzit,,5,Hapoel Hadera
 1984/1985,1984,Liga Artzit,,6,Hapoel Holon
 1984/1985,1984,Liga Artzit,,7,Maccabi Ramat Amidar
@@ -4588,6 +4698,7 @@ season,season_start,league,division,position,club
 1985/1986,1985,Liga Alef,South,12,Hapoel Yeruham
 1985/1986,1985,Liga Alef,South,13,Maccabi HaShikma Hen
 1985/1986,1985,Liga Artzit,,1,Beitar Netanya
+1985/1986,1985,Liga Artzit,,1,Beitar Nes Tubruk
 1985/1986,1985,Liga Artzit,,2,Beitar Tel Aviv
 1985/1986,1985,Liga Artzit,,3,Hapoel Lod
 1985/1986,1985,Liga Artzit,,4,Hapoel Holon
@@ -4601,6 +4712,7 @@ season,season_start,league,division,position,club
 1985/1986,1985,Liga Artzit,,12,Hakoah Ramat Gan
 1985/1986,1985,Liga Artzit,,13,Hapoel Yehud
 1985/1986,1985,Liga Artzit,,14,Ironi Nir Ramat HaSharon
+1985/1986,1985,Liga Artzit,,14,Hapoel Ramat HaSharon
 1985/1986,1985,Liga Artzit,,15,Hapoel Beit Shemesh
 1985/1986,1985,Liga Artzit,,16,Beitar Haifa
 1985/1986,1985,Liga Bet,North Division A,1,Hapoel Bnei Tamra
@@ -5019,6 +5131,7 @@ season,season_start,league,division,position,club
 1989/1990,1989,Liga Artzit,,5,Hapoel Tiberias
 1989/1990,1989,Liga Artzit,,6,Maccabi Petah Tikva
 1989/1990,1989,Liga Artzit,,7,Beitar Netanya
+1989/1990,1989,Liga Artzit,,7,Beitar Nes Tubruk
 1989/1990,1989,Liga Artzit,,8,Maccabi Jaffa
 1989/1990,1989,Liga Artzit,,9,Hapoel Haifa
 1989/1990,1989,Liga Artzit,,10,Maccabi Ramat Amidar
@@ -5084,6 +5197,7 @@ season,season_start,league,division,position,club
 1990/1991,1990,Liga Artzit,,10,Hapoel Haifa
 1990/1991,1990,Liga Artzit,,11,Hapoel Tiberias
 1990/1991,1990,Liga Artzit,,12,Beitar Netanya
+1990/1991,1990,Liga Artzit,,12,Beitar Nes Tubruk
 1990/1991,1990,Liga Artzit,,13,Maccabi Acre
 1990/1991,1990,Liga Artzit,,14,Hapoel Bat Yam
 1990/1991,1990,Liga Artzit,,15,Maccabi Ramat Amidar
@@ -5147,6 +5261,7 @@ season,season_start,league,division,position,club
 1991/1992,1991,Liga Artzit,,13,Hakoah Ramat Gan
 1991/1992,1991,Liga Artzit,,14,Hapoel Ashdod
 1991/1992,1991,Liga Artzit,,15,Beitar Netanya
+1991/1992,1991,Liga Artzit,,15,Beitar Nes Tubruk
 1991/1992,1991,Liga Artzit,,16,Hapoel Tiberias
 1991/1992,1991,Liga Leumit,,1,Maccabi Tel Aviv
 1991/1992,1991,Liga Leumit,,2,Bnei Yehuda Tel Aviv
@@ -5207,6 +5322,7 @@ season,season_start,league,division,position,club
 1992/1993,1992,Liga Artzit,,13,Shimshon Tel Aviv
 1992/1993,1992,Liga Artzit,,14,Hapoel Hadera
 1992/1993,1992,Liga Artzit,,15,Hapoel Ramat Gan
+1992/1993,1992,Liga Artzit,,15,Hapoel Ramat Gan Giv'atayim
 1992/1993,1992,Liga Artzit,,16,Maccabi Sha'arayim
 1992/1993,1992,Liga Leumit,,1,Beitar Jerusalem
 1992/1993,1992,Liga Leumit,,2,Maccabi Tel Aviv
@@ -5264,6 +5380,7 @@ season,season_start,league,division,position,club
 1993/1994,1993,Liga Artzit,,10,Hapoel Jerusalem
 1993/1994,1993,Liga Artzit,,11,Sektzia Nes Tziona
 1993/1994,1993,Liga Artzit,,12,Hakoah Ramat Gan
+1993/1994,1993,Liga Artzit,,12,Hakoah Maccabi Amidar Ramat Gan
 1993/1994,1993,Liga Artzit,,13,Maccabi Jaffa
 1993/1994,1993,Liga Artzit,,14,Hapoel Ashdod
 1993/1994,1993,Liga Artzit,,15,Maccabi Ironi Kiryat Ata
@@ -5448,6 +5565,7 @@ season,season_start,league,division,position,club
 1995/1996,1995,Liga Artzit,,6,Hapoel Ramat Gan
 1995/1996,1995,Liga Artzit,,7,Hakoah Ramat Gan
 1995/1996,1995,Liga Artzit,,8,Maccabi Acre
+1995/1996,1995,Liga Artzit,,8,Maccabi Ironi Kiryat Ata
 1995/1996,1995,Liga Artzit,,9,Maccabi Netanya
 1995/1996,1995,Liga Artzit,,10,Maccabi Yavne
 1995/1996,1995,Liga Artzit,,11,Hapoel Hadera
@@ -5514,6 +5632,7 @@ season,season_start,league,division,position,club
 1996/1997,1996,Liga Artzit,,8,Hapoel Ramat Gan
 1996/1997,1996,Liga Artzit,,9,Beitar Tel Aviv
 1996/1997,1996,Liga Artzit,,10,Maccabi Acre
+1996/1997,1996,Liga Artzit,,10,Maccabi Ironi Kiryat Ata
 1996/1997,1996,Liga Artzit,,11,Maccabi Kiryat Gat
 1996/1997,1996,Liga Artzit,,12,Hapoel Ashdod
 1996/1997,1996,Liga Artzit,,13,Sektzia Nes Tziona
@@ -5790,6 +5909,7 @@ season,season_start,league,division,position,club
 1997/1998,1997,Liga Artzit,,2,Hapoel Holon
 1997/1998,1997,Liga Artzit,,3,Hapoel Ashdod
 1997/1998,1997,Liga Artzit,,4,Hakoah Ramat Gan
+1997/1998,1997,Liga Artzit,,4,Hakoah Maccabi Amidar Ramat Gan
 1997/1998,1997,Liga Artzit,,5,Maccabi Netanya
 1997/1998,1997,Liga Artzit,,6,Beitar Tel Aviv
 1997/1998,1997,Liga Artzit,,7,Hapoel Bat Yam
@@ -5854,8 +5974,10 @@ season,season_start,league,division,position,club
 1998/1999,1998,Liga Artzit,,2,Hapoel Ashkelon
 1998/1999,1998,Liga Artzit,,3,Hapoel Be'er Sheva
 1998/1999,1998,Liga Artzit,,4,Beitar Be'er Sheva
+1998/1999,1998,Liga Artzit,,4,Beitar Avraham Be'er Sheva
 1998/1999,1998,Liga Artzit,,5,Maccabi Acre
 1998/1999,1998,Liga Artzit,,6,Hakoah Ramat Gan
+1998/1999,1998,Liga Artzit,,6,Hakoah Maccabi Amidar Ramat Gan
 1998/1999,1998,Liga Artzit,,7,Maccabi Kiryat Gat
 1998/1999,1998,Liga Artzit,,8,Maccabi Ahi Nazareth
 1998/1999,1998,Liga Artzit,,9,Bnei Sakhnin
@@ -7495,13 +7617,16 @@ season,season_start,league,division,position,club
 2008/2009,2008,Liga Artzit,,3,Hapoel Marmorek
 2008/2009,2008,Liga Artzit,,4,Hapoel Rishon LeZion
 2008/2009,2008,Liga Artzit,,5,Ironi Bat Yam
+2008/2009,2008,Liga Artzit,,5,Maccabi Ironi Bat Yam
 2008/2009,2008,Liga Artzit,,6,Beitar Tel Aviv
 2008/2009,2008,Liga Artzit,,7,Hapoel Nof HaGalil
 2008/2009,2008,Liga Artzit,,8,Maccabi Kafr Kanna
 2008/2009,2008,Liga Artzit,,9,Hapoel Bnei Tamra
 2008/2009,2008,Liga Artzit,,10,Hapoel Umm al-Fahm
 2008/2009,2008,Liga Artzit,,11,Hapoel Bnei Jadida
+2008/2009,2008,Liga Artzit,,11,Hapoel Bnei Jadeidi
 2008/2009,2008,Liga Artzit,,12,Maccabi Tirat Carmel
+2008/2009,2008,Liga Artzit,,12,Maccabi Ironi Tirat HaCarmel
 2008/2009,2008,Liga Gimel,Central,1,F.C. Kiryat Gat
 2008/2009,2008,Liga Gimel,Central,2,Hapoel Rahat
 2008/2009,2008,Liga Gimel,Central,3,Bnei Yichalel Rehovot

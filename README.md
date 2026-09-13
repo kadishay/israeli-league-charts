@@ -68,7 +68,7 @@ Three more consequences, spelled out in `docs/league-history.html`:
 
 | Tier | Covered | Source |
 |---|---|---|
-| 1 | 1931/32 – 2025/26 | English Wikipedia to 1946/47, RSSSF 1949/50–2024/25, Hebrew Wikipedia for 2025/26 |
+| 1 | 1931/32 – 2025/26 | Hebrew + English Wikipedia to 1946/47, RSSSF 1949/50–2024/25, Hebrew Wikipedia for 2025/26 |
 | 2 | 1955/56 – 2025/26, complete | Hebrew Wikipedia to 2007/08, RSSSF from 2008/09 |
 | 3 | 1951/52 – 2023/24 | English Wikipedia (Liga Artzit 1976–2009, Liga Alef otherwise) |
 | 4 | 1941 – 2019/20 | English Wikipedia |
@@ -81,6 +81,27 @@ the season must not be one that was never played.
 Below tier two nearly everything is regional, so those positions are ranks within a
 district, not national ones. The chart marks them with a dashed line: the depth is real,
 the basis of the rank is not comparable.
+
+### What is still missing, and why
+
+Of the 32 clubs charted, **10 have no gaps at all** and another 12 have fewer than five.
+The remaining gaps are concentrated in two places, and both were checked rather than
+assumed:
+
+- **36 Mandate-era seasons**, almost all of them the Haifa district. Between 1934/35 and
+  1946/47 the top flight was played district by district, and *neither* Wikipedia tabulates
+  the Haifa one — the Hebrew 1939 article names it in prose ("13 clubs in Haifa Division A")
+  but carries no table, and the English articles have Tel Aviv, Samaria and Southern only.
+  That is why Maccabi Haifa has 8 gaps and Hapoel Haifa 3, all before 1949.
+- **~370 seasons in tiers 5–6** for clubs that spent decades down there. English Wikipedia
+  has roughly 30 Liga Gimel seasons out of about 70, and whole years are simply absent
+  (1990–91 Liga Gimel has no article). The clubs' own Hebrew articles carry **no season
+  tables at all** — checked for Maccabi Haifa, Hapoel Haifa, Maccabi Nes Ziona and Hakoah
+  Tel Aviv, all zero tables. This is why Maccabi Nes Ziona (12 top-flight seasons in the
+  1930s–50s, then decades in the lower divisions) renders mostly as "no position recorded".
+
+Those gaps are drawn as the dotted "no position recorded" band rather than interpolated or
+guessed at.
 
 Three deliberate scope limits:
 

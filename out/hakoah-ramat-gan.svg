@@ -6,7 +6,6 @@
   .line{stroke:var(--accent);stroke-width:1.7;fill:none;stroke-linecap:square}
   .champ{fill:var(--champion)}
   :root{--surface:#FCFCFB;--ink:#1A1D1F;--ink2:#565F63;--ink3:#868F93;--rule:#C9CFD1;--accent:#007C99;--champion:#A06A0A;--hatch:#A9B2B6;--band1:#E9F0F2;--band2:#DBE5E8;--band3:#CBD8DC;--band4:#B9C9CF;--band5:#A7BAC1}
-  @media (prefers-color-scheme: dark){:root{--surface:#1A1A19;--ink:#ECEAE4;--ink2:#A6AEB1;--ink3:#798285;--rule:#394346;--accent:#2FA3BC;--champion:#BE8B22;--hatch:#4C575B;--band1:#2A383C;--band2:#243135;--band3:#1E2A2E;--band4:#182226;--band5:#131A1D}}
 </style>
 <defs>
   <pattern id="notplayed" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="7" stroke="var(--hatch)" stroke-width="1.4"/></pattern>
@@ -64,9 +63,9 @@
 <rect x="312" y="76" width="13" height="70" fill="var(--band1)"/>
 <rect x="312" y="146" width="13" height="80" fill="var(--band2)"/>
 <rect x="312" y="226" width="13" height="205" fill="var(--band3)"/>
-<rect x="325" y="76" width="13" height="70" fill="var(--band1)"/>
-<rect x="325" y="146" width="13" height="65" fill="var(--band2)"/>
-<rect x="325" y="211" width="13" height="220" fill="var(--band3)"/>
+<rect x="325" y="76" width="13" height="75" fill="var(--band1)"/>
+<rect x="325" y="151" width="13" height="65" fill="var(--band2)"/>
+<rect x="325" y="216" width="13" height="215" fill="var(--band3)"/>
 <rect x="338" y="76" width="13" height="70" fill="var(--band1)"/>
 <rect x="338" y="146" width="13" height="80" fill="var(--band2)"/>
 <rect x="338" y="226" width="13" height="205" fill="var(--band3)"/>
@@ -92,10 +91,10 @@
 <rect x="416" y="206" width="13" height="80" fill="var(--band3)"/>
 <rect x="416" y="286" width="13" height="145" fill="var(--band4)"/>
 <rect x="429" y="76" width="13" height="70" fill="var(--band1)"/>
-<rect x="429" y="146" width="13" height="70" fill="var(--band2)"/>
-<rect x="429" y="216" width="13" height="60" fill="var(--band3)"/>
-<rect x="429" y="276" width="13" height="70" fill="var(--band4)"/>
-<rect x="429" y="346" width="13" height="85" fill="var(--band5)"/>
+<rect x="429" y="146" width="13" height="80" fill="var(--band2)"/>
+<rect x="429" y="226" width="13" height="60" fill="var(--band3)"/>
+<rect x="429" y="286" width="13" height="70" fill="var(--band4)"/>
+<rect x="429" y="356" width="13" height="75" fill="var(--band5)"/>
 <rect x="442" y="76" width="13" height="60" fill="var(--band1)"/>
 <rect x="442" y="136" width="13" height="60" fill="var(--band2)"/>
 <rect x="442" y="196" width="13" height="60" fill="var(--band3)"/>
@@ -463,7 +462,7 @@
 <rect x="286" y="216" width="13" height="215" fill="url(#uncovered)"/>
 <rect x="299" y="196" width="13" height="235" fill="url(#uncovered)"/>
 <rect x="312" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
-<rect x="325" y="211" width="13" height="220" fill="url(#uncovered)"/>
+<rect x="325" y="216" width="13" height="215" fill="url(#uncovered)"/>
 <rect x="338" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="351" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="364" y="221" width="13" height="210" fill="url(#uncovered)"/>
@@ -471,7 +470,7 @@
 <rect x="390" y="286" width="13" height="145" fill="url(#uncovered)"/>
 <rect x="403" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="416" y="286" width="13" height="145" fill="url(#uncovered)"/>
-<rect x="429" y="346" width="13" height="85" fill="url(#uncovered)"/>
+<rect x="429" y="356" width="13" height="75" fill="url(#uncovered)"/>
 <rect x="442" y="306" width="13" height="125" fill="url(#uncovered)"/>
 <rect x="455" y="331" width="13" height="100" fill="url(#uncovered)"/>
 <rect x="468" y="336" width="13" height="95" fill="url(#uncovered)"/>
@@ -658,7 +657,7 @@
 <text class="ink3" x="93" y="401.5" text-anchor="end" font-size="10.5" letter-spacing=".05em">TIER 5+</text>
 <path class="rule" d="M104 431.5h1248" fill="none"/>
 <path class="rule" d="M104 431v5" fill="none"/>
-<text class="ink3" x="104" y="448" text-anchor="start" font-size="10.5">1929/1930</text>
+<text class="ink3" x="104" y="448" text-anchor="start" font-size="10.5">29/30</text>
 <path class="rule" d="M240.5 431v5" fill="none"/>
 <text class="ink3" x="240.5" y="448" text-anchor="middle" font-size="10.5">1940</text>
 <path class="rule" d="M383.5 431v5" fill="none"/>
@@ -678,7 +677,7 @@
 <path class="rule" d="M1280.5 431v5" fill="none"/>
 <text class="ink3" x="1280.5" y="448" text-anchor="middle" font-size="10.5">2020</text>
 <path class="rule" d="M1352 431v5" fill="none"/>
-<text class="ink3" x="1352" y="448" text-anchor="end" font-size="10.5">2025/2026</text>
+<text class="ink3" x="1352" y="448" text-anchor="end" font-size="10.5">25/26</text>
 <text class="ink" x="104" y="33" text-anchor="start" font-size="19" font-weight="600" letter-spacing="-.01em">Hakoah Ramat Gan</text>
 <text class="ink2" x="104" y="54" text-anchor="start" font-size="11.5">20 of 86 seasons in the top flight · 2 championships</text>
 <text class="ink3" x="1352" y="33" text-anchor="end" font-size="9.5" letter-spacing=".08em">LEAGUE POSITION BY SEASON</text>

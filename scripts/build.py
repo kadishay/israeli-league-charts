@@ -54,23 +54,32 @@ def main() -> None:
     sources = [("RSSSF", read("seasons_rsssf.csv")),
                ("Hebrew Wikipedia", read("seasons_he.csv")),
                ("English Wikipedia", read("seasons_en.csv"))]
-    # Keyed on the season label, not the start year: the 1940 season was played
-    # and 1940/1941 was not, and both start in 1940.
-    key = lambda r: (r["season"], r["league"])
+    # Keyed per club-season, not per league-season. The Mandate-era regional
+    # seasons are documented district by district and the two Wikipedias cover
+    # different districts - English has the 1941/42 championship play-off,
+    # Hebrew has the Jerusalem and Tel Aviv tables - so taking a whole
+    # league-season from the first source that has it would discard the other's.
+    # Keyed on the season label rather than the start year, because the 1940
+    # season was played and 1940/1941 was not and both start in 1940.
+    # The division is part of the key too: in 1941/42 Hebrew Wikipedia has
+    # Maccabi Tel Aviv's Tel Aviv district row and English Wikipedia has the
+    # national championship play-off that actually decided the title. Those are
+    # different facts about the same club-season, so both are kept and
+    # render.py picks the national one.
+    key = lambda r: (r["season"], r["league"], r["club"], r["division"])
 
     rows: list[dict] = []
     taken: set[tuple] = set()
     added: dict[str, int] = {}
     disagreements = []
     for name, source in sources:
-        positions = {(key(r), r["club"]): (r["division"], int(r["position"]))
-                     for r in rows}
+        positions = {key(r): (r["division"], int(r["position"])) for r in rows}
         kept = 0
         for r in source:
             if key(r) in taken:
                 # Already covered by a higher-precedence source; compare rather
                 # than discard silently, so a real conflict is visible.
-                prior = positions.get((key(r), r["club"]))
+                prior = positions.get(key(r))
                 if prior and prior[1] != int(r["position"]):
                     disagreements.append(
                         f"{r['season_start']} {r['league']} {r['club']}: "

@@ -79,15 +79,22 @@ REGIONS = {
 }
 
 
+# The Mandate-era districts are sometimes split by standard as well as by
+# place - "מחוז תל אביב א'" and "מחוז תל אביב ב'" - so the letter is kept as
+# part of the division name.
+LETTERS = {"א'": "A", "ב'": "B", "א": "A", "ב": "B"}
+
+
 def division_of(heading: str) -> str:
     heading = heading.strip()
     if heading in DIVISIONS:
         return DIVISIONS[heading]
-    if m := re.fullmatch(r"מחוז\s+(.+)", heading):
-        region = m.group(1).strip()
+    if m := re.fullmatch(r"מחוז\s+(.+?)(?:\s+([אב]'?))?", heading):
+        region, letter = m.group(1).strip(), m.group(2)
         if region not in REGIONS:
             raise SystemExit(f"unknown district heading: {heading!r}")
-        return REGIONS[region]
+        name = REGIONS[region]
+        return f"{name} {LETTERS[letter]}" if letter else name
     return ""
 
 HEADING = re.compile(r"^(={2,})\s*(.+?)\s*\1\s*$", re.M)
@@ -95,6 +102,7 @@ WIKILINK = re.compile(r"\[\[([^\]|]+)")
 PARENTHETICAL = re.compile(r"\s*\([^)]*\)\s*$")
 
 UNMAPPED: dict[str, int] = {}
+DISCREPANCIES: list[str] = []
 
 
 def club_key(cell: str) -> str | None:
@@ -194,9 +202,11 @@ def resolve(tables: list[tuple[str, list[tuple[int, str]]]], label: str
     if len(tables) > 1 and starting_at_one > 1:
         if any(not div for div, _ in tables):
             raise SystemExit(f"{label}: parallel tables without a division heading")
+        out = []
         for div, rows in tables:
-            check_contiguous(rows, f"{label} {div}")
-        return [(div, pos, club) for div, rows in tables for pos, club in rows]
+            out += [(div, pos, club)
+                    for pos, club in renumber(rows, f"{label} {div}")]
+        return out
 
     # Sequential play-off groups: the printed numbers are absolute (1-6, then
     # 7-14), so they are kept as they are.  Renumbering would paper over a
@@ -215,6 +225,23 @@ def check_contiguous(rows: list[tuple[int, str]], label: str) -> None:
     if positions != list(range(1, len(positions) + 1)):
         raise SystemExit(
             f"{label}: positions are not a contiguous 1..N: {positions}")
+
+
+def renumber(rows: list[tuple[int, str]], label: str) -> list[tuple[int, str]]:
+    """Positions for one complete table, repaired from row order if need be.
+
+    A single regional table is a full standings list, so its row order is
+    reliable even where the printed numbers are not - the 1939 South B district
+    skips 3 and prints 4 twice. The repair is reported so a real parse error
+    cannot hide behind it. Sequential play-off groups deliberately do NOT get
+    this treatment: there, a gap can mean a whole group went missing, and
+    renumbering would produce plausible but wrong positions.
+    """
+    positions = [p for p, _ in rows]
+    if positions == list(range(1, len(positions) + 1)):
+        return rows
+    DISCREPANCIES.append(f"{label}: printed {positions}, ranked by row order")
+    return [(i, club) for i, (_, club) in enumerate(rows, start=1)]
 
 
 def main() -> None:
@@ -246,6 +273,11 @@ def main() -> None:
     span = f"{seasons[0]}-{seasons[-1]}" if seasons else "none"
     print(f"{len(rows)} rows, {len(seasons)} seasons ({span}), "
           f"{len({r[5] for r in rows})} clubs -> {OUT}")
+    if DISCREPANCIES:
+        print(f"\n{len(DISCREPANCIES)} table(s) whose printed numbering was repaired "
+              f"from row order:")
+        for line in DISCREPANCIES:
+            print(f"  {line}")
     if UNMAPPED:
         print(f"\n{len(UNMAPPED)} club names not in data/aliases_he.json "
               f"(most frequent first); add the ones you need:")
