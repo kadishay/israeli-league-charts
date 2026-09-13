@@ -1,0 +1,1315 @@
+season_start,league,position,club
+1949,Israeli League,1,Maccabi Tel Aviv
+1949,Israeli League,2,Hapoel Tel Aviv
+1949,Israeli League,3,Hapoel Haifa
+1949,Israeli League,4,Hapoel Petah Tikva
+1949,Israeli League,5,Maccabi Petah Tikva
+1949,Israeli League,6,Beitar Tel Aviv
+1949,Israeli League,7,Maccabi Haifa
+1949,Israeli League,8,Maccabi Rehovot
+1949,Israeli League,9,Maccabi Netanya
+1949,Israeli League,10,Hapoel Ramat Gan
+1949,Israeli League,11,Hapoel Rishon LeZion
+1949,Israeli League,12,Maccabi Rishon LeZion
+1949,Israeli League,13,Maccabi Nes Ziona
+1951,Liga Alef,1,Maccabi Tel Aviv
+1951,Liga Alef,2,Maccabi Petah Tikva
+1951,Liga Alef,3,Hapoel Haifa
+1951,Liga Alef,4,Hapoel Petah Tikva
+1951,Liga Alef,5,Hapoel Tel Aviv
+1951,Liga Alef,6,Maccabi Rehovot
+1951,Liga Alef,7,Beitar Tel Aviv
+1951,Liga Alef,8,Hapoel Ramat Gan
+1951,Liga Alef,9,Maccabi Netanya
+1951,Liga Alef,10,Maccabi Haifa
+1951,Liga Alef,11,Hapoel Rishon LeZion
+1951,Liga Alef,12,Maccabi Rishon LeZion
+1953,Liga Alef,1,Maccabi Tel Aviv
+1953,Liga Alef,2,Maccabi Petah Tikva
+1953,Liga Alef,3,Hapoel Petah Tikva
+1953,Liga Alef,4,Hapoel Tel Aviv
+1953,Liga Alef,5,Maccabi Rehovot
+1953,Liga Alef,6,Hapoel Ramat Gan
+1953,Liga Alef,7,Maccabi Netanya
+1953,Liga Alef,8,Maccabi Haifa
+1953,Liga Alef,9,Hapoel Haifa
+1953,Liga Alef,10,Hapoel Kfar Saba
+1953,Liga Alef,11,Beitar Tel Aviv
+1953,Liga Alef,12,Hapoel Balfuria
+1954,Liga Leumit,1,Hapoel Petah Tikva
+1954,Liga Leumit,2,Maccabi Tel Aviv
+1954,Liga Leumit,3,Hapoel Tel Aviv
+1954,Liga Leumit,4,Maccabi Netanya
+1954,Liga Leumit,5,Beitar Tel Aviv
+1954,Liga Leumit,6,Maccabi Haifa
+1954,Liga Leumit,7,Maccabi Petah Tikva
+1954,Liga Leumit,8,Maccabi Rehovot
+1954,Liga Leumit,9,Hapoel Haifa
+1954,Liga Leumit,10,Hapoel Ramat Gan
+1954,Liga Leumit,11,Beitar Jerusalem
+1954,Liga Leumit,12,Hapoel Kfar Saba
+1954,Liga Leumit,13,Hapoel Hadera
+1954,Liga Leumit,14,Hapoel Balfuria
+1955,Liga Leumit,1,Maccabi Tel Aviv
+1955,Liga Leumit,2,Hapoel Petah Tikva
+1955,Liga Leumit,3,Hapoel Tel Aviv
+1955,Liga Leumit,4,Maccabi Petah Tikva
+1955,Liga Leumit,5,Maccabi Haifa
+1955,Liga Leumit,6,Hapoel Haifa
+1955,Liga Leumit,7,Beitar Tel Aviv
+1955,Liga Leumit,8,Maccabi Netanya
+1955,Liga Leumit,9,Hapoel Ramat Gan
+1955,Liga Leumit,10,Maccabi Jaffa
+1955,Liga Leumit,11,Maccabi Rehovot
+1955,Liga Leumit,12,Hapoel Kfar Saba
+1956,Liga Leumit,1,Hapoel Tel Aviv
+1956,Liga Leumit,2,Hapoel Petah Tikva
+1956,Liga Leumit,3,Maccabi Tel Aviv
+1956,Liga Leumit,4,Maccabi Petah Tikva
+1956,Liga Leumit,5,Maccabi Haifa
+1956,Liga Leumit,6,Beitar Tel Aviv
+1956,Liga Leumit,7,Maccabi Netanya
+1956,Liga Leumit,8,Hapoel Haifa
+1956,Liga Leumit,9,Hapoel Ramat Gan
+1956,Liga Leumit,10,Maccabi Jaffa
+1957,Liga Leumit,1,Maccabi Tel Aviv
+1957,Liga Leumit,2,Hapoel Petah Tikva
+1957,Liga Leumit,3,Maccabi Haifa
+1957,Liga Leumit,4,Maccabi Netanya
+1957,Liga Leumit,5,Hapoel Tel Aviv
+1957,Liga Leumit,6,Hapoel Ramat Gan
+1957,Liga Leumit,7,Hapoel Haifa
+1957,Liga Leumit,8,Maccabi Jaffa
+1957,Liga Leumit,9,Beitar Tel Aviv
+1957,Liga Leumit,10,Hapoel Jerusalem
+1957,Liga Leumit,11,Maccabi Petah Tikva
+1957,Liga Leumit,12,Hapoel Kfar Saba
+1958,Liga Leumit,1,Hapoel Petah Tikva
+1958,Liga Leumit,2,Hapoel Haifa
+1958,Liga Leumit,3,Maccabi Tel Aviv
+1958,Liga Leumit,4,Maccabi Haifa
+1958,Liga Leumit,5,Maccabi Jaffa
+1958,Liga Leumit,6,Maccabi Petah Tikva
+1958,Liga Leumit,7,Hapoel Tel Aviv
+1958,Liga Leumit,8,Hapoel Ramat Gan
+1958,Liga Leumit,9,Maccabi Netanya
+1958,Liga Leumit,10,Hapoel Jerusalem
+1958,Liga Leumit,11,Beitar Tel Aviv
+1958,Liga Leumit,12,Hapoel Kfar Saba
+1959,Liga Leumit,1,Hapoel Petah Tikva
+1959,Liga Leumit,2,Maccabi Tel Aviv
+1959,Liga Leumit,3,Hapoel Haifa
+1959,Liga Leumit,4,Hapoel Jerusalem
+1959,Liga Leumit,5,Maccabi Haifa
+1959,Liga Leumit,6,Hapoel Tel Aviv
+1959,Liga Leumit,7,Bnei Yehuda Tel Aviv
+1959,Liga Leumit,8,Maccabi Netanya
+1959,Liga Leumit,9,Maccabi Petah Tikva
+1959,Liga Leumit,10,Beitar Tel Aviv
+1959,Liga Leumit,11,Maccabi Jaffa
+1959,Liga Leumit,12,Hapoel Ramat Gan
+1960,Liga Leumit,1,Hapoel Petah Tikva
+1960,Liga Leumit,2,Hapoel Tel Aviv
+1960,Liga Leumit,3,Hapoel Haifa
+1960,Liga Leumit,4,Maccabi Tel Aviv
+1960,Liga Leumit,5,Maccabi Haifa
+1960,Liga Leumit,6,Maccabi Jaffa
+1960,Liga Leumit,7,Hapoel Jerusalem
+1960,Liga Leumit,8,Shimshon Tel Aviv
+1960,Liga Leumit,9,Maccabi Petah Tikva
+1960,Liga Leumit,10,Maccabi Netanya
+1960,Liga Leumit,11,Bnei Yehuda Tel Aviv
+1960,Liga Leumit,12,Beitar Tel Aviv
+1961,Liga Leumit,1,Hapoel Petah Tikva
+1961,Liga Leumit,2,Maccabi Jaffa
+1961,Liga Leumit,3,Hapoel Tiberias
+1961,Liga Leumit,4,Maccabi Haifa
+1961,Liga Leumit,5,Bnei Yehuda Tel Aviv
+1961,Liga Leumit,6,Hapoel Jerusalem
+1961,Liga Leumit,7,Hapoel Tel Aviv
+1961,Liga Leumit,8,Hapoel Haifa
+1961,Liga Leumit,9,Shimshon Tel Aviv
+1961,Liga Leumit,10,Maccabi Tel Aviv
+1961,Liga Leumit,11,Maccabi Petah Tikva
+1961,Liga Leumit,12,Maccabi Netanya
+1962,Liga Leumit,1,Hapoel Petah Tikva
+1962,Liga Leumit,2,Hapoel Tel Aviv
+1962,Liga Leumit,3,Maccabi Jaffa
+1962,Liga Leumit,4,Shimshon Tel Aviv
+1962,Liga Leumit,5,Bnei Yehuda Tel Aviv
+1962,Liga Leumit,6,Hapoel Jerusalem
+1962,Liga Leumit,7,Maccabi Tel Aviv
+1962,Liga Leumit,8,Hapoel Tiberias
+1962,Liga Leumit,9,Maccabi Haifa
+1962,Liga Leumit,10,Hakoah Ramat Gan
+1962,Liga Leumit,11,Hapoel Haifa
+1962,Liga Leumit,12,Maccabi Petah Tikva
+1963,Liga Leumit,1,Hapoel Ramat Gan
+1963,Liga Leumit,2,Maccabi Jaffa
+1963,Liga Leumit,3,Hapoel Petah Tikva
+1963,Liga Leumit,4,Hapoel Tel Aviv
+1963,Liga Leumit,5,Maccabi Tel Aviv
+1963,Liga Leumit,6,Hapoel Haifa
+1963,Liga Leumit,7,Maccabi Petah Tikva
+1963,Liga Leumit,8,Hakoah Ramat Gan
+1963,Liga Leumit,9,Shimshon Tel Aviv
+1963,Liga Leumit,10,Hapoel Tiberias
+1963,Liga Leumit,11,Maccabi Sha'arayim
+1963,Liga Leumit,12,Bnei Yehuda Tel Aviv
+1963,Liga Leumit,13,Maccabi Haifa
+1963,Liga Leumit,14,Hapoel Jerusalem
+1963,Liga Leumit,15,Hapoel Lod
+1964,Liga Leumit,1,Hakoah Ramat Gan
+1964,Liga Leumit,2,Hapoel Petah Tikva
+1964,Liga Leumit,3,Hapoel Tel Aviv
+1964,Liga Leumit,4,Maccabi Tel Aviv
+1964,Liga Leumit,5,Hapoel Haifa
+1964,Liga Leumit,6,Maccabi Sha'arayim
+1964,Liga Leumit,7,Maccabi Netanya
+1964,Liga Leumit,8,Hapoel Ramat Gan
+1964,Liga Leumit,9,Shimshon Tel Aviv
+1964,Liga Leumit,10,Maccabi Petah Tikva
+1964,Liga Leumit,11,Bnei Yehuda Tel Aviv
+1964,Liga Leumit,12,Maccabi Jaffa
+1964,Liga Leumit,13,Hapoel Jerusalem
+1964,Liga Leumit,14,Beitar Tel Aviv
+1964,Liga Leumit,15,Maccabi Haifa
+1964,Liga Leumit,16,Hapoel Tiberias
+1965,Liga Leumit,1,Hapoel Tel Aviv
+1965,Liga Leumit,2,Maccabi Tel Aviv
+1965,Liga Leumit,3,Hapoel Petah Tikva
+1965,Liga Leumit,4,Maccabi Netanya
+1965,Liga Leumit,5,Hapoel Ramat Gan
+1965,Liga Leumit,6,Shimshon Tel Aviv
+1965,Liga Leumit,7,Hapoel Haifa
+1965,Liga Leumit,8,Hapoel Mahane Yehuda
+1965,Liga Leumit,9,Hakoah Ramat Gan
+1965,Liga Leumit,10,Bnei Yehuda Tel Aviv
+1965,Liga Leumit,11,Maccabi Jaffa
+1965,Liga Leumit,12,Hapoel Jerusalem
+1965,Liga Leumit,13,Hapoel Be'er Sheva
+1965,Liga Leumit,14,Maccabi Sha'arayim
+1965,Liga Leumit,15,Maccabi Petah Tikva
+1965,Liga Leumit,16,Beitar Tel Aviv
+1966,Liga Leumit,1,Maccabi Tel Aviv
+1966,Liga Leumit,2,Hapoel Petah Tikva
+1966,Liga Leumit,3,Hapoel Haifa
+1966,Liga Leumit,4,Hapoel Tel Aviv
+1966,Liga Leumit,5,Maccabi Haifa
+1966,Liga Leumit,6,Hapoel Jerusalem
+1966,Liga Leumit,7,Bnei Yehuda Tel Aviv
+1966,Liga Leumit,8,Maccabi Netanya
+1966,Liga Leumit,9,Hapoel Be'er Sheva
+1966,Liga Leumit,10,Hakoah Ramat Gan
+1966,Liga Leumit,11,Hapoel Ramat Gan
+1966,Liga Leumit,12,Maccabi Jaffa
+1966,Liga Leumit,13,Maccabi Sha'arayim
+1966,Liga Leumit,14,Shimshon Tel Aviv
+1966,Liga Leumit,15,Hapoel Mahane Yehuda
+1966,Liga Leumit,16,Sektzia Nes Tziona
+1968,Liga Leumit,1,Hapoel Tel Aviv
+1968,Liga Leumit,2,Maccabi Tel Aviv
+1968,Liga Leumit,3,Maccabi Netanya
+1968,Liga Leumit,4,Hapoel Haifa
+1968,Liga Leumit,5,Maccabi Haifa
+1968,Liga Leumit,6,Hapoel Jerusalem
+1968,Liga Leumit,7,Hapoel Kfar Saba
+1968,Liga Leumit,8,Bnei Yehuda Tel Aviv
+1968,Liga Leumit,9,Hapoel Petah Tikva
+1968,Liga Leumit,10,Hakoah Ramat Gan
+1968,Liga Leumit,11,Maccabi Jaffa
+1968,Liga Leumit,12,Shimshon Tel Aviv
+1968,Liga Leumit,13,Beitar Jerusalem
+1968,Liga Leumit,14,Hapoel Be'er Sheva
+1968,Liga Leumit,15,Maccabi Sha'arayim
+1968,Liga Leumit,16,Hapoel Ramat Gan
+1969,Liga Leumit,1,Maccabi Tel Aviv
+1969,Liga Leumit,2,Hapoel Tel Aviv
+1969,Liga Leumit,3,Maccabi Haifa
+1969,Liga Leumit,4,Shimshon Tel Aviv
+1969,Liga Leumit,5,Beitar Jerusalem
+1969,Liga Leumit,6,Hapoel Jerusalem
+1969,Liga Leumit,7,Hapoel Petah Tikva
+1969,Liga Leumit,8,Hakoah Ramat Gan
+1969,Liga Leumit,9,Beitar Tel Aviv
+1969,Liga Leumit,10,Hapoel Haifa
+1969,Liga Leumit,11,Maccabi Netanya
+1969,Liga Leumit,12,Maccabi Petah Tikva
+1969,Liga Leumit,13,Hapoel Kfar Saba
+1969,Liga Leumit,14,Bnei Yehuda Tel Aviv
+1969,Liga Leumit,15,Maccabi Jaffa
+1969,Liga Leumit,16,Hapoel Be'er Sheva
+1970,Liga Leumit,1,Maccabi Netanya
+1970,Liga Leumit,2,Shimshon Tel Aviv
+1970,Liga Leumit,3,Hapoel Tel Aviv
+1970,Liga Leumit,4,Hapoel Petah Tikva
+1970,Liga Leumit,5,Beitar Tel Aviv
+1970,Liga Leumit,6,Hapoel Haifa
+1970,Liga Leumit,7,Hapoel Jerusalem
+1970,Liga Leumit,8,Hakoah Ramat Gan
+1970,Liga Leumit,9,Hapoel Kfar Saba
+1970,Liga Leumit,10,Maccabi Tel Aviv
+1970,Liga Leumit,11,Beitar Jerusalem
+1970,Liga Leumit,12,Maccabi Haifa
+1970,Liga Leumit,13,Bnei Yehuda Tel Aviv
+1970,Liga Leumit,14,Hapoel Hadera
+1970,Liga Leumit,15,Maccabi Petah Tikva
+1970,Liga Leumit,16,Hapoel Holon
+1971,Liga Leumit,1,Maccabi Tel Aviv
+1971,Liga Leumit,2,Beitar Jerusalem
+1971,Liga Leumit,3,Hakoah Ramat Gan
+1971,Liga Leumit,4,Maccabi Netanya
+1971,Liga Leumit,5,Maccabi Jaffa
+1971,Liga Leumit,6,Hapoel Haifa
+1971,Liga Leumit,7,Maccabi Haifa
+1971,Liga Leumit,8,Hapoel Jerusalem
+1971,Liga Leumit,9,Hapoel Kfar Saba
+1971,Liga Leumit,10,Beitar Tel Aviv
+1971,Liga Leumit,11,Hapoel Petah Tikva
+1971,Liga Leumit,12,Hapoel Be'er Sheva
+1971,Liga Leumit,13,Hapoel Tel Aviv
+1971,Liga Leumit,14,Shimshon Tel Aviv
+1971,Liga Leumit,15,Bnei Yehuda Tel Aviv
+1971,Liga Leumit,16,Hapoel Hadera
+1972,Liga Leumit,1,Hakoah Ramat Gan
+1972,Liga Leumit,2,Hapoel Tel Aviv
+1972,Liga Leumit,3,Hapoel Jerusalem
+1972,Liga Leumit,4,Maccabi Tel Aviv
+1972,Liga Leumit,5,Hapoel Be'er Sheva
+1972,Liga Leumit,6,Hapoel Kfar Saba
+1972,Liga Leumit,7,Hapoel Haifa
+1972,Liga Leumit,8,Beitar Tel Aviv
+1972,Liga Leumit,9,Maccabi Petah Tikva
+1972,Liga Leumit,10,Maccabi Jaffa
+1972,Liga Leumit,11,Maccabi Haifa
+1972,Liga Leumit,12,Hapoel Petah Tikva
+1972,Liga Leumit,13,Maccabi Netanya
+1972,Liga Leumit,14,Beitar Jerusalem
+1972,Liga Leumit,15,Shimshon Tel Aviv
+1972,Liga Leumit,16,Hapoel Marmorek
+1973,Liga Leumit,1,Maccabi Netanya
+1973,Liga Leumit,2,Maccabi Tel Aviv
+1973,Liga Leumit,3,Beitar Jerusalem
+1973,Liga Leumit,4,Hapoel Petah Tikva
+1973,Liga Leumit,5,Beitar Tel Aviv
+1973,Liga Leumit,6,Hapoel Haifa
+1973,Liga Leumit,7,Hapoel Be'er Sheva
+1973,Liga Leumit,8,Hapoel Kfar Saba
+1973,Liga Leumit,9,Maccabi Jaffa
+1973,Liga Leumit,10,Bnei Yehuda Tel Aviv
+1973,Liga Leumit,11,Hapoel Jerusalem
+1973,Liga Leumit,12,Maccabi Petah Tikva
+1973,Liga Leumit,13,Hapoel Hadera
+1973,Liga Leumit,14,Hapoel Tel Aviv
+1973,Liga Leumit,15,Hakoah Ramat Gan
+1973,Liga Leumit,16,Maccabi Haifa
+1974,Liga Leumit,1,Hapoel Be'er Sheva
+1974,Liga Leumit,2,Maccabi Netanya
+1974,Liga Leumit,3,Hapoel Haifa
+1974,Liga Leumit,4,Maccabi Tel Aviv
+1974,Liga Leumit,5,Hapoel Jerusalem
+1974,Liga Leumit,6,Shimshon Tel Aviv
+1974,Liga Leumit,7,Hapoel Hadera
+1974,Liga Leumit,8,Hapoel Tel Aviv
+1974,Liga Leumit,9,Hapoel Petah Tikva
+1974,Liga Leumit,10,Hapoel Kfar Saba
+1974,Liga Leumit,11,Bnei Yehuda Tel Aviv
+1974,Liga Leumit,12,Beitar Tel Aviv
+1974,Liga Leumit,13,Maccabi Jaffa
+1974,Liga Leumit,14,Hakoah Ramat Gan
+1974,Liga Leumit,15,Beitar Jerusalem
+1974,Liga Leumit,16,Maccabi Petah Tikva
+1975,Liga Leumit,1,Hapoel Be'er Sheva
+1975,Liga Leumit,2,Beitar Jerusalem
+1975,Liga Leumit,3,Hapoel Haifa
+1975,Liga Leumit,4,Maccabi Netanya
+1975,Liga Leumit,5,Hapoel Kfar Saba
+1975,Liga Leumit,6,Shimshon Tel Aviv
+1975,Liga Leumit,7,Maccabi Tel Aviv
+1975,Liga Leumit,8,Maccabi Petah Tikva
+1975,Liga Leumit,9,Maccabi Haifa
+1975,Liga Leumit,10,Hapoel Tel Aviv
+1975,Liga Leumit,11,Maccabi Jaffa
+1975,Liga Leumit,12,Beitar Tel Aviv
+1975,Liga Leumit,13,Hapoel Jerusalem
+1975,Liga Leumit,14,Hakoah Ramat Gan
+1975,Liga Leumit,15,Hapoel Petah Tikva
+1975,Liga Leumit,16,Hapoel Hadera
+1975,Liga Leumit,17,Bnei Yehuda Tel Aviv
+1975,Liga Leumit,18,Maccabi Ramat Amidar
+1976,Liga Leumit,1,Maccabi Tel Aviv
+1976,Liga Leumit,2,Maccabi Jaffa
+1976,Liga Leumit,3,Beitar Jerusalem
+1976,Liga Leumit,4,Beitar Tel Aviv
+1976,Liga Leumit,5,Maccabi Netanya
+1976,Liga Leumit,6,Hapoel Tel Aviv
+1976,Liga Leumit,7,Hapoel Yehud
+1976,Liga Leumit,8,Shimshon Tel Aviv
+1976,Liga Leumit,9,Hapoel Haifa
+1976,Liga Leumit,10,Hapoel Jerusalem
+1976,Liga Leumit,11,Hapoel Acre
+1976,Liga Leumit,12,Hakoah Ramat Gan
+1976,Liga Leumit,13,Hapoel Be'er Sheva
+1976,Liga Leumit,14,Hapoel Kfar Saba
+1976,Liga Leumit,15,Maccabi Haifa
+1976,Liga Leumit,16,Maccabi Petah Tikva
+1977,Liga Leumit,1,Maccabi Netanya
+1977,Liga Leumit,2,Beitar Jerusalem
+1977,Liga Leumit,3,Maccabi Tel Aviv
+1977,Liga Leumit,4,Hapoel Yehud
+1977,Liga Leumit,5,Hapoel Be'er Sheva
+1977,Liga Leumit,6,Hapoel Jerusalem
+1977,Liga Leumit,7,Shimshon Tel Aviv
+1977,Liga Leumit,8,Beitar Tel Aviv
+1977,Liga Leumit,9,Hapoel Tel Aviv
+1977,Liga Leumit,10,Maccabi Jaffa
+1977,Liga Leumit,11,Hapoel Hadera
+1977,Liga Leumit,12,Hapoel Haifa
+1977,Liga Leumit,13,Hakoah Ramat Gan
+1977,Liga Leumit,14,Hapoel Acre
+1978,Liga Leumit,1,Maccabi Tel Aviv
+1978,Liga Leumit,2,Beitar Jerusalem
+1978,Liga Leumit,3,Maccabi Netanya
+1978,Liga Leumit,4,Bnei Yehuda Tel Aviv
+1978,Liga Leumit,5,Hapoel Haifa
+1978,Liga Leumit,6,Hapoel Tel Aviv
+1978,Liga Leumit,7,Maccabi Jaffa
+1978,Liga Leumit,8,Hapoel Yehud
+1978,Liga Leumit,9,Hapoel Be'er Sheva
+1978,Liga Leumit,10,Hapoel Kfar Saba
+1978,Liga Leumit,11,Beitar Tel Aviv
+1978,Liga Leumit,12,Shimshon Tel Aviv
+1978,Liga Leumit,13,Maccabi Petah Tikva
+1978,Liga Leumit,14,Hapoel Hadera
+1978,Liga Leumit,15,Hapoel Jerusalem
+1978,Liga Leumit,16,Hapoel Rishon LeZion
+1979,Liga Leumit,1,Maccabi Netanya
+1979,Liga Leumit,2,Hapoel Tel Aviv
+1979,Liga Leumit,3,Shimshon Tel Aviv
+1979,Liga Leumit,4,Hapoel Yehud
+1979,Liga Leumit,5,Maccabi Tel Aviv
+1979,Liga Leumit,6,Bnei Yehuda Tel Aviv
+1979,Liga Leumit,7,Hapoel Kfar Saba
+1979,Liga Leumit,8,Maccabi Petah Tikva
+1979,Liga Leumit,9,Hapoel Petah Tikva
+1979,Liga Leumit,10,Hapoel Be'er Sheva
+1979,Liga Leumit,11,Maccabi Ramat Amidar
+1979,Liga Leumit,12,Hapoel Haifa
+1979,Liga Leumit,13,Maccabi Jaffa
+1979,Liga Leumit,14,Hakoah Ramat Gan
+1979,Liga Leumit,15,Beitar Tel Aviv
+1979,Liga Leumit,16,Beitar Jerusalem
+1980,Liga Leumit,1,Hapoel Tel Aviv
+1980,Liga Leumit,2,Bnei Yehuda Tel Aviv
+1980,Liga Leumit,3,Maccabi Jaffa
+1980,Liga Leumit,4,Maccabi Petah Tikva
+1980,Liga Leumit,5,Shimshon Tel Aviv
+1980,Liga Leumit,6,Hapoel Rishon LeZion
+1980,Liga Leumit,7,Hapoel Yehud
+1980,Liga Leumit,8,Maccabi Tel Aviv
+1980,Liga Leumit,9,Hapoel Jerusalem
+1980,Liga Leumit,10,Maccabi Netanya
+1980,Liga Leumit,11,Hapoel Be'er Sheva
+1980,Liga Leumit,12,Hapoel Petah Tikva
+1980,Liga Leumit,13,Hapoel Kfar Saba
+1980,Liga Leumit,14,Hapoel Haifa
+1980,Liga Leumit,15,Maccabi Ramat Amidar
+1980,Liga Leumit,16,Hapoel Ramat Gan
+1981,Liga Leumit,1,Hapoel Kfar Saba
+1981,Liga Leumit,2,Maccabi Netanya
+1981,Liga Leumit,3,Bnei Yehuda Tel Aviv
+1981,Liga Leumit,4,Hapoel Be'er Sheva
+1981,Liga Leumit,5,Hapoel Tel Aviv
+1981,Liga Leumit,6,Beitar Jerusalem
+1981,Liga Leumit,7,Maccabi Haifa
+1981,Liga Leumit,8,Maccabi Tel Aviv
+1981,Liga Leumit,9,Maccabi Petah Tikva
+1981,Liga Leumit,10,Hapoel Jerusalem
+1981,Liga Leumit,11,Maccabi Jaffa
+1981,Liga Leumit,12,Shimshon Tel Aviv
+1981,Liga Leumit,13,Hapoel Yehud
+1981,Liga Leumit,14,Hapoel Rishon LeZion
+1981,Liga Leumit,15,Beitar Tel Aviv
+1981,Liga Leumit,16,Hapoel Petah Tikva
+1982,Liga Leumit,1,Maccabi Netanya
+1982,Liga Leumit,2,Shimshon Tel Aviv
+1982,Liga Leumit,3,Hapoel Be'er Sheva
+1982,Liga Leumit,4,Hapoel Tel Aviv
+1982,Liga Leumit,5,Maccabi Tel Aviv
+1982,Liga Leumit,6,Maccabi Haifa
+1982,Liga Leumit,7,Hapoel Lod
+1982,Liga Leumit,8,Beitar Jerusalem
+1982,Liga Leumit,9,Maccabi Petah Tikva
+1982,Liga Leumit,10,Maccabi Yavne
+1982,Liga Leumit,11,Hapoel Yehud
+1982,Liga Leumit,12,Bnei Yehuda Tel Aviv
+1982,Liga Leumit,13,Maccabi Jaffa
+1982,Liga Leumit,14,Hapoel Ramat Gan
+1982,Liga Leumit,15,Hapoel Jerusalem
+1982,Liga Leumit,16,Hapoel Kfar Saba
+1983,Liga Leumit,1,Maccabi Haifa
+1983,Liga Leumit,2,Beitar Jerusalem
+1983,Liga Leumit,3,Hapoel Tel Aviv
+1983,Liga Leumit,4,Maccabi Netanya
+1983,Liga Leumit,5,Maccabi Tel Aviv
+1983,Liga Leumit,6,Beitar Tel Aviv
+1983,Liga Leumit,7,Hapoel Be'er Sheva
+1983,Liga Leumit,8,Hapoel Lod
+1983,Liga Leumit,9,Maccabi Petah Tikva
+1983,Liga Leumit,10,Maccabi Jaffa
+1983,Liga Leumit,11,Hakoah Ramat Gan
+1983,Liga Leumit,12,Shimshon Tel Aviv
+1983,Liga Leumit,13,Maccabi Yavne
+1983,Liga Leumit,14,Bnei Yehuda Tel Aviv
+1983,Liga Leumit,15,Maccabi Ramat Amidar
+1983,Liga Leumit,16,Hapoel Yehud
+1984,Liga Leumit,1,Maccabi Haifa
+1984,Liga Leumit,2,Beitar Jerusalem
+1984,Liga Leumit,3,Shimshon Tel Aviv
+1984,Liga Leumit,4,Maccabi Petah Tikva
+1984,Liga Leumit,5,Hapoel Haifa
+1984,Liga Leumit,6,Hapoel Petah Tikva
+1984,Liga Leumit,7,Maccabi Tel Aviv
+1984,Liga Leumit,8,Maccabi Netanya
+1984,Liga Leumit,9,Hapoel Tel Aviv
+1984,Liga Leumit,10,Maccabi Yavne
+1984,Liga Leumit,11,Hapoel Kfar Saba
+1984,Liga Leumit,12,Maccabi Jaffa
+1984,Liga Leumit,13,Hapoel Be'er Sheva
+1984,Liga Leumit,14,Beitar Tel Aviv
+1984,Liga Leumit,15,Hapoel Lod
+1984,Liga Leumit,16,Hakoah Ramat Gan
+1985,Liga Leumit,1,Hapoel Tel Aviv
+1985,Liga Leumit,2,Maccabi Haifa
+1985,Liga Leumit,3,Maccabi Tel Aviv
+1985,Liga Leumit,4,Beitar Jerusalem
+1985,Liga Leumit,5,Bnei Yehuda Tel Aviv
+1985,Liga Leumit,6,Hapoel Kfar Saba
+1985,Liga Leumit,7,Maccabi Petah Tikva
+1985,Liga Leumit,8,Hapoel Be'er Sheva
+1985,Liga Leumit,9,Maccabi Netanya
+1985,Liga Leumit,10,Shimshon Tel Aviv
+1985,Liga Leumit,11,Maccabi Yavne
+1985,Liga Leumit,12,Maccabi Jaffa
+1985,Liga Leumit,13,Hapoel Petah Tikva
+1985,Liga Leumit,14,Hapoel Jerusalem
+1985,Liga Leumit,15,Hapoel Haifa
+1985,Liga Leumit,16,Maccabi Sha'arayim
+1986,Liga Leumit,1,Beitar Jerusalem
+1986,Liga Leumit,2,Bnei Yehuda Tel Aviv
+1986,Liga Leumit,3,Maccabi Tel Aviv
+1986,Liga Leumit,4,Hapoel Lod
+1986,Liga Leumit,5,Shimshon Tel Aviv
+1986,Liga Leumit,6,Maccabi Petah Tikva
+1986,Liga Leumit,7,Maccabi Netanya
+1986,Liga Leumit,8,Hapoel Kfar Saba
+1986,Liga Leumit,9,Maccabi Haifa
+1986,Liga Leumit,10,Hapoel Petah Tikva
+1986,Liga Leumit,11,Hapoel Be'er Sheva
+1986,Liga Leumit,12,Hapoel Tel Aviv
+1986,Liga Leumit,13,Beitar Tel Aviv
+1986,Liga Leumit,14,Maccabi Yavne
+1986,Liga Leumit,15,Maccabi Jaffa
+1986,Liga Leumit,16,Beitar Netanya
+1987,Liga Leumit,1,Hapoel Tel Aviv
+1987,Liga Leumit,2,Maccabi Netanya
+1987,Liga Leumit,3,Hapoel Be'er Sheva
+1987,Liga Leumit,4,Shimshon Tel Aviv
+1987,Liga Leumit,5,Hapoel Petah Tikva
+1987,Liga Leumit,6,Hapoel Kfar Saba
+1987,Liga Leumit,7,Beitar Tel Aviv
+1987,Liga Leumit,8,Hapoel Holon
+1987,Liga Leumit,9,Maccabi Haifa
+1987,Liga Leumit,10,Bnei Yehuda Tel Aviv
+1987,Liga Leumit,11,Beitar Jerusalem
+1987,Liga Leumit,12,Maccabi Tel Aviv
+1987,Liga Leumit,13,Hapoel Lod
+1987,Liga Leumit,14,Maccabi Petah Tikva
+1988,Liga Leumit,1,Maccabi Haifa
+1988,Liga Leumit,2,Hapoel Petah Tikva
+1988,Liga Leumit,3,Maccabi Netanya
+1988,Liga Leumit,4,Beitar Tel Aviv
+1988,Liga Leumit,5,Hapoel Be'er Sheva
+1988,Liga Leumit,6,Shimshon Tel Aviv
+1988,Liga Leumit,7,Hapoel Jerusalem
+1988,Liga Leumit,8,Maccabi Tel Aviv
+1988,Liga Leumit,9,Beitar Jerusalem
+1988,Liga Leumit,10,Hapoel Kfar Saba
+1988,Liga Leumit,11,Bnei Yehuda Tel Aviv
+1988,Liga Leumit,12,Hapoel Tiberias
+1988,Liga Leumit,13,Hapoel Holon
+1988,Liga Leumit,14,Hapoel Tel Aviv
+1989,Liga Leumit,1,Bnei Yehuda Tel Aviv
+1989,Liga Leumit,2,Hapoel Petah Tikva
+1989,Liga Leumit,3,Maccabi Haifa
+1989,Liga Leumit,4,Maccabi Tel Aviv
+1989,Liga Leumit,5,Beitar Tel Aviv
+1989,Liga Leumit,6,Hapoel Kfar Saba
+1989,Liga Leumit,7,Maccabi Netanya
+1989,Liga Leumit,8,Hapoel Jerusalem
+1989,Liga Leumit,9,Hapoel Be'er Sheva
+1989,Liga Leumit,10,Beitar Jerusalem
+1989,Liga Leumit,11,Hapoel Ramat Gan
+1989,Liga Leumit,12,Shimshon Tel Aviv
+1990,Liga Leumit,1,Maccabi Haifa
+1990,Liga Leumit,2,Hapoel Petah Tikva
+1990,Liga Leumit,3,Beitar Tel Aviv
+1990,Liga Leumit,4,Maccabi Netanya
+1990,Liga Leumit,5,Maccabi Tel Aviv
+1990,Liga Leumit,6,Hapoel Be'er Sheva
+1990,Liga Leumit,7,Hapoel Tel Aviv
+1990,Liga Leumit,8,Bnei Yehuda Tel Aviv
+1990,Liga Leumit,9,Hapoel Holon
+1990,Liga Leumit,10,Hapoel Jerusalem
+1990,Liga Leumit,11,Beitar Jerusalem
+1990,Liga Leumit,12,Hapoel Kfar Saba
+1991,Liga Leumit,1,Maccabi Tel Aviv
+1991,Liga Leumit,2,Bnei Yehuda Tel Aviv
+1991,Liga Leumit,3,Maccabi Haifa
+1991,Liga Leumit,4,Hapoel Petah Tikva
+1991,Liga Leumit,5,Beitar Tel Aviv
+1991,Liga Leumit,6,Maccabi Netanya
+1991,Liga Leumit,7,Maccabi Petah Tikva
+1991,Liga Leumit,8,Hapoel Holon
+1991,Liga Leumit,9,Hapoel Tel Aviv
+1991,Liga Leumit,10,Hapoel Be'er Sheva
+1991,Liga Leumit,11,Maccabi Yavne
+1991,Liga Leumit,12,Hapoel Jerusalem
+1992,Liga Leumit,1,Beitar Jerusalem
+1992,Liga Leumit,2,Maccabi Tel Aviv
+1992,Liga Leumit,3,Bnei Yehuda Tel Aviv
+1992,Liga Leumit,4,Hapoel Be'er Sheva
+1992,Liga Leumit,5,Maccabi Haifa
+1992,Liga Leumit,6,Hapoel Holon
+1992,Liga Leumit,7,Hapoel Haifa
+1992,Liga Leumit,8,Maccabi Netanya
+1992,Liga Leumit,9,Hapoel Tel Aviv
+1992,Liga Leumit,10,Maccabi Petah Tikva
+1992,Liga Leumit,11,Hapoel Petah Tikva
+1992,Liga Leumit,12,Beitar Tel Aviv
+1993,Liga Leumit,1,Maccabi Haifa
+1993,Liga Leumit,2,Maccabi Tel Aviv
+1993,Liga Leumit,3,Hapoel Be'er Sheva
+1993,Liga Leumit,4,Beitar Jerusalem
+1993,Liga Leumit,5,Hapoel Tel Aviv
+1993,Liga Leumit,6,Maccabi Netanya
+1993,Liga Leumit,7,Hapoel Petah Tikva
+1993,Liga Leumit,8,Maccabi Petah Tikva
+1993,Liga Leumit,9,Bnei Yehuda Tel Aviv
+1993,Liga Leumit,10,Hapoel Holon
+1993,Liga Leumit,11,Maccabi Herzliya
+1993,Liga Leumit,12,Maccabi Ironi Ashdod
+1993,Liga Leumit,13,Hapoel Haifa
+1993,Liga Leumit,14,Hapoel Kfar Saba
+1994,Liga Leumit,1,Maccabi Tel Aviv
+1994,Liga Leumit,2,Maccabi Haifa
+1994,Liga Leumit,3,Hapoel Be'er Sheva
+1994,Liga Leumit,4,Hapoel Tel Aviv
+1994,Liga Leumit,5,Hapoel Petah Tikva
+1994,Liga Leumit,6,Beitar Jerusalem
+1994,Liga Leumit,7,Hapoel Holon
+1994,Liga Leumit,8,Maccabi Petah Tikva
+1994,Liga Leumit,9,Hapoel Rishon LeZion
+1994,Liga Leumit,10,Bnei Yehuda Tel Aviv
+1994,Liga Leumit,11,Beitar Tel Aviv
+1994,Liga Leumit,12,Hapoel Beit She'an
+1994,Liga Leumit,13,Hapoel Haifa
+1994,Liga Leumit,14,Maccabi Herzliya
+1994,Liga Leumit,15,Maccabi Ironi Ashdod
+1994,Liga Leumit,16,Maccabi Netanya
+1995,Liga Leumit,1,Maccabi Tel Aviv
+1995,Liga Leumit,2,Maccabi Haifa
+1995,Liga Leumit,3,Beitar Jerusalem
+1995,Liga Leumit,4,Hapoel Haifa
+1995,Liga Leumit,5,Hapoel Tel Aviv
+1995,Liga Leumit,6,Maccabi Petah Tikva
+1995,Liga Leumit,7,Maccabi Herzliya
+1995,Liga Leumit,8,Hapoel Petah Tikva
+1995,Liga Leumit,9,Hapoel Rishon LeZion
+1995,Liga Leumit,10,Hapoel Be'er Sheva
+1995,Liga Leumit,11,Bnei Yehuda Tel Aviv
+1995,Liga Leumit,12,Hapoel Kfar Saba
+1995,Liga Leumit,13,Hapoel Holon
+1995,Liga Leumit,14,Hapoel Beit She'an
+1995,Liga Leumit,15,Beitar Tel Aviv
+1995,Liga Leumit,16,Maccabi Jaffa
+1996,Liga Leumit,1,Beitar Jerusalem
+1996,Liga Leumit,2,Hapoel Petah Tikva
+1996,Liga Leumit,3,Hapoel Be'er Sheva
+1996,Liga Leumit,4,Maccabi Petah Tikva
+1996,Liga Leumit,5,Maccabi Haifa
+1996,Liga Leumit,6,Maccabi Tel Aviv
+1996,Liga Leumit,7,Hapoel Haifa
+1996,Liga Leumit,8,Hapoel Kfar Saba
+1996,Liga Leumit,9,Hapoel Rishon LeZion
+1996,Liga Leumit,10,Bnei Yehuda Tel Aviv
+1996,Liga Leumit,11,Hapoel Beit She'an
+1996,Liga Leumit,12,Hapoel Jerusalem
+1996,Liga Leumit,13,Hapoel Tel Aviv
+1996,Liga Leumit,14,Maccabi Herzliya
+1996,Liga Leumit,15,Hapoel Holon
+1996,Liga Leumit,16,Hapoel Taibe
+1997,Liga Leumit,1,Beitar Jerusalem
+1997,Liga Leumit,2,Hapoel Tel Aviv
+1997,Liga Leumit,3,Hapoel Haifa
+1997,Liga Leumit,4,Maccabi Haifa
+1997,Liga Leumit,5,Hapoel Petah Tikva
+1997,Liga Leumit,6,Maccabi Tel Aviv
+1997,Liga Leumit,7,Hapoel Kfar Saba
+1997,Liga Leumit,8,Maccabi Herzliya
+1997,Liga Leumit,9,Maccabi Petah Tikva
+1997,Liga Leumit,10,Hapoel Rishon LeZion
+1997,Liga Leumit,11,Hapoel Jerusalem
+1997,Liga Leumit,12,Maccabi Ironi Ashdod
+1997,Liga Leumit,13,Hapoel Beit She'an
+1997,Liga Leumit,14,Bnei Yehuda Tel Aviv
+1997,Liga Leumit,15,Hapoel Be'er Sheva
+1997,Liga Leumit,16,Hapoel Ashkelon
+1998,Liga Leumit,1,Hapoel Haifa
+1998,Liga Leumit,2,Maccabi Tel Aviv
+1998,Liga Leumit,3,Maccabi Haifa
+1998,Liga Leumit,4,Beitar Jerusalem
+1998,Liga Leumit,5,Hapoel Tel Aviv
+1998,Liga Leumit,6,Hapoel Petah Tikva
+1998,Liga Leumit,7,Hapoel Rishon LeZion
+1998,Liga Leumit,8,Hapoel Kfar Saba
+1998,Liga Leumit,9,Hapoel Jerusalem
+1998,Liga Leumit,10,Maccabi Petah Tikva
+1998,Liga Leumit,11,Bnei Yehuda Tel Aviv
+1998,Liga Leumit,12,Maccabi Ironi Ashdod
+1998,Liga Leumit,13,Maccabi Herzliya
+1998,Liga Leumit,14,Hapoel Holon
+1998,Liga Leumit,15,Hapoel Beit She'an
+1998,Liga Leumit,16,Maccabi Jaffa
+1999,Ligat ha'Al,1,Hapoel Tel Aviv
+1999,Ligat ha'Al,2,Maccabi Haifa
+1999,Ligat ha'Al,3,Hapoel Petah Tikva
+1999,Ligat ha'Al,4,Maccabi Petah Tikva
+1999,Ligat ha'Al,5,Beitar Jerusalem
+1999,Ligat ha'Al,6,Maccabi Tel Aviv
+1999,Ligat ha'Al,7,Hapoel Haifa
+1999,Ligat ha'Al,8,Ashdod S.C.
+1999,Ligat ha'Al,9,Hapoel Rishon LeZion
+1999,Ligat ha'Al,10,Maccabi Netanya
+1999,Ligat ha'Al,11,Bnei Yehuda Tel Aviv
+1999,Ligat ha'Al,12,Hapoel Kfar Saba
+1999,Ligat ha'Al,13,Maccabi Herzliya
+1999,Ligat ha'Al,14,Hapoel Jerusalem
+2000,Ligat ha'Al,1,Maccabi Haifa
+2000,Ligat ha'Al,2,Hapoel Tel Aviv
+2000,Ligat ha'Al,3,Hapoel Haifa
+2000,Ligat ha'Al,4,Maccabi Tel Aviv
+2000,Ligat ha'Al,5,Beitar Jerusalem
+2000,Ligat ha'Al,6,Hapoel Petah Tikva
+2000,Ligat ha'Al,7,Maccabi Netanya
+2000,Ligat ha'Al,8,Maccabi Petah Tikva
+2000,Ligat ha'Al,9,Hapoel Rishon LeZion
+2000,Ligat ha'Al,10,Ashdod S.C.
+2000,Ligat ha'Al,11,Bnei Yehuda Tel Aviv
+2000,Ligat ha'Al,12,Hapoel Holon
+2001,Ligat ha'Al,1,Maccabi Haifa
+2001,Ligat ha'Al,2,Hapoel Tel Aviv
+2001,Ligat ha'Al,3,Maccabi Tel Aviv
+2001,Ligat ha'Al,4,Ashdod S.C.
+2001,Ligat ha'Al,5,Hapoel Be'er Sheva
+2001,Ligat ha'Al,6,Hapoel Petah Tikva
+2001,Ligat ha'Al,7,Maccabi Netanya
+2001,Ligat ha'Al,8,Maccabi Petah Tikva
+2001,Ligat ha'Al,9,Hapoel Rishon LeZion
+2001,Ligat ha'Al,10,Beitar Jerusalem
+2001,Ligat ha'Al,11,Hapoel Haifa
+2001,Ligat ha'Al,12,Maccabi Kiryat Gat
+2002,Ligat ha'Al,1,Maccabi Tel Aviv
+2002,Ligat ha'Al,2,Maccabi Haifa
+2002,Ligat ha'Al,3,Hapoel Tel Aviv
+2002,Ligat ha'Al,4,Maccabi Netanya
+2002,Ligat ha'Al,5,Hapoel Be'er Sheva
+2002,Ligat ha'Al,6,Maccabi Petah Tikva
+2002,Ligat ha'Al,7,Ashdod S.C.
+2002,Ligat ha'Al,8,Hapoel Petah Tikva
+2002,Ligat ha'Al,9,Beitar Jerusalem
+2002,Ligat ha'Al,10,Bnei Yehuda Tel Aviv
+2002,Ligat ha'Al,11,Hapoel Kfar Saba
+2002,Ligat ha'Al,12,Hapoel Rishon LeZion
+2003,Ligat ha'Al,1,Maccabi Haifa
+2003,Ligat ha'Al,2,Maccabi Tel Aviv
+2003,Ligat ha'Al,3,Maccabi Petah Tikva
+2003,Ligat ha'Al,4,Hapoel Be'er Sheva
+2003,Ligat ha'Al,5,Hapoel Tel Aviv
+2003,Ligat ha'Al,6,Bnei Yehuda Tel Aviv
+2003,Ligat ha'Al,7,Ashdod S.C.
+2003,Ligat ha'Al,8,Hapoel Petah Tikva
+2003,Ligat ha'Al,9,Beitar Jerusalem
+2003,Ligat ha'Al,10,Bnei Sakhnin
+2003,Ligat ha'Al,11,Maccabi Netanya
+2003,Ligat ha'Al,12,Maccabi Ahi Nazareth
+2004,Ligat ha'Al,1,Maccabi Haifa
+2004,Ligat ha'Al,2,Maccabi Petah Tikva
+2004,Ligat ha'Al,3,Ashdod S.C.
+2004,Ligat ha'Al,4,Beitar Jerusalem
+2004,Ligat ha'Al,5,Hapoel Nof HaGalil
+2004,Ligat ha'Al,6,Bnei Yehuda Tel Aviv
+2004,Ligat ha'Al,7,Hapoel Petah Tikva
+2004,Ligat ha'Al,8,Maccabi Tel Aviv
+2004,Ligat ha'Al,9,Hapoel Tel Aviv
+2004,Ligat ha'Al,10,Bnei Sakhnin
+2004,Ligat ha'Al,11,Hapoel Haifa
+2004,Ligat ha'Al,12,Hapoel Be'er Sheva
+2005,Ligat ha'Al,1,Maccabi Haifa
+2005,Ligat ha'Al,2,Hapoel Tel Aviv
+2005,Ligat ha'Al,3,Beitar Jerusalem
+2005,Ligat ha'Al,4,Bnei Yehuda Tel Aviv
+2005,Ligat ha'Al,5,Maccabi Petah Tikva
+2005,Ligat ha'Al,6,Maccabi Tel Aviv
+2005,Ligat ha'Al,7,Maccabi Netanya
+2005,Ligat ha'Al,8,Ashdod S.C.
+2005,Ligat ha'Al,9,Hapoel Petah Tikva
+2005,Ligat ha'Al,10,Hapoel Kfar Saba
+2005,Ligat ha'Al,11,Hapoel Nof HaGalil
+2005,Ligat ha'Al,12,Bnei Sakhnin
+2006,Ligat ha'Al,1,Beitar Jerusalem
+2006,Ligat ha'Al,2,Maccabi Netanya
+2006,Ligat ha'Al,3,Maccabi Tel Aviv
+2006,Ligat ha'Al,4,Hapoel Tel Aviv
+2006,Ligat ha'Al,5,Maccabi Haifa
+2006,Ligat ha'Al,6,Maccabi Petah Tikva
+2006,Ligat ha'Al,7,Ashdod S.C.
+2006,Ligat ha'Al,8,Hapoel Kfar Saba
+2006,Ligat ha'Al,9,Bnei Yehuda Tel Aviv
+2006,Ligat ha'Al,10,Maccabi Herzliya
+2006,Ligat ha'Al,11,Hakoah Ramat Gan
+2006,Ligat ha'Al,12,Hapoel Petah Tikva
+2007,Ligat ha'Al,1,Beitar Jerusalem
+2007,Ligat ha'Al,2,Maccabi Netanya
+2007,Ligat ha'Al,3,Hapoel Kiryat Shmona
+2007,Ligat ha'Al,4,Bnei Sakhnin
+2007,Ligat ha'Al,5,Maccabi Haifa
+2007,Ligat ha'Al,6,Maccabi Tel Aviv
+2007,Ligat ha'Al,7,Hapoel Tel Aviv
+2007,Ligat ha'Al,8,Ashdod S.C.
+2007,Ligat ha'Al,9,Bnei Yehuda Tel Aviv
+2007,Ligat ha'Al,10,Maccabi Petah Tikva
+2007,Ligat ha'Al,11,Hapoel Kfar Saba
+2007,Ligat ha'Al,12,Maccabi Herzliya
+2008,Liga Artzit,1,Sektzia Nes Tziona
+2008,Liga Artzit,2,Hapoel Ashkelon
+2008,Liga Artzit,3,Hapoel Marmorek
+2008,Liga Artzit,4,Hapoel Rishon LeZion
+2008,Liga Artzit,5,Ironi Bat Yam
+2008,Liga Artzit,6,Beitar Tel Aviv
+2008,Liga Artzit,7,Hapoel Nof HaGalil
+2008,Liga Artzit,8,Maccabi Kafr Kanna
+2008,Liga Artzit,9,Hapoel Bnei Tamra
+2008,Liga Artzit,10,Hapoel Umm al-Fahm
+2008,Liga Artzit,11,Hapoel Bnei Jadida
+2008,Liga Artzit,12,Maccabi Tirat Carmel
+2008,Liga Leumit,1,Hapoel Haifa
+2008,Liga Leumit,2,Hapoel Acre
+2008,Liga Leumit,3,Hapoel Be'er Sheva
+2008,Liga Leumit,4,Hapoel Ramat Gan
+2008,Liga Leumit,5,Hapoel Ra'anana
+2008,Liga Leumit,6,Maccabi Ahi Nazareth
+2008,Liga Leumit,7,Maccabi Herzliya
+2008,Liga Leumit,8,Bnei Lod
+2008,Liga Leumit,9,Hapoel Jerusalem
+2008,Liga Leumit,10,Hapoel Kfar Saba
+2008,Liga Leumit,11,Ironi Nir Ramat HaSharon
+2008,Liga Leumit,12,Maccabi Ironi Kiryat Ata
+2008,Ligat ha'Al,1,Maccabi Haifa
+2008,Ligat ha'Al,2,Hapoel Tel Aviv
+2008,Ligat ha'Al,3,Beitar Jerusalem
+2008,Ligat ha'Al,4,Maccabi Netanya
+2008,Ligat ha'Al,5,Bnei Yehuda Tel Aviv
+2008,Ligat ha'Al,6,Maccabi Tel Aviv
+2008,Ligat ha'Al,7,Maccabi Petah Tikva
+2008,Ligat ha'Al,8,Ashdod S.C.
+2008,Ligat ha'Al,9,Bnei Sakhnin
+2008,Ligat ha'Al,10,Hapoel Petah Tikva
+2008,Ligat ha'Al,11,Hakoah Ramat Gan
+2008,Ligat ha'Al,12,Ironi Kiryat Shmona
+2009,Liga Leumit,1,Ironi Kiryat Shmona
+2009,Liga Leumit,2,Hapoel Ashkelon
+2009,Liga Leumit,3,Hapoel Kfar Saba
+2009,Liga Leumit,4,Sektzia Nes Tziona
+2009,Liga Leumit,5,Ironi Nir Ramat HaSharon
+2009,Liga Leumit,6,Ironi Bat Yam
+2009,Liga Leumit,7,Hapoel Nof HaGalil
+2009,Liga Leumit,8,Hapoel Rishon LeZion
+2009,Liga Leumit,9,Ahva Arraba
+2009,Liga Leumit,10,Maccabi Herzliya
+2009,Liga Leumit,11,Hakoah Ramat Gan
+2009,Liga Leumit,12,Beitar Tel Aviv
+2009,Liga Leumit,13,Bnei Lod
+2009,Liga Leumit,14,Maccabi Be'er Sheva
+2009,Liga Leumit,15,Hapoel Jerusalem
+2009,Liga Leumit,16,Hapoel Marmorek
+2009,Ligat ha'Al,1,Hapoel Tel Aviv
+2009,Ligat ha'Al,2,Maccabi Haifa
+2009,Ligat ha'Al,3,Maccabi Tel Aviv
+2009,Ligat ha'Al,4,Bnei Yehuda Tel Aviv
+2009,Ligat ha'Al,5,Beitar Jerusalem
+2009,Ligat ha'Al,6,Ashdod S.C.
+2009,Ligat ha'Al,7,Bnei Sakhnin
+2009,Ligat ha'Al,8,Maccabi Petah Tikva
+2009,Ligat ha'Al,9,Hapoel Be'er Sheva
+2009,Ligat ha'Al,10,Maccabi Netanya
+2009,Ligat ha'Al,11,Hapoel Haifa
+2009,Ligat ha'Al,12,Hapoel Acre
+2009,Ligat ha'Al,13,Hapoel Petah Tikva
+2009,Ligat ha'Al,14,Hapoel Ramat Gan
+2009,Ligat ha'Al,15,Hapoel Ra'anana
+2009,Ligat ha'Al,16,Maccabi Ahi Nazareth
+2010,Liga Leumit,1,Ironi Nir Ramat HaSharon
+2010,Liga Leumit,2,Hapoel Rishon LeZion
+2010,Liga Leumit,3,Hapoel Kfar Saba
+2010,Liga Leumit,4,Maccabi Herzliya
+2010,Liga Leumit,5,Hapoel Ra'anana
+2010,Liga Leumit,6,Sektzia Nes Tziona
+2010,Liga Leumit,7,Hapoel Ironi Herzliya
+2010,Liga Leumit,8,Bnei Lod
+2010,Liga Leumit,9,Maccabi Ahi Nazareth
+2010,Liga Leumit,10,Beitar Tel Aviv
+2010,Liga Leumit,11,Hapoel Nof HaGalil
+2010,Liga Leumit,12,Maccabi Be'er Sheva
+2010,Liga Leumit,13,Ironi Bat Yam
+2010,Liga Leumit,14,Hakoah Ramat Gan
+2010,Liga Leumit,15,Maccabi Ironi Jatt
+2010,Liga Leumit,16,Ahva Arraba
+2010,Ligat ha'Al,1,Maccabi Haifa
+2010,Ligat ha'Al,2,Hapoel Tel Aviv
+2010,Ligat ha'Al,3,Maccabi Tel Aviv
+2010,Ligat ha'Al,4,Bnei Yehuda Tel Aviv
+2010,Ligat ha'Al,5,Ironi Kiryat Shmona
+2010,Ligat ha'Al,6,Maccabi Netanya
+2010,Ligat ha'Al,7,Maccabi Petah Tikva
+2010,Ligat ha'Al,8,Hapoel Acre
+2010,Ligat ha'Al,9,Hapoel Be'er Sheva
+2010,Ligat ha'Al,10,Hapoel Haifa
+2010,Ligat ha'Al,11,Beitar Jerusalem
+2010,Ligat ha'Al,12,Ashdod S.C.
+2010,Ligat ha'Al,13,Bnei Sakhnin
+2010,Ligat ha'Al,14,Hapoel Petah Tikva
+2010,Ligat ha'Al,15,Hapoel Ashkelon
+2010,Ligat ha'Al,16,Hapoel Ramat Gan
+2011,Liga Leumit,1,Hapoel Ramat Gan
+2011,Liga Leumit,2,Bnei Lod
+2011,Liga Leumit,3,Maccabi Herzliya
+2011,Liga Leumit,4,Maccabi Ahi Nazareth
+2011,Liga Leumit,5,Hapoel Ra'anana
+2011,Liga Leumit,6,Hapoel Jerusalem
+2011,Liga Leumit,7,Hapoel Kfar Saba
+2011,Liga Leumit,8,Beitar Tel Aviv
+2011,Liga Leumit,9,Hapoel Ashkelon
+2011,Liga Leumit,10,Maccabi Umm al-Fahm
+2011,Liga Leumit,11,Sektzia Nes Tziona
+2011,Liga Leumit,12,Hapoel Nof HaGalil
+2011,Liga Leumit,13,Hakoah Ramat Gan
+2011,Liga Leumit,14,Ironi Bat Yam
+2011,Liga Leumit,15,Maccabi Be'er Sheva
+2011,Liga Leumit,16,Hapoel Ironi Herzliya
+2011,Ligat ha'Al,1,Ironi Kiryat Shmona
+2011,Ligat ha'Al,2,Hapoel Tel Aviv
+2011,Ligat ha'Al,3,Bnei Yehuda Tel Aviv
+2011,Ligat ha'Al,4,Maccabi Netanya
+2011,Ligat ha'Al,5,Maccabi Haifa
+2011,Ligat ha'Al,6,Maccabi Tel Aviv
+2011,Ligat ha'Al,7,Ashdod S.C.
+2011,Ligat ha'Al,8,Bnei Sakhnin
+2011,Ligat ha'Al,9,Beitar Jerusalem
+2011,Ligat ha'Al,10,Hapoel Acre
+2011,Ligat ha'Al,11,Ironi Nir Ramat HaSharon
+2011,Ligat ha'Al,12,Hapoel Haifa
+2011,Ligat ha'Al,13,Hapoel Be'er Sheva
+2011,Ligat ha'Al,14,Maccabi Petah Tikva
+2011,Ligat ha'Al,15,Hapoel Rishon LeZion
+2011,Ligat ha'Al,16,Hapoel Petah Tikva
+2012,Liga Leumit,1,Maccabi Petah Tikva
+2012,Liga Leumit,2,Hapoel Ra'anana
+2012,Liga Leumit,3,Hapoel Nof HaGalil
+2012,Liga Leumit,4,Hapoel Jerusalem
+2012,Liga Leumit,5,Hapoel Petah Tikva
+2012,Liga Leumit,6,Hapoel Rishon LeZion
+2012,Liga Leumit,7,Maccabi Herzliya
+2012,Liga Leumit,8,Bnei Lod
+2012,Liga Leumit,9,Maccabi Yavne
+2012,Liga Leumit,10,Maccabi Ahi Nazareth
+2012,Liga Leumit,11,Hakoah Ramat Gan
+2012,Liga Leumit,12,Maccabi Umm al-Fahm
+2012,Liga Leumit,13,Hapoel Ashkelon
+2012,Liga Leumit,14,Beitar Tel Aviv
+2012,Liga Leumit,15,Sektzia Nes Tziona
+2012,Liga Leumit,16,Hapoel Kfar Saba
+2012,Ligat ha'Al,1,Maccabi Tel Aviv
+2012,Ligat ha'Al,2,Maccabi Haifa
+2012,Ligat ha'Al,3,Hapoel Tel Aviv
+2012,Ligat ha'Al,4,Bnei Yehuda Tel Aviv
+2012,Ligat ha'Al,5,Ironi Kiryat Shmona
+2012,Ligat ha'Al,6,Ironi Nir Ramat HaSharon
+2012,Ligat ha'Al,7,Ashdod S.C.
+2012,Ligat ha'Al,8,Hapoel Be'er Sheva
+2012,Ligat ha'Al,9,Hapoel Haifa
+2012,Ligat ha'Al,10,Beitar Jerusalem
+2012,Ligat ha'Al,11,Hapoel Acre
+2012,Ligat ha'Al,12,Bnei Sakhnin
+2012,Ligat ha'Al,13,Maccabi Netanya
+2012,Ligat ha'Al,14,Hapoel Ramat Gan
+2013,Liga Leumit,1,Maccabi Netanya
+2013,Liga Leumit,2,Hapoel Petah Tikva
+2013,Liga Leumit,3,Bnei Lod
+2013,Liga Leumit,4,Maccabi Ahi Nazareth
+2013,Liga Leumit,5,Hapoel Ramat Gan
+2013,Liga Leumit,6,Hapoel Afula
+2013,Liga Leumit,7,Beitar Tel Aviv
+2013,Liga Leumit,8,Hapoel Nof HaGalil
+2013,Liga Leumit,9,Maccabi Yavne
+2013,Liga Leumit,10,Maccabi Herzliya
+2013,Liga Leumit,11,Hapoel Rishon LeZion
+2013,Liga Leumit,12,Hapoel Jerusalem
+2013,Liga Leumit,13,Hakoah Ramat Gan
+2013,Liga Leumit,14,Hapoel Katamon Jerusalem
+2013,Liga Leumit,15,Hapoel Ashkelon
+2013,Liga Leumit,16,Maccabi Umm al-Fahm
+2013,Ligat ha'Al,1,Maccabi Tel Aviv
+2013,Ligat ha'Al,2,Hapoel Be'er Sheva
+2013,Ligat ha'Al,3,Ironi Kiryat Shmona
+2013,Ligat ha'Al,4,Hapoel Tel Aviv
+2013,Ligat ha'Al,5,Maccabi Haifa
+2013,Ligat ha'Al,6,Bnei Sakhnin
+2013,Ligat ha'Al,7,Beitar Jerusalem
+2013,Ligat ha'Al,8,Ashdod S.C.
+2013,Ligat ha'Al,9,Hapoel Ra'anana
+2013,Ligat ha'Al,10,Hapoel Acre
+2013,Ligat ha'Al,11,Hapoel Haifa
+2013,Ligat ha'Al,12,Maccabi Petah Tikva
+2013,Ligat ha'Al,13,Ironi Nir Ramat HaSharon
+2013,Ligat ha'Al,14,Bnei Yehuda Tel Aviv
+2014,Liga Leumit,1,Bnei Yehuda Tel Aviv
+2014,Liga Leumit,2,Hapoel Kfar Saba
+2014,Liga Leumit,3,Bnei Lod
+2014,Liga Leumit,4,Hapoel Afula
+2014,Liga Leumit,5,Maccabi Kiryat Gat
+2014,Liga Leumit,6,Hapoel Ramat Gan
+2014,Liga Leumit,7,Maccabi Ahi Nazareth
+2014,Liga Leumit,8,Maccabi Yavne
+2014,Liga Leumit,9,Hapoel Jerusalem
+2014,Liga Leumit,10,Hapoel Rishon LeZion
+2014,Liga Leumit,11,Ironi Nir Ramat HaSharon
+2014,Liga Leumit,12,Beitar Tel Aviv
+2014,Liga Leumit,13,Maccabi Herzliya
+2014,Liga Leumit,14,Hapoel Nof HaGalil
+2014,Liga Leumit,15,Ironi Tiberias
+2014,Liga Leumit,16,Hakoah Ramat Gan
+2014,Ligat ha'Al,1,Maccabi Tel Aviv
+2014,Ligat ha'Al,2,Ironi Kiryat Shmona
+2014,Ligat ha'Al,3,Hapoel Be'er Sheva
+2014,Ligat ha'Al,4,Beitar Jerusalem
+2014,Ligat ha'Al,5,Maccabi Haifa
+2014,Ligat ha'Al,6,Maccabi Petah Tikva
+2014,Ligat ha'Al,7,Bnei Sakhnin
+2014,Ligat ha'Al,8,Hapoel Tel Aviv
+2014,Ligat ha'Al,9,Maccabi Netanya
+2014,Ligat ha'Al,10,Hapoel Ra'anana
+2014,Ligat ha'Al,11,Hapoel Acre
+2014,Ligat ha'Al,12,Hapoel Haifa
+2014,Ligat ha'Al,13,Hapoel Petah Tikva
+2014,Ligat ha'Al,14,Ashdod S.C.
+2015,Liga Leumit,1,Ashdod S.C.
+2015,Liga Leumit,2,Hapoel Ashkelon
+2015,Liga Leumit,3,Hapoel Ramat Gan
+2015,Liga Leumit,4,Hapoel Katamon Jerusalem
+2015,Liga Leumit,5,Maccabi Herzliya
+2015,Liga Leumit,6,Hapoel Petah Tikva
+2015,Liga Leumit,7,Maccabi Ahi Nazareth
+2015,Liga Leumit,8,Bnei Lod
+2015,Liga Leumit,9,Beitar Tel Aviv
+2015,Liga Leumit,10,Ironi Nir Ramat HaSharon
+2015,Liga Leumit,11,Hapoel Afula
+2015,Liga Leumit,12,Hapoel Rishon LeZion
+2015,Liga Leumit,13,Hapoel Nof HaGalil
+2015,Liga Leumit,14,Hapoel Jerusalem
+2015,Liga Leumit,15,Maccabi Yavne
+2015,Liga Leumit,16,Maccabi Kiryat Gat
+2015,Ligat ha'Al,1,Hapoel Be'er Sheva
+2015,Ligat ha'Al,2,Maccabi Tel Aviv
+2015,Ligat ha'Al,3,Beitar Jerusalem
+2015,Ligat ha'Al,4,Maccabi Haifa
+2015,Ligat ha'Al,5,Bnei Sakhnin
+2015,Ligat ha'Al,6,Hapoel Ra'anana
+2015,Ligat ha'Al,7,Maccabi Petah Tikva
+2015,Ligat ha'Al,8,Bnei Yehuda Tel Aviv
+2015,Ligat ha'Al,9,Hapoel Tel Aviv
+2015,Ligat ha'Al,10,Hapoel Kfar Saba
+2015,Ligat ha'Al,11,Ironi Kiryat Shmona
+2015,Ligat ha'Al,12,Hapoel Haifa
+2015,Ligat ha'Al,13,Hapoel Acre
+2015,Ligat ha'Al,14,Maccabi Netanya
+2016,Liga Leumit,1,Maccabi Netanya
+2016,Liga Leumit,2,Hapoel Acre
+2016,Liga Leumit,3,Beitar Tel Aviv
+2016,Liga Leumit,4,Hapoel Ramat Gan
+2016,Liga Leumit,5,Hapoel Katamon Jerusalem
+2016,Liga Leumit,6,Hapoel Petah Tikva
+2016,Liga Leumit,7,Bnei Lod
+2016,Liga Leumit,8,Maccabi Ahi Nazareth
+2016,Liga Leumit,9,Ironi Nir Ramat HaSharon
+2016,Liga Leumit,10,Hapoel Rishon LeZion
+2016,Liga Leumit,11,Hapoel Afula
+2016,Liga Leumit,12,Ironi Nesher
+2016,Liga Leumit,13,Maccabi Herzliya
+2016,Liga Leumit,14,Hapoel Nof HaGalil
+2016,Liga Leumit,15,Hapoel Jerusalem
+2016,Liga Leumit,16,Maccabi Sha'arayim
+2016,Ligat ha'Al,1,Hapoel Be'er Sheva
+2016,Ligat ha'Al,2,Maccabi Tel Aviv
+2016,Ligat ha'Al,3,Beitar Jerusalem
+2016,Ligat ha'Al,4,Maccabi Petah Tikva
+2016,Ligat ha'Al,5,Bnei Sakhnin
+2016,Ligat ha'Al,6,Maccabi Haifa
+2016,Ligat ha'Al,7,Ironi Kiryat Shmona
+2016,Ligat ha'Al,8,Hapoel Haifa
+2016,Ligat ha'Al,9,Ashdod S.C.
+2016,Ligat ha'Al,10,Hapoel Ra'anana
+2016,Ligat ha'Al,11,Bnei Yehuda Tel Aviv
+2016,Ligat ha'Al,12,Hapoel Ashkelon
+2016,Ligat ha'Al,13,Hapoel Kfar Saba
+2016,Ligat ha'Al,14,Hapoel Tel Aviv
+2017,Liga Leumit,1,Hapoel Tel Aviv
+2017,Liga Leumit,2,Hapoel Hadera
+2017,Liga Leumit,3,Hapoel Rishon LeZion
+2017,Liga Leumit,4,Beitar Tel Aviv
+2017,Liga Leumit,5,Hapoel Katamon Jerusalem
+2017,Liga Leumit,6,Maccabi Ahi Nazareth
+2017,Liga Leumit,7,Hapoel Nof HaGalil
+2017,Liga Leumit,8,Hapoel Afula
+2017,Liga Leumit,9,Hapoel Petah Tikva
+2017,Liga Leumit,10,Bnei Lod
+2017,Liga Leumit,11,Ironi Nir Ramat HaSharon
+2017,Liga Leumit,12,Hapoel Marmorek
+2017,Liga Leumit,13,Hapoel Ramat Gan
+2017,Liga Leumit,14,Hapoel Kfar Saba
+2017,Liga Leumit,15,Maccabi Herzliya
+2017,Liga Leumit,16,Ironi Nesher
+2017,Ligat ha'Al,1,Hapoel Be'er Sheva
+2017,Ligat ha'Al,2,Maccabi Tel Aviv
+2017,Ligat ha'Al,3,Beitar Jerusalem
+2017,Ligat ha'Al,4,Hapoel Haifa
+2017,Ligat ha'Al,5,Maccabi Netanya
+2017,Ligat ha'Al,6,Bnei Yehuda Tel Aviv
+2017,Ligat ha'Al,7,Ironi Kiryat Shmona
+2017,Ligat ha'Al,8,Maccabi Petah Tikva
+2017,Ligat ha'Al,9,Hapoel Ra'anana
+2017,Ligat ha'Al,10,Maccabi Haifa
+2017,Ligat ha'Al,11,Bnei Sakhnin
+2017,Ligat ha'Al,12,Ashdod S.C.
+2017,Ligat ha'Al,13,Hapoel Ashkelon
+2017,Ligat ha'Al,14,Hapoel Acre
+2018,Liga Leumit,1,Hapoel Kfar Saba
+2018,Liga Leumit,2,Sektzia Nes Tziona
+2018,Liga Leumit,3,Hapoel Nof HaGalil
+2018,Liga Leumit,4,Hapoel Katamon Jerusalem
+2018,Liga Leumit,5,Hapoel Afula
+2018,Liga Leumit,6,Hapoel Ashkelon
+2018,Liga Leumit,7,Beitar Tel Aviv
+2018,Liga Leumit,8,Hapoel Ramat Gan
+2018,Liga Leumit,9,Bnei Lod
+2018,Liga Leumit,10,Hapoel Petah Tikva
+2018,Liga Leumit,11,Maccabi Ahi Nazareth
+2018,Liga Leumit,12,Hapoel Rishon LeZion
+2018,Liga Leumit,13,Ironi Nir Ramat HaSharon
+2018,Liga Leumit,14,Hapoel Acre
+2018,Liga Leumit,15,Hapoel Marmorek
+2018,Liga Leumit,16,Hapoel Iksal
+2018,Ligat ha'Al,1,Maccabi Tel Aviv
+2018,Ligat ha'Al,2,Maccabi Haifa
+2018,Ligat ha'Al,3,Hapoel Be'er Sheva
+2018,Ligat ha'Al,4,Maccabi Netanya
+2018,Ligat ha'Al,5,Bnei Yehuda Tel Aviv
+2018,Ligat ha'Al,6,Hapoel Hadera
+2018,Ligat ha'Al,7,Beitar Jerusalem
+2018,Ligat ha'Al,8,Hapoel Tel Aviv
+2018,Ligat ha'Al,9,Hapoel Ra'anana
+2018,Ligat ha'Al,10,Ironi Kiryat Shmona
+2018,Ligat ha'Al,11,Hapoel Haifa
+2018,Ligat ha'Al,12,Ashdod S.C.
+2018,Ligat ha'Al,13,Maccabi Petah Tikva
+2018,Ligat ha'Al,14,Bnei Sakhnin
+2019,Liga Leumit,1,Maccabi Petah Tikva
+2019,Liga Leumit,2,Bnei Sakhnin
+2019,Liga Leumit,3,Hapoel Ramat Gan
+2019,Liga Leumit,4,Hapoel Katamon Jerusalem
+2019,Liga Leumit,5,Hapoel Rishon LeZion
+2019,Liga Leumit,6,M.S. Kafr Qasim
+2019,Liga Leumit,7,Beitar Tel Aviv
+2019,Liga Leumit,8,Ironi Nir Ramat HaSharon
+2019,Liga Leumit,9,Hapoel Umm al-Fahm
+2019,Liga Leumit,10,Hapoel Petah Tikva
+2019,Liga Leumit,11,Hapoel Nof HaGalil
+2019,Liga Leumit,12,Hapoel Acre
+2019,Liga Leumit,13,Maccabi Ahi Nazareth
+2019,Liga Leumit,14,Hapoel Afula
+2019,Liga Leumit,15,Bnei Lod
+2019,Liga Leumit,16,Hapoel Ashkelon
+2019,Ligat ha'Al,1,Maccabi Tel Aviv
+2019,Ligat ha'Al,2,Maccabi Haifa
+2019,Ligat ha'Al,3,Beitar Jerusalem
+2019,Ligat ha'Al,4,Hapoel Be'er Sheva
+2019,Ligat ha'Al,5,Hapoel Tel Aviv
+2019,Ligat ha'Al,6,Hapoel Haifa
+2019,Ligat ha'Al,7,Bnei Yehuda Tel Aviv
+2019,Ligat ha'Al,8,Ashdod S.C.
+2019,Ligat ha'Al,9,Hapoel Hadera
+2019,Ligat ha'Al,10,Maccabi Netanya
+2019,Ligat ha'Al,11,Hapoel Kfar Saba
+2019,Ligat ha'Al,12,Ironi Kiryat Shmona
+2019,Ligat ha'Al,13,Sektzia Nes Tziona
+2019,Ligat ha'Al,14,Hapoel Ra'anana
+2020,Liga Leumit,1,Hapoel Nof HaGalil
+2020,Liga Leumit,2,Hapoel Jerusalem
+2020,Liga Leumit,3,Sektzia Nes Tziona
+2020,Liga Leumit,4,Hapoel Rishon LeZion
+2020,Liga Leumit,5,Beitar Tel Aviv
+2020,Liga Leumit,6,Hapoel Ramat Gan
+2020,Liga Leumit,7,Ironi Nir Ramat HaSharon
+2020,Liga Leumit,8,Hapoel Iksal
+2020,Liga Leumit,9,Hapoel Afula
+2020,Liga Leumit,10,Hapoel Ra'anana
+2020,Liga Leumit,11,Maccabi Ahi Nazareth
+2020,Liga Leumit,12,M.S. Kafr Qasim
+2020,Liga Leumit,13,Hapoel Acre
+2020,Liga Leumit,14,Hapoel Umm al-Fahm
+2020,Liga Leumit,15,Hapoel Petah Tikva
+2020,Liga Leumit,16,Hapoel Kfar Shalem
+2020,Ligat ha'Al,1,Maccabi Haifa
+2020,Ligat ha'Al,2,Maccabi Tel Aviv
+2020,Ligat ha'Al,3,Ashdod S.C.
+2020,Ligat ha'Al,4,Hapoel Be'er Sheva
+2020,Ligat ha'Al,5,Maccabi Petah Tikva
+2020,Ligat ha'Al,6,Ironi Kiryat Shmona
+2020,Ligat ha'Al,7,Maccabi Netanya
+2020,Ligat ha'Al,8,Hapoel Hadera
+2020,Ligat ha'Al,9,Hapoel Haifa
+2020,Ligat ha'Al,10,Beitar Jerusalem
+2020,Ligat ha'Al,11,Hapoel Tel Aviv
+2020,Ligat ha'Al,12,Bnei Sakhnin
+2020,Ligat ha'Al,13,Bnei Yehuda Tel Aviv
+2020,Ligat ha'Al,14,Hapoel Kfar Saba
+2021,Liga Leumit,1,Maccabi Bnei Reineh
+2021,Liga Leumit,2,Sektzia Nes Tziona
+2021,Liga Leumit,3,M.S. Kafr Qasim
+2021,Liga Leumit,4,Ashdod S.C.
+2021,Liga Leumit,5,Hapoel Petah Tikva
+2021,Liga Leumit,6,Hapoel Kfar Saba
+2021,Liga Leumit,7,Hapoel Umm al-Fahm
+2021,Liga Leumit,8,Bnei Yehuda Tel Aviv
+2021,Liga Leumit,9,Maccabi Ahi Nazareth
+2021,Liga Leumit,10,Hapoel Afula
+2021,Liga Leumit,11,Hapoel Acre
+2021,Liga Leumit,12,Hapoel Ramat Gan
+2021,Liga Leumit,13,Ironi Nir Ramat HaSharon
+2021,Liga Leumit,14,Hapoel Rishon LeZion
+2021,Liga Leumit,15,Hapoel Ra'anana
+2021,Liga Leumit,16,Beitar Tel Aviv
+2021,Ligat ha'Al,1,Maccabi Haifa
+2021,Ligat ha'Al,2,Hapoel Be'er Sheva
+2021,Ligat ha'Al,3,Maccabi Tel Aviv
+2021,Ligat ha'Al,4,Maccabi Netanya
+2021,Ligat ha'Al,5,Hapoel Tel Aviv
+2021,Ligat ha'Al,6,Bnei Sakhnin
+2021,Ligat ha'Al,7,Ironi Kiryat Shmona
+2021,Ligat ha'Al,8,Hapoel Hadera
+2021,Ligat ha'Al,9,Ashdod S.C.
+2021,Ligat ha'Al,10,Beitar Jerusalem
+2021,Ligat ha'Al,11,Hapoel Haifa
+2021,Ligat ha'Al,12,Hapoel Jerusalem
+2021,Ligat ha'Al,13,Maccabi Petah Tikva
+2021,Ligat ha'Al,14,Hapoel Nof HaGalil
+2022,Liga Leumit,1,Maccabi Petah Tikva
+2022,Liga Leumit,2,Hapoel Petah Tikva
+2022,Liga Leumit,3,Ironi Tiberias
+2022,Liga Leumit,4,Hapoel Umm al-Fahm
+2022,Liga Leumit,5,Hapoel Acre
+2022,Liga Leumit,6,Maccabi Jaffa
+2022,Liga Leumit,7,Hapoel Kfar Saba
+2022,Liga Leumit,8,Bnei Yehuda Tel Aviv
+2022,Liga Leumit,9,Hapoel Ramat Gan
+2022,Liga Leumit,10,Hapoel Afula
+2022,Liga Leumit,11,Ironi Nir Ramat HaSharon
+2022,Liga Leumit,12,Hapoel Rishon LeZion
+2022,Liga Leumit,13,M.S. Kafr Qasim
+2022,Liga Leumit,14,Hapoel Nof HaGalil
+2022,Liga Leumit,15,Maccabi Ahi Nazareth
+2022,Liga Leumit,16,Ashdod S.C.
+2022,Ligat ha'Al,1,Maccabi Haifa
+2022,Ligat ha'Al,2,Hapoel Be'er Sheva
+2022,Ligat ha'Al,3,Maccabi Tel Aviv
+2022,Ligat ha'Al,4,Hapoel Jerusalem
+2022,Ligat ha'Al,5,Maccabi Netanya
+2022,Ligat ha'Al,6,Ashdod S.C.
+2022,Ligat ha'Al,7,Hapoel Haifa
+2022,Ligat ha'Al,8,Beitar Jerusalem
+2022,Ligat ha'Al,9,Bnei Sakhnin
+2022,Ligat ha'Al,10,Hapoel Tel Aviv
+2022,Ligat ha'Al,11,Maccabi Bnei Reineh
+2022,Ligat ha'Al,12,Hapoel Hadera
+2022,Ligat ha'Al,13,Ironi Kiryat Shmona
+2022,Ligat ha'Al,14,Sektzia Nes Tziona
+2023,Liga Leumit,1,Ironi Kiryat Shmona
+2023,Liga Leumit,2,Ironi Tiberias
+2023,Liga Leumit,3,Bnei Yehuda Tel Aviv
+2023,Liga Leumit,4,Hapoel Nof HaGalil
+2023,Liga Leumit,5,Maccabi Jaffa
+2023,Liga Leumit,6,Ironi Nir Ramat HaSharon
+2023,Liga Leumit,7,Maccabi Herzliya
+2023,Liga Leumit,8,Hapoel Umm al-Fahm
+2023,Liga Leumit,9,Hapoel Acre
+2023,Liga Leumit,10,M.S. Kafr Qasim
+2023,Liga Leumit,11,Hapoel Ramat Gan
+2023,Liga Leumit,12,Hapoel Afula
+2023,Liga Leumit,13,Hapoel Rishon LeZion
+2023,Liga Leumit,14,Hapoel Kfar Saba
+2023,Liga Leumit,15,Sektzia Nes Tziona
+2023,Liga Leumit,16,Ihud Bnei Shfaram
+2023,Ligat ha'Al,1,Maccabi Tel Aviv
+2023,Ligat ha'Al,2,Maccabi Haifa
+2023,Ligat ha'Al,3,Hapoel Be'er Sheva
+2023,Ligat ha'Al,4,Hapoel Haifa
+2023,Ligat ha'Al,5,Maccabi Bnei Reineh
+2023,Ligat ha'Al,6,Bnei Sakhnin
+2023,Ligat ha'Al,7,Hapoel Jerusalem
+2023,Ligat ha'Al,8,Maccabi Petah Tikva
+2023,Ligat ha'Al,9,Maccabi Netanya
+2023,Ligat ha'Al,10,Ashdod S.C.
+2023,Ligat ha'Al,11,Beitar Jerusalem
+2023,Ligat ha'Al,12,Hapoel Hadera
+2023,Ligat ha'Al,13,Hapoel Tel Aviv
+2023,Ligat ha'Al,14,Hapoel Petah Tikva
+2024,Liga Leumit,1,Hapoel Tel Aviv
+2024,Liga Leumit,2,Hapoel Petah Tikva
+2024,Liga Leumit,3,Hapoel Ramat Gan
+2024,Liga Leumit,4,Hapoel Kfar Shalem
+2024,Liga Leumit,5,Maccabi Herzliya
+2024,Liga Leumit,6,Bnei Yehuda Tel Aviv
+2024,Liga Leumit,7,Hapoel Kfar Saba
+2024,Liga Leumit,8,Hapoel Rishon LeZion
+2024,Liga Leumit,9,Hapoel Acre
+2024,Liga Leumit,10,M.S. Kafr Qasim
+2024,Liga Leumit,11,Ironi Nir Ramat HaSharon
+2024,Liga Leumit,12,Hapoel Ra'anana
+2024,Liga Leumit,13,Maccabi Jaffa
+2024,Liga Leumit,14,Hapoel Nof HaGalil
+2024,Liga Leumit,15,Hapoel Afula
+2024,Liga Leumit,16,Hapoel Umm al-Fahm
+2024,Ligat ha'Al,1,Maccabi Tel Aviv
+2024,Ligat ha'Al,2,Hapoel Be'er Sheva
+2024,Ligat ha'Al,3,Maccabi Haifa
+2024,Ligat ha'Al,4,Beitar Jerusalem
+2024,Ligat ha'Al,5,Hapoel Haifa
+2024,Ligat ha'Al,6,Maccabi Netanya
+2024,Ligat ha'Al,7,Hapoel Jerusalem
+2024,Ligat ha'Al,8,Maccabi Bnei Reineh
+2024,Ligat ha'Al,9,Ironi Kiryat Shmona
+2024,Ligat ha'Al,10,Bnei Sakhnin
+2024,Ligat ha'Al,11,Ashdod S.C.
+2024,Ligat ha'Al,12,Ironi Tiberias
+2024,Ligat ha'Al,13,Maccabi Petah Tikva
+2024,Ligat ha'Al,14,Hapoel Hadera

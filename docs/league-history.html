@@ -1,0 +1,464 @@
+<title>The Israeli League Pyramid, 1928–2026</title>
+
+<style>
+  /* ── Tokens ────────────────────────────────────────────────────────────
+     Light palette on bare :root; dark redefines tokens only, twice, so the
+     un-stamped (system) state and the explicit toggle both resolve. */
+  :root {
+    --paper:      #F6F4EF;
+    --surface:    #FFFDF9;
+    --surface-2:  #EFEDE6;
+    --ink:        #191C1E;
+    --ink-2:      #4C5559;
+    --ink-3:      #7E878B;
+    --rule:       #DDD8CD;
+    --rule-firm:  #C3BCAE;
+    --accent:     #17565F;
+    --accent-ink: #FFFDF9;
+    --accent-bg:  #DFEBEB;
+    --alert:      #9A382D;
+    --alert-bg:   #F3E2DE;
+
+    --display: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+    --data: ui-sans-serif, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+
+    --measure: 68ch;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:      #14171A;
+      --surface:    #1B1F22;
+      --surface-2:  #23282B;
+      --ink:        #ECE9E2;
+      --ink-2:      #A8B1B4;
+      --ink-3:      #78827F;
+      --rule:       #2F3539;
+      --rule-firm:  #454D51;
+      --accent:     #82C7CE;
+      --accent-ink: #10262A;
+      --accent-bg:  #1E3337;
+      --alert:      #E0897A;
+      --alert-bg:   #33201D;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:      #14171A;
+    --surface:    #1B1F22;
+    --surface-2:  #23282B;
+    --ink:        #ECE9E2;
+    --ink-2:      #A8B1B4;
+    --ink-3:      #78827F;
+    --rule:       #2F3539;
+    --rule-firm:  #454D51;
+    --accent:     #82C7CE;
+    --accent-ink: #10262A;
+    --accent-bg:  #1E3337;
+    --alert:      #E0897A;
+    --alert-bg:   #33201D;
+  }
+
+  /* ── Base ─────────────────────────────────────────────────────────── */
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--display);
+    font-size: 17px;
+    line-height: 1.6;
+    margin: 0;
+    padding: clamp(1.5rem, 5vw, 5rem) clamp(1.1rem, 5vw, 2rem) 6rem;
+  }
+  .wrap { max-width: 78ch; margin: 0 auto; display: flex; flex-direction: column; gap: 3.5rem; }
+  p, li { max-width: var(--measure); }
+  a { color: var(--accent); text-underline-offset: 2px; }
+  a:focus-visible, summary:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px;
+  }
+
+  .eyebrow {
+    font-family: var(--data); font-size: .68rem; font-weight: 600;
+    letter-spacing: .16em; text-transform: uppercase; color: var(--ink-3);
+    margin: 0 0 .7rem;
+  }
+  h1 {
+    font-size: clamp(2.1rem, 6vw, 3.1rem); line-height: 1.08; font-weight: 400;
+    letter-spacing: -.015em; text-wrap: balance; margin: 0 0 1rem;
+  }
+  h1 em { font-style: italic; color: var(--ink-2); }
+  h2 {
+    font-size: 1.45rem; font-weight: 400; letter-spacing: -.01em;
+    text-wrap: balance; margin: 0 0 .3rem;
+    padding-bottom: .55rem; border-bottom: 1px solid var(--rule-firm);
+  }
+  h3 { font-size: 1.02rem; font-weight: 700; margin: 0 0 .2rem; }
+  .lede { font-size: 1.12rem; color: var(--ink-2); }
+
+  section { display: flex; flex-direction: column; gap: 1.1rem; }
+  .note {
+    font-family: var(--data); font-size: .84rem; line-height: 1.55;
+    color: var(--ink-2); max-width: var(--measure);
+  }
+
+  /* ── Tables ───────────────────────────────────────────────────────── */
+  .scroll {
+    overflow-x: auto;
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    background: var(--surface);
+  }
+  table {
+    border-collapse: collapse;
+    font-family: var(--data);
+    font-size: .83rem;
+    font-variant-numeric: tabular-nums;
+    width: 100%;
+  }
+  caption {
+    caption-side: top; text-align: left; font-family: var(--data);
+    font-size: .68rem; font-weight: 600; letter-spacing: .14em;
+    text-transform: uppercase; color: var(--ink-3);
+    padding: .8rem .9rem .55rem;
+  }
+  th, td { padding: .48rem .8rem; text-align: left; vertical-align: baseline; }
+  thead th {
+    font-size: .68rem; font-weight: 600; letter-spacing: .07em;
+    text-transform: uppercase; color: var(--ink-3);
+    border-bottom: 1px solid var(--rule-firm); white-space: nowrap;
+  }
+  tbody tr + tr th, tbody tr + tr td { border-top: 1px solid var(--rule); }
+  tbody th { font-weight: 700; white-space: nowrap; }
+  td.num { text-align: right; }
+
+  /* ── Tier matrix ──────────────────────────────────────────────────── */
+  .matrix td, .matrix th { white-space: nowrap; }
+  .matrix tbody th {
+    position: sticky; left: 0; background: var(--surface);
+    border-right: 1px solid var(--rule-firm);
+    font-family: var(--data); font-size: .74rem; letter-spacing: .04em;
+    text-transform: uppercase; color: var(--ink-2);
+  }
+  .matrix .gap { color: var(--ink-3); }
+  .matrix .new {
+    background: var(--accent); color: var(--accent-ink);
+    padding: .13rem .42rem; border-radius: 2px; font-weight: 600;
+  }
+  .matrix .last { box-shadow: inset 0 0 0 1px var(--alert); color: var(--alert);
+    padding: .13rem .42rem; border-radius: 2px; }
+  .legend {
+    display: flex; flex-wrap: wrap; gap: 1.2rem;
+    font-family: var(--data); font-size: .78rem; color: var(--ink-2);
+  }
+  .legend span { display: inline-flex; align-items: center; gap: .45rem; }
+  .swatch { width: .8rem; height: .8rem; border-radius: 2px; flex: none; }
+
+  /* ── Stat row ─────────────────────────────────────────────────────── */
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr)); gap: 1px;
+    background: var(--rule); border: 1px solid var(--rule); border-radius: 3px; }
+  .stat { background: var(--surface); padding: .9rem 1rem; }
+  .stat b { display: block; font-family: var(--data); font-size: 1.5rem; font-weight: 600;
+    font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
+  .stat span { font-family: var(--data); font-size: .7rem; letter-spacing: .08em;
+    text-transform: uppercase; color: var(--ink-3); }
+
+  /* ── Disruption rows ──────────────────────────────────────────────── */
+  .why { color: var(--ink-2); white-space: normal; min-width: 22ch; }
+  tr.void th { color: var(--alert); }
+  tr.void th::before { content: ""; display: inline-block; width: .45rem; height: .45rem;
+    border-radius: 50%; background: var(--alert); margin-right: .5rem; vertical-align: .05em; }
+
+  .callout {
+    background: var(--surface); border: 1px solid var(--rule);
+    border-left: 3px solid var(--accent); border-radius: 3px;
+    padding: 1.1rem 1.2rem; display: flex; flex-direction: column; gap: .6rem;
+  }
+  .callout p { margin: 0; font-size: .97rem; }
+  footer {
+    border-top: 1px solid var(--rule-firm); padding-top: 1.2rem;
+    font-family: var(--data); font-size: .78rem; color: var(--ink-3);
+  }
+  footer p { max-width: var(--measure); }
+</style>
+
+<div class="wrap">
+
+  <header>
+    <p class="eyebrow">Reference · compiled for the league-performance charts</p>
+    <h1>The Israeli league pyramid, <em>1928–2026</em></h1>
+    <p class="lede">Israel's football pyramid has been rebuilt eight times and has lost
+      thirteen championships to war, boycott and factional walkout. Both facts have to be
+      encoded in the data before a single club's chart can be drawn.</p>
+  </header>
+
+  <section>
+    <h2>Three answers up front</h2>
+    <div class="stats">
+      <div class="stat"><b>1931/32</b><span>First completed title</span></div>
+      <div class="stat"><b>5</b><span>Tiers today</span></div>
+      <div class="stat"><b>2 – 6</b><span>Tiers, historical range</span></div>
+      <div class="stat"><b>13</b><span>Seasons with no champion</span></div>
+    </div>
+    <p>The governing body was founded in <strong>1928</strong> as the Palestine Football
+      Association and ran a one-off championship that year. A league proper kicked off on
+      3 October <strong>1930</strong> but collapsed within weeks. The first championship
+      anyone finished was <strong>1931/32</strong>, won by British Police — a team of
+      Mandate policemen. The first title of the independent era was
+      <strong>1949/50</strong> (Maccabi Tel Aviv).</p>
+    <p>For charting purposes the x-axis should start at <strong>1931/32</strong>, giving
+      roughly 95 seasons, of which 13 have no standings at all.</p>
+  </section>
+
+  <section>
+    <h2>What level existed when</h2>
+    <p>Read down a column for the pyramid in that era; read across a row for one league's
+      journey. Every insertion at the top pushed everything below it down a level, which is
+      why <em>tier two</em> means Liga Alef in 1960, Liga Artzit in 1980 and Liga Leumit
+      today. This is the single most important thing for the chart: a club's tier is not a
+      property of its league name.</p>
+    <div class="legend">
+      <span><i class="swatch" style="background:var(--accent)"></i> League new to the system</span>
+      <span><i class="swatch" style="box-shadow:inset 0 0 0 1px var(--alert)"></i> Final era before it was scrapped</span>
+    </div>
+    <div class="scroll">
+      <table class="matrix">
+        <caption>Tier occupancy by era</caption>
+        <thead>
+          <tr>
+            <th scope="col">Tier</th>
+            <th scope="col">1931–48</th>
+            <th scope="col">1949/50</th>
+            <th scope="col">1951–55</th>
+            <th scope="col">1955–59</th>
+            <th scope="col">1959–69</th>
+            <th scope="col">1969–76</th>
+            <th scope="col">1976–85</th>
+            <th scope="col">1985–99</th>
+            <th scope="col">1999–2009</th>
+            <th scope="col">2009–now</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td><span class="new">Palestine League</span></td>
+            <td><span class="new">Israeli League</span></td>
+            <td>Liga Alef</td>
+            <td><span class="new">Liga Leumit</span></td>
+            <td>Liga Leumit</td>
+            <td>Liga Leumit</td>
+            <td>Liga Leumit</td>
+            <td>Liga Leumit</td>
+            <td><span class="new">Ligat ha'Al</span></td>
+            <td>Ligat ha'Al</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td class="gap">—</td>
+            <td><span class="new last">Liga Meuhedet</span></td>
+            <td><span class="new">Liga Bet</span></td>
+            <td>Liga Alef</td>
+            <td>Liga Alef</td>
+            <td>Liga Alef</td>
+            <td><span class="new">Liga Artzit</span></td>
+            <td>Liga Artzit</td>
+            <td>Liga Leumit</td>
+            <td>Liga Leumit</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td class="gap">—</td>
+            <td class="gap">—</td>
+            <td><span class="new">Liga Gimel</span></td>
+            <td>Liga Bet</td>
+            <td>Liga Bet</td>
+            <td>Liga Bet</td>
+            <td>Liga Alef</td>
+            <td>Liga Alef</td>
+            <td><span class="last">Liga Artzit</span></td>
+            <td>Liga Alef</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td class="gap">—</td>
+            <td class="gap">—</td>
+            <td class="gap">—</td>
+            <td>Liga Gimel</td>
+            <td>Liga Gimel</td>
+            <td>Liga Gimel</td>
+            <td>Liga Bet</td>
+            <td>Liga Bet</td>
+            <td>Liga Alef</td>
+            <td>Liga Bet</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td class="gap">—</td>
+            <td class="gap">—</td>
+            <td class="gap">—</td>
+            <td><span class="new">Liga Dalet</span><br><span class="note">1958/59 only</span></td>
+            <td class="gap">—</td>
+            <td>Liga Dalet</td>
+            <td>Liga Gimel</td>
+            <td>Liga Gimel</td>
+            <td>Liga Bet</td>
+            <td>Liga Gimel</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td class="gap">—</td>
+            <td class="gap">—</td>
+            <td class="gap">—</td>
+            <td class="gap">—</td>
+            <td class="gap">—</td>
+            <td class="gap">—</td>
+            <td><span class="last">Liga Dalet</span></td>
+            <td class="gap">—</td>
+            <td>Liga Gimel</td>
+            <td class="gap">—</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Liga Dalet is the awkward one: it ran for the single season 1958/59 at
+      tier five, vanished, returned in 1969/70 at tier five, was pushed to tier six by the
+      arrival of Liga Artzit in 1976, and was scrapped for good in 1985 as club numbers
+      shrank. Two cells resist clean sourcing. The pre-state second tier: the league-system
+      article puts a Liga Bet under the Palestine League from 1946, while the Liga Bet
+      article dates that league's founding to 1949. And the top flight in
+      <strong>1954/55</strong>: RSSSF heads its final table "Liga Leumit", while Wikipedia
+      keeps Liga Alef on top until 1955/56. It is tier one under either name, so the chart
+      is unaffected — but the era boundary in the data follows RSSSF, since that is where
+      the standings come from.</p>
+  </section>
+
+  <section>
+    <h2>Clubs per level, today</h2>
+    <div class="scroll">
+      <table>
+        <caption>2025/26 season · 217 clubs</caption>
+        <thead>
+          <tr><th scope="col">Tier</th><th scope="col">League</th>
+            <th scope="col">Divisions</th><th scope="col" class="num">Clubs</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">1</th><td>Ligat ha'Al</td><td>National</td><td class="num">14</td></tr>
+          <tr><th scope="row">2</th><td>Liga Leumit</td><td>National</td><td class="num">16</td></tr>
+          <tr><th scope="row">3</th><td>Liga Alef</td><td>North, South</td><td class="num">36</td></tr>
+          <tr><th scope="row">4</th><td>Liga Bet</td><td>4 regional</td><td class="num">64</td></tr>
+          <tr><th scope="row">5</th><td>Liga Gimel</td><td>8 regional</td><td class="num">87</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Tiers three and below are regional, and have been since Liga Alef split
+      north/south in 1963/64 and Liga Bet split four ways in 1959/60. A club in Liga Alef
+      finishes fifth <em>in its region</em>, not fifth in the country — so below tier two a
+      single national ranking does not exist, and the chart has to place those seasons in a
+      band rather than at an exact height.</p>
+  </section>
+
+  <section>
+    <h2>Top-flight size, season by season</h2>
+    <p>Counted directly off the final tables rather than from prose, because the chart's
+      y-axis depends on it: the top tier has ranged from 10 clubs to 18, and each change
+      moves every tier boundary below it.</p>
+    <div class="scroll">
+      <table>
+        <caption>Clubs in the top division · parsed from 73 final tables</caption>
+        <thead>
+          <tr><th scope="col">Seasons</th><th scope="col">League</th><th scope="col" class="num">Clubs</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">1949/50</th><td>Israeli League</td><td class="num">13</td></tr>
+          <tr><th scope="row">1951/52</th><td>Liga Alef</td><td class="num">12</td></tr>
+          <tr><th scope="row">1953/54</th><td>Liga Alef</td><td class="num">12</td></tr>
+          <tr><th scope="row">1954/55</th><td>Liga Leumit</td><td class="num">14</td></tr>
+          <tr><th scope="row">1955/56</th><td>Liga Leumit</td><td class="num">12</td></tr>
+          <tr><th scope="row">1956/57</th><td>Liga Leumit</td><td class="num">10</td></tr>
+          <tr><th scope="row">1957/58 – 1962/63</th><td>Liga Leumit</td><td class="num">12</td></tr>
+          <tr><th scope="row">1963/64</th><td>Liga Leumit</td><td class="num">15</td></tr>
+          <tr><th scope="row">1964/65 – 1966/68</th><td>Liga Leumit</td><td class="num">16</td></tr>
+          <tr><th scope="row">1968/69 – 1974/75</th><td>Liga Leumit</td><td class="num">16</td></tr>
+          <tr><th scope="row">1975/76</th><td>Liga Leumit</td><td class="num">18</td></tr>
+          <tr><th scope="row">1976/77</th><td>Liga Leumit</td><td class="num">16</td></tr>
+          <tr><th scope="row">1977/78</th><td>Liga Leumit</td><td class="num">14</td></tr>
+          <tr><th scope="row">1978/79 – 1986/87</th><td>Liga Leumit</td><td class="num">16</td></tr>
+          <tr><th scope="row">1987/88 – 1988/89</th><td>Liga Leumit</td><td class="num">14</td></tr>
+          <tr><th scope="row">1989/90 – 1992/93</th><td>Liga Leumit</td><td class="num">12</td></tr>
+          <tr><th scope="row">1993/94</th><td>Liga Leumit</td><td class="num">14</td></tr>
+          <tr><th scope="row">1994/95 – 1998/99</th><td>Liga Leumit</td><td class="num">16</td></tr>
+          <tr><th scope="row">1999/00</th><td>Ligat ha'Al</td><td class="num">14</td></tr>
+          <tr><th scope="row">2000/01 – 2008/09</th><td>Ligat ha'Al</td><td class="num">12</td></tr>
+          <tr><th scope="row">2009/10 – 2011/12</th><td>Ligat ha'Al</td><td class="num">16</td></tr>
+          <tr><th scope="row">2012/13 – 2025/26</th><td>Ligat ha'Al</td><td class="num">14</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Seasons with no champion</h2>
+    <p>Thirteen seasons produced no title. Eleven of them fall in the Mandate era, when the
+      league was repeatedly wrecked by political violence and by the feud between the
+      Maccabi and Hapoel sports federations, which twice withdrew their clubs en masse.</p>
+    <div class="scroll">
+      <table>
+        <caption>Abandoned, unfinished or not held</caption>
+        <thead>
+          <tr><th scope="col">Season</th><th scope="col">Status</th><th scope="col">Reason</th></tr>
+        </thead>
+        <tbody>
+          <tr class="void"><th scope="row">1930/31</th><td>Abandoned</td><td class="why">The High Commissioner ordered British clubs to stop playing Jewish clubs after violent incidents; collapsed in November, weeks after kick-off</td></tr>
+          <tr class="void"><th scope="row">1932/33</th><td>Abandoned</td><td class="why">Hapoel clubs withdrew from the Palestine FA, leaving a Maccabi-only league</td></tr>
+          <tr class="void"><th scope="row">1934/35</th><td>Abandoned</td><td class="why">Called off with Hapoel Tel Aviv leading</td></tr>
+          <tr class="void"><th scope="row">1936/37</th><td>Not held</td><td class="why">Absorbed into the 1937 championship</td></tr>
+          <tr class="void"><th scope="row">1938</th><td>Abandoned</td><td class="why">The Arab revolt; Hapoel Tel Aviv led the table when play stopped</td></tr>
+          <tr class="void"><th scope="row">1940/41</th><td>Not held</td><td class="why">Maccabi–Hapoel dispute</td></tr>
+          <tr class="void"><th scope="row">1942/43</th><td>Not held</td><td class="why">The previous season was still being played</td></tr>
+          <tr class="void"><th scope="row">1945/46</th><td>Abandoned</td><td class="why">Maccabi clubs withdrew; the Hapoel-only league was scrapped when they returned</td></tr>
+          <tr class="void"><th scope="row">1947/48</th><td>Abandoned</td><td class="why">Outbreak of the 1947–49 war. The IFA lists leaders Nordia Tel Aviv as champions</td></tr>
+          <tr class="void"><th scope="row">1948</th><td>Abandoned</td><td class="why">A substitute league, called off after a handful of matches</td></tr>
+          <tr class="void"><th scope="row">1950/51</th><td>Not held</td><td class="why">No championship contested</td></tr>
+          <tr class="void"><th scope="row">1952/53</th><td>Not held</td><td class="why">No championship contested</td></tr>
+          <tr class="void"><th scope="row">1967/68</th><td>Merged</td><td class="why">No separate season: 1966/68 was played as one championship across two years, 60 matches per club</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout">
+      <h3>The wars that did <em>not</em> stop the league</h3>
+      <p>Worth stating because it is the obvious assumption to make: the Six-Day War, the
+        Yom Kippur War and the war beginning in October 2023 all interrupted fixtures but
+        none cost a championship. 1973/74 was completed (Maccabi Netanya), and 2023/24 was
+        suspended in October and resumed (Maccabi Tel Aviv). The Six-Day War falls inside
+        the deliberate two-year 1966/68 season, which is a scheduling decision rather than
+        a cancellation. Every season from <strong>1955/56 onward has a champion</strong>.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Consequences for the chart</h2>
+    <p>Four structural facts have to be modelled rather than assumed, or the chart will be
+      quietly wrong:</p>
+    <ol>
+      <li><strong>Tier is derived, not stored.</strong> Keep <em>(season, league name,
+        position)</em> and resolve the tier from the era table above at render time.</li>
+      <li><strong>The y-axis rescales every few seasons.</strong> Cumulative rank across the
+        pyramid depends on the size of every tier above, and the top flight alone has swung
+        between 10 and 18 clubs.</li>
+      <li><strong>Thirteen columns carry no position.</strong> They need their own visual
+        treatment — hatching, as on the English charts — and must never be interpolated
+        across, especially the 1967/68 column, which is an absence of a season rather than
+        an absence of data.</li>
+      <li><strong>Below tier two there is no national rank.</strong> Regional divisions mean
+        those seasons can only be placed within a band.</li>
+    </ol>
+  </section>
+
+  <footer>
+    <p><strong>Sources.</strong> Season sizes and final positions are parsed from the
+      RSSSF Israel archive (73 top-flight final tables, 1949/50–2024/25, plus Liga Leumit
+      from 2008/09) and cross-checked against Wikipedia's champion list — all 73 champions
+      match. Structural history and the Mandate-era disruptions come from Wikipedia's
+      Israeli football league system, Liga Artzit, Liga Alef, Liga Bet, Liga Gimel and
+      Liga Dalet articles. One conflict is unresolved and flagged above; 2025/26 is not yet
+      in the RSSSF archive and is taken from Wikipedia.</p>
+  </footer>
+
+</div>

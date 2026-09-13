@@ -1,0 +1,9 @@
+# Cached third-party source pages. Regenerate with scripts/fetch.py.
+data/raw/
+
+# Generated charts
+out/
+
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,109 @@
+{
+  "_comment": [
+    "The Israeli league pyramid, era by era. A club's tier is NOT a property of its",
+    "league name: Liga Alef was tier 1, 2, 3 and 4 at different times. Resolve tier",
+    "at render time by finding the era containing the season, then the index of the",
+    "league in that era's 'tiers' array.",
+    "",
+    "'from'/'to' are the calendar years a season STARTED, inclusive. 'to': null means",
+    "the era is current. Seasons listed in 'no_champion' have no standings at all."
+  ],
+
+  "eras": [
+    {
+      "from": 1931, "to": 1948,
+      "tiers": ["Palestine League"],
+      "note": "A second tier under the Palestine League from 1946 is claimed by the league-system article but contradicted by the Liga Bet article, which dates that league to 1949. Left out until resolved."
+    },
+    { "from": 1949, "to": 1950, "tiers": ["Israeli League", "Liga Meuhedet"] },
+    { "from": 1951, "to": 1953, "tiers": ["Liga Alef", "Liga Bet", "Liga Gimel"] },
+    {
+      "from": 1954, "to": 1957,
+      "tiers": ["Liga Leumit", "Liga Alef", "Liga Bet", "Liga Gimel"],
+      "note": "Sources disagree on 1954/55: RSSSF's final table heads it 'Liga Leumit', while Wikipedia keeps Liga Alef as the top flight until 1955/56. Tier 1 either way. The boundary follows RSSSF because that is where the standings come from."
+    },
+    {
+      "from": 1958, "to": 1958,
+      "tiers": ["Liga Leumit", "Liga Alef", "Liga Bet", "Liga Gimel", "Liga Dalet"],
+      "note": "Liga Dalet's first and only season in this stint."
+    },
+    {
+      "from": 1959, "to": 1968,
+      "tiers": ["Liga Leumit", "Liga Alef", "Liga Bet", "Liga Gimel"]
+    },
+    {
+      "from": 1969, "to": 1975,
+      "tiers": ["Liga Leumit", "Liga Alef", "Liga Bet", "Liga Gimel", "Liga Dalet"]
+    },
+    {
+      "from": 1976, "to": 1984,
+      "tiers": ["Liga Leumit", "Liga Artzit", "Liga Alef", "Liga Bet", "Liga Gimel", "Liga Dalet"]
+    },
+    {
+      "from": 1985, "to": 1998,
+      "tiers": ["Liga Leumit", "Liga Artzit", "Liga Alef", "Liga Bet", "Liga Gimel"]
+    },
+    {
+      "from": 1999, "to": 2008,
+      "tiers": ["Ligat ha'Al", "Liga Leumit", "Liga Artzit", "Liga Alef", "Liga Bet", "Liga Gimel"]
+    },
+    {
+      "from": 2009, "to": null,
+      "tiers": ["Ligat ha'Al", "Liga Leumit", "Liga Alef", "Liga Bet", "Liga Gimel"]
+    }
+  ],
+
+  "regional_from": {
+    "_comment": "Season from which a league was split into parallel regional divisions, so no national ranking exists below this point.",
+    "Liga Alef": 1963,
+    "Liga Bet": 1959,
+    "Liga Gimel": 1951,
+    "Liga Dalet": 1958
+  },
+
+  "top_flight_size": {
+    "_comment": "Clubs in the top division, keyed by the year the season started. Parsed from the final tables in data/seasons.csv, not from prose. Absent years are in no_champion.",
+    "1949": 13, "1951": 12, "1953": 12, "1954": 14, "1955": 12, "1956": 10,
+    "1957": 12, "1958": 12, "1959": 12, "1960": 12, "1961": 12, "1962": 12,
+    "1963": 15, "1964": 16, "1965": 16, "1966": 16,
+    "1968": 16, "1969": 16, "1970": 16, "1971": 16, "1972": 16, "1973": 16,
+    "1974": 16, "1975": 18, "1976": 16, "1977": 14, "1978": 16, "1979": 16,
+    "1980": 16, "1981": 16, "1982": 16, "1983": 16, "1984": 16, "1985": 16,
+    "1986": 16, "1987": 14, "1988": 14, "1989": 12, "1990": 12, "1991": 12,
+    "1992": 12, "1993": 14, "1994": 16, "1995": 16, "1996": 16, "1997": 16,
+    "1998": 16, "1999": 14, "2000": 12, "2001": 12, "2002": 12, "2003": 12,
+    "2004": 12, "2005": 12, "2006": 12, "2007": 12, "2008": 12, "2009": 16,
+    "2010": 16, "2011": 16, "2012": 14, "2013": 14, "2014": 14, "2015": 14,
+    "2016": 14, "2017": 14, "2018": 14, "2019": 14, "2020": 14, "2021": 14,
+    "2022": 14, "2023": 14, "2024": 14, "2025": 14
+  },
+
+  "no_champion": [
+    { "season": "1930/31", "start": 1930, "status": "abandoned",
+      "reason": "British clubs ordered to stop playing Jewish clubs; collapsed in November" },
+    { "season": "1932/33", "start": 1932, "status": "abandoned",
+      "reason": "Hapoel clubs withdrew from the Palestine FA" },
+    { "season": "1934/35", "start": 1934, "status": "abandoned",
+      "reason": "Called off with Hapoel Tel Aviv leading" },
+    { "season": "1936/37", "start": 1936, "status": "not held",
+      "reason": "Absorbed into the 1937 championship" },
+    { "season": "1938", "start": 1938, "status": "abandoned",
+      "reason": "The Arab revolt" },
+    { "season": "1940/41", "start": 1940, "status": "not held",
+      "reason": "Maccabi-Hapoel dispute" },
+    { "season": "1942/43", "start": 1942, "status": "not held",
+      "reason": "The previous season was still being played" },
+    { "season": "1945/46", "start": 1945, "status": "abandoned",
+      "reason": "Maccabi clubs withdrew; the Hapoel-only league was scrapped on their return" },
+    { "season": "1947/48", "start": 1947, "status": "abandoned",
+      "reason": "Outbreak of the 1947-49 war; the IFA lists leaders Nordia Tel Aviv as champions" },
+    { "season": "1948", "start": 1948, "status": "abandoned",
+      "reason": "A substitute league, called off after a handful of matches" },
+    { "season": "1950/51", "start": 1950, "status": "not held",
+      "reason": "No championship contested" },
+    { "season": "1952/53", "start": 1952, "status": "not held",
+      "reason": "No championship contested" },
+    { "season": "1967/68", "start": 1967, "status": "merged",
+      "reason": "No separate season: 1966/68 was played as one championship over two years" }
+  ]
+}
