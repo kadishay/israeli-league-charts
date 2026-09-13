@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Turn the cached RSSSF pages into data/seasons.csv.
+"""Turn the cached RSSSF pages into data/seasons_rsssf.csv.
+
+scripts/build.py merges this with the Hebrew Wikipedia rows into data/seasons.csv.
 
 Output columns: season_start,league,position,club
   season_start  the calendar year the season began (1966/68 is recorded as 1966)
@@ -20,7 +22,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw"
-OUT = ROOT / "data" / "seasons.csv"
+OUT = ROOT / "data" / "seasons_rsssf.csv"
 
 # A standings row.  The club name runs up to the games-played column, which is
 # not always separated by whitespace ("Hapoel Ironi Rishon-Lezion39  10  13").
@@ -106,7 +108,22 @@ def standings(blocks: list[list[tuple[int, str]]], year: int, league: str) -> li
     return [club for _, club in order]
 
 
-def parse_hist(path: Path) -> list[tuple[int, str, int, str]]:
+def label_of(year: int, second: str) -> str:
+    """Season label, e.g. 1966/1968 for the two-year season, else 1966/1967.
+
+    The start year alone is not a key: the 1940 season was played and 1940/1941
+    was not, and both start in 1940.
+    """
+    if len(second) == 4:
+        end = int(second)
+    else:
+        end = year - year % 100 + int(second)
+        if end < year:          # "1999/00" ends in 2000, not 1900
+            end += 100
+    return f"{year}/{end}"
+
+
+def parse_hist(path: Path) -> list[tuple[int, str, str, int, str]]:
     """Top flight 1949/50 - 2007/08 from the single combined page."""
     lines = text_of(path.read_text(encoding="latin-1")).split("\n")
     starts = [(i, m) for i, line in enumerate(lines) if (m := HIST_HEADER.match(line.strip()))]
@@ -115,16 +132,18 @@ def parse_hist(path: Path) -> list[tuple[int, str, int, str]]:
         end = starts[n + 1][0] if n + 1 < len(starts) else len(lines)
         league = LEAGUE_NAMES[m.group(1).lower()]
         year = int(m.group(2))
+        label = label_of(year, m.group(3))
         # A promotion/relegation play-off table sits inside the season's block
         # and is not part of the league standings.  Anchored to the line start
         # so it does not match the "play-off" annotation on a standings row.
         block = PLAYOFF_HEADER.split("\n".join(lines[i:end]))[0]
         if table := standings([rows_from(block)], year, league):
-            out += [(year, league, pos, club) for pos, club in enumerate(table, start=1)]
+            out += [(year, label, league, pos, club)
+                    for pos, club in enumerate(table, start=1)]
     return out
 
 
-def parse_season(path: Path, year: int) -> list[tuple[int, str, int, str]]:
+def parse_season(path: Path, year: int) -> list[tuple[int, str, str, int, str]]:
     """One season page (2008/09 onwards), covering every tier it documents.
 
     Sections are delimited by bare heading lines.  Some pages wrap those in
@@ -154,8 +173,9 @@ def parse_season(path: Path, year: int) -> list[tuple[int, str, int, str]]:
         if not any(blocks):  # no playoff that season: single regular-stage table
             blocks = [rows_from(b) for b in sec.split("Final Table:")[1:]]
         if table := standings(blocks, year, league):
-            out += [(year, league, pos, club) for pos, club in enumerate(table, start=1)]
-    if not any(r[1] == "Ligat ha'Al" for r in out):
+            out += [(year, f"{year}/{year + 1}", league, pos, club)
+                    for pos, club in enumerate(table, start=1)]
+    if not any(r[2] == "Ligat ha'Al" for r in out):
         raise SystemExit(f"{year}: no top-flight table found in {path.name}")
     return out
 
@@ -174,17 +194,18 @@ def main() -> None:
             unknown.add(key)
         return aliases.get(key, key)
 
-    rows = [(y, lg, p, canon(c)) for y, lg, p, c in rows]
-    rows.sort(key=lambda r: (r[0], r[1], r[2]))
+    rows = [(y, lab, lg, p, canon(c)) for y, lab, lg, p, c in rows]
+    rows.sort(key=lambda r: (r[0], r[2], r[3]))
 
     with OUT.open("w", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["season_start", "league", "position", "club"])
-        w.writerows(rows)
+        w.writerow(["season", "season_start", "league", "division", "position", "club"])
+        # RSSSF only documents national tables, so the division column is always empty.
+        w.writerows((lab, y, lg, "", p, c) for y, lab, lg, p, c in rows)
 
     seasons = sorted({r[0] for r in rows})
     print(f"{len(rows)} rows, {len(seasons)} seasons ({seasons[0]}-{seasons[-1]}), "
-          f"{len({r[3] for r in rows})} clubs -> {OUT}")
+          f"{len({r[4] for r in rows})} clubs -> {OUT}")
     if SKIPPED:
         print(f"\nskipped {len(SKIPPED)} league-seasons: {', '.join(sorted(SKIPPED))}")
     if DISCREPANCIES:

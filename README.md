@@ -9,16 +9,37 @@ data, updated by hand each May. This repo generates them instead.
 
 ## Status
 
-Research and the data pipeline are done. The renderer is not written yet.
+Working end to end. `out/` holds charts for the 32 clubs with the most top-flight
+seasons, in English and Hebrew, plus `out/index.html` and `out/index.he.html` to view
+them together.
+
+```sh
+python3 scripts/fetch.py      # cache the RSSSF pages
+python3 scripts/fetch_he.py   # cache the Hebrew Wikipedia season articles
+python3 scripts/fetch_en.py   # cache the English Wikipedia season articles
+python3 scripts/parse.py      # RSSSF    -> data/seasons_rsssf.csv
+python3 scripts/parse_he.py   # Hebrew   -> data/seasons_he.csv
+python3 scripts/parse_en.py   # English  -> data/seasons_en.csv
+python3 scripts/build.py      # merge    -> data/seasons.csv
+python3 scripts/render.py     # charts   -> out/*.svg + the two gallery pages
+```
+
+`render.py` takes club names to render specific clubs, or `--top N` to change how many.
+
+Bands are labelled **TIER 1 … TIER 4** and never by league name, because the names
+move: "Liga Alef" on a 1960 column and on a 2015 column are different depths.
 
 | | |
 |---|---|
 | `docs/league-history.html` | Written history of the pyramid: what tier existed when, clubs per level, the 10 seasons with no champion. Read this first. |
 | `data/structure.json` | The same history, machine-readable. Era table, per-season top-flight sizes, gap seasons, district-league seasons. |
-| `data/seasons.csv` | 1,314 rows — `season_start,league,position,club`. 73 seasons, 71 clubs. |
-| `data/aliases.json` | Source spelling → canonical club name, merging renames and mergers into one lineage. |
-| `scripts/fetch.py` | Caches the RSSSF source pages into `data/raw/` (gitignored). |
-| `scripts/parse.py` | `data/raw/` → `data/seasons.csv`. |
+| `data/seasons_index.json` | Every season slot, in order, with whether it was played — the x-axis, built from the Hebrew Wikipedia navboxes. |
+| `data/seasons.csv` | 10,055 rows — `season,season_start,league,division,position,club`. 86 seasons, 1,049 clubs, tiers 1–6. |
+| `data/aliases*.json` | Source spelling → canonical club name, merging renames and mergers into one lineage. One file per source. |
+| `scripts/fetch*.py` | Cache the sources into `data/raw/` (gitignored). |
+| `scripts/parse*.py` | Raw pages → one CSV per source. |
+| `scripts/build.py` | Merge the sources, checking every row against `structure.json`. |
+| `scripts/render.py` | `data/seasons.csv` → one SVG per club, plus the gallery page. |
 
 ## The thing to get right
 
@@ -45,42 +66,88 @@ Three more consequences, spelled out in `docs/league-history.html`:
 
 ## Data coverage
 
-| Tier | Covered |
-|---|---|
-| 1 | 1949/50 – 2024/25, complete |
-| 2 | 2008/09 – 2024/25 |
-| 3 | 2008/09 only |
+| Tier | Covered | Source |
+|---|---|---|
+| 1 | 1931/32 – 2025/26 | English Wikipedia to 1946/47, RSSSF 1949/50–2024/25, Hebrew Wikipedia for 2025/26 |
+| 2 | 1955/56 – 2025/26, complete | Hebrew Wikipedia to 2007/08, RSSSF from 2008/09 |
+| 3 | 1951/52 – 2023/24 | English Wikipedia (Liga Artzit 1976–2009, Liga Alef otherwise) |
+| 4 | 1941 – 2019/20 | English Wikipedia |
+| 5–6 | scattered | English Wikipedia |
 
-All 73 parsed champions match Wikipedia's champion list.
+All 73 champions in the RSSSF range match Wikipedia's champion list, and every row is
+checked against `structure.json` — its league must exist at that tier in that season, and
+the season must not be one that was never played.
 
-**Known gap:** pre-2008 lower tiers are not in any bulk source found so far. RSSSF has only
-1998/99 and 2000/01 at second level, and neither English nor Hebrew Wikipedia carries
-per-club season tables. That leaves roughly 110 gap seasons across a dozen major clubs
-(Hapoel Kfar Saba 19, Hapoel Haifa 14, Beitar Jerusalem 14 — Maccabi Tel Aviv 0, never
-relegated). Filling them needs per-season Hebrew Wikipedia articles or hand entry.
+Below tier two nearly everything is regional, so those positions are ranks within a
+district, not national ones. The chart marks them with a dashed line: the depth is real,
+the basis of the rank is not comparable.
+
+Three deliberate scope limits:
+
+- **Tier 2 starts at 1955/56.** Before that the second tier was a set of district leagues —
+  five regional groups of 45 clubs in 1949/50 — with no national ranking, and the navbox
+  groups 1953/54 and 1954/55 there too, which contradicts the era boundary `structure.json`
+  draws from RSSSF. Half-modelling that seemed worse than leaving it out.
+- **Only tiers 1–4 get a band.** Tier 5 and below share the floor of the chart; the data is
+  there in `seasons.csv` if you want to draw them.
+- **2026/27 is excluded.** It is in progress, and a chart must not show a current partial
+  position as a final one.
+
+**Minor clubs may appear under a source-specific spelling.** The alias files merge the
+lineages that matter, and `parse_en.py` reports what is still unmapped, but roughly 900
+lower-tier club names are left as English Wikipedia spells them. Their rows are kept rather
+than dropped, because dropping them would understate a division's size and shift every
+position below the missing club.
 
 Source conflicts are flagged rather than papered over. English and Hebrew Wikipedia disagree
 on whether 1934/35, 1938, 1942/43 and 1944/45 produced champions — the IFA has repeatedly
 re-recognised Mandate-era titles, most recently restoring Maccabi Tel Aviv's 1939 title on
-26 May 2024. `structure.json` follows the Hebrew navbox and records both readings. Still
-open: whether the 1954/55 top flight was called Liga Alef or Liga Leumit (tier 1 either way).
+26 May 2024. `structure.json`'s no-champion list follows the Hebrew navbox, while the
+Mandate-era *standings* come from English Wikipedia, so title counts before 1949 follow the
+English convention: the charts give Hapoel Tel Aviv 13 championships where a Hebrew source
+would say 14. Also still open: whether the 1954/55 top flight was called Liga Alef or Liga
+Leumit (tier 1 either way).
 
-## Usage
+An abandoned season can still have a partial table on Wikipedia — 1947/48 does. Those rows
+are dropped and the season is left as a gap, because a partial table is not a final
+position. `build.py` reports the drop.
 
-```sh
-python3 scripts/fetch.py    # cache source pages
-python3 scripts/parse.py    # rebuild data/seasons.csv
-```
+## Notes on the parsers
 
-`parse.py` asserts that each league-season's positions form a contiguous `1..N`. That
-invariant is what catches format surprises — it found a genuine RSSSF typo in 2021/22 Liga
-Leumit, which skips position 13 and prints 16 twice. Positions are therefore taken from row
-order, with the printed numbers used only to order playoff groups; any disagreement between
-the two is reported on stdout.
+The parsers assert that each league-season's positions form a contiguous `1..N`, and
+`build.py` asserts every row against the era table and the season index. Those invariants
+caught every format surprise in this repo, and four real bugs:
+
+- A genuine RSSSF typo in 2021/22 Liga Leumit, which skips position 13 and prints 16 twice.
+  Positions are therefore taken from row order, with the printed numbers used only to order
+  playoff groups; any disagreement is reported on stdout.
+- In the Hebrew tables, a row separator carries its own attributes on the same line
+  (`|- bgcolor="ccffcc"`). Reading those as the row's first cell silently dropped exactly
+  the coloured rows — the promoted and relegated ones — which cost about 266 rows. The
+  contiguity check is what surfaced it; without it the survivors were being renumbered from
+  1, which produces plausible-looking but wrong positions rather than an error.
+
+- **A season's start year is not a unique key.** The 1940 season was played and 1940/1941
+  was not, and both start in 1940 — so rows carry a season *label* and the merge keys on it.
+  Keying on the year made an abandoned season collide with a played one.
+- A century-arithmetic slip turned RSSSF's "1999/00" into the label `1999/1900`, which the
+  season-index check caught as a column that does not exist.
+
+A season may be one national table, two sequential playoff groups (upper 1–8, then lower
+9–14), or two parallel regional groups (North 1–16, South 1–16). The two are told apart by
+whether a second group starts at 1: if it does they are regions and each keeps its own
+numbering in the `division` column; if it continues the first they are one table split by a
+playoff and merge in order.
+
+A championship is a *national* first place. A regional season has a winner per district, so
+counting every first place inflated the title counts until the check against the known
+champion list caught it.
 
 ## Sources
 
 - [RSSSF Israel archive](https://www.rsssf.org/tablesi/israhist.html) — final tables.
+- English Wikipedia season articles for tiers 3–6 and the Mandate-era top flight; they use
+  the sports-table module, so standings are template parameters rather than a table.
 - Hebrew Wikipedia for the Mandate era, where it is substantially better than English:
   [ליגת ארץ ישראל](https://he.wikipedia.org/wiki/ליגת_ארץ_ישראל_בכדורגל) and its per-season
   articles. The season navbox (עונות בליגה העליונה בישראל) is the authority for which

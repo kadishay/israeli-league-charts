@@ -1,8 +1,10 @@
 # Cached third-party source pages. Regenerate with scripts/fetch.py.
 data/raw/
 
-# Generated charts
-out/
+# Generated charts are committed: they are the point of the repo, and
+# out/index.html needs the sibling SVGs to resolve. The two gallery-body files
+# are fragments for publishing only.
+out/gallery-body.*.html
 
 __pycache__/
 *.pyc

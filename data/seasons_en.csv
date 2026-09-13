@@ -240,19 +240,52 @@ season,season_start,league,division,position,club
 1946/1947,1946,Liga Bet,South,7,Hapoel Ra'anana
 1946/1947,1946,Liga Bet,South,8,Beitar Ramat Gan
 1946/1947,1946,Liga Bet,South,9,Dan Tel Aviv
-1949/1950,1949,Israeli League,,1,Maccabi Tel Aviv
-1949/1950,1949,Israeli League,,2,Hapoel Tel Aviv
-1949/1950,1949,Israeli League,,3,Hapoel Haifa
-1949/1950,1949,Israeli League,,4,Hapoel Petah Tikva
-1949/1950,1949,Israeli League,,5,Maccabi Petah Tikva
-1949/1950,1949,Israeli League,,6,Beitar Tel Aviv
-1949/1950,1949,Israeli League,,7,Maccabi Haifa
-1949/1950,1949,Israeli League,,8,Maccabi Rehovot
-1949/1950,1949,Israeli League,,9,Maccabi Netanya
-1949/1950,1949,Israeli League,,10,Hapoel Ramat Gan
-1949/1950,1949,Israeli League,,11,Hapoel Rishon LeZion
-1949/1950,1949,Israeli League,,12,Maccabi Rishon LeZion
-1949/1950,1949,Israeli League,,13,Maccabi Nes Ziona
+1947/1948,1947,Eretz Israel League,League table (as of 17 April 1948),1,Beitar Tel Aviv
+1947/1948,1947,Eretz Israel League,League table (as of 17 April 1948),2,Maccabi Tel Aviv
+1947/1948,1947,Eretz Israel League,League table (as of 17 April 1948),3,Hapoel Tel Aviv
+1947/1948,1947,Eretz Israel League,League table (as of 17 April 1948),4,Hapoel Petah Tikva
+1947/1948,1947,Eretz Israel League,League table (as of 17 April 1948),5,Maccabi Petah Tikva
+1947/1948,1947,Eretz Israel League,League table (as of 17 April 1948),6,Hapoel Ramat Gan
+1947/1948,1947,Eretz Israel League,League table (as of 17 April 1948),7,Hapoel HaTzafon Tel Aviv
+1947/1948,1947,Eretz Israel League,League table (as of 3 January 1948),1,Beitar Tel Aviv
+1947/1948,1947,Eretz Israel League,League table (as of 3 January 1948),2,Maccabi Tel Aviv
+1947/1948,1947,Eretz Israel League,League table (as of 3 January 1948),3,Hapoel Tel Aviv
+1947/1948,1947,Eretz Israel League,League table (as of 3 January 1948),4,Maccabi Rehovot
+1947/1948,1947,Eretz Israel League,League table (as of 3 January 1948),5,Hapoel Petah Tikva
+1947/1948,1947,Eretz Israel League,League table (as of 3 January 1948),6,Maccabi Petah Tikva
+1947/1948,1947,Eretz Israel League,League table (as of 3 January 1948),7,Hapoel Haifa
+1947/1948,1947,Eretz Israel League,League table (as of 3 January 1948),8,Hapoel Ramat Gan
+1947/1948,1947,Eretz Israel League,League table (as of 3 January 1948),9,Hapoel Rishon LeZion
+1947/1948,1947,Eretz Israel League,League table (as of 3 January 1948),10,Maccabi Netanya
+1947/1948,1947,Eretz Israel League,League table (as of 3 January 1948),11,Maccabi Haifa
+1947/1948,1947,Eretz Israel League,League table (as of 3 January 1948),12,Maccabi Rishon LeZion
+1947/1948,1947,Eretz Israel League,League table (as of 3 January 1948),13,Maccabi Nes Ziona
+1947/1948,1947,Eretz Israel League,League table (as of 3 January 1948),14,Hapoel HaTzafon Tel Aviv
+1947/1948,1947,Liga Bet,North,1,Hapoel Hadera
+1947/1948,1947,Liga Bet,North,2,Maccabi Zichron Ya'akov
+1947/1948,1947,Liga Bet,North,3,Hapoel Netanya
+1947/1948,1947,Liga Bet,North,4,Hakoah Haifa
+1947/1948,1947,Liga Bet,North,5,Hapoel Kiryat Haim
+1947/1948,1947,Liga Bet,North,6,Maccabi Hadera
+1947/1948,1947,Liga Bet,North,7,Sport Club Atlit
+1947/1948,1947,Liga Bet,North,8,Hapoel Balfouria
+1947/1948,1947,Liga Bet,North,9,Hapoel Kiryat Ata
+1947/1948,1947,Liga Bet,North,10,Degel Yehuda Haifa
+1947/1948,1947,Liga Bet,North,11,Hapoel Dror Haifa
+1947/1948,1947,Liga Bet,North,12,Brit Poalei Eretz Yisrael Haifa
+1947/1948,1947,Liga Bet,North,13,Beitar Netanya
+1947/1948,1947,Liga Bet,South,1,Maccabi Ramat Gan
+1947/1948,1947,Liga Bet,South,2,Beitar Jerusalem
+1947/1948,1947,Liga Bet,South,3,Hakoah Tel Aviv
+1947/1948,1947,Liga Bet,South,4,Degel Zion Tel Aviv
+1947/1948,1947,Liga Bet,South,5,Hapoel Rehovot
+1947/1948,1947,Liga Bet,South,6,Hapoel Jerusalem
+1947/1948,1947,Liga Bet,South,7,Hapoel Kfar Saba
+1947/1948,1947,Liga Bet,South,8,Maccabi HaTzafon Tel Aviv
+1947/1948,1947,Liga Bet,South,9,Dan Bus Company
+1947/1948,1947,Liga Bet,South,10,Hapoel Ra'anana
+1947/1948,1947,Liga Bet,South,11,Hapoel Ironi Herzliya
+1947/1948,1947,Liga Bet,South,12,Maccabi Gedera
 1951/1952,1951,Liga Alef,,1,Maccabi Tel Aviv
 1951/1952,1951,Liga Alef,,2,Maccabi Petah Tikva
 1951/1952,1951,Liga Alef,,3,Hapoel Haifa
@@ -302,7 +335,7 @@ season,season_start,league,division,position,club
 1953/1954,1953,Liga Alef,,9,Hapoel Haifa
 1953/1954,1953,Liga Alef,,10,Hapoel Kfar Saba
 1953/1954,1953,Liga Alef,,11,Beitar Tel Aviv
-1953/1954,1953,Liga Alef,,12,Hapoel Balfuria
+1953/1954,1953,Liga Alef,,12,Hapoel Balfouria
 1953/1954,1953,Liga Bet,North,1,Hapoel Hadera
 1953/1954,1953,Liga Bet,North,2,Hapoel Kiryat Haim
 1953/1954,1953,Liga Bet,North,3,Sport Club Atlit
@@ -436,32 +469,18 @@ season,season_start,league,division,position,club
 1954/1955,1954,Liga Gimel,Sharon,12,Hapoel Beit Dagan
 1954/1955,1954,Liga Gimel,Sharon,13,Maccabi Hod HaSharon
 1954/1955,1954,Liga Gimel,Sharon,14,Maccabi Yehud
-1954/1955,1954,Liga Leumit,,1,Hapoel Petah Tikva
-1954/1955,1954,Liga Leumit,,2,Maccabi Tel Aviv
-1954/1955,1954,Liga Leumit,,3,Hapoel Tel Aviv
-1954/1955,1954,Liga Leumit,,4,Maccabi Netanya
-1954/1955,1954,Liga Leumit,,5,Beitar Tel Aviv
-1954/1955,1954,Liga Leumit,,6,Maccabi Haifa
-1954/1955,1954,Liga Leumit,,7,Maccabi Petah Tikva
-1954/1955,1954,Liga Leumit,,8,Maccabi Rehovot
-1954/1955,1954,Liga Leumit,,9,Hapoel Haifa
-1954/1955,1954,Liga Leumit,,10,Hapoel Ramat Gan
-1954/1955,1954,Liga Leumit,,11,Beitar Jerusalem
-1954/1955,1954,Liga Leumit,,12,Hapoel Kfar Saba
-1954/1955,1954,Liga Leumit,,13,Hapoel Hadera
-1954/1955,1954,Liga Leumit,,14,Hapoel Balfuria
 1955/1956,1955,Liga Alef,,1,Hakoah Tel Aviv
 1955/1956,1955,Liga Alef,,2,Hapoel Kiryat Haim
 1955/1956,1955,Liga Alef,,3,Hapoel Jerusalem
-1955/1956,1955,Liga Alef,,4,Hapoel Nahariya
-1955/1956,1955,Liga Alef,,5,Hapoel Rehovot
+1955/1956,1955,Liga Alef,,4,Hapoel Rehovot
+1955/1956,1955,Liga Alef,,5,Hapoel Nahariya
 1955/1956,1955,Liga Alef,,6,Hapoel Mahane Yehuda
 1955/1956,1955,Liga Alef,,7,Hapoel Hadera
 1955/1956,1955,Liga Alef,,8,Maccabi Ramat Gan
 1955/1956,1955,Liga Alef,,9,Ahva Notzrit Haifa
 1955/1956,1955,Liga Alef,,10,Beitar Jerusalem
 1955/1956,1955,Liga Alef,,11,Hapoel Ra'anana
-1955/1956,1955,Liga Alef,,12,Hapoel Balfuria
+1955/1956,1955,Liga Alef,,12,Hapoel Balfouria
 1955/1956,1955,Liga Bet,North,1,Maccabi Hadera
 1955/1956,1955,Liga Bet,North,2,Hapoel Beit Lid
 1955/1956,1955,Liga Bet,North,3,Hapoel Netanya
@@ -558,18 +577,6 @@ season,season_start,league,division,position,club
 1955/1956,1955,Liga Gimel,Western Galilee,6,Hapoel Doveh Beit HaEmek
 1955/1956,1955,Liga Gimel,Western Galilee,7,Hapoel Yehiam Kabri
 1955/1956,1955,Liga Gimel,Western Galilee,8,Hapoel Matzuva Hanita
-1955/1956,1955,Liga Leumit,,1,Maccabi Tel Aviv
-1955/1956,1955,Liga Leumit,,2,Hapoel Petah Tikva
-1955/1956,1955,Liga Leumit,,3,Hapoel Tel Aviv
-1955/1956,1955,Liga Leumit,,4,Maccabi Petah Tikva
-1955/1956,1955,Liga Leumit,,5,Maccabi Haifa
-1955/1956,1955,Liga Leumit,,6,Hapoel Haifa
-1955/1956,1955,Liga Leumit,,7,Beitar Tel Aviv
-1955/1956,1955,Liga Leumit,,8,Maccabi Netanya
-1955/1956,1955,Liga Leumit,,9,Hapoel Ramat Gan
-1955/1956,1955,Liga Leumit,,10,Maccabi Jaffa
-1955/1956,1955,Liga Leumit,,11,Maccabi Rehovot
-1955/1956,1955,Liga Leumit,,12,Hapoel Kfar Saba
 1956/1957,1956,Liga Alef,,1,Hapoel Kfar Saba
 1956/1957,1956,Liga Alef,,2,Maccabi Rehovot
 1956/1957,1956,Liga Alef,,3,Hapoel Jerusalem
@@ -578,8 +585,8 @@ season,season_start,league,division,position,club
 1956/1957,1956,Liga Alef,,6,Beitar Jerusalem
 1956/1957,1956,Liga Alef,,7,Hapoel Mahane Yehuda
 1956/1957,1956,Liga Alef,,8,Hapoel Kiryat Haim
-1956/1957,1956,Liga Alef,,9,Maccabi Sha'arayim
-1956/1957,1956,Liga Alef,,10,Hapoel Rehovot
+1956/1957,1956,Liga Alef,,9,Hapoel Rehovot
+1956/1957,1956,Liga Alef,,10,Maccabi Sha'arayim
 1956/1957,1956,Liga Alef,,11,Hapoel Nahariya
 1956/1957,1956,Liga Alef,,12,Maccabi Ramat Gan
 1956/1957,1956,Liga Bet,North,1,Hapoel Balfouria
@@ -607,16 +614,6 @@ season,season_start,league,division,position,club
 1956/1957,1956,Liga Bet,South,11,Beitar Mahane Yehuda
 1956/1957,1956,Liga Bet,South,12,Hapoel HaMegabesh Rishon LeZion
 1956/1957,1956,Liga Bet,South,13,Hapoel Mefalsim Sha'ar HaNegev
-1956/1957,1956,Liga Leumit,,1,Hapoel Tel Aviv
-1956/1957,1956,Liga Leumit,,2,Hapoel Petah Tikva
-1956/1957,1956,Liga Leumit,,3,Maccabi Tel Aviv
-1956/1957,1956,Liga Leumit,,4,Maccabi Petah Tikva
-1956/1957,1956,Liga Leumit,,5,Maccabi Haifa
-1956/1957,1956,Liga Leumit,,6,Beitar Tel Aviv
-1956/1957,1956,Liga Leumit,,7,Maccabi Netanya
-1956/1957,1956,Liga Leumit,,8,Hapoel Haifa
-1956/1957,1956,Liga Leumit,,9,Hapoel Ramat Gan
-1956/1957,1956,Liga Leumit,,10,Maccabi Jaffa
 1957/1958,1957,Liga Alef,,1,Beitar Jerusalem
 1957/1958,1957,Liga Alef,,2,Bnei Yehuda Tel Aviv
 1957/1958,1957,Liga Alef,,3,Hapoel Mahane Yehuda
@@ -653,18 +650,6 @@ season,season_start,league,division,position,club
 1957/1958,1957,Liga Bet,South,10,Hapoel Ra'anana
 1957/1958,1957,Liga Bet,South,11,Beitar Mahane Yehuda
 1957/1958,1957,Liga Bet,South,12,Beitar Jaffa
-1957/1958,1957,Liga Leumit,,1,Maccabi Tel Aviv
-1957/1958,1957,Liga Leumit,,2,Hapoel Petah Tikva
-1957/1958,1957,Liga Leumit,,3,Maccabi Haifa
-1957/1958,1957,Liga Leumit,,4,Maccabi Netanya
-1957/1958,1957,Liga Leumit,,5,Hapoel Tel Aviv
-1957/1958,1957,Liga Leumit,,6,Hapoel Ramat Gan
-1957/1958,1957,Liga Leumit,,7,Hapoel Haifa
-1957/1958,1957,Liga Leumit,,8,Maccabi Jaffa
-1957/1958,1957,Liga Leumit,,9,Beitar Tel Aviv
-1957/1958,1957,Liga Leumit,,10,Hapoel Jerusalem
-1957/1958,1957,Liga Leumit,,11,Maccabi Petah Tikva
-1957/1958,1957,Liga Leumit,,12,Hapoel Kfar Saba
 1958/1959,1958,Liga Alef,,1,Bnei Yehuda Tel Aviv
 1958/1959,1958,Liga Alef,,2,Hapoel Kiryat Haim
 1958/1959,1958,Liga Alef,,3,Hakoah Tel Aviv
@@ -701,18 +686,6 @@ season,season_start,league,division,position,club
 1958/1959,1958,Liga Bet,South,10,Hapoel Kiryat Ono
 1958/1959,1958,Liga Bet,South,11,Beitar Jaffa
 1958/1959,1958,Liga Bet,South,12,Beitar Mahane Yehuda
-1958/1959,1958,Liga Leumit,,1,Hapoel Petah Tikva
-1958/1959,1958,Liga Leumit,,2,Hapoel Haifa
-1958/1959,1958,Liga Leumit,,3,Maccabi Tel Aviv
-1958/1959,1958,Liga Leumit,,4,Maccabi Haifa
-1958/1959,1958,Liga Leumit,,5,Maccabi Jaffa
-1958/1959,1958,Liga Leumit,,6,Maccabi Petah Tikva
-1958/1959,1958,Liga Leumit,,7,Hapoel Tel Aviv
-1958/1959,1958,Liga Leumit,,8,Hapoel Ramat Gan
-1958/1959,1958,Liga Leumit,,9,Maccabi Netanya
-1958/1959,1958,Liga Leumit,,10,Hapoel Jerusalem
-1958/1959,1958,Liga Leumit,,11,Beitar Tel Aviv
-1958/1959,1958,Liga Leumit,,12,Hapoel Kfar Saba
 1959/1960,1959,Liga Alef,,1,Shimshon Tel Aviv
 1959/1960,1959,Liga Alef,,2,Hapoel Tiberias
 1959/1960,1959,Liga Alef,,3,Hakoah Tel Aviv
@@ -790,18 +763,6 @@ season,season_start,league,division,position,club
 1959/1960,1959,Liga Bet,South Division B,14,Hapoel Gedera
 1959/1960,1959,Liga Bet,South Division B,15,Hapoel Shmuel Be'er Sheva
 1959/1960,1959,Liga Bet,South Division B,16,Hapoel Kiryat Malakhi
-1959/1960,1959,Liga Leumit,,1,Hapoel Petah Tikva
-1959/1960,1959,Liga Leumit,,2,Maccabi Tel Aviv
-1959/1960,1959,Liga Leumit,,3,Hapoel Haifa
-1959/1960,1959,Liga Leumit,,4,Hapoel Jerusalem
-1959/1960,1959,Liga Leumit,,5,Maccabi Haifa
-1959/1960,1959,Liga Leumit,,6,Hapoel Tel Aviv
-1959/1960,1959,Liga Leumit,,7,Bnei Yehuda Tel Aviv
-1959/1960,1959,Liga Leumit,,8,Maccabi Netanya
-1959/1960,1959,Liga Leumit,,9,Maccabi Petah Tikva
-1959/1960,1959,Liga Leumit,,10,Beitar Tel Aviv
-1959/1960,1959,Liga Leumit,,11,Maccabi Jaffa
-1959/1960,1959,Liga Leumit,,12,Hapoel Ramat Gan
 1960/1961,1960,Liga Alef,,1,Hapoel Tiberias
 1960/1961,1960,Liga Alef,,2,Hakoah Tel Aviv
 1960/1961,1960,Liga Alef,,3,Maccabi Sha'arayim
@@ -880,18 +841,6 @@ season,season_start,league,division,position,club
 1960/1961,1960,Liga Bet,South Division B,14,Hapoel Marmorek
 1960/1961,1960,Liga Bet,South Division B,15,Maccabi Gedera
 1960/1961,1960,Liga Bet,South Division B,16,Hapoel Gedera
-1960/1961,1960,Liga Leumit,,1,Hapoel Petah Tikva
-1960/1961,1960,Liga Leumit,,2,Hapoel Tel Aviv
-1960/1961,1960,Liga Leumit,,3,Hapoel Haifa
-1960/1961,1960,Liga Leumit,,4,Maccabi Tel Aviv
-1960/1961,1960,Liga Leumit,,5,Maccabi Haifa
-1960/1961,1960,Liga Leumit,,6,Maccabi Jaffa
-1960/1961,1960,Liga Leumit,,7,Hapoel Jerusalem
-1960/1961,1960,Liga Leumit,,8,Shimshon Tel Aviv
-1960/1961,1960,Liga Leumit,,9,Maccabi Petah Tikva
-1960/1961,1960,Liga Leumit,,10,Maccabi Netanya
-1960/1961,1960,Liga Leumit,,11,Bnei Yehuda Tel Aviv
-1960/1961,1960,Liga Leumit,,12,Beitar Tel Aviv
 1961/1962,1961,Liga Alef,,1,Hakoah Tel Aviv
 1961/1962,1961,Liga Alef,,2,Maccabi Sha'arayim
 1961/1962,1961,Liga Alef,,3,Hapoel Kiryat Haim
@@ -902,7 +851,7 @@ season,season_start,league,division,position,club
 1961/1962,1961,Liga Alef,,8,Hapoel Be'er Sheva
 1961/1962,1961,Liga Alef,,9,Hapoel Ramla
 1961/1962,1961,Liga Alef,,10,Hapoel Kfar Saba
-1961/1962,1961,Liga Alef,,11,Beitar Netanya
+1961/1962,1961,Liga Alef,,11,Beitar Nes Tubruk
 1961/1962,1961,Liga Alef,,12,Maccabi Ramla
 1961/1962,1961,Liga Alef,,13,Maccabi Hadera
 1961/1962,1961,Liga Alef,,14,Hapoel Rehovot
@@ -970,18 +919,6 @@ season,season_start,league,division,position,club
 1961/1962,1961,Liga Bet,South Division B,14,Hapoel Marmorek
 1961/1962,1961,Liga Bet,South Division B,15,Hapoel Bnei Zion
 1961/1962,1961,Liga Bet,South Division B,16,Beitar Jaffa
-1961/1962,1961,Liga Leumit,,1,Hapoel Petah Tikva
-1961/1962,1961,Liga Leumit,,2,Maccabi Jaffa
-1961/1962,1961,Liga Leumit,,3,Hapoel Tiberias
-1961/1962,1961,Liga Leumit,,4,Maccabi Haifa
-1961/1962,1961,Liga Leumit,,5,Bnei Yehuda Tel Aviv
-1961/1962,1961,Liga Leumit,,6,Hapoel Jerusalem
-1961/1962,1961,Liga Leumit,,7,Hapoel Tel Aviv
-1961/1962,1961,Liga Leumit,,8,Hapoel Haifa
-1961/1962,1961,Liga Leumit,,9,Shimshon Tel Aviv
-1961/1962,1961,Liga Leumit,,10,Maccabi Tel Aviv
-1961/1962,1961,Liga Leumit,,11,Maccabi Petah Tikva
-1961/1962,1961,Liga Leumit,,12,Maccabi Netanya
 1962/1963,1962,Liga Alef,,1,Hapoel Ramat Gan
 1962/1963,1962,Liga Alef,,2,Hapoel Lod
 1962/1963,1962,Liga Alef,,3,Maccabi Sha'arayim
@@ -993,7 +930,7 @@ season,season_start,league,division,position,club
 1962/1963,1962,Liga Alef,,9,Beitar Jerusalem
 1962/1963,1962,Liga Alef,,10,Hapoel Kiryat Haim
 1962/1963,1962,Liga Alef,,11,Beitar Tel Aviv
-1962/1963,1962,Liga Alef,,12,Beitar Netanya
+1962/1963,1962,Liga Alef,,12,Beitar Nes Tubruk
 1962/1963,1962,Liga Alef,,13,Hapoel Holon
 1962/1963,1962,Liga Alef,,14,Hapoel Ramla
 1962/1963,1962,Liga Alef,,15,Hapoel Safed
@@ -1215,24 +1152,12 @@ season,season_start,league,division,position,club
 1962/1963,1962,Liga Gimel,Western Galilee,6,Hapoel Hanita
 1962/1963,1962,Liga Gimel,Western Galilee,7,Hapoel Ma'alot
 1962/1963,1962,Liga Gimel,Western Galilee,8,Isasbest Nahariya
-1962/1963,1962,Liga Leumit,,1,Hapoel Petah Tikva
-1962/1963,1962,Liga Leumit,,2,Hapoel Tel Aviv
-1962/1963,1962,Liga Leumit,,3,Maccabi Jaffa
-1962/1963,1962,Liga Leumit,,4,Shimshon Tel Aviv
-1962/1963,1962,Liga Leumit,,5,Bnei Yehuda Tel Aviv
-1962/1963,1962,Liga Leumit,,6,Hapoel Jerusalem
-1962/1963,1962,Liga Leumit,,7,Maccabi Tel Aviv
-1962/1963,1962,Liga Leumit,,8,Hapoel Tiberias
-1962/1963,1962,Liga Leumit,,9,Maccabi Haifa
-1962/1963,1962,Liga Leumit,,10,Hakoah Ramat Gan
-1962/1963,1962,Liga Leumit,,11,Hapoel Haifa
-1962/1963,1962,Liga Leumit,,12,Maccabi Petah Tikva
 1963/1964,1963,Liga Alef,North,1,Maccabi Netanya
 1963/1964,1963,Liga Alef,North,2,Hapoel Hadera
 1963/1964,1963,Liga Alef,North,3,Hapoel Mahane Yehuda
 1963/1964,1963,Liga Alef,North,4,Hapoel Acre
 1963/1964,1963,Liga Alef,North,5,Hapoel Kfar Saba
-1963/1964,1963,Liga Alef,North,6,Beitar Netanya
+1963/1964,1963,Liga Alef,North,6,Beitar Nes Tubruk
 1963/1964,1963,Liga Alef,North,7,Hapoel Kiryat Haim
 1963/1964,1963,Liga Alef,North,8,Hapoel Kfar Blum
 1963/1964,1963,Liga Alef,North,9,Hapoel Ironi Herzliya
@@ -1244,7 +1169,7 @@ season,season_start,league,division,position,club
 1963/1964,1963,Liga Alef,South,1,Beitar Tel Aviv
 1963/1964,1963,Liga Alef,South,2,Hapoel Be'er Sheva
 1963/1964,1963,Liga Alef,South,3,Beitar Jerusalem
-1963/1964,1963,Liga Alef,South,4,Hapoel Givatayim
+1963/1964,1963,Liga Alef,South,4,Hapoel Giv'atayim
 1963/1964,1963,Liga Alef,South,5,Hapoel Holon
 1963/1964,1963,Liga Alef,South,6,Hapoel Ramla
 1963/1964,1963,Liga Alef,South,7,Maccabi Ramat Amidar
@@ -1467,23 +1392,8 @@ season,season_start,league,division,position,club
 1963/1964,1963,Liga Gimel,Valleys B,7,Hapoel Nof HaGalil
 1963/1964,1963,Liga Gimel,Valleys B,8,Hapoel Balfouria
 1963/1964,1963,Liga Gimel,Valleys B,9,Hapoel Givat Oz
-1963/1964,1963,Liga Leumit,,1,Hapoel Ramat Gan
-1963/1964,1963,Liga Leumit,,2,Maccabi Jaffa
-1963/1964,1963,Liga Leumit,,3,Hapoel Petah Tikva
-1963/1964,1963,Liga Leumit,,4,Hapoel Tel Aviv
-1963/1964,1963,Liga Leumit,,5,Maccabi Tel Aviv
-1963/1964,1963,Liga Leumit,,6,Hapoel Haifa
-1963/1964,1963,Liga Leumit,,7,Maccabi Petah Tikva
-1963/1964,1963,Liga Leumit,,8,Hakoah Ramat Gan
-1963/1964,1963,Liga Leumit,,9,Shimshon Tel Aviv
-1963/1964,1963,Liga Leumit,,10,Hapoel Tiberias
-1963/1964,1963,Liga Leumit,,11,Maccabi Sha'arayim
-1963/1964,1963,Liga Leumit,,12,Bnei Yehuda Tel Aviv
-1963/1964,1963,Liga Leumit,,13,Maccabi Haifa
-1963/1964,1963,Liga Leumit,,14,Hapoel Jerusalem
-1963/1964,1963,Liga Leumit,,15,Hapoel Lod
 1964/1965,1964,Liga Alef,North,1,Hapoel Mahane Yehuda
-1964/1965,1964,Liga Alef,North,2,Beitar Netanya
+1964/1965,1964,Liga Alef,North,2,Beitar Nes Tubruk
 1964/1965,1964,Liga Alef,North,3,Hapoel Kfar Saba
 1964/1965,1964,Liga Alef,North,4,Hapoel Acre
 1964/1965,1964,Liga Alef,North,5,Hapoel Hadera
@@ -1504,13 +1414,13 @@ season,season_start,league,division,position,club
 1964/1965,1964,Liga Alef,South,4,Sektzia Nes Tziona
 1964/1965,1964,Liga Alef,South,5,Hapoel Kiryat Ono
 1964/1965,1964,Liga Alef,South,6,Maccabi Ramat Amidar
-1964/1965,1964,Liga Alef,South,7,Hapoel Givatayim
+1964/1965,1964,Liga Alef,South,7,Hapoel Giv'atayim
 1964/1965,1964,Liga Alef,South,8,Hapoel Holon
 1964/1965,1964,Liga Alef,South,9,Hapoel Ashkelon
 1964/1965,1964,Liga Alef,South,10,Maccabi Holon
 1964/1965,1964,Liga Alef,South,11,Hapoel Lod
 1964/1965,1964,Liga Alef,South,12,Hapoel Marmorek
-1964/1965,1964,Liga Alef,South,13,YMCA Jerusalem
+1964/1965,1964,Liga Alef,South,13,HaBira Jerusalem
 1964/1965,1964,Liga Alef,South,14,Beitar Lod
 1964/1965,1964,Liga Alef,South,15,Hapoel Ramla
 1964/1965,1964,Liga Alef,South,16,Beitar Harari Tel Aviv
@@ -1739,27 +1649,11 @@ season,season_start,league,division,position,club
 1964/1965,1964,Liga Gimel,Western Galilee,5,Maccabi Nahariya
 1964/1965,1964,Liga Gimel,Western Galilee,6,Atid Tamra
 1964/1965,1964,Liga Gimel,Western Galilee,7,Hapoel Ma'alot
-1964/1965,1964,Liga Leumit,,1,Hakoah Ramat Gan
-1964/1965,1964,Liga Leumit,,2,Hapoel Petah Tikva
-1964/1965,1964,Liga Leumit,,3,Hapoel Tel Aviv
-1964/1965,1964,Liga Leumit,,4,Maccabi Tel Aviv
-1964/1965,1964,Liga Leumit,,5,Hapoel Haifa
-1964/1965,1964,Liga Leumit,,6,Maccabi Sha'arayim
-1964/1965,1964,Liga Leumit,,7,Maccabi Netanya
-1964/1965,1964,Liga Leumit,,8,Hapoel Ramat Gan
-1964/1965,1964,Liga Leumit,,9,Shimshon Tel Aviv
-1964/1965,1964,Liga Leumit,,10,Maccabi Petah Tikva
-1964/1965,1964,Liga Leumit,,11,Bnei Yehuda Tel Aviv
-1964/1965,1964,Liga Leumit,,12,Maccabi Jaffa
-1964/1965,1964,Liga Leumit,,13,Hapoel Jerusalem
-1964/1965,1964,Liga Leumit,,14,Beitar Tel Aviv
-1964/1965,1964,Liga Leumit,,15,Maccabi Haifa
-1964/1965,1964,Liga Leumit,,16,Hapoel Tiberias
 1965/1966,1965,Liga Alef,North,1,Maccabi Haifa
 1965/1966,1965,Liga Alef,North,2,Hapoel Kfar Saba
 1965/1966,1965,Liga Alef,North,3,Hapoel Kiryat Haim
 1965/1966,1965,Liga Alef,North,4,Hapoel Hadera
-1965/1966,1965,Liga Alef,North,5,Beitar Netanya
+1965/1966,1965,Liga Alef,North,5,Beitar Nes Tubruk
 1965/1966,1965,Liga Alef,North,6,Hapoel Kfar Blum
 1965/1966,1965,Liga Alef,North,7,Hapoel Tiberias
 1965/1966,1965,Liga Alef,North,8,Hapoel Safed
@@ -1785,8 +1679,8 @@ season,season_start,league,division,position,club
 1965/1966,1965,Liga Alef,South,12,Hapoel Marmorek
 1965/1966,1965,Liga Alef,South,13,Beitar Lod
 1965/1966,1965,Liga Alef,South,14,Beitar Kiryat Ono
-1965/1966,1965,Liga Alef,South,15,YMCA Jerusalem
-1965/1966,1965,Liga Alef,South,16,Hapoel Givatayim
+1965/1966,1965,Liga Alef,South,15,HaBira Jerusalem
+1965/1966,1965,Liga Alef,South,16,Hapoel Giv'atayim
 1965/1966,1965,Liga Bet,North Division A,1,Hapoel Nahariya
 1965/1966,1965,Liga Bet,North Division A,2,Hapoel Kiryat Ata
 1965/1966,1965,Liga Bet,North Division A,3,Hapoel Tirat Carmel
@@ -2021,29 +1915,13 @@ season,season_start,league,division,position,club
 1965/1966,1965,Liga Gimel,Western Galilee,12,Hapoel Sakhnin
 1965/1966,1965,Liga Gimel,Western Galilee,13,Hapoel I'billin
 1965/1966,1965,Liga Gimel,Western Galilee,14,Hapoel Tarshiha
-1965/1966,1965,Liga Leumit,,1,Hapoel Tel Aviv
-1965/1966,1965,Liga Leumit,,2,Maccabi Tel Aviv
-1965/1966,1965,Liga Leumit,,3,Hapoel Petah Tikva
-1965/1966,1965,Liga Leumit,,4,Maccabi Netanya
-1965/1966,1965,Liga Leumit,,5,Hapoel Ramat Gan
-1965/1966,1965,Liga Leumit,,6,Shimshon Tel Aviv
-1965/1966,1965,Liga Leumit,,7,Hapoel Haifa
-1965/1966,1965,Liga Leumit,,8,Hapoel Mahane Yehuda
-1965/1966,1965,Liga Leumit,,9,Hakoah Ramat Gan
-1965/1966,1965,Liga Leumit,,10,Bnei Yehuda Tel Aviv
-1965/1966,1965,Liga Leumit,,11,Maccabi Jaffa
-1965/1966,1965,Liga Leumit,,12,Hapoel Jerusalem
-1965/1966,1965,Liga Leumit,,13,Hapoel Be'er Sheva
-1965/1966,1965,Liga Leumit,,14,Maccabi Sha'arayim
-1965/1966,1965,Liga Leumit,,15,Maccabi Petah Tikva
-1965/1966,1965,Liga Leumit,,16,Beitar Tel Aviv
 1966/1968,1966,Liga Alef,North,1,Hapoel Kfar Saba
 1966/1968,1966,Liga Alef,North,2,Maccabi Petah Tikva
 1966/1968,1966,Liga Alef,North,3,Hapoel Kiryat Haim
 1966/1968,1966,Liga Alef,North,4,Hapoel Hadera
 1966/1968,1966,Liga Alef,North,5,Hapoel Tiberias
 1966/1968,1966,Liga Alef,North,6,Hapoel Ironi Herzliya
-1966/1968,1966,Liga Alef,North,7,Beitar Netanya
+1966/1968,1966,Liga Alef,North,7,Beitar Nes Tubruk
 1966/1968,1966,Liga Alef,North,8,Hapoel Acre
 1966/1968,1966,Liga Alef,North,9,Hapoel Kfar Blum
 1966/1968,1966,Liga Alef,North,10,Hapoel Ra'anana
@@ -2322,28 +2200,12 @@ season,season_start,league,division,position,club
 1966/1968,1966,Liga Gimel,Western Galilee,10,Hapoel Shlomi
 1966/1968,1966,Liga Gimel,Western Galilee,11,Hapoel Mi'ilya
 1966/1968,1966,Liga Gimel,Western Galilee,12,Hapoel Kabul
-1966/1968,1966,Liga Leumit,,1,Maccabi Tel Aviv
-1966/1968,1966,Liga Leumit,,2,Hapoel Petah Tikva
-1966/1968,1966,Liga Leumit,,3,Hapoel Haifa
-1966/1968,1966,Liga Leumit,,4,Hapoel Tel Aviv
-1966/1968,1966,Liga Leumit,,5,Maccabi Haifa
-1966/1968,1966,Liga Leumit,,6,Hapoel Jerusalem
-1966/1968,1966,Liga Leumit,,7,Bnei Yehuda Tel Aviv
-1966/1968,1966,Liga Leumit,,8,Maccabi Netanya
-1966/1968,1966,Liga Leumit,,9,Hapoel Be'er Sheva
-1966/1968,1966,Liga Leumit,,10,Hakoah Ramat Gan
-1966/1968,1966,Liga Leumit,,11,Hapoel Ramat Gan
-1966/1968,1966,Liga Leumit,,12,Maccabi Jaffa
-1966/1968,1966,Liga Leumit,,13,Maccabi Sha'arayim
-1966/1968,1966,Liga Leumit,,14,Shimshon Tel Aviv
-1966/1968,1966,Liga Leumit,,15,Hapoel Mahane Yehuda
-1966/1968,1966,Liga Leumit,,16,Sektzia Nes Tziona
 1968/1969,1968,Liga Alef,North,1,Maccabi Petah Tikva
 1968/1969,1968,Liga Alef,North,2,Hapoel Hadera
 1968/1969,1968,Liga Alef,North,3,Hapoel Ironi Herzliya
 1968/1969,1968,Liga Alef,North,4,Hapoel Nahliel
 1968/1969,1968,Liga Alef,North,5,Hapoel Acre
-1968/1969,1968,Liga Alef,North,6,Beitar Netanya
+1968/1969,1968,Liga Alef,North,6,Beitar Nes Tubruk
 1968/1969,1968,Liga Alef,North,7,Hapoel Tiberias
 1968/1969,1968,Liga Alef,North,8,Hapoel Netanya
 1968/1969,1968,Liga Alef,North,9,Hapoel Bnei Nazareth
@@ -2433,26 +2295,10 @@ season,season_start,league,division,position,club
 1968/1969,1968,Liga Bet,South Division B,14,Hapoel Ofakim
 1968/1969,1968,Liga Bet,South Division B,15,Hapoel Bnei Zion
 1968/1969,1968,Liga Bet,South Division B,16,Hapoel Be'eri
-1968/1969,1968,Liga Leumit,,1,Hapoel Tel Aviv
-1968/1969,1968,Liga Leumit,,2,Maccabi Tel Aviv
-1968/1969,1968,Liga Leumit,,3,Maccabi Netanya
-1968/1969,1968,Liga Leumit,,4,Hapoel Haifa
-1968/1969,1968,Liga Leumit,,5,Maccabi Haifa
-1968/1969,1968,Liga Leumit,,6,Hapoel Jerusalem
-1968/1969,1968,Liga Leumit,,7,Hapoel Kfar Saba
-1968/1969,1968,Liga Leumit,,8,Bnei Yehuda Tel Aviv
-1968/1969,1968,Liga Leumit,,9,Hapoel Petah Tikva
-1968/1969,1968,Liga Leumit,,10,Hakoah Ramat Gan
-1968/1969,1968,Liga Leumit,,11,Maccabi Jaffa
-1968/1969,1968,Liga Leumit,,12,Shimshon Tel Aviv
-1968/1969,1968,Liga Leumit,,13,Beitar Jerusalem
-1968/1969,1968,Liga Leumit,,14,Hapoel Be'er Sheva
-1968/1969,1968,Liga Leumit,,15,Maccabi Sha'arayim
-1968/1969,1968,Liga Leumit,,16,Hapoel Ramat Gan
 1969/1970,1969,Liga Alef,North,1,Hapoel Hadera
 1969/1970,1969,Liga Alef,North,2,Hapoel Ironi Herzliya
 1969/1970,1969,Liga Alef,North,3,Hapoel Acre
-1969/1970,1969,Liga Alef,North,4,Beitar Netanya
+1969/1970,1969,Liga Alef,North,4,Beitar Nes Tubruk
 1969/1970,1969,Liga Alef,North,5,Hapoel Mahane Yehuda
 1969/1970,1969,Liga Alef,North,6,Hapoel Netanya
 1969/1970,1969,Liga Alef,North,7,Hapoel Tiberias
@@ -2544,28 +2390,12 @@ season,season_start,league,division,position,club
 1969/1970,1969,Liga Bet,South Division B,14,Hapoel Merhavim
 1969/1970,1969,Liga Bet,South Division B,15,Hapoel Kiryat Gat
 1969/1970,1969,Liga Bet,South Division B,16,Maccabi Dror Lod
-1969/1970,1969,Liga Leumit,,1,Maccabi Tel Aviv
-1969/1970,1969,Liga Leumit,,2,Hapoel Tel Aviv
-1969/1970,1969,Liga Leumit,,3,Maccabi Haifa
-1969/1970,1969,Liga Leumit,,4,Shimshon Tel Aviv
-1969/1970,1969,Liga Leumit,,5,Beitar Jerusalem
-1969/1970,1969,Liga Leumit,,6,Hapoel Jerusalem
-1969/1970,1969,Liga Leumit,,7,Hapoel Petah Tikva
-1969/1970,1969,Liga Leumit,,8,Hakoah Ramat Gan
-1969/1970,1969,Liga Leumit,,9,Beitar Tel Aviv
-1969/1970,1969,Liga Leumit,,10,Hapoel Haifa
-1969/1970,1969,Liga Leumit,,11,Maccabi Netanya
-1969/1970,1969,Liga Leumit,,12,Maccabi Petah Tikva
-1969/1970,1969,Liga Leumit,,13,Hapoel Kfar Saba
-1969/1970,1969,Liga Leumit,,14,Bnei Yehuda Tel Aviv
-1969/1970,1969,Liga Leumit,,15,Maccabi Jaffa
-1969/1970,1969,Liga Leumit,,16,Hapoel Be'er Sheva
 1970/1971,1970,Liga Alef,North,1,Maccabi Jaffa
 1970/1971,1970,Liga Alef,North,2,Hapoel Ramat Gan
 1970/1971,1970,Liga Alef,North,3,Hapoel Kiryat Shmona
 1970/1971,1970,Liga Alef,North,4,Hapoel Acre
 1970/1971,1970,Liga Alef,North,5,Hapoel Nahariya
-1970/1971,1970,Liga Alef,North,6,Beitar Netanya
+1970/1971,1970,Liga Alef,North,6,Beitar Nes Tubruk
 1970/1971,1970,Liga Alef,North,7,Hapoel Tiberias
 1970/1971,1970,Liga Alef,North,8,Hapoel Ironi Herzliya
 1970/1971,1970,Liga Alef,North,9,Hapoel Bnei Nazareth
@@ -2574,7 +2404,7 @@ season,season_start,league,division,position,club
 1970/1971,1970,Liga Alef,North,12,Hapoel Nahliel
 1970/1971,1970,Liga Alef,North,13,Hapoel Tirat Carmel
 1970/1971,1970,Liga Alef,North,14,Hapoel Mahane Yehuda
-1970/1971,1970,Liga Alef,North,15,Hapoel Zichron Ya'akov
+1970/1971,1970,Liga Alef,North,15,Hapoel Zikhron Ya'akov
 1970/1971,1970,Liga Alef,North,16,Maccabi Hadera
 1970/1971,1970,Liga Alef,South,1,Hapoel Be'er Sheva
 1970/1971,1970,Liga Alef,South,2,Hapoel Yehud
@@ -2655,22 +2485,6 @@ season,season_start,league,division,position,club
 1970/1971,1970,Liga Bet,South Division B,14,Hapoel Sderot
 1970/1971,1970,Liga Bet,South Division B,15,Hapoel Merhavim
 1970/1971,1970,Liga Bet,South Division B,16,Maccabi Ramla
-1970/1971,1970,Liga Leumit,,1,Maccabi Netanya
-1970/1971,1970,Liga Leumit,,2,Shimshon Tel Aviv
-1970/1971,1970,Liga Leumit,,3,Hapoel Tel Aviv
-1970/1971,1970,Liga Leumit,,4,Hapoel Petah Tikva
-1970/1971,1970,Liga Leumit,,5,Beitar Tel Aviv
-1970/1971,1970,Liga Leumit,,6,Hapoel Haifa
-1970/1971,1970,Liga Leumit,,7,Hapoel Jerusalem
-1970/1971,1970,Liga Leumit,,8,Hakoah Ramat Gan
-1970/1971,1970,Liga Leumit,,9,Hapoel Kfar Saba
-1970/1971,1970,Liga Leumit,,10,Maccabi Tel Aviv
-1970/1971,1970,Liga Leumit,,11,Beitar Jerusalem
-1970/1971,1970,Liga Leumit,,12,Maccabi Haifa
-1970/1971,1970,Liga Leumit,,13,Bnei Yehuda Tel Aviv
-1970/1971,1970,Liga Leumit,,14,Hapoel Hadera
-1970/1971,1970,Liga Leumit,,15,Maccabi Petah Tikva
-1970/1971,1970,Liga Leumit,,16,Hapoel Holon
 1971/1972,1971,Liga Alef,North,1,Maccabi Petah Tikva
 1971/1972,1971,Liga Alef,North,2,Hapoel Acre
 1971/1972,1971,Liga Alef,North,3,Hapoel Ramat Gan
@@ -2679,7 +2493,7 @@ season,season_start,league,division,position,club
 1971/1972,1971,Liga Alef,North,6,Hapoel Kiryat Shmona
 1971/1972,1971,Liga Alef,North,7,Hapoel Mahane Yehuda
 1971/1972,1971,Liga Alef,North,8,Hapoel Nahliel
-1971/1972,1971,Liga Alef,North,9,Beitar Netanya
+1971/1972,1971,Liga Alef,North,9,Beitar Nes Tubruk
 1971/1972,1971,Liga Alef,North,10,Maccabi Herzliya
 1971/1972,1971,Liga Alef,North,11,Hapoel Bnei Nazareth
 1971/1972,1971,Liga Alef,North,12,Hapoel Nahariya
@@ -2767,22 +2581,6 @@ season,season_start,league,division,position,club
 1971/1972,1971,Liga Bet,South Division B,14,Hapoel Yeruham
 1971/1972,1971,Liga Bet,South Division B,15,Maccabi Ashkelon
 1971/1972,1971,Liga Bet,South Division B,16,Hapoel Sderot
-1971/1972,1971,Liga Leumit,,1,Maccabi Tel Aviv
-1971/1972,1971,Liga Leumit,,2,Beitar Jerusalem
-1971/1972,1971,Liga Leumit,,3,Hakoah Ramat Gan
-1971/1972,1971,Liga Leumit,,4,Maccabi Netanya
-1971/1972,1971,Liga Leumit,,5,Maccabi Jaffa
-1971/1972,1971,Liga Leumit,,6,Hapoel Haifa
-1971/1972,1971,Liga Leumit,,7,Maccabi Haifa
-1971/1972,1971,Liga Leumit,,8,Hapoel Jerusalem
-1971/1972,1971,Liga Leumit,,9,Hapoel Kfar Saba
-1971/1972,1971,Liga Leumit,,10,Beitar Tel Aviv
-1971/1972,1971,Liga Leumit,,11,Hapoel Petah Tikva
-1971/1972,1971,Liga Leumit,,12,Hapoel Be'er Sheva
-1971/1972,1971,Liga Leumit,,13,Hapoel Tel Aviv
-1971/1972,1971,Liga Leumit,,14,Shimshon Tel Aviv
-1971/1972,1971,Liga Leumit,,15,Bnei Yehuda Tel Aviv
-1971/1972,1971,Liga Leumit,,16,Hapoel Hadera
 1972/1973,1972,Liga Alef,North,1,Hapoel Hadera
 1972/1973,1972,Liga Alef,North,2,Hapoel Acre
 1972/1973,1972,Liga Alef,North,3,Hapoel Ramat Gan
@@ -2790,7 +2588,7 @@ season,season_start,league,division,position,club
 1972/1973,1972,Liga Alef,North,5,Maccabi Herzliya
 1972/1973,1972,Liga Alef,North,6,Hapoel Tiberias
 1972/1973,1972,Liga Alef,North,7,Hapoel Ironi Herzliya
-1972/1973,1972,Liga Alef,North,8,Beitar Netanya
+1972/1973,1972,Liga Alef,North,8,Beitar Nes Tubruk
 1972/1973,1972,Liga Alef,North,9,Hapoel Nahliel
 1972/1973,1972,Liga Alef,North,10,Hapoel Kiryat Shmona
 1972/1973,1972,Liga Alef,North,11,Hapoel Safed
@@ -2879,28 +2677,12 @@ season,season_start,league,division,position,club
 1972/1973,1972,Liga Bet,South Division B,14,Beitar Ashdod
 1972/1973,1972,Liga Bet,South Division B,15,Beitar Ashkelon
 1972/1973,1972,Liga Bet,South Division B,16,Maccabi Kiryat Gat
-1972/1973,1972,Liga Leumit,,1,Hakoah Ramat Gan
-1972/1973,1972,Liga Leumit,,2,Hapoel Tel Aviv
-1972/1973,1972,Liga Leumit,,3,Hapoel Jerusalem
-1972/1973,1972,Liga Leumit,,4,Maccabi Tel Aviv
-1972/1973,1972,Liga Leumit,,5,Hapoel Be'er Sheva
-1972/1973,1972,Liga Leumit,,6,Hapoel Kfar Saba
-1972/1973,1972,Liga Leumit,,7,Hapoel Haifa
-1972/1973,1972,Liga Leumit,,8,Beitar Tel Aviv
-1972/1973,1972,Liga Leumit,,9,Maccabi Petah Tikva
-1972/1973,1972,Liga Leumit,,10,Maccabi Jaffa
-1972/1973,1972,Liga Leumit,,11,Maccabi Haifa
-1972/1973,1972,Liga Leumit,,12,Hapoel Petah Tikva
-1972/1973,1972,Liga Leumit,,13,Maccabi Netanya
-1972/1973,1972,Liga Leumit,,14,Beitar Jerusalem
-1972/1973,1972,Liga Leumit,,15,Shimshon Tel Aviv
-1972/1973,1972,Liga Leumit,,16,Hapoel Marmorek
 1973/1974,1973,Liga Alef,North,1,Hapoel Acre
 1973/1974,1973,Liga Alef,North,2,Shimshon Tel Aviv
 1973/1974,1973,Liga Alef,North,3,Hapoel Ramat Gan
 1973/1974,1973,Liga Alef,North,4,Hapoel Tiberias
 1973/1974,1973,Liga Alef,North,5,Hapoel Tirat Carmel
-1973/1974,1973,Liga Alef,North,6,Beitar Netanya
+1973/1974,1973,Liga Alef,North,6,Beitar Nes Tubruk
 1973/1974,1973,Liga Alef,North,7,Hapoel Safed
 1973/1974,1973,Liga Alef,North,8,Hapoel Nahariya
 1973/1974,1973,Liga Alef,North,9,Hapoel Nahliel
@@ -2991,22 +2773,6 @@ season,season_start,league,division,position,club
 1973/1974,1973,Liga Bet,South Division B,14,Hapoel Kiryat Malakhi
 1973/1974,1973,Liga Bet,South Division B,15,Maccabi Rehovot
 1973/1974,1973,Liga Bet,South Division B,16,HaBira Jerusalem
-1973/1974,1973,Liga Leumit,,1,Maccabi Netanya
-1973/1974,1973,Liga Leumit,,2,Maccabi Tel Aviv
-1973/1974,1973,Liga Leumit,,3,Beitar Jerusalem
-1973/1974,1973,Liga Leumit,,4,Hapoel Petah Tikva
-1973/1974,1973,Liga Leumit,,5,Beitar Tel Aviv
-1973/1974,1973,Liga Leumit,,6,Hapoel Haifa
-1973/1974,1973,Liga Leumit,,7,Hapoel Be'er Sheva
-1973/1974,1973,Liga Leumit,,8,Hapoel Kfar Saba
-1973/1974,1973,Liga Leumit,,9,Maccabi Jaffa
-1973/1974,1973,Liga Leumit,,10,Bnei Yehuda Tel Aviv
-1973/1974,1973,Liga Leumit,,11,Hapoel Jerusalem
-1973/1974,1973,Liga Leumit,,12,Maccabi Petah Tikva
-1973/1974,1973,Liga Leumit,,13,Hapoel Hadera
-1973/1974,1973,Liga Leumit,,14,Hapoel Tel Aviv
-1973/1974,1973,Liga Leumit,,15,Hakoah Ramat Gan
-1973/1974,1973,Liga Leumit,,16,Maccabi Haifa
 1974/1975,1974,Liga Alef,North,1,Maccabi Haifa
 1974/1975,1974,Liga Alef,North,2,Hapoel Acre
 1974/1975,1974,Liga Alef,North,3,Hapoel Ramat Gan
@@ -3015,7 +2781,7 @@ season,season_start,league,division,position,club
 1974/1975,1974,Liga Alef,North,6,Hapoel Nahliel
 1974/1975,1974,Liga Alef,North,7,Maccabi Herzliya
 1974/1975,1974,Liga Alef,North,8,Hapoel Tirat Carmel
-1974/1975,1974,Liga Alef,North,9,Beitar Netanya
+1974/1975,1974,Liga Alef,North,9,Beitar Nes Tubruk
 1974/1975,1974,Liga Alef,North,10,Hapoel Bnei Nazareth
 1974/1975,1974,Liga Alef,North,11,Hapoel Tiberias
 1974/1975,1974,Liga Alef,North,12,Hapoel Nahariya
@@ -3103,24 +2869,8 @@ season,season_start,league,division,position,club
 1974/1975,1974,Liga Bet,South Division B,14,Maccabi Kiryat Gat
 1974/1975,1974,Liga Bet,South Division B,15,Hapoel Yeruham
 1974/1975,1974,Liga Bet,South Division B,16,Hapoel Kiryat Malakhi
-1974/1975,1974,Liga Leumit,,1,Hapoel Be'er Sheva
-1974/1975,1974,Liga Leumit,,2,Maccabi Netanya
-1974/1975,1974,Liga Leumit,,3,Hapoel Haifa
-1974/1975,1974,Liga Leumit,,4,Maccabi Tel Aviv
-1974/1975,1974,Liga Leumit,,5,Hapoel Jerusalem
-1974/1975,1974,Liga Leumit,,6,Shimshon Tel Aviv
-1974/1975,1974,Liga Leumit,,7,Hapoel Hadera
-1974/1975,1974,Liga Leumit,,8,Hapoel Tel Aviv
-1974/1975,1974,Liga Leumit,,9,Hapoel Petah Tikva
-1974/1975,1974,Liga Leumit,,10,Hapoel Kfar Saba
-1974/1975,1974,Liga Leumit,,11,Bnei Yehuda Tel Aviv
-1974/1975,1974,Liga Leumit,,12,Beitar Tel Aviv
-1974/1975,1974,Liga Leumit,,13,Maccabi Jaffa
-1974/1975,1974,Liga Leumit,,14,Hakoah Ramat Gan
-1974/1975,1974,Liga Leumit,,15,Beitar Jerusalem
-1974/1975,1974,Liga Leumit,,16,Maccabi Petah Tikva
 1975/1976,1975,Liga Alef,North,1,Hapoel Acre
-1975/1976,1975,Liga Alef,North,2,Beitar Netanya
+1975/1976,1975,Liga Alef,North,2,Beitar Nes Tubruk
 1975/1976,1975,Liga Alef,North,3,Hapoel Ramat Gan
 1975/1976,1975,Liga Alef,North,4,Maccabi Hadera
 1975/1976,1975,Liga Alef,North,5,Hapoel Netanya
@@ -3213,24 +2963,6 @@ season,season_start,league,division,position,club
 1975/1976,1975,Liga Bet,South Division B,13,Hapoel Eilat
 1975/1976,1975,Liga Bet,South Division B,14,Maccabi Jerusalem
 1975/1976,1975,Liga Bet,South Division B,15,Maccabi Be'er Sheva
-1975/1976,1975,Liga Leumit,,1,Hapoel Be'er Sheva
-1975/1976,1975,Liga Leumit,,2,Beitar Jerusalem
-1975/1976,1975,Liga Leumit,,3,Hapoel Haifa
-1975/1976,1975,Liga Leumit,,4,Maccabi Netanya
-1975/1976,1975,Liga Leumit,,5,Hapoel Kfar Saba
-1975/1976,1975,Liga Leumit,,6,Shimshon Tel Aviv
-1975/1976,1975,Liga Leumit,,7,Maccabi Tel Aviv
-1975/1976,1975,Liga Leumit,,8,Maccabi Petah Tikva
-1975/1976,1975,Liga Leumit,,9,Maccabi Haifa
-1975/1976,1975,Liga Leumit,,10,Hapoel Tel Aviv
-1975/1976,1975,Liga Leumit,,11,Maccabi Jaffa
-1975/1976,1975,Liga Leumit,,12,Beitar Tel Aviv
-1975/1976,1975,Liga Leumit,,13,Hapoel Jerusalem
-1975/1976,1975,Liga Leumit,,14,Hakoah Ramat Gan
-1975/1976,1975,Liga Leumit,,15,Hapoel Petah Tikva
-1975/1976,1975,Liga Leumit,,16,Hapoel Hadera
-1975/1976,1975,Liga Leumit,,17,Bnei Yehuda Tel Aviv
-1975/1976,1975,Liga Leumit,,18,Maccabi Ramat Amidar
 1976/1977,1976,Liga Alef,North,1,Hapoel Tirat Carmel
 1976/1977,1976,Liga Alef,North,2,Hapoel Kiryat Shmona
 1976/1977,1976,Liga Alef,North,3,Hapoel Ironi Herzliya
@@ -3269,7 +3001,7 @@ season,season_start,league,division,position,club
 1976/1977,1976,Liga Artzit,,8,Hapoel Rishon LeZion
 1976/1977,1976,Liga Artzit,,9,Maccabi Ramat Amidar
 1976/1977,1976,Liga Artzit,,10,Hapoel Ashdod
-1976/1977,1976,Liga Artzit,,11,Beitar Netanya
+1976/1977,1976,Liga Artzit,,11,Beitar Nes Tubruk
 1976/1977,1976,Liga Artzit,,12,Maccabi Hadera
 1976/1977,1976,Liga Bet,North Division A,1,Hapoel Tiberias
 1976/1977,1976,Liga Bet,North Division A,2,Hapoel Kiryat Ata
@@ -3439,22 +3171,6 @@ season,season_start,league,division,position,club
 1976/1977,1976,Liga Gimel,South,12,Hapoel Netivot
 1976/1977,1976,Liga Gimel,South,13,Beitar Ofakim
 1976/1977,1976,Liga Gimel,South,14,Hapoel Arad
-1976/1977,1976,Liga Leumit,,1,Maccabi Tel Aviv
-1976/1977,1976,Liga Leumit,,2,Maccabi Jaffa
-1976/1977,1976,Liga Leumit,,3,Beitar Jerusalem
-1976/1977,1976,Liga Leumit,,4,Beitar Tel Aviv
-1976/1977,1976,Liga Leumit,,5,Maccabi Netanya
-1976/1977,1976,Liga Leumit,,6,Hapoel Tel Aviv
-1976/1977,1976,Liga Leumit,,7,Hapoel Yehud
-1976/1977,1976,Liga Leumit,,8,Shimshon Tel Aviv
-1976/1977,1976,Liga Leumit,,9,Hapoel Haifa
-1976/1977,1976,Liga Leumit,,10,Hapoel Jerusalem
-1976/1977,1976,Liga Leumit,,11,Hapoel Acre
-1976/1977,1976,Liga Leumit,,12,Hakoah Ramat Gan
-1976/1977,1976,Liga Leumit,,13,Hapoel Be'er Sheva
-1976/1977,1976,Liga Leumit,,14,Hapoel Kfar Saba
-1976/1977,1976,Liga Leumit,,15,Maccabi Haifa
-1976/1977,1976,Liga Leumit,,16,Maccabi Petah Tikva
 1977/1978,1977,Liga Alef,North,1,Hapoel Tiberias
 1977/1978,1977,Liga Alef,North,2,Maccabi Herzliya
 1977/1978,1977,Liga Alef,North,3,Hapoel Beit She'an
@@ -3661,20 +3377,6 @@ season,season_start,league,division,position,club
 1977/1978,1977,Liga Gimel,South,12,Hapoel Patish
 1977/1978,1977,Liga Gimel,South,13,Hapoel Sderot
 1977/1978,1977,Liga Gimel,South,14,Hapoel Bitha
-1977/1978,1977,Liga Leumit,,1,Maccabi Netanya
-1977/1978,1977,Liga Leumit,,2,Beitar Jerusalem
-1977/1978,1977,Liga Leumit,,3,Maccabi Tel Aviv
-1977/1978,1977,Liga Leumit,,4,Hapoel Yehud
-1977/1978,1977,Liga Leumit,,5,Hapoel Be'er Sheva
-1977/1978,1977,Liga Leumit,,6,Hapoel Jerusalem
-1977/1978,1977,Liga Leumit,,7,Shimshon Tel Aviv
-1977/1978,1977,Liga Leumit,,8,Beitar Tel Aviv
-1977/1978,1977,Liga Leumit,,9,Hapoel Tel Aviv
-1977/1978,1977,Liga Leumit,,10,Maccabi Jaffa
-1977/1978,1977,Liga Leumit,,11,Hapoel Hadera
-1977/1978,1977,Liga Leumit,,12,Hapoel Haifa
-1977/1978,1977,Liga Leumit,,13,Hakoah Ramat Gan
-1977/1978,1977,Liga Leumit,,14,Hapoel Acre
 1978/1979,1978,Liga Artzit,,1,Hakoah Ramat Gan
 1978/1979,1978,Liga Artzit,,2,Maccabi Ramat Amidar
 1978/1979,1978,Liga Artzit,,3,Hapoel Petah Tikva
@@ -3689,8 +3391,8 @@ season,season_start,league,division,position,club
 1978/1979,1978,Liga Artzit,,12,Hapoel Lod
 1978/1979,1978,Liga Artzit,,13,Hapoel Tirat Carmel
 1978/1979,1978,Liga Artzit,,14,Hapoel Marmorek
-1978/1979,1978,Liga Artzit,,15,Hapoel Ashdod
-1978/1979,1978,Liga Artzit,,16,Hapoel Netanya
+1978/1979,1978,Liga Artzit,,15,Hapoel Netanya
+1978/1979,1978,Liga Artzit,,16,Hapoel Ashdod
 1978/1979,1978,Liga Bet,North Division A,1,Hapoel Bnei Nazareth
 1978/1979,1978,Liga Bet,North Division A,2,Hapoel Safed
 1978/1979,1978,Liga Bet,North Division A,3,Maccabi Shefa-'Amr
@@ -3746,22 +3448,6 @@ season,season_start,league,division,position,club
 1978/1979,1978,Liga Bet,South Division B,12,Maccabi Ramla
 1978/1979,1978,Liga Bet,South Division B,13,Beitar Katamonim
 1978/1979,1978,Liga Bet,South Division B,14,Hapoel Bnei Lakhish
-1978/1979,1978,Liga Leumit,,1,Maccabi Tel Aviv
-1978/1979,1978,Liga Leumit,,2,Beitar Jerusalem
-1978/1979,1978,Liga Leumit,,3,Maccabi Netanya
-1978/1979,1978,Liga Leumit,,4,Bnei Yehuda Tel Aviv
-1978/1979,1978,Liga Leumit,,5,Hapoel Haifa
-1978/1979,1978,Liga Leumit,,6,Hapoel Tel Aviv
-1978/1979,1978,Liga Leumit,,7,Maccabi Jaffa
-1978/1979,1978,Liga Leumit,,8,Hapoel Yehud
-1978/1979,1978,Liga Leumit,,9,Hapoel Be'er Sheva
-1978/1979,1978,Liga Leumit,,10,Hapoel Kfar Saba
-1978/1979,1978,Liga Leumit,,11,Beitar Tel Aviv
-1978/1979,1978,Liga Leumit,,12,Shimshon Tel Aviv
-1978/1979,1978,Liga Leumit,,13,Maccabi Petah Tikva
-1978/1979,1978,Liga Leumit,,14,Hapoel Hadera
-1978/1979,1978,Liga Leumit,,15,Hapoel Jerusalem
-1978/1979,1978,Liga Leumit,,16,Hapoel Rishon LeZion
 1979/1980,1979,Liga Alef,North,1,Hapoel Kiryat Shmona
 1979/1980,1979,Liga Alef,North,2,Hapoel Ramat HaSharon
 1979/1980,1979,Liga Alef,North,3,Maccabi Hadera
@@ -3862,22 +3548,6 @@ season,season_start,league,division,position,club
 1979/1980,1979,Liga Bet,South Division B,12,Hapoel Gedera
 1979/1980,1979,Liga Bet,South Division B,13,Hapoel Ofakim
 1979/1980,1979,Liga Bet,South Division B,14,Hapoel Kiryat Gat
-1979/1980,1979,Liga Leumit,,1,Maccabi Netanya
-1979/1980,1979,Liga Leumit,,2,Hapoel Tel Aviv
-1979/1980,1979,Liga Leumit,,3,Shimshon Tel Aviv
-1979/1980,1979,Liga Leumit,,4,Hapoel Yehud
-1979/1980,1979,Liga Leumit,,5,Maccabi Tel Aviv
-1979/1980,1979,Liga Leumit,,6,Bnei Yehuda Tel Aviv
-1979/1980,1979,Liga Leumit,,7,Hapoel Kfar Saba
-1979/1980,1979,Liga Leumit,,8,Maccabi Petah Tikva
-1979/1980,1979,Liga Leumit,,9,Hapoel Petah Tikva
-1979/1980,1979,Liga Leumit,,10,Hapoel Be'er Sheva
-1979/1980,1979,Liga Leumit,,11,Maccabi Ramat Amidar
-1979/1980,1979,Liga Leumit,,12,Hapoel Haifa
-1979/1980,1979,Liga Leumit,,13,Maccabi Jaffa
-1979/1980,1979,Liga Leumit,,14,Hakoah Ramat Gan
-1979/1980,1979,Liga Leumit,,15,Beitar Tel Aviv
-1979/1980,1979,Liga Leumit,,16,Beitar Jerusalem
 1980/1981,1980,Liga Alef,North,1,Beitar Nes Tubruk
 1980/1981,1980,Liga Alef,North,2,Hapoel Tel Hanan
 1980/1981,1980,Liga Alef,North,3,Maccabi Hadera
@@ -3978,22 +3648,6 @@ season,season_start,league,division,position,club
 1980/1981,1980,Liga Bet,South Division B,12,Maccabi Rehovot
 1980/1981,1980,Liga Bet,South Division B,13,Maccabi Shikun HaMizrah
 1980/1981,1980,Liga Bet,South Division B,14,Beitar Ashdod
-1980/1981,1980,Liga Leumit,,1,Hapoel Tel Aviv
-1980/1981,1980,Liga Leumit,,2,Bnei Yehuda Tel Aviv
-1980/1981,1980,Liga Leumit,,3,Maccabi Jaffa
-1980/1981,1980,Liga Leumit,,4,Maccabi Petah Tikva
-1980/1981,1980,Liga Leumit,,5,Shimshon Tel Aviv
-1980/1981,1980,Liga Leumit,,6,Hapoel Rishon LeZion
-1980/1981,1980,Liga Leumit,,7,Hapoel Yehud
-1980/1981,1980,Liga Leumit,,8,Maccabi Tel Aviv
-1980/1981,1980,Liga Leumit,,9,Hapoel Jerusalem
-1980/1981,1980,Liga Leumit,,10,Maccabi Netanya
-1980/1981,1980,Liga Leumit,,11,Hapoel Be'er Sheva
-1980/1981,1980,Liga Leumit,,12,Hapoel Petah Tikva
-1980/1981,1980,Liga Leumit,,13,Hapoel Kfar Saba
-1980/1981,1980,Liga Leumit,,14,Hapoel Haifa
-1980/1981,1980,Liga Leumit,,15,Maccabi Ramat Amidar
-1980/1981,1980,Liga Leumit,,16,Hapoel Ramat Gan
 1981/1982,1981,Liga Alef,North,1,Hapoel Hadera
 1981/1982,1981,Liga Alef,North,2,Maccabi Shefa-'Amr
 1981/1982,1981,Liga Alef,North,3,Beitar Haifa
@@ -4035,7 +3689,7 @@ season,season_start,league,division,position,club
 1981/1982,1981,Liga Artzit,,12,Hapoel Beit Shemesh
 1981/1982,1981,Liga Artzit,,13,Hapoel Tel Hanan
 1981/1982,1981,Liga Artzit,,14,Maccabi Kiryat Gat
-1981/1982,1981,Liga Artzit,,15,Beitar Netanya
+1981/1982,1981,Liga Artzit,,15,Beitar Nes Tubruk
 1981/1982,1981,Liga Artzit,,16,Hapoel Tiberias
 1981/1982,1981,Liga Bet,North Division A,1,Maccabi Bnei Hatzor
 1981/1982,1981,Liga Bet,North Division A,2,Maccabi Afula
@@ -4199,22 +3853,6 @@ season,season_start,league,division,position,club
 1981/1982,1981,Liga Gimel,South,11,Beitar Ofakim
 1981/1982,1981,Liga Gimel,South,12,Hapoel Mitzpe Ramon
 1981/1982,1981,Liga Gimel,South,13,Hapoel Beit Shikma
-1981/1982,1981,Liga Leumit,,1,Hapoel Kfar Saba
-1981/1982,1981,Liga Leumit,,2,Maccabi Netanya
-1981/1982,1981,Liga Leumit,,3,Bnei Yehuda Tel Aviv
-1981/1982,1981,Liga Leumit,,4,Hapoel Be'er Sheva
-1981/1982,1981,Liga Leumit,,5,Hapoel Tel Aviv
-1981/1982,1981,Liga Leumit,,6,Beitar Jerusalem
-1981/1982,1981,Liga Leumit,,7,Maccabi Haifa
-1981/1982,1981,Liga Leumit,,8,Maccabi Tel Aviv
-1981/1982,1981,Liga Leumit,,9,Maccabi Petah Tikva
-1981/1982,1981,Liga Leumit,,10,Hapoel Jerusalem
-1981/1982,1981,Liga Leumit,,11,Maccabi Jaffa
-1981/1982,1981,Liga Leumit,,12,Shimshon Tel Aviv
-1981/1982,1981,Liga Leumit,,13,Hapoel Yehud
-1981/1982,1981,Liga Leumit,,14,Hapoel Rishon LeZion
-1981/1982,1981,Liga Leumit,,15,Beitar Tel Aviv
-1981/1982,1981,Liga Leumit,,16,Hapoel Petah Tikva
 1982/1983,1982,Liga Alef,North,1,Beitar Haifa
 1982/1983,1982,Liga Alef,North,2,Maccabi Hadera
 1982/1983,1982,Liga Alef,North,3,Hapoel Tiberias
@@ -4255,7 +3893,7 @@ season,season_start,league,division,position,club
 1982/1983,1982,Liga Artzit,,11,Hapoel Beit She'an
 1982/1983,1982,Liga Artzit,,12,Hapoel Beit Shemesh
 1982/1983,1982,Liga Artzit,,13,Hapoel Kiryat Shmona
-1982/1983,1982,Liga Artzit,,14,Maccabi Shfar'am
+1982/1983,1982,Liga Artzit,,14,Maccabi Shefa-'Amr
 1982/1983,1982,Liga Artzit,,15,Hapoel Acre
 1982/1983,1982,Liga Artzit,,16,Hapoel Tel Hanan
 1982/1983,1982,Liga Bet,North Division A,1,Maccabi Ahi Nazareth
@@ -4313,22 +3951,6 @@ season,season_start,league,division,position,club
 1982/1983,1982,Liga Bet,South Division B,12,Maccabi Kiryat Ekron
 1982/1983,1982,Liga Bet,South Division B,13,Hapoel Ofakim
 1982/1983,1982,Liga Bet,South Division B,14,Hapoel Gedera
-1982/1983,1982,Liga Leumit,,1,Maccabi Netanya
-1982/1983,1982,Liga Leumit,,2,Shimshon Tel Aviv
-1982/1983,1982,Liga Leumit,,3,Hapoel Be'er Sheva
-1982/1983,1982,Liga Leumit,,4,Hapoel Tel Aviv
-1982/1983,1982,Liga Leumit,,5,Maccabi Tel Aviv
-1982/1983,1982,Liga Leumit,,6,Maccabi Haifa
-1982/1983,1982,Liga Leumit,,7,Hapoel Lod
-1982/1983,1982,Liga Leumit,,8,Beitar Jerusalem
-1982/1983,1982,Liga Leumit,,9,Maccabi Petah Tikva
-1982/1983,1982,Liga Leumit,,10,Maccabi Yavne
-1982/1983,1982,Liga Leumit,,11,Hapoel Yehud
-1982/1983,1982,Liga Leumit,,12,Bnei Yehuda Tel Aviv
-1982/1983,1982,Liga Leumit,,13,Maccabi Jaffa
-1982/1983,1982,Liga Leumit,,14,Hapoel Ramat Gan
-1982/1983,1982,Liga Leumit,,15,Hapoel Jerusalem
-1982/1983,1982,Liga Leumit,,16,Hapoel Kfar Saba
 1983/1984,1983,Liga Alef,North,1,Hapoel Tiberias
 1983/1984,1983,Liga Alef,North,2,Beitar Nes Tubruk
 1983/1984,1983,Liga Alef,North,3,Maccabi Shefa-'Amr
@@ -4428,22 +4050,6 @@ season,season_start,league,division,position,club
 1983/1984,1983,Liga Bet,South Division B,12,Sektzia Nes Tziona
 1983/1984,1983,Liga Bet,South Division B,13,Maccabi Be'er Sheva
 1983/1984,1983,Liga Bet,South Division B,14,Maccabi Ashkelon
-1983/1984,1983,Liga Leumit,,1,Maccabi Haifa
-1983/1984,1983,Liga Leumit,,2,Beitar Jerusalem
-1983/1984,1983,Liga Leumit,,3,Hapoel Tel Aviv
-1983/1984,1983,Liga Leumit,,4,Maccabi Netanya
-1983/1984,1983,Liga Leumit,,5,Maccabi Tel Aviv
-1983/1984,1983,Liga Leumit,,6,Beitar Tel Aviv
-1983/1984,1983,Liga Leumit,,7,Hapoel Be'er Sheva
-1983/1984,1983,Liga Leumit,,8,Hapoel Lod
-1983/1984,1983,Liga Leumit,,9,Maccabi Petah Tikva
-1983/1984,1983,Liga Leumit,,10,Maccabi Jaffa
-1983/1984,1983,Liga Leumit,,11,Hakoah Ramat Gan
-1983/1984,1983,Liga Leumit,,12,Shimshon Tel Aviv
-1983/1984,1983,Liga Leumit,,13,Maccabi Yavne
-1983/1984,1983,Liga Leumit,,14,Bnei Yehuda Tel Aviv
-1983/1984,1983,Liga Leumit,,15,Maccabi Ramat Amidar
-1983/1984,1983,Liga Leumit,,16,Hapoel Yehud
 1984/1985,1984,Liga Alef,North,1,Beitar Nes Tubruk
 1984/1985,1984,Liga Alef,North,2,Hapoel Acre
 1984/1985,1984,Liga Alef,North,3,Maccabi Hadera
@@ -4475,7 +4081,7 @@ season,season_start,league,division,position,club
 1984/1985,1984,Liga Artzit,,1,Bnei Yehuda Tel Aviv
 1984/1985,1984,Liga Artzit,,2,Maccabi Sha'arayim
 1984/1985,1984,Liga Artzit,,3,Hapoel Jerusalem
-1984/1985,1984,Liga Artzit,,4,Ironi Nir Ramat HaSharon
+1984/1985,1984,Liga Artzit,,4,Hapoel Ramat HaSharon
 1984/1985,1984,Liga Artzit,,5,Hapoel Hadera
 1984/1985,1984,Liga Artzit,,6,Hapoel Holon
 1984/1985,1984,Liga Artzit,,7,Maccabi Ramat Amidar
@@ -4544,22 +4150,6 @@ season,season_start,league,division,position,club
 1984/1985,1984,Liga Bet,South Division B,12,Beitar Lod
 1984/1985,1984,Liga Bet,South Division B,13,Beitar Kiryat Malakhi
 1984/1985,1984,Liga Bet,South Division B,14,Beitar Kiryat Gat
-1984/1985,1984,Liga Leumit,,1,Maccabi Haifa
-1984/1985,1984,Liga Leumit,,2,Beitar Jerusalem
-1984/1985,1984,Liga Leumit,,3,Shimshon Tel Aviv
-1984/1985,1984,Liga Leumit,,4,Maccabi Petah Tikva
-1984/1985,1984,Liga Leumit,,5,Hapoel Haifa
-1984/1985,1984,Liga Leumit,,6,Hapoel Petah Tikva
-1984/1985,1984,Liga Leumit,,7,Maccabi Tel Aviv
-1984/1985,1984,Liga Leumit,,8,Maccabi Netanya
-1984/1985,1984,Liga Leumit,,9,Hapoel Tel Aviv
-1984/1985,1984,Liga Leumit,,10,Maccabi Yavne
-1984/1985,1984,Liga Leumit,,11,Hapoel Kfar Saba
-1984/1985,1984,Liga Leumit,,12,Maccabi Jaffa
-1984/1985,1984,Liga Leumit,,13,Hapoel Be'er Sheva
-1984/1985,1984,Liga Leumit,,14,Beitar Tel Aviv
-1984/1985,1984,Liga Leumit,,15,Hapoel Lod
-1984/1985,1984,Liga Leumit,,16,Hakoah Ramat Gan
 1985/1986,1985,Liga Alef,North,1,Hapoel Beit She'an
 1985/1986,1985,Liga Alef,North,2,Beitar Nahariya
 1985/1986,1985,Liga Alef,North,3,Maccabi Hadera
@@ -4587,12 +4177,12 @@ season,season_start,league,division,position,club
 1985/1986,1985,Liga Alef,South,11,Hapoel Azor
 1985/1986,1985,Liga Alef,South,12,Hapoel Yeruham
 1985/1986,1985,Liga Alef,South,13,Maccabi HaShikma Hen
-1985/1986,1985,Liga Artzit,,1,Beitar Netanya
+1985/1986,1985,Liga Artzit,,1,Beitar Nes Tubruk
 1985/1986,1985,Liga Artzit,,2,Beitar Tel Aviv
 1985/1986,1985,Liga Artzit,,3,Hapoel Lod
 1985/1986,1985,Liga Artzit,,4,Hapoel Holon
-1985/1986,1985,Liga Artzit,,5,Hapoel Tiberias
-1985/1986,1985,Liga Artzit,,6,Hapoel Hadera
+1985/1986,1985,Liga Artzit,,5,Hapoel Hadera
+1985/1986,1985,Liga Artzit,,6,Hapoel Tiberias
 1985/1986,1985,Liga Artzit,,7,Maccabi Ramat Amidar
 1985/1986,1985,Liga Artzit,,8,Hapoel Marmorek
 1985/1986,1985,Liga Artzit,,9,Hapoel Acre
@@ -4600,7 +4190,7 @@ season,season_start,league,division,position,club
 1985/1986,1985,Liga Artzit,,11,Hapoel Ramat Gan
 1985/1986,1985,Liga Artzit,,12,Hakoah Ramat Gan
 1985/1986,1985,Liga Artzit,,13,Hapoel Yehud
-1985/1986,1985,Liga Artzit,,14,Ironi Nir Ramat HaSharon
+1985/1986,1985,Liga Artzit,,14,Hapoel Ramat HaSharon
 1985/1986,1985,Liga Artzit,,15,Hapoel Beit Shemesh
 1985/1986,1985,Liga Artzit,,16,Beitar Haifa
 1985/1986,1985,Liga Bet,North Division A,1,Hapoel Bnei Tamra
@@ -4658,22 +4248,6 @@ season,season_start,league,division,position,club
 1985/1986,1985,Liga Bet,South Division B,12,Hapoel Sderot
 1985/1986,1985,Liga Bet,South Division B,13,Hapoel Merhavim
 1985/1986,1985,Liga Bet,South Division B,14,Maccabi Be'er Sheva
-1985/1986,1985,Liga Leumit,,1,Hapoel Tel Aviv
-1985/1986,1985,Liga Leumit,,2,Maccabi Haifa
-1985/1986,1985,Liga Leumit,,3,Maccabi Tel Aviv
-1985/1986,1985,Liga Leumit,,4,Beitar Jerusalem
-1985/1986,1985,Liga Leumit,,5,Bnei Yehuda Tel Aviv
-1985/1986,1985,Liga Leumit,,6,Hapoel Kfar Saba
-1985/1986,1985,Liga Leumit,,7,Maccabi Petah Tikva
-1985/1986,1985,Liga Leumit,,8,Hapoel Be'er Sheva
-1985/1986,1985,Liga Leumit,,9,Maccabi Netanya
-1985/1986,1985,Liga Leumit,,10,Shimshon Tel Aviv
-1985/1986,1985,Liga Leumit,,11,Maccabi Yavne
-1985/1986,1985,Liga Leumit,,12,Maccabi Jaffa
-1985/1986,1985,Liga Leumit,,13,Hapoel Petah Tikva
-1985/1986,1985,Liga Leumit,,14,Hapoel Jerusalem
-1985/1986,1985,Liga Leumit,,15,Hapoel Haifa
-1985/1986,1985,Liga Leumit,,16,Maccabi Sha'arayim
 1986/1987,1986,Liga Alef,North,1,Maccabi Hadera
 1986/1987,1986,Liga Alef,North,2,Hapoel Ra'anana
 1986/1987,1986,Liga Alef,North,3,Maccabi Tamra
@@ -4774,22 +4348,6 @@ season,season_start,league,division,position,club
 1986/1987,1986,Liga Bet,South Division B,12,Maccabi Kiryat Ekron
 1986/1987,1986,Liga Bet,South Division B,13,Hapoel Sderot
 1986/1987,1986,Liga Bet,South Division B,14,Hapoel Merhavim
-1986/1987,1986,Liga Leumit,,1,Beitar Jerusalem
-1986/1987,1986,Liga Leumit,,2,Bnei Yehuda Tel Aviv
-1986/1987,1986,Liga Leumit,,3,Maccabi Tel Aviv
-1986/1987,1986,Liga Leumit,,4,Hapoel Lod
-1986/1987,1986,Liga Leumit,,5,Shimshon Tel Aviv
-1986/1987,1986,Liga Leumit,,6,Maccabi Petah Tikva
-1986/1987,1986,Liga Leumit,,7,Maccabi Netanya
-1986/1987,1986,Liga Leumit,,8,Hapoel Kfar Saba
-1986/1987,1986,Liga Leumit,,9,Maccabi Haifa
-1986/1987,1986,Liga Leumit,,10,Hapoel Petah Tikva
-1986/1987,1986,Liga Leumit,,11,Hapoel Be'er Sheva
-1986/1987,1986,Liga Leumit,,12,Hapoel Tel Aviv
-1986/1987,1986,Liga Leumit,,13,Beitar Tel Aviv
-1986/1987,1986,Liga Leumit,,14,Maccabi Yavne
-1986/1987,1986,Liga Leumit,,15,Maccabi Jaffa
-1986/1987,1986,Liga Leumit,,16,Beitar Netanya
 1987/1988,1987,Liga Alef,North,1,Maccabi Tamra
 1987/1988,1987,Liga Alef,North,2,Hapoel Beit She'an
 1987/1988,1987,Liga Alef,North,3,Maccabi Afula
@@ -4822,20 +4380,6 @@ season,season_start,league,division,position,club
 1987/1988,1987,Liga Alef,South,14,Hapoel Ramla
 1987/1988,1987,Liga Alef,South,15,Hapoel Azor
 1987/1988,1987,Liga Alef,South,16,Hapoel Ramat HaSharon
-1987/1988,1987,Liga Artzit,,1,Hapoel Jerusalem
-1987/1988,1987,Liga Artzit,,2,Hapoel Tiberias
-1987/1988,1987,Liga Artzit,,3,Hapoel Haifa
-1987/1988,1987,Liga Artzit,,4,Maccabi Yavne
-1987/1988,1987,Liga Artzit,,5,Hapoel Hadera
-1987/1988,1987,Liga Artzit,,6,Maccabi Sha'arayim
-1987/1988,1987,Liga Artzit,,7,Hapoel Ramat Gan
-1987/1988,1987,Liga Artzit,,8,Hapoel Yehud
-1987/1988,1987,Liga Artzit,,9,Maccabi Jaffa
-1987/1988,1987,Liga Artzit,,10,Maccabi Ramat Amidar
-1987/1988,1987,Liga Artzit,,11,Hapoel Bat Yam
-1987/1988,1987,Liga Artzit,,12,Beitar Netanya
-1987/1988,1987,Liga Artzit,,13,Hakoah Ramat Gan
-1987/1988,1987,Liga Artzit,,14,Hapoel Acre
 1987/1988,1987,Liga Bet,North Division A,1,Maccabi Acre
 1987/1988,1987,Liga Bet,North Division A,2,Maccabi Sektzia Ma'alot-Tarshiha
 1987/1988,1987,Liga Bet,North Division A,3,Maccabi Bnei Hatzor
@@ -4892,20 +4436,6 @@ season,season_start,league,division,position,club
 1987/1988,1987,Liga Bet,South Division B,12,Beitar Kiryat Malakhi
 1987/1988,1987,Liga Bet,South Division B,13,Maccabi Kiryat Ekron
 1987/1988,1987,Liga Bet,South Division B,14,Hapoel Mevaseret Zion
-1987/1988,1987,Liga Leumit,,1,Hapoel Tel Aviv
-1987/1988,1987,Liga Leumit,,2,Maccabi Netanya
-1987/1988,1987,Liga Leumit,,3,Hapoel Be'er Sheva
-1987/1988,1987,Liga Leumit,,4,Shimshon Tel Aviv
-1987/1988,1987,Liga Leumit,,5,Hapoel Petah Tikva
-1987/1988,1987,Liga Leumit,,6,Hapoel Kfar Saba
-1987/1988,1987,Liga Leumit,,7,Beitar Tel Aviv
-1987/1988,1987,Liga Leumit,,8,Hapoel Holon
-1987/1988,1987,Liga Leumit,,9,Maccabi Haifa
-1987/1988,1987,Liga Leumit,,10,Bnei Yehuda Tel Aviv
-1987/1988,1987,Liga Leumit,,11,Beitar Jerusalem
-1987/1988,1987,Liga Leumit,,12,Maccabi Tel Aviv
-1987/1988,1987,Liga Leumit,,13,Hapoel Lod
-1987/1988,1987,Liga Leumit,,14,Maccabi Petah Tikva
 1988/1989,1988,Liga Alef,North,1,Hapoel Tirat Carmel
 1988/1989,1988,Liga Alef,North,2,Hapoel Acre
 1988/1989,1988,Liga Alef,North,3,Maccabi Ahi Nazareth
@@ -4938,20 +4468,6 @@ season,season_start,league,division,position,club
 1988/1989,1988,Liga Alef,South,14,Maccabi Kiryat Gat
 1988/1989,1988,Liga Alef,South,15,Hapoel Ramla
 1988/1989,1988,Liga Alef,South,16,Hapoel Beit Shemesh
-1988/1989,1988,Liga Artzit,,1,Hapoel Ramat Gan
-1988/1989,1988,Liga Artzit,,2,Maccabi Yavne
-1988/1989,1988,Liga Artzit,,3,Maccabi Petah Tikva
-1988/1989,1988,Liga Artzit,,4,Maccabi Jaffa
-1988/1989,1988,Liga Artzit,,5,Hapoel Hadera
-1988/1989,1988,Liga Artzit,,6,Maccabi Sha'arayim
-1988/1989,1988,Liga Artzit,,7,Hapoel Haifa
-1988/1989,1988,Liga Artzit,,8,Maccabi Ramat Amidar
-1988/1989,1988,Liga Artzit,,9,Beitar Netanya
-1988/1989,1988,Liga Artzit,,10,Maccabi Tamra
-1988/1989,1988,Liga Artzit,,11,Hapoel Lod
-1988/1989,1988,Liga Artzit,,12,Hapoel Bat Yam
-1988/1989,1988,Liga Artzit,,13,Hapoel Yehud
-1988/1989,1988,Liga Artzit,,14,Beitar Ramla
 1988/1989,1988,Liga Bet,South Division B,1,Maccabi Ironi Ashdod
 1988/1989,1988,Liga Bet,South Division B,2,Sektzia Nes Tziona
 1988/1989,1988,Liga Bet,South Division B,3,Beitar Be'er Sheva
@@ -4966,20 +4482,6 @@ season,season_start,league,division,position,club
 1988/1989,1988,Liga Bet,South Division B,12,Beitar Kiryat Malakhi
 1988/1989,1988,Liga Bet,South Division B,13,Beitar Kiryat Gat
 1988/1989,1988,Liga Bet,South Division B,14,Hapoel Yeruham
-1988/1989,1988,Liga Leumit,,1,Maccabi Haifa
-1988/1989,1988,Liga Leumit,,2,Hapoel Petah Tikva
-1988/1989,1988,Liga Leumit,,3,Maccabi Netanya
-1988/1989,1988,Liga Leumit,,4,Beitar Tel Aviv
-1988/1989,1988,Liga Leumit,,5,Hapoel Be'er Sheva
-1988/1989,1988,Liga Leumit,,6,Shimshon Tel Aviv
-1988/1989,1988,Liga Leumit,,7,Hapoel Jerusalem
-1988/1989,1988,Liga Leumit,,8,Maccabi Tel Aviv
-1988/1989,1988,Liga Leumit,,9,Beitar Jerusalem
-1988/1989,1988,Liga Leumit,,10,Hapoel Kfar Saba
-1988/1989,1988,Liga Leumit,,11,Bnei Yehuda Tel Aviv
-1988/1989,1988,Liga Leumit,,12,Hapoel Tiberias
-1988/1989,1988,Liga Leumit,,13,Hapoel Holon
-1988/1989,1988,Liga Leumit,,14,Hapoel Tel Aviv
 1989/1990,1989,Liga Alef,North,1,Maccabi Ironi Kiryat Ata
 1989/1990,1989,Liga Alef,North,2,Hapoel Daliyat al-Karmel
 1989/1990,1989,Liga Alef,North,3,Maccabi Herzliya
@@ -5018,7 +4520,7 @@ season,season_start,league,division,position,club
 1989/1990,1989,Liga Artzit,,4,Maccabi Sha'arayim
 1989/1990,1989,Liga Artzit,,5,Hapoel Tiberias
 1989/1990,1989,Liga Artzit,,6,Maccabi Petah Tikva
-1989/1990,1989,Liga Artzit,,7,Beitar Netanya
+1989/1990,1989,Liga Artzit,,7,Beitar Nes Tubruk
 1989/1990,1989,Liga Artzit,,8,Maccabi Jaffa
 1989/1990,1989,Liga Artzit,,9,Hapoel Haifa
 1989/1990,1989,Liga Artzit,,10,Maccabi Ramat Amidar
@@ -5028,18 +4530,6 @@ season,season_start,league,division,position,club
 1989/1990,1989,Liga Artzit,,14,Maccabi Tamra
 1989/1990,1989,Liga Artzit,,15,Hapoel Rishon LeZion
 1989/1990,1989,Liga Artzit,,16,Hapoel Lod
-1989/1990,1989,Liga Leumit,,1,Bnei Yehuda Tel Aviv
-1989/1990,1989,Liga Leumit,,2,Hapoel Petah Tikva
-1989/1990,1989,Liga Leumit,,3,Maccabi Haifa
-1989/1990,1989,Liga Leumit,,4,Maccabi Tel Aviv
-1989/1990,1989,Liga Leumit,,5,Beitar Tel Aviv
-1989/1990,1989,Liga Leumit,,6,Hapoel Kfar Saba
-1989/1990,1989,Liga Leumit,,7,Maccabi Netanya
-1989/1990,1989,Liga Leumit,,8,Hapoel Jerusalem
-1989/1990,1989,Liga Leumit,,9,Hapoel Be'er Sheva
-1989/1990,1989,Liga Leumit,,10,Beitar Jerusalem
-1989/1990,1989,Liga Leumit,,11,Hapoel Ramat Gan
-1989/1990,1989,Liga Leumit,,12,Shimshon Tel Aviv
 1990/1991,1990,Liga Alef,North,1,Maccabi Herzliya
 1990/1991,1990,Liga Alef,North,2,Hapoel Acre
 1990/1991,1990,Liga Alef,North,3,Hapoel Nof HaGalil
@@ -5083,23 +4573,11 @@ season,season_start,league,division,position,club
 1990/1991,1990,Liga Artzit,,9,Hapoel Hadera
 1990/1991,1990,Liga Artzit,,10,Hapoel Haifa
 1990/1991,1990,Liga Artzit,,11,Hapoel Tiberias
-1990/1991,1990,Liga Artzit,,12,Beitar Netanya
+1990/1991,1990,Liga Artzit,,12,Beitar Nes Tubruk
 1990/1991,1990,Liga Artzit,,13,Maccabi Acre
 1990/1991,1990,Liga Artzit,,14,Hapoel Bat Yam
 1990/1991,1990,Liga Artzit,,15,Maccabi Ramat Amidar
 1990/1991,1990,Liga Artzit,,16,Hapoel Tirat Carmel
-1990/1991,1990,Liga Leumit,,1,Maccabi Haifa
-1990/1991,1990,Liga Leumit,,2,Hapoel Petah Tikva
-1990/1991,1990,Liga Leumit,,3,Beitar Tel Aviv
-1990/1991,1990,Liga Leumit,,4,Maccabi Netanya
-1990/1991,1990,Liga Leumit,,5,Maccabi Tel Aviv
-1990/1991,1990,Liga Leumit,,6,Hapoel Be'er Sheva
-1990/1991,1990,Liga Leumit,,7,Hapoel Tel Aviv
-1990/1991,1990,Liga Leumit,,8,Bnei Yehuda Tel Aviv
-1990/1991,1990,Liga Leumit,,9,Hapoel Holon
-1990/1991,1990,Liga Leumit,,10,Hapoel Jerusalem
-1990/1991,1990,Liga Leumit,,11,Beitar Jerusalem
-1990/1991,1990,Liga Leumit,,12,Hapoel Kfar Saba
 1991/1992,1991,Liga Alef,North,1,Hapoel Daliyat al-Karmel
 1991/1992,1991,Liga Alef,North,2,Hapoel Kiryat Shmona
 1991/1992,1991,Liga Alef,North,3,Hapoel Givat Olga
@@ -5146,20 +4624,8 @@ season,season_start,league,division,position,club
 1991/1992,1991,Liga Artzit,,12,Maccabi Sha'arayim
 1991/1992,1991,Liga Artzit,,13,Hakoah Ramat Gan
 1991/1992,1991,Liga Artzit,,14,Hapoel Ashdod
-1991/1992,1991,Liga Artzit,,15,Beitar Netanya
+1991/1992,1991,Liga Artzit,,15,Beitar Nes Tubruk
 1991/1992,1991,Liga Artzit,,16,Hapoel Tiberias
-1991/1992,1991,Liga Leumit,,1,Maccabi Tel Aviv
-1991/1992,1991,Liga Leumit,,2,Bnei Yehuda Tel Aviv
-1991/1992,1991,Liga Leumit,,3,Maccabi Haifa
-1991/1992,1991,Liga Leumit,,4,Hapoel Petah Tikva
-1991/1992,1991,Liga Leumit,,5,Beitar Tel Aviv
-1991/1992,1991,Liga Leumit,,6,Maccabi Netanya
-1991/1992,1991,Liga Leumit,,7,Maccabi Petah Tikva
-1991/1992,1991,Liga Leumit,,8,Hapoel Holon
-1991/1992,1991,Liga Leumit,,9,Hapoel Tel Aviv
-1991/1992,1991,Liga Leumit,,10,Hapoel Be'er Sheva
-1991/1992,1991,Liga Leumit,,11,Maccabi Yavne
-1991/1992,1991,Liga Leumit,,12,Hapoel Jerusalem
 1992/1993,1992,Liga Alef,North,1,Hapoel Beit She'an
 1992/1993,1992,Liga Alef,North,2,Hapoel Taibe
 1992/1993,1992,Liga Alef,North,3,Hapoel Givat Olga
@@ -5206,20 +4672,8 @@ season,season_start,league,division,position,club
 1992/1993,1992,Liga Artzit,,12,Hapoel Daliyat al-Karmel
 1992/1993,1992,Liga Artzit,,13,Shimshon Tel Aviv
 1992/1993,1992,Liga Artzit,,14,Hapoel Hadera
-1992/1993,1992,Liga Artzit,,15,Hapoel Ramat Gan
+1992/1993,1992,Liga Artzit,,15,Hapoel Ramat Gan Giv'atayim
 1992/1993,1992,Liga Artzit,,16,Maccabi Sha'arayim
-1992/1993,1992,Liga Leumit,,1,Beitar Jerusalem
-1992/1993,1992,Liga Leumit,,2,Maccabi Tel Aviv
-1992/1993,1992,Liga Leumit,,3,Bnei Yehuda Tel Aviv
-1992/1993,1992,Liga Leumit,,4,Hapoel Be'er Sheva
-1992/1993,1992,Liga Leumit,,5,Maccabi Haifa
-1992/1993,1992,Liga Leumit,,6,Hapoel Holon
-1992/1993,1992,Liga Leumit,,7,Hapoel Haifa
-1992/1993,1992,Liga Leumit,,8,Maccabi Netanya
-1992/1993,1992,Liga Leumit,,9,Hapoel Tel Aviv
-1992/1993,1992,Liga Leumit,,10,Maccabi Petah Tikva
-1992/1993,1992,Liga Leumit,,11,Hapoel Petah Tikva
-1992/1993,1992,Liga Leumit,,12,Beitar Tel Aviv
 1993/1994,1993,Liga Alef,North,1,Hapoel Ramat Gan
 1993/1994,1993,Liga Alef,North,2,Hapoel Kiryat Shmona
 1993/1994,1993,Liga Alef,North,3,Maccabi Afula
@@ -5263,25 +4717,11 @@ season,season_start,league,division,position,club
 1993/1994,1993,Liga Artzit,,9,Hapoel Ashkelon
 1993/1994,1993,Liga Artzit,,10,Hapoel Jerusalem
 1993/1994,1993,Liga Artzit,,11,Sektzia Nes Tziona
-1993/1994,1993,Liga Artzit,,12,Hakoah Ramat Gan
+1993/1994,1993,Liga Artzit,,12,Hakoah Maccabi Amidar Ramat Gan
 1993/1994,1993,Liga Artzit,,13,Maccabi Jaffa
 1993/1994,1993,Liga Artzit,,14,Hapoel Ashdod
 1993/1994,1993,Liga Artzit,,15,Maccabi Ironi Kiryat Ata
 1993/1994,1993,Liga Artzit,,16,Hapoel Daliyat al-Karmel
-1993/1994,1993,Liga Leumit,,1,Maccabi Haifa
-1993/1994,1993,Liga Leumit,,2,Maccabi Tel Aviv
-1993/1994,1993,Liga Leumit,,3,Hapoel Be'er Sheva
-1993/1994,1993,Liga Leumit,,4,Beitar Jerusalem
-1993/1994,1993,Liga Leumit,,5,Hapoel Tel Aviv
-1993/1994,1993,Liga Leumit,,6,Maccabi Netanya
-1993/1994,1993,Liga Leumit,,7,Hapoel Petah Tikva
-1993/1994,1993,Liga Leumit,,8,Maccabi Petah Tikva
-1993/1994,1993,Liga Leumit,,9,Bnei Yehuda Tel Aviv
-1993/1994,1993,Liga Leumit,,10,Hapoel Holon
-1993/1994,1993,Liga Leumit,,11,Maccabi Herzliya
-1993/1994,1993,Liga Leumit,,12,Maccabi Ironi Ashdod
-1993/1994,1993,Liga Leumit,,13,Hapoel Haifa
-1993/1994,1993,Liga Leumit,,14,Hapoel Kfar Saba
 1994/1995,1994,Liga Alef,North,1,Maccabi Ironi Kiryat Ata
 1994/1995,1994,Liga Alef,North,2,Bnei Sakhnin
 1994/1995,1994,Liga Alef,North,3,Maccabi Ahi Nazareth
@@ -5392,22 +4832,6 @@ season,season_start,league,division,position,club
 1994/1995,1994,Liga Bet,South B,14,Hapoel Arad
 1994/1995,1994,Liga Bet,South B,15,Maccabi Kiryat Malakhi
 1994/1995,1994,Liga Bet,South B,16,Maccabi Dimona
-1994/1995,1994,Liga Leumit,,1,Maccabi Tel Aviv
-1994/1995,1994,Liga Leumit,,2,Maccabi Haifa
-1994/1995,1994,Liga Leumit,,3,Hapoel Be'er Sheva
-1994/1995,1994,Liga Leumit,,4,Hapoel Tel Aviv
-1994/1995,1994,Liga Leumit,,5,Hapoel Petah Tikva
-1994/1995,1994,Liga Leumit,,6,Beitar Jerusalem
-1994/1995,1994,Liga Leumit,,7,Hapoel Holon
-1994/1995,1994,Liga Leumit,,8,Maccabi Petah Tikva
-1994/1995,1994,Liga Leumit,,9,Hapoel Rishon LeZion
-1994/1995,1994,Liga Leumit,,10,Bnei Yehuda Tel Aviv
-1994/1995,1994,Liga Leumit,,11,Beitar Tel Aviv
-1994/1995,1994,Liga Leumit,,12,Hapoel Beit She'an
-1994/1995,1994,Liga Leumit,,13,Hapoel Haifa
-1994/1995,1994,Liga Leumit,,14,Maccabi Herzliya
-1994/1995,1994,Liga Leumit,,15,Maccabi Ironi Ashdod
-1994/1995,1994,Liga Leumit,,16,Maccabi Netanya
 1995/1996,1995,Liga Alef,North,1,Maccabi Kafr Kanna
 1995/1996,1995,Liga Alef,North,2,Hapoel Kafr Kanna
 1995/1996,1995,Liga Alef,North,3,Bnei Sakhnin
@@ -5447,31 +4871,15 @@ season,season_start,league,division,position,club
 1995/1996,1995,Liga Artzit,,5,Maccabi Ironi Ashdod
 1995/1996,1995,Liga Artzit,,6,Hapoel Ramat Gan
 1995/1996,1995,Liga Artzit,,7,Hakoah Ramat Gan
-1995/1996,1995,Liga Artzit,,8,Maccabi Acre
+1995/1996,1995,Liga Artzit,,8,Maccabi Ironi Kiryat Ata
 1995/1996,1995,Liga Artzit,,9,Maccabi Netanya
-1995/1996,1995,Liga Artzit,,10,Maccabi Yavne
-1995/1996,1995,Liga Artzit,,11,Hapoel Hadera
-1995/1996,1995,Liga Artzit,,12,Sektzia Nes Tziona
-1995/1996,1995,Liga Artzit,,13,Hapoel Ashdod
+1995/1996,1995,Liga Artzit,,10,Hapoel Ashdod
+1995/1996,1995,Liga Artzit,,11,Maccabi Yavne
+1995/1996,1995,Liga Artzit,,12,Hapoel Hadera
+1995/1996,1995,Liga Artzit,,13,Sektzia Nes Tziona
 1995/1996,1995,Liga Artzit,,14,Hapoel Kiryat Shmona
 1995/1996,1995,Liga Artzit,,15,Shimshon Tel Aviv
 1995/1996,1995,Liga Artzit,,16,Hapoel Kfar Shalem
-1995/1996,1995,Liga Leumit,,1,Maccabi Tel Aviv
-1995/1996,1995,Liga Leumit,,2,Maccabi Haifa
-1995/1996,1995,Liga Leumit,,3,Beitar Jerusalem
-1995/1996,1995,Liga Leumit,,4,Hapoel Haifa
-1995/1996,1995,Liga Leumit,,5,Hapoel Tel Aviv
-1995/1996,1995,Liga Leumit,,6,Maccabi Petah Tikva
-1995/1996,1995,Liga Leumit,,7,Maccabi Herzliya
-1995/1996,1995,Liga Leumit,,8,Hapoel Petah Tikva
-1995/1996,1995,Liga Leumit,,9,Hapoel Rishon LeZion
-1995/1996,1995,Liga Leumit,,10,Hapoel Be'er Sheva
-1995/1996,1995,Liga Leumit,,11,Bnei Yehuda Tel Aviv
-1995/1996,1995,Liga Leumit,,12,Hapoel Kfar Saba
-1995/1996,1995,Liga Leumit,,13,Hapoel Holon
-1995/1996,1995,Liga Leumit,,14,Hapoel Beit She'an
-1995/1996,1995,Liga Leumit,,15,Beitar Tel Aviv
-1995/1996,1995,Liga Leumit,,16,Maccabi Jaffa
 1996/1997,1996,Liga Alef,North,1,Bnei Sakhnin
 1996/1997,1996,Liga Alef,North,2,Hapoel Acre
 1996/1997,1996,Liga Alef,North,3,Hapoel Nof HaGalil
@@ -5513,7 +4921,7 @@ season,season_start,league,division,position,club
 1996/1997,1996,Liga Artzit,,7,Maccabi Kafr Kanna
 1996/1997,1996,Liga Artzit,,8,Hapoel Ramat Gan
 1996/1997,1996,Liga Artzit,,9,Beitar Tel Aviv
-1996/1997,1996,Liga Artzit,,10,Maccabi Acre
+1996/1997,1996,Liga Artzit,,10,Maccabi Ironi Kiryat Ata
 1996/1997,1996,Liga Artzit,,11,Maccabi Kiryat Gat
 1996/1997,1996,Liga Artzit,,12,Hapoel Ashdod
 1996/1997,1996,Liga Artzit,,13,Sektzia Nes Tziona
@@ -5738,22 +5146,6 @@ season,season_start,league,division,position,club
 1996/1997,1996,Liga Gimel,Western Galilee,13,Beitar Ma'alot
 1996/1997,1996,Liga Gimel,Western Galilee,14,Hapoel Jat HaGlilit
 1996/1997,1996,Liga Gimel,Western Galilee,15,Hapoel Sha'ab
-1996/1997,1996,Liga Leumit,,1,Beitar Jerusalem
-1996/1997,1996,Liga Leumit,,2,Hapoel Petah Tikva
-1996/1997,1996,Liga Leumit,,3,Hapoel Be'er Sheva
-1996/1997,1996,Liga Leumit,,4,Maccabi Petah Tikva
-1996/1997,1996,Liga Leumit,,5,Maccabi Haifa
-1996/1997,1996,Liga Leumit,,6,Maccabi Tel Aviv
-1996/1997,1996,Liga Leumit,,7,Hapoel Haifa
-1996/1997,1996,Liga Leumit,,8,Hapoel Kfar Saba
-1996/1997,1996,Liga Leumit,,9,Hapoel Rishon LeZion
-1996/1997,1996,Liga Leumit,,10,Bnei Yehuda Tel Aviv
-1996/1997,1996,Liga Leumit,,11,Hapoel Beit She'an
-1996/1997,1996,Liga Leumit,,12,Hapoel Jerusalem
-1996/1997,1996,Liga Leumit,,13,Hapoel Tel Aviv
-1996/1997,1996,Liga Leumit,,14,Maccabi Herzliya
-1996/1997,1996,Liga Leumit,,15,Hapoel Holon
-1996/1997,1996,Liga Leumit,,16,Hapoel Taibe
 1997/1998,1997,Liga Alef,North,1,Maccabi Ahi Nazareth
 1997/1998,1997,Liga Alef,North,2,Hapoel Umm al-Fahm
 1997/1998,1997,Liga Alef,North,3,Hapoel Kiryat Shmona
@@ -5789,7 +5181,7 @@ season,season_start,league,division,position,club
 1997/1998,1997,Liga Artzit,,1,Maccabi Jaffa
 1997/1998,1997,Liga Artzit,,2,Hapoel Holon
 1997/1998,1997,Liga Artzit,,3,Hapoel Ashdod
-1997/1998,1997,Liga Artzit,,4,Hakoah Ramat Gan
+1997/1998,1997,Liga Artzit,,4,Hakoah Maccabi Amidar Ramat Gan
 1997/1998,1997,Liga Artzit,,5,Maccabi Netanya
 1997/1998,1997,Liga Artzit,,6,Beitar Tel Aviv
 1997/1998,1997,Liga Artzit,,7,Hapoel Bat Yam
@@ -5802,22 +5194,6 @@ season,season_start,league,division,position,club
 1997/1998,1997,Liga Artzit,,14,Hapoel Lod
 1997/1998,1997,Liga Artzit,,15,Hapoel Ramat Gan
 1997/1998,1997,Liga Artzit,,16,Maccabi Yavne
-1997/1998,1997,Liga Leumit,,1,Beitar Jerusalem
-1997/1998,1997,Liga Leumit,,2,Hapoel Tel Aviv
-1997/1998,1997,Liga Leumit,,3,Hapoel Haifa
-1997/1998,1997,Liga Leumit,,4,Maccabi Haifa
-1997/1998,1997,Liga Leumit,,5,Hapoel Petah Tikva
-1997/1998,1997,Liga Leumit,,6,Maccabi Tel Aviv
-1997/1998,1997,Liga Leumit,,7,Hapoel Kfar Saba
-1997/1998,1997,Liga Leumit,,8,Maccabi Herzliya
-1997/1998,1997,Liga Leumit,,9,Maccabi Petah Tikva
-1997/1998,1997,Liga Leumit,,10,Hapoel Rishon LeZion
-1997/1998,1997,Liga Leumit,,11,Hapoel Jerusalem
-1997/1998,1997,Liga Leumit,,12,Maccabi Ironi Ashdod
-1997/1998,1997,Liga Leumit,,13,Hapoel Beit She'an
-1997/1998,1997,Liga Leumit,,14,Bnei Yehuda Tel Aviv
-1997/1998,1997,Liga Leumit,,15,Hapoel Be'er Sheva
-1997/1998,1997,Liga Leumit,,16,Hapoel Ashkelon
 1998/1999,1998,Liga Alef,North,1,Hapoel Ra'anana
 1998/1999,1998,Liga Alef,North,2,Hapoel Nof HaGalil
 1998/1999,1998,Liga Alef,North,3,Hapoel Iksal
@@ -5853,9 +5229,9 @@ season,season_start,league,division,position,club
 1998/1999,1998,Liga Artzit,,1,Maccabi Netanya
 1998/1999,1998,Liga Artzit,,2,Hapoel Ashkelon
 1998/1999,1998,Liga Artzit,,3,Hapoel Be'er Sheva
-1998/1999,1998,Liga Artzit,,4,Beitar Be'er Sheva
+1998/1999,1998,Liga Artzit,,4,Beitar Avraham Be'er Sheva
 1998/1999,1998,Liga Artzit,,5,Maccabi Acre
-1998/1999,1998,Liga Artzit,,6,Hakoah Ramat Gan
+1998/1999,1998,Liga Artzit,,6,Hakoah Maccabi Amidar Ramat Gan
 1998/1999,1998,Liga Artzit,,7,Maccabi Kiryat Gat
 1998/1999,1998,Liga Artzit,,8,Maccabi Ahi Nazareth
 1998/1999,1998,Liga Artzit,,9,Bnei Sakhnin
@@ -5928,22 +5304,6 @@ season,season_start,league,division,position,club
 1998/1999,1998,Liga Bet,South B,12,Maccabi Be'er Sheva
 1998/1999,1998,Liga Bet,South B,13,Hapoel Be'er Ya'akov
 1998/1999,1998,Liga Bet,South B,14,Beitar Beit Shemesh
-1998/1999,1998,Liga Leumit,,1,Hapoel Haifa
-1998/1999,1998,Liga Leumit,,2,Maccabi Tel Aviv
-1998/1999,1998,Liga Leumit,,3,Maccabi Haifa
-1998/1999,1998,Liga Leumit,,4,Beitar Jerusalem
-1998/1999,1998,Liga Leumit,,5,Hapoel Tel Aviv
-1998/1999,1998,Liga Leumit,,6,Hapoel Petah Tikva
-1998/1999,1998,Liga Leumit,,7,Hapoel Rishon LeZion
-1998/1999,1998,Liga Leumit,,8,Hapoel Kfar Saba
-1998/1999,1998,Liga Leumit,,9,Hapoel Jerusalem
-1998/1999,1998,Liga Leumit,,10,Maccabi Petah Tikva
-1998/1999,1998,Liga Leumit,,11,Bnei Yehuda Tel Aviv
-1998/1999,1998,Liga Leumit,,12,Maccabi Ironi Ashdod
-1998/1999,1998,Liga Leumit,,13,Maccabi Herzliya
-1998/1999,1998,Liga Leumit,,14,Hapoel Holon
-1998/1999,1998,Liga Leumit,,15,Hapoel Beit She'an
-1998/1999,1998,Liga Leumit,,16,Maccabi Jaffa
 1999/2000,1999,Liga Alef,North,1,Hapoel Majd al-Krum
 1999/2000,1999,Liga Alef,North,2,Hapoel Hadera
 1999/2000,1999,Liga Alef,North,3,Maccabi Tamra
@@ -6183,30 +5543,6 @@ season,season_start,league,division,position,club
 1999/2000,1999,Liga Gimel,Western Galilee,12,Hapoel Jat HaGlilit
 1999/2000,1999,Liga Gimel,Western Galilee,13,Hapoel Bnei Mazra'a
 1999/2000,1999,Liga Gimel,Western Galilee,14,Ironi Bnei Julis
-1999/2000,1999,Liga Leumit,,1,Hapoel Holon
-1999/2000,1999,Liga Leumit,,2,Maccabi Kiryat Gat
-1999/2000,1999,Liga Leumit,,3,Maccabi Acre
-1999/2000,1999,Liga Leumit,,4,Bnei Sakhnin
-1999/2000,1999,Liga Leumit,,5,Beitar Be'er Sheva
-1999/2000,1999,Liga Leumit,,6,Hakoah Ramat Gan
-1999/2000,1999,Liga Leumit,,7,Hapoel Be'er Sheva
-1999/2000,1999,Liga Leumit,,8,Hapoel Beit She'an
-1999/2000,1999,Liga Leumit,,9,Maccabi Ahi Nazareth
-1999/2000,1999,Liga Leumit,,10,Hapoel Ashkelon
-1999/2000,1999,Ligat ha'Al,,1,Hapoel Tel Aviv
-1999/2000,1999,Ligat ha'Al,,2,Maccabi Haifa
-1999/2000,1999,Ligat ha'Al,,3,Hapoel Petah Tikva
-1999/2000,1999,Ligat ha'Al,,4,Maccabi Petah Tikva
-1999/2000,1999,Ligat ha'Al,,5,Beitar Jerusalem
-1999/2000,1999,Ligat ha'Al,,6,Maccabi Tel Aviv
-1999/2000,1999,Ligat ha'Al,,7,Hapoel Haifa
-1999/2000,1999,Ligat ha'Al,,8,Ashdod S.C.
-1999/2000,1999,Ligat ha'Al,,9,Hapoel Rishon LeZion
-1999/2000,1999,Ligat ha'Al,,10,Maccabi Netanya
-1999/2000,1999,Ligat ha'Al,,11,Bnei Yehuda Tel Aviv
-1999/2000,1999,Ligat ha'Al,,12,Hapoel Kfar Saba
-1999/2000,1999,Ligat ha'Al,,13,Maccabi Herzliya
-1999/2000,1999,Ligat ha'Al,,14,Hapoel Jerusalem
 2000/2001,2000,Liga Alef,North,1,Hapoel Ironi Kiryat Shmona
 2000/2001,2000,Liga Alef,North,2,Hapoel Hadera
 2000/2001,2000,Liga Alef,North,3,Maccabi Hadera
@@ -6296,30 +5632,6 @@ season,season_start,league,division,position,club
 2000/2001,2000,Liga Bet,South B,14,Moadon Tzeirei Rahat
 2000/2001,2000,Liga Bet,South B,15,Hapoel Aliyah Kfar Saba
 2000/2001,2000,Liga Bet,South B,16,Hapoel Rahat
-2000/2001,2000,Liga Leumit,,1,Hapoel Be'er Sheva
-2000/2001,2000,Liga Leumit,,2,Maccabi Kiryat Gat
-2000/2001,2000,Liga Leumit,,3,Beitar Be'er Sheva
-2000/2001,2000,Liga Leumit,,4,Hapoel Ramat Gan
-2000/2001,2000,Liga Leumit,,5,Hakoah Ramat Gan
-2000/2001,2000,Liga Leumit,,6,Hapoel Beit She'an
-2000/2001,2000,Liga Leumit,,7,Bnei Sakhnin
-2000/2001,2000,Liga Leumit,,8,Hapoel Kfar Saba
-2000/2001,2000,Liga Leumit,,9,Maccabi Herzliya
-2000/2001,2000,Liga Leumit,,10,Maccabi Ahi Nazareth
-2000/2001,2000,Liga Leumit,,11,Maccabi Ironi Kiryat Ata
-2000/2001,2000,Liga Leumit,,12,Hapoel Jerusalem
-2000/2001,2000,Ligat ha'Al,,1,Maccabi Haifa
-2000/2001,2000,Ligat ha'Al,,2,Hapoel Tel Aviv
-2000/2001,2000,Ligat ha'Al,,3,Hapoel Haifa
-2000/2001,2000,Ligat ha'Al,,4,Maccabi Tel Aviv
-2000/2001,2000,Ligat ha'Al,,5,Beitar Jerusalem
-2000/2001,2000,Ligat ha'Al,,6,Hapoel Petah Tikva
-2000/2001,2000,Ligat ha'Al,,7,Maccabi Netanya
-2000/2001,2000,Ligat ha'Al,,8,Maccabi Petah Tikva
-2000/2001,2000,Ligat ha'Al,,9,Hapoel Rishon LeZion
-2000/2001,2000,Ligat ha'Al,,10,Ashdod S.C.
-2000/2001,2000,Ligat ha'Al,,11,Bnei Yehuda Tel Aviv
-2000/2001,2000,Ligat ha'Al,,12,Hapoel Holon
 2001/2002,2001,Liga Alef,North,1,Hapoel Ihud Kafr Sumei
 2001/2002,2001,Liga Alef,North,2,Maccabi Shefa-'Amr
 2001/2002,2001,Liga Alef,North,3,Hapoel Ironi Herzliya
@@ -6426,30 +5738,6 @@ season,season_start,league,division,position,club
 2001/2002,2001,Liga Bet,South B,14,Moadon Tzeirei Rahat
 2001/2002,2001,Liga Bet,South B,15,Maccabi Neve Alon Lod
 2001/2002,2001,Liga Bet,South B,16,Hapoel Aliyah Kfar Saba
-2001/2002,2001,Liga Leumit,,1,Hapoel Kfar Saba
-2001/2002,2001,Liga Leumit,,2,Bnei Yehuda Tel Aviv
-2001/2002,2001,Liga Leumit,,3,Maccabi Herzliya
-2001/2002,2001,Liga Leumit,,4,Beitar Be'er Sheva
-2001/2002,2001,Liga Leumit,,5,Maccabi Kafr Kanna
-2001/2002,2001,Liga Leumit,,6,Bnei Sakhnin
-2001/2002,2001,Liga Leumit,,7,Hakoah Ramat Gan
-2001/2002,2001,Liga Leumit,,8,Maccabi Ahi Nazareth
-2001/2002,2001,Liga Leumit,,9,Hapoel Ra'anana
-2001/2002,2001,Liga Leumit,,10,Hapoel Ramat Gan
-2001/2002,2001,Liga Leumit,,11,Hapoel Holon
-2001/2002,2001,Liga Leumit,,12,Hapoel Beit She'an
-2001/2002,2001,Ligat ha'Al,,1,Maccabi Haifa
-2001/2002,2001,Ligat ha'Al,,2,Hapoel Tel Aviv
-2001/2002,2001,Ligat ha'Al,,3,Maccabi Tel Aviv
-2001/2002,2001,Ligat ha'Al,,4,Ashdod S.C.
-2001/2002,2001,Ligat ha'Al,,5,Hapoel Be'er Sheva
-2001/2002,2001,Ligat ha'Al,,6,Hapoel Petah Tikva
-2001/2002,2001,Ligat ha'Al,,7,Maccabi Netanya
-2001/2002,2001,Ligat ha'Al,,8,Maccabi Petah Tikva
-2001/2002,2001,Ligat ha'Al,,9,Hapoel Rishon LeZion
-2001/2002,2001,Ligat ha'Al,,10,Beitar Jerusalem
-2001/2002,2001,Ligat ha'Al,,11,Hapoel Haifa
-2001/2002,2001,Ligat ha'Al,,12,Maccabi Kiryat Gat
 2002/2003,2002,Liga Alef,North,1,Hapoel Ironi Herzliya
 2002/2003,2002,Liga Alef,North,2,Hapoel Asi Gilboa
 2002/2003,2002,Liga Alef,North,3,Maccabi Shefa-'Amr
@@ -6554,30 +5842,6 @@ season,season_start,league,division,position,club
 2002/2003,2002,Liga Bet,South B,14,Ironi Ramla
 2002/2003,2002,Liga Bet,South B,15,Hapoel Rahat
 2002/2003,2002,Liga Bet,South B,16,Hapoel Sde Uzziah
-2002/2003,2002,Liga Leumit,,1,Maccabi Ahi Nazareth
-2002/2003,2002,Liga Leumit,,2,Bnei Sakhnin
-2002/2003,2002,Liga Leumit,,3,Hapoel Jerusalem
-2002/2003,2002,Liga Leumit,,4,Hapoel Nof HaGalil
-2002/2003,2002,Liga Leumit,,5,Maccabi Herzliya
-2002/2003,2002,Liga Leumit,,6,Hapoel Haifa
-2002/2003,2002,Liga Leumit,,7,Hapoel Ramat Gan
-2002/2003,2002,Liga Leumit,,8,Hapoel Ra'anana
-2002/2003,2002,Liga Leumit,,9,Hapoel Holon
-2002/2003,2002,Liga Leumit,,10,Maccabi Kiryat Gat
-2002/2003,2002,Liga Leumit,,11,Maccabi Kafr Kanna
-2002/2003,2002,Liga Leumit,,12,Beitar Be'er Sheva
-2002/2003,2002,Ligat ha'Al,,1,Maccabi Tel Aviv
-2002/2003,2002,Ligat ha'Al,,2,Maccabi Haifa
-2002/2003,2002,Ligat ha'Al,,3,Hapoel Tel Aviv
-2002/2003,2002,Ligat ha'Al,,4,Maccabi Netanya
-2002/2003,2002,Ligat ha'Al,,5,Hapoel Be'er Sheva
-2002/2003,2002,Ligat ha'Al,,6,Maccabi Petah Tikva
-2002/2003,2002,Ligat ha'Al,,7,Ashdod S.C.
-2002/2003,2002,Ligat ha'Al,,8,Hapoel Petah Tikva
-2002/2003,2002,Ligat ha'Al,,9,Beitar Jerusalem
-2002/2003,2002,Ligat ha'Al,,10,Bnei Yehuda Tel Aviv
-2002/2003,2002,Ligat ha'Al,,11,Hapoel Kfar Saba
-2002/2003,2002,Ligat ha'Al,,12,Hapoel Rishon LeZion
 2003/2004,2003,Liga Alef,North,1,Maccabi Hadera
 2003/2004,2003,Liga Alef,North,2,Maccabi Ironi Tirat HaCarmel
 2003/2004,2003,Liga Alef,North,3,Hapoel Asi Gilboa
@@ -6681,30 +5945,6 @@ season,season_start,league,division,position,club
 2003/2004,2003,Liga Bet,South B,14,Maccabi Jerusalem
 2003/2004,2003,Liga Bet,South B,15,Maccabi Kiryat Ekron
 2003/2004,2003,Liga Bet,South B,16,Hapoel Oranit
-2003/2004,2003,Liga Leumit,,1,Hapoel Haifa
-2003/2004,2003,Liga Leumit,,2,Hapoel Nof HaGalil
-2003/2004,2003,Liga Leumit,,3,Hapoel Kiryat Shmona
-2003/2004,2003,Liga Leumit,,4,Hapoel Kfar Saba
-2003/2004,2003,Liga Leumit,,5,Hapoel Ra'anana
-2003/2004,2003,Liga Leumit,,6,Hapoel Jerusalem
-2003/2004,2003,Liga Leumit,,7,Maccabi Kiryat Gat
-2003/2004,2003,Liga Leumit,,8,Hakoah Ramat Gan
-2003/2004,2003,Liga Leumit,,9,Maccabi Herzliya
-2003/2004,2003,Liga Leumit,,10,Hapoel Rishon LeZion
-2003/2004,2003,Liga Leumit,,11,Hapoel Holon
-2003/2004,2003,Liga Leumit,,12,Hapoel Ramat Gan
-2003/2004,2003,Ligat ha'Al,,1,Maccabi Haifa
-2003/2004,2003,Ligat ha'Al,,2,Maccabi Tel Aviv
-2003/2004,2003,Ligat ha'Al,,3,Maccabi Petah Tikva
-2003/2004,2003,Ligat ha'Al,,4,Hapoel Be'er Sheva
-2003/2004,2003,Ligat ha'Al,,5,Hapoel Tel Aviv
-2003/2004,2003,Ligat ha'Al,,6,Bnei Yehuda Tel Aviv
-2003/2004,2003,Ligat ha'Al,,7,Ashdod S.C.
-2003/2004,2003,Ligat ha'Al,,8,Hapoel Petah Tikva
-2003/2004,2003,Ligat ha'Al,,9,Beitar Jerusalem
-2003/2004,2003,Ligat ha'Al,,10,Bnei Sakhnin
-2003/2004,2003,Ligat ha'Al,,11,Maccabi Netanya
-2003/2004,2003,Ligat ha'Al,,12,Maccabi Ahi Nazareth
 2004/2005,2004,Liga Alef,North,1,Maccabi Tzur Shalom
 2004/2005,2004,Liga Alef,North,2,Hapoel Bnei Jadeidi
 2004/2005,2004,Liga Alef,North,3,Ironi Shlomi
@@ -6807,30 +6047,6 @@ season,season_start,league,division,position,club
 2004/2005,2004,Liga Bet,South B,14,Hapoel Tirat Shalom
 2004/2005,2004,Liga Bet,South B,15,Moadon Tzeirei Rahat
 2004/2005,2004,Liga Bet,South B,16,Maccabi Yehud
-2004/2005,2004,Liga Leumit,,1,Hapoel Kfar Saba
-2004/2005,2004,Liga Leumit,,2,Maccabi Netanya
-2004/2005,2004,Liga Leumit,,3,Hapoel Acre
-2004/2005,2004,Liga Leumit,,4,Hapoel Jerusalem
-2004/2005,2004,Liga Leumit,,5,Hakoah Ramat Gan
-2004/2005,2004,Liga Leumit,,6,Hapoel Rishon LeZion
-2004/2005,2004,Liga Leumit,,7,Maccabi Herzliya
-2004/2005,2004,Liga Leumit,,8,Hapoel Kiryat Shmona
-2004/2005,2004,Liga Leumit,,9,Hapoel Ra'anana
-2004/2005,2004,Liga Leumit,,10,Ironi Nir Ramat HaSharon
-2004/2005,2004,Liga Leumit,,11,Maccabi Ahi Nazareth
-2004/2005,2004,Liga Leumit,,12,Hapoel Holon
-2004/2005,2004,Ligat ha'Al,,1,Maccabi Haifa
-2004/2005,2004,Ligat ha'Al,,2,Maccabi Petah Tikva
-2004/2005,2004,Ligat ha'Al,,3,Ashdod S.C.
-2004/2005,2004,Ligat ha'Al,,4,Beitar Jerusalem
-2004/2005,2004,Ligat ha'Al,,5,Hapoel Nof HaGalil
-2004/2005,2004,Ligat ha'Al,,6,Bnei Yehuda Tel Aviv
-2004/2005,2004,Ligat ha'Al,,7,Hapoel Petah Tikva
-2004/2005,2004,Ligat ha'Al,,8,Maccabi Tel Aviv
-2004/2005,2004,Ligat ha'Al,,9,Hapoel Tel Aviv
-2004/2005,2004,Ligat ha'Al,,10,Bnei Sakhnin
-2004/2005,2004,Ligat ha'Al,,11,Hapoel Haifa
-2004/2005,2004,Ligat ha'Al,,12,Hapoel Be'er Sheva
 2005/2006,2005,Liga Alef,North,1,Hapoel Bnei Tamra
 2005/2006,2005,Liga Alef,North,2,Hapoel Bnei Jadeidi
 2005/2006,2005,Liga Alef,North,3,Hapoel Umm al-Fahm
@@ -7017,30 +6233,6 @@ season,season_start,league,division,position,club
 2005/2006,2005,Liga Gimel,Western Galilee,9,Maccabi Arab al-Heib
 2005/2006,2005,Liga Gimel,Western Galilee,10,Hapoel Daburiyya
 2005/2006,2005,Liga Gimel,Western Galilee,11,Hapoel Sha'ab
-2005/2006,2005,Liga Leumit,,1,Maccabi Herzliya
-2005/2006,2005,Liga Leumit,,2,Hakoah Ramat Gan
-2005/2006,2005,Liga Leumit,,3,Hapoel Kiryat Shmona
-2005/2006,2005,Liga Leumit,,4,Hapoel Be'er Sheva
-2005/2006,2005,Liga Leumit,,5,Hapoel Jerusalem
-2005/2006,2005,Liga Leumit,,6,Hapoel Haifa
-2005/2006,2005,Liga Leumit,,7,Hapoel Acre
-2005/2006,2005,Liga Leumit,,8,Hapoel Ashkelon
-2005/2006,2005,Liga Leumit,,9,Hapoel Ra'anana
-2005/2006,2005,Liga Leumit,,10,Ironi Nir Ramat HaSharon
-2005/2006,2005,Liga Leumit,,11,Hapoel Rishon LeZion
-2005/2006,2005,Liga Leumit,,12,Maccabi Be'er Sheva
-2005/2006,2005,Ligat ha'Al,,1,Maccabi Haifa
-2005/2006,2005,Ligat ha'Al,,2,Hapoel Tel Aviv
-2005/2006,2005,Ligat ha'Al,,3,Beitar Jerusalem
-2005/2006,2005,Ligat ha'Al,,4,Bnei Yehuda Tel Aviv
-2005/2006,2005,Ligat ha'Al,,5,Maccabi Petah Tikva
-2005/2006,2005,Ligat ha'Al,,6,Maccabi Tel Aviv
-2005/2006,2005,Ligat ha'Al,,7,Maccabi Netanya
-2005/2006,2005,Ligat ha'Al,,8,Ashdod S.C.
-2005/2006,2005,Ligat ha'Al,,9,Hapoel Petah Tikva
-2005/2006,2005,Ligat ha'Al,,10,Hapoel Kfar Saba
-2005/2006,2005,Ligat ha'Al,,11,Hapoel Nof HaGalil
-2005/2006,2005,Ligat ha'Al,,12,Bnei Sakhnin
 2006/2007,2006,Liga Alef,North,1,Hapoel Bnei Jadeidi
 2006/2007,2006,Liga Alef,North,2,Hapoel Umm al-Fahm
 2006/2007,2006,Liga Alef,North,3,Hapoel Asi Gilboa
@@ -7224,30 +6416,6 @@ season,season_start,league,division,position,club
 2006/2007,2006,Liga Gimel,Upper Galilee,11,Hapoel Jatt Yanuh HaGlilit
 2006/2007,2006,Liga Gimel,Upper Galilee,12,Bnei Kisra
 2006/2007,2006,Liga Gimel,Upper Galilee,13,Hapoel Ironi Hatzor
-2006/2007,2006,Liga Leumit,,1,Ironi Kiryat Shmona
-2006/2007,2006,Liga Leumit,,2,Bnei Sakhnin
-2006/2007,2006,Liga Leumit,,3,Hapoel Haifa
-2006/2007,2006,Liga Leumit,,4,Hapoel Be'er Sheva
-2006/2007,2006,Liga Leumit,,5,Hapoel Acre
-2006/2007,2006,Liga Leumit,,6,Hapoel Ra'anana
-2006/2007,2006,Liga Leumit,,7,Hapoel Nof HaGalil
-2006/2007,2006,Liga Leumit,,8,Maccabi Ahi Nazareth
-2006/2007,2006,Liga Leumit,,9,Ironi Nir Ramat HaSharon
-2006/2007,2006,Liga Leumit,,10,Bnei Lod
-2006/2007,2006,Liga Leumit,,11,Hapoel Ashkelon
-2006/2007,2006,Liga Leumit,,12,Hapoel Jerusalem
-2006/2007,2006,Ligat ha'Al,,1,Beitar Jerusalem
-2006/2007,2006,Ligat ha'Al,,2,Maccabi Netanya
-2006/2007,2006,Ligat ha'Al,,3,Maccabi Tel Aviv
-2006/2007,2006,Ligat ha'Al,,4,Hapoel Tel Aviv
-2006/2007,2006,Ligat ha'Al,,5,Maccabi Haifa
-2006/2007,2006,Ligat ha'Al,,6,Maccabi Petah Tikva
-2006/2007,2006,Ligat ha'Al,,7,Ashdod S.C.
-2006/2007,2006,Ligat ha'Al,,8,Hapoel Kfar Saba
-2006/2007,2006,Ligat ha'Al,,9,Bnei Yehuda Tel Aviv
-2006/2007,2006,Ligat ha'Al,,10,Maccabi Herzliya
-2006/2007,2006,Ligat ha'Al,,11,Hakoah Ramat Gan
-2006/2007,2006,Ligat ha'Al,,12,Hapoel Petah Tikva
 2007/2008,2007,Liga Alef,North,1,Hapoel Umm al-Fahm
 2007/2008,2007,Liga Alef,North,2,Ironi Sayid Umm al-Fahm
 2007/2008,2007,Liga Alef,North,3,Hapoel Asi Gilboa
@@ -7438,30 +6606,6 @@ season,season_start,league,division,position,club
 2007/2008,2007,Liga Gimel,Upper Galilee,13,Hapoel Ironi Hatzor
 2007/2008,2007,Liga Gimel,Upper Galilee,14,Maccabi Bnei Reineh
 2007/2008,2007,Liga Gimel,Upper Galilee,15,Hapoel Jatt Yanuh HaGlilit
-2007/2008,2007,Liga Leumit,,1,Hakoah Ramat Gan
-2007/2008,2007,Liga Leumit,,2,Hapoel Petah Tikva
-2007/2008,2007,Liga Leumit,,3,Hapoel Haifa
-2007/2008,2007,Liga Leumit,,4,Hapoel Be'er Sheva
-2007/2008,2007,Liga Leumit,,5,Bnei Lod
-2007/2008,2007,Liga Leumit,,6,Hapoel Ramat Gan
-2007/2008,2007,Liga Leumit,,7,Hapoel Ra'anana
-2007/2008,2007,Liga Leumit,,8,Ironi Nir Ramat HaSharon
-2007/2008,2007,Liga Leumit,,9,Maccabi Ahi Nazareth
-2007/2008,2007,Liga Leumit,,10,Hapoel Acre
-2007/2008,2007,Liga Leumit,,11,Hapoel Rishon LeZion
-2007/2008,2007,Liga Leumit,,12,Hapoel Nof HaGalil
-2007/2008,2007,Ligat ha'Al,,1,Beitar Jerusalem
-2007/2008,2007,Ligat ha'Al,,2,Maccabi Netanya
-2007/2008,2007,Ligat ha'Al,,3,Hapoel Kiryat Shmona
-2007/2008,2007,Ligat ha'Al,,4,Bnei Sakhnin
-2007/2008,2007,Ligat ha'Al,,5,Maccabi Haifa
-2007/2008,2007,Ligat ha'Al,,6,Maccabi Tel Aviv
-2007/2008,2007,Ligat ha'Al,,7,Hapoel Tel Aviv
-2007/2008,2007,Ligat ha'Al,,8,Ashdod S.C.
-2007/2008,2007,Ligat ha'Al,,9,Bnei Yehuda Tel Aviv
-2007/2008,2007,Ligat ha'Al,,10,Maccabi Petah Tikva
-2007/2008,2007,Ligat ha'Al,,11,Hapoel Kfar Saba
-2007/2008,2007,Ligat ha'Al,,12,Maccabi Herzliya
 2008/2009,2008,Liga Alef,North,1,Ahva Arraba
 2008/2009,2008,Liga Alef,North,2,Hapoel Asi Gilboa
 2008/2009,2008,Liga Alef,North,3,Hapoel Ironi Herzliya
@@ -7494,14 +6638,14 @@ season,season_start,league,division,position,club
 2008/2009,2008,Liga Artzit,,2,Hapoel Ashkelon
 2008/2009,2008,Liga Artzit,,3,Hapoel Marmorek
 2008/2009,2008,Liga Artzit,,4,Hapoel Rishon LeZion
-2008/2009,2008,Liga Artzit,,5,Ironi Bat Yam
+2008/2009,2008,Liga Artzit,,5,Maccabi Ironi Bat Yam
 2008/2009,2008,Liga Artzit,,6,Beitar Tel Aviv
 2008/2009,2008,Liga Artzit,,7,Hapoel Nof HaGalil
 2008/2009,2008,Liga Artzit,,8,Maccabi Kafr Kanna
 2008/2009,2008,Liga Artzit,,9,Hapoel Bnei Tamra
 2008/2009,2008,Liga Artzit,,10,Hapoel Umm al-Fahm
-2008/2009,2008,Liga Artzit,,11,Hapoel Bnei Jadida
-2008/2009,2008,Liga Artzit,,12,Maccabi Tirat Carmel
+2008/2009,2008,Liga Artzit,,11,Hapoel Bnei Jadeidi
+2008/2009,2008,Liga Artzit,,12,Maccabi Ironi Tirat HaCarmel
 2008/2009,2008,Liga Gimel,Central,1,F.C. Kiryat Gat
 2008/2009,2008,Liga Gimel,Central,2,Hapoel Rahat
 2008/2009,2008,Liga Gimel,Central,3,Bnei Yichalel Rehovot
@@ -7585,30 +6729,6 @@ season,season_start,league,division,position,club
 2008/2009,2008,Liga Gimel,Upper Galilee,9,Hapoel Shefa-'Amr
 2008/2009,2008,Liga Gimel,Upper Galilee,10,Beitar F.C. Tabash
 2008/2009,2008,Liga Gimel,Upper Galilee,11,F.C. Otzma Bnei Yarka
-2008/2009,2008,Liga Leumit,,1,Hapoel Haifa
-2008/2009,2008,Liga Leumit,,2,Hapoel Acre
-2008/2009,2008,Liga Leumit,,3,Hapoel Be'er Sheva
-2008/2009,2008,Liga Leumit,,4,Hapoel Ramat Gan
-2008/2009,2008,Liga Leumit,,5,Hapoel Ra'anana
-2008/2009,2008,Liga Leumit,,6,Maccabi Ahi Nazareth
-2008/2009,2008,Liga Leumit,,7,Maccabi Herzliya
-2008/2009,2008,Liga Leumit,,8,Bnei Lod
-2008/2009,2008,Liga Leumit,,9,Hapoel Jerusalem
-2008/2009,2008,Liga Leumit,,10,Hapoel Kfar Saba
-2008/2009,2008,Liga Leumit,,11,Ironi Nir Ramat HaSharon
-2008/2009,2008,Liga Leumit,,12,Maccabi Ironi Kiryat Ata
-2008/2009,2008,Ligat ha'Al,,1,Maccabi Haifa
-2008/2009,2008,Ligat ha'Al,,2,Hapoel Tel Aviv
-2008/2009,2008,Ligat ha'Al,,3,Beitar Jerusalem
-2008/2009,2008,Ligat ha'Al,,4,Maccabi Netanya
-2008/2009,2008,Ligat ha'Al,,5,Bnei Yehuda Tel Aviv
-2008/2009,2008,Ligat ha'Al,,6,Maccabi Tel Aviv
-2008/2009,2008,Ligat ha'Al,,7,Maccabi Petah Tikva
-2008/2009,2008,Ligat ha'Al,,8,Ashdod S.C.
-2008/2009,2008,Ligat ha'Al,,9,Bnei Sakhnin
-2008/2009,2008,Ligat ha'Al,,10,Hapoel Petah Tikva
-2008/2009,2008,Ligat ha'Al,,11,Hakoah Ramat Gan
-2008/2009,2008,Ligat ha'Al,,12,Ironi Kiryat Shmona
 2009/2010,2009,Liga Alef,North,1,Maccabi Ironi Jatt
 2009/2010,2009,Liga Alef,North,2,Ironi Sayid Umm al-Fahm
 2009/2010,2009,Liga Alef,North,3,Hapoel Afula
@@ -7794,38 +6914,6 @@ season,season_start,league,division,position,club
 2009/2010,2009,Liga Gimel,Upper Galilee,14,Maccabi Sha'ab
 2009/2010,2009,Liga Gimel,Upper Galilee,15,Hapoel Jatt HaGlilit
 2009/2010,2009,Liga Gimel,Upper Galilee,16,Hapoel Bnei Bi'ina
-2009/2010,2009,Liga Leumit,,1,Ironi Kiryat Shmona
-2009/2010,2009,Liga Leumit,,2,Hapoel Ashkelon
-2009/2010,2009,Liga Leumit,,3,Hapoel Kfar Saba
-2009/2010,2009,Liga Leumit,,4,Sektzia Nes Tziona
-2009/2010,2009,Liga Leumit,,5,Ironi Nir Ramat HaSharon
-2009/2010,2009,Liga Leumit,,6,Ironi Bat Yam
-2009/2010,2009,Liga Leumit,,7,Hapoel Nof HaGalil
-2009/2010,2009,Liga Leumit,,8,Hapoel Rishon LeZion
-2009/2010,2009,Liga Leumit,,9,Ahva Arraba
-2009/2010,2009,Liga Leumit,,10,Maccabi Herzliya
-2009/2010,2009,Liga Leumit,,11,Hakoah Ramat Gan
-2009/2010,2009,Liga Leumit,,12,Beitar Tel Aviv
-2009/2010,2009,Liga Leumit,,13,Bnei Lod
-2009/2010,2009,Liga Leumit,,14,Maccabi Be'er Sheva
-2009/2010,2009,Liga Leumit,,15,Hapoel Jerusalem
-2009/2010,2009,Liga Leumit,,16,Hapoel Marmorek
-2009/2010,2009,Ligat ha'Al,,1,Hapoel Tel Aviv
-2009/2010,2009,Ligat ha'Al,,2,Maccabi Haifa
-2009/2010,2009,Ligat ha'Al,,3,Maccabi Tel Aviv
-2009/2010,2009,Ligat ha'Al,,4,Bnei Yehuda Tel Aviv
-2009/2010,2009,Ligat ha'Al,,5,Beitar Jerusalem
-2009/2010,2009,Ligat ha'Al,,6,Ashdod S.C.
-2009/2010,2009,Ligat ha'Al,,7,Bnei Sakhnin
-2009/2010,2009,Ligat ha'Al,,8,Maccabi Petah Tikva
-2009/2010,2009,Ligat ha'Al,,9,Hapoel Be'er Sheva
-2009/2010,2009,Ligat ha'Al,,10,Maccabi Netanya
-2009/2010,2009,Ligat ha'Al,,11,Hapoel Haifa
-2009/2010,2009,Ligat ha'Al,,12,Hapoel Acre
-2009/2010,2009,Ligat ha'Al,,13,Hapoel Petah Tikva
-2009/2010,2009,Ligat ha'Al,,14,Hapoel Ramat Gan
-2009/2010,2009,Ligat ha'Al,,15,Hapoel Ra'anana
-2009/2010,2009,Ligat ha'Al,,16,Maccabi Ahi Nazareth
 2010/2011,2010,Liga Alef,North,1,Maccabi Umm al-Fahm
 2010/2011,2010,Liga Alef,North,2,Hapoel Asi Gilboa
 2010/2011,2010,Liga Alef,North,3,Maccabi Ironi Kiryat Ata
@@ -8005,38 +7093,6 @@ season,season_start,league,division,position,club
 2010/2011,2010,Liga Gimel,Upper Galilee,10,Hapoel Bnei Bi'ina
 2010/2011,2010,Liga Gimel,Upper Galilee,11,Hapoel Bnei Rameh
 2010/2011,2010,Liga Gimel,Upper Galilee,12,Hapoel al-Ittihad Nazareth
-2010/2011,2010,Liga Leumit,,1,Ironi Nir Ramat HaSharon
-2010/2011,2010,Liga Leumit,,2,Hapoel Rishon LeZion
-2010/2011,2010,Liga Leumit,,3,Hapoel Kfar Saba
-2010/2011,2010,Liga Leumit,,4,Maccabi Herzliya
-2010/2011,2010,Liga Leumit,,5,Hapoel Ra'anana
-2010/2011,2010,Liga Leumit,,6,Sektzia Nes Tziona
-2010/2011,2010,Liga Leumit,,7,Hapoel Ironi Herzliya
-2010/2011,2010,Liga Leumit,,8,Bnei Lod
-2010/2011,2010,Liga Leumit,,9,Maccabi Ahi Nazareth
-2010/2011,2010,Liga Leumit,,10,Beitar Tel Aviv
-2010/2011,2010,Liga Leumit,,11,Hapoel Nof HaGalil
-2010/2011,2010,Liga Leumit,,12,Maccabi Be'er Sheva
-2010/2011,2010,Liga Leumit,,13,Ironi Bat Yam
-2010/2011,2010,Liga Leumit,,14,Hakoah Ramat Gan
-2010/2011,2010,Liga Leumit,,15,Maccabi Ironi Jatt
-2010/2011,2010,Liga Leumit,,16,Ahva Arraba
-2010/2011,2010,Ligat ha'Al,,1,Maccabi Haifa
-2010/2011,2010,Ligat ha'Al,,2,Hapoel Tel Aviv
-2010/2011,2010,Ligat ha'Al,,3,Maccabi Tel Aviv
-2010/2011,2010,Ligat ha'Al,,4,Bnei Yehuda Tel Aviv
-2010/2011,2010,Ligat ha'Al,,5,Ironi Kiryat Shmona
-2010/2011,2010,Ligat ha'Al,,6,Maccabi Netanya
-2010/2011,2010,Ligat ha'Al,,7,Maccabi Petah Tikva
-2010/2011,2010,Ligat ha'Al,,8,Hapoel Acre
-2010/2011,2010,Ligat ha'Al,,9,Hapoel Be'er Sheva
-2010/2011,2010,Ligat ha'Al,,10,Hapoel Haifa
-2010/2011,2010,Ligat ha'Al,,11,Beitar Jerusalem
-2010/2011,2010,Ligat ha'Al,,12,Ashdod S.C.
-2010/2011,2010,Ligat ha'Al,,13,Bnei Sakhnin
-2010/2011,2010,Ligat ha'Al,,14,Hapoel Petah Tikva
-2010/2011,2010,Ligat ha'Al,,15,Hapoel Ashkelon
-2010/2011,2010,Ligat ha'Al,,16,Hapoel Ramat Gan
 2011/2012,2011,Liga Alef,North,1,Hapoel Asi Gilboa
 2011/2012,2011,Liga Alef,North,2,Ironi Tiberias
 2011/2012,2011,Liga Alef,North,3,Hapoel Afula
@@ -8217,38 +7273,6 @@ season,season_start,league,division,position,club
 2011/2012,2011,Liga Gimel,Upper Galilee,13,Hapoel Bnei Peki'in
 2011/2012,2011,Liga Gimel,Upper Galilee,14,Hapoel Bnei Bi'ina
 2011/2012,2011,Liga Gimel,Upper Galilee,15,F.C. Julis
-2011/2012,2011,Liga Leumit,,1,Hapoel Ramat Gan
-2011/2012,2011,Liga Leumit,,2,Bnei Lod
-2011/2012,2011,Liga Leumit,,3,Maccabi Herzliya
-2011/2012,2011,Liga Leumit,,4,Maccabi Ahi Nazareth
-2011/2012,2011,Liga Leumit,,5,Hapoel Ra'anana
-2011/2012,2011,Liga Leumit,,6,Hapoel Jerusalem
-2011/2012,2011,Liga Leumit,,7,Hapoel Kfar Saba
-2011/2012,2011,Liga Leumit,,8,Beitar Tel Aviv
-2011/2012,2011,Liga Leumit,,9,Hapoel Ashkelon
-2011/2012,2011,Liga Leumit,,10,Maccabi Umm al-Fahm
-2011/2012,2011,Liga Leumit,,11,Sektzia Nes Tziona
-2011/2012,2011,Liga Leumit,,12,Hapoel Nof HaGalil
-2011/2012,2011,Liga Leumit,,13,Hakoah Ramat Gan
-2011/2012,2011,Liga Leumit,,14,Ironi Bat Yam
-2011/2012,2011,Liga Leumit,,15,Maccabi Be'er Sheva
-2011/2012,2011,Liga Leumit,,16,Hapoel Ironi Herzliya
-2011/2012,2011,Ligat ha'Al,,1,Ironi Kiryat Shmona
-2011/2012,2011,Ligat ha'Al,,2,Hapoel Tel Aviv
-2011/2012,2011,Ligat ha'Al,,3,Bnei Yehuda Tel Aviv
-2011/2012,2011,Ligat ha'Al,,4,Maccabi Netanya
-2011/2012,2011,Ligat ha'Al,,5,Maccabi Haifa
-2011/2012,2011,Ligat ha'Al,,6,Maccabi Tel Aviv
-2011/2012,2011,Ligat ha'Al,,7,Ashdod S.C.
-2011/2012,2011,Ligat ha'Al,,8,Bnei Sakhnin
-2011/2012,2011,Ligat ha'Al,,9,Beitar Jerusalem
-2011/2012,2011,Ligat ha'Al,,10,Hapoel Acre
-2011/2012,2011,Ligat ha'Al,,11,Ironi Nir Ramat HaSharon
-2011/2012,2011,Ligat ha'Al,,12,Hapoel Haifa
-2011/2012,2011,Ligat ha'Al,,13,Hapoel Be'er Sheva
-2011/2012,2011,Ligat ha'Al,,14,Maccabi Petah Tikva
-2011/2012,2011,Ligat ha'Al,,15,Hapoel Rishon LeZion
-2011/2012,2011,Ligat ha'Al,,16,Hapoel Petah Tikva
 2012/2013,2012,Liga Alef,North,1,Hapoel Afula
 2012/2013,2012,Liga Alef,North,2,Maccabi Daliyat al-Karmel
 2012/2013,2012,Liga Alef,North,3,Hapoel Migdal HaEmek
@@ -8439,36 +7463,6 @@ season,season_start,league,division,position,club
 2012/2013,2012,Liga Gimel,Upper Galilee,14,F.C. Sallama Misgav
 2012/2013,2012,Liga Gimel,Upper Galilee,15,Hapoel Bnei Bi'ina
 2012/2013,2012,Liga Gimel,Upper Galilee,16,Hapoel Bnei Peki'in
-2012/2013,2012,Liga Leumit,,1,Maccabi Petah Tikva
-2012/2013,2012,Liga Leumit,,2,Hapoel Ra'anana
-2012/2013,2012,Liga Leumit,,3,Hapoel Nof HaGalil
-2012/2013,2012,Liga Leumit,,4,Hapoel Jerusalem
-2012/2013,2012,Liga Leumit,,5,Hapoel Petah Tikva
-2012/2013,2012,Liga Leumit,,6,Hapoel Rishon LeZion
-2012/2013,2012,Liga Leumit,,7,Maccabi Herzliya
-2012/2013,2012,Liga Leumit,,8,Bnei Lod
-2012/2013,2012,Liga Leumit,,9,Maccabi Yavne
-2012/2013,2012,Liga Leumit,,10,Maccabi Ahi Nazareth
-2012/2013,2012,Liga Leumit,,11,Hakoah Ramat Gan
-2012/2013,2012,Liga Leumit,,12,Maccabi Umm al-Fahm
-2012/2013,2012,Liga Leumit,,13,Hapoel Ashkelon
-2012/2013,2012,Liga Leumit,,14,Beitar Tel Aviv
-2012/2013,2012,Liga Leumit,,15,Sektzia Nes Tziona
-2012/2013,2012,Liga Leumit,,16,Hapoel Kfar Saba
-2012/2013,2012,Ligat ha'Al,,1,Maccabi Tel Aviv
-2012/2013,2012,Ligat ha'Al,,2,Maccabi Haifa
-2012/2013,2012,Ligat ha'Al,,3,Hapoel Tel Aviv
-2012/2013,2012,Ligat ha'Al,,4,Bnei Yehuda Tel Aviv
-2012/2013,2012,Ligat ha'Al,,5,Ironi Kiryat Shmona
-2012/2013,2012,Ligat ha'Al,,6,Ironi Nir Ramat HaSharon
-2012/2013,2012,Ligat ha'Al,,7,Ashdod S.C.
-2012/2013,2012,Ligat ha'Al,,8,Hapoel Be'er Sheva
-2012/2013,2012,Ligat ha'Al,,9,Hapoel Haifa
-2012/2013,2012,Ligat ha'Al,,10,Beitar Jerusalem
-2012/2013,2012,Ligat ha'Al,,11,Hapoel Acre
-2012/2013,2012,Ligat ha'Al,,12,Bnei Sakhnin
-2012/2013,2012,Ligat ha'Al,,13,Maccabi Netanya
-2012/2013,2012,Ligat ha'Al,,14,Hapoel Ramat Gan
 2013/2014,2013,Liga Alef,North,1,Hapoel Kfar Saba
 2013/2014,2013,Liga Alef,North,2,Ironi Tiberias
 2013/2014,2013,Liga Alef,North,3,Hapoel F.C. Karmiel Safed
@@ -8674,36 +7668,6 @@ season,season_start,league,division,position,club
 2013/2014,2013,Liga Gimel,Upper Galilee,13,Merkaz Kehilati Golan Katzrin
 2013/2014,2013,Liga Gimel,Upper Galilee,14,F.C. Aramshe Danun
 2013/2014,2013,Liga Gimel,Upper Galilee,15,Hapoel Tarshiha
-2013/2014,2013,Liga Leumit,,1,Maccabi Netanya
-2013/2014,2013,Liga Leumit,,2,Hapoel Petah Tikva
-2013/2014,2013,Liga Leumit,,3,Bnei Lod
-2013/2014,2013,Liga Leumit,,4,Maccabi Ahi Nazareth
-2013/2014,2013,Liga Leumit,,5,Hapoel Ramat Gan
-2013/2014,2013,Liga Leumit,,6,Hapoel Afula
-2013/2014,2013,Liga Leumit,,7,Beitar Tel Aviv
-2013/2014,2013,Liga Leumit,,8,Hapoel Nof HaGalil
-2013/2014,2013,Liga Leumit,,9,Maccabi Yavne
-2013/2014,2013,Liga Leumit,,10,Maccabi Herzliya
-2013/2014,2013,Liga Leumit,,11,Hapoel Rishon LeZion
-2013/2014,2013,Liga Leumit,,12,Hapoel Jerusalem
-2013/2014,2013,Liga Leumit,,13,Hakoah Ramat Gan
-2013/2014,2013,Liga Leumit,,14,Hapoel Katamon Jerusalem
-2013/2014,2013,Liga Leumit,,15,Hapoel Ashkelon
-2013/2014,2013,Liga Leumit,,16,Maccabi Umm al-Fahm
-2013/2014,2013,Ligat ha'Al,,1,Maccabi Tel Aviv
-2013/2014,2013,Ligat ha'Al,,2,Hapoel Be'er Sheva
-2013/2014,2013,Ligat ha'Al,,3,Ironi Kiryat Shmona
-2013/2014,2013,Ligat ha'Al,,4,Hapoel Tel Aviv
-2013/2014,2013,Ligat ha'Al,,5,Maccabi Haifa
-2013/2014,2013,Ligat ha'Al,,6,Bnei Sakhnin
-2013/2014,2013,Ligat ha'Al,,7,Beitar Jerusalem
-2013/2014,2013,Ligat ha'Al,,8,Ashdod S.C.
-2013/2014,2013,Ligat ha'Al,,9,Hapoel Ra'anana
-2013/2014,2013,Ligat ha'Al,,10,Hapoel Acre
-2013/2014,2013,Ligat ha'Al,,11,Hapoel Haifa
-2013/2014,2013,Ligat ha'Al,,12,Maccabi Petah Tikva
-2013/2014,2013,Ligat ha'Al,,13,Ironi Nir Ramat HaSharon
-2013/2014,2013,Ligat ha'Al,,14,Bnei Yehuda Tel Aviv
 2014/2015,2014,Liga Alef,North,1,Hapoel Katamon Jerusalem
 2014/2015,2014,Liga Alef,North,2,Ironi Nesher
 2014/2015,2014,Liga Alef,North,3,Hapoel Ironi Herzliya
@@ -8910,36 +7874,6 @@ season,season_start,league,division,position,club
 2014/2015,2014,Liga Gimel,Upper Galilee,11,Hapoel Jatt Yanuh HaGlilit
 2014/2015,2014,Liga Gimel,Upper Galilee,12,Hapoel Merom HaGalil
 2014/2015,2014,Liga Gimel,Upper Galilee,13,Bnei Kafr Yasif
-2014/2015,2014,Liga Leumit,,1,Bnei Yehuda Tel Aviv
-2014/2015,2014,Liga Leumit,,2,Hapoel Kfar Saba
-2014/2015,2014,Liga Leumit,,3,Bnei Lod
-2014/2015,2014,Liga Leumit,,4,Hapoel Afula
-2014/2015,2014,Liga Leumit,,5,Maccabi Kiryat Gat
-2014/2015,2014,Liga Leumit,,6,Hapoel Ramat Gan
-2014/2015,2014,Liga Leumit,,7,Maccabi Ahi Nazareth
-2014/2015,2014,Liga Leumit,,8,Maccabi Yavne
-2014/2015,2014,Liga Leumit,,9,Hapoel Jerusalem
-2014/2015,2014,Liga Leumit,,10,Hapoel Rishon LeZion
-2014/2015,2014,Liga Leumit,,11,Ironi Nir Ramat HaSharon
-2014/2015,2014,Liga Leumit,,12,Beitar Tel Aviv
-2014/2015,2014,Liga Leumit,,13,Maccabi Herzliya
-2014/2015,2014,Liga Leumit,,14,Hapoel Nof HaGalil
-2014/2015,2014,Liga Leumit,,15,Ironi Tiberias
-2014/2015,2014,Liga Leumit,,16,Hakoah Ramat Gan
-2014/2015,2014,Ligat ha'Al,,1,Maccabi Tel Aviv
-2014/2015,2014,Ligat ha'Al,,2,Ironi Kiryat Shmona
-2014/2015,2014,Ligat ha'Al,,3,Hapoel Be'er Sheva
-2014/2015,2014,Ligat ha'Al,,4,Beitar Jerusalem
-2014/2015,2014,Ligat ha'Al,,5,Maccabi Haifa
-2014/2015,2014,Ligat ha'Al,,6,Maccabi Petah Tikva
-2014/2015,2014,Ligat ha'Al,,7,Bnei Sakhnin
-2014/2015,2014,Ligat ha'Al,,8,Hapoel Tel Aviv
-2014/2015,2014,Ligat ha'Al,,9,Maccabi Netanya
-2014/2015,2014,Ligat ha'Al,,10,Hapoel Ra'anana
-2014/2015,2014,Ligat ha'Al,,11,Hapoel Acre
-2014/2015,2014,Ligat ha'Al,,12,Hapoel Haifa
-2014/2015,2014,Ligat ha'Al,,13,Hapoel Petah Tikva
-2014/2015,2014,Ligat ha'Al,,14,Ashdod S.C.
 2015/2016,2015,Liga Alef,North,1,Ironi Nesher
 2015/2016,2015,Liga Alef,North,2,Hapoel Hadera
 2015/2016,2015,Liga Alef,North,3,Ironi Tiberias
@@ -9144,36 +8078,6 @@ season,season_start,league,division,position,club
 2015/2016,2015,Liga Gimel,Upper Galilee,12,Hapoel Jatt Yanuh HaGlilit
 2015/2016,2015,Liga Gimel,Upper Galilee,13,Hapoel Nahariya
 2015/2016,2015,Liga Gimel,Upper Galilee,14,Bnei Ma'alot Tarshiha
-2015/2016,2015,Liga Leumit,,1,Ashdod S.C.
-2015/2016,2015,Liga Leumit,,2,Hapoel Ashkelon
-2015/2016,2015,Liga Leumit,,3,Hapoel Ramat Gan
-2015/2016,2015,Liga Leumit,,4,Hapoel Katamon Jerusalem
-2015/2016,2015,Liga Leumit,,5,Maccabi Herzliya
-2015/2016,2015,Liga Leumit,,6,Hapoel Petah Tikva
-2015/2016,2015,Liga Leumit,,7,Maccabi Ahi Nazareth
-2015/2016,2015,Liga Leumit,,8,Bnei Lod
-2015/2016,2015,Liga Leumit,,9,Beitar Tel Aviv
-2015/2016,2015,Liga Leumit,,10,Ironi Nir Ramat HaSharon
-2015/2016,2015,Liga Leumit,,11,Hapoel Afula
-2015/2016,2015,Liga Leumit,,12,Hapoel Rishon LeZion
-2015/2016,2015,Liga Leumit,,13,Hapoel Nof HaGalil
-2015/2016,2015,Liga Leumit,,14,Hapoel Jerusalem
-2015/2016,2015,Liga Leumit,,15,Maccabi Yavne
-2015/2016,2015,Liga Leumit,,16,Maccabi Kiryat Gat
-2015/2016,2015,Ligat ha'Al,,1,Hapoel Be'er Sheva
-2015/2016,2015,Ligat ha'Al,,2,Maccabi Tel Aviv
-2015/2016,2015,Ligat ha'Al,,3,Beitar Jerusalem
-2015/2016,2015,Ligat ha'Al,,4,Maccabi Haifa
-2015/2016,2015,Ligat ha'Al,,5,Bnei Sakhnin
-2015/2016,2015,Ligat ha'Al,,6,Hapoel Ra'anana
-2015/2016,2015,Ligat ha'Al,,7,Maccabi Petah Tikva
-2015/2016,2015,Ligat ha'Al,,8,Bnei Yehuda Tel Aviv
-2015/2016,2015,Ligat ha'Al,,9,Hapoel Tel Aviv
-2015/2016,2015,Ligat ha'Al,,10,Hapoel Kfar Saba
-2015/2016,2015,Ligat ha'Al,,11,Ironi Kiryat Shmona
-2015/2016,2015,Ligat ha'Al,,12,Hapoel Haifa
-2015/2016,2015,Ligat ha'Al,,13,Hapoel Acre
-2015/2016,2015,Ligat ha'Al,,14,Maccabi Netanya
 2016/2017,2016,Liga Alef,North,1,Hapoel Hadera
 2016/2017,2016,Liga Alef,North,2,F.C. Haifa
 2016/2017,2016,Liga Alef,North,3,Hapoel Iksal
@@ -9308,36 +8212,6 @@ season,season_start,league,division,position,club
 2016/2017,2016,Liga Gimel,Upper Galilee,11,Maccabi Ahva Yarka
 2016/2017,2016,Liga Gimel,Upper Galilee,12,F.C. Aramshe Danun
 2016/2017,2016,Liga Gimel,Upper Galilee,13,Hapoel Bnei Rameh
-2016/2017,2016,Liga Leumit,,1,Maccabi Netanya
-2016/2017,2016,Liga Leumit,,2,Hapoel Acre
-2016/2017,2016,Liga Leumit,,3,Beitar Tel Aviv
-2016/2017,2016,Liga Leumit,,4,Hapoel Ramat Gan
-2016/2017,2016,Liga Leumit,,5,Hapoel Katamon Jerusalem
-2016/2017,2016,Liga Leumit,,6,Hapoel Petah Tikva
-2016/2017,2016,Liga Leumit,,7,Bnei Lod
-2016/2017,2016,Liga Leumit,,8,Maccabi Ahi Nazareth
-2016/2017,2016,Liga Leumit,,9,Ironi Nir Ramat HaSharon
-2016/2017,2016,Liga Leumit,,10,Hapoel Rishon LeZion
-2016/2017,2016,Liga Leumit,,11,Hapoel Afula
-2016/2017,2016,Liga Leumit,,12,Ironi Nesher
-2016/2017,2016,Liga Leumit,,13,Maccabi Herzliya
-2016/2017,2016,Liga Leumit,,14,Hapoel Nof HaGalil
-2016/2017,2016,Liga Leumit,,15,Hapoel Jerusalem
-2016/2017,2016,Liga Leumit,,16,Maccabi Sha'arayim
-2016/2017,2016,Ligat ha'Al,,1,Hapoel Be'er Sheva
-2016/2017,2016,Ligat ha'Al,,2,Maccabi Tel Aviv
-2016/2017,2016,Ligat ha'Al,,3,Beitar Jerusalem
-2016/2017,2016,Ligat ha'Al,,4,Maccabi Petah Tikva
-2016/2017,2016,Ligat ha'Al,,5,Bnei Sakhnin
-2016/2017,2016,Ligat ha'Al,,6,Maccabi Haifa
-2016/2017,2016,Ligat ha'Al,,7,Ironi Kiryat Shmona
-2016/2017,2016,Ligat ha'Al,,8,Hapoel Haifa
-2016/2017,2016,Ligat ha'Al,,9,Ashdod S.C.
-2016/2017,2016,Ligat ha'Al,,10,Hapoel Ra'anana
-2016/2017,2016,Ligat ha'Al,,11,Bnei Yehuda Tel Aviv
-2016/2017,2016,Ligat ha'Al,,12,Hapoel Ashkelon
-2016/2017,2016,Ligat ha'Al,,13,Hapoel Kfar Saba
-2016/2017,2016,Ligat ha'Al,,14,Hapoel Tel Aviv
 2017/2018,2017,Liga Alef,North,1,Hapoel Iksal
 2017/2018,2017,Liga Alef,North,2,Hapoel Umm al-Fahm
 2017/2018,2017,Liga Alef,North,3,Hapoel Ironi Herzliya
@@ -9541,36 +8415,6 @@ season,season_start,league,division,position,club
 2017/2018,2017,Liga Gimel,Upper Galilee (North A),11,Hapoel Tarshiha
 2017/2018,2017,Liga Gimel,Upper Galilee (North A),12,Maccabi Tzeirei Bi'ina
 2017/2018,2017,Liga Gimel,Upper Galilee (North A),13,Hapoel Bnei Bi'ina
-2017/2018,2017,Liga Leumit,,1,Hapoel Tel Aviv
-2017/2018,2017,Liga Leumit,,2,Hapoel Hadera
-2017/2018,2017,Liga Leumit,,3,Hapoel Rishon LeZion
-2017/2018,2017,Liga Leumit,,4,Beitar Tel Aviv
-2017/2018,2017,Liga Leumit,,5,Hapoel Katamon Jerusalem
-2017/2018,2017,Liga Leumit,,6,Maccabi Ahi Nazareth
-2017/2018,2017,Liga Leumit,,7,Hapoel Nof HaGalil
-2017/2018,2017,Liga Leumit,,8,Hapoel Afula
-2017/2018,2017,Liga Leumit,,9,Hapoel Petah Tikva
-2017/2018,2017,Liga Leumit,,10,Bnei Lod
-2017/2018,2017,Liga Leumit,,11,Ironi Nir Ramat HaSharon
-2017/2018,2017,Liga Leumit,,12,Hapoel Marmorek
-2017/2018,2017,Liga Leumit,,13,Hapoel Ramat Gan
-2017/2018,2017,Liga Leumit,,14,Hapoel Kfar Saba
-2017/2018,2017,Liga Leumit,,15,Maccabi Herzliya
-2017/2018,2017,Liga Leumit,,16,Ironi Nesher
-2017/2018,2017,Ligat ha'Al,,1,Hapoel Be'er Sheva
-2017/2018,2017,Ligat ha'Al,,2,Maccabi Tel Aviv
-2017/2018,2017,Ligat ha'Al,,3,Beitar Jerusalem
-2017/2018,2017,Ligat ha'Al,,4,Hapoel Haifa
-2017/2018,2017,Ligat ha'Al,,5,Maccabi Netanya
-2017/2018,2017,Ligat ha'Al,,6,Bnei Yehuda Tel Aviv
-2017/2018,2017,Ligat ha'Al,,7,Ironi Kiryat Shmona
-2017/2018,2017,Ligat ha'Al,,8,Maccabi Petah Tikva
-2017/2018,2017,Ligat ha'Al,,9,Hapoel Ra'anana
-2017/2018,2017,Ligat ha'Al,,10,Maccabi Haifa
-2017/2018,2017,Ligat ha'Al,,11,Bnei Sakhnin
-2017/2018,2017,Ligat ha'Al,,12,Ashdod S.C.
-2017/2018,2017,Ligat ha'Al,,13,Hapoel Ashkelon
-2017/2018,2017,Ligat ha'Al,,14,Hapoel Acre
 2018/2019,2018,Liga Alef,North,1,Hapoel Umm al-Fahm
 2018/2019,2018,Liga Alef,North,2,Hapoel Ironi Baqa al-Gharbiyye
 2018/2019,2018,Liga Alef,North,3,Hapoel Ironi Herzliya
@@ -9603,66 +8447,6 @@ season,season_start,league,division,position,club
 2018/2019,2018,Liga Alef,South,14,Hapoel Bik'at HaYarden
 2018/2019,2018,Liga Alef,South,15,Hapoel Mahane Yehuda
 2018/2019,2018,Liga Alef,South,16,Beitar Kfar Saba
-2018/2019,2018,Liga Leumit,,1,Hapoel Kfar Saba
-2018/2019,2018,Liga Leumit,,2,Sektzia Nes Tziona
-2018/2019,2018,Liga Leumit,,3,Hapoel Nof HaGalil
-2018/2019,2018,Liga Leumit,,4,Hapoel Katamon Jerusalem
-2018/2019,2018,Liga Leumit,,5,Hapoel Afula
-2018/2019,2018,Liga Leumit,,6,Hapoel Ashkelon
-2018/2019,2018,Liga Leumit,,7,Beitar Tel Aviv
-2018/2019,2018,Liga Leumit,,8,Hapoel Ramat Gan
-2018/2019,2018,Liga Leumit,,9,Bnei Lod
-2018/2019,2018,Liga Leumit,,10,Hapoel Petah Tikva
-2018/2019,2018,Liga Leumit,,11,Maccabi Ahi Nazareth
-2018/2019,2018,Liga Leumit,,12,Hapoel Rishon LeZion
-2018/2019,2018,Liga Leumit,,13,Ironi Nir Ramat HaSharon
-2018/2019,2018,Liga Leumit,,14,Hapoel Acre
-2018/2019,2018,Liga Leumit,,15,Hapoel Marmorek
-2018/2019,2018,Liga Leumit,,16,Hapoel Iksal
-2018/2019,2018,Ligat ha'Al,,1,Maccabi Tel Aviv
-2018/2019,2018,Ligat ha'Al,,2,Maccabi Haifa
-2018/2019,2018,Ligat ha'Al,,3,Hapoel Be'er Sheva
-2018/2019,2018,Ligat ha'Al,,4,Maccabi Netanya
-2018/2019,2018,Ligat ha'Al,,5,Bnei Yehuda Tel Aviv
-2018/2019,2018,Ligat ha'Al,,6,Hapoel Hadera
-2018/2019,2018,Ligat ha'Al,,7,Beitar Jerusalem
-2018/2019,2018,Ligat ha'Al,,8,Hapoel Tel Aviv
-2018/2019,2018,Ligat ha'Al,,9,Hapoel Ra'anana
-2018/2019,2018,Ligat ha'Al,,10,Ironi Kiryat Shmona
-2018/2019,2018,Ligat ha'Al,,11,Hapoel Haifa
-2018/2019,2018,Ligat ha'Al,,12,Ashdod S.C.
-2018/2019,2018,Ligat ha'Al,,13,Maccabi Petah Tikva
-2018/2019,2018,Ligat ha'Al,,14,Bnei Sakhnin
-2019/2020,2019,Liga Leumit,,1,Maccabi Petah Tikva
-2019/2020,2019,Liga Leumit,,2,Bnei Sakhnin
-2019/2020,2019,Liga Leumit,,3,Hapoel Ramat Gan
-2019/2020,2019,Liga Leumit,,4,Hapoel Katamon Jerusalem
-2019/2020,2019,Liga Leumit,,5,Hapoel Rishon LeZion
-2019/2020,2019,Liga Leumit,,6,M.S. Kafr Qasim
-2019/2020,2019,Liga Leumit,,7,Beitar Tel Aviv
-2019/2020,2019,Liga Leumit,,8,Ironi Nir Ramat HaSharon
-2019/2020,2019,Liga Leumit,,9,Hapoel Umm al-Fahm
-2019/2020,2019,Liga Leumit,,10,Hapoel Petah Tikva
-2019/2020,2019,Liga Leumit,,11,Hapoel Nof HaGalil
-2019/2020,2019,Liga Leumit,,12,Hapoel Acre
-2019/2020,2019,Liga Leumit,,13,Maccabi Ahi Nazareth
-2019/2020,2019,Liga Leumit,,14,Hapoel Afula
-2019/2020,2019,Liga Leumit,,15,Bnei Lod
-2019/2020,2019,Liga Leumit,,16,Hapoel Ashkelon
-2019/2020,2019,Ligat ha'Al,,1,Maccabi Tel Aviv
-2019/2020,2019,Ligat ha'Al,,2,Maccabi Haifa
-2019/2020,2019,Ligat ha'Al,,3,Beitar Jerusalem
-2019/2020,2019,Ligat ha'Al,,4,Hapoel Be'er Sheva
-2019/2020,2019,Ligat ha'Al,,5,Hapoel Tel Aviv
-2019/2020,2019,Ligat ha'Al,,6,Hapoel Haifa
-2019/2020,2019,Ligat ha'Al,,7,Bnei Yehuda Tel Aviv
-2019/2020,2019,Ligat ha'Al,,8,Ashdod S.C.
-2019/2020,2019,Ligat ha'Al,,9,Hapoel Hadera
-2019/2020,2019,Ligat ha'Al,,10,Maccabi Netanya
-2019/2020,2019,Ligat ha'Al,,11,Hapoel Kfar Saba
-2019/2020,2019,Ligat ha'Al,,12,Ironi Kiryat Shmona
-2019/2020,2019,Ligat ha'Al,,13,Sektzia Nes Tziona
-2019/2020,2019,Ligat ha'Al,,14,Hapoel Ra'anana
 2020/2021,2020,Liga Alef,A,1,F.C. Tira
 2020/2021,2020,Liga Alef,A,1,Hapoel Holon
 2020/2021,2020,Liga Alef,A,2,Maccabi Tamra
@@ -9874,183 +8658,3 @@ season,season_start,league,division,position,club
 2020/2021,2020,Liga Gimel,Upper Galilee (North A),8,Bnei Deir Hanna
 2020/2021,2020,Liga Gimel,Upper Galilee (North A),9,Hapoel Nahariya
 2020/2021,2020,Liga Gimel,Upper Galilee (North A),10,F.C. Abirei HaTzafon Kafr Sumei
-2020/2021,2020,Liga Leumit,,1,Hapoel Nof HaGalil
-2020/2021,2020,Liga Leumit,,2,Hapoel Jerusalem
-2020/2021,2020,Liga Leumit,,3,Sektzia Nes Tziona
-2020/2021,2020,Liga Leumit,,4,Hapoel Rishon LeZion
-2020/2021,2020,Liga Leumit,,5,Beitar Tel Aviv
-2020/2021,2020,Liga Leumit,,6,Hapoel Ramat Gan
-2020/2021,2020,Liga Leumit,,7,Ironi Nir Ramat HaSharon
-2020/2021,2020,Liga Leumit,,8,Hapoel Iksal
-2020/2021,2020,Liga Leumit,,9,Hapoel Afula
-2020/2021,2020,Liga Leumit,,10,Hapoel Ra'anana
-2020/2021,2020,Liga Leumit,,11,Maccabi Ahi Nazareth
-2020/2021,2020,Liga Leumit,,12,M.S. Kafr Qasim
-2020/2021,2020,Liga Leumit,,13,Hapoel Acre
-2020/2021,2020,Liga Leumit,,14,Hapoel Umm al-Fahm
-2020/2021,2020,Liga Leumit,,15,Hapoel Petah Tikva
-2020/2021,2020,Liga Leumit,,16,Hapoel Kfar Shalem
-2020/2021,2020,Ligat ha'Al,,1,Maccabi Haifa
-2020/2021,2020,Ligat ha'Al,,2,Maccabi Tel Aviv
-2020/2021,2020,Ligat ha'Al,,3,Ashdod S.C.
-2020/2021,2020,Ligat ha'Al,,4,Hapoel Be'er Sheva
-2020/2021,2020,Ligat ha'Al,,5,Maccabi Petah Tikva
-2020/2021,2020,Ligat ha'Al,,6,Ironi Kiryat Shmona
-2020/2021,2020,Ligat ha'Al,,7,Maccabi Netanya
-2020/2021,2020,Ligat ha'Al,,8,Hapoel Hadera
-2020/2021,2020,Ligat ha'Al,,9,Hapoel Haifa
-2020/2021,2020,Ligat ha'Al,,10,Beitar Jerusalem
-2020/2021,2020,Ligat ha'Al,,11,Hapoel Tel Aviv
-2020/2021,2020,Ligat ha'Al,,12,Bnei Sakhnin
-2020/2021,2020,Ligat ha'Al,,13,Bnei Yehuda Tel Aviv
-2020/2021,2020,Ligat ha'Al,,14,Hapoel Kfar Saba
-2021/2022,2021,Liga Leumit,,1,Maccabi Bnei Reineh
-2021/2022,2021,Liga Leumit,,2,Sektzia Nes Tziona
-2021/2022,2021,Liga Leumit,,3,M.S. Kafr Qasim
-2021/2022,2021,Liga Leumit,,4,Ashdod S.C.
-2021/2022,2021,Liga Leumit,,5,Hapoel Petah Tikva
-2021/2022,2021,Liga Leumit,,6,Hapoel Kfar Saba
-2021/2022,2021,Liga Leumit,,7,Hapoel Umm al-Fahm
-2021/2022,2021,Liga Leumit,,8,Bnei Yehuda Tel Aviv
-2021/2022,2021,Liga Leumit,,9,Maccabi Ahi Nazareth
-2021/2022,2021,Liga Leumit,,10,Hapoel Afula
-2021/2022,2021,Liga Leumit,,11,Hapoel Acre
-2021/2022,2021,Liga Leumit,,12,Hapoel Ramat Gan
-2021/2022,2021,Liga Leumit,,13,Ironi Nir Ramat HaSharon
-2021/2022,2021,Liga Leumit,,14,Hapoel Rishon LeZion
-2021/2022,2021,Liga Leumit,,15,Hapoel Ra'anana
-2021/2022,2021,Liga Leumit,,16,Beitar Tel Aviv
-2021/2022,2021,Ligat ha'Al,,1,Maccabi Haifa
-2021/2022,2021,Ligat ha'Al,,2,Hapoel Be'er Sheva
-2021/2022,2021,Ligat ha'Al,,3,Maccabi Tel Aviv
-2021/2022,2021,Ligat ha'Al,,4,Maccabi Netanya
-2021/2022,2021,Ligat ha'Al,,5,Hapoel Tel Aviv
-2021/2022,2021,Ligat ha'Al,,6,Bnei Sakhnin
-2021/2022,2021,Ligat ha'Al,,7,Ironi Kiryat Shmona
-2021/2022,2021,Ligat ha'Al,,8,Hapoel Hadera
-2021/2022,2021,Ligat ha'Al,,9,Ashdod S.C.
-2021/2022,2021,Ligat ha'Al,,10,Beitar Jerusalem
-2021/2022,2021,Ligat ha'Al,,11,Hapoel Haifa
-2021/2022,2021,Ligat ha'Al,,12,Hapoel Jerusalem
-2021/2022,2021,Ligat ha'Al,,13,Maccabi Petah Tikva
-2021/2022,2021,Ligat ha'Al,,14,Hapoel Nof HaGalil
-2022/2023,2022,Liga Leumit,,1,Maccabi Petah Tikva
-2022/2023,2022,Liga Leumit,,2,Hapoel Petah Tikva
-2022/2023,2022,Liga Leumit,,3,Ironi Tiberias
-2022/2023,2022,Liga Leumit,,4,Hapoel Umm al-Fahm
-2022/2023,2022,Liga Leumit,,5,Hapoel Acre
-2022/2023,2022,Liga Leumit,,6,Maccabi Jaffa
-2022/2023,2022,Liga Leumit,,7,Hapoel Kfar Saba
-2022/2023,2022,Liga Leumit,,8,Bnei Yehuda Tel Aviv
-2022/2023,2022,Liga Leumit,,9,Hapoel Ramat Gan
-2022/2023,2022,Liga Leumit,,10,Hapoel Afula
-2022/2023,2022,Liga Leumit,,11,Ironi Nir Ramat HaSharon
-2022/2023,2022,Liga Leumit,,12,Hapoel Rishon LeZion
-2022/2023,2022,Liga Leumit,,13,M.S. Kafr Qasim
-2022/2023,2022,Liga Leumit,,14,Hapoel Nof HaGalil
-2022/2023,2022,Liga Leumit,,15,Maccabi Ahi Nazareth
-2022/2023,2022,Liga Leumit,,16,Ashdod S.C.
-2022/2023,2022,Ligat ha'Al,,1,Maccabi Haifa
-2022/2023,2022,Ligat ha'Al,,2,Hapoel Be'er Sheva
-2022/2023,2022,Ligat ha'Al,,3,Maccabi Tel Aviv
-2022/2023,2022,Ligat ha'Al,,4,Hapoel Jerusalem
-2022/2023,2022,Ligat ha'Al,,5,Maccabi Netanya
-2022/2023,2022,Ligat ha'Al,,6,Ashdod S.C.
-2022/2023,2022,Ligat ha'Al,,7,Hapoel Haifa
-2022/2023,2022,Ligat ha'Al,,8,Beitar Jerusalem
-2022/2023,2022,Ligat ha'Al,,9,Bnei Sakhnin
-2022/2023,2022,Ligat ha'Al,,10,Hapoel Tel Aviv
-2022/2023,2022,Ligat ha'Al,,11,Maccabi Bnei Reineh
-2022/2023,2022,Ligat ha'Al,,12,Hapoel Hadera
-2022/2023,2022,Ligat ha'Al,,13,Ironi Kiryat Shmona
-2022/2023,2022,Ligat ha'Al,,14,Sektzia Nes Tziona
-2023/2024,2023,Liga Leumit,,1,Ironi Kiryat Shmona
-2023/2024,2023,Liga Leumit,,2,Ironi Tiberias
-2023/2024,2023,Liga Leumit,,3,Bnei Yehuda Tel Aviv
-2023/2024,2023,Liga Leumit,,4,Hapoel Nof HaGalil
-2023/2024,2023,Liga Leumit,,5,Maccabi Jaffa
-2023/2024,2023,Liga Leumit,,6,Ironi Nir Ramat HaSharon
-2023/2024,2023,Liga Leumit,,7,Maccabi Herzliya
-2023/2024,2023,Liga Leumit,,8,Hapoel Umm al-Fahm
-2023/2024,2023,Liga Leumit,,9,Hapoel Acre
-2023/2024,2023,Liga Leumit,,10,M.S. Kafr Qasim
-2023/2024,2023,Liga Leumit,,11,Hapoel Ramat Gan
-2023/2024,2023,Liga Leumit,,12,Hapoel Afula
-2023/2024,2023,Liga Leumit,,13,Hapoel Rishon LeZion
-2023/2024,2023,Liga Leumit,,14,Hapoel Kfar Saba
-2023/2024,2023,Liga Leumit,,15,Sektzia Nes Tziona
-2023/2024,2023,Liga Leumit,,16,Ihud Bnei Shfaram
-2023/2024,2023,Ligat ha'Al,,1,Maccabi Tel Aviv
-2023/2024,2023,Ligat ha'Al,,2,Maccabi Haifa
-2023/2024,2023,Ligat ha'Al,,3,Hapoel Be'er Sheva
-2023/2024,2023,Ligat ha'Al,,4,Hapoel Haifa
-2023/2024,2023,Ligat ha'Al,,5,Maccabi Bnei Reineh
-2023/2024,2023,Ligat ha'Al,,6,Bnei Sakhnin
-2023/2024,2023,Ligat ha'Al,,7,Hapoel Jerusalem
-2023/2024,2023,Ligat ha'Al,,8,Maccabi Petah Tikva
-2023/2024,2023,Ligat ha'Al,,9,Maccabi Netanya
-2023/2024,2023,Ligat ha'Al,,10,Ashdod S.C.
-2023/2024,2023,Ligat ha'Al,,11,Beitar Jerusalem
-2023/2024,2023,Ligat ha'Al,,12,Hapoel Hadera
-2023/2024,2023,Ligat ha'Al,,13,Hapoel Tel Aviv
-2023/2024,2023,Ligat ha'Al,,14,Hapoel Petah Tikva
-2024/2025,2024,Liga Leumit,,1,Hapoel Tel Aviv
-2024/2025,2024,Liga Leumit,,2,Hapoel Petah Tikva
-2024/2025,2024,Liga Leumit,,3,Hapoel Ramat Gan
-2024/2025,2024,Liga Leumit,,4,Hapoel Kfar Shalem
-2024/2025,2024,Liga Leumit,,5,Maccabi Herzliya
-2024/2025,2024,Liga Leumit,,6,Bnei Yehuda Tel Aviv
-2024/2025,2024,Liga Leumit,,7,Hapoel Kfar Saba
-2024/2025,2024,Liga Leumit,,8,Hapoel Rishon LeZion
-2024/2025,2024,Liga Leumit,,9,Hapoel Acre
-2024/2025,2024,Liga Leumit,,10,M.S. Kafr Qasim
-2024/2025,2024,Liga Leumit,,11,Ironi Nir Ramat HaSharon
-2024/2025,2024,Liga Leumit,,12,Hapoel Ra'anana
-2024/2025,2024,Liga Leumit,,13,Maccabi Jaffa
-2024/2025,2024,Liga Leumit,,14,Hapoel Nof HaGalil
-2024/2025,2024,Liga Leumit,,15,Hapoel Afula
-2024/2025,2024,Liga Leumit,,16,Hapoel Umm al-Fahm
-2024/2025,2024,Ligat ha'Al,,1,Maccabi Tel Aviv
-2024/2025,2024,Ligat ha'Al,,2,Hapoel Be'er Sheva
-2024/2025,2024,Ligat ha'Al,,3,Maccabi Haifa
-2024/2025,2024,Ligat ha'Al,,4,Beitar Jerusalem
-2024/2025,2024,Ligat ha'Al,,5,Hapoel Haifa
-2024/2025,2024,Ligat ha'Al,,6,Maccabi Netanya
-2024/2025,2024,Ligat ha'Al,,7,Hapoel Jerusalem
-2024/2025,2024,Ligat ha'Al,,8,Maccabi Bnei Reineh
-2024/2025,2024,Ligat ha'Al,,9,Ironi Kiryat Shmona
-2024/2025,2024,Ligat ha'Al,,10,Bnei Sakhnin
-2024/2025,2024,Ligat ha'Al,,11,Ashdod S.C.
-2024/2025,2024,Ligat ha'Al,,12,Ironi Tiberias
-2024/2025,2024,Ligat ha'Al,,13,Maccabi Petah Tikva
-2024/2025,2024,Ligat ha'Al,,14,Hapoel Hadera
-2025/2026,2025,Liga Leumit,,1,Maccabi Petah Tikva
-2025/2026,2025,Liga Leumit,,2,Hapoel Ramat Gan
-2025/2026,2025,Liga Leumit,,3,Maccabi Herzliya
-2025/2026,2025,Liga Leumit,,4,Bnei Yehuda Tel Aviv
-2025/2026,2025,Liga Leumit,,5,Hapoel Kfar Shalem
-2025/2026,2025,Liga Leumit,,6,M.S. Kiryat Yam
-2025/2026,2025,Liga Leumit,,7,Hapoel Kfar Saba
-2025/2026,2025,Liga Leumit,,8,Hapoel Rishon LeZion
-2025/2026,2025,Liga Leumit,,9,Maccabi Jaffa
-2025/2026,2025,Liga Leumit,,10,Hapoel Ra'anana
-2025/2026,2025,Liga Leumit,,11,Hapoel Afula
-2025/2026,2025,Liga Leumit,,12,M.S. Kafr Qasim
-2025/2026,2025,Liga Leumit,,13,Ironi Modi'in
-2025/2026,2025,Liga Leumit,,14,Hapoel Acre
-2025/2026,2025,Liga Leumit,,15,Hapoel Nof HaGalil
-2025/2026,2025,Liga Leumit,,16,Hapoel Hadera
-2025/2026,2025,Ligat ha'Al,,1,Hapoel Be'er Sheva
-2025/2026,2025,Ligat ha'Al,,2,Beitar Jerusalem
-2025/2026,2025,Ligat ha'Al,,3,Maccabi Tel Aviv
-2025/2026,2025,Ligat ha'Al,,4,Hapoel Tel Aviv
-2025/2026,2025,Ligat ha'Al,,5,Maccabi Haifa
-2025/2026,2025,Ligat ha'Al,,6,Hapoel Petah Tikva
-2025/2026,2025,Ligat ha'Al,,7,Maccabi Netanya
-2025/2026,2025,Ligat ha'Al,,8,Ironi Kiryat Shmona
-2025/2026,2025,Ligat ha'Al,,9,Ironi Tiberias
-2025/2026,2025,Ligat ha'Al,,10,Hapoel Haifa
-2025/2026,2025,Ligat ha'Al,,11,Bnei Sakhnin
-2025/2026,2025,Ligat ha'Al,,12,Hapoel Jerusalem
-2025/2026,2025,Ligat ha'Al,,13,Ashdod S.C.
-2025/2026,2025,Ligat ha'Al,,14,Maccabi Bnei Reineh

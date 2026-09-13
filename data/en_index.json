@@ -1,0 +1,830 @@
+{
+  "1931–32 Palestine League": {
+    "league": "Palestine League",
+    "start": 1931
+  },
+  "1933–34 Palestine League": {
+    "league": "Palestine League",
+    "start": 1933
+  },
+  "1934–35 Palestine League": {
+    "league": "Palestine League",
+    "start": 1934
+  },
+  "1935–36 Palestine League": {
+    "league": "Palestine League",
+    "start": 1935
+  },
+  "1937 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1937
+  },
+  "1937 Palestine League": {
+    "league": "Palestine League",
+    "start": 1937
+  },
+  "1938 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1938
+  },
+  "1938 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 1938
+  },
+  "1938–39 Palestine League": {
+    "league": "Palestine League",
+    "start": 1938
+  },
+  "1939 Palestine League": {
+    "league": "Palestine League",
+    "start": 1939
+  },
+  "1940 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1940
+  },
+  "1940 Palestine League": {
+    "league": "Palestine League",
+    "start": 1940
+  },
+  "1941–42 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1941
+  },
+  "1941–42 Palestine League": {
+    "league": "Palestine League",
+    "start": 1941
+  },
+  "1943–44 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1943
+  },
+  "1943–44 Palestine League": {
+    "league": "Palestine League",
+    "start": 1943
+  },
+  "1944–45 Palestine League": {
+    "league": "Palestine League",
+    "start": 1944
+  },
+  "1946–47 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1946
+  },
+  "1946–47 Palestine League": {
+    "league": "Palestine League",
+    "start": 1946
+  },
+  "1947–48 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1947
+  },
+  "1947–48 Palestine League": {
+    "league": "Palestine League",
+    "start": 1947
+  },
+  "1951–52 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1951
+  },
+  "1951–52 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1951
+  },
+  "1953–54 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1953
+  },
+  "1953–54 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1953
+  },
+  "1954–55 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1954
+  },
+  "1954–55 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1954
+  },
+  "1954–55 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 1954
+  },
+  "1955–56 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1955
+  },
+  "1955–56 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1955
+  },
+  "1955–56 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 1955
+  },
+  "1956–57 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1956
+  },
+  "1956–57 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1956
+  },
+  "1957–58 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1957
+  },
+  "1957–58 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1957
+  },
+  "1958–59 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1958
+  },
+  "1958–59 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1958
+  },
+  "1959–60 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1959
+  },
+  "1959–60 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1959
+  },
+  "1960–61 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1960
+  },
+  "1960–61 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1960
+  },
+  "1961–62 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1961
+  },
+  "1961–62 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1961
+  },
+  "1961–62 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 1961
+  },
+  "1962–63 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1962
+  },
+  "1962–63 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1962
+  },
+  "1962–63 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 1962
+  },
+  "1963–64 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1963
+  },
+  "1963–64 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1963
+  },
+  "1963–64 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 1963
+  },
+  "1964–65 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1964
+  },
+  "1964–65 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1964
+  },
+  "1964–65 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 1964
+  },
+  "1965–66 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1965
+  },
+  "1965–66 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1965
+  },
+  "1965–66 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 1965
+  },
+  "1966–68 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1966
+  },
+  "1966–68 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1966
+  },
+  "1966–68 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 1966
+  },
+  "1968–69 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1968
+  },
+  "1968–69 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1968
+  },
+  "1969–70 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1969
+  },
+  "1969–70 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1969
+  },
+  "1970–71 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1970
+  },
+  "1970–71 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1970
+  },
+  "1971–72 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1971
+  },
+  "1971–72 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1971
+  },
+  "1972–73 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1972
+  },
+  "1972–73 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1972
+  },
+  "1973–74 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1973
+  },
+  "1973–74 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1973
+  },
+  "1974–75 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1974
+  },
+  "1974–75 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1974
+  },
+  "1975–76 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1975
+  },
+  "1975–76 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1975
+  },
+  "1976–77 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1976
+  },
+  "1976–77 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1976
+  },
+  "1976–77 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1976
+  },
+  "1976–77 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 1976
+  },
+  "1977–78 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1977
+  },
+  "1977–78 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1977
+  },
+  "1977–78 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1977
+  },
+  "1977–78 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 1977
+  },
+  "1978–79 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1978
+  },
+  "1978–79 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1978
+  },
+  "1979–80 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1979
+  },
+  "1979–80 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1979
+  },
+  "1979–80 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1979
+  },
+  "1980–81 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1980
+  },
+  "1980–81 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1980
+  },
+  "1980–81 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1980
+  },
+  "1981–82 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1981
+  },
+  "1981–82 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1981
+  },
+  "1981–82 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1981
+  },
+  "1981–82 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 1981
+  },
+  "1982–83 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1982
+  },
+  "1982–83 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1982
+  },
+  "1982–83 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1982
+  },
+  "1983–84 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1983
+  },
+  "1983–84 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1983
+  },
+  "1983–84 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1983
+  },
+  "1984–85 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1984
+  },
+  "1984–85 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1984
+  },
+  "1984–85 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1984
+  },
+  "1985–86 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1985
+  },
+  "1985–86 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1985
+  },
+  "1985–86 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1985
+  },
+  "1986–87 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1986
+  },
+  "1986–87 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1986
+  },
+  "1986–87 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1986
+  },
+  "1987–88 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1987
+  },
+  "1987–88 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1987
+  },
+  "1987–88 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1987
+  },
+  "1988–89 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1988
+  },
+  "1988–89 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1988
+  },
+  "1988–89 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1988
+  },
+  "1989–90 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1989
+  },
+  "1989–90 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1989
+  },
+  "1990–91 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1990
+  },
+  "1990–91 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1990
+  },
+  "1991–92 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1991
+  },
+  "1991–92 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1991
+  },
+  "1992–93 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1992
+  },
+  "1992–93 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1992
+  },
+  "1993–94 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1993
+  },
+  "1993–94 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1993
+  },
+  "1994–95 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1994
+  },
+  "1994–95 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1994
+  },
+  "1994–95 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1994
+  },
+  "1995–96 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1995
+  },
+  "1995–96 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1995
+  },
+  "1996–97 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1996
+  },
+  "1996–97 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1996
+  },
+  "1996–97 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1996
+  },
+  "1996–97 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 1996
+  },
+  "1997–98 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1997
+  },
+  "1997–98 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1997
+  },
+  "1998–99 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1998
+  },
+  "1998–99 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1998
+  },
+  "1998–99 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1998
+  },
+  "1999–2000 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1999
+  },
+  "1999–2000 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 1999
+  },
+  "1999–2000 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 1999
+  },
+  "1999–2000 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 1999
+  },
+  "2000–01 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 2000
+  },
+  "2000–01 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 2000
+  },
+  "2000–01 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 2000
+  },
+  "2001–02 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 2001
+  },
+  "2001–02 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 2001
+  },
+  "2001–02 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 2001
+  },
+  "2002–03 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 2002
+  },
+  "2002–03 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 2002
+  },
+  "2002–03 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 2002
+  },
+  "2003–04 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 2003
+  },
+  "2003–04 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 2003
+  },
+  "2003–04 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 2003
+  },
+  "2003–04 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 2003
+  },
+  "2004–05 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 2004
+  },
+  "2004–05 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 2004
+  },
+  "2004–05 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 2004
+  },
+  "2004–05 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 2004
+  },
+  "2005–06 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 2005
+  },
+  "2005–06 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 2005
+  },
+  "2005–06 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 2005
+  },
+  "2005–06 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 2005
+  },
+  "2006–07 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 2006
+  },
+  "2006–07 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 2006
+  },
+  "2006–07 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 2006
+  },
+  "2006–07 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 2006
+  },
+  "2007–08 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 2007
+  },
+  "2007–08 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 2007
+  },
+  "2007–08 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 2007
+  },
+  "2007–08 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 2007
+  },
+  "2008–09 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 2008
+  },
+  "2008–09 Liga Artzit": {
+    "league": "Liga Artzit",
+    "start": 2008
+  },
+  "2008–09 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 2008
+  },
+  "2009–10 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 2009
+  },
+  "2009–10 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 2009
+  },
+  "2009–10 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 2009
+  },
+  "2010–11 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 2010
+  },
+  "2010–11 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 2010
+  },
+  "2010–11 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 2010
+  },
+  "2011–12 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 2011
+  },
+  "2011–12 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 2011
+  },
+  "2011–12 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 2011
+  },
+  "2012–13 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 2012
+  },
+  "2012–13 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 2012
+  },
+  "2012–13 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 2012
+  },
+  "2013–14 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 2013
+  },
+  "2013–14 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 2013
+  },
+  "2013–14 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 2013
+  },
+  "2014–15 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 2014
+  },
+  "2014–15 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 2014
+  },
+  "2014–15 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 2014
+  },
+  "2015–16 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 2015
+  },
+  "2015–16 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 2015
+  },
+  "2015–16 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 2015
+  },
+  "2016–17 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 2016
+  },
+  "2016–17 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 2016
+  },
+  "2017–18 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 2017
+  },
+  "2017–18 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 2017
+  },
+  "2017–18 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 2017
+  },
+  "2018–19 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 2018
+  },
+  "2020–21 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 2020
+  },
+  "2020–21 Liga Bet": {
+    "league": "Liga Bet",
+    "start": 2020
+  },
+  "2020–21 Liga Gimel": {
+    "league": "Liga Gimel",
+    "start": 2020
+  },
+  "2024–25 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 2024
+  }
+}
