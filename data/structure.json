@@ -11,11 +11,16 @@
 
   "eras": [
     {
-      "from": 1931, "to": 1948,
-      "tiers": ["Palestine League"],
-      "note": "A second tier under the Palestine League from 1946 is claimed by the league-system article but contradicted by the Liga Bet article, which dates that league to 1949. Left out until resolved."
+      "from": 1929, "to": 1948,
+      "tiers": ["Eretz Israel League", "Liga Bet (district leagues)"],
+      "also_known_as": { "Eretz Israel League": ["ליגת ארץ ישראל", "Palestine League"] },
+      "note": "Run by the Eretz Israel Football Association, founded August 1928, and treated as the direct ancestor of today's Ligat ha'Al. Hebrew sources name it ליגת ארץ ישראל (Eretz Israel League); English Wikipedia titles it 'Palestine League'. The second tier throughout was a set of regional divisions - ליגות מחוזיות, also called Machleka Bet and later Liga Bet - whose seasons run 1930/31, then 1937 through 1948/49. There was no third tier, for want of clubs. The IFA still records a 1928 title for Maccabi Hasmonean Jerusalem, but no season was played that year: the entry originates in the association's FIFA admission notice and is recognised as erroneous."
     },
-    { "from": 1949, "to": 1950, "tiers": ["Israeli League", "Liga Meuhedet"] },
+    {
+      "from": 1949, "to": 1950,
+      "tiers": ["Israeli League", "Liga Bet (district leagues)"],
+      "note": "The Hebrew season navbox groups the second tier of 1949/50-1954/55 with the earlier district leagues; some English sources call the 1949/50 second tier Liga Meuhedet."
+    },
     { "from": 1951, "to": 1953, "tiers": ["Liga Alef", "Liga Bet", "Liga Gimel"] },
     {
       "from": 1954, "to": 1957,
@@ -78,32 +83,67 @@
     "2022": 14, "2023": 14, "2024": 14, "2025": 14
   },
 
+  "_no_champion_source": [
+    "Taken from the strikethrough marking in the Hebrew Wikipedia season navbox",
+    "(עונות בליגה העליונה בישראל), which is the only source found that enumerates every",
+    "season slot and marks the ones not played. Ten top-flight seasons are struck through;",
+    "1966/1968 appears as a single entry, confirming there is no separate 1967/68.",
+    "There is no 1936/37 slot at all: the league ran on calendar-year seasons from 1937 to",
+    "1940, so 1935/36 is followed directly by 1937. A chart must therefore label columns by",
+    "season name and not assume one column per calendar year."
+  ],
+
   "no_champion": [
+    { "season": "1929/30", "start": 1929, "status": "abandoned",
+      "reason": "Intended as the first season of organised football; stopped by the 1929 riots" },
     { "season": "1930/31", "start": 1930, "status": "abandoned",
-      "reason": "British clubs ordered to stop playing Jewish clubs; collapsed in November" },
+      "reason": "Ran 4-9 rounds. After the Passfield White Paper the High Commissioner ordered British clubs to stop playing Jewish clubs; an attempt to continue with Hebrew clubs only failed" },
     { "season": "1932/33", "start": 1932, "status": "abandoned",
-      "reason": "Hapoel clubs withdrew from the Palestine FA" },
-    { "season": "1934/35", "start": 1934, "status": "abandoned",
-      "reason": "Called off with Hapoel Tel Aviv leading" },
-    { "season": "1936/37", "start": 1936, "status": "not held",
-      "reason": "Absorbed into the 1937 championship" },
-    { "season": "1938", "start": 1938, "status": "abandoned",
-      "reason": "The Arab revolt" },
-    { "season": "1940/41", "start": 1940, "status": "not held",
-      "reason": "Maccabi-Hapoel dispute" },
-    { "season": "1942/43", "start": 1942, "status": "not held",
-      "reason": "The previous season was still being played" },
-    { "season": "1945/46", "start": 1945, "status": "abandoned",
-      "reason": "Maccabi clubs withdrew; the Hapoel-only league was scrapped on their return" },
+      "reason": "Hapoel clubs withdrew from the association; the Maccabi-only league was abandoned when they rejoined" },
+    { "season": "1940/41", "start": 1940, "status": "no national league",
+      "reason": "Maccabi and Hapoel could not agree, so each federation ran its own competition instead: Maccabi Petah Tikva won the Maccabi League, and Hapoel Tel Aviv and Hapoel Ra'anana won the Southern and Samaria divisions of the Hapoel League. The district leagues below did run" },
+    { "season": "1942/43", "start": 1942, "status": "not completed",
+      "reason": "District leagues in Haifa, Jerusalem and Tel Aviv. Haifa was unfinished and the decider was never played after Maccabi Hasmonean Jerusalem refused to face Maccabi Tel Aviv; the press named Maccabi Tel Aviv champions but neither the club nor the IFA recognises it" },
+    { "season": "1945/46", "start": 1945, "status": "not held",
+      "reason": "No championship contested" },
     { "season": "1947/48", "start": 1947, "status": "abandoned",
-      "reason": "Outbreak of the 1947-49 war; the IFA lists leaders Nordia Tel Aviv as champions" },
-    { "season": "1948", "start": 1948, "status": "abandoned",
-      "reason": "A substitute league, called off after a handful of matches" },
+      "reason": "Outbreak of the War of Independence; an 'emergency league' was attempted and also failed. The IFA lists leaders Nordia Tel Aviv as champions" },
+    { "season": "1948/49", "start": 1948, "status": "not held",
+      "reason": "Postponed because of the war; play resumed under the State of Israel as the Israeli League in 1949/50" },
     { "season": "1950/51", "start": 1950, "status": "not held",
       "reason": "No championship contested" },
     { "season": "1952/53", "start": 1952, "status": "not held",
       "reason": "No championship contested" },
-    { "season": "1967/68", "start": 1967, "status": "merged",
+    { "season": "1967/68", "start": 1967, "status": "no season",
       "reason": "No separate season: 1966/68 was played as one championship over two years" }
+  ],
+
+  "regional_seasons": {
+    "_comment": [
+      "Seasons the top flight was played as parallel district leagues rather than one",
+      "national table, because the Arab revolt and then the war made hosting clubs from",
+      "other districts impossible. A champion exists for each, but there is no national",
+      "ranking - so a club's position in these seasons can only be placed within a band,",
+      "the same problem the regional lower tiers pose today."
+    ],
+    "1939": "Seven districts (Tel Aviv A, Jerusalem A - British clubs only, Haifa A, Tel Aviv B, Samaria B, South B), top-flight and second-tier clubs merged into one district structure. 25 Feb - 2 Dec 1939. Maccabi Tel Aviv won Tel Aviv Division A, regarded as much the strongest district - every champion since 1934 had come from it - and are recognised as national champions. Two points for a win; ties broken on goal average.",
+    "1940": "District leagues again; the Tel Aviv district winner, Hapoel Tel Aviv, is recognised as national champion.",
+    "1941/42": "Three regional divisions (Haifa, Tel Aviv, Jerusalem); Haifa was cancelled after a few weeks and the other two took over a year to finish, settled by a championship playoff that Maccabi Tel Aviv won.",
+    "1944/45": "Two regional championships: Beitar Tel Aviv won the Southern district, Hapoel Tel Aviv the Northern. English Wikipedia lists both as champions; Hebrew Wikipedia notes the planned decider was never played."
+  },
+
+  "_contested_titles": [
+    "The 1939 title is the documented test case. The IFA recognised it until 2003, then",
+    "dropped it on the grounds that no official national senior league had taken place;",
+    "Maccabi Tel Aviv went on claiming it. After an opinion from Prof. Yair Galili, head of",
+    "the IFA research unit, the association restored recognition on 26 May 2024 - the",
+    "'fifth star' decision.",
+    "",
+    "English and Hebrew Wikipedia still disagree about 1934/35 and 1938. Hebrew and the IFA",
+    "credit Hapoel Tel Aviv with both, giving them five Mandate-era titles; English Wikipedia",
+    "marks both seasons unfinished and counts three, and says plainly that 'controversy",
+    "remains concerning the number of titles won by Hapoel Tel Aviv'. This file follows the",
+    "Hebrew navbox, which does not strike either season through, so both are treated as",
+    "played. Anything that reports title counts should say which convention it uses."
   ]
 }
