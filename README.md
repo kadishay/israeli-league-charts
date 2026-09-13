@@ -36,6 +36,7 @@ move: "Liga Alef" on a 1960 column and on a 2015 column are different depths.
 | `data/seasons_index.json` | Every season slot, in order, with whether it was played — the x-axis, built from the Hebrew Wikipedia navboxes. |
 | `data/seasons.csv` | 10,055 rows — `season,season_start,league,division,position,club`. 86 seasons, 1,049 clubs, tiers 1–6. |
 | `data/aliases*.json` | Source spelling → canonical club name, merging renames and mergers into one lineage. One file per source. |
+| `data/club_status.json` | Spans where a club existed but fielded no senior side, so its absence is a fact rather than a hole. |
 | `scripts/fetch*.py` | Cache the sources into `data/raw/` (gitignored). |
 | `scripts/parse*.py` | Raw pages → one CSV per source. |
 | `scripts/build.py` | Merge the sources, checking every row against `structure.json`. |
@@ -82,11 +83,25 @@ Below tier two nearly everything is regional, so those positions are ranks withi
 district, not national ones. The chart marks them with a dashed line: the depth is real,
 the basis of the rank is not comparable.
 
+### Absent is not the same as unknown
+
+A club is only marked "no position recorded" for seasons **inside its active life**.
+Before its first recorded season and after its last, the chart draws plain background: the
+club was not there to have a position. Without that rule Hakoah Tel Aviv — which merged
+into Hakoah Maccabi Ramat Gan in 1959 — carried sixty years of dotted marks claiming a
+missing record, and the same held for Hapoel Yehud and Maccabi Rehovot, both written up in
+the past tense.
+
+Interior dormant spells need a source, so they live in `data/club_status.json`. The first
+entry is Shimshon Tel Aviv: they merged with Beitar Tel Aviv in 2000 as Beitar Shimshon Tel
+Aviv, left the merger in 2011 and only re-formed a senior team in 2014, so 2000/01–2013/14
+is the club's absence rather than the data's. That one distinction took their gap count from
+22 to 3, and across the 32 clubs it took the total from 408 to **160**.
+
 ### What is still missing, and why
 
-Of the 32 clubs charted, **10 have no gaps at all** and another 12 have fewer than five.
-The remaining gaps are concentrated in two places, and both were checked rather than
-assumed:
+Of the 32 clubs charted, **10 have no unknown seasons at all**. The remaining 160 are
+concentrated in two places, and both were checked rather than assumed:
 
 - **36 Mandate-era seasons**, almost all of them the Haifa district. Between 1934/35 and
   1946/47 the top flight was played district by district, and *neither* Wikipedia tabulates

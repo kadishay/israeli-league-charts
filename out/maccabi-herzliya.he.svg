@@ -447,13 +447,7 @@
 <rect x="1331" y="386" width="13" height="45" fill="var(--band5)"/>
 <rect x="96" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="109" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
-<rect x="122" y="201" width="13" height="230" fill="url(#uncovered)"/>
 <rect x="135" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
-<rect x="148" y="201" width="13" height="230" fill="url(#uncovered)"/>
-<rect x="161" y="206" width="13" height="225" fill="url(#uncovered)"/>
-<rect x="174" y="186" width="13" height="245" fill="url(#uncovered)"/>
-<rect x="187" y="126" width="13" height="305" fill="url(#uncovered)"/>
-<rect x="200" y="151" width="13" height="280" fill="url(#uncovered)"/>
 <rect class="area" x="213" y="116" width="13" height="315" fill-opacity=".07"/>
 <rect x="226" y="166" width="13" height="265" fill="url(#uncovered)"/>
 <rect x="239" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>

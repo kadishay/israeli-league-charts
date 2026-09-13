@@ -1,0 +1,27 @@
+{
+  "_comment": [
+    "Spans in which a club existed on paper but fielded no senior side, so its",
+    "absence from the tables is a fact about the club rather than a hole in the",
+    "data. Seasons listed here are drawn as plain background, like the seasons",
+    "before a club was founded or after it folded - not as the dotted 'no",
+    "position recorded' mark, which would claim the record is missing.",
+    "",
+    "Only interior spans need an entry. A club's seasons before its first",
+    "recorded one and after its last are handled automatically by render.py,",
+    "which is what covers the clubs that simply folded: Hakoah Tel Aviv merged",
+    "into Hakoah Maccabi Ramat Gan, and Hapoel Yehud and Maccabi Rehovot are",
+    "written up in the past tense.",
+    "",
+    "'from'/'to' are the calendar years a season started, inclusive."
+  ],
+
+  "inactive": {
+    "Shimshon Tel Aviv": [
+      {
+        "from": 2000, "to": 2013,
+        "reason": "Merged with Beitar Tel Aviv in 2000 as Beitar Shimshon Tel Aviv; Shimshon left the merger in 2011 and only re-formed a senior team in 2014. The merged club's seasons are recorded under Beitar Tel Aviv.",
+        "source": "he.wikipedia.org/wiki/שמשון תל אביב"
+      }
+    ]
+  }
+}

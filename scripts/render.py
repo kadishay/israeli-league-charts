@@ -228,11 +228,32 @@ def _ordinal(n: int, lang: str) -> str:
     return f"{n}{suffix}"
 
 
+def inactive_spans() -> dict[str, list[dict]]:
+    path = DATA / "club_status.json"
+    return json.loads(path.read_text()).get("inactive", {}) if path.exists() else {}
+
+
 def render(club: str, seasons: list[dict], history: dict[str, dict],
-           lang: str = "en", name: str | None = None) -> str:
+           lang: str = "en", name: str | None = None,
+           inactive: list[dict] | None = None) -> str:
     S = STRINGS[lang]
     pad_l = S["pad_l"]
     label = name or club
+
+    # A season only counts as an unknown if it falls inside the club's active
+    # life. Before its first recorded season and after its last, the club was
+    # not there to have a position - Hakoah Tel Aviv merged away in 1959, so
+    # marking its next sixty seasons "no position recorded" would claim a
+    # missing record rather than a club that had ceased to exist. Interior
+    # dormant spells are listed in data/club_status.json.
+    recorded = [i for i, s in enumerate(seasons) if s["label"] in history]
+    first, last = (recorded[0], recorded[-1]) if recorded else (0, -1)
+    dormant = inactive or []
+
+    def active(i: int, season: dict) -> bool:
+        if not (first <= i <= last):
+            return False
+        return not any(sp["from"] <= season["start"] <= sp["to"] for sp in dormant)
     maxrank = max(sum(s["bands"]) for s in seasons) + BOTTOM_BAND
     plot_w, plot_h = len(seasons) * COL, maxrank * ROW
     width, height = pad_l + plot_w + PAD_R, PAD_T + plot_h + PAD_B
@@ -289,10 +310,12 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
         entry = history.get(s["label"])
         rank = rank_of(entry, s) if entry else None
         if rank is None:
-            # Either no record for this club, or a tier below the drawn bands.
-            top = y(sum(s["bands"]) + 1)
-            area.append(f'<rect x="{x(i)}" y="{top}" width="{COL}" '
-                        f'height="{floor - top}" fill="url(#uncovered)"/>')
+            # No record, or a tier below the drawn bands. Mark it as an unknown
+            # only while the club was actually competing.
+            if active(i, s):
+                top = y(sum(s["bands"]) + 1)
+                area.append(f'<rect x="{x(i)}" y="{top}" width="{COL}" '
+                            f'height="{floor - top}" fill="url(#uncovered)"/>')
             prev = None
             continue
         approx = bool(entry["division"])
@@ -491,11 +514,14 @@ def main() -> None:
     OUT.mkdir(exist_ok=True)
     names = hebrew_names()
     missing_he = [c for c in clubs if c not in names]
+    dormant = inactive_spans()
     for club in clubs:
+        spans = dormant.get(club)
         (OUT / f"{slug(club)}.svg").write_text(
-            render(club, seasons, by_club[club], "en"))
+            render(club, seasons, by_club[club], "en", inactive=spans))
         (OUT / f"{slug(club)}.he.svg").write_text(
-            render(club, seasons, by_club[club], "he", names.get(club, club)))
+            render(club, seasons, by_club[club], "he", names.get(club, club),
+                   inactive=spans))
     for lang, suffix, out_name in [("en", "", "index.html"), ("he", ".he", "index.he.html")]:
         body = gallery_html(clubs, seasons, lang,
                             names if lang == "he" else {}, suffix)
