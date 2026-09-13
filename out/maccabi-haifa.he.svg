@@ -73,8 +73,8 @@
 <rect x="343" y="146" width="13" height="80" fill="var(--band2)"/>
 <rect x="343" y="226" width="13" height="205" fill="var(--band3)"/>
 <rect x="356" y="76" width="13" height="65" fill="var(--band1)"/>
-<rect x="356" y="141" width="13" height="80" fill="var(--band2)"/>
-<rect x="356" y="221" width="13" height="210" fill="var(--band3)"/>
+<rect x="356" y="141" width="13" height="45" fill="var(--band2)"/>
+<rect x="356" y="186" width="13" height="245" fill="var(--band3)"/>
 <rect x="369" y="76" width="13" height="70" fill="var(--band1)"/>
 <rect x="369" y="146" width="13" height="80" fill="var(--band2)"/>
 <rect x="369" y="226" width="13" height="205" fill="var(--band3)"/>
@@ -452,7 +452,7 @@
 <rect class="area" x="148" y="116" width="13" height="315"/>
 <rect x="161" y="206" width="13" height="225" fill="url(#uncovered)"/>
 <rect x="174" y="186" width="13" height="245" fill="url(#uncovered)"/>
-<rect class="area" x="187" y="111" width="13" height="320" fill-opacity=".07"/>
+<rect class="area" x="187" y="111" width="13" height="320"/>
 <rect x="200" y="151" width="13" height="280" fill="url(#uncovered)"/>
 <rect x="213" y="216" width="13" height="215" fill="url(#uncovered)"/>
 <rect x="226" y="166" width="13" height="265" fill="url(#uncovered)"/>
@@ -543,7 +543,7 @@
 <rect class="area" x="1331" y="96" width="13" height="335"/>
 <path class="line" d="M122 106h13"/>
 <path class="line" d="M148 116h13"/>
-<path class="line" d="M187 111h13" stroke-dasharray="3 2"/>
+<path class="line" d="M187 111h13"/>
 <path class="line" d="M317 151h13" stroke-dasharray="3 2"/>
 <path class="line" d="M356 106h13"/>
 <path class="line" d="M382 121h13"/>

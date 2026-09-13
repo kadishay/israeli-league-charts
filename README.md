@@ -70,7 +70,7 @@ Three more consequences, spelled out in `docs/league-history.html`:
 | Tier | Covered | Source |
 |---|---|---|
 | 1 | 1931/32 – 2025/26 | Hebrew + English Wikipedia to 1946/47, RSSSF 1949/50–2024/25, Hebrew Wikipedia for 2025/26 |
-| 2 | 1955/56 – 2025/26, complete | Hebrew Wikipedia to 2007/08, RSSSF from 2008/09 |
+| 2 | 1937 – 2025/26 | Hebrew Wikipedia to 2007/08, RSSSF from 2008/09 |
 | 3 | 1951/52 – 2023/24 | English Wikipedia (Liga Artzit 1976–2009, Liga Alef otherwise) |
 | 4 | 1941 – 2019/20 | English Wikipedia |
 | 5–6 | scattered | English Wikipedia |
@@ -103,11 +103,15 @@ is the club's absence rather than the data's. That one distinction took their ga
 Of the 32 clubs charted, **10 have no unknown seasons at all**. The remaining 160 are
 concentrated in two places, and both were checked rather than assumed:
 
-- **36 Mandate-era seasons**, almost all of them the Haifa district. Between 1934/35 and
-  1946/47 the top flight was played district by district, and *neither* Wikipedia tabulates
-  the Haifa one — the Hebrew 1939 article names it in prose ("13 clubs in Haifa Division A")
-  but carries no table, and the English articles have Tel Aviv, Samaria and Southern only.
-  That is why Maccabi Haifa has 8 gaps and Hapoel Haifa 3, all before 1949.
+- **Mandate-era districts that no article tabulates.** Between 1934/35 and 1946/47 both the
+  top flight and the second tier were played district by district, and the sources cover
+  some districts and not others. The Hebrew 1939 top-flight article names the Haifa
+  division in prose ("13 clubs in Haifa Division A") but carries no table; the English
+  articles have Tel Aviv, Samaria and Southern only. The same holds one level down: Hapoel
+  Jerusalem is named in the prose of the 1937 and 1946/47 Liga Bet articles but appears in
+  none of their tables, which document only the northern and southern districts. That is
+  why Maccabi Haifa has 8 unknown seasons, Hapoel Jerusalem 7 and Hapoel Haifa 3, all
+  before 1949.
 - **~370 seasons in tiers 5–6** for clubs that spent decades down there. English Wikipedia
   has roughly 30 Liga Gimel seasons out of about 70, and whole years are simply absent
   (1990–91 Liga Gimel has no article). The clubs' own Hebrew articles carry **no season
@@ -120,10 +124,6 @@ guessed at.
 
 Three deliberate scope limits:
 
-- **Tier 2 starts at 1955/56.** Before that the second tier was a set of district leagues —
-  five regional groups of 45 clubs in 1949/50 — with no national ranking, and the navbox
-  groups 1953/54 and 1954/55 there too, which contradicts the era boundary `structure.json`
-  draws from RSSSF. Half-modelling that seemed worse than leaving it out.
 - **Only tiers 1–4 get a band.** Tier 5 and below share the floor of the chart; the data is
   there in `seasons.csv` if you want to draw them.
 - **2026/27 is excluded.** It is in progress, and a chart must not show a current partial

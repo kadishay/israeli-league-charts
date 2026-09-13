@@ -32,6 +32,10 @@ NAVBOXES = {
     "תבנית:עונות בליגת משנה בכדורגל": 2,
 }
 
+# The navbox groups 1949/50's second tier with the district leagues, but that
+# season's competition had its own name and its own entry in the era table.
+SEASON_LEAGUE = {"1949/1950#2": "Liga Meuhedet"}
+
 # Navbox group heading -> the league name used in data/structure.json.
 LEAGUE_OF_GROUP = {
     "ליגת ארץ ישראל": "Eretz Israel League",
@@ -52,13 +56,16 @@ LATEST_COMPLETE = 2025
 RSSSF_TOP_FLIGHT_UNTIL = 2024
 RSSSF_SECOND_TIER_FROM = 2008
 
-# The second tier is only taken from 1955/56, when Liga Alef settled under the
-# new Liga Leumit.  Before that it was a set of district leagues - five regional
-# groups of 45 clubs in 1949/50 - with no national ranking, and the navbox
-# groups 1953/54 and 1954/55 there too, which contradicts the era boundary
-# structure.json draws from RSSSF.  Those seasons are out of scope rather than
-# half-modelled; no club charted here spent them below the top flight.
-SECOND_TIER_FROM = 1955
+# The second tier is taken all the way back.  Before 1955 it was a set of
+# district leagues - five regional groups of 45 clubs in 1949/50 - so those
+# positions are ranks within a district rather than national ones, which the
+# division column and the chart's dashed line already express.  The tier itself
+# comes from the era table via the league name, not from the navbox's grouping,
+# so the navbox filing 1953/54 and 1954/55 under the district leagues does not
+# matter.  Excluding these was what left Hapoel Jerusalem's 1930s and 1940s
+# blank: they had been relegated to Liga Bet and spent the 1940s moving between
+# the two levels.
+SECOND_TIER_FROM = 1930
 
 # The Mandate-era top flight, which only Hebrew Wikipedia covers district by
 # district.
@@ -179,7 +186,10 @@ def main() -> None:
         if not wiki:
             raise SystemExit(f"navbox not found: {name}")
         for label, meta in parse_navbox(wiki, tier).items():
-            index.setdefault(f"{label}#{tier}", meta)
+            key = f"{label}#{tier}"
+            if key in SEASON_LEAGUE:
+                meta = {**meta, "league": SEASON_LEAGUE[key]}
+            index.setdefault(key, meta)
 
     INDEX.write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n")
     played = sum(1 for m in index.values() if m["played"])

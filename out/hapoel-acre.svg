@@ -73,8 +73,8 @@
 <rect x="351" y="146" width="13" height="80" fill="var(--band2)"/>
 <rect x="351" y="226" width="13" height="205" fill="var(--band3)"/>
 <rect x="364" y="76" width="13" height="65" fill="var(--band1)"/>
-<rect x="364" y="141" width="13" height="80" fill="var(--band2)"/>
-<rect x="364" y="221" width="13" height="210" fill="var(--band3)"/>
+<rect x="364" y="141" width="13" height="45" fill="var(--band2)"/>
+<rect x="364" y="186" width="13" height="245" fill="var(--band3)"/>
 <rect x="377" y="76" width="13" height="70" fill="var(--band1)"/>
 <rect x="377" y="146" width="13" height="80" fill="var(--band2)"/>
 <rect x="377" y="226" width="13" height="205" fill="var(--band3)"/>
@@ -453,8 +453,11 @@
 <rect x="312" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="338" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="351" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect class="area" x="364" y="161" width="13" height="270" fill-opacity=".07"/>
 <rect x="377" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect x="390" y="286" width="13" height="145" fill="url(#uncovered)"/>
 <rect x="403" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect x="416" y="286" width="13" height="145" fill="url(#uncovered)"/>
 <rect class="area" x="429" y="256" width="13" height="175" fill-opacity=".07"/>
 <rect class="area" x="442" y="221" width="13" height="210" fill-opacity=".07"/>
 <rect class="area" x="455" y="206" width="13" height="225" fill-opacity=".07"/>
@@ -526,6 +529,7 @@
 <rect class="area" x="1313" y="186" width="13" height="245"/>
 <rect class="area" x="1326" y="186" width="13" height="245"/>
 <rect class="area" x="1339" y="211" width="13" height="220"/>
+<path class="line" d="M364 161h13" stroke-dasharray="3 2"/>
 <path class="line" d="M429 256h13" stroke-dasharray="3 2"/>
 <path class="line" d="M442 256V221"/>
 <path class="line" d="M442 221h13" stroke-dasharray="3 2"/>

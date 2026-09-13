@@ -73,8 +73,8 @@
 <rect x="351" y="146" width="13" height="80" fill="var(--band2)"/>
 <rect x="351" y="226" width="13" height="205" fill="var(--band3)"/>
 <rect x="364" y="76" width="13" height="65" fill="var(--band1)"/>
-<rect x="364" y="141" width="13" height="80" fill="var(--band2)"/>
-<rect x="364" y="221" width="13" height="210" fill="var(--band3)"/>
+<rect x="364" y="141" width="13" height="45" fill="var(--band2)"/>
+<rect x="364" y="186" width="13" height="245" fill="var(--band3)"/>
 <rect x="377" y="76" width="13" height="70" fill="var(--band1)"/>
 <rect x="377" y="146" width="13" height="80" fill="var(--band2)"/>
 <rect x="377" y="226" width="13" height="205" fill="var(--band3)"/>
@@ -448,7 +448,7 @@
 <rect x="104" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="117" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="143" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
-<rect class="area" x="208" y="146" width="13" height="285" fill-opacity=".07"/>
+<rect class="area" x="208" y="146" width="13" height="285"/>
 <rect class="area" x="221" y="81" width="13" height="350" fill-opacity=".07"/>
 <rect class="area" x="234" y="121" width="13" height="310" fill-opacity=".07"/>
 <rect x="247" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
@@ -536,7 +536,7 @@
 <rect class="area" x="1313" y="206" width="13" height="225"/>
 <rect class="area" x="1326" y="181" width="13" height="250"/>
 <rect class="area" x="1339" y="181" width="13" height="250"/>
-<path class="line" d="M208 146h13" stroke-dasharray="3 2"/>
+<path class="line" d="M208 146h13"/>
 <path class="line" d="M221 146V81"/>
 <path class="line" d="M221 81h13" stroke-dasharray="3 2"/>
 <path class="line" d="M234 81V121"/>

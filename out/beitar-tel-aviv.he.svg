@@ -73,8 +73,8 @@
 <rect x="343" y="146" width="13" height="80" fill="var(--band2)"/>
 <rect x="343" y="226" width="13" height="205" fill="var(--band3)"/>
 <rect x="356" y="76" width="13" height="65" fill="var(--band1)"/>
-<rect x="356" y="141" width="13" height="80" fill="var(--band2)"/>
-<rect x="356" y="221" width="13" height="210" fill="var(--band3)"/>
+<rect x="356" y="141" width="13" height="45" fill="var(--band2)"/>
+<rect x="356" y="186" width="13" height="245" fill="var(--band3)"/>
 <rect x="369" y="76" width="13" height="70" fill="var(--band1)"/>
 <rect x="369" y="146" width="13" height="80" fill="var(--band2)"/>
 <rect x="369" y="226" width="13" height="205" fill="var(--band3)"/>
@@ -448,8 +448,8 @@
 <rect x="96" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="109" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="135" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
-<rect class="area" x="187" y="106" width="13" height="325" fill-opacity=".07"/>
-<rect class="area" x="200" y="126" width="13" height="305" fill-opacity=".07"/>
+<rect class="area" x="187" y="106" width="13" height="325"/>
+<rect class="area" x="200" y="126" width="13" height="305"/>
 <rect class="area" x="213" y="76" width="13" height="355" fill-opacity=".07"/>
 <rect class="area" x="226" y="81" width="13" height="350"/>
 <rect x="239" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
@@ -533,9 +533,9 @@
 <rect class="area" x="1253" y="176" width="13" height="255"/>
 <rect class="area" x="1266" y="166" width="13" height="265"/>
 <rect class="area" x="1279" y="221" width="13" height="210"/>
-<path class="line" d="M187 106h13" stroke-dasharray="3 2"/>
+<path class="line" d="M187 106h13"/>
 <path class="line" d="M200 106V126"/>
-<path class="line" d="M200 126h13" stroke-dasharray="3 2"/>
+<path class="line" d="M200 126h13"/>
 <path class="line" d="M213 126V76"/>
 <path class="line" d="M213 76h13" stroke-dasharray="3 2"/>
 <path class="line" d="M226 76V81"/>

@@ -69,7 +69,14 @@ DIVISIONS = {
 }
 REGIONS = {
     "צפון": "North",
+    "הצפון": "North",
     "דרום": "South",
+    "הדרום": "South",
+    "השומרון": "Samaria",
+    "השרון": "Sharon",
+    "שרון": "Sharon",
+    "תל אביב": "Tel Aviv",
+    "ירושלים והדרום": "Jerusalem & South",
     "שומרון": "Samaria",
     "חיפה": "Haifa",
     "חיפה (צפון)": "Haifa",
@@ -89,7 +96,7 @@ def division_of(heading: str) -> str:
     heading = heading.strip()
     if heading in DIVISIONS:
         return DIVISIONS[heading]
-    if m := re.fullmatch(r"מחוז\s+(.+?)(?:\s+([אב]'?))?", heading):
+    if m := re.fullmatch(r"(?:מחוז|בית)\s+(.+?)(?:\s+([אב]'?))?", heading):
         region, letter = m.group(1).strip(), m.group(2)
         if region not in REGIONS:
             raise SystemExit(f"unknown district heading: {heading!r}")
@@ -117,6 +124,8 @@ def club_key(cell: str) -> str | None:
         return PARENTHETICAL.sub("", m.group(1).strip())
     text = re.sub(r"\{\{[^}]*\}\}", "", cell)        # flags, notes
     text = re.sub(r"^[^|]*=[^|]*\|", "", text)       # cell attributes
+    if "|" in text:   # a wikilink whose brackets are missing in the source
+        text = text.rsplit("|", 1)[1]
     text = PARENTHETICAL.sub("", text.replace("'''", "").strip())
     return text or None
 

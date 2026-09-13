@@ -38,6 +38,10 @@ season,season_start,league,division,position,club
 1937,1937,Eretz Israel League,,3,Hakoah Tel Aviv
 1937,1937,Eretz Israel League,,4,Hapoel Haifa
 1937,1937,Eretz Israel League,,5,Maccabi Petah Tikva
+1937,1937,Liga Bet,,1,Hapoel Ironi Herzliya
+1937,1937,Liga Bet,,2,Beitar Tel Aviv
+1937,1937,Liga Bet,,3,Maccabi Haifa
+1937,1937,Liga Bet,,5,Maccabi Hadera
 1937,1937,Liga Bet,North,1,Hapoel Ironi Herzliya
 1937,1937,Liga Bet,North,2,Beitar Tel Aviv
 1937,1937,Liga Bet,North,3,Maccabi Haifa
@@ -57,6 +61,12 @@ season,season_start,league,division,position,club
 1938,1938,Eretz Israel League,Tel Aviv League,2,Maccabi Tel Aviv
 1938,1938,Eretz Israel League,Tel Aviv League,3,Maccabi Petah Tikva
 1938,1938,Eretz Israel League,Tel Aviv League,4,Hakoah Tel Aviv
+1938,1938,Liga Bet,,1,Degel Zion Tel Aviv
+1938,1938,Liga Bet,,2,Beitar Tel Aviv
+1938,1938,Liga Bet,,3,Maccabi Gedera
+1938,1938,Liga Bet,,4,Hakoah Ramat Gan
+1938,1938,Liga Bet,,5,Maccabi Rehovot
+1938,1938,Liga Bet,,6,Hapoel Rishon LeZion
 1938,1938,Liga Bet,South,1,Degel Zion Tel Aviv
 1938,1938,Liga Bet,South,2,Beitar Tel Aviv
 1938,1938,Liga Bet,South,3,Maccabi Gedera
@@ -160,6 +170,7 @@ season,season_start,league,division,position,club
 1940,1940,Eretz Israel League,Tel Aviv,7,Maccabi Petah Tikva
 1940,1940,Eretz Israel League,Tel Aviv,8,Hapoel Ironi Herzliya
 1940,1940,Liga Bet,Samaria,1,Degel Zion Tel Aviv
+1940,1940,Liga Bet,Samaria,2,Egged
 1940,1940,Liga Bet,Samaria,2,Egged Tel Aviv
 1940,1940,Liga Bet,Samaria,3,Hapoel Ramat Gan
 1940,1940,Liga Bet,Samaria,4,Hapoel Petah Tikva
@@ -168,6 +179,7 @@ season,season_start,league,division,position,club
 1940,1940,Liga Bet,Samaria,7,Maccabi Netanya
 1940,1940,Liga Bet,Samaria,8,Hapoel Netanya
 1940,1940,Liga Bet,Samaria,9,Beitar Netanya
+1940,1940,Liga Bet,Samaria,10,Hakoah Ramat Gan
 1940,1940,Liga Bet,Samaria,10,Maccabi Ramat Gan
 1940,1940,Liga Bet,South,1,Royal Scots Greys
 1940,1940,Liga Bet,South,2,Hapoel Rishon LeZion
@@ -175,6 +187,7 @@ season,season_start,league,division,position,club
 1940,1940,Liga Bet,South,4,Maccabi Rishon LeZion
 1940,1940,Liga Bet,South,5,HaTehiya Tel Aviv
 1940,1940,Liga Bet,South,6,Hapoel Rehovot
+1940,1940,Liga Bet,South,7,HaGa Tel Aviv
 1940,1940,Liga Bet,South,7,Hegge Tel Aviv
 1940,1940,Liga Bet,South,8,Maccabi Gedera
 1941/1942,1941,Eretz Israel League,,1,Maccabi Tel Aviv
@@ -238,9 +251,11 @@ season,season_start,league,division,position,club
 1941/1942,1941,Liga Bet,South,1,Hapoel Rehovot
 1941/1942,1941,Liga Bet,South,2,Bnei Yehuda Tel Aviv
 1941/1942,1941,Liga Bet,South,3,Mr. Barker XI
+1941/1942,1941,Liga Bet,South,4,Hakoah Ramat Gan
 1941/1942,1941,Liga Bet,South,4,Maccabi Ramat Gan
 1941/1942,1941,Liga Bet,South,5,Fire Brigade Rehovot
 1941/1942,1941,Liga Bet,South,6,Hapoel HaNoar HaOved
+1941/1942,1941,Liga Bet,South,7,Egged
 1941/1942,1941,Liga Bet,South,7,Egged Tel Aviv
 1943/1944,1943,Eretz Israel League,,1,Hapoel Tel Aviv
 1943/1944,1943,Eretz Israel League,,2,Maccabi Rehovot
@@ -256,12 +271,14 @@ season,season_start,league,division,position,club
 1943/1944,1943,Eretz Israel League,,12,Hakoah Tel Aviv
 1943/1944,1943,Eretz Israel League,,13,Maccabi Petah Tikva
 1943/1944,1943,Eretz Israel League,,14,Hapoel Ironi Herzliya
+1943/1944,1943,Liga Bet,,1,Hapoel Ramat Gan
 1943/1944,1943,Liga Bet,,1,Hapoel Itzhar Ramat Gan
 1943/1944,1943,Liga Bet,,2,Beitar Petah Tikva
 1943/1944,1943,Liga Bet,,3,Maccabi Tel Aviv
 1943/1944,1943,Liga Bet,,4,Beitar Netanya
 1943/1944,1943,Liga Bet,,5,Hapoel Tel Aviv
 1943/1944,1943,Liga Bet,,6,Maccabi Ramat Gan
+1943/1944,1943,Liga Bet,,7,Beitar Harari Tel Aviv
 1943/1944,1943,Liga Bet,,7,Harari Tel Aviv
 1943/1944,1943,Liga Bet,,8,Beitar Ramat Gan
 1943/1944,1943,Liga Bet,,9,Maccabi Petah Tikva
@@ -269,6 +286,7 @@ season,season_start,league,division,position,club
 1943/1944,1943,Liga Bet,,11,Maccabi Rehovot
 1943/1944,1943,Liga Bet,,12,Beitar Rishon LeZion
 1943/1944,1943,Liga Bet,,13,Hapoel Netanya
+1943/1944,1943,Liga Bet,,14,Egged
 1943/1944,1943,Liga Bet,,14,Egged Tel Aviv
 1944/1945,1944,Eretz Israel League,North,1,Hapoel Tel Aviv
 1944/1945,1944,Eretz Israel League,North,2,Hapoel Ramat Gan
@@ -319,18 +337,24 @@ season,season_start,league,division,position,club
 1946/1947,1946,Liga Bet,North,2,Hapoel Netanya
 1946/1947,1946,Liga Bet,North,3,Hapoel Hadera
 1946/1947,1946,Liga Bet,North,4,Maccabi Zichron Ya'akov
+1946/1947,1946,Liga Bet,North,5,Hapoel Balfuria
 1946/1947,1946,Liga Bet,North,5,Hapoel Balfouria
+1946/1947,1946,Liga Bet,North,6,M.S. Atlit
 1946/1947,1946,Liga Bet,North,6,Sport Club Atlit
+1946/1947,1946,Liga Bet,North,7,Beitar Netanya
 1946/1947,1946,Liga Bet,North,7,Beitar Nes Tubruk
 1946/1947,1946,Liga Bet,North,8,Hapoel Kiryat Haim
 1946/1947,1946,Liga Bet,North,9,Maccabi Hadera
 1946/1947,1946,Liga Bet,North,10,Hapoel Kiryat Ata
+1946/1947,1946,Liga Bet,North,11,Hakoah Haifa
 1946/1947,1946,Liga Bet,North,11,Hakoah 09 Haifa
 1946/1947,1946,Liga Bet,North,12,Degel Yehuda Haifa
 1946/1947,1946,Liga Bet,North,13,Brit Poalei Eretz Yisrael Haifa
 1946/1947,1946,Liga Bet,South,1,Hapoel HaTzafon Tel Aviv
+1946/1947,1946,Liga Bet,South,2,Hakoah Ramat Gan
 1946/1947,1946,Liga Bet,South,2,Hakoah Tel Aviv
 1946/1947,1946,Liga Bet,South,3,Hapoel Kfar Saba
+1946/1947,1946,Liga Bet,South,4,Hakoah Ramat Gan
 1946/1947,1946,Liga Bet,South,4,Maccabi Ramat Gan
 1946/1947,1946,Liga Bet,South,5,Maccabi HaTzafon Tel Aviv
 1946/1947,1946,Liga Bet,South,6,Maccabi Gedera
@@ -350,6 +374,40 @@ season,season_start,league,division,position,club
 1949/1950,1949,Israeli League,,11,Hapoel Rishon LeZion
 1949/1950,1949,Israeli League,,12,Maccabi Rishon LeZion
 1949/1950,1949,Israeli League,,13,Maccabi Nes Ziona
+1949/1950,1949,Liga Meuhedet,Jerusalem & South,1,Hapoel Jerusalem
+1949/1950,1949,Liga Meuhedet,Jerusalem & South,2,Hapoel Rehovot
+1949/1950,1949,Liga Meuhedet,Jerusalem & South,3,Maccabi Sha'arayim
+1949/1950,1949,Liga Meuhedet,Jerusalem & South,4,Maccabi Jerusalem
+1949/1950,1949,Liga Meuhedet,Jerusalem & South,5,Beitar Jerusalem
+1949/1950,1949,Liga Meuhedet,Jerusalem & South,6,Hapoel Lod
+1949/1950,1949,Liga Meuhedet,Jerusalem & South,7,Hapoel Ramla
+1949/1950,1949,Liga Meuhedet,North,1,Hapoel Kiryat Haim
+1949/1950,1949,Liga Meuhedet,North,2,Hakoah Haifa
+1949/1950,1949,Liga Meuhedet,North,3,Hapoel Kiryat Ata
+1949/1950,1949,Liga Meuhedet,North,4,Hapoel Dror Haifa
+1949/1950,1949,Liga Meuhedet,North,5,Hapoel Acre
+1949/1950,1949,Liga Meuhedet,North,7,Hapoel Balfuria
+1949/1950,1949,Liga Meuhedet,Samaria,1,Hapoel Hadera
+1949/1950,1949,Liga Meuhedet,Samaria,3,Maccabi Zichron Ya'akov
+1949/1950,1949,Liga Meuhedet,Samaria,4,Hapoel Givat Haim
+1949/1950,1949,Liga Meuhedet,Samaria,5,M.S. Atlit
+1949/1950,1949,Liga Meuhedet,Samaria,6,Hapoel Zichron Ya'akov
+1949/1950,1949,Liga Meuhedet,Samaria,7,Ahva Notzrit Haifa
+1949/1950,1949,Liga Meuhedet,Samaria,8,Degel Yehuda Haifa
+1949/1950,1949,Liga Meuhedet,Samaria,9,Hapoel Netanya
+1949/1950,1949,Liga Meuhedet,Sharon,1,Maccabi Ramat Gan
+1949/1950,1949,Liga Meuhedet,Sharon,2,Hapoel Ironi Herzliya
+1949/1950,1949,Liga Meuhedet,Sharon,3,Hapoel Ra'anana
+1949/1950,1949,Liga Meuhedet,Sharon,4,Hapoel Kfar Saba
+1949/1950,1949,Liga Meuhedet,Sharon,6,Beitar Ramat Gan
+1949/1950,1949,Liga Meuhedet,Sharon,9,Hapoel Yehud
+1949/1950,1949,Liga Meuhedet,Tel Aviv,1,Bnei Yehuda Tel Aviv
+1949/1950,1949,Liga Meuhedet,Tel Aviv,3,Maccabi Jaffa
+1949/1950,1949,Liga Meuhedet,Tel Aviv,4,Shimshon Tel Aviv
+1949/1950,1949,Liga Meuhedet,Tel Aviv,5,Hapoel Holon
+1949/1950,1949,Liga Meuhedet,Tel Aviv,6,Hakoah Tel Aviv
+1949/1950,1949,Liga Meuhedet,Tel Aviv,7,Degel Zion Tel Aviv
+1949/1950,1949,Liga Meuhedet,Tel Aviv,8,Beitar Jaffa
 1951/1952,1951,Liga Alef,,1,Maccabi Tel Aviv
 1951/1952,1951,Liga Alef,,2,Maccabi Petah Tikva
 1951/1952,1951,Liga Alef,,3,Hapoel Haifa
@@ -362,6 +420,7 @@ season,season_start,league,division,position,club
 1951/1952,1951,Liga Alef,,10,Maccabi Haifa
 1951/1952,1951,Liga Alef,,11,Hapoel Rishon LeZion
 1951/1952,1951,Liga Alef,,12,Maccabi Rishon LeZion
+1951/1952,1951,Liga Bet,North,1,Hapoel Balfuria
 1951/1952,1951,Liga Bet,North,1,Hapoel Balfouria
 1951/1952,1951,Liga Bet,North,2,Hapoel Hadera
 1951/1952,1951,Liga Bet,North,3,Hakoah Haifa
@@ -370,6 +429,7 @@ season,season_start,league,division,position,club
 1951/1952,1951,Liga Bet,North,6,Hapoel HaNamal Haifa
 1951/1952,1951,Liga Bet,North,7,Maccabi Zichron Ya'akov
 1951/1952,1951,Liga Bet,North,8,Degel Yehuda Haifa
+1951/1952,1951,Liga Bet,North,9,M.S. Atlit
 1951/1952,1951,Liga Bet,North,9,Sport Club Atlit
 1951/1952,1951,Liga Bet,North,10,Maccabi Hadera
 1951/1952,1951,Liga Bet,North,11,Hapoel Dror Haifa
@@ -403,6 +463,7 @@ season,season_start,league,division,position,club
 1953/1954,1953,Liga Alef,,12,Hapoel Balfouria
 1953/1954,1953,Liga Bet,North,1,Hapoel Hadera
 1953/1954,1953,Liga Bet,North,2,Hapoel Kiryat Haim
+1953/1954,1953,Liga Bet,North,3,M.S. Atlit
 1953/1954,1953,Liga Bet,North,3,Sport Club Atlit
 1953/1954,1953,Liga Bet,North,4,Ahva Notzrit Haifa
 1953/1954,1953,Liga Bet,North,5,Hapoel Nahariya
@@ -433,6 +494,7 @@ season,season_start,league,division,position,club
 1954/1955,1954,Liga Bet,North,5,Hapoel Beit Lid
 1954/1955,1954,Liga Bet,North,6,Hakoah Haifa
 1954/1955,1954,Liga Bet,North,7,Hapoel Acre
+1954/1955,1954,Liga Bet,North,8,M.S. Atlit
 1954/1955,1954,Liga Bet,North,8,Sport Club Atlit
 1954/1955,1954,Liga Bet,North,9,Maccabi Hadera
 1954/1955,1954,Liga Bet,North,10,Maccabi Zichron Ya'akov

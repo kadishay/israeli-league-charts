@@ -73,8 +73,8 @@
 <rect x="343" y="146" width="13" height="80" fill="var(--band2)"/>
 <rect x="343" y="226" width="13" height="205" fill="var(--band3)"/>
 <rect x="356" y="76" width="13" height="65" fill="var(--band1)"/>
-<rect x="356" y="141" width="13" height="80" fill="var(--band2)"/>
-<rect x="356" y="221" width="13" height="210" fill="var(--band3)"/>
+<rect x="356" y="141" width="13" height="45" fill="var(--band2)"/>
+<rect x="356" y="186" width="13" height="245" fill="var(--band3)"/>
 <rect x="369" y="76" width="13" height="70" fill="var(--band1)"/>
 <rect x="369" y="146" width="13" height="80" fill="var(--band2)"/>
 <rect x="369" y="226" width="13" height="205" fill="var(--band3)"/>
@@ -448,13 +448,31 @@
 <rect x="96" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="109" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="135" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect class="area" x="200" y="136" width="13" height="295"/>
+<rect x="213" y="216" width="13" height="215" fill="url(#uncovered)"/>
+<rect class="area" x="226" y="161" width="13" height="270" fill-opacity=".07"/>
 <rect x="239" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect class="area" x="252" y="161" width="13" height="270" fill-opacity=".07"/>
 <rect x="265" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect x="278" y="216" width="13" height="215" fill="url(#uncovered)"/>
+<rect x="291" y="196" width="13" height="235" fill="url(#uncovered)"/>
 <rect x="304" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect class="area" x="317" y="156" width="13" height="275" fill-opacity=".07"/>
 <rect x="330" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="343" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect x="356" y="186" width="13" height="245" fill="url(#uncovered)"/>
 <rect x="369" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect x="382" y="286" width="13" height="145" fill="url(#uncovered)"/>
 <rect x="395" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect x="408" y="286" width="13" height="145" fill="url(#uncovered)"/>
+<rect x="421" y="356" width="13" height="75" fill="url(#uncovered)"/>
+<rect x="434" y="306" width="13" height="125" fill="url(#uncovered)"/>
+<rect x="447" y="331" width="13" height="100" fill="url(#uncovered)"/>
+<rect x="460" y="336" width="13" height="95" fill="url(#uncovered)"/>
+<rect x="473" y="336" width="13" height="95" fill="url(#uncovered)"/>
+<rect x="486" y="366" width="13" height="65" fill="url(#uncovered)"/>
+<rect x="499" y="366" width="13" height="65" fill="url(#uncovered)"/>
+<rect x="512" y="366" width="13" height="65" fill="url(#uncovered)"/>
 <rect class="area" x="525" y="121" width="13" height="310"/>
 <rect class="area" x="538" y="111" width="13" height="320"/>
 <rect class="area" x="551" y="76" width="13" height="355"/>
@@ -513,6 +531,10 @@
 <rect class="area" x="1240" y="231" width="13" height="200" fill-opacity=".07"/>
 <rect x="1253" y="386" width="13" height="45" fill="url(#uncovered)"/>
 <rect class="area" x="1266" y="266" width="13" height="165" fill-opacity=".07"/>
+<path class="line" d="M200 136h13"/>
+<path class="line" d="M226 161h13" stroke-dasharray="3 2"/>
+<path class="line" d="M252 161h13" stroke-dasharray="3 2"/>
+<path class="line" d="M317 156h13" stroke-dasharray="3 2"/>
 <path class="line" d="M525 121h13"/>
 <path class="line" d="M538 121V111"/>
 <path class="line" d="M538 111h13"/>
