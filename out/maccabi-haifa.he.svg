@@ -462,7 +462,7 @@
 <rect x="278" y="216" width="13" height="215" fill="url(#uncovered)"/>
 <rect x="291" y="196" width="13" height="235" fill="url(#uncovered)"/>
 <rect x="304" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
-<rect class="area" x="317" y="151" width="13" height="280" fill-opacity=".07"/>
+<rect class="area" x="317" y="151" width="13" height="280"/>
 <rect x="330" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="343" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect class="area" x="356" y="106" width="13" height="325"/>
@@ -481,7 +481,7 @@
 <rect class="area" x="525" y="116" width="13" height="315"/>
 <rect class="area" x="538" y="136" width="13" height="295"/>
 <rect class="area" x="551" y="146" width="13" height="285"/>
-<rect class="area" x="564" y="156" width="13" height="275" fill-opacity=".07"/>
+<rect class="area" x="564" y="156" width="13" height="275"/>
 <rect class="area" x="577" y="96" width="13" height="335"/>
 <rect class="area" x="590" y="96" width="13" height="335"/>
 <rect class="area" x="603" y="86" width="13" height="345"/>
@@ -489,7 +489,7 @@
 <rect class="area" x="629" y="106" width="13" height="325"/>
 <rect class="area" x="642" y="126" width="13" height="305"/>
 <rect class="area" x="655" y="151" width="13" height="280"/>
-<rect class="area" x="668" y="156" width="13" height="275" fill-opacity=".07"/>
+<rect class="area" x="668" y="156" width="13" height="275"/>
 <rect class="area" x="681" y="116" width="13" height="315"/>
 <rect class="area" x="694" y="146" width="13" height="285"/>
 <rect class="area" x="707" y="171" width="13" height="260"/>
@@ -544,7 +544,7 @@
 <path class="line" d="M122 106h13"/>
 <path class="line" d="M148 116h13"/>
 <path class="line" d="M187 111h13"/>
-<path class="line" d="M317 151h13" stroke-dasharray="3 2"/>
+<path class="line" d="M317 151h13"/>
 <path class="line" d="M356 106h13"/>
 <path class="line" d="M382 121h13"/>
 <path class="line" d="M408 111h13"/>
@@ -569,7 +569,7 @@
 <path class="line" d="M551 136V146"/>
 <path class="line" d="M551 146h13"/>
 <path class="line" d="M564 146V156"/>
-<path class="line" d="M564 156h13" stroke-dasharray="3 2"/>
+<path class="line" d="M564 156h13"/>
 <path class="line" d="M577 156V96"/>
 <path class="line" d="M577 96h13"/>
 <path class="line" d="M590 96h13"/>
@@ -584,7 +584,7 @@
 <path class="line" d="M655 126V151"/>
 <path class="line" d="M655 151h13"/>
 <path class="line" d="M668 151V156"/>
-<path class="line" d="M668 156h13" stroke-dasharray="3 2"/>
+<path class="line" d="M668 156h13"/>
 <path class="line" d="M681 156V116"/>
 <path class="line" d="M681 116h13"/>
 <path class="line" d="M694 116V146"/>
@@ -724,12 +724,10 @@
 <text class="ink3" x="1344" y="33" text-anchor="start" font-size="9.5" direction="rtl" letter-spacing=".08em">מיקום בליגה לפי עונה</text>
 <path class="line" d="M96 471.5h16"/><rect class="area" x="96" y="471.5" width="16" height="8"/>
 <text class="ink2" x="118" y="475" text-anchor="end" font-size="10.5" direction="rtl">מיקום סופי בליגה</text>
-<path class="champ" d="M353.6 467l4 4-4 4-4-4z"/>
-<text class="ink2" x="367.6" y="475" text-anchor="end" font-size="10.5" direction="rtl">אליפות</text>
-<path class="line" d="M595.2 471.5h16" stroke-dasharray="3 2"/>
-<text class="ink2" x="617.2" y="475" text-anchor="end" font-size="10.5" direction="rtl">מיקום בבית אזורי, לא ארצי</text>
-<rect x="844.8000000000001" y="466" width="16" height="11" fill="url(#uncovered)"/>
-<text class="ink2" x="866.8000000000001" y="475" text-anchor="end" font-size="10.5" direction="rtl">לא נרשם מיקום</text>
-<rect x="1094.4" y="466" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
-<text class="ink2" x="1116.4" y="475" text-anchor="end" font-size="10.5" direction="rtl">העונה לא התקיימה</text>
+<path class="champ" d="M416.0 467l4 4-4 4-4-4z"/>
+<text class="ink2" x="430.0" y="475" text-anchor="end" font-size="10.5" direction="rtl">אליפות</text>
+<rect x="720.0" y="466" width="16" height="11" fill="url(#uncovered)"/>
+<text class="ink2" x="742.0" y="475" text-anchor="end" font-size="10.5" direction="rtl">לא נרשם מיקום</text>
+<rect x="1032.0" y="466" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
+<text class="ink2" x="1054.0" y="475" text-anchor="end" font-size="10.5" direction="rtl">העונה לא התקיימה</text>
 </svg>

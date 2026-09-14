@@ -455,22 +455,22 @@
 <rect x="351" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="377" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="403" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
-<rect class="area" x="429" y="316" width="13" height="115" fill-opacity=".07"/>
-<rect class="area" x="442" y="256" width="13" height="175" fill-opacity=".07"/>
-<rect class="area" x="455" y="216" width="13" height="215" fill-opacity=".07"/>
-<rect class="area" x="468" y="201" width="13" height="230" fill-opacity=".07"/>
-<rect class="area" x="481" y="201" width="13" height="230" fill-opacity=".07"/>
+<rect class="area" x="429" y="316" width="13" height="115"/>
+<rect class="area" x="442" y="256" width="13" height="175"/>
+<rect class="area" x="455" y="216" width="13" height="215"/>
+<rect class="area" x="468" y="201" width="13" height="230"/>
+<rect class="area" x="481" y="201" width="13" height="230"/>
 <rect class="area" x="494" y="176" width="13" height="255"/>
 <rect class="area" x="507" y="176" width="13" height="255"/>
 <rect class="area" x="520" y="171" width="13" height="260"/>
 <rect class="area" x="533" y="161" width="13" height="270"/>
-<rect class="area" x="546" y="156" width="13" height="275" fill-opacity=".07"/>
-<rect class="area" x="559" y="156" width="13" height="275" fill-opacity=".07"/>
+<rect class="area" x="546" y="156" width="13" height="275"/>
+<rect class="area" x="559" y="156" width="13" height="275"/>
 <rect class="area" x="572" y="136" width="13" height="295"/>
 <rect class="area" x="585" y="116" width="13" height="315"/>
 <rect class="area" x="598" y="141" width="13" height="290"/>
 <rect class="area" x="611" y="151" width="13" height="280"/>
-<rect class="area" x="624" y="156" width="13" height="275" fill-opacity=".07"/>
+<rect class="area" x="624" y="156" width="13" height="275"/>
 <rect class="area" x="637" y="131" width="13" height="300"/>
 <rect class="area" x="650" y="96" width="13" height="335"/>
 <rect class="area" x="663" y="106" width="13" height="325"/>
@@ -526,14 +526,14 @@
 <rect class="area" x="1313" y="86" width="13" height="345"/>
 <rect class="area" x="1326" y="81" width="13" height="350"/>
 <rect class="area" x="1339" y="76" width="13" height="355"/>
-<path class="line" d="M429 316h13" stroke-dasharray="3 2"/>
+<path class="line" d="M429 316h13"/>
 <path class="line" d="M442 316V256"/>
-<path class="line" d="M442 256h13" stroke-dasharray="3 2"/>
+<path class="line" d="M442 256h13"/>
 <path class="line" d="M455 256V216"/>
-<path class="line" d="M455 216h13" stroke-dasharray="3 2"/>
+<path class="line" d="M455 216h13"/>
 <path class="line" d="M468 216V201"/>
-<path class="line" d="M468 201h13" stroke-dasharray="3 2"/>
-<path class="line" d="M481 201h13" stroke-dasharray="3 2"/>
+<path class="line" d="M468 201h13"/>
+<path class="line" d="M481 201h13"/>
 <path class="line" d="M494 201V176"/>
 <path class="line" d="M494 176h13"/>
 <path class="line" d="M507 176h13"/>
@@ -542,8 +542,8 @@
 <path class="line" d="M533 171V161"/>
 <path class="line" d="M533 161h13"/>
 <path class="line" d="M546 161V156"/>
-<path class="line" d="M546 156h13" stroke-dasharray="3 2"/>
-<path class="line" d="M559 156h13" stroke-dasharray="3 2"/>
+<path class="line" d="M546 156h13"/>
+<path class="line" d="M559 156h13"/>
 <path class="line" d="M572 156V136"/>
 <path class="line" d="M572 136h13"/>
 <path class="line" d="M585 136V116"/>
@@ -553,7 +553,7 @@
 <path class="line" d="M611 141V151"/>
 <path class="line" d="M611 151h13"/>
 <path class="line" d="M624 151V156"/>
-<path class="line" d="M624 156h13" stroke-dasharray="3 2"/>
+<path class="line" d="M624 156h13"/>
 <path class="line" d="M637 156V131"/>
 <path class="line" d="M637 131h13"/>
 <path class="line" d="M650 131V96"/>
@@ -693,12 +693,10 @@
 <text class="ink3" x="1352" y="33" text-anchor="end" font-size="9.5" letter-spacing=".08em">LEAGUE POSITION BY SEASON</text>
 <path class="line" d="M104 471.5h16"/><rect class="area" x="104" y="471.5" width="16" height="8"/>
 <text class="ink2" x="126" y="475" text-anchor="start" font-size="10.5">Final league position</text>
-<path class="champ" d="M361.6 467l4 4-4 4-4-4z"/>
-<text class="ink2" x="375.6" y="475" text-anchor="start" font-size="10.5">Champions</text>
-<path class="line" d="M603.2 471.5h16" stroke-dasharray="3 2"/>
-<text class="ink2" x="625.2" y="475" text-anchor="start" font-size="10.5">Rank in a regional group, not national</text>
-<rect x="852.8000000000001" y="466" width="16" height="11" fill="url(#uncovered)"/>
-<text class="ink2" x="874.8000000000001" y="475" text-anchor="start" font-size="10.5">No position recorded</text>
-<rect x="1102.4" y="466" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
-<text class="ink2" x="1124.4" y="475" text-anchor="start" font-size="10.5">Season not played</text>
+<path class="champ" d="M424.0 467l4 4-4 4-4-4z"/>
+<text class="ink2" x="438.0" y="475" text-anchor="start" font-size="10.5">Champions</text>
+<rect x="728.0" y="466" width="16" height="11" fill="url(#uncovered)"/>
+<text class="ink2" x="750.0" y="475" text-anchor="start" font-size="10.5">No position recorded</text>
+<rect x="1040.0" y="466" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
+<text class="ink2" x="1062.0" y="475" text-anchor="start" font-size="10.5">Season not played</text>
 </svg>

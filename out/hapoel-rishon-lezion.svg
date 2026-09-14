@@ -449,13 +449,13 @@
 <rect x="117" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="143" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect class="area" x="208" y="146" width="13" height="285"/>
-<rect class="area" x="221" y="81" width="13" height="350" fill-opacity=".07"/>
-<rect class="area" x="234" y="121" width="13" height="310" fill-opacity=".07"/>
+<rect class="area" x="221" y="81" width="13" height="350"/>
+<rect class="area" x="234" y="121" width="13" height="310"/>
 <rect x="247" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
-<rect class="area" x="260" y="131" width="13" height="300" fill-opacity=".07"/>
+<rect class="area" x="260" y="131" width="13" height="300"/>
 <rect x="273" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect class="area" x="286" y="126" width="13" height="305"/>
-<rect class="area" x="299" y="101" width="13" height="330" fill-opacity=".07"/>
+<rect class="area" x="299" y="101" width="13" height="330"/>
 <rect x="312" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect class="area" x="325" y="131" width="13" height="300"/>
 <rect x="338" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
@@ -464,28 +464,28 @@
 <rect x="377" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect class="area" x="390" y="126" width="13" height="305"/>
 <rect x="403" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
-<rect class="area" x="416" y="156" width="13" height="275" fill-opacity=".07"/>
-<rect class="area" x="429" y="271" width="13" height="160" fill-opacity=".07"/>
-<rect class="area" x="442" y="211" width="13" height="220" fill-opacity=".07"/>
-<rect class="area" x="455" y="196" width="13" height="235" fill-opacity=".07"/>
-<rect class="area" x="468" y="216" width="13" height="215" fill-opacity=".07"/>
-<rect class="area" x="481" y="231" width="13" height="200" fill-opacity=".07"/>
-<rect class="area" x="494" y="216" width="13" height="215" fill-opacity=".07"/>
-<rect class="area" x="507" y="226" width="13" height="205" fill-opacity=".07"/>
-<rect class="area" x="520" y="216" width="13" height="215" fill-opacity=".07"/>
-<rect class="area" x="533" y="231" width="13" height="200" fill-opacity=".07"/>
-<rect class="area" x="546" y="216" width="13" height="215" fill-opacity=".07"/>
-<rect class="area" x="559" y="236" width="13" height="195" fill-opacity=".07"/>
-<rect class="area" x="572" y="181" width="13" height="250" fill-opacity=".07"/>
-<rect class="area" x="585" y="196" width="13" height="235" fill-opacity=".07"/>
-<rect class="area" x="598" y="176" width="13" height="255" fill-opacity=".07"/>
-<rect class="area" x="611" y="171" width="13" height="260" fill-opacity=".07"/>
-<rect class="area" x="624" y="191" width="13" height="240" fill-opacity=".07"/>
-<rect class="area" x="637" y="191" width="13" height="240" fill-opacity=".07"/>
-<rect class="area" x="650" y="186" width="13" height="245" fill-opacity=".07"/>
-<rect class="area" x="663" y="176" width="13" height="255" fill-opacity=".07"/>
-<rect class="area" x="676" y="166" width="13" height="265" fill-opacity=".07"/>
-<rect class="area" x="689" y="181" width="13" height="250" fill-opacity=".07"/>
+<rect class="area" x="416" y="156" width="13" height="275"/>
+<rect class="area" x="429" y="271" width="13" height="160"/>
+<rect class="area" x="442" y="211" width="13" height="220"/>
+<rect class="area" x="455" y="196" width="13" height="235"/>
+<rect class="area" x="468" y="216" width="13" height="215"/>
+<rect class="area" x="481" y="231" width="13" height="200"/>
+<rect class="area" x="494" y="216" width="13" height="215"/>
+<rect class="area" x="507" y="226" width="13" height="205"/>
+<rect class="area" x="520" y="216" width="13" height="215"/>
+<rect class="area" x="533" y="231" width="13" height="200"/>
+<rect class="area" x="546" y="216" width="13" height="215"/>
+<rect class="area" x="559" y="236" width="13" height="195"/>
+<rect class="area" x="572" y="181" width="13" height="250"/>
+<rect class="area" x="585" y="196" width="13" height="235"/>
+<rect class="area" x="598" y="176" width="13" height="255"/>
+<rect class="area" x="611" y="171" width="13" height="260"/>
+<rect class="area" x="624" y="191" width="13" height="240"/>
+<rect class="area" x="637" y="191" width="13" height="240"/>
+<rect class="area" x="650" y="186" width="13" height="245"/>
+<rect class="area" x="663" y="176" width="13" height="255"/>
+<rect class="area" x="676" y="166" width="13" height="265"/>
+<rect class="area" x="689" y="181" width="13" height="250"/>
 <rect class="area" x="702" y="191" width="13" height="240"/>
 <rect class="area" x="715" y="161" width="13" height="270"/>
 <rect class="area" x="728" y="151" width="13" height="280"/>
@@ -495,14 +495,14 @@
 <rect class="area" x="780" y="176" width="13" height="255"/>
 <rect class="area" x="793" y="171" width="13" height="260"/>
 <rect class="area" x="806" y="226" width="13" height="205"/>
-<rect class="area" x="819" y="241" width="13" height="190" fill-opacity=".07"/>
-<rect class="area" x="832" y="256" width="13" height="175" fill-opacity=".07"/>
-<rect class="area" x="845" y="221" width="13" height="210" fill-opacity=".07"/>
-<rect class="area" x="858" y="216" width="13" height="215" fill-opacity=".07"/>
+<rect class="area" x="819" y="241" width="13" height="190"/>
+<rect class="area" x="832" y="256" width="13" height="175"/>
+<rect class="area" x="845" y="221" width="13" height="210"/>
+<rect class="area" x="858" y="216" width="13" height="215"/>
 <rect class="area" x="871" y="206" width="13" height="225"/>
-<rect class="area" x="884" y="271" width="13" height="160" fill-opacity=".07"/>
-<rect class="area" x="897" y="226" width="13" height="205" fill-opacity=".07"/>
-<rect class="area" x="910" y="216" width="13" height="215" fill-opacity=".07"/>
+<rect class="area" x="884" y="271" width="13" height="160"/>
+<rect class="area" x="897" y="226" width="13" height="205"/>
+<rect class="area" x="910" y="216" width="13" height="215"/>
 <rect class="area" x="923" y="146" width="13" height="285"/>
 <rect class="area" x="936" y="116" width="13" height="315"/>
 <rect class="area" x="949" y="116" width="13" height="315"/>
@@ -538,58 +538,58 @@
 <rect class="area" x="1339" y="181" width="13" height="250"/>
 <path class="line" d="M208 146h13"/>
 <path class="line" d="M221 146V81"/>
-<path class="line" d="M221 81h13" stroke-dasharray="3 2"/>
+<path class="line" d="M221 81h13"/>
 <path class="line" d="M234 81V121"/>
-<path class="line" d="M234 121h13" stroke-dasharray="3 2"/>
-<path class="line" d="M260 131h13" stroke-dasharray="3 2"/>
+<path class="line" d="M234 121h13"/>
+<path class="line" d="M260 131h13"/>
 <path class="line" d="M286 126h13"/>
 <path class="line" d="M299 126V101"/>
-<path class="line" d="M299 101h13" stroke-dasharray="3 2"/>
+<path class="line" d="M299 101h13"/>
 <path class="line" d="M325 131h13"/>
 <path class="line" d="M364 126h13"/>
 <path class="line" d="M390 126h13"/>
-<path class="line" d="M416 156h13" stroke-dasharray="3 2"/>
+<path class="line" d="M416 156h13"/>
 <path class="line" d="M429 156V271"/>
-<path class="line" d="M429 271h13" stroke-dasharray="3 2"/>
+<path class="line" d="M429 271h13"/>
 <path class="line" d="M442 271V211"/>
-<path class="line" d="M442 211h13" stroke-dasharray="3 2"/>
+<path class="line" d="M442 211h13"/>
 <path class="line" d="M455 211V196"/>
-<path class="line" d="M455 196h13" stroke-dasharray="3 2"/>
+<path class="line" d="M455 196h13"/>
 <path class="line" d="M468 196V216"/>
-<path class="line" d="M468 216h13" stroke-dasharray="3 2"/>
+<path class="line" d="M468 216h13"/>
 <path class="line" d="M481 216V231"/>
-<path class="line" d="M481 231h13" stroke-dasharray="3 2"/>
+<path class="line" d="M481 231h13"/>
 <path class="line" d="M494 231V216"/>
-<path class="line" d="M494 216h13" stroke-dasharray="3 2"/>
+<path class="line" d="M494 216h13"/>
 <path class="line" d="M507 216V226"/>
-<path class="line" d="M507 226h13" stroke-dasharray="3 2"/>
+<path class="line" d="M507 226h13"/>
 <path class="line" d="M520 226V216"/>
-<path class="line" d="M520 216h13" stroke-dasharray="3 2"/>
+<path class="line" d="M520 216h13"/>
 <path class="line" d="M533 216V231"/>
-<path class="line" d="M533 231h13" stroke-dasharray="3 2"/>
+<path class="line" d="M533 231h13"/>
 <path class="line" d="M546 231V216"/>
-<path class="line" d="M546 216h13" stroke-dasharray="3 2"/>
+<path class="line" d="M546 216h13"/>
 <path class="line" d="M559 216V236"/>
-<path class="line" d="M559 236h13" stroke-dasharray="3 2"/>
+<path class="line" d="M559 236h13"/>
 <path class="line" d="M572 236V181"/>
-<path class="line" d="M572 181h13" stroke-dasharray="3 2"/>
+<path class="line" d="M572 181h13"/>
 <path class="line" d="M585 181V196"/>
-<path class="line" d="M585 196h13" stroke-dasharray="3 2"/>
+<path class="line" d="M585 196h13"/>
 <path class="line" d="M598 196V176"/>
-<path class="line" d="M598 176h13" stroke-dasharray="3 2"/>
+<path class="line" d="M598 176h13"/>
 <path class="line" d="M611 176V171"/>
-<path class="line" d="M611 171h13" stroke-dasharray="3 2"/>
+<path class="line" d="M611 171h13"/>
 <path class="line" d="M624 171V191"/>
-<path class="line" d="M624 191h13" stroke-dasharray="3 2"/>
-<path class="line" d="M637 191h13" stroke-dasharray="3 2"/>
+<path class="line" d="M624 191h13"/>
+<path class="line" d="M637 191h13"/>
 <path class="line" d="M650 191V186"/>
-<path class="line" d="M650 186h13" stroke-dasharray="3 2"/>
+<path class="line" d="M650 186h13"/>
 <path class="line" d="M663 186V176"/>
-<path class="line" d="M663 176h13" stroke-dasharray="3 2"/>
+<path class="line" d="M663 176h13"/>
 <path class="line" d="M676 176V166"/>
-<path class="line" d="M676 166h13" stroke-dasharray="3 2"/>
+<path class="line" d="M676 166h13"/>
 <path class="line" d="M689 166V181"/>
-<path class="line" d="M689 181h13" stroke-dasharray="3 2"/>
+<path class="line" d="M689 181h13"/>
 <path class="line" d="M702 181V191"/>
 <path class="line" d="M702 191h13"/>
 <path class="line" d="M715 191V161"/>
@@ -609,21 +609,21 @@
 <path class="line" d="M806 171V226"/>
 <path class="line" d="M806 226h13"/>
 <path class="line" d="M819 226V241"/>
-<path class="line" d="M819 241h13" stroke-dasharray="3 2"/>
+<path class="line" d="M819 241h13"/>
 <path class="line" d="M832 241V256"/>
-<path class="line" d="M832 256h13" stroke-dasharray="3 2"/>
+<path class="line" d="M832 256h13"/>
 <path class="line" d="M845 256V221"/>
-<path class="line" d="M845 221h13" stroke-dasharray="3 2"/>
+<path class="line" d="M845 221h13"/>
 <path class="line" d="M858 221V216"/>
-<path class="line" d="M858 216h13" stroke-dasharray="3 2"/>
+<path class="line" d="M858 216h13"/>
 <path class="line" d="M871 216V206"/>
 <path class="line" d="M871 206h13"/>
 <path class="line" d="M884 206V271"/>
-<path class="line" d="M884 271h13" stroke-dasharray="3 2"/>
+<path class="line" d="M884 271h13"/>
 <path class="line" d="M897 271V226"/>
-<path class="line" d="M897 226h13" stroke-dasharray="3 2"/>
+<path class="line" d="M897 226h13"/>
 <path class="line" d="M910 226V216"/>
-<path class="line" d="M910 216h13" stroke-dasharray="3 2"/>
+<path class="line" d="M910 216h13"/>
 <path class="line" d="M923 216V146"/>
 <path class="line" d="M923 146h13"/>
 <path class="line" d="M936 146V116"/>
@@ -718,12 +718,10 @@
 <text class="ink3" x="1352" y="33" text-anchor="end" font-size="9.5" letter-spacing=".08em">LEAGUE POSITION BY SEASON</text>
 <path class="line" d="M104 471.5h16"/><rect class="area" x="104" y="471.5" width="16" height="8"/>
 <text class="ink2" x="126" y="475" text-anchor="start" font-size="10.5">Final league position</text>
-<path class="champ" d="M361.6 467l4 4-4 4-4-4z"/>
-<text class="ink2" x="375.6" y="475" text-anchor="start" font-size="10.5">Champions</text>
-<path class="line" d="M603.2 471.5h16" stroke-dasharray="3 2"/>
-<text class="ink2" x="625.2" y="475" text-anchor="start" font-size="10.5">Rank in a regional group, not national</text>
-<rect x="852.8000000000001" y="466" width="16" height="11" fill="url(#uncovered)"/>
-<text class="ink2" x="874.8000000000001" y="475" text-anchor="start" font-size="10.5">No position recorded</text>
-<rect x="1102.4" y="466" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
-<text class="ink2" x="1124.4" y="475" text-anchor="start" font-size="10.5">Season not played</text>
+<path class="champ" d="M424.0 467l4 4-4 4-4-4z"/>
+<text class="ink2" x="438.0" y="475" text-anchor="start" font-size="10.5">Champions</text>
+<rect x="728.0" y="466" width="16" height="11" fill="url(#uncovered)"/>
+<text class="ink2" x="750.0" y="475" text-anchor="start" font-size="10.5">No position recorded</text>
+<rect x="1040.0" y="466" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
+<text class="ink2" x="1062.0" y="475" text-anchor="start" font-size="10.5">Season not played</text>
 </svg>

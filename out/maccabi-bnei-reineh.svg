@@ -467,16 +467,16 @@
 <rect x="1196" y="386" width="13" height="45" fill="url(#uncovered)"/>
 <rect x="1209" y="386" width="13" height="45" fill="url(#uncovered)"/>
 <rect x="1222" y="386" width="13" height="45" fill="url(#uncovered)"/>
-<rect class="area" x="1235" y="346" width="13" height="85" fill-opacity=".07"/>
+<rect class="area" x="1235" y="346" width="13" height="85"/>
 <rect x="1248" y="386" width="13" height="45" fill="url(#uncovered)"/>
-<rect class="area" x="1274" y="231" width="13" height="200" fill-opacity=".07"/>
+<rect class="area" x="1274" y="231" width="13" height="200"/>
 <rect class="area" x="1287" y="146" width="13" height="285"/>
 <rect class="area" x="1300" y="126" width="13" height="305"/>
 <rect class="area" x="1313" y="96" width="13" height="335"/>
 <rect class="area" x="1326" y="111" width="13" height="320"/>
 <rect class="area" x="1339" y="141" width="13" height="290"/>
-<path class="line" d="M1235 346h13" stroke-dasharray="3 2"/>
-<path class="line" d="M1274 231h13" stroke-dasharray="3 2"/>
+<path class="line" d="M1235 346h13"/>
+<path class="line" d="M1274 231h13"/>
 <path class="line" d="M1287 231V146"/>
 <path class="line" d="M1287 146h13"/>
 <path class="line" d="M1300 146V126"/>
@@ -520,12 +520,10 @@
 <text class="ink3" x="1352" y="33" text-anchor="end" font-size="9.5" letter-spacing=".08em">LEAGUE POSITION BY SEASON</text>
 <path class="line" d="M104 471.5h16"/><rect class="area" x="104" y="471.5" width="16" height="8"/>
 <text class="ink2" x="126" y="475" text-anchor="start" font-size="10.5">Final league position</text>
-<path class="champ" d="M361.6 467l4 4-4 4-4-4z"/>
-<text class="ink2" x="375.6" y="475" text-anchor="start" font-size="10.5">Champions</text>
-<path class="line" d="M603.2 471.5h16" stroke-dasharray="3 2"/>
-<text class="ink2" x="625.2" y="475" text-anchor="start" font-size="10.5">Rank in a regional group, not national</text>
-<rect x="852.8000000000001" y="466" width="16" height="11" fill="url(#uncovered)"/>
-<text class="ink2" x="874.8000000000001" y="475" text-anchor="start" font-size="10.5">No position recorded</text>
-<rect x="1102.4" y="466" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
-<text class="ink2" x="1124.4" y="475" text-anchor="start" font-size="10.5">Season not played</text>
+<path class="champ" d="M424.0 467l4 4-4 4-4-4z"/>
+<text class="ink2" x="438.0" y="475" text-anchor="start" font-size="10.5">Champions</text>
+<rect x="728.0" y="466" width="16" height="11" fill="url(#uncovered)"/>
+<text class="ink2" x="750.0" y="475" text-anchor="start" font-size="10.5">No position recorded</text>
+<rect x="1040.0" y="466" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
+<text class="ink2" x="1062.0" y="475" text-anchor="start" font-size="10.5">Season not played</text>
 </svg>

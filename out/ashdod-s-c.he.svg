@@ -564,12 +564,10 @@
 <text class="ink3" x="1344" y="33" text-anchor="start" font-size="9.5" direction="rtl" letter-spacing=".08em">מיקום בליגה לפי עונה</text>
 <path class="line" d="M96 471.5h16"/><rect class="area" x="96" y="471.5" width="16" height="8"/>
 <text class="ink2" x="118" y="475" text-anchor="end" font-size="10.5" direction="rtl">מיקום סופי בליגה</text>
-<path class="champ" d="M353.6 467l4 4-4 4-4-4z"/>
-<text class="ink2" x="367.6" y="475" text-anchor="end" font-size="10.5" direction="rtl">אליפות</text>
-<path class="line" d="M595.2 471.5h16" stroke-dasharray="3 2"/>
-<text class="ink2" x="617.2" y="475" text-anchor="end" font-size="10.5" direction="rtl">מיקום בבית אזורי, לא ארצי</text>
-<rect x="844.8000000000001" y="466" width="16" height="11" fill="url(#uncovered)"/>
-<text class="ink2" x="866.8000000000001" y="475" text-anchor="end" font-size="10.5" direction="rtl">לא נרשם מיקום</text>
-<rect x="1094.4" y="466" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
-<text class="ink2" x="1116.4" y="475" text-anchor="end" font-size="10.5" direction="rtl">העונה לא התקיימה</text>
+<path class="champ" d="M416.0 467l4 4-4 4-4-4z"/>
+<text class="ink2" x="430.0" y="475" text-anchor="end" font-size="10.5" direction="rtl">אליפות</text>
+<rect x="720.0" y="466" width="16" height="11" fill="url(#uncovered)"/>
+<text class="ink2" x="742.0" y="475" text-anchor="end" font-size="10.5" direction="rtl">לא נרשם מיקום</text>
+<rect x="1032.0" y="466" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
+<text class="ink2" x="1054.0" y="475" text-anchor="end" font-size="10.5" direction="rtl">העונה לא התקיימה</text>
 </svg>

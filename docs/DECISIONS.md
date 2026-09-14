@@ -18,13 +18,19 @@ different depth in 1960 than in 2015.
 
 **Consequence.** Chart bands are labelled `TIER 1 … TIER 4`, never by league name.
 
-A related consequence for the legend: below tier two the league is split into regional
-groups, so a position there is a rank *within its group* and not a national one. Two clubs
-can both finish "1st" in the same tier in the same season — in 1965/66 Maccabi Haifa won
-Liga Alef North and Sektzia Nes Tziona won Liga Alef South. The chart draws those seasons
-with a dashed line: the depth is real, the number is not comparable across the country.
-The legend says "Rank in a regional group, not national" rather than "no national rank",
-which read as jargon.
+Below tier two the league is split into regional groups, so a position there is a rank
+*within its group* and not a national one. Two clubs can both finish "1st" in the same tier
+in the same season — in 1965/66 Maccabi Haifa won Liga Alef North and Sektzia Nes Tziona won
+Liga Alef South.
+
+Those seasons were once drawn with a dashed line to flag it. **That is gone.** The chart is
+read for the *level*, and nobody reads an exact rank within a band at this scale, so the
+dashed line was qualifying information the reader was not using — at the cost of a legend
+row and two paragraphs of explanation. The `division` column stays in the data, and the
+gallery says in one line that positions below tier two are regional ranks.
+
+A useful general test: an encoding has to earn its legend row. If explaining a mark takes
+more space than the mark conveys, drop the mark.
 
 **What would change it.** Nothing. Any schema that stores a tier per league is wrong for
 most of the 20th century.

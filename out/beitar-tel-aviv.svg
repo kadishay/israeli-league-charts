@@ -450,13 +450,13 @@
 <rect x="143" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect class="area" x="195" y="106" width="13" height="325"/>
 <rect class="area" x="208" y="126" width="13" height="305"/>
-<rect class="area" x="221" y="76" width="13" height="355" fill-opacity=".07"/>
+<rect class="area" x="221" y="76" width="13" height="355"/>
 <rect class="area" x="234" y="81" width="13" height="350"/>
 <rect x="247" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
-<rect class="area" x="260" y="106" width="13" height="325" fill-opacity=".07"/>
+<rect class="area" x="260" y="106" width="13" height="325"/>
 <rect x="273" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect class="area" x="286" y="111" width="13" height="320"/>
-<rect class="area" x="299" y="76" width="13" height="355" fill-opacity=".07"/>
+<rect class="area" x="299" y="76" width="13" height="355"/>
 <rect x="312" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect class="area" x="325" y="81" width="13" height="350"/>
 <rect x="338" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
@@ -475,11 +475,11 @@
 <rect class="area" x="507" y="131" width="13" height="300"/>
 <rect class="area" x="520" y="151" width="13" height="280"/>
 <rect class="area" x="533" y="186" width="13" height="245"/>
-<rect class="area" x="546" y="151" width="13" height="280" fill-opacity=".07"/>
+<rect class="area" x="546" y="151" width="13" height="280"/>
 <rect class="area" x="559" y="141" width="13" height="290"/>
 <rect class="area" x="572" y="151" width="13" height="280"/>
-<rect class="area" x="585" y="171" width="13" height="260" fill-opacity=".07"/>
-<rect class="area" x="598" y="156" width="13" height="275" fill-opacity=".07"/>
+<rect class="area" x="585" y="171" width="13" height="260"/>
+<rect class="area" x="598" y="156" width="13" height="275"/>
 <rect class="area" x="611" y="116" width="13" height="315"/>
 <rect class="area" x="624" y="96" width="13" height="335"/>
 <rect class="area" x="637" y="121" width="13" height="310"/>
@@ -537,13 +537,13 @@
 <path class="line" d="M208 106V126"/>
 <path class="line" d="M208 126h13"/>
 <path class="line" d="M221 126V76"/>
-<path class="line" d="M221 76h13" stroke-dasharray="3 2"/>
+<path class="line" d="M221 76h13"/>
 <path class="line" d="M234 76V81"/>
 <path class="line" d="M234 81h13"/>
-<path class="line" d="M260 106h13" stroke-dasharray="3 2"/>
+<path class="line" d="M260 106h13"/>
 <path class="line" d="M286 111h13"/>
 <path class="line" d="M299 111V76"/>
-<path class="line" d="M299 76h13" stroke-dasharray="3 2"/>
+<path class="line" d="M299 76h13"/>
 <path class="line" d="M325 81h13"/>
 <path class="line" d="M364 101h13"/>
 <path class="line" d="M390 106h13"/>
@@ -567,15 +567,15 @@
 <path class="line" d="M533 151V186"/>
 <path class="line" d="M533 186h13"/>
 <path class="line" d="M546 186V151"/>
-<path class="line" d="M546 151h13" stroke-dasharray="3 2"/>
+<path class="line" d="M546 151h13"/>
 <path class="line" d="M559 151V141"/>
 <path class="line" d="M559 141h13"/>
 <path class="line" d="M572 141V151"/>
 <path class="line" d="M572 151h13"/>
 <path class="line" d="M585 151V171"/>
-<path class="line" d="M585 171h13" stroke-dasharray="3 2"/>
+<path class="line" d="M585 171h13"/>
 <path class="line" d="M598 171V156"/>
-<path class="line" d="M598 156h13" stroke-dasharray="3 2"/>
+<path class="line" d="M598 156h13"/>
 <path class="line" d="M611 156V116"/>
 <path class="line" d="M611 116h13"/>
 <path class="line" d="M624 116V96"/>
@@ -708,12 +708,10 @@
 <text class="ink3" x="1352" y="33" text-anchor="end" font-size="9.5" letter-spacing=".08em">LEAGUE POSITION BY SEASON</text>
 <path class="line" d="M104 471.5h16"/><rect class="area" x="104" y="471.5" width="16" height="8"/>
 <text class="ink2" x="126" y="475" text-anchor="start" font-size="10.5">Final league position</text>
-<path class="champ" d="M361.6 467l4 4-4 4-4-4z"/>
-<text class="ink2" x="375.6" y="475" text-anchor="start" font-size="10.5">Champions</text>
-<path class="line" d="M603.2 471.5h16" stroke-dasharray="3 2"/>
-<text class="ink2" x="625.2" y="475" text-anchor="start" font-size="10.5">Rank in a regional group, not national</text>
-<rect x="852.8000000000001" y="466" width="16" height="11" fill="url(#uncovered)"/>
-<text class="ink2" x="874.8000000000001" y="475" text-anchor="start" font-size="10.5">No position recorded</text>
-<rect x="1102.4" y="466" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
-<text class="ink2" x="1124.4" y="475" text-anchor="start" font-size="10.5">Season not played</text>
+<path class="champ" d="M424.0 467l4 4-4 4-4-4z"/>
+<text class="ink2" x="438.0" y="475" text-anchor="start" font-size="10.5">Champions</text>
+<rect x="728.0" y="466" width="16" height="11" fill="url(#uncovered)"/>
+<text class="ink2" x="750.0" y="475" text-anchor="start" font-size="10.5">No position recorded</text>
+<rect x="1040.0" y="466" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
+<text class="ink2" x="1062.0" y="475" text-anchor="start" font-size="10.5">Season not played</text>
 </svg>

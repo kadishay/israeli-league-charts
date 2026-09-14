@@ -22,8 +22,10 @@ Four things the data forces, which are what most of this file is about:
 * Eleven season slots were never played.  Those columns are hatched and the
   line breaks across them - never interpolated.
 * Below tier two nearly everything is regional, so the position is a rank
-  within a district and not a national one.  Those seasons get a dashed line,
-  because the depth is real even though the basis of the rank differs.
+  within a district and not a national one.  The division is kept in the data
+  and noted in docs/DECISIONS.md, but it is not drawn differently: the chart is
+  read for the tier, and a dashed line qualified a within-band rank that nobody
+  reads at this scale.
 
 Colour: the tier bands are a sequential ramp (one hue, light to dark with
 depth).  The club's line and the champion marker are the only two colours that
@@ -72,7 +74,6 @@ STRINGS = {
         "best": "best finish {pos}",
         "legend_line": "Final league position",
         "legend_champ": "Champions",
-        "legend_dashed": "Rank in a regional group, not national",
         "legend_uncovered": "No position recorded",
         "legend_notplayed": "Season not played",
         "gallery_title": "Israeli league performance, {first}–{last}",
@@ -81,15 +82,6 @@ STRINGS = {
                          "one above — the band boundaries step because the top flight "
                          "has held anywhere between 10 and 18 clubs."),
         "how": [
-            ("A solid line is a national position",
-             "One table for the whole country, so 5th means 5th in Israel."),
-            ("A dashed line is a position in a regional group",
-             "Below tier two the league splits by region, so the number is a rank "
-             "inside that group only. In 1965/66 the second tier ran as North and "
-             "South: Maccabi Haifa finished 1st in North and Sektzia Nes Tziona 1st "
-             "in South — two clubs, same tier, same season, both first. A dashed "
-             "line marks a depth that is real but a number you cannot compare "
-             "across the country."),
             ("One column per season, not per year",
              "There is no 1967/68 — 1966/68 was a single two-year championship. "
              "Hatched columns are seasons never played; the line breaks rather "
@@ -98,6 +90,11 @@ STRINGS = {
              "The club was playing but no final position is recorded, usually a "
              "Mandate-era district or a lower tier nobody tabulated. Blank means "
              "the club did not exist or fielded no senior side."),
+            ("Below tier two, a position is a regional rank",
+             "The lower divisions run in regional groups, so the height within "
+             "those bands is a rank inside a group rather than a national one. "
+             "The tier is what the chart is for; read the depth, not the exact "
+             "position."),
         ],
     },
     "he": {
@@ -109,7 +106,6 @@ STRINGS = {
         "best": "המקום הטוב ביותר: {pos}",
         "legend_line": "מיקום סופי בליגה",
         "legend_champ": "אליפות",
-        "legend_dashed": "מיקום בבית אזורי, לא ארצי",
         "legend_uncovered": "לא נרשם מיקום",
         "legend_notplayed": "העונה לא התקיימה",
         "gallery_title": "מיקומי קבוצות בליגות בישראל, {first}–{last}",
@@ -117,14 +113,6 @@ STRINGS = {
                          "הפירמידה, כך שכל דרג ממשיך את זה שמעליו — גבולות הדרגים "
                          "משתנים מפני שבליגה הבכירה שיחקו בין 10 ל-18 קבוצות."),
         "how": [
-            ("קו מלא — מיקום ארצי",
-             "טבלה אחת לכל הארץ, כך שמקום 5 הוא המקום ה-5 בישראל."),
-            ("קו מקוקו — מיקום בבית אזורי",
-             "מתחת לדרג השני הליגה מחולקת לבתים אזוריים, ולכן המספר הוא הדירוג "
-             "בתוך אותו בית בלבד. בעונת 1965/1966 שוחק הדרג השני בשני בתים: מכבי "
-             "חיפה סיימה ראשונה בבית הצפון וסקציה נס ציונה ראשונה בבית הדרום — "
-             "שתי קבוצות, אותו דרג, אותה עונה, שתיהן במקום הראשון. קו מקוקו מסמן "
-             "עומק אמיתי אך מספר שאינו בר-השוואה ארצית."),
             ("עמודה אחת לכל עונה, לא לכל שנה",
              "אין עונת 1967/1968 — עונת 1966/1968 הייתה אליפות אחת על פני שתי "
              "שנים. עמודות מקווקוות הן עונות שלא התקיימו, והקו נקטע ולא מנחש."),
@@ -132,6 +120,10 @@ STRINGS = {
              "הקבוצה שיחקה אך לא נרשם מיקום סופי — בדרך כלל בית מחוזי בתקופת "
              "המנדט או דרג נמוך שלא תועד. רקע ריק פירושו שהקבוצה לא התקיימה או "
              "לא העמידה קבוצת בוגרים."),
+            ("מתחת לדרג השני — מיקום אזורי",
+             "הליגות הנמוכות מחולקות לבתים אזוריים, ולכן הגובה בתוך אותם דרגים "
+             "הוא דירוג בתוך בית ולא ארצי. הדרג הוא מה שהגרף מראה — קראו את "
+             "העומק, לא את המיקום המדויק."),
         ],
     },
 }
@@ -374,14 +366,11 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
                             f'height="{floor - top}" fill="url(#uncovered)"/>')
             prev = None
             continue
-        approx = bool(entry["division"])
         area.append(f'<rect class="area" x="{x(i)}" y="{y(rank)}" width="{COL}" '
-                    f'height="{floor - y(rank)}"'
-                    + (' fill-opacity=".07"/>' if approx else "/>"))
-        dash = ' stroke-dasharray="3 2"' if approx else ""
+                    f'height="{floor - y(rank)}"/>')
         if prev and prev[0] == i - 1 and prev[1] != rank:
             line.append(f'<path class="line" d="M{x(i)} {y(prev[1])}V{y(rank)}"/>')
-        line.append(f'<path class="line" d="M{x(i)} {y(rank)}h{COL}"{dash}/>')
+        line.append(f'<path class="line" d="M{x(i)} {y(rank)}h{COL}"/>')
         if entry["tier"] == 1 and entry["position"] == 1 and not entry["division"]:
             cx, cy = x(i) + COL / 2, y(rank) - 4
             marks.append(f'<path class="champ" d="M{cx} {cy - 3.6}l3.8 3.6-3.8 3.6'
@@ -453,7 +442,6 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
     # Equal-width slots rather than a width estimated from the string length,
     # which collided once the labels were translated.
     items = [("line", S["legend_line"]), ("champ", S["legend_champ"]),
-                       ("dashed", S["legend_dashed"]),
              ("uncovered", S["legend_uncovered"]),
              ("notplayed", S["legend_notplayed"])]
     slot = plot_w / len(items)
@@ -465,9 +453,6 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
                       f'height="8"/>')
         elif kind == "champ":
             swatch = f'<path class="champ" d="M{lx + 8} {ly - 8}l4 4-4 4-4-4z"/>'
-        elif kind == "dashed":
-            swatch = (f'<path class="line" d="M{lx} {ly - 3.5}h16" '
-                      f'stroke-dasharray="3 2"/>')
         else:
             swatch = (f'<rect x="{lx}" y="{ly - 9}" width="16" height="11" '
                       f'fill="url(#{kind})"'

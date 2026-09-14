@@ -456,48 +456,48 @@
 <rect x="369" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="395" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="1084" y="326" width="13" height="105" fill="url(#uncovered)"/>
-<rect class="area" x="1097" y="301" width="13" height="130" fill-opacity=".07"/>
-<rect class="area" x="1110" y="276" width="13" height="155" fill-opacity=".07"/>
-<rect class="area" x="1123" y="266" width="13" height="165" fill-opacity=".07"/>
-<rect class="area" x="1136" y="256" width="13" height="175" fill-opacity=".07"/>
-<rect class="area" x="1149" y="241" width="13" height="190" fill-opacity=".07"/>
-<rect class="area" x="1162" y="251" width="13" height="180" fill-opacity=".07"/>
-<rect class="area" x="1175" y="231" width="13" height="200" fill-opacity=".07"/>
+<rect class="area" x="1097" y="301" width="13" height="130"/>
+<rect class="area" x="1110" y="276" width="13" height="155"/>
+<rect class="area" x="1123" y="266" width="13" height="165"/>
+<rect class="area" x="1136" y="256" width="13" height="175"/>
+<rect class="area" x="1149" y="241" width="13" height="190"/>
+<rect class="area" x="1162" y="251" width="13" height="180"/>
+<rect class="area" x="1175" y="231" width="13" height="200"/>
 <rect class="area" x="1188" y="216" width="13" height="215"/>
-<rect class="area" x="1201" y="236" width="13" height="195" fill-opacity=".07"/>
-<rect class="area" x="1214" y="241" width="13" height="190" fill-opacity=".07"/>
-<rect class="area" x="1227" y="246" width="13" height="185" fill-opacity=".07"/>
-<rect class="area" x="1240" y="281" width="13" height="150" fill-opacity=".07"/>
-<rect class="area" x="1266" y="261" width="13" height="170" fill-opacity=".07"/>
+<rect class="area" x="1201" y="236" width="13" height="195"/>
+<rect class="area" x="1214" y="241" width="13" height="190"/>
+<rect class="area" x="1227" y="246" width="13" height="185"/>
+<rect class="area" x="1240" y="281" width="13" height="150"/>
+<rect class="area" x="1266" y="261" width="13" height="170"/>
 <rect x="1279" y="386" width="13" height="45" fill="url(#uncovered)"/>
 <rect class="area" x="1292" y="156" width="13" height="275"/>
 <rect class="area" x="1305" y="151" width="13" height="280"/>
 <rect class="area" x="1318" y="131" width="13" height="300"/>
 <rect class="area" x="1331" y="116" width="13" height="315"/>
-<path class="line" d="M1097 301h13" stroke-dasharray="3 2"/>
+<path class="line" d="M1097 301h13"/>
 <path class="line" d="M1110 301V276"/>
-<path class="line" d="M1110 276h13" stroke-dasharray="3 2"/>
+<path class="line" d="M1110 276h13"/>
 <path class="line" d="M1123 276V266"/>
-<path class="line" d="M1123 266h13" stroke-dasharray="3 2"/>
+<path class="line" d="M1123 266h13"/>
 <path class="line" d="M1136 266V256"/>
-<path class="line" d="M1136 256h13" stroke-dasharray="3 2"/>
+<path class="line" d="M1136 256h13"/>
 <path class="line" d="M1149 256V241"/>
-<path class="line" d="M1149 241h13" stroke-dasharray="3 2"/>
+<path class="line" d="M1149 241h13"/>
 <path class="line" d="M1162 241V251"/>
-<path class="line" d="M1162 251h13" stroke-dasharray="3 2"/>
+<path class="line" d="M1162 251h13"/>
 <path class="line" d="M1175 251V231"/>
-<path class="line" d="M1175 231h13" stroke-dasharray="3 2"/>
+<path class="line" d="M1175 231h13"/>
 <path class="line" d="M1188 231V216"/>
 <path class="line" d="M1188 216h13"/>
 <path class="line" d="M1201 216V236"/>
-<path class="line" d="M1201 236h13" stroke-dasharray="3 2"/>
+<path class="line" d="M1201 236h13"/>
 <path class="line" d="M1214 236V241"/>
-<path class="line" d="M1214 241h13" stroke-dasharray="3 2"/>
+<path class="line" d="M1214 241h13"/>
 <path class="line" d="M1227 241V246"/>
-<path class="line" d="M1227 246h13" stroke-dasharray="3 2"/>
+<path class="line" d="M1227 246h13"/>
 <path class="line" d="M1240 246V281"/>
-<path class="line" d="M1240 281h13" stroke-dasharray="3 2"/>
-<path class="line" d="M1266 261h13" stroke-dasharray="3 2"/>
+<path class="line" d="M1240 281h13"/>
+<path class="line" d="M1266 261h13"/>
 <path class="line" d="M1292 156h13"/>
 <path class="line" d="M1305 156V151"/>
 <path class="line" d="M1305 151h13"/>
@@ -538,12 +538,10 @@
 <text class="ink3" x="1344" y="33" text-anchor="start" font-size="9.5" direction="rtl" letter-spacing=".08em">מיקום בליגה לפי עונה</text>
 <path class="line" d="M96 471.5h16"/><rect class="area" x="96" y="471.5" width="16" height="8"/>
 <text class="ink2" x="118" y="475" text-anchor="end" font-size="10.5" direction="rtl">מיקום סופי בליגה</text>
-<path class="champ" d="M353.6 467l4 4-4 4-4-4z"/>
-<text class="ink2" x="367.6" y="475" text-anchor="end" font-size="10.5" direction="rtl">אליפות</text>
-<path class="line" d="M595.2 471.5h16" stroke-dasharray="3 2"/>
-<text class="ink2" x="617.2" y="475" text-anchor="end" font-size="10.5" direction="rtl">מיקום בבית אזורי, לא ארצי</text>
-<rect x="844.8000000000001" y="466" width="16" height="11" fill="url(#uncovered)"/>
-<text class="ink2" x="866.8000000000001" y="475" text-anchor="end" font-size="10.5" direction="rtl">לא נרשם מיקום</text>
-<rect x="1094.4" y="466" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
-<text class="ink2" x="1116.4" y="475" text-anchor="end" font-size="10.5" direction="rtl">העונה לא התקיימה</text>
+<path class="champ" d="M416.0 467l4 4-4 4-4-4z"/>
+<text class="ink2" x="430.0" y="475" text-anchor="end" font-size="10.5" direction="rtl">אליפות</text>
+<rect x="720.0" y="466" width="16" height="11" fill="url(#uncovered)"/>
+<text class="ink2" x="742.0" y="475" text-anchor="end" font-size="10.5" direction="rtl">לא נרשם מיקום</text>
+<rect x="1032.0" y="466" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
+<text class="ink2" x="1054.0" y="475" text-anchor="end" font-size="10.5" direction="rtl">העונה לא התקיימה</text>
 </svg>

@@ -455,22 +455,22 @@
 <rect x="343" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="369" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="395" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
-<rect class="area" x="421" y="316" width="13" height="115" fill-opacity=".07"/>
-<rect class="area" x="434" y="256" width="13" height="175" fill-opacity=".07"/>
-<rect class="area" x="447" y="216" width="13" height="215" fill-opacity=".07"/>
-<rect class="area" x="460" y="201" width="13" height="230" fill-opacity=".07"/>
-<rect class="area" x="473" y="201" width="13" height="230" fill-opacity=".07"/>
+<rect class="area" x="421" y="316" width="13" height="115"/>
+<rect class="area" x="434" y="256" width="13" height="175"/>
+<rect class="area" x="447" y="216" width="13" height="215"/>
+<rect class="area" x="460" y="201" width="13" height="230"/>
+<rect class="area" x="473" y="201" width="13" height="230"/>
 <rect class="area" x="486" y="176" width="13" height="255"/>
 <rect class="area" x="499" y="176" width="13" height="255"/>
 <rect class="area" x="512" y="171" width="13" height="260"/>
 <rect class="area" x="525" y="161" width="13" height="270"/>
-<rect class="area" x="538" y="156" width="13" height="275" fill-opacity=".07"/>
-<rect class="area" x="551" y="156" width="13" height="275" fill-opacity=".07"/>
+<rect class="area" x="538" y="156" width="13" height="275"/>
+<rect class="area" x="551" y="156" width="13" height="275"/>
 <rect class="area" x="564" y="136" width="13" height="295"/>
 <rect class="area" x="577" y="116" width="13" height="315"/>
 <rect class="area" x="590" y="141" width="13" height="290"/>
 <rect class="area" x="603" y="151" width="13" height="280"/>
-<rect class="area" x="616" y="156" width="13" height="275" fill-opacity=".07"/>
+<rect class="area" x="616" y="156" width="13" height="275"/>
 <rect class="area" x="629" y="131" width="13" height="300"/>
 <rect class="area" x="642" y="96" width="13" height="335"/>
 <rect class="area" x="655" y="106" width="13" height="325"/>
@@ -526,14 +526,14 @@
 <rect class="area" x="1305" y="86" width="13" height="345"/>
 <rect class="area" x="1318" y="81" width="13" height="350"/>
 <rect class="area" x="1331" y="76" width="13" height="355"/>
-<path class="line" d="M421 316h13" stroke-dasharray="3 2"/>
+<path class="line" d="M421 316h13"/>
 <path class="line" d="M434 316V256"/>
-<path class="line" d="M434 256h13" stroke-dasharray="3 2"/>
+<path class="line" d="M434 256h13"/>
 <path class="line" d="M447 256V216"/>
-<path class="line" d="M447 216h13" stroke-dasharray="3 2"/>
+<path class="line" d="M447 216h13"/>
 <path class="line" d="M460 216V201"/>
-<path class="line" d="M460 201h13" stroke-dasharray="3 2"/>
-<path class="line" d="M473 201h13" stroke-dasharray="3 2"/>
+<path class="line" d="M460 201h13"/>
+<path class="line" d="M473 201h13"/>
 <path class="line" d="M486 201V176"/>
 <path class="line" d="M486 176h13"/>
 <path class="line" d="M499 176h13"/>
@@ -542,8 +542,8 @@
 <path class="line" d="M525 171V161"/>
 <path class="line" d="M525 161h13"/>
 <path class="line" d="M538 161V156"/>
-<path class="line" d="M538 156h13" stroke-dasharray="3 2"/>
-<path class="line" d="M551 156h13" stroke-dasharray="3 2"/>
+<path class="line" d="M538 156h13"/>
+<path class="line" d="M551 156h13"/>
 <path class="line" d="M564 156V136"/>
 <path class="line" d="M564 136h13"/>
 <path class="line" d="M577 136V116"/>
@@ -553,7 +553,7 @@
 <path class="line" d="M603 141V151"/>
 <path class="line" d="M603 151h13"/>
 <path class="line" d="M616 151V156"/>
-<path class="line" d="M616 156h13" stroke-dasharray="3 2"/>
+<path class="line" d="M616 156h13"/>
 <path class="line" d="M629 156V131"/>
 <path class="line" d="M629 131h13"/>
 <path class="line" d="M642 131V96"/>
@@ -693,12 +693,10 @@
 <text class="ink3" x="1344" y="33" text-anchor="start" font-size="9.5" direction="rtl" letter-spacing=".08em">מיקום בליגה לפי עונה</text>
 <path class="line" d="M96 471.5h16"/><rect class="area" x="96" y="471.5" width="16" height="8"/>
 <text class="ink2" x="118" y="475" text-anchor="end" font-size="10.5" direction="rtl">מיקום סופי בליגה</text>
-<path class="champ" d="M353.6 467l4 4-4 4-4-4z"/>
-<text class="ink2" x="367.6" y="475" text-anchor="end" font-size="10.5" direction="rtl">אליפות</text>
-<path class="line" d="M595.2 471.5h16" stroke-dasharray="3 2"/>
-<text class="ink2" x="617.2" y="475" text-anchor="end" font-size="10.5" direction="rtl">מיקום בבית אזורי, לא ארצי</text>
-<rect x="844.8000000000001" y="466" width="16" height="11" fill="url(#uncovered)"/>
-<text class="ink2" x="866.8000000000001" y="475" text-anchor="end" font-size="10.5" direction="rtl">לא נרשם מיקום</text>
-<rect x="1094.4" y="466" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
-<text class="ink2" x="1116.4" y="475" text-anchor="end" font-size="10.5" direction="rtl">העונה לא התקיימה</text>
+<path class="champ" d="M416.0 467l4 4-4 4-4-4z"/>
+<text class="ink2" x="430.0" y="475" text-anchor="end" font-size="10.5" direction="rtl">אליפות</text>
+<rect x="720.0" y="466" width="16" height="11" fill="url(#uncovered)"/>
+<text class="ink2" x="742.0" y="475" text-anchor="end" font-size="10.5" direction="rtl">לא נרשם מיקום</text>
+<rect x="1032.0" y="466" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
+<text class="ink2" x="1054.0" y="475" text-anchor="end" font-size="10.5" direction="rtl">העונה לא התקיימה</text>
 </svg>

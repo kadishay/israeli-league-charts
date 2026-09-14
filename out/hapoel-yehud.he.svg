@@ -455,27 +455,27 @@
 <rect x="343" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="369" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="395" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
-<rect class="area" x="421" y="311" width="13" height="120" fill-opacity=".07"/>
-<rect class="area" x="434" y="276" width="13" height="155" fill-opacity=".07"/>
+<rect class="area" x="421" y="311" width="13" height="120"/>
+<rect class="area" x="434" y="276" width="13" height="155"/>
 <rect x="447" y="331" width="13" height="100" fill="url(#uncovered)"/>
 <rect x="460" y="336" width="13" height="95" fill="url(#uncovered)"/>
 <rect x="473" y="336" width="13" height="95" fill="url(#uncovered)"/>
-<rect class="area" x="486" y="246" width="13" height="185" fill-opacity=".07"/>
-<rect class="area" x="499" y="271" width="13" height="160" fill-opacity=".07"/>
-<rect class="area" x="512" y="256" width="13" height="175" fill-opacity=".07"/>
-<rect class="area" x="525" y="241" width="13" height="190" fill-opacity=".07"/>
-<rect class="area" x="538" y="276" width="13" height="155" fill-opacity=".07"/>
-<rect class="area" x="551" y="281" width="13" height="150" fill-opacity=".07"/>
-<rect class="area" x="564" y="266" width="13" height="165" fill-opacity=".07"/>
-<rect class="area" x="577" y="236" width="13" height="195" fill-opacity=".07"/>
-<rect class="area" x="590" y="226" width="13" height="205" fill-opacity=".07"/>
-<rect class="area" x="603" y="236" width="13" height="195" fill-opacity=".07"/>
-<rect class="area" x="616" y="161" width="13" height="270" fill-opacity=".07"/>
-<rect class="area" x="629" y="171" width="13" height="260" fill-opacity=".07"/>
-<rect class="area" x="642" y="171" width="13" height="260" fill-opacity=".07"/>
-<rect class="area" x="655" y="171" width="13" height="260" fill-opacity=".07"/>
-<rect class="area" x="668" y="161" width="13" height="270" fill-opacity=".07"/>
-<rect class="area" x="681" y="166" width="13" height="265" fill-opacity=".07"/>
+<rect class="area" x="486" y="246" width="13" height="185"/>
+<rect class="area" x="499" y="271" width="13" height="160"/>
+<rect class="area" x="512" y="256" width="13" height="175"/>
+<rect class="area" x="525" y="241" width="13" height="190"/>
+<rect class="area" x="538" y="276" width="13" height="155"/>
+<rect class="area" x="551" y="281" width="13" height="150"/>
+<rect class="area" x="564" y="266" width="13" height="165"/>
+<rect class="area" x="577" y="236" width="13" height="195"/>
+<rect class="area" x="590" y="226" width="13" height="205"/>
+<rect class="area" x="603" y="236" width="13" height="195"/>
+<rect class="area" x="616" y="161" width="13" height="270"/>
+<rect class="area" x="629" y="171" width="13" height="260"/>
+<rect class="area" x="642" y="171" width="13" height="260"/>
+<rect class="area" x="655" y="171" width="13" height="260"/>
+<rect class="area" x="668" y="161" width="13" height="270"/>
+<rect class="area" x="681" y="166" width="13" height="265"/>
 <rect class="area" x="694" y="106" width="13" height="325"/>
 <rect class="area" x="707" y="91" width="13" height="340"/>
 <rect class="area" x="720" y="111" width="13" height="320"/>
@@ -489,48 +489,48 @@
 <rect class="area" x="824" y="181" width="13" height="250"/>
 <rect class="area" x="837" y="181" width="13" height="250"/>
 <rect class="area" x="850" y="206" width="13" height="225"/>
-<rect class="area" x="863" y="241" width="13" height="190" fill-opacity=".07"/>
-<rect class="area" x="876" y="256" width="13" height="175" fill-opacity=".07"/>
-<rect class="area" x="889" y="291" width="13" height="140" fill-opacity=".07"/>
+<rect class="area" x="863" y="241" width="13" height="190"/>
+<rect class="area" x="876" y="256" width="13" height="175"/>
+<rect class="area" x="889" y="291" width="13" height="140"/>
 <rect x="902" y="376" width="13" height="55" fill="url(#uncovered)"/>
 <rect x="915" y="386" width="13" height="45" fill="url(#uncovered)"/>
-<rect class="area" x="928" y="241" width="13" height="190" fill-opacity=".07"/>
-<rect class="area" x="941" y="256" width="13" height="175" fill-opacity=".07"/>
-<rect class="area" x="954" y="271" width="13" height="160" fill-opacity=".07"/>
-<rect class="area" x="967" y="311" width="13" height="120" fill-opacity=".07"/>
+<rect class="area" x="928" y="241" width="13" height="190"/>
+<rect class="area" x="941" y="256" width="13" height="175"/>
+<rect class="area" x="954" y="271" width="13" height="160"/>
+<rect class="area" x="967" y="311" width="13" height="120"/>
 <rect x="1110" y="326" width="13" height="105" fill="url(#uncovered)"/>
-<path class="line" d="M421 311h13" stroke-dasharray="3 2"/>
+<path class="line" d="M421 311h13"/>
 <path class="line" d="M434 311V276"/>
-<path class="line" d="M434 276h13" stroke-dasharray="3 2"/>
-<path class="line" d="M486 246h13" stroke-dasharray="3 2"/>
+<path class="line" d="M434 276h13"/>
+<path class="line" d="M486 246h13"/>
 <path class="line" d="M499 246V271"/>
-<path class="line" d="M499 271h13" stroke-dasharray="3 2"/>
+<path class="line" d="M499 271h13"/>
 <path class="line" d="M512 271V256"/>
-<path class="line" d="M512 256h13" stroke-dasharray="3 2"/>
+<path class="line" d="M512 256h13"/>
 <path class="line" d="M525 256V241"/>
-<path class="line" d="M525 241h13" stroke-dasharray="3 2"/>
+<path class="line" d="M525 241h13"/>
 <path class="line" d="M538 241V276"/>
-<path class="line" d="M538 276h13" stroke-dasharray="3 2"/>
+<path class="line" d="M538 276h13"/>
 <path class="line" d="M551 276V281"/>
-<path class="line" d="M551 281h13" stroke-dasharray="3 2"/>
+<path class="line" d="M551 281h13"/>
 <path class="line" d="M564 281V266"/>
-<path class="line" d="M564 266h13" stroke-dasharray="3 2"/>
+<path class="line" d="M564 266h13"/>
 <path class="line" d="M577 266V236"/>
-<path class="line" d="M577 236h13" stroke-dasharray="3 2"/>
+<path class="line" d="M577 236h13"/>
 <path class="line" d="M590 236V226"/>
-<path class="line" d="M590 226h13" stroke-dasharray="3 2"/>
+<path class="line" d="M590 226h13"/>
 <path class="line" d="M603 226V236"/>
-<path class="line" d="M603 236h13" stroke-dasharray="3 2"/>
+<path class="line" d="M603 236h13"/>
 <path class="line" d="M616 236V161"/>
-<path class="line" d="M616 161h13" stroke-dasharray="3 2"/>
+<path class="line" d="M616 161h13"/>
 <path class="line" d="M629 161V171"/>
-<path class="line" d="M629 171h13" stroke-dasharray="3 2"/>
-<path class="line" d="M642 171h13" stroke-dasharray="3 2"/>
-<path class="line" d="M655 171h13" stroke-dasharray="3 2"/>
+<path class="line" d="M629 171h13"/>
+<path class="line" d="M642 171h13"/>
+<path class="line" d="M655 171h13"/>
 <path class="line" d="M668 171V161"/>
-<path class="line" d="M668 161h13" stroke-dasharray="3 2"/>
+<path class="line" d="M668 161h13"/>
 <path class="line" d="M681 161V166"/>
-<path class="line" d="M681 166h13" stroke-dasharray="3 2"/>
+<path class="line" d="M681 166h13"/>
 <path class="line" d="M694 166V106"/>
 <path class="line" d="M694 106h13"/>
 <path class="line" d="M707 106V91"/>
@@ -557,18 +557,18 @@
 <path class="line" d="M850 181V206"/>
 <path class="line" d="M850 206h13"/>
 <path class="line" d="M863 206V241"/>
-<path class="line" d="M863 241h13" stroke-dasharray="3 2"/>
+<path class="line" d="M863 241h13"/>
 <path class="line" d="M876 241V256"/>
-<path class="line" d="M876 256h13" stroke-dasharray="3 2"/>
+<path class="line" d="M876 256h13"/>
 <path class="line" d="M889 256V291"/>
-<path class="line" d="M889 291h13" stroke-dasharray="3 2"/>
-<path class="line" d="M928 241h13" stroke-dasharray="3 2"/>
+<path class="line" d="M889 291h13"/>
+<path class="line" d="M928 241h13"/>
 <path class="line" d="M941 241V256"/>
-<path class="line" d="M941 256h13" stroke-dasharray="3 2"/>
+<path class="line" d="M941 256h13"/>
 <path class="line" d="M954 256V271"/>
-<path class="line" d="M954 271h13" stroke-dasharray="3 2"/>
+<path class="line" d="M954 271h13"/>
 <path class="line" d="M967 271V311"/>
-<path class="line" d="M967 311h13" stroke-dasharray="3 2"/>
+<path class="line" d="M967 311h13"/>
 <text class="ink2" x="85" y="114.0" text-anchor="start" font-size="10.5" font-weight="600" direction="rtl" letter-spacing=".05em">דרג 1</text>
 <text class="ink2" x="85" y="189.0" text-anchor="start" font-size="10.5" font-weight="600" direction="rtl" letter-spacing=".05em">דרג 2</text>
 <text class="ink2" x="85" y="269.0" text-anchor="start" font-size="10.5" font-weight="600" direction="rtl" letter-spacing=".05em">דרג 3</text>
@@ -602,12 +602,10 @@
 <text class="ink3" x="1344" y="33" text-anchor="start" font-size="9.5" direction="rtl" letter-spacing=".08em">מיקום בליגה לפי עונה</text>
 <path class="line" d="M96 471.5h16"/><rect class="area" x="96" y="471.5" width="16" height="8"/>
 <text class="ink2" x="118" y="475" text-anchor="end" font-size="10.5" direction="rtl">מיקום סופי בליגה</text>
-<path class="champ" d="M353.6 467l4 4-4 4-4-4z"/>
-<text class="ink2" x="367.6" y="475" text-anchor="end" font-size="10.5" direction="rtl">אליפות</text>
-<path class="line" d="M595.2 471.5h16" stroke-dasharray="3 2"/>
-<text class="ink2" x="617.2" y="475" text-anchor="end" font-size="10.5" direction="rtl">מיקום בבית אזורי, לא ארצי</text>
-<rect x="844.8000000000001" y="466" width="16" height="11" fill="url(#uncovered)"/>
-<text class="ink2" x="866.8000000000001" y="475" text-anchor="end" font-size="10.5" direction="rtl">לא נרשם מיקום</text>
-<rect x="1094.4" y="466" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
-<text class="ink2" x="1116.4" y="475" text-anchor="end" font-size="10.5" direction="rtl">העונה לא התקיימה</text>
+<path class="champ" d="M416.0 467l4 4-4 4-4-4z"/>
+<text class="ink2" x="430.0" y="475" text-anchor="end" font-size="10.5" direction="rtl">אליפות</text>
+<rect x="720.0" y="466" width="16" height="11" fill="url(#uncovered)"/>
+<text class="ink2" x="742.0" y="475" text-anchor="end" font-size="10.5" direction="rtl">לא נרשם מיקום</text>
+<rect x="1032.0" y="466" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
+<text class="ink2" x="1054.0" y="475" text-anchor="end" font-size="10.5" direction="rtl">העונה לא התקיימה</text>
 </svg>
