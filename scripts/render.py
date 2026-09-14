@@ -76,6 +76,8 @@ STRINGS = {
         "tier": "TIER {n}", "tier_deep": "TIER {n}+",
         "kicker": "LEAGUE POSITION BY SEASON",
         "in_top": "{n} of {total} seasons in the top flight",
+        "never_top": "{n} seasons recorded · highest level reached: tier {tier}",
+        "never_top_one": "1 season recorded · highest level reached: tier {tier}",
         "titles": "{n} championship", "titles_plural": "{n} championships",
         "best": "best finish {pos}",
         "legend_line": "Final league position",
@@ -108,6 +110,8 @@ STRINGS = {
         "tier": "דרג {n}", "tier_deep": "דרג {n}+",
         "kicker": "מיקום בליגה לפי עונה",
         "in_top": "{n} עונות מתוך {total} בליגה הבכירה",
+        "never_top": "{n} עונות רשומות · הדרג הגבוה ביותר: דרג {tier}",
+        "never_top_one": "עונה אחת רשומה · הדרג הגבוה ביותר: דרג {tier}",
         "titles": "אליפות אחת", "titles_plural": "{n} אליפויות",
         "best": "המקום הטוב ביותר: {pos}",
         "legend_line": "מיקום סופי בליגה",
@@ -480,7 +484,12 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
     titles = sum(1 for e in entries
                  if e["tier"] == 1 and e["position"] == 1 and not e["division"])
     best = min((e["position"] for e in entries if e["tier"] == 1), default=None)
-    parts = [S["in_top"].format(n=top_flight, total=len(played))]
+    if top_flight:
+        parts = [S["in_top"].format(n=top_flight, total=len(played))]
+    else:
+        key = "never_top_one" if len(entries) == 1 else "never_top"
+        parts = [S[key].format(n=len(entries),
+                               tier=min(e["tier"] for e in entries))]
     if titles:
         parts.append(S["titles"].format(n=titles) if titles == 1
                      else S["titles_plural"].format(n=titles))
