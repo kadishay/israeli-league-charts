@@ -1,5 +1,5 @@
 season,season_start,league,division,position,club
-1931/1932,1931,Eretz Israel League,,1,Palestine Police Force
+1931/1932,1931,Eretz Israel League,,1,British Police
 1931/1932,1931,Eretz Israel League,,2,Hapoel Tel Aviv
 1931/1932,1931,Eretz Israel League,,3,Hapoel Haifa
 1931/1932,1931,Eretz Israel League,,4,Maccabi Jerusalem
@@ -49,7 +49,7 @@ season,season_start,league,division,position,club
 1937,1937,Liga Bet,North,5,Maccabi Hadera
 1938,1938,Eretz Israel League,,1,Hapoel Tel Aviv
 1938,1938,Eretz Israel League,,2,Maccabi Tel Aviv
-1938,1938,Eretz Israel League,,3,Palestine Police Force
+1938,1938,Eretz Israel League,,3,British Police
 1938,1938,Eretz Israel League,,4,Hapoel Haifa
 1938,1938,Eretz Israel League,,5,Hakoah Tel Aviv
 1938,1938,Eretz Israel League,,6,Hapoel Ironi Herzliya
@@ -90,7 +90,7 @@ season,season_start,league,division,position,club
 1939,1939,Eretz Israel League,Division II,10,Hapoel Ra'anana
 1939,1939,Eretz Israel League,Division II,11,Maccabi Ramat Gan
 1939,1939,Eretz Israel League,Division II,12,HaKochav Tel Aviv
-1939,1939,Eretz Israel League,Jerusalem A,1,Palestine Police Force
+1939,1939,Eretz Israel League,Jerusalem A,1,British Police
 1939,1939,Eretz Israel League,Jerusalem A,2,Black Watch
 1939,1939,Eretz Israel League,Jerusalem A,3,Royal Air Force
 1939,1939,Eretz Israel League,Jerusalem A,4,District Police
@@ -3838,6 +3838,34 @@ season,season_start,league,division,position,club
 1977/1978,1977,Liga Leumit,,12,Hapoel Haifa
 1977/1978,1977,Liga Leumit,,13,Hakoah Ramat Gan
 1977/1978,1977,Liga Leumit,,14,Hapoel Acre
+1978/1979,1978,Liga Alef,North,1,Hapoel Nof HaGalil
+1978/1979,1978,Liga Alef,North,2,Hapoel Ironi Herzliya
+1978/1979,1978,Liga Alef,North,3,Maccabi Hadera
+1978/1979,1978,Liga Alef,North,4,Hapoel Givat Olga
+1978/1979,1978,Liga Alef,North,5,Hapoel Nahariya
+1978/1979,1978,Liga Alef,North,6,Hapoel Afikim
+1978/1979,1978,Liga Alef,North,7,Beitar Nes Tubruk
+1978/1979,1978,Liga Alef,North,8,Hapoel Ra'anana
+1978/1979,1978,Liga Alef,North,9,Hapoel Kiryat Ata
+1978/1979,1978,Liga Alef,North,10,Maccabi Ahi Nazareth
+1978/1979,1978,Liga Alef,North,11,Hapoel Kiryat Shmona
+1978/1979,1978,Liga Alef,North,12,Hapoel Tel Hanan
+1978/1979,1978,Liga Alef,North,13,Hapoel Nahliel
+1978/1979,1978,Liga Alef,North,14,Hapoel Givat Haim
+1978/1979,1978,Liga Alef,South,1,Hapoel Beit Shemesh
+1978/1979,1978,Liga Alef,South,2,Maccabi Kiryat Gat
+1978/1979,1978,Liga Alef,South,3,Hapoel Kafr Qasim
+1978/1979,1978,Liga Alef,South,4,Maccabi Sha'arayim
+1978/1979,1978,Liga Alef,South,5,Beitar Ramla
+1978/1979,1978,Liga Alef,South,6,Hapoel Ashkelon
+1978/1979,1978,Liga Alef,South,7,Maccabi Lazarus Holon
+1978/1979,1978,Liga Alef,South,8,Hapoel Ramla
+1978/1979,1978,Liga Alef,South,9,Maccabi Yavne
+1978/1979,1978,Liga Alef,South,10,Hapoel Dimona
+1978/1979,1978,Liga Alef,South,11,Hapoel Or Yehuda
+1978/1979,1978,Liga Alef,South,12,Hapoel Kiryat Ono
+1978/1979,1978,Liga Alef,South,13,Sektzia Nes Tziona
+1978/1979,1978,Liga Alef,South,14,Beitar Ashdod
 1978/1979,1978,Liga Artzit,,1,Hakoah Ramat Gan
 1978/1979,1978,Liga Artzit,,2,Maccabi Ramat Amidar
 1978/1979,1978,Liga Artzit,,3,Hapoel Petah Tikva
@@ -7682,6 +7710,70 @@ season,season_start,league,division,position,club
 2008/2009,2008,Liga Artzit,,11,Hapoel Bnei Jadeidi
 2008/2009,2008,Liga Artzit,,12,Maccabi Tirat Carmel
 2008/2009,2008,Liga Artzit,,12,Maccabi Ironi Tirat HaCarmel
+2008/2009,2008,Liga Bet,North A,1,Maccabi Ironi Jatt
+2008/2009,2008,Liga Bet,North A,2,Hapoel Ahva Haifa
+2008/2009,2008,Liga Bet,North A,3,Hapoel Ihud Bnei Sumei
+2008/2009,2008,Liga Bet,North A,4,Hapoel Sakhnin
+2008/2009,2008,Liga Bet,North A,5,Hapoel Ramot Menashe Megiddo
+2008/2009,2008,Liga Bet,North A,6,F.C. Tzeirei Bir al-Maksur
+2008/2009,2008,Liga Bet,North A,7,Hapoel Kaukab
+2008/2009,2008,Liga Bet,North A,8,Hapoel Isfiya
+2008/2009,2008,Liga Bet,North A,9,Beitar Nahariya
+2008/2009,2008,Liga Bet,North A,10,Hapoel Ironi Ar'ara
+2008/2009,2008,Liga Bet,North A,11,Hapoel Iksal
+2008/2009,2008,Liga Bet,North A,12,Ahi Acre
+2008/2009,2008,Liga Bet,North A,13,Hapoel Karmiel
+2008/2009,2008,Liga Bet,North A,14,Hapoel Beit She'an
+2008/2009,2008,Liga Bet,North A,15,Bnei Abu Snan
+2008/2009,2008,Liga Bet,North A,16,Beitar Kafr Kana
+2008/2009,2008,Liga Bet,North B,1,Maccabi Umm al-Fahm
+2008/2009,2008,Liga Bet,North B,2,Hapoel Daliyat al-Karmel
+2008/2009,2008,Liga Bet,North B,3,Beitar Haifa
+2008/2009,2008,Liga Bet,North B,4,Hapoel Migdal HaEmek
+2008/2009,2008,Liga Bet,North B,5,Hapoel Umm al-Ghanam/Nein
+2008/2009,2008,Liga Bet,North B,6,F.C. Ahva Kafr Manda
+2008/2009,2008,Liga Bet,North B,7,Maccabi Ironi Kabul
+2008/2009,2008,Liga Bet,North B,8,Hapoel Halat el-Sharif Tamra
+2008/2009,2008,Liga Bet,North B,9,Maccabi Beit She'an
+2008/2009,2008,Liga Bet,North B,10,Ihud Bnei Baka
+2008/2009,2008,Liga Bet,North B,11,Maccabi Ironi Barta'a
+2008/2009,2008,Liga Bet,North B,12,Maccabi Sektzia Ma'alot-Tarshiha
+2008/2009,2008,Liga Bet,North B,13,Hapoel Nahariya
+2008/2009,2008,Liga Bet,North B,14,Maccabi Kafr Sumei
+2008/2009,2008,Liga Bet,North B,15,Hapoel Deir el-Asad
+2008/2009,2008,Liga Bet,North B,16,Maccabi Sha'ab
+2008/2009,2008,Liga Bet,South A,1,Shimshon Bnei Tayibe
+2008/2009,2008,Liga Bet,South A,2,Maccabi Ironi Amishav Petah Tikva
+2008/2009,2008,Liga Bet,South A,3,Hapoel Azor
+2008/2009,2008,Liga Bet,South A,4,Hapoel Mahane Yehuda
+2008/2009,2008,Liga Bet,South A,5,F.C. Ironi Or Yehuda
+2008/2009,2008,Liga Bet,South A,6,Otzma F.C. Holon
+2008/2009,2008,Liga Bet,South A,7,F.C. Bnei Jaffa
+2008/2009,2008,Liga Bet,South A,8,F.C. Kafr Qasim
+2008/2009,2008,Liga Bet,South A,9,Hapoel Pardesiya
+2008/2009,2008,Liga Bet,South A,10,Shikun Vatikim Ramat Gan
+2008/2009,2008,Liga Bet,South A,11,Hapoel F.C. Ortodoxim Jaffa
+2008/2009,2008,Liga Bet,South A,12,Beitar Ramat Gan
+2008/2009,2008,Liga Bet,South A,13,Hapoel Ramat Israel
+2008/2009,2008,Liga Bet,South A,14,Maccabi HaSharon Netanya
+2008/2009,2008,Liga Bet,South A,15,Hapoel Hod HaSharon
+2008/2009,2008,Liga Bet,South A,16,Maccabi Ironi Or Yehuda
+2008/2009,2008,Liga Bet,South B,1,Hapoel Holon
+2008/2009,2008,Liga Bet,South B,2,Maccabi Ironi Sderot
+2008/2009,2008,Liga Bet,South B,3,Bnei Eilat
+2008/2009,2008,Liga Bet,South B,4,F.C. Dimona
+2008/2009,2008,Liga Bet,South B,5,Beitar Ironi Ma'ale Adumim
+2008/2009,2008,Liga Bet,South B,6,Maccabi Be'er Ya'akov
+2008/2009,2008,Liga Bet,South B,7,Beitar Giv'at Ze'ev
+2008/2009,2008,Liga Bet,South B,8,F.C. Be'er Sheva
+2008/2009,2008,Liga Bet,South B,9,F.C. Shikun HaMizrach
+2008/2009,2008,Liga Bet,South B,10,Hapoel Merhavim
+2008/2009,2008,Liga Bet,South B,11,Maccabi Sha'arayim
+2008/2009,2008,Liga Bet,South B,12,Hapoel F.C. Ortodoxim Lod
+2008/2009,2008,Liga Bet,South B,13,Hapoel Tirat Shalom
+2008/2009,2008,Liga Bet,South B,14,Mo'adon Tzeirei Rahat
+2008/2009,2008,Liga Bet,South B,15,Hapoel F.C. Hevel Modi'in
+2008/2009,2008,Liga Bet,South B,16,Hapoel Jaljulia
 2008/2009,2008,Liga Gimel,Central,1,F.C. Kiryat Gat
 2008/2009,2008,Liga Gimel,Central,2,Hapoel Rahat
 2008/2009,2008,Liga Gimel,Central,3,Bnei Yichalel Rehovot

@@ -30,8 +30,9 @@ DATA = ROOT / "data"
 RAW = DATA / "raw" / "en"
 OUT = DATA / "seasons_en.csv"
 
-# English Wikipedia's name for a league -> the name used in structure.json.
-LEAGUE_NAMES = {"Palestine League": "Eretz Israel League"}
+# fetch_en.py already records the canonical league name in en_index.json, so
+# nothing needs translating here. Kept as a safety net for an older cache.
+LEAGUE_NAMES: dict[str, str] = {}
 
 # English Wikipedia titles one Mandate season as a split year where the Hebrew
 # navbox - which supplies the chart's columns - uses a single one. Its infobox
@@ -64,7 +65,8 @@ def label_of(title: str) -> str:
     """Season label from an article title.
 
     "1940 Palestine League" -> 1940, "1947-48 Palestine League" -> 1947/1948,
-    "1966-68 Liga Alef" -> 1966/1968.  The start year alone is not a key: the
+    "1966-68 Liga Alef" -> 1966/1968.  The first two are English Wikipedia's
+    article titles for Eretz Israel League seasons, not the league's name.  The start year alone is not a key: the
     1940 season was played and 1940/1941 was not, and both start in 1940.
     """
     if m := re.match(r"^(\d{4})[\u2013-](\d{2,4})\s", title):

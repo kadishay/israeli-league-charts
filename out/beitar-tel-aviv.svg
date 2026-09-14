@@ -207,9 +207,9 @@
 <rect x="715" y="468" width="13" height="98" fill="var(--band5)"/>
 <rect x="728" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="728" y="188" width="13" height="112" fill="var(--band2)"/>
-<rect x="728" y="300" width="13" height="112" fill="var(--band3)"/>
-<rect x="728" y="412" width="13" height="98" fill="var(--band4)"/>
-<rect x="728" y="510" width="13" height="56" fill="var(--band5)"/>
+<rect x="728" y="300" width="13" height="98" fill="var(--band3)"/>
+<rect x="728" y="398" width="13" height="98" fill="var(--band4)"/>
+<rect x="728" y="496" width="13" height="70" fill="var(--band5)"/>
 <rect x="741" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="741" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="741" y="300" width="13" height="98" fill="var(--band3)"/>

@@ -18,11 +18,15 @@
       ],
       "also_known_as": {
         "Eretz Israel League": [
-          "ליגת ארץ ישראל",
-          "Palestine League"
+          "ליגת ארץ ישראל"
         ]
       },
-      "note": "Run by the Eretz Israel Football Association, founded August 1928, and treated as the direct ancestor of today's Ligat ha'Al. Hebrew sources name it ליגת ארץ ישראל (Eretz Israel League); English Wikipedia titles it 'Palestine League'. The second tier throughout was a set of regional divisions - ליגות מחוזיות, also called Machleka Bet and later Liga Bet - whose seasons run 1930/31, then 1937 through 1948/49. There was no third tier, for want of clubs. The IFA still records a 1928 title for Maccabi Hasmonean Jerusalem, but no season was played that year: the entry originates in the association's FIFA admission notice and is recognised as erroneous."
+      "note": "The Eretz Israel League (ליגת ארץ ישראל), run from 1928 to 1948 by the Eretz Israel Football Association and the direct ancestor of today's Ligat ha'Al. That is the name used throughout this project. English Wikipedia files its season articles under a different title, which is recorded in source_article_titles purely so the fetcher can find them. The second tier throughout was a set of regional divisions - ליגות מחוזיות, also called Machleka Bet and later Liga Bet - whose seasons run 1930/31, then 1937 through 1948/49. There was no third tier, for want of clubs. The IFA still records a 1928 title for Maccabi Hasmonean Jerusalem, but no season was played that year: the entry originates in the association's FIFA admission notice and is recognised as erroneous.",
+      "source_article_titles": {
+        "_comment": "Not names of the league - just where each source files it, so the fetchers can find the articles.",
+        "en.wikipedia.org": "<season> Palestine League",
+        "he.wikipedia.org": "עונת <season> בליגת ארץ ישראל בכדורגל"
+      }
     },
     {
       "from": 1949,

@@ -93,7 +93,7 @@ The only source for tiers 3 and below.
 | Liga Alef | 67 |
 | Liga Bet | 64 |
 | Liga Gimel | 30 of roughly 70 |
-| Palestine League | 13 |
+| Eretz Israel League | 13 — filed there under a different article title |
 
 ### Quirks
 
@@ -102,7 +102,14 @@ The only source for tiers 3 and below.
   from the number on `teamN`, the club from the matching `name_CODE`.
 - Titles are discovered through the search API, not constructed: the naming is not uniform
   (single-year early seasons, `1966–68` for the double season).
-- Its `1938–39 Palestine League` is the season the Hebrew navbox calls **1938** — the infobox
+- **The search returns a varying subset between runs.** A fresh discovery once came back with
+  five fewer titles than the previous one, which silently dropped 165 rows while their cached
+  files sat there orphaned. `fetch_en.py` therefore merges new discoveries into
+  `data/en_index.json` rather than replacing it, so the corpus only ever grows.
+- English Wikipedia files the Eretz Israel League's seasons under its own article title, so
+  the fetcher searches for that and `parse_en.py` maps it back. The titles are addresses on
+  that site, not the league's name.
+- Its `1938–39` article is the season the Hebrew navbox calls **1938** — the infobox
   runs 1937 → this → 1939 and names Hapoel Tel Aviv's third title, matching the Hebrew table
   exactly. Remapped, or it would be a column that does not exist.
 - **No Haifa district.** The Mandate top-flight articles have Tel Aviv, Samaria and Southern

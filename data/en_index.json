@@ -1,18 +1,18 @@
 {
   "1931–32 Palestine League": {
-    "league": "Palestine League",
+    "league": "Eretz Israel League",
     "start": 1931
   },
   "1933–34 Palestine League": {
-    "league": "Palestine League",
+    "league": "Eretz Israel League",
     "start": 1933
   },
   "1934–35 Palestine League": {
-    "league": "Palestine League",
+    "league": "Eretz Israel League",
     "start": 1934
   },
   "1935–36 Palestine League": {
-    "league": "Palestine League",
+    "league": "Eretz Israel League",
     "start": 1935
   },
   "1937 Liga Bet": {
@@ -20,7 +20,7 @@
     "start": 1937
   },
   "1937 Palestine League": {
-    "league": "Palestine League",
+    "league": "Eretz Israel League",
     "start": 1937
   },
   "1938 Liga Bet": {
@@ -32,11 +32,11 @@
     "start": 1938
   },
   "1938–39 Palestine League": {
-    "league": "Palestine League",
+    "league": "Eretz Israel League",
     "start": 1938
   },
   "1939 Palestine League": {
-    "league": "Palestine League",
+    "league": "Eretz Israel League",
     "start": 1939
   },
   "1940 Liga Bet": {
@@ -44,7 +44,7 @@
     "start": 1940
   },
   "1940 Palestine League": {
-    "league": "Palestine League",
+    "league": "Eretz Israel League",
     "start": 1940
   },
   "1941–42 Liga Bet": {
@@ -52,7 +52,7 @@
     "start": 1941
   },
   "1941–42 Palestine League": {
-    "league": "Palestine League",
+    "league": "Eretz Israel League",
     "start": 1941
   },
   "1943–44 Liga Bet": {
@@ -60,11 +60,11 @@
     "start": 1943
   },
   "1943–44 Palestine League": {
-    "league": "Palestine League",
+    "league": "Eretz Israel League",
     "start": 1943
   },
   "1944–45 Palestine League": {
-    "league": "Palestine League",
+    "league": "Eretz Israel League",
     "start": 1944
   },
   "1946–47 Liga Bet": {
@@ -72,7 +72,7 @@
     "start": 1946
   },
   "1946–47 Palestine League": {
-    "league": "Palestine League",
+    "league": "Eretz Israel League",
     "start": 1946
   },
   "1947–48 Liga Bet": {
@@ -80,7 +80,7 @@
     "start": 1947
   },
   "1947–48 Palestine League": {
-    "league": "Palestine League",
+    "league": "Eretz Israel League",
     "start": 1947
   },
   "1951–52 Liga Alef": {
@@ -330,6 +330,10 @@
   "1977–78 Liga Gimel": {
     "league": "Liga Gimel",
     "start": 1977
+  },
+  "1978–79 Liga Alef": {
+    "league": "Liga Alef",
+    "start": 1978
   },
   "1978–79 Liga Artzit": {
     "league": "Liga Artzit",
@@ -697,6 +701,10 @@
   },
   "2008–09 Liga Artzit": {
     "league": "Liga Artzit",
+    "start": 2008
+  },
+  "2008–09 Liga Bet": {
+    "league": "Liga Bet",
     "start": 2008
   },
   "2008–09 Liga Gimel": {

@@ -9,7 +9,8 @@ years it spent at tier three, and the RSSSF season pages carry Liga Artzit for
 
 English Wikipedia does have them, and the Mandate-era top flight too:
 
-  Palestine League   the top flight before 1949
+  Palestine League   English Wikipedia's article title for the pre-1949 top
+                     flight, which this project calls the Eretz Israel League
   Liga Artzit        1976/77-2008/09, its whole existence
   Liga Alef          1951/52 onward
   Liga Bet           1941 onward
@@ -32,7 +33,16 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw" / "en"
 
-LEAGUES = ["Palestine League", "Liga Artzit", "Liga Alef", "Liga Bet", "Liga Gimel"]
+# English Wikipedia ARTICLE TITLES to search for -> the league name used
+# everywhere else in this project. Only the left-hand side is that site's
+# wording; the pre-1949 top flight is the Eretz Israel League.
+LEAGUES = {
+    "Palestine League": "Eretz Israel League",
+    "Liga Artzit": "Liga Artzit",
+    "Liga Alef": "Liga Alef",
+    "Liga Bet": "Liga Bet",
+    "Liga Gimel": "Liga Gimel",
+}
 TITLE = re.compile(r"^(\d{4})[–-](\d{2,4})\s+(.+?)\s*$")
 SINGLE_YEAR = re.compile(r"^(\d{4})\s+(.+?)\s*$")
 
@@ -65,7 +75,7 @@ def api(host: str, **params) -> dict:
 def discover() -> dict[str, dict]:
     """Article title -> {league, start} for every season article we can find."""
     found: dict[str, dict] = {}
-    for league in LEAGUES:
+    for league, canonical in LEAGUES.items():
         offset = None
         while True:
             params = dict(action="query", list="search",
@@ -78,10 +88,10 @@ def discover() -> dict[str, dict]:
                 if m := TITLE.match(title):
                     if m.group(3) != league:
                         continue
-                    found[title] = {"league": league, "start": int(m.group(1))}
+                    found[title] = {"league": canonical, "start": int(m.group(1))}
                 elif m := SINGLE_YEAR.match(title):
                     if m.group(2) == league:
-                        found[title] = {"league": league, "start": int(m.group(1))}
+                        found[title] = {"league": canonical, "start": int(m.group(1))}
             offset = r.get("continue", {}).get("sroffset")
             if not offset:
                 break
@@ -110,9 +120,20 @@ def safe(title: str) -> str:
 
 def main() -> None:
     RAW.mkdir(parents=True, exist_ok=True)
-    index = discover()
-    (ROOT / "data" / "en_index.json").write_text(
+    # The search API returns a varying subset between runs, so a fresh discovery
+    # can come back with fewer titles than last time. Merging into the existing
+    # index instead of replacing it keeps the corpus stable and only growing -
+    # otherwise articles silently drop out of the dataset while their cached
+    # files sit there orphaned, which cost 165 rows once.
+    path = ROOT / "data" / "en_index.json"
+    index = json.loads(path.read_text()) if path.exists() else {}
+    before = len(index)
+    found = discover()
+    index.update(found)
+    path.write_text(
         json.dumps(index, ensure_ascii=False, indent=2, sort_keys=True) + "\n")
+    print(f"index: {before} known, {len(found)} returned by search, "
+          f"{len(index)} after merge")
 
     counts: dict[str, int] = {}
     for meta in index.values():

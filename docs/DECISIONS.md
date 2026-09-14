@@ -255,6 +255,26 @@ It is in progress. A chart must not show a current partial position as a final o
 
 ---
 
+## 17. The league of 1928-1948 is the Eretz Israel League
+
+ליגת ארץ ישראל, run by the Eretz Israel Football Association. That name is used
+everywhere in the project: in `structure.json`, in every dataset, and on the charts.
+
+English Wikipedia files those seasons under a different title. That string survives in
+exactly three places — `fetch_en.py`'s search map, a docstring example, and the keys of
+`data/en_index.json` — and in all of them it is an *address on that site*, the only way to
+find the articles. `structure.json` records it under `source_article_titles`, never as an
+alias or an alternative name.
+
+The club that won 1931/32 is named **British Police** for the same reason: Hebrew Wikipedia
+(המשטרה הבריטית) and RSSSF agree on that, and only English Wikipedia's article title differs.
+
+Note the 1949/50 season's competition is separately the **Israeli League** — הליגה הישראלית,
+its own one-season name after independence. The two are kept distinct because the sources
+distinguish them.
+
+---
+
 ## Open questions
 
 Flagged rather than decided:
