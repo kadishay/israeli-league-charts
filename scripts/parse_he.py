@@ -28,7 +28,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw" / "he"
-OUT = ROOT / "data" / "seasons_he.csv"
+OUT = ROOT / "data" / "raw" / "parsed" / "seasons_he.csv"
 
 # Sections holding a separate competition: a cross-tier promotion play-off or a
 # cup.  Note that this must NOT catch הפלייאוף העליון / הפלייאוף התחתון, which
@@ -254,6 +254,7 @@ def renumber(rows: list[tuple[int, str]], label: str) -> list[tuple[int, str]]:
 
 
 def main() -> None:
+    OUT.parent.mkdir(parents=True, exist_ok=True)
     index = json.loads((ROOT / "data" / "seasons_index.json").read_text())
     aliases = json.loads((ROOT / "data" / "aliases_he.json").read_text())
     rows: list[tuple[str, int, str, str, int, str]] = []

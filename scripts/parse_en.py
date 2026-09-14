@@ -28,7 +28,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 RAW = DATA / "raw" / "en"
-OUT = DATA / "seasons_en.csv"
+OUT = DATA / "raw" / "parsed" / "seasons_en.csv"
 
 # fetch_en.py already records the canonical league name in en_index.json, so
 # nothing needs translating here. Kept as a safety net for an older cache.
@@ -121,6 +121,7 @@ def rows_of(block: str) -> list[tuple[int, str]]:
 
 
 def main() -> None:
+    OUT.parent.mkdir(parents=True, exist_ok=True)
     index = json.loads((DATA / "en_index.json").read_text())
     structure = json.loads((DATA / "structure.json").read_text())
     aliases = json.loads((DATA / "aliases_en.json").read_text())

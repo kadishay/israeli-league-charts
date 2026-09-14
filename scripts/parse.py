@@ -22,7 +22,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw"
-OUT = ROOT / "data" / "seasons_rsssf.csv"
+OUT = ROOT / "data" / "raw" / "parsed" / "seasons_rsssf.csv"
 
 # A standings row.  The club name runs up to the games-played column, which is
 # not always separated by whitespace ("Hapoel Ironi Rishon-Lezion39  10  13").
@@ -187,6 +187,7 @@ def parse_season(path: Path, year: int) -> list[tuple[int, str, str, int, str]]:
 
 
 def main() -> None:
+    OUT.parent.mkdir(parents=True, exist_ok=True)
     rows = parse_hist(RAW / "israhist.html")
     for path in sorted(RAW.glob("season-*.html")):
         rows += parse_season(path, int(path.stem.split("-")[1]))

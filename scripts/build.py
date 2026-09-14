@@ -2,15 +2,20 @@
 """Merge the parsed sources into data/seasons.csv, the dataset the renderer reads.
 
 Inputs:
-  data/seasons_rsssf.csv   top flight 1949/50-, second tier 2008/09-  (parse.py)
-  data/seasons_he.csv      second tier 1955/56-2007/08, 2025/26       (parse_he.py)
-  data/seasons_en.csv      tiers 3-6, and the Mandate top flight      (parse_en.py)
+  data/raw/parsed/seasons_he.csv      Mandate top flight, second tier, 2025/26
+  data/raw/parsed/seasons_rsssf.csv   top flight 1949/50-, second tier 2008/09-
+  data/raw/parsed/seasons_en.csv      tiers 3-6, and Mandate districts
 
-Where two sources cover the same league-season the earlier one in that list
-wins: RSSSF's champions have been checked against Wikipedia's list, and it is
-the source the era boundaries in structure.json were drawn from.  Overlaps are
-compared rather than ignored, so a disagreement between two independent sources
-shows up as output instead of being silently resolved.
+Those three are build artefacts under the gitignored raw/ tree.  data/seasons.csv
+is the one dataset, and it carries a "source" column so provenance survives
+having a single file.
+
+Precedence is the order above: Hebrew Wikipedia first, being the native-language
+source and the one that has been right every time the two disagreed.  It only
+matters against English - Hebrew and RSSSF cover disjoint ground and share no
+rows at all.  Overlaps are compared rather than ignored, so a disagreement
+between two independent sources shows up as output instead of being silently
+resolved.
 
 Every row is checked against structure.json: its league must exist at that
 season, and the season must not be one that was never played.  Seasons are
@@ -26,11 +31,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 OUT = DATA / "seasons.csv"
-FIELDS = ["season", "season_start", "league", "division", "position", "club"]
+FIELDS = ["season", "season_start", "league", "division", "position", "club",
+          "source"]
 
 
 def read(name: str) -> list[dict]:
-    path = DATA / name
+    path = DATA / "raw" / "parsed" / name
     if not path.exists():
         raise SystemExit(f"missing {path}; run the parse scripts first")
     with path.open() as f:
@@ -48,11 +54,13 @@ def main() -> None:
                 return tiers.index(league) + 1 if league in tiers else None
         return None
 
-    # Precedence: RSSSF first (its champions are checked against Wikipedia's
-    # list), then Hebrew Wikipedia, then English Wikipedia - which is the only
-    # source for tiers three and below, and for the Mandate-era top flight.
-    sources = [("RSSSF", read("seasons_rsssf.csv")),
-               ("Hebrew Wikipedia", read("seasons_he.csv")),
+    # Hebrew Wikipedia first: it is the native-language source and has been
+    # right every time the sources disagreed. It shares no rows with RSSSF, so
+    # that half of the order is moot; what it decides is the 964 rows where it
+    # overlaps English. English stays last - it is the only source for tiers
+    # three and below, but the weakest where another source has the same season.
+    sources = [("Hebrew Wikipedia", read("seasons_he.csv")),
+               ("RSSSF", read("seasons_rsssf.csv")),
                ("English Wikipedia", read("seasons_en.csv"))]
     # Keyed per club-season, not per league-season. The Mandate-era regional
     # seasons are documented district by district and the two Wikipedias cover
@@ -85,7 +93,7 @@ def main() -> None:
                         f"{r['season_start']} {r['league']} {r['club']}: "
                         f"kept {prior[1]}, {name} says {r['position']}")
                 continue
-            rows.append(r)
+            rows.append({**r, "source": name})
             kept += 1
         taken |= {key(r) for r in source}
         added[name] = kept
@@ -161,7 +169,7 @@ def main() -> None:
               f"played (partial tables): {', '.join(sorted(dropped))}")
     if disagreements:
         print(f"\n{len(disagreements)} position disagreements between the two sources "
-              f"(RSSSF kept):")
+              f"(the higher-precedence source kept):")
         for d in disagreements[:20]:
             print(f"  {d}")
 

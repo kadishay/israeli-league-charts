@@ -109,10 +109,28 @@ This is a cheap integrity check that catches the most damaging class of alias er
 
 ---
 
-## 6. Sources merge per club-season-division, with precedence
+## 6. One dataset, merged per club-season-division, Hebrew Wikipedia first
 
-Order: **RSSSF**, then **Hebrew Wikipedia**, then **English Wikipedia**. The key is
+`data/seasons.csv` is the only committed dataset and carries a **`source`** column, so
+provenance survives having a single file. The per-source CSVs are build artefacts under the
+gitignored `data/raw/parsed/`.
+
+Precedence: **Hebrew Wikipedia**, then **RSSSF**, then **English Wikipedia**. The key is
 *(season, league, club, division)*.
+
+**Why Hebrew leads.** It is the native-language source and has been right every time the
+sources disagreed — the Mandate-era districts, the strikethroughs that establish which
+seasons were played, Shimshon Tel Aviv's merger, Hapoel Jerusalem's lower-tier years.
+
+**What that actually decides.** Hebrew and RSSSF share **no rows at all** — they cover
+disjoint ground, so that half of the order is moot. What the order decides is the 964 rows
+where Hebrew overlaps English, including the positions 4–7 of the 1934/35 Eretz Israel
+League, where the two disagree outright.
+
+**What Hebrew cannot be.** It is not a complete source and cannot be the *only* one: it has
+1,324 rows against the dataset's 10,327, no top-flight data at all between 1949/50 and
+2024/25, and nothing below tier two. "Hebrew is the source of truth" can only mean it wins
+where it has data.
 
 **Why that key.** The Mandate-era regional seasons are documented district by district and
 the two Wikipedias cover *different districts* — English has the 1941/42 championship

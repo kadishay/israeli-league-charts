@@ -1,4 +1,6 @@
-# Cached third-party source pages. Regenerate with scripts/fetch.py.
+# Cached source pages and per-source parse output. Both are build artefacts:
+# the fetch scripts regenerate the pages, the parse scripts the CSVs, and
+# data/seasons.csv is the one dataset that is committed.
 data/raw/
 
 # Generated charts are committed: they are the point of the repo, and

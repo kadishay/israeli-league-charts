@@ -146,8 +146,9 @@ Checked so the next person does not repeat it:
 ## Extending
 
 To add a source, write a `fetch_*.py` that caches into `data/raw/<source>/` and a
-`parse_*.py` that emits `data/seasons_<source>.csv` with the shared columns, then add it to
-the precedence list in `build.py`. `build.py` checks every row against `structure.json` and
+`parse_*.py` that emits `data/raw/parsed/seasons_<source>.csv` with the shared columns, then
+add it to the precedence list in `build.py`. Only `data/seasons.csv` is committed; it carries
+a `source` column so a row can always be traced back. `build.py` checks every row against `structure.json` and
 the season index, so a new source's mistakes surface as reported errors rather than as
 plausible-looking chart output.
 

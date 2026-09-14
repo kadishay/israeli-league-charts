@@ -24,10 +24,10 @@ that list when the leagues change.
 python3 scripts/fetch.py      # cache the RSSSF pages
 python3 scripts/fetch_he.py   # cache the Hebrew Wikipedia season articles
 python3 scripts/fetch_en.py   # cache the English Wikipedia season articles
-python3 scripts/parse.py      # RSSSF    -> data/seasons_rsssf.csv
-python3 scripts/parse_he.py   # Hebrew   -> data/seasons_he.csv
-python3 scripts/parse_en.py   # English  -> data/seasons_en.csv
-python3 scripts/build.py      # merge    -> data/seasons.csv
+python3 scripts/parse.py      # RSSSF    -> data/raw/parsed/
+python3 scripts/parse_he.py   # Hebrew   -> data/raw/parsed/
+python3 scripts/parse_en.py   # English  -> data/raw/parsed/
+python3 scripts/build.py      # merge    -> data/seasons.csv   (the one dataset)
 python3 scripts/render.py     # charts   -> out/*.svg + the two gallery pages
 ```
 
@@ -51,11 +51,11 @@ move: "Liga Alef" on a 1960 column and on a 2015 column are different depths.
 | `docs/league-history.html` | Written history of the pyramid: what tier existed when, clubs per level, the 10 seasons with no champion. Read this first. |
 | `data/structure.json` | The same history, machine-readable. Era table, per-season top-flight sizes, gap seasons, district-league seasons. |
 | `data/seasons_index.json` | Every season slot, in order, with whether it was played — the x-axis, built from the Hebrew Wikipedia navboxes. |
-| `data/seasons.csv` | 10,235 rows — `season,season_start,league,division,position,club`. 86 seasons, 1,072 clubs, tiers 1–6. |
+| `data/seasons.csv` | **The dataset.** 10,327 rows — `season,season_start,league,division,position,club,source`. 86 seasons, 1,074 clubs, tiers 1–6. |
 | `data/club_status.json` | Founding years, and spans where a club existed but fielded no senior side. |
 | `data/aliases*.json` | Source spelling → canonical club name, merging renames and mergers into one lineage. One file per source. |
 | `scripts/fetch*.py` | Cache the sources into `data/raw/` (gitignored). |
-| `scripts/parse*.py` | Raw pages → one CSV per source. |
+| `scripts/parse*.py` | Raw pages → one CSV per source, under the gitignored `data/raw/parsed/`. |
 | `scripts/build.py` | Merge the sources, checking every row against `structure.json`. |
 | `scripts/render.py` | `data/seasons.csv` → one SVG per club, plus the gallery page. |
 
@@ -86,7 +86,7 @@ Three more consequences, spelled out in `docs/league-history.html`:
 
 | Tier | Covered | Source |
 |---|---|---|
-| 1 | 1931/32 – 2025/26 | Hebrew + English Wikipedia to 1946/47, RSSSF 1949/50–2024/25, Hebrew Wikipedia for 2025/26 |
+| 1 | 1931/32 – 2025/26 | Hebrew Wikipedia to 1946/47 and for 2025/26, English for districts it lacks, RSSSF 1949/50–2024/25 |
 | 2 | 1937 – 2025/26 | Hebrew Wikipedia to 2007/08, RSSSF from 2008/09 |
 | 3 | 1954/55 – 2020/21 | English Wikipedia (Liga Artzit 1976–2009, Liga Alef otherwise) |
 | 4 | 1954/55 – 2020/21 | English Wikipedia |
