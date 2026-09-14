@@ -561,7 +561,7 @@
 <path class="champ" d="M353.6 467l4 4-4 4-4-4z"/>
 <text class="ink2" x="367.6" y="475" text-anchor="end" font-size="10.5" direction="rtl">אליפות</text>
 <path class="line" d="M595.2 471.5h16" stroke-dasharray="3 2"/>
-<text class="ink2" x="617.2" y="475" text-anchor="end" font-size="10.5" direction="rtl">מחוז אזורי — אין דירוג ארצי</text>
+<text class="ink2" x="617.2" y="475" text-anchor="end" font-size="10.5" direction="rtl">מיקום בבית אזורי, לא ארצי</text>
 <rect x="844.8000000000001" y="466" width="16" height="11" fill="url(#uncovered)"/>
 <text class="ink2" x="866.8000000000001" y="475" text-anchor="end" font-size="10.5" direction="rtl">לא נרשם מיקום</text>
 <rect x="1094.4" y="466" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>

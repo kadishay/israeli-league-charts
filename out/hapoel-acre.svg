@@ -703,7 +703,7 @@
 <path class="champ" d="M361.6 467l4 4-4 4-4-4z"/>
 <text class="ink2" x="375.6" y="475" text-anchor="start" font-size="10.5">Champions</text>
 <path class="line" d="M603.2 471.5h16" stroke-dasharray="3 2"/>
-<text class="ink2" x="625.2" y="475" text-anchor="start" font-size="10.5">Regional division — no national rank</text>
+<text class="ink2" x="625.2" y="475" text-anchor="start" font-size="10.5">Rank in a regional group, not national</text>
 <rect x="852.8000000000001" y="466" width="16" height="11" fill="url(#uncovered)"/>
 <text class="ink2" x="874.8000000000001" y="475" text-anchor="start" font-size="10.5">No position recorded</text>
 <rect x="1102.4" y="466" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>

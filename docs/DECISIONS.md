@@ -18,6 +18,14 @@ different depth in 1960 than in 2015.
 
 **Consequence.** Chart bands are labelled `TIER 1 … TIER 4`, never by league name.
 
+A related consequence for the legend: below tier two the league is split into regional
+groups, so a position there is a rank *within its group* and not a national one. Two clubs
+can both finish "1st" in the same tier in the same season — in 1965/66 Maccabi Haifa won
+Liga Alef North and Sektzia Nes Tziona won Liga Alef South. The chart draws those seasons
+with a dashed line: the depth is real, the number is not comparable across the country.
+The legend says "Rank in a regional group, not national" rather than "no national rank",
+which read as jargon.
+
 **What would change it.** Nothing. Any schema that stores a tier per league is wrong for
 most of the 20th century.
 

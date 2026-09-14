@@ -72,7 +72,7 @@ STRINGS = {
         "best": "best finish {pos}",
         "legend_line": "Final league position",
         "legend_champ": "Champions",
-        "legend_dashed": "Regional division — no national rank",
+        "legend_dashed": "Rank in a regional group, not national",
         "legend_uncovered": "No position recorded",
         "legend_notplayed": "Season not played",
         "gallery_title": "Israeli league performance, {first}–{last}",
@@ -80,6 +80,25 @@ STRINGS = {
                          "counted down the whole pyramid, so each tier continues the "
                          "one above — the band boundaries step because the top flight "
                          "has held anywhere between 10 and 18 clubs."),
+        "how": [
+            ("A solid line is a national position",
+             "One table for the whole country, so 5th means 5th in Israel."),
+            ("A dashed line is a position in a regional group",
+             "Below tier two the league splits by region, so the number is a rank "
+             "inside that group only. In 1965/66 the second tier ran as North and "
+             "South: Maccabi Haifa finished 1st in North and Sektzia Nes Tziona 1st "
+             "in South — two clubs, same tier, same season, both first. A dashed "
+             "line marks a depth that is real but a number you cannot compare "
+             "across the country."),
+            ("One column per season, not per year",
+             "There is no 1967/68 — 1966/68 was a single two-year championship. "
+             "Hatched columns are seasons never played; the line breaks rather "
+             "than guessing across them."),
+            ("Dotted band at the bottom",
+             "The club was playing but no final position is recorded, usually a "
+             "Mandate-era district or a lower tier nobody tabulated. Blank means "
+             "the club did not exist or fielded no senior side."),
+        ],
     },
     "he": {
         "dir": "rtl", "pad_l": 96,
@@ -90,13 +109,30 @@ STRINGS = {
         "best": "המקום הטוב ביותר: {pos}",
         "legend_line": "מיקום סופי בליגה",
         "legend_champ": "אליפות",
-        "legend_dashed": "מחוז אזורי — אין דירוג ארצי",
+        "legend_dashed": "מיקום בבית אזורי, לא ארצי",
         "legend_uncovered": "לא נרשם מיקום",
         "legend_notplayed": "העונה לא התקיימה",
         "gallery_title": "מיקומי קבוצות בליגות בישראל, {first}–{last}",
         "gallery_lead": ("{clubs} קבוצות על פני {seasons} עונות. המיקום נמדד לאורך כל "
                          "הפירמידה, כך שכל דרג ממשיך את זה שמעליו — גבולות הדרגים "
                          "משתנים מפני שבליגה הבכירה שיחקו בין 10 ל-18 קבוצות."),
+        "how": [
+            ("קו מלא — מיקום ארצי",
+             "טבלה אחת לכל הארץ, כך שמקום 5 הוא המקום ה-5 בישראל."),
+            ("קו מקוקו — מיקום בבית אזורי",
+             "מתחת לדרג השני הליגה מחולקת לבתים אזוריים, ולכן המספר הוא הדירוג "
+             "בתוך אותו בית בלבד. בעונת 1965/1966 שוחק הדרג השני בשני בתים: מכבי "
+             "חיפה סיימה ראשונה בבית הצפון וסקציה נס ציונה ראשונה בבית הדרום — "
+             "שתי קבוצות, אותו דרג, אותה עונה, שתיהן במקום הראשון. קו מקוקו מסמן "
+             "עומק אמיתי אך מספר שאינו בר-השוואה ארצית."),
+            ("עמודה אחת לכל עונה, לא לכל שנה",
+             "אין עונת 1967/1968 — עונת 1966/1968 הייתה אליפות אחת על פני שתי "
+             "שנים. עמודות מקווקוות הן עונות שלא התקיימו, והקו נקטע ולא מנחש."),
+            ("פס מנוקד בתחתית",
+             "הקבוצה שיחקה אך לא נרשם מיקום סופי — בדרך כלל בית מחוזי בתקופת "
+             "המנדט או דרג נמוך שלא תועד. רקע ריק פירושו שהקבוצה לא התקיימה או "
+             "לא העמידה קבוצת בוגרים."),
+        ],
     },
 }
 
@@ -474,6 +510,8 @@ def gallery_html(clubs: list[str], seasons: list[dict], lang: str,
     title = S["gallery_title"].format(first=seasons[0]["label"],
                                       last=seasons[-1]["label"])
     lead = S["gallery_lead"].format(clubs=len(clubs), seasons=len(seasons))
+    how = [f'    <div><b>{esc(h)}</b><span>{esc(t)}</span></div>'
+           for h, t in S["how"]]
     return f"""<title>{esc(title)}</title>
 <style>
   :root {{
@@ -493,6 +531,12 @@ def gallery_html(clubs: list[str], seasons: list[dict], lang: str,
   h1 {{ font-size:clamp(1.5rem,4vw,2.1rem); line-height:1.15; font-weight:600;
         letter-spacing:-.015em; margin:0 0 .7rem; text-wrap:balance; }}
   p {{ color:var(--ink2); max-width:68ch; margin:0; }}
+  .how {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));
+          gap:1px; background:var(--rule); border:1px solid var(--rule);
+          border-radius:3px; }}
+  .how div {{ background:var(--surface); padding:.85rem 1rem; }}
+  .how b {{ display:block; font-size:.85rem; margin-bottom:.15rem; }}
+  .how span {{ font-size:.82rem; color:var(--ink2); }}
   .charts {{ display:flex; flex-direction:column; gap:1.4rem; }}
   figure {{ margin:0; border:1px solid var(--rule); border-radius:3px;
             background:var(--surface); overflow:hidden; }}
@@ -506,6 +550,9 @@ def gallery_html(clubs: list[str], seasons: list[dict], lang: str,
     <h1>{esc(title)}</h1>
     <p>{esc(lead)}</p>
   </header>
+  <div class="how">
+{chr(10).join(how)}
+  </div>
   <div class="charts">
 {chr(10).join(cards)}
   </div>
