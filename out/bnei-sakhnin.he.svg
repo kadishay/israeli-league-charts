@@ -455,19 +455,6 @@
 <rect x="343" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="369" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="395" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
-<rect x="759" y="376" width="13" height="55" fill="url(#uncovered)"/>
-<rect x="772" y="376" width="13" height="55" fill="url(#uncovered)"/>
-<rect x="785" y="376" width="13" height="55" fill="url(#uncovered)"/>
-<rect x="798" y="376" width="13" height="55" fill="url(#uncovered)"/>
-<rect x="811" y="376" width="13" height="55" fill="url(#uncovered)"/>
-<rect x="824" y="376" width="13" height="55" fill="url(#uncovered)"/>
-<rect x="837" y="366" width="13" height="65" fill="url(#uncovered)"/>
-<rect x="850" y="366" width="13" height="65" fill="url(#uncovered)"/>
-<rect x="863" y="376" width="13" height="55" fill="url(#uncovered)"/>
-<rect x="876" y="376" width="13" height="55" fill="url(#uncovered)"/>
-<rect x="889" y="376" width="13" height="55" fill="url(#uncovered)"/>
-<rect x="902" y="376" width="13" height="55" fill="url(#uncovered)"/>
-<rect x="915" y="386" width="13" height="45" fill="url(#uncovered)"/>
 <rect class="area" x="928" y="241" width="13" height="190" fill-opacity=".07"/>
 <rect class="area" x="941" y="246" width="13" height="185" fill-opacity=".07"/>
 <rect class="area" x="954" y="236" width="13" height="195" fill-opacity=".07"/>

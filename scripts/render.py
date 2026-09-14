@@ -233,9 +233,16 @@ def inactive_spans() -> dict[str, list[dict]]:
     return json.loads(path.read_text()).get("inactive", {}) if path.exists() else {}
 
 
+def abandoned_below() -> dict[str, int]:
+    """Season label -> the tier from which that season has no final table."""
+    d = json.loads((DATA / "structure.json").read_text())
+    return {a["season"]: a["tier"] for a in d.get("abandoned_below", [])}
+
+
 def render(club: str, seasons: list[dict], history: dict[str, dict],
            lang: str = "en", name: str | None = None,
-           inactive: list[dict] | None = None) -> str:
+           inactive: list[dict] | None = None,
+           abandoned: dict[str, int] | None = None) -> str:
     S = STRINGS[lang]
     pad_l = S["pad_l"]
     label = name or club
@@ -249,11 +256,24 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
     recorded = [i for i, s in enumerate(seasons) if s["label"] in history]
     first, last = (recorded[0], recorded[-1]) if recorded else (0, -1)
     dormant = inactive or []
+    cut = abandoned or {}
+
+    def nearest_tier(i: int) -> int:
+        """The tier the club was at either side of a season it has no row for."""
+        near = [abs(j - i) for j in recorded]
+        j = recorded[near.index(min(near))]
+        return history[seasons[j]["label"]]["tier"]
 
     def active(i: int, season: dict) -> bool:
         if not (first <= i <= last):
             return False
-        return not any(sp["from"] <= season["start"] <= sp["to"] for sp in dormant)
+        if any(sp["from"] <= season["start"] <= sp["to"] for sp in dormant):
+            return False
+        # A season abandoned below some tier has no table to be missing from,
+        # for a club that was playing at or below that tier.
+        if season["label"] in cut and nearest_tier(i) >= cut[season["label"]]:
+            return False
+        return True
     maxrank = max(sum(s["bands"]) for s in seasons) + BOTTOM_BAND
     plot_w, plot_h = len(seasons) * COL, maxrank * ROW
     width, height = pad_l + plot_w + PAD_R, PAD_T + plot_h + PAD_B
@@ -507,21 +527,31 @@ def main() -> None:
             raise SystemExit(f"no data for: {', '.join(missing)}")
         clubs = args.clubs
     else:
-        clubs = sorted(by_club, key=lambda c: (
+        ranked = sorted(by_club, key=lambda c: (
             -sum(1 for e in by_club[c].values() if e["tier"] == 1),
-            -len(by_club[c]), c))[:args.top]
+            -len(by_club[c]), c))
+        latest = seasons[-1]["label"]
+        current = {c for c in by_club
+                   if (e := by_club[c].get(latest)) and e["tier"] == 1}
+        clubs = ranked[:args.top]
+        missing = [c for c in ranked if c in current and c not in clubs]
+        clubs += missing
+        if missing:
+            print(f"  added {len(missing)} club(s) in the current top flight: "
+                  f"{', '.join(missing)}")
 
     OUT.mkdir(exist_ok=True)
     names = hebrew_names()
     missing_he = [c for c in clubs if c not in names]
-    dormant = inactive_spans()
+    dormant, cut = inactive_spans(), abandoned_below()
     for club in clubs:
         spans = dormant.get(club)
         (OUT / f"{slug(club)}.svg").write_text(
-            render(club, seasons, by_club[club], "en", inactive=spans))
+            render(club, seasons, by_club[club], "en", inactive=spans,
+                   abandoned=cut))
         (OUT / f"{slug(club)}.he.svg").write_text(
             render(club, seasons, by_club[club], "he", names.get(club, club),
-                   inactive=spans))
+                   inactive=spans, abandoned=cut))
     for lang, suffix, out_name in [("en", "", "index.html"), ("he", ".he", "index.he.html")]:
         body = gallery_html(clubs, seasons, lang,
                             names if lang == "he" else {}, suffix)

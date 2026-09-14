@@ -530,7 +530,6 @@
 <rect class="area" x="1214" y="251" width="13" height="180" fill-opacity=".07"/>
 <rect class="area" x="1227" y="236" width="13" height="195" fill-opacity=".07"/>
 <rect class="area" x="1240" y="236" width="13" height="195" fill-opacity=".07"/>
-<rect x="1253" y="386" width="13" height="45" fill="url(#uncovered)"/>
 <rect class="area" x="1266" y="241" width="13" height="190" fill-opacity=".07"/>
 <path class="line" d="M187 101h13"/>
 <path class="line" d="M200 101h13"/>

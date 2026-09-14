@@ -332,5 +332,13 @@
     "remains concerning the number of titles won by Hapoel Tel Aviv'. This file follows the",
     "Hebrew navbox, which does not strike either season through, so both are treated as",
     "played. Anything that reports title counts should say which convention it uses."
+  ],
+  "abandoned_below": [
+    {
+      "season": "2019/2020",
+      "tier": 3,
+      "reason": "The IFA stopped play and froze the non-professional leagues after 25 rounds because of COVID-19, so tiers three and below have no final table for this season.",
+      "source": "he.wikipedia.org/wiki/ליגה ב' (כדורגל)"
+    }
   ]
 }

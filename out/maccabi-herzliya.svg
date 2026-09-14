@@ -528,7 +528,6 @@
 <rect class="area" x="1222" y="206" width="13" height="225"/>
 <rect class="area" x="1235" y="216" width="13" height="215"/>
 <rect class="area" x="1248" y="246" width="13" height="185" fill-opacity=".07"/>
-<rect x="1261" y="386" width="13" height="45" fill="url(#uncovered)"/>
 <rect class="area" x="1274" y="236" width="13" height="195" fill-opacity=".07"/>
 <rect x="1287" y="386" width="13" height="45" fill="url(#uncovered)"/>
 <rect x="1300" y="386" width="13" height="45" fill="url(#uncovered)"/>

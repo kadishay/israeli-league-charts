@@ -453,11 +453,8 @@
 <rect x="312" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="338" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="351" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
-<rect class="area" x="364" y="181" width="13" height="250" fill-opacity=".07"/>
 <rect x="377" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
-<rect x="390" y="286" width="13" height="145" fill="url(#uncovered)"/>
 <rect x="403" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
-<rect x="416" y="286" width="13" height="145" fill="url(#uncovered)"/>
 <rect class="area" x="429" y="311" width="13" height="120" fill-opacity=".07"/>
 <rect class="area" x="442" y="276" width="13" height="155" fill-opacity=".07"/>
 <rect x="455" y="331" width="13" height="100" fill="url(#uncovered)"/>
@@ -501,18 +498,7 @@
 <rect class="area" x="949" y="256" width="13" height="175" fill-opacity=".07"/>
 <rect class="area" x="962" y="271" width="13" height="160" fill-opacity=".07"/>
 <rect class="area" x="975" y="311" width="13" height="120" fill-opacity=".07"/>
-<rect x="988" y="396" width="13" height="35" fill="url(#uncovered)"/>
-<rect x="1001" y="326" width="13" height="105" fill="url(#uncovered)"/>
-<rect x="1014" y="331" width="13" height="100" fill="url(#uncovered)"/>
-<rect x="1027" y="331" width="13" height="100" fill="url(#uncovered)"/>
-<rect x="1040" y="326" width="13" height="105" fill="url(#uncovered)"/>
-<rect x="1053" y="326" width="13" height="105" fill="url(#uncovered)"/>
-<rect x="1066" y="326" width="13" height="105" fill="url(#uncovered)"/>
-<rect x="1079" y="326" width="13" height="105" fill="url(#uncovered)"/>
-<rect x="1092" y="326" width="13" height="105" fill="url(#uncovered)"/>
-<rect x="1105" y="326" width="13" height="105" fill="url(#uncovered)"/>
 <rect x="1118" y="326" width="13" height="105" fill="url(#uncovered)"/>
-<path class="line" d="M364 181h13" stroke-dasharray="3 2"/>
 <path class="line" d="M429 311h13" stroke-dasharray="3 2"/>
 <path class="line" d="M442 311V276"/>
 <path class="line" d="M442 276h13" stroke-dasharray="3 2"/>

@@ -14,14 +14,43 @@
     "",
     "'from'/'to' are the calendar years a season started, inclusive."
   ],
-
   "inactive": {
     "Shimshon Tel Aviv": [
       {
-        "from": 2000, "to": 2013,
+        "from": 2000,
+        "to": 2013,
         "reason": "Merged with Beitar Tel Aviv in 2000 as Beitar Shimshon Tel Aviv; Shimshon left the merger in 2011 and only re-formed a senior team in 2014. The merged club's seasons are recorded under Beitar Tel Aviv.",
         "source": "he.wikipedia.org/wiki/שמשון תל אביב"
       }
+    ],
+    "Hapoel Yehud": [
+      {
+        "from": 1998,
+        "to": 2007,
+        "reason": "Relegated to Liga Bet in 1998 and dissolved. A 2004 revival as Hapoel Monosson Yehud folded within months in Liga Gimel; the club was re-founded in 2008.",
+        "source": "he.wikipedia.org/wiki/הפועל יהוד — infobox: dissolved 1998, and 2004 for Hapoel Monosson Yehud"
+      }
     ]
+  },
+  "_founded_comment": [
+    "Founding years taken from each club's Hebrew Wikipedia infobox. build.py drops",
+    "any row dated before a club was founded and reports it: such a row is an",
+    "over-merged alias, not a fact. Hakoah Ramat Gan was founded in 1962, so the",
+    "1938-1946 Liga Bet rows the alias map was giving it belonged to predecessor",
+    "clubs - and 1946/47 had two of them at once, a 2nd place and a 4th."
+  ],
+  "founded": {
+    "Hakoah Ramat Gan": 1962,
+    "Maccabi Herzliya": 1932,
+    "Hapoel Ra'anana": 1938,
+    "Hapoel Ironi Herzliya": 1936,
+    "Hapoel Acre": 1949,
+    "Hapoel Yehud": 1950,
+    "Bnei Sakhnin": 1982,
+    "Shimshon Tel Aviv": 1949,
+    "Hapoel Jerusalem": 1926,
+    "Hakoah Tel Aviv": 1934,
+    "Ironi Kiryat Shmona": 2000,
+    "Ashdod S.C.": 1999
   }
 }

@@ -90,6 +90,20 @@ def main() -> None:
         taken |= {key(r) for r in source}
         added[name] = kept
 
+    # A club cannot have a position before it was founded. Such a row means an
+    # alias merged two clubs that share a name, so it is dropped and reported.
+    status = DATA / "club_status.json"
+    founded = json.loads(status.read_text()).get("founded", {}) if status.exists() else {}
+    impossible: dict[str, int] = defaultdict(int)
+    keep = []
+    for r in rows:
+        year = founded.get(r["club"])
+        if year and int(r["season_start"]) < year:
+            impossible[f"{r['club']} (founded {year}): {r['season']}"] += 1
+        else:
+            keep.append(r)
+    rows = keep
+
     # A season that was abandoned can still have a partial table on Wikipedia
     # (1947/48 does). A partial table is not a final position, so those rows are
     # dropped and the season is left as a gap - but the drop is reported, never
@@ -136,6 +150,9 @@ def main() -> None:
     print(f"  rows by tier: {dict(sorted(by_tier.items()))}")
     print(f"  seasons: {len({r['season'] for r in rows})}, "
           f"clubs: {len({r['club'] for r in rows})}")
+    if impossible:
+        print(f"  dropped {sum(impossible.values())} row(s) dated before the club "
+              f"existed: {', '.join(sorted(impossible))}")
     if orphans:
         print(f"  {sum(orphans.values())} rows have a season label that is not a "
               f"chart column and will not be drawn: {', '.join(sorted(orphans))}")

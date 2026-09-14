@@ -9,9 +9,11 @@ data, updated by hand each May. This repo generates them instead.
 
 ## Status
 
-Working end to end. `out/` holds charts for the 32 clubs with the most top-flight
-seasons, in English and Hebrew, plus `out/index.html` and `out/index.he.html` to view
-them together.
+Working end to end. `out/` holds charts for the 32 clubs with the most top-flight seasons
+**plus every club currently in the top flight**, in English and Hebrew, with
+`out/index.html` and `out/index.he.html` to view them together. All 14 clubs in the 2025/26
+Ligat ha'Al are covered; the two the ranking alone would have missed are Ironi Tiberias and
+Maccabi Bnei Reineh, both recent arrivals.
 
 ```sh
 python3 scripts/fetch.py      # cache the RSSSF pages
@@ -92,15 +94,28 @@ into Hakoah Maccabi Ramat Gan in 1959 — carried sixty years of dotted marks cl
 missing record, and the same held for Hapoel Yehud and Maccabi Rehovot, both written up in
 the past tense.
 
-Interior dormant spells need a source, so they live in `data/club_status.json`. The first
-entry is Shimshon Tel Aviv: they merged with Beitar Tel Aviv in 2000 as Beitar Shimshon Tel
-Aviv, left the merger in 2011 and only re-formed a senior team in 2014, so 2000/01–2013/14
-is the club's absence rather than the data's. That one distinction took their gap count from
-22 to 3, and across the 32 clubs it took the total from 408 to **160**.
+Interior dormant spells need a source, so they live in `data/club_status.json`, each with a
+reason and a citation:
+
+- **Shimshon Tel Aviv, 2000/01–2013/14.** Merged with Beitar Tel Aviv as Beitar Shimshon Tel
+  Aviv, left the merger in 2011, re-formed a senior team in 2014. Their gaps: 22 → 3.
+- **Hapoel Yehud, 1998/99–2007/08.** Relegated to Liga Bet in 1998 and dissolved; a 2004
+  revival as Hapoel Monosson Yehud folded within months; re-founded 2008. Their gaps: 17 → 5.
+- **2019/20 below tier two.** The IFA froze the non-professional leagues after 25 rounds
+  because of COVID-19, so there is no final table to be missing from. This alone accounts
+  for seven clubs' apparent gaps, and lives in `structure.json` as `abandoned_below`.
+
+The same file carries each club's **founding year**, and `build.py` drops any row dated
+before it. A position predating a club is not a fact but an over-merged alias: Hakoah Ramat
+Gan was founded in 1962, yet the alias map was giving it Liga Bet rows from 1938 to 1946 —
+and 1946/47 had *two* of them, a 2nd place and a 4th, which is two different clubs collapsed
+into one name.
+
+Together these took the unknown seasons across the charted clubs from 408 to **142**.
 
 ### What is still missing, and why
 
-Of the 32 clubs charted, **10 have no unknown seasons at all**. The remaining 160 are
+Of the 34 clubs charted, **13 have no unknown seasons at all**. The remaining 142 are
 concentrated in two places, and both were checked rather than assumed:
 
 - **Mandate-era districts that no article tabulates.** Between 1934/35 and 1946/47 both the

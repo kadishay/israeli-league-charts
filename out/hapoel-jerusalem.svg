@@ -534,7 +534,6 @@
 <rect class="area" x="1222" y="216" width="13" height="215"/>
 <rect class="area" x="1235" y="251" width="13" height="180" fill-opacity=".07"/>
 <rect class="area" x="1248" y="296" width="13" height="135" fill-opacity=".07"/>
-<rect x="1261" y="386" width="13" height="45" fill="url(#uncovered)"/>
 <rect class="area" x="1274" y="151" width="13" height="280"/>
 <rect class="area" x="1287" y="131" width="13" height="300"/>
 <rect class="area" x="1300" y="91" width="13" height="340"/>

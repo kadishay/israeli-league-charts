@@ -41,6 +41,12 @@ PLAYOFF_HEADER = re.compile(
     r"^\s*Promotion(?:/relegation)?\s+play-?off:?\s*$", re.I | re.M
 )
 
+# (season label, RSSSF's club name) -> the club it actually was. RSSSF heads
+# the 2007/08 table with "Hapoel Kiriat-Shmona", but Hapoel and Maccabi Kiryat
+# Shmona had merged in 2000 into what was by then Ironi Kiryat Shmona, whose
+# article records 2007/08 as its first top-flight season, finishing third.
+CLUB_FIXUPS = {("2007/2008", "Hapoel Kiriat-Shmona"): "Ironi Kiriat-Shmona"}
+
 DISCREPANCIES: list[str] = []
 SKIPPED: set[str] = set()
 
@@ -194,7 +200,8 @@ def main() -> None:
             unknown.add(key)
         return aliases.get(key, key)
 
-    rows = [(y, lab, lg, p, canon(c)) for y, lab, lg, p, c in rows]
+    rows = [(y, lab, lg, p, canon(CLUB_FIXUPS.get((lab, c), c)))
+            for y, lab, lg, p, c in rows]
     rows.sort(key=lambda r: (r[0], r[2], r[3]))
 
     with OUT.open("w", newline="") as f:

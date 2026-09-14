@@ -455,8 +455,14 @@
 <rect x="343" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="369" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="395" y="76" width="13" height="355" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect class="area" x="1006" y="256" width="13" height="175" fill-opacity=".07"/>
+<rect class="area" x="1019" y="231" width="13" height="200"/>
+<rect class="area" x="1032" y="201" width="13" height="230"/>
+<rect x="1045" y="326" width="13" height="105" fill="url(#uncovered)"/>
+<rect x="1058" y="326" width="13" height="105" fill="url(#uncovered)"/>
+<rect x="1071" y="326" width="13" height="105" fill="url(#uncovered)"/>
 <rect class="area" x="1084" y="136" width="13" height="295"/>
-<rect x="1097" y="326" width="13" height="105" fill="url(#uncovered)"/>
+<rect class="area" x="1097" y="86" width="13" height="345"/>
 <rect class="area" x="1110" y="131" width="13" height="300"/>
 <rect class="area" x="1123" y="156" width="13" height="275"/>
 <rect class="area" x="1136" y="96" width="13" height="335"/>
@@ -475,7 +481,15 @@
 <rect class="area" x="1305" y="146" width="13" height="285"/>
 <rect class="area" x="1318" y="116" width="13" height="315"/>
 <rect class="area" x="1331" y="111" width="13" height="320"/>
+<path class="line" d="M1006 256h13" stroke-dasharray="3 2"/>
+<path class="line" d="M1019 256V231"/>
+<path class="line" d="M1019 231h13"/>
+<path class="line" d="M1032 231V201"/>
+<path class="line" d="M1032 201h13"/>
 <path class="line" d="M1084 136h13"/>
+<path class="line" d="M1097 136V86"/>
+<path class="line" d="M1097 86h13"/>
+<path class="line" d="M1110 86V131"/>
 <path class="line" d="M1110 131h13"/>
 <path class="line" d="M1123 131V156"/>
 <path class="line" d="M1123 156h13"/>
@@ -540,7 +554,7 @@
 <path class="rule" d="M1344 431v5" fill="none"/>
 <text class="ink3" x="1344" y="448" text-anchor="end" font-size="10.5">25/26</text>
 <text class="ink" x="96" y="33" text-anchor="end" font-size="19" font-weight="600" direction="rtl" letter-spacing="-.01em">עירוני קריית שמונה</text>
-<text class="ink2" x="96" y="54" text-anchor="end" font-size="11.5" direction="rtl">16 עונות מתוך 86 בליגה הבכירה · אליפות אחת</text>
+<text class="ink2" x="96" y="54" text-anchor="end" font-size="11.5" direction="rtl">17 עונות מתוך 86 בליגה הבכירה · אליפות אחת</text>
 <text class="ink3" x="1344" y="33" text-anchor="start" font-size="9.5" direction="rtl" letter-spacing=".08em">מיקום בליגה לפי עונה</text>
 <path class="line" d="M96 471.5h16"/><rect class="area" x="96" y="471.5" width="16" height="8"/>
 <text class="ink2" x="118" y="475" text-anchor="end" font-size="10.5" direction="rtl">מיקום סופי בליגה</text>

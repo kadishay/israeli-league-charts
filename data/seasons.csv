@@ -64,7 +64,6 @@ season,season_start,league,division,position,club
 1938,1938,Liga Bet,,1,Degel Zion Tel Aviv
 1938,1938,Liga Bet,,2,Beitar Tel Aviv
 1938,1938,Liga Bet,,3,Maccabi Gedera
-1938,1938,Liga Bet,,4,Hakoah Ramat Gan
 1938,1938,Liga Bet,,5,Maccabi Rehovot
 1938,1938,Liga Bet,,6,Hapoel Rishon LeZion
 1938,1938,Liga Bet,South,1,Degel Zion Tel Aviv
@@ -179,7 +178,6 @@ season,season_start,league,division,position,club
 1940,1940,Liga Bet,Samaria,7,Maccabi Netanya
 1940,1940,Liga Bet,Samaria,8,Hapoel Netanya
 1940,1940,Liga Bet,Samaria,9,Beitar Netanya
-1940,1940,Liga Bet,Samaria,10,Hakoah Ramat Gan
 1940,1940,Liga Bet,Samaria,10,Maccabi Ramat Gan
 1940,1940,Liga Bet,South,1,Royal Scots Greys
 1940,1940,Liga Bet,South,2,Hapoel Rishon LeZion
@@ -251,7 +249,6 @@ season,season_start,league,division,position,club
 1941/1942,1941,Liga Bet,South,1,Hapoel Rehovot
 1941/1942,1941,Liga Bet,South,2,Bnei Yehuda Tel Aviv
 1941/1942,1941,Liga Bet,South,3,Mr. Barker XI
-1941/1942,1941,Liga Bet,South,4,Hakoah Ramat Gan
 1941/1942,1941,Liga Bet,South,4,Maccabi Ramat Gan
 1941/1942,1941,Liga Bet,South,5,Fire Brigade Rehovot
 1941/1942,1941,Liga Bet,South,6,Hapoel HaNoar HaOved
@@ -351,10 +348,8 @@ season,season_start,league,division,position,club
 1946/1947,1946,Liga Bet,North,12,Degel Yehuda Haifa
 1946/1947,1946,Liga Bet,North,13,Brit Poalei Eretz Yisrael Haifa
 1946/1947,1946,Liga Bet,South,1,Hapoel HaTzafon Tel Aviv
-1946/1947,1946,Liga Bet,South,2,Hakoah Ramat Gan
 1946/1947,1946,Liga Bet,South,2,Hakoah Tel Aviv
 1946/1947,1946,Liga Bet,South,3,Hapoel Kfar Saba
-1946/1947,1946,Liga Bet,South,4,Hakoah Ramat Gan
 1946/1947,1946,Liga Bet,South,4,Maccabi Ramat Gan
 1946/1947,1946,Liga Bet,South,5,Maccabi HaTzafon Tel Aviv
 1946/1947,1946,Liga Bet,South,6,Maccabi Gedera
@@ -400,7 +395,6 @@ season,season_start,league,division,position,club
 1949/1950,1949,Liga Meuhedet,Sharon,3,Hapoel Ra'anana
 1949/1950,1949,Liga Meuhedet,Sharon,4,Hapoel Kfar Saba
 1949/1950,1949,Liga Meuhedet,Sharon,6,Beitar Ramat Gan
-1949/1950,1949,Liga Meuhedet,Sharon,9,Hapoel Yehud
 1949/1950,1949,Liga Meuhedet,Tel Aviv,1,Bnei Yehuda Tel Aviv
 1949/1950,1949,Liga Meuhedet,Tel Aviv,3,Maccabi Jaffa
 1949/1950,1949,Liga Meuhedet,Tel Aviv,4,Shimshon Tel Aviv
@@ -4268,7 +4262,6 @@ season,season_start,league,division,position,club
 1981/1982,1981,Liga Gimel,Bay,4,Hapoel Bu'eine
 1981/1982,1981,Liga Gimel,Bay,5,Hapoel Bnei Mazra'a
 1981/1982,1981,Liga Gimel,Bay,6,Maccabi Tzur Shalom
-1981/1982,1981,Liga Gimel,Bay,7,Bnei Sakhnin
 1981/1982,1981,Liga Gimel,Bay,8,Maccabi Tel Hanan
 1981/1982,1981,Liga Gimel,Bay,9,Hapoel Abu Snan
 1981/1982,1981,Liga Gimel,Bay,10,Hapoel Halissa
@@ -6391,7 +6384,7 @@ season,season_start,league,division,position,club
 1999/2000,1999,Ligat ha'Al,,12,Hapoel Kfar Saba
 1999/2000,1999,Ligat ha'Al,,13,Maccabi Herzliya
 1999/2000,1999,Ligat ha'Al,,14,Hapoel Jerusalem
-2000/2001,2000,Liga Alef,North,1,Hapoel Ironi Kiryat Shmona
+2000/2001,2000,Liga Alef,North,1,Ironi Kiryat Shmona
 2000/2001,2000,Liga Alef,North,2,Hapoel Hadera
 2000/2001,2000,Liga Alef,North,3,Maccabi Hadera
 2000/2001,2000,Liga Alef,North,4,Hapoel Kafr Kanna
@@ -6540,7 +6533,7 @@ season,season_start,league,division,position,club
 2001/2002,2001,Liga Artzit,,5,Hapoel Ashkelon
 2001/2002,2001,Liga Artzit,,6,Hapoel Acre
 2001/2002,2001,Liga Artzit,,7,Ironi Nir Ramat HaSharon
-2001/2002,2001,Liga Artzit,,8,Hapoel Ironi Kiryat Shmona
+2001/2002,2001,Liga Artzit,,8,Ironi Kiryat Shmona
 2001/2002,2001,Liga Artzit,,9,Hapoel Bat Yam
 2001/2002,2001,Liga Artzit,,10,Hapoel Majd al-Krum
 2001/2002,2001,Liga Artzit,,11,Hapoel Taibe
@@ -6663,7 +6656,7 @@ season,season_start,league,division,position,club
 2002/2003,2002,Liga Alef,South,13,Beitar Kiryat Gat
 2002/2003,2002,Liga Alef,South,14,Maccabi Jaffa
 2002/2003,2002,Liga Artzit,,1,Hakoah Ramat Gan
-2002/2003,2002,Liga Artzit,,2,Hapoel Ironi Kiryat Shmona
+2002/2003,2002,Liga Artzit,,2,Ironi Kiryat Shmona
 2002/2003,2002,Liga Artzit,,3,Maccabi Ramat Amidar
 2002/2003,2002,Liga Artzit,,4,Hapoel Acre
 2002/2003,2002,Liga Artzit,,5,Hapoel Majd al-Krum
@@ -7636,7 +7629,7 @@ season,season_start,league,division,position,club
 2007/2008,2007,Liga Leumit,,12,Hapoel Nof HaGalil
 2007/2008,2007,Ligat ha'Al,,1,Beitar Jerusalem
 2007/2008,2007,Ligat ha'Al,,2,Maccabi Netanya
-2007/2008,2007,Ligat ha'Al,,3,Hapoel Kiryat Shmona
+2007/2008,2007,Ligat ha'Al,,3,Ironi Kiryat Shmona
 2007/2008,2007,Ligat ha'Al,,4,Bnei Sakhnin
 2007/2008,2007,Ligat ha'Al,,5,Maccabi Haifa
 2007/2008,2007,Ligat ha'Al,,6,Maccabi Tel Aviv

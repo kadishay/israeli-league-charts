@@ -522,7 +522,6 @@
 <rect x="1214" y="386" width="13" height="45" fill="url(#uncovered)"/>
 <rect class="area" x="1227" y="246" width="13" height="185" fill-opacity=".07"/>
 <rect class="area" x="1240" y="261" width="13" height="170" fill-opacity=".07"/>
-<rect x="1253" y="386" width="13" height="45" fill="url(#uncovered)"/>
 <rect class="area" x="1266" y="226" width="13" height="205" fill-opacity=".07"/>
 <path class="line" d="M356 161h13" stroke-dasharray="3 2"/>
 <path class="line" d="M421 321h13" stroke-dasharray="3 2"/>
