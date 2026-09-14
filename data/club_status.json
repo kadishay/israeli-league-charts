@@ -52,5 +52,16 @@
     "Hakoah Tel Aviv": 1934,
     "Ironi Kiryat Shmona": 2000,
     "Ashdod S.C.": 1999
-  }
+  },
+  "_always_chart_comment": [
+    "Clubs in the current top two tiers that the dataset cannot see, because the",
+    "season they were promoted in is one this project deliberately excludes as",
+    "in-progress, or they came up through a tier whose coverage stops earlier.",
+    "render.py always charts these. Update when the leagues change.",
+    "Source: he.wikipedia.org/wiki/הליגה הלאומית בכדורגל (2026/27 line-up)."
+  ],
+  "always_chart": [
+    "Maccabi Ahi Nazareth",
+    "Maccabi Kiryat Gat"
+  ]
 }

@@ -303,6 +303,12 @@ def inactive_spans() -> dict[str, list[dict]]:
     return json.loads(path.read_text()).get("inactive", {}) if path.exists() else {}
 
 
+def always_chart() -> list[str]:
+    """Clubs to chart regardless of the ranking, beyond what the data can see."""
+    path = DATA / "club_status.json"
+    return json.loads(path.read_text()).get("always_chart", []) if path.exists() else []
+
+
 def abandoned_below() -> dict[str, int]:
     """Season label -> the tier from which that season has no final table."""
     d = json.loads((DATA / "structure.json").read_text())
@@ -612,14 +618,17 @@ def main() -> None:
         ranked = sorted(by_club, key=lambda c: (
             -sum(1 for e in by_club[c].values() if e["tier"] == 1),
             -len(by_club[c]), c))
+        # Always chart the current top two tiers, however short a club's history:
+        # a chart set that leaves out a club playing this season is incomplete.
         latest = seasons[-1]["label"]
         current = {c for c in by_club
-                   if (e := by_club[c].get(latest)) and e["tier"] == 1}
+                   if (e := by_club[c].get(latest)) and e["tier"] in (1, 2)}
+        current |= {c for c in always_chart() if c in by_club}
         clubs = ranked[:args.top]
         missing = [c for c in ranked if c in current and c not in clubs]
         clubs += missing
         if missing:
-            print(f"  added {len(missing)} club(s) in the current top flight: "
+            print(f"  added {len(missing)} club(s) from the current top two tiers: "
                   f"{', '.join(missing)}")
 
     OUT.mkdir(exist_ok=True)

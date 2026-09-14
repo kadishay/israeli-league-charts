@@ -10,10 +10,15 @@ data, updated by hand each May. This repo generates them instead.
 ## Status
 
 Working end to end. `out/` holds charts for the 32 clubs with the most top-flight seasons
-**plus every club currently in the top flight**, in English and Hebrew, with
-`out/index.html` and `out/index.he.html` to view them together. All 14 clubs in the 2025/26
-Ligat ha'Al are covered; the two the ranking alone would have missed are Ironi Tiberias and
-Maccabi Bnei Reineh, both recent arrivals.
+**plus every club currently in the top two tiers** — 42 clubs, in English and Hebrew, with
+`out/index.html` and `out/index.he.html` to view them together. All 14 clubs in Ligat ha'Al
+and all 16 in Liga Leumit are covered.
+
+Ten of those 42 are there because of the top-two-tiers rule rather than the ranking. Two
+could not be caught by any rule over this dataset — Maccabi Ahi Nazareth and Maccabi Kiryat
+Gat came up through tiers whose coverage stops in 2020/21 — so they are named in
+`data/club_status.json` under `always_chart`, with the league article as the source. Update
+that list when the leagues change.
 
 ```sh
 python3 scripts/fetch.py      # cache the RSSSF pages

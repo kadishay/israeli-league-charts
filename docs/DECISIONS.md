@@ -232,11 +232,20 @@ standalone chart off to one side. Year ticks stay LTR — they are digits.
 
 ---
 
-## 15. Club selection: the top 32 by top-flight seasons, plus the entire current top flight
+## 15. Club selection: the top 32 by top-flight seasons, plus the entire current top two tiers
 
-**Why the second half.** Ranking by top-flight seasons alone missed Ironi Tiberias and
-Maccabi Bnei Reineh, both recent arrivals to Ligat ha'Al. All 14 clubs in the 2025/26 top
-flight are now covered regardless of how short their history is.
+**Why the second half.** A chart set that leaves out a club playing this season is
+incomplete, however short its history. Ranking by top-flight seasons alone missed Ironi
+Tiberias and Maccabi Bnei Reineh in the top flight, and seven of the sixteen Liga Leumit
+clubs — including Hapoel Kfar Shalem and Hapoel Afula, which have 58 and 49 recorded
+seasons each.
+
+**The limit of a data-driven rule.** Two clubs cannot be caught by any rule over this
+dataset: Maccabi Ahi Nazareth was last recorded in 2022/23 and Maccabi Kiryat Gat in
+2020/21 at tier five, and both climbed back through tiers whose coverage stops there. They
+are named explicitly in `club_status.json` under `always_chart`, sourced from the league
+article. This is the one place the club set needs a manual nudge each season, and it is
+better than either charting nobody new or inferring promotions the data cannot see.
 
 ---
 
