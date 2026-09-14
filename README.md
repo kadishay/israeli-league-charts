@@ -59,6 +59,28 @@ move: "Liga Alef" on a 1960 column and on a 2015 column are different depths.
 | `scripts/build.py` | Merge the sources, checking every row against `structure.json`. |
 | `scripts/render.py` | `data/seasons.csv` → one SVG per club, plus the gallery page. |
 
+## Picking this up again
+
+Where things stand, and what is worth knowing before changing anything:
+
+- The pipeline runs end to end from the commands above. `data/seasons.csv` (10,327 rows) is
+  the only committed dataset and carries a `source` column; the per-source CSVs are build
+  artefacts under the gitignored `data/raw/parsed/`.
+- **Hebrew Wikipedia is the source of truth** where sources disagree — it wins the 964 rows
+  it shares with English. It shares none with RSSSF. It cannot be the only source: 1,324
+  rows, no top flight between 1949/50 and 2024/25, nothing below tier two.
+- 42 clubs are charted in two languages, 84 SVGs in `out/`, committed. 16 have no unknown
+  seasons; the other 26 account for 178, every one of them checked against the club's own
+  article and explained in [`docs/CLUBS.md`](docs/CLUBS.md).
+- Read [`docs/DECISIONS.md`](docs/DECISIONS.md) before touching the schema or the renderer.
+  Several decisions look like bugs until you know why, and the cheap alternatives produce
+  plausible-looking wrong output rather than errors.
+- The one thing that needs a manual nudge each season is `always_chart` in
+  `data/club_status.json`, for clubs promoted into the top two tiers through a tier whose
+  coverage has stopped.
+- Four questions are open rather than decided; they are listed at the end of
+  `docs/DECISIONS.md`. The live one is the Hakoah lineage.
+
 ## The thing to get right
 
 **A club's tier is not a property of its league name.** Liga Alef has been tier 1, 2, 3

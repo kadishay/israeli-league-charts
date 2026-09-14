@@ -222,7 +222,25 @@ a band are separable enough for the curve to be worth reading.
 
 ---
 
-## 13. Charts commit to one light palette
+## 13. What each chart says in words
+
+The title is the club. The line under it is the one sentence of context, and it changes
+shape depending on the club:
+
+- reached tier 1: `86 of 86 seasons in the top flight · 25 championships`
+- reached tier 1, never won: `43 of 86 seasons in the top flight · best finish 2nd`
+- never reached tier 1: `58 seasons recorded · highest level reached: tier 2`
+
+The third form exists because five of the 42 clubs have never played in the top flight, and
+`0 of 86 seasons in the top flight` is true and tells the reader nothing — worst for Hapoel
+Kfar Shalem and Hapoel Afula, with 58 and 49 recorded seasons each. Singular and plural are
+handled; M.S. Kiryat Yam has exactly one recorded season.
+
+Both languages carry all three forms.
+
+---
+
+## 14. Charts commit to one light palette
 
 No `prefers-color-scheme`. The club line (`#007C99`) and champion marker (`#A06A0A`) pass
 the six-check colour validator against the light surface; the tier bands are a sequential
@@ -233,7 +251,7 @@ charts reads as a mistake.
 
 ---
 
-## 14. Hebrew charts set `direction="rtl"` on the text elements, not the root
+## 15. Hebrew charts set `direction="rtl"` on the text elements, not the root
 
 **Why both halves matter.** `direction="rtl"` is required for a mixed string like
 `40 עונות מתוך 86` to order correctly. But it also swaps what `text-anchor` means — the
@@ -250,7 +268,7 @@ standalone chart off to one side. Year ticks stay LTR — they are digits.
 
 ---
 
-## 15. Club selection: the top 32 by top-flight seasons, plus the entire current top two tiers
+## 16. Club selection: the top 32 by top-flight seasons, plus the whole current top two tiers
 
 **Why the second half.** A chart set that leaves out a club playing this season is
 incomplete, however short its history. Ranking by top-flight seasons alone missed Ironi
@@ -267,13 +285,13 @@ better than either charting nobody new or inferring promotions the data cannot s
 
 ---
 
-## 16. 2026/27 is excluded
+## 17. 2026/27 is excluded
 
 It is in progress. A chart must not show a current partial position as a final one.
 
 ---
 
-## 17. The league of 1928-1948 is the Eretz Israel League
+## 18. The league of 1928-1948 is the Eretz Israel League
 
 ליגת ארץ ישראל, run by the Eretz Israel Football Association. That name is used
 everywhere in the project: in `structure.json`, in every dataset, and on the charts.
@@ -290,6 +308,19 @@ The club that won 1931/32 is named **British Police** for the same reason: Hebre
 Note the 1949/50 season's competition is separately the **Israeli League** — הליגה הישראלית,
 its own one-season name after independence. The two are kept distinct because the sources
 distinguish them.
+
+---
+
+## 19. An encoding has to earn its legend row
+
+Regional seasons were once drawn with a dashed line to flag that the position is a rank
+within a group rather than a national one. True, but the chart is read for the *level*, and
+nobody reads an exact rank inside a band at this scale — so the mark qualified information
+the reader was not using, at the cost of a legend row and two paragraphs of explanation.
+
+It is gone. The general test, which would have caught it earlier: **if explaining a mark
+takes more space than the mark conveys, drop the mark.** That is a better rule than "if a
+distinction is true, show it".
 
 ---
 
