@@ -27,6 +27,11 @@ Four things the data forces, which are what most of this file is about:
   read for the tier, and a dashed line qualified a within-band rank that nobody
   reads at this scale.
 
+The line is a smooth curve through one point per season rather than a step.
+That is a deliberate softening of the truth - a club's position does not drift
+between one May and the next August - so the interpolation is monotone cubic,
+which never bows past a position the club did not finish in.
+
 Colour: the tier bands are a sequential ramp (one hue, light to dark with
 depth).  The club's line and the champion marker are the only two colours that
 carry identity, and the pair (#007C99 and #A06A0A) passes the six-check
@@ -50,9 +55,10 @@ LAST_SEASON = 2025           # most recent completed season
 TIERS_SHOWN = 4              # tiers with a band of their own; deeper ones share the floor
 
 COL = 13                     # width of one season column
-ROW = 5                      # height of one league position
+ROW = 7                      # height of one league position
 PAD_R, PAD_T, PAD_B = 20, 76, 78
-BOTTOM_BAND = 5              # rows for "tier 5 and below"
+BOTTOM_BAND = 4              # rows for "tier 5 and below"
+CORNER = 3.5                 # radius of the rounded step corners
 NOMINAL = {1: 14, 2: 16, 3: 16, 4: 16}   # band size where a season has no data
 
 THEME = {
@@ -228,6 +234,42 @@ def load():
     return seasons, by_club
 
 
+def smooth_path(run: list[tuple[int, int]], x, y) -> str:
+    """A smooth curve through one point per season, at the column centre.
+
+    Monotone cubic interpolation (Fritsch-Carlson), not a cardinal spline: a
+    cardinal spline overshoots past a local extreme, which here would draw a
+    club finishing above 1st or below last in a season where it did neither.
+    Monotone tangents stay within the two points they join, so the curve is
+    smooth but never shows a position that did not happen.
+    """
+    pts = [(x(i) + COL / 2, y(rank)) for i, rank in run]
+    if len(pts) == 1:
+        cx, cy = pts[0]
+        return f"M{cx - COL / 2:.1f} {cy:.1f}H{cx + COL / 2:.1f}"
+    xs = [p[0] for p in pts]
+    ys = [p[1] for p in pts]
+    h = [xs[i + 1] - xs[i] for i in range(len(xs) - 1)]
+    d = [(ys[i + 1] - ys[i]) / h[i] for i in range(len(h))]
+
+    m = [d[0]]
+    for i in range(1, len(d)):
+        if d[i - 1] * d[i] <= 0:
+            m.append(0.0)             # a turning point: flatten, never overshoot
+        else:
+            limit = 3 * min(abs(d[i - 1]), abs(d[i]))
+            m.append(max(-limit, min(limit, (d[i - 1] + d[i]) / 2)))
+    m.append(d[-1])
+
+    parts = [f"M{xs[0]:.1f} {ys[0]:.1f}"]
+    for i in range(len(h)):
+        parts.append(
+            f"C{xs[i] + h[i] / 3:.1f} {ys[i] + m[i] * h[i] / 3:.1f} "
+            f"{xs[i + 1] - h[i] / 3:.1f} {ys[i + 1] - m[i + 1] * h[i] / 3:.1f} "
+            f"{xs[i + 1]:.1f} {ys[i + 1]:.1f}")
+    return " ".join(parts)
+
+
 def rank_of(entry: dict, season: dict) -> int | None:
     """Position counted down the pyramid, so each tier continues the one above.
 
@@ -347,7 +389,8 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
                    f'fill="var(--band{len(s["bands"]) + 1})"/>')
 
     # ── The club's own history.
-    area, line, marks = [], [], []
+    area, marks = [], []
+    runs: list[list[tuple[int, int]]] = []      # unbroken stretches of (column, rank)
     prev: tuple[int, int] | None = None
     for i, s in enumerate(seasons):
         if not s["played"]:
@@ -366,17 +409,24 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
                             f'height="{floor - top}" fill="url(#uncovered)"/>')
             prev = None
             continue
-        area.append(f'<rect class="area" x="{x(i)}" y="{y(rank)}" width="{COL}" '
-                    f'height="{floor - y(rank)}"/>')
-        if prev and prev[0] == i - 1 and prev[1] != rank:
-            line.append(f'<path class="line" d="M{x(i)} {y(prev[1])}V{y(rank)}"/>')
-        line.append(f'<path class="line" d="M{x(i)} {y(rank)}h{COL}"/>')
+        if prev and prev[0] == i - 1:
+            runs[-1].append((i, rank))
+        else:
+            runs.append([(i, rank)])
         if entry["tier"] == 1 and entry["position"] == 1 and not entry["division"]:
-            cx, cy = x(i) + COL / 2, y(rank) - 4
+            cx, cy = x(i) + COL / 2, y(rank) - 5
             marks.append(f'<path class="champ" d="M{cx} {cy - 3.6}l3.8 3.6-3.8 3.6'
                          f'-3.8-3.6z"/>')
         prev = (i, rank)
-    out += area + line + marks
+    curves = [smooth_path(r, x, y) for r in runs]
+    fills = []
+    for r, curve in zip(runs, curves):
+        if len(r) == 1:
+            x0, x1 = x(r[0][0]), x(r[0][0]) + COL
+        else:
+            x0, x1 = x(r[0][0]) + COL / 2, x(r[-1][0]) + COL / 2
+        fills.append(f'<path class="area" d="{curve}V{floor}H{x0:.1f}Z"/>')
+    out += area + fills + [f'<path class="line" d="{c}"/>' for c in curves] + marks
 
     # ── Tier labels, numbered, aligned to the most recent season's bands.
     last = seasons[-1]

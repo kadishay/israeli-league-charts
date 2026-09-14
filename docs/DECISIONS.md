@@ -181,7 +181,30 @@ The data for tiers 5–6 is in `seasons.csv` if you want to draw them.
 
 ---
 
-## 12. Charts commit to one light palette
+## 12. The line is a smooth curve, interpolated monotonically
+
+One point per season at the column centre, joined by a smooth curve rather than
+a step.
+
+**The honest caveat.** A season has one final position; nothing happens between
+one May and the next August. A step line said exactly that, and a curve softens
+it. This is a readability choice made deliberately: the curve makes a club's
+trajectory far easier to follow across 96 columns.
+
+**Why monotone cubic (Fritsch-Carlson) and not a cardinal spline.** A cardinal
+spline overshoots past a local extreme. Here that would draw a club finishing
+*above 1st place* in a season where it came first, or below last place in a
+season where it came last - inventing positions that cannot exist. Monotone
+tangents stay within the two points they join, and turning points are flattened
+rather than rounded through. Verified: across all 34 charts the highest point
+any curve reaches is exactly the y of 1st place, never above it.
+
+Row height went from 5px to 7px per position at the same time, so ranks inside
+a band are separable enough for the curve to be worth reading.
+
+---
+
+## 13. Charts commit to one light palette
 
 No `prefers-color-scheme`. The club line (`#007C99`) and champion marker (`#A06A0A`) pass
 the six-check colour validator against the light surface; the tier bands are a sequential
@@ -192,7 +215,7 @@ charts reads as a mistake.
 
 ---
 
-## 13. Hebrew charts set `direction="rtl"` on the text elements, not the root
+## 14. Hebrew charts set `direction="rtl"` on the text elements, not the root
 
 **Why both halves matter.** `direction="rtl"` is required for a mixed string like
 `40 עונות מתוך 86` to order correctly. But it also swaps what `text-anchor` means — the
@@ -209,7 +232,7 @@ standalone chart off to one side. Year ticks stay LTR — they are digits.
 
 ---
 
-## 14. Club selection: the top 32 by top-flight seasons, plus the entire current top flight
+## 15. Club selection: the top 32 by top-flight seasons, plus the entire current top flight
 
 **Why the second half.** Ranking by top-flight seasons alone missed Ironi Tiberias and
 Maccabi Bnei Reineh, both recent arrivals to Ligat ha'Al. All 14 clubs in the 2025/26 top
@@ -217,7 +240,7 @@ flight are now covered regardless of how short their history is.
 
 ---
 
-## 15. 2026/27 is excluded
+## 16. 2026/27 is excluded
 
 It is in progress. A chart must not show a current partial position as a final one.
 
