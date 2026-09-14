@@ -31,14 +31,24 @@ python3 scripts/render.py     # charts   -> out/*.svg + the two gallery pages
 Bands are labelled **TIER 1 … TIER 4** and never by league name, because the names
 move: "Liga Alef" on a 1960 column and on a 2015 column are different depths.
 
+### Documentation
+
+| | |
+|---|---|
+| [`docs/DECISIONS.md`](docs/DECISIONS.md) | The 15 modelling decisions, each with its reason and what would change it. Several look like bugs until you know why. Read this before changing the schema. |
+| [`docs/SOURCES.md`](docs/SOURCES.md) | What each source covers, how each one breaks, and the sources that turned out not to help — so the dead ends are not re-walked. |
+| [`docs/CLUBS.md`](docs/CLUBS.md) | Club identity and lineage, a per-club table of what is known, and why each unknown season is unknown. |
+
+### Files
+
 | | |
 |---|---|
 | `docs/league-history.html` | Written history of the pyramid: what tier existed when, clubs per level, the 10 seasons with no champion. Read this first. |
 | `data/structure.json` | The same history, machine-readable. Era table, per-season top-flight sizes, gap seasons, district-league seasons. |
 | `data/seasons_index.json` | Every season slot, in order, with whether it was played — the x-axis, built from the Hebrew Wikipedia navboxes. |
-| `data/seasons.csv` | 10,055 rows — `season,season_start,league,division,position,club`. 86 seasons, 1,049 clubs, tiers 1–6. |
+| `data/seasons.csv` | 10,235 rows — `season,season_start,league,division,position,club`. 86 seasons, 1,072 clubs, tiers 1–6. |
+| `data/club_status.json` | Founding years, and spans where a club existed but fielded no senior side. |
 | `data/aliases*.json` | Source spelling → canonical club name, merging renames and mergers into one lineage. One file per source. |
-| `data/club_status.json` | Spans where a club existed but fielded no senior side, so its absence is a fact rather than a hole. |
 | `scripts/fetch*.py` | Cache the sources into `data/raw/` (gitignored). |
 | `scripts/parse*.py` | Raw pages → one CSV per source. |
 | `scripts/build.py` | Merge the sources, checking every row against `structure.json`. |
@@ -73,9 +83,9 @@ Three more consequences, spelled out in `docs/league-history.html`:
 |---|---|---|
 | 1 | 1931/32 – 2025/26 | Hebrew + English Wikipedia to 1946/47, RSSSF 1949/50–2024/25, Hebrew Wikipedia for 2025/26 |
 | 2 | 1937 – 2025/26 | Hebrew Wikipedia to 2007/08, RSSSF from 2008/09 |
-| 3 | 1951/52 – 2023/24 | English Wikipedia (Liga Artzit 1976–2009, Liga Alef otherwise) |
-| 4 | 1941 – 2019/20 | English Wikipedia |
-| 5–6 | scattered | English Wikipedia |
+| 3 | 1954/55 – 2020/21 | English Wikipedia (Liga Artzit 1976–2009, Liga Alef otherwise) |
+| 4 | 1954/55 – 2020/21 | English Wikipedia |
+| 5–6 | 1976/77 – 2020/21, scattered | English Wikipedia |
 
 All 73 champions in the RSSSF range match Wikipedia's champion list, and every row is
 checked against `structure.json` — its league must exist at that tier in that season, and
