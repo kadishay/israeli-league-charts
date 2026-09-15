@@ -27,7 +27,9 @@ python3 scripts/fetch_en.py   # cache the English Wikipedia season articles
 python3 scripts/parse.py      # RSSSF    -> data/raw/parsed/
 python3 scripts/parse_he.py   # Hebrew   -> data/raw/parsed/
 python3 scripts/parse_en.py   # English  -> data/raw/parsed/
+python3 scripts/parse_ifa.py  # IFA      -> data/raw/parsed/  (no fetch; see SOURCES.md)
 python3 scripts/build.py      # merge    -> data/seasons.csv   (the one dataset)
+python3 scripts/fetch_colors.py  # kit colours -> data/club_colors.json (rarely needed)
 python3 scripts/render.py     # charts   -> out/*.svg + the two gallery pages
 ```
 
@@ -51,9 +53,11 @@ move: "Liga Alef" on a 1960 column and on a 2015 column are different depths.
 | `docs/league-history.html` | Written history of the pyramid: what tier existed when, clubs per level, the 10 seasons with no champion. Read this first. |
 | `data/structure.json` | The same history, machine-readable. Era table, per-season top-flight sizes, gap seasons, district-league seasons. |
 | `data/seasons_index.json` | Every season slot, in order, with whether it was played — the x-axis, built from the Hebrew Wikipedia navboxes. |
-| `data/seasons.csv` | **The dataset.** 10,327 rows — `season,season_start,league,division,position,club,source`. 86 seasons, 1,074 clubs, tiers 1–6. |
+| `data/seasons.csv` | **The dataset.** 10,426 rows — `season,season_start,league,division,position,club,source`. 86 seasons, 1,086 clubs, tiers 1–6. |
+| `data/ifa/` | Seven league-season tables captured by hand from the IFA's site, which no script can fetch. Committed, unlike the other raw caches. |
 | `data/club_status.json` | Founding years, and spans where a club existed but fielded no senior side. |
 | `data/aliases*.json` | Source spelling → canonical club name, merging renames and mergers into one lineage. One file per source. |
+| `data/club_colors.json` | Each club's kit colour, read off its Hebrew Wikipedia infobox by `scripts/fetch_colors.py`. The chart draws each line in its club's colour. |
 | `scripts/fetch*.py` | Cache the sources into `data/raw/` (gitignored). |
 | `scripts/parse*.py` | Raw pages → one CSV per source, under the gitignored `data/raw/parsed/`. |
 | `scripts/build.py` | Merge the sources, checking every row against `structure.json`. |
@@ -63,9 +67,11 @@ move: "Liga Alef" on a 1960 column and on a 2015 column are different depths.
 
 Where things stand, and what is worth knowing before changing anything:
 
-- The pipeline runs end to end from the commands above. `data/seasons.csv` (10,327 rows) is
+- The pipeline runs end to end from the commands above. `data/seasons.csv` (10,426 rows) is
   the only committed dataset and carries a `source` column; the per-source CSVs are build
-  artefacts under the gitignored `data/raw/parsed/`.
+  artefacts under the gitignored `data/raw/parsed/`. The exception is `data/ifa/`: the IFA
+  site sits behind a Cloudflare challenge, so those captures are committed because no script
+  can refetch them.
 - **Hebrew Wikipedia is the source of truth** where sources disagree — it wins the 964 rows
   it shares with English. It shares none with RSSSF. It cannot be the only source: 1,324
   rows, no top flight between 1949/50 and 2024/25, nothing below tier two.
@@ -110,8 +116,8 @@ Three more consequences, spelled out in `docs/league-history.html`:
 |---|---|---|
 | 1 | 1931/32 – 2025/26 | Hebrew Wikipedia to 1946/47 and for 2025/26, English for districts it lacks, RSSSF 1949/50–2024/25 |
 | 2 | 1937 – 2025/26 | Hebrew Wikipedia to 2007/08, RSSSF from 2008/09 |
-| 3 | 1954/55 – 2020/21 | English Wikipedia (Liga Artzit 1976–2009, Liga Alef otherwise) |
-| 4 | 1954/55 – 2020/21 | English Wikipedia |
+| 3 | 1954/55 – 2024/25 | English Wikipedia to 2020/21 (Liga Artzit 1976–2009, Liga Alef otherwise), IFA for Liga Alef South from 2021/22 |
+| 4 | 1954/55 – 2020/21 | English Wikipedia, plus the IFA for Liga Bet South A in 2016/17 and 2018/19, which Wikipedia has in neither language |
 | 5–6 | 1976/77 – 2020/21, scattered | English Wikipedia |
 
 All 73 champions in the RSSSF range match Wikipedia's champion list, and every row is
@@ -176,8 +182,12 @@ guessed at.
 
 Three deliberate scope limits:
 
-- **Only tiers 1–4 get a band.** Tier 5 and below share the floor of the chart; the data is
-  there in `seasons.csv` if you want to draw them.
+- **Only tiers 1–4 get a band.** Tier 5 and below share a two-row strip at the floor: the
+  line still runs along it, so the depth shows, but the chart makes no claim about a rank
+  inside a regional fifth tier. The positions are in `seasons.csv` if you want them.
+- **Where the pyramid was shallower, the rows below it are blank.** In 1935 the league was
+  two tiers deep, so rows 3 and 4 are bare page rather than shaded — the bands stop where the
+  pyramid stopped.
 - **2026/27 is excluded.** It is in progress, and a chart must not show a current partial
   position as a final one.
 
@@ -233,6 +243,9 @@ champion list caught it.
 
 ## Sources
 
+- [The IFA's own league pages](https://www.football.org.il/) — the only source for tiers
+  three and below after 2020/21, and for two Liga Bet seasons Wikipedia skips entirely.
+  Behind a Cloudflare challenge, so captured by hand into `data/ifa/`.
 - [RSSSF Israel archive](https://www.rsssf.org/tablesi/israhist.html) — final tables.
 - English Wikipedia season articles for tiers 3–6 and the Mandate-era top flight; they use
   the sports-table module, so standings are template parameters rather than a table.

@@ -1,0 +1,210 @@
+{
+ "_comment": [
+  "Canonical club name -> the club's own colour, read off the kit",
+  "parameters of its Hebrew Wikipedia infobox by scripts/fetch_colors.py.",
+  "'from' records which kit parameter it came from, 'article' the page.",
+  "",
+  "These are the source's values, unmodified. render.py darkens a colour",
+  "that cannot hold its own against the band behind it, so a club's line",
+  "may not be exactly this hex - the hue is preserved, the lightness is not.",
+  "",
+  "Clubs absent here fall back to the chart's default accent."
+ ],
+ "colors": {
+  "Ashdod S.C.": {
+   "color": "#FFFF00",
+   "from": "leftarm1",
+   "article": "מועדון ספורט אשדוד"
+  },
+  "Beitar Jerusalem": {
+   "color": "#FFFF00",
+   "from": "leftarm1",
+   "article": "בית\"ר ירושלים (כדורגל)"
+  },
+  "Beitar Tel Aviv": {
+   "color": "#191970",
+   "from": "leftarm1",
+   "article": "בית\"ר תל אביב"
+  },
+  "Bnei Sakhnin": {
+   "color": "#FF0000",
+   "from": "body1",
+   "article": "בני סכנין"
+  },
+  "Bnei Yehuda Tel Aviv": {
+   "color": "#FF6C00",
+   "from": "leftarm1",
+   "article": "בני יהודה תל אביב"
+  },
+  "Hakoah Ramat Gan": {
+   "color": "#54008B",
+   "from": "leftarm1",
+   "article": "הכח רמת עמידר"
+  },
+  "Hapoel Acre": {
+   "color": "#0000FF",
+   "from": "leftarm2",
+   "article": "הפועל עכו"
+  },
+  "Hapoel Afula": {
+   "color": "#0000FF",
+   "from": "leftarm1",
+   "article": "הפועל עפולה (כדורגל)"
+  },
+  "Hapoel Be'er Sheva": {
+   "color": "#FF0000",
+   "from": "leftarm1",
+   "article": "הפועל באר שבע (כדורגל)"
+  },
+  "Hapoel Hadera": {
+   "color": "#FF0000",
+   "from": "body1",
+   "article": "הפועל חדרה"
+  },
+  "Hapoel Haifa": {
+   "color": "#FF0000",
+   "from": "leftarm1",
+   "article": "הפועל חיפה (כדורגל)"
+  },
+  "Hapoel Holon": {
+   "color": "#FBE311",
+   "from": "leftarm1",
+   "article": "הפועל חולון (כדורגל)"
+  },
+  "Hapoel Ironi Herzliya": {
+   "color": "#FF0000",
+   "from": "leftarm1",
+   "article": "הפועל הרצליה"
+  },
+  "Hapoel Jerusalem": {
+   "color": "#DD000B",
+   "from": "body1",
+   "article": "הפועל ירושלים (כדורגל)"
+  },
+  "Hapoel Kfar Saba": {
+   "color": "#008000",
+   "from": "leftarm1",
+   "article": "הפועל כפר סבא"
+  },
+  "Hapoel Kfar Shalem": {
+   "color": "#FF6600",
+   "from": "leftarm1",
+   "article": "הפועל כפר שלם"
+  },
+  "Hapoel Nof HaGalil": {
+   "color": "#00004D",
+   "from": "leftarm1",
+   "article": "הפועל נוף הגליל"
+  },
+  "Hapoel Petah Tikva": {
+   "color": "#0000FF",
+   "from": "leftarm1",
+   "article": "הפועל פתח תקווה (כדורגל)"
+  },
+  "Hapoel Ra'anana": {
+   "color": "#FF0000",
+   "from": "leftarm1",
+   "article": "הפועל רעננה"
+  },
+  "Hapoel Ramat Gan": {
+   "color": "#FF0000",
+   "from": "body1",
+   "article": "הפועל רמת-גן גבעתיים (כדורגל)"
+  },
+  "Hapoel Rishon LeZion": {
+   "color": "#F1771D",
+   "from": "leftarm1",
+   "article": "הפועל ראשון לציון (כדורגל)"
+  },
+  "Hapoel Tel Aviv": {
+   "color": "#FF0000",
+   "from": "leftarm1",
+   "article": "הפועל תל אביב (כדורגל)"
+  },
+  "Hapoel Yehud": {
+   "color": "#0000CC",
+   "from": "leftarm1",
+   "article": "הפועל יהוד"
+  },
+  "Ironi Kiryat Shmona": {
+   "color": "#0000FF",
+   "from": "leftarm2",
+   "article": "עירוני קריית שמונה"
+  },
+  "Ironi Modi'in": {
+   "color": "#0000FF",
+   "from": "leftarm2",
+   "article": "עירוני מודיעין"
+  },
+  "Ironi Tiberias": {
+   "color": "#0000FF",
+   "from": "leftarm2",
+   "article": "עירוני טבריה"
+  },
+  "M.S. Kafr Qasim": {
+   "color": "#CC0000",
+   "from": "leftarm1",
+   "article": "מועדון ספורט כפר קאסם"
+  },
+  "Maccabi Ahi Nazareth": {
+   "color": "#32AB66",
+   "from": "leftarm1",
+   "article": "מכבי אחי נצרת"
+  },
+  "Maccabi Bnei Reineh": {
+   "color": "#0089D0",
+   "from": "leftarm1",
+   "article": "מכבי בני ריינה"
+  },
+  "Maccabi Haifa": {
+   "color": "#007711",
+   "from": "leftarm1",
+   "article": "מכבי חיפה (כדורגל)"
+  },
+  "Maccabi Herzliya": {
+   "color": "#FDE200",
+   "from": "leftarm1",
+   "article": "מכבי הרצליה"
+  },
+  "Maccabi Jaffa": {
+   "color": "#1221B1",
+   "from": "leftarm2",
+   "article": "מכבי יפו"
+  },
+  "Maccabi Kiryat Gat": {
+   "color": "#FFDF00",
+   "from": "leftarm1",
+   "article": "מכבי קריית גת (כדורגל)"
+  },
+  "Maccabi Nes Ziona": {
+   "color": "#F1771D",
+   "from": "leftarm1",
+   "article": "מכבי נס ציונה"
+  },
+  "Maccabi Netanya": {
+   "color": "#FFFF00",
+   "from": "leftarm1",
+   "article": "מכבי נתניה"
+  },
+  "Maccabi Petah Tikva": {
+   "color": "#89CEE4",
+   "from": "leftarm1",
+   "article": "מכבי פתח תקווה (כדורגל)"
+  },
+  "Maccabi Rehovot": {
+   "color": "#FDE200",
+   "from": "leftarm1",
+   "article": "מכבי רחובות (כדורגל)"
+  },
+  "Maccabi Tel Aviv": {
+   "color": "#FFFF00",
+   "from": "leftarm1",
+   "article": "מכבי תל אביב (כדורגל)"
+  },
+  "Shimshon Tel Aviv": {
+   "color": "#008000",
+   "from": "leftarm1",
+   "article": "שמשון תל אביב"
+  }
+ }
+}

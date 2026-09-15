@@ -33,11 +33,22 @@ between one May and the next August - so the interpolation is monotone cubic,
 which never bows past a position the club did not finish in.
 
 Colour: the tier bands are a sequential ramp (one hue, light to dark with
-depth).  The club's line and the champion marker are the only two colours that
-carry identity, and the pair (#007C99 and #A06A0A) passes the six-check
-validator against the light surface.  These charts commit to one light palette
-rather than following the viewer's theme, so they read the same wherever they
-are embedded.
+depth), deliberately desaturated so that the one saturated thing on the chart is
+the club.  Each club's line is drawn in its own kit colour, read off Hebrew
+Wikipedia into data/club_colors.json, and darkened by `legible()` until it clears
+3:1 against the lightest band - a kit colour is picked to look good on a shirt,
+not on pale grey, and Maccabi Tel Aviv's yellow scores 1.07:1 untouched.  Clubs
+with no colour on file fall back to the default accent.  The champion marker
+keeps its own fixed amber so that it never becomes a second club colour.  These
+charts commit to one light palette rather than following the viewer's theme, so
+they read the same wherever they are embedded.
+
+The chart bands tiers one to four.  Anything deeper runs along a two-row strip at
+the floor: the club's depth is known, its rank within a regional fifth or sixth
+tier is not comparable to anything above it, and drawing it as a band would imply
+otherwise.  Where the pyramid itself was shallower than four tiers - it was two
+deep in 1935 - the rows below the last real tier are left as bare page, because
+there was no such tier to be in.
 """
 
 import argparse
@@ -57,7 +68,7 @@ TIERS_SHOWN = 4              # tiers with a band of their own; deeper ones share
 COL = 13                     # width of one season column
 ROW = 7                      # height of one league position
 PAD_R, PAD_T, PAD_B = 20, 76, 78
-BOTTOM_BAND = 4              # rows for "tier 5 and below"
+BOTTOM_BAND = 2              # rows for "tier 5 and below" - a strip, not a band
 CORNER = 3.5                 # radius of the rounded step corners
 NOMINAL = {1: 14, 2: 16, 3: 16, 4: 16}   # band size where a season has no data
 
@@ -84,6 +95,8 @@ STRINGS = {
         "legend_champ": "Champions",
         "legend_uncovered": "No position recorded",
         "legend_notplayed": "Season not played",
+        "legend_deep": "Tier 5 or below",
+        "legend_notier": "No tier this deep",
         "gallery_title": "Israeli league performance, {first}–{last}",
         "gallery_lead": ("{clubs} clubs across {seasons} season columns. Position is "
                          "counted down the whole pyramid, so each tier continues the "
@@ -96,8 +109,14 @@ STRINGS = {
              "than guessing across them."),
             ("Dotted band at the bottom",
              "The club was playing but no final position is recorded, usually a "
-             "Mandate-era district or a lower tier nobody tabulated. Blank means "
+             "Mandate-era district that no article tabulates. Blank means "
              "the club did not exist or fielded no senior side."),
+            ("The chart stops at tier four",
+             "Below it the line runs along a thin strip: the club was in tier "
+             "five or deeper, which the chart records as a depth rather than a "
+             "rank. Where the bands themselves stop short — the pyramid was two "
+             "levels deep in 1935 — the rows below them are left blank, because "
+             "there was no such tier to be in."),
             ("Below tier two, a position is a regional rank",
              "The lower divisions run in regional groups, so the height within "
              "those bands is a rank inside a group rather than a national one. "
@@ -118,6 +137,8 @@ STRINGS = {
         "legend_champ": "אליפות",
         "legend_uncovered": "לא נרשם מיקום",
         "legend_notplayed": "העונה לא התקיימה",
+        "legend_deep": "דרג 5 ומטה",
+        "legend_notier": "לא היה דרג כזה",
         "gallery_title": "מיקומי קבוצות בליגות בישראל, {first}–{last}",
         "gallery_lead": ("{clubs} קבוצות על פני {seasons} עונות. המיקום נמדד לאורך כל "
                          "הפירמידה, כך שכל דרג ממשיך את זה שמעליו — גבולות הדרגים "
@@ -128,8 +149,13 @@ STRINGS = {
              "שנים. עמודות מקווקוות הן עונות שלא התקיימו, והקו נקטע ולא מנחש."),
             ("פס מנוקד בתחתית",
              "הקבוצה שיחקה אך לא נרשם מיקום סופי — בדרך כלל בית מחוזי בתקופת "
-             "המנדט או דרג נמוך שלא תועד. רקע ריק פירושו שהקבוצה לא התקיימה או "
+             "המנדט שלא תועד. רקע ריק פירושו שהקבוצה לא התקיימה או "
              "לא העמידה קבוצת בוגרים."),
+            ("הגרף נעצר בדרג הרביעי",
+             "מתחתיו הקו רץ על פס דק: הקבוצה שיחקה בדרג חמישי או נמוך יותר, "
+             "והגרף מציין עומק ולא מיקום. היכן שהפסים עצמם נעצרים מוקדם — "
+             "ב-1935 הפירמידה הייתה בת שני דרגים — השורות שמתחתיהם ריקות, "
+             "מפני שלא היה דרג כזה."),
             ("מתחת לדרג השני — מיקום אזורי",
              "הליגות הנמוכות מחולקות לבתים אזוריים, ולכן הגובה בתוך אותם דרגים "
              "הוא דירוג בתוך בית ולא ארצי. הדרג הוא מה שהגרף מראה — קראו את "
@@ -215,7 +241,8 @@ def load():
     for s in seasons:
         got = size.get(s["label"], {})
         era = era_of(s["start"])
-        depth = min(TIERS_SHOWN, len(era["tiers"]) if era else TIERS_SHOWN)
+        s["era_depth"] = len(era["tiers"]) if era else TIERS_SHOWN
+        depth = min(TIERS_SHOWN, s["era_depth"])
         s["bands"] = [got.get(t) or NOMINAL[t] for t in range(1, depth + 1)]
 
     # A club can have more than one row for a season: a regional season may
@@ -277,19 +304,83 @@ def smooth_path(run: list[tuple[int, int]], x, y) -> str:
 def rank_of(entry: dict, season: dict) -> int | None:
     """Position counted down the pyramid, so each tier continues the one above.
 
-    None for a tier deeper than the chart draws bands for; those sit on the floor.
+    A tier deeper than the chart bands gets a row on the floor strip rather than
+    nothing.  It used to return None, which sent the season through the same path
+    as a season with no source at all and drew it as "no position recorded" -
+    Maccabi Nes Ziona's forty years in Liga Gimel rendered as forty years of
+    missing data.  The depth is known; only the position within it is not, so the
+    strip says "below tier four" and does not pretend to a rank.
     """
     tier = entry["tier"]
     if tier > TIERS_SHOWN:
-        return None
+        return sum(season["bands"]) + min(tier - TIERS_SHOWN, BOTTOM_BAND)
     return sum(season["bands"][: tier - 1]) + entry["position"]
 
 
-def _vars(mode: str) -> dict:
+def _vars(mode: str, accent: str | None = None) -> dict:
     t = THEME[mode]
     out = {k: v for k, v in t.items() if k != "band"}
     out.update({f"band{i + 1}": c for i, c in enumerate(t["band"])})
+    if accent:
+        out["accent"] = accent
     return out
+
+
+def _rgb(hexval: str) -> tuple[int, int, int]:
+    h = hexval.lstrip("#")
+    return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4))
+
+
+def _luminance(hexval: str) -> float:
+    def channel(v: int) -> float:
+        c = v / 255
+        return c / 12.92 if c <= 0.04045 else ((c + 0.055) / 1.055) ** 2.4
+    r, g, b = _rgb(hexval)
+    return 0.2126 * channel(r) + 0.7152 * channel(g) + 0.0722 * channel(b)
+
+
+def contrast(a: str, b: str) -> float:
+    la, lb = _luminance(a), _luminance(b)
+    hi, lo = max(la, lb), min(la, lb)
+    return (hi + 0.05) / (lo + 0.05)
+
+
+def legible(hexval: str, against: str, minimum: float = 3.0) -> str:
+    """The club's colour, darkened just enough to be seen against the bands.
+
+    Kit colours are chosen to look good on a shirt, not to sit on a pale grey
+    chart.  Maccabi Tel Aviv's #FFFF00 scores 1.07:1 against the lightest band -
+    a line nobody can see.  Scaling the channels down preserves the hue and the
+    ratio between them, so the line still reads as yellow, just a deep one; the
+    alternative, swapping in a substitute colour, would lose the identity the
+    colour was added for.
+
+    3:1 is the WCAG floor for a graphical object, which a 2.6px line is.
+    """
+    r, g, b = _rgb(hexval)
+    if max(r, g, b) == 0:
+        return "#000000"
+    for step in range(101):
+        scale = 1 - step / 100
+        cand = "#%02X%02X%02X" % (round(r * scale), round(g * scale),
+                                  round(b * scale))
+        if contrast(cand, against) >= minimum:
+            return cand
+    return "#000000"
+
+
+def club_colors() -> dict[str, str]:
+    """Canonical club name -> the colour its line is drawn in.
+
+    Read from data/club_colors.json and made legible against band1, the lightest
+    band and therefore the worst case: a line that clears band1 clears the rest.
+    """
+    path = DATA / "club_colors.json"
+    if not path.exists():
+        return {}
+    band1 = THEME["light"]["band"][0]
+    return {club: legible(v["color"], band1)
+            for club, v in json.loads(path.read_text())["colors"].items()}
 
 
 def _ordinal(n: int, lang: str) -> str:
@@ -322,7 +413,8 @@ def abandoned_below() -> dict[str, int]:
 def render(club: str, seasons: list[dict], history: dict[str, dict],
            lang: str = "en", name: str | None = None,
            inactive: list[dict] | None = None,
-           abandoned: dict[str, int] | None = None) -> str:
+           abandoned: dict[str, int] | None = None,
+           accent: str | None = None) -> str:
     S = STRINGS[lang]
     pad_l = S["pad_l"]
     label = name or club
@@ -361,7 +453,7 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
     y = lambda rank: PAD_T + (rank - 1) * ROW
     floor = PAD_T + plot_h
 
-    css_light = ";".join(f"--{k}:{v}" for k, v in _vars("light").items())
+    css_light = ";".join(f"--{k}:{v}" for k, v in _vars("light", accent).items())
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
         f'viewBox="0 0 {width} {height}" font-family="ui-sans-serif, -apple-system, '
@@ -370,8 +462,8 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
         "<style>",
         "  .bg{fill:var(--surface)} .ink{fill:var(--ink)} .ink2{fill:var(--ink2)}",
         "  .ink3{fill:var(--ink3)} .rule{stroke:var(--rule)}",
-        "  .area{fill:var(--accent);fill-opacity:.15}",
-        "  .line{stroke:var(--accent);stroke-width:1.7;fill:none;stroke-linecap:square}",
+        "  .line{stroke:var(--accent);stroke-width:2.6;fill:none;"
+        "stroke-linecap:round;stroke-linejoin:round}",
         "  .champ{fill:var(--champion)}",
         f"  :root{{{css_light}}}",
         "</style>",
@@ -382,6 +474,10 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
         "</pattern>",
         '  <pattern id="uncovered" width="5" height="5" patternUnits="userSpaceOnUse">'
         '<circle cx="1.4" cy="1.4" r="1" fill="var(--hatch)"/></pattern>',
+        # Not a texture but the page itself: "there was no tier this deep" should
+        # read as absence, and every other state on this chart is a marking.
+        '  <pattern id="notier" width="4" height="4" patternUnits="userSpaceOnUse">'
+        '<rect width="4" height="4" fill="var(--surface)"/></pattern>',
         "</defs>",
         f'<rect class="bg" width="{width}" height="{height}"/>',
     ]
@@ -394,9 +490,15 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
             out.append(f'<rect x="{x(i)}" y="{top}" width="{COL}" '
                        f'height="{bottom - top}" fill="var(--band{t})"/>')
             top = bottom
+        # Below the last band: either the tier-5 strip, or nothing at all.
+        # In 1935 the pyramid was two levels deep, and shading rows 3 and 4 the
+        # next band colour implied a depth that did not exist - the chart drew
+        # four tiers for a league that had two. Those rows now fall back to the
+        # page surface, so the bands stop where the pyramid stopped.
+        fill = (f'var(--band{len(s["bands"]) + 1})'
+                if s["era_depth"] > TIERS_SHOWN else "url(#notier)")
         out.append(f'<rect x="{x(i)}" y="{top}" width="{COL}" '
-                   f'height="{floor - top}" '
-                   f'fill="var(--band{len(s["bands"]) + 1})"/>')
+                   f'height="{floor - top}" fill="{fill}"/>')
 
     # ── The club's own history.
     area, marks = [], []
@@ -429,14 +531,7 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
                          f'-3.8-3.6z"/>')
         prev = (i, rank)
     curves = [smooth_path(r, x, y) for r in runs]
-    fills = []
-    for r, curve in zip(runs, curves):
-        if len(r) == 1:
-            x0, x1 = x(r[0][0]), x(r[0][0]) + COL
-        else:
-            x0, x1 = x(r[0][0]) + COL / 2, x(r[-1][0]) + COL / 2
-        fills.append(f'<path class="area" d="{curve}V{floor}H{x0:.1f}Z"/>')
-    out += area + fills + [f'<path class="line" d="{c}"/>' for c in curves] + marks
+    out += area + [f'<path class="line" d="{c}"/>' for c in curves] + marks
 
     # ── Tier labels, numbered, aligned to the most recent season's bands.
     last = seasons[-1]
@@ -447,11 +542,9 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
                            cls="ink2", size=10.5, lang=lang, align="right",
                            weight="600", extra=' letter-spacing=".05em"'))
         top += size
-    mid = (y(top) + y(top + BOTTOM_BAND)) / 2
-    out.append(text_el(pad_l - 11, mid + 3,
-                       S["tier_deep"].format(n=len(last["bands"]) + 1),
-                       cls="ink3", size=10.5, lang=lang, align="right",
-                       extra=' letter-spacing=".05em"'))
+    # The floor strip is deliberately unlabelled. It is not a tier - it is every
+    # tier below the fourth at once, and "TIER 5+" beside a two-row strip read as
+    # a band of its own. The legend names it instead.
 
     # ── Season axis: a tick every decade, plus the two end seasons.
     last_i = len(seasons) - 1
@@ -507,17 +600,25 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
     # Equal-width slots rather than a width estimated from the string length,
     # which collided once the labels were translated.
     items = [("line", S["legend_line"]), ("champ", S["legend_champ"]),
+             ("deep", S["legend_deep"]),
              ("uncovered", S["legend_uncovered"]),
-             ("notplayed", S["legend_notplayed"])]
+             ("notplayed", S["legend_notplayed"]),
+             ("notier", S["legend_notier"])]
     slot = plot_w / len(items)
     lx, ly = pad_l, floor + 44
     for kind, text in items:
         if kind == "line":
-            swatch = (f'<path class="line" d="M{lx} {ly - 3.5}h16"/>'
-                      f'<rect class="area" x="{lx}" y="{ly - 3.5}" width="16" '
-                      f'height="8"/>')
+            swatch = f'<path class="line" d="M{lx} {ly - 3.5}h16"/>'
         elif kind == "champ":
             swatch = f'<path class="champ" d="M{lx + 8} {ly - 8}l4 4-4 4-4-4z"/>'
+        elif kind == "deep":
+            swatch = (f'<rect x="{lx}" y="{ly - 9}" width="16" height="11" '
+                      f'fill="var(--band5)"/>'
+                      f'<path class="line" d="M{lx} {ly - 3.5}h16"/>')
+        elif kind == "notier":
+            swatch = (f'<rect x="{lx}" y="{ly - 9}" width="16" height="11" '
+                      f'fill="var(--surface)" stroke="var(--rule)" '
+                      f'stroke-width=".8"/>')
         else:
             swatch = (f'<rect x="{lx}" y="{ly - 9}" width="16" height="11" '
                       f'fill="url(#{kind})"'
@@ -644,14 +745,21 @@ def main() -> None:
     names = hebrew_names()
     missing_he = [c for c in clubs if c not in names]
     dormant, cut = inactive_spans(), abandoned_below()
+    colors = club_colors()
+    no_color = [c for c in clubs if c not in colors]
     for club in clubs:
         spans = dormant.get(club)
+        accent = colors.get(club)
         (OUT / f"{slug(club)}.svg").write_text(
             render(club, seasons, by_club[club], "en", inactive=spans,
-                   abandoned=cut))
+                   abandoned=cut, accent=accent))
         (OUT / f"{slug(club)}.he.svg").write_text(
             render(club, seasons, by_club[club], "he", names.get(club, club),
-                   inactive=spans, abandoned=cut))
+                   inactive=spans, abandoned=cut, accent=accent))
+    if no_color:
+        print(f"  {len(no_color)} club(s) without a colour in "
+              f"data/club_colors.json, drawn in the default accent: "
+              f"{', '.join(no_color)}")
     for lang, suffix, out_name in [("en", "", "index.html"), ("he", ".he", "index.he.html")]:
         body = gallery_html(clubs, seasons, lang,
                             names if lang == "he" else {}, suffix)
