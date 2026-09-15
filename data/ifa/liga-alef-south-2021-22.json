@@ -1,0 +1,85 @@
+{
+ "league": "Liga Alef",
+ "division": "South",
+ "season": "2021/2022",
+ "season_start": 2021,
+ "league_id": 62,
+ "season_id": 23,
+ "stage": "גמר המחוזות",
+ "round": 37,
+ "games_played": 34,
+ "standings": [
+  {
+   "position": 1,
+   "club": "מכבי יפו"
+  },
+  {
+   "position": 2,
+   "club": "הפועל כפר שלם"
+  },
+  {
+   "position": 3,
+   "club": "שמשון כפר קאסם"
+  },
+  {
+   "position": 4,
+   "club": "מ.כ. חולון ירמיהו"
+  },
+  {
+   "position": 5,
+   "club": "הפועל מרמורק רחובות חיים"
+  },
+  {
+   "position": 6,
+   "club": "מכבי יבנה"
+  },
+  {
+   "position": 7,
+   "club": "מ.כ. מכבי ע. אשדוד"
+  },
+  {
+   "position": 8,
+   "club": "מכבי שעריים רחובות"
+  },
+  {
+   "position": 9,
+   "club": "מ.ס. דימונה"
+  },
+  {
+   "position": 10,
+   "club": "הפ' בקעת הירדן"
+  },
+  {
+   "position": 11,
+   "club": "שמשון פזטל ת\"א"
+  },
+  {
+   "position": 12,
+   "club": "מכבי הרצליה דיוויד יחזקאל"
+  },
+  {
+   "position": 13,
+   "club": "בני אילת"
+  },
+  {
+   "position": 14,
+   "club": "מ.ס.ע. כסייפה"
+  },
+  {
+   "position": 15,
+   "club": "הפועל אזור"
+  },
+  {
+   "position": 16,
+   "club": "הפ' בני לוד רכבת"
+  },
+  {
+   "position": 17,
+   "club": "א.ס. נורדיה ירושלים"
+  },
+  {
+   "position": 18,
+   "club": "הפועל ע. אשקלון / לא פעיל"
+  }
+ ]
+}

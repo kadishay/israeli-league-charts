@@ -1,0 +1,77 @@
+{
+ "league": "Liga Alef",
+ "division": "South",
+ "season": "2022/2023",
+ "season_start": 2022,
+ "league_id": 62,
+ "season_id": 24,
+ "stage": "גמר המחוזות",
+ "round": 33,
+ "games_played": 30,
+ "standings": [
+  {
+   "position": 1,
+   "club": "מכבי הרצליה דיוויד יחזקאל"
+  },
+  {
+   "position": 2,
+   "club": "הפועל כפר שלם"
+  },
+  {
+   "position": 3,
+   "club": "מכבי יבנה"
+  },
+  {
+   "position": 4,
+   "club": "הפועל הרצליה עירוני"
+  },
+  {
+   "position": 5,
+   "club": "מ.ס. דימונה"
+  },
+  {
+   "position": 6,
+   "club": "הפ' בקעת הירדן"
+  },
+  {
+   "position": 7,
+   "club": "הפועל מרמורק רחובות חיים"
+  },
+  {
+   "position": 8,
+   "club": "שמשון פזטל ת\"א"
+  },
+  {
+   "position": 9,
+   "club": "מ.כ. חולון ירמיהו"
+  },
+  {
+   "position": 10,
+   "club": "מ.ס.ע. כסייפה"
+  },
+  {
+   "position": 11,
+   "club": "עירוני מודיעין"
+  },
+  {
+   "position": 12,
+   "club": "מ.כ. מכבי ע. אשדוד"
+  },
+  {
+   "position": 13,
+   "club": "שמשון כפר קאסם"
+  },
+  {
+   "position": 14,
+   "club": "מכבי שעריים רחובות"
+  },
+  {
+   "position": 15,
+   "club": "בני אילת"
+  },
+  {
+   "position": 16,
+   "club": "בית\"ר ת\"א חולון"
+  }
+ ]
+}

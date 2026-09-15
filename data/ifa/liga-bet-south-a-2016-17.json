@@ -1,0 +1,77 @@
+{
+ "league": "Liga Bet",
+ "division": "South A",
+ "season": "2016/2017",
+ "season_start": 2016,
+ "league_id": 73,
+ "season_id": 18,
+ "stage": "מבחני עליה לליגה א' דרום",
+ "round": 34,
+ "games_played": 30,
+ "standings": [
+  {
+   "position": 1,
+   "club": "מ.כ. חולון ירמיהו"
+  },
+  {
+   "position": 2,
+   "club": "שמשון פזטל ת\"א"
+  },
+  {
+   "position": 3,
+   "club": "מ.כ.ע. אור יהודה"
+  },
+  {
+   "position": 4,
+   "club": "מכבי ע. עמישב פ\"ת אלי"
+  },
+  {
+   "position": 5,
+   "club": "מ.ס. צעירי טייבה"
+  },
+  {
+   "position": 6,
+   "club": "הפועל קרית אונו"
+  },
+  {
+   "position": 7,
+   "club": "א.ס. חולון מור"
+  },
+  {
+   "position": 8,
+   "club": "הפ' נ.יהודה ראשל\"צ הרצל חיים"
+  },
+  {
+   "position": 9,
+   "club": "הפועל כ. קאסם שועאע"
+  },
+  {
+   "position": 10,
+   "club": "בית\"ר פ\"ת זאב רווח"
+  },
+  {
+   "position": 11,
+   "club": "הפועל פרדסייה נועם"
+  },
+  {
+   "position": 12,
+   "club": "הפועל איחוד בני ג'ת"
+  },
+  {
+   "position": 13,
+   "club": "בית\"ר ר\"ג"
+  },
+  {
+   "position": 14,
+   "club": "מ.ס. רוח ת\"א"
+  },
+  {
+   "position": 15,
+   "club": "הפועל רמת ישראל"
+  },
+  {
+   "position": 16,
+   "club": "מכבי ע. כפר יונה"
+  }
+ ]
+}

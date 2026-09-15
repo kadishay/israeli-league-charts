@@ -78,8 +78,8 @@ life, excluding dormant spells and seasons with no table at that tier — see de
 | Hapoel Jerusalem | 1931/1932 | 78 | 43 | — | 1 | 7 | 7 | yes |
 | Beitar Tel Aviv | 1937 | 77 | 41 | — | 1 | 1 | — | — |
 | Hapoel Kfar Saba | 1946/1947 | 75 | 40 | 1 | 1 | — | — | yes |
-| Maccabi Jaffa | 1949/1950 | 72 | 32 | — | 1 | 1 | — | yes |
-| Shimshon Tel Aviv | 1949/1950 | 50 | 28 | — | 1 | 4 | — | — |
+| Maccabi Jaffa | 1949/1950 | 73 | 32 | — | 1 | — | — | yes |
+| Shimshon Tel Aviv | 1949/1950 | 56 | 28 | — | 1 | 2 | — | — |
 | Ashdod S.C. | 1999/2000 | 27 | 26 | — | 1 | — | — | yes |
 | Hapoel Ramat Gan | 1939 | 80 | 25 | 1 | 1 | — | — | yes |
 | Bnei Sakhnin | 1994/1995 | 32 | 21 | — | 1 | — | — | yes |
@@ -91,20 +91,20 @@ life, excluding dormant spells and seasons with no table at that tier — see de
 | Maccabi Rehovot | 1933/1934 | 58 | 12 | — | 1 | 18 | 2 | — |
 | Maccabi Nes Ziona | 1931/1932 | 13 | 12 | — | 1 | 1 | 1 | — |
 | Hapoel Acre | 1949/1950 | 72 | 10 | — | 1 | 2 | — | yes |
-| Maccabi Herzliya | 1939 | 61 | 10 | — | 1 | 18 | 5 | yes |
+| Maccabi Herzliya | 1939 | 63 | 10 | — | 1 | 16 | 5 | yes |
 | Hakoah Tel Aviv | 1934/1935 | 21 | 10 | — | 1 | — | — | — |
 | Hapoel Ra'anana | 1939 | 67 | 9 | — | 1 | 13 | 2 | yes |
 | Hapoel Yehud | 1954/1955 | 39 | 8 | — | 1 | 5 | — | — |
-| Hapoel Ironi Herzliya | 1937 | 65 | 7 | — | 1 | 11 | — | — |
+| Hapoel Ironi Herzliya | 1937 | 68 | 7 | — | 1 | 12 | — | — |
 | Maccabi Rishon LeZion | 1939 | 9 | 7 | — | 1 | 22 | — | — |
 | Maccabi Bnei Reineh | 2005/2006 | 11 | 4 | — | 1 | 9 | — | yes |
 | Hapoel Nof HaGalil | 1962/1963 | 56 | 3 | — | 1 | 7 | — | yes |
 | Maccabi Ahi Nazareth | 1974/1975 | 49 | 2 | — | 1 | — | — | yes |
 | Ironi Tiberias | 2006/2007 | 18 | 2 | — | 1 | 1 | — | yes |
 | Maccabi Kiryat Gat | 1962/1963 | 54 | 1 | — | 1 | 3 | — | yes |
-| Hapoel Kfar Shalem | 1962/1963 | 58 | — | — | 2 | 4 | — | yes |
+| Hapoel Kfar Shalem | 1962/1963 | 61 | — | — | 2 | 1 | — | yes |
 | Hapoel Afula | 1957/1958 | 49 | — | — | 2 | 19 | — | yes |
-| Ironi Modi'in | 2009/2010 | 10 | — | — | 2 | 6 | — | yes |
+| Ironi Modi'in | 2009/2010 | 13 | — | — | 2 | 3 | — | yes |
 | M.S. Kafr Qasim | 2019/2020 | 7 | — | — | 2 | — | — | yes |
 | M.S. Kiryat Yam | 2025/2026 | 1 | — | — | 2 | — | — | yes |
 
@@ -137,11 +137,23 @@ promoted at the end of 1953/54; Hapoel Ironi Herzliya were in the third tier unt
 which is more than the chart shows, but a tier without a position is not something the
 current model can draw.
 
+**Liga Gimel in the early 1950s — 2 seasons.** Shimshon Tel Aviv's 1951/52 and 1953/54. They
+are in neither Liga Bet article, Hebrew or English, for either season, so they were a tier
+below; and no Liga Gimel article exists for 1951/52 or 1953/54 in either language. The league
+did run — `structure.json` has Liga Gimel from 1951 — so this is a missing table rather than
+a missing competition.
+
 **Resolved by reading the article** — no longer unknown, listed so the checks are not
 repeated: Shimshon Tel Aviv's 2000–2013 (merger, then dormant), Hapoel Yehud's 1998–2007
 (dissolved), the 2019/20 COVID freeze below tier two (seven clubs), Ironi Kiryat Shmona's
 2007/08 (RSSSF's pre-merger name), and Hakoah Ramat Gan's 1938–1946 rows (an over-merged
 alias — the club was founded in 1962).
+
+**Resolved by reading the IFA's own tables** — the six league-seasons in `data/ifa/` closed
+12 unknowns across six charted clubs, the ones Wikipedia has no article for at all: 2016/17
+and 2018/19 Liga Bet, and Liga Alef from 2021/22 on. Shimshon Tel Aviv went from 4 unknown
+seasons to 2, Hapoel Kfar Shalem from 4 to 1, Ironi Modi'in from 6 to 3, Maccabi Jaffa from 1
+to none.
 
 ## Open question: the Hakoah lineage
 

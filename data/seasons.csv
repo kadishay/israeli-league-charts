@@ -9478,6 +9478,22 @@ season,season_start,league,division,position,club,source
 2016/2017,2016,Liga Alef,South,14,Beitar Kfar Saba,English Wikipedia
 2016/2017,2016,Liga Alef,South,15,F.C. Bnei Jaffa Ortodoxim,English Wikipedia
 2016/2017,2016,Liga Alef,South,16,F.C. Shikun HaMizrah,English Wikipedia
+2016/2017,2016,Liga Bet,South A,1,Maccabi Holon Yirmiyahu,IFA
+2016/2017,2016,Liga Bet,South A,2,Shimshon Tel Aviv,IFA
+2016/2017,2016,Liga Bet,South A,3,F.C. Ironi Or Yehuda,IFA
+2016/2017,2016,Liga Bet,South A,4,Maccabi Ironi Amishav Petah Tikva,IFA
+2016/2017,2016,Liga Bet,South A,5,F.C. Tzeirei Tayibe,IFA
+2016/2017,2016,Liga Bet,South A,6,Hapoel Kiryat Ono,IFA
+2016/2017,2016,Liga Bet,South A,7,Agudat Sport Holon,IFA
+2016/2017,2016,Liga Bet,South A,8,Hapoel Nahlat Yehuda,IFA
+2016/2017,2016,Liga Bet,South A,9,Hapoel Kafr Qasim Shouaa,IFA
+2016/2017,2016,Liga Bet,South A,10,Beitar Petah Tikva,IFA
+2016/2017,2016,Liga Bet,South A,11,Hapoel Pardesiya,IFA
+2016/2017,2016,Liga Bet,South A,12,Hapoel Ihud Bnei Jatt,IFA
+2016/2017,2016,Liga Bet,South A,13,Beitar Ramat Gan,IFA
+2016/2017,2016,Liga Bet,South A,14,F.C. Roei Heshbon Tel Aviv,IFA
+2016/2017,2016,Liga Bet,South A,15,Hapoel Ramat Yisrael,IFA
+2016/2017,2016,Liga Bet,South A,16,Maccabi Ironi Kfar Yona,IFA
 2016/2017,2016,Liga Gimel,Central,1,Agudat Sport Ashdod,English Wikipedia
 2016/2017,2016,Liga Gimel,Central,2,Maccabi Kiryat Ekron,English Wikipedia
 2016/2017,2016,Liga Gimel,Central,3,Hapoel Ironi Gedera,English Wikipedia
@@ -9674,22 +9690,22 @@ season,season_start,league,division,position,club,source
 2017/2018,2017,Liga Bet,North B,14,Maccabi Ein Mahil,English Wikipedia
 2017/2018,2017,Liga Bet,North B,15,Beitar Pardes Hanna,English Wikipedia
 2017/2018,2017,Liga Bet,North B,16,F.C. Tzeirei Tur'an,English Wikipedia
-2017/2018,2017,Liga Bet,South A,1,Shimshon Kafr Qasim,English Wikipedia
-2017/2018,2017,Liga Bet,South A,2,F.C. Ironi Or Yehuda,English Wikipedia
-2017/2018,2017,Liga Bet,South A,3,F.C. Tzeirei Tayibe,English Wikipedia
-2017/2018,2017,Liga Bet,South A,4,Shimshon Tel Aviv,English Wikipedia
-2017/2018,2017,Liga Bet,South A,5,Shimshon Bnei Tayibe,English Wikipedia
-2017/2018,2017,Liga Bet,South A,6,Hapoel Ihud Bnei Jatt,English Wikipedia
-2017/2018,2017,Liga Bet,South A,7,Hapoel Kafr Qasim Shouaa,English Wikipedia
-2017/2018,2017,Liga Bet,South A,8,Ironi Beit Dagan,English Wikipedia
-2017/2018,2017,Liga Bet,South A,9,Maccabi Ironi Amishav Petah Tikva,English Wikipedia
-2017/2018,2017,Liga Bet,South A,10,Beitar Petah Tikva,English Wikipedia
-2017/2018,2017,Liga Bet,South A,11,F.C. Roei Heshbon Tel Aviv,English Wikipedia
-2017/2018,2017,Liga Bet,South A,12,F.C. Bnei Jaffa Ortodoxim,English Wikipedia
-2017/2018,2017,Liga Bet,South A,13,Hapoel Kiryat Ono,English Wikipedia
-2017/2018,2017,Liga Bet,South A,14,Hapoel Nahlat Yehuda,English Wikipedia
-2017/2018,2017,Liga Bet,South A,15,Hapoel Pardesiya,English Wikipedia
-2017/2018,2017,Liga Bet,South A,16,Agudat Sport Holon,English Wikipedia
+2017/2018,2017,Liga Bet,South A,1,Shimshon Kafr Qasim,IFA
+2017/2018,2017,Liga Bet,South A,2,F.C. Ironi Or Yehuda,IFA
+2017/2018,2017,Liga Bet,South A,3,F.C. Tzeirei Tayibe,IFA
+2017/2018,2017,Liga Bet,South A,4,Shimshon Tel Aviv,IFA
+2017/2018,2017,Liga Bet,South A,5,Shimshon Bnei Tayibe,IFA
+2017/2018,2017,Liga Bet,South A,6,Hapoel Ihud Bnei Jatt,IFA
+2017/2018,2017,Liga Bet,South A,7,Hapoel Kafr Qasim Shouaa,IFA
+2017/2018,2017,Liga Bet,South A,8,Ironi Beit Dagan,IFA
+2017/2018,2017,Liga Bet,South A,9,Maccabi Ironi Amishav Petah Tikva,IFA
+2017/2018,2017,Liga Bet,South A,10,Beitar Petah Tikva,IFA
+2017/2018,2017,Liga Bet,South A,11,F.C. Roei Heshbon Tel Aviv,IFA
+2017/2018,2017,Liga Bet,South A,12,F.C. Bnei Jaffa Ortodoxim,IFA
+2017/2018,2017,Liga Bet,South A,13,Hapoel Kiryat Ono,IFA
+2017/2018,2017,Liga Bet,South A,14,Hapoel Nahlat Yehuda,IFA
+2017/2018,2017,Liga Bet,South A,15,Hapoel Pardesiya,IFA
+2017/2018,2017,Liga Bet,South A,16,Agudat Sport Holon,IFA
 2017/2018,2017,Liga Bet,South B,1,Agudat Sport Ashdod,English Wikipedia
 2017/2018,2017,Liga Bet,South B,2,Maccabi Ironi Ashdod,English Wikipedia
 2017/2018,2017,Liga Bet,South B,3,Maccabi Kiryat Malakhi,English Wikipedia
@@ -9875,6 +9891,22 @@ season,season_start,league,division,position,club,source
 2018/2019,2018,Liga Alef,South,14,Hapoel Bik'at HaYarden,English Wikipedia
 2018/2019,2018,Liga Alef,South,15,Hapoel Mahane Yehuda,English Wikipedia
 2018/2019,2018,Liga Alef,South,16,Beitar Kfar Saba,English Wikipedia
+2018/2019,2018,Liga Bet,South A,1,F.C. Ironi Or Yehuda,IFA
+2018/2019,2018,Liga Bet,South A,2,Shimshon Tel Aviv,IFA
+2018/2019,2018,Liga Bet,South A,3,Beitar Ramat Gan,IFA
+2018/2019,2018,Liga Bet,South A,4,Ironi Beit Dagan,IFA
+2018/2019,2018,Liga Bet,South A,5,Hapoel Kiryat Ono,IFA
+2018/2019,2018,Liga Bet,South A,6,Maccabi Ironi Amishav Petah Tikva,IFA
+2018/2019,2018,Liga Bet,South A,7,Hapoel Kafr Qasim Shouaa,IFA
+2018/2019,2018,Liga Bet,South A,8,Hapoel Ihud Bnei Jatt,IFA
+2018/2019,2018,Liga Bet,South A,9,Hapoel Ironi Hod HaSharon,IFA
+2018/2019,2018,Liga Bet,South A,10,Beitar Petah Tikva,IFA
+2018/2019,2018,Liga Bet,South A,11,F.C. Bnei Jaffa Ortodoxim,IFA
+2018/2019,2018,Liga Bet,South A,12,Shimshon Bnei Tayibe,IFA
+2018/2019,2018,Liga Bet,South A,13,F.C. Tzeirei Tayibe,IFA
+2018/2019,2018,Liga Bet,South A,14,Hapoel Kafr Bara,IFA
+2018/2019,2018,Liga Bet,South A,15,Hapoel Nahlat Yehuda,IFA
+2018/2019,2018,Liga Bet,South A,16,F.C. Roei Heshbon Tel Aviv,IFA
 2018/2019,2018,Liga Leumit,,1,Hapoel Kfar Saba,RSSSF
 2018/2019,2018,Liga Leumit,,2,Sektzia Nes Tziona,RSSSF
 2018/2019,2018,Liga Leumit,,3,Hapoel Nof HaGalil,RSSSF
@@ -10176,6 +10208,24 @@ season,season_start,league,division,position,club,source
 2020/2021,2020,Ligat ha'Al,,12,Bnei Sakhnin,RSSSF
 2020/2021,2020,Ligat ha'Al,,13,Bnei Yehuda Tel Aviv,RSSSF
 2020/2021,2020,Ligat ha'Al,,14,Hapoel Kfar Saba,RSSSF
+2021/2022,2021,Liga Alef,South,1,Maccabi Jaffa,IFA
+2021/2022,2021,Liga Alef,South,2,Hapoel Kfar Shalem,IFA
+2021/2022,2021,Liga Alef,South,3,Shimshon Kafr Qasim,IFA
+2021/2022,2021,Liga Alef,South,4,Maccabi Holon Yirmiyahu,IFA
+2021/2022,2021,Liga Alef,South,5,Hapoel Marmorek,IFA
+2021/2022,2021,Liga Alef,South,6,Maccabi Yavne,IFA
+2021/2022,2021,Liga Alef,South,7,Maccabi Ironi Ashdod (Liga Alef),IFA
+2021/2022,2021,Liga Alef,South,8,Maccabi Sha'arayim,IFA
+2021/2022,2021,Liga Alef,South,9,M.S. Dimona,IFA
+2021/2022,2021,Liga Alef,South,10,Hapoel Bik'at HaYarden,IFA
+2021/2022,2021,Liga Alef,South,11,Shimshon Tel Aviv,IFA
+2021/2022,2021,Liga Alef,South,12,Maccabi Herzliya,IFA
+2021/2022,2021,Liga Alef,South,13,Bnei Eilat,IFA
+2021/2022,2021,Liga Alef,South,14,M.S. Kuseife,IFA
+2021/2022,2021,Liga Alef,South,15,Hapoel Azor,IFA
+2021/2022,2021,Liga Alef,South,16,Hapoel Bnei Lod Rakevet,IFA
+2021/2022,2021,Liga Alef,South,17,Agudat Sport Nordia Jerusalem,IFA
+2021/2022,2021,Liga Alef,South,18,Hapoel Ashkelon,IFA
 2021/2022,2021,Liga Leumit,,1,Maccabi Bnei Reineh,RSSSF
 2021/2022,2021,Liga Leumit,,2,Sektzia Nes Tziona,RSSSF
 2021/2022,2021,Liga Leumit,,3,M.S. Kafr Qasim,RSSSF
@@ -10206,6 +10256,22 @@ season,season_start,league,division,position,club,source
 2021/2022,2021,Ligat ha'Al,,12,Hapoel Jerusalem,RSSSF
 2021/2022,2021,Ligat ha'Al,,13,Maccabi Petah Tikva,RSSSF
 2021/2022,2021,Ligat ha'Al,,14,Hapoel Nof HaGalil,RSSSF
+2022/2023,2022,Liga Alef,South,1,Maccabi Herzliya,IFA
+2022/2023,2022,Liga Alef,South,2,Hapoel Kfar Shalem,IFA
+2022/2023,2022,Liga Alef,South,3,Maccabi Yavne,IFA
+2022/2023,2022,Liga Alef,South,4,Hapoel Ironi Herzliya,IFA
+2022/2023,2022,Liga Alef,South,5,M.S. Dimona,IFA
+2022/2023,2022,Liga Alef,South,6,Hapoel Bik'at HaYarden,IFA
+2022/2023,2022,Liga Alef,South,7,Hapoel Marmorek,IFA
+2022/2023,2022,Liga Alef,South,8,Shimshon Tel Aviv,IFA
+2022/2023,2022,Liga Alef,South,9,Maccabi Holon Yirmiyahu,IFA
+2022/2023,2022,Liga Alef,South,10,M.S. Kuseife,IFA
+2022/2023,2022,Liga Alef,South,11,Ironi Modi'in,IFA
+2022/2023,2022,Liga Alef,South,12,Maccabi Ironi Ashdod (Liga Alef),IFA
+2022/2023,2022,Liga Alef,South,13,Shimshon Kafr Qasim,IFA
+2022/2023,2022,Liga Alef,South,14,Maccabi Sha'arayim,IFA
+2022/2023,2022,Liga Alef,South,15,Bnei Eilat,IFA
+2022/2023,2022,Liga Alef,South,16,Beitar Tel Aviv Holon,IFA
 2022/2023,2022,Liga Leumit,,1,Maccabi Petah Tikva,RSSSF
 2022/2023,2022,Liga Leumit,,2,Hapoel Petah Tikva,RSSSF
 2022/2023,2022,Liga Leumit,,3,Ironi Tiberias,RSSSF
@@ -10236,6 +10302,22 @@ season,season_start,league,division,position,club,source
 2022/2023,2022,Ligat ha'Al,,12,Hapoel Hadera,RSSSF
 2022/2023,2022,Ligat ha'Al,,13,Ironi Kiryat Shmona,RSSSF
 2022/2023,2022,Ligat ha'Al,,14,Sektzia Nes Tziona,RSSSF
+2023/2024,2023,Liga Alef,South,1,Hapoel Kfar Shalem,IFA
+2023/2024,2023,Liga Alef,South,2,M.S. Dimona,IFA
+2023/2024,2023,Liga Alef,South,3,Ironi Modi'in,IFA
+2023/2024,2023,Liga Alef,South,4,Shimshon Tel Aviv,IFA
+2023/2024,2023,Liga Alef,South,5,Maccabi Holon Yirmiyahu,IFA
+2023/2024,2023,Liga Alef,South,6,a.s. Ashdod,IFA
+2023/2024,2023,Liga Alef,South,7,Hapoel Ironi Herzliya,IFA
+2023/2024,2023,Liga Alef,South,8,Maccabi Ironi Ashdod (Liga Alef),IFA
+2023/2024,2023,Liga Alef,South,9,Agudat Sport Nordia Jerusalem,IFA
+2023/2024,2023,Liga Alef,South,10,Maccabi Ironi Kiryat Malachi,IFA
+2023/2024,2023,Liga Alef,South,11,Maccabi Yavne,IFA
+2023/2024,2023,Liga Alef,South,12,Maccabi Sha'arayim,IFA
+2023/2024,2023,Liga Alef,South,13,Shimshon Kafr Qasim,IFA
+2023/2024,2023,Liga Alef,South,14,Hapoel Lod Bnei Regev,IFA
+2023/2024,2023,Liga Alef,South,15,Hapoel Marmorek,IFA
+2023/2024,2023,Liga Alef,South,16,Hapoel Bik'at HaYarden,IFA
 2023/2024,2023,Liga Leumit,,1,Ironi Kiryat Shmona,RSSSF
 2023/2024,2023,Liga Leumit,,2,Ironi Tiberias,RSSSF
 2023/2024,2023,Liga Leumit,,3,Bnei Yehuda Tel Aviv,RSSSF
@@ -10266,6 +10348,23 @@ season,season_start,league,division,position,club,source
 2023/2024,2023,Ligat ha'Al,,12,Hapoel Hadera,RSSSF
 2023/2024,2023,Ligat ha'Al,,13,Hapoel Tel Aviv,RSSSF
 2023/2024,2023,Ligat ha'Al,,14,Hapoel Petah Tikva,RSSSF
+2024/2025,2024,Liga Alef,South,1,Ironi Modi'in,IFA
+2024/2025,2024,Liga Alef,South,2,Agudat Sport Nordia Jerusalem,IFA
+2024/2025,2024,Liga Alef,South,3,Hapoel Ironi Herzliya,IFA
+2024/2025,2024,Liga Alef,South,4,Maccabi Yavne,IFA
+2024/2025,2024,Liga Alef,South,5,M.S. Dimona,IFA
+2024/2025,2024,Liga Alef,South,6,Maccabi Holon Yirmiyahu,IFA
+2024/2025,2024,Liga Alef,South,7,M.K. Jerusalem,IFA
+2024/2025,2024,Liga Alef,South,8,Maccabi Ironi Ashdod (Liga Alef),IFA
+2024/2025,2024,Liga Alef,South,9,a.s. Ashdod,IFA
+2024/2025,2024,Liga Alef,South,10,Shimshon Tel Aviv,IFA
+2024/2025,2024,Liga Alef,South,11,Hapoel Marmorek,IFA
+2024/2025,2024,Liga Alef,South,12,Maccabi Ironi Kiryat Malachi,IFA
+2024/2025,2024,Liga Alef,South,13,Hapoel Azor,IFA
+2024/2025,2024,Liga Alef,South,14,Maccabi Tzeirei Tira,IFA
+2024/2025,2024,Liga Alef,South,15,Hapoel Lod Bnei Regev,IFA
+2024/2025,2024,Liga Alef,South,16,Maccabi Sha'arayim,IFA
+2024/2025,2024,Liga Alef,South,17,Shimshon Kafr Qasim,IFA
 2024/2025,2024,Liga Leumit,,1,Hapoel Tel Aviv,RSSSF
 2024/2025,2024,Liga Leumit,,2,Hapoel Petah Tikva,RSSSF
 2024/2025,2024,Liga Leumit,,3,Hapoel Ramat Gan,RSSSF

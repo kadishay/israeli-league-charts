@@ -1,0 +1,77 @@
+{
+ "league": "Liga Alef",
+ "division": "South",
+ "season": "2023/2024",
+ "season_start": 2023,
+ "league_id": 62,
+ "season_id": 25,
+ "stage": "משחק עלייה לליגה א' דרום",
+ "round": 33,
+ "games_played": 30,
+ "standings": [
+  {
+   "position": 1,
+   "club": "הפועל כפר שלם"
+  },
+  {
+   "position": 2,
+   "club": "מ.ס. דימונה"
+  },
+  {
+   "position": 3,
+   "club": "עירוני מודיעין"
+  },
+  {
+   "position": 4,
+   "club": "שמשון פזטל ת\"א"
+  },
+  {
+   "position": 5,
+   "club": "מ.כ. חולון ירמיהו"
+  },
+  {
+   "position": 6,
+   "club": "א.ס. אשדוד"
+  },
+  {
+   "position": 7,
+   "club": "הפועל הרצליה עירוני"
+  },
+  {
+   "position": 8,
+   "club": "מ.כ. מכבי ע. אשדוד"
+  },
+  {
+   "position": 9,
+   "club": "א.ס. נורדיה ירושלים"
+  },
+  {
+   "position": 10,
+   "club": "מכבי קרית מלאכי עירוני"
+  },
+  {
+   "position": 11,
+   "club": "מכבי יבנה"
+  },
+  {
+   "position": 12,
+   "club": "מכבי שעריים רחובות"
+  },
+  {
+   "position": 13,
+   "club": "שמשון כפר קאסם"
+  },
+  {
+   "position": 14,
+   "club": "מ.ס. הפועל לוד בני רגב"
+  },
+  {
+   "position": 15,
+   "club": "הפועל מרמורק רחובות חיים"
+  },
+  {
+   "position": 16,
+   "club": "הפ' בקעת הירדן"
+  }
+ ]
+}

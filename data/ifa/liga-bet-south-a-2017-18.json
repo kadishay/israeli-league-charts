@@ -1,0 +1,78 @@
+{
+ "league": "Liga Bet",
+ "division": "South A",
+ "season": "2017/2018",
+ "season_start": 2017,
+ "league_id": 73,
+ "season_id": 19,
+ "stage": "מבחני עליה לליגה א' דרום",
+ "round": 34,
+ "games_played": 30,
+ "note": "Overlaps English Wikipedia. Kept as the cross-check that validates this source: all 16 positions match, which is where the alias map came from.",
+ "standings": [
+  {
+   "position": 1,
+   "club": "שמשון כפר קאסם"
+  },
+  {
+   "position": 2,
+   "club": "מ.כ.ע. אור יהודה"
+  },
+  {
+   "position": 3,
+   "club": "מ.ס. צעירי טייבה"
+  },
+  {
+   "position": 4,
+   "club": "שמשון פזטל ת\"א"
+  },
+  {
+   "position": 5,
+   "club": "שמשון בני טייבה"
+  },
+  {
+   "position": 6,
+   "club": "הפועל איחוד בני ג'ת"
+  },
+  {
+   "position": 7,
+   "club": "הפועל כ. קאסם שועאע"
+  },
+  {
+   "position": 8,
+   "club": "עירוני בית דגן"
+  },
+  {
+   "position": 9,
+   "club": "מכבי ע. עמישב פ\"ת אלי"
+  },
+  {
+   "position": 10,
+   "club": "בית\"ר פ\"ת זאב רווח"
+  },
+  {
+   "position": 11,
+   "club": "מ.ס. רוח ת\"א"
+  },
+  {
+   "position": 12,
+   "club": "מ.ס בני יפו אורתודוכסים"
+  },
+  {
+   "position": 13,
+   "club": "הפועל קרית אונו"
+  },
+  {
+   "position": 14,
+   "club": "הפ' נ.יהודה ראשל\"צ הרצל חיים"
+  },
+  {
+   "position": 15,
+   "club": "הפועל פרדסייה נועם"
+  },
+  {
+   "position": 16,
+   "club": "א.ס. חולון מור"
+  }
+ ]
+}

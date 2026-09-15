@@ -1,0 +1,77 @@
+{
+ "league": "Liga Bet",
+ "division": "South A",
+ "season": "2018/2019",
+ "season_start": 2018,
+ "league_id": 73,
+ "season_id": 20,
+ "stage": "מבחני עליה לליגה א' דרום",
+ "round": 34,
+ "games_played": 30,
+ "standings": [
+  {
+   "position": 1,
+   "club": "מ.כ.ע. אור יהודה"
+  },
+  {
+   "position": 2,
+   "club": "שמשון פזטל ת\"א"
+  },
+  {
+   "position": 3,
+   "club": "בית\"ר ר\"ג"
+  },
+  {
+   "position": 4,
+   "club": "עירוני בית דגן"
+  },
+  {
+   "position": 5,
+   "club": "הפועל קרית אונו"
+  },
+  {
+   "position": 6,
+   "club": "מכבי ע. עמישב פ\"ת אלי"
+  },
+  {
+   "position": 7,
+   "club": "הפועל כ. קאסם שועאע"
+  },
+  {
+   "position": 8,
+   "club": "הפועל איחוד בני ג'ת"
+  },
+  {
+   "position": 9,
+   "club": "הפועל הוד השרון עירוני"
+  },
+  {
+   "position": 10,
+   "club": "בית\"ר פ\"ת זאב רווח"
+  },
+  {
+   "position": 11,
+   "club": "מ.ס בני יפו אורתודוכסים"
+  },
+  {
+   "position": 12,
+   "club": "שמשון בני טייבה"
+  },
+  {
+   "position": 13,
+   "club": "מ.ס. צעירי טייבה"
+  },
+  {
+   "position": 14,
+   "club": "הפועל כפר ברא"
+  },
+  {
+   "position": 15,
+   "club": "הפ' נ.יהודה ראשל\"צ הרצל חיים"
+  },
+  {
+   "position": 16,
+   "club": "מ.ס. רוח ת\"א"
+  }
+ ]
+}

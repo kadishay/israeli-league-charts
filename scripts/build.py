@@ -59,8 +59,15 @@ def main() -> None:
     # that half of the order is moot; what it decides is the 964 rows where it
     # overlaps English. English stays last - it is the only source for tiers
     # three and below, but the weakest where another source has the same season.
+    #
+    # The IFA sits above English Wikipedia and below Hebrew: it is the
+    # federation's own record, and on the one season where it overlaps English
+    # - 2017/18 Liga Bet South A - all sixteen positions match. It is placed
+    # below Hebrew Wikipedia only because it has never had to be compared
+    # against it; they cover no common season. See docs/SOURCES.md.
     sources = [("Hebrew Wikipedia", read("seasons_he.csv")),
                ("RSSSF", read("seasons_rsssf.csv")),
+               ("IFA", read("seasons_ifa.csv")),
                ("English Wikipedia", read("seasons_en.csv"))]
     # Keyed per club-season, not per league-season. The Mandate-era regional
     # seasons are documented district by district and the two Wikipedias cover
