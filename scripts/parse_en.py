@@ -48,7 +48,7 @@ LABEL_FIXUPS = {"1938/1939": "1938"}
 LEAGUE_FIXUPS = {("1954/1955", "Liga Alef"): "Liga Leumit"}
 
 INVOKE = re.compile(r"\{\{#invoke:\s*sports table", re.I)
-HEADING = re.compile(r"^={2,}\s*(.+?)\s*={2,}\s*$", re.M)
+HEADING = re.compile(r"^(={2,})\s*(.+?)\s*={2,}\s*$", re.M)
 TEAM = re.compile(r"\|\s*team(\d{1,2})\s*=\s*([A-Za-z0-9_]+)")
 NAME = re.compile(r"\|\s*name_([A-Za-z0-9_]+)\s*=\s*([^|}\n]+)")
 LINK = re.compile(r"\[\[([^\]|]+)")
@@ -75,11 +75,38 @@ def label_of(title: str) -> str:
     return re.match(r"^(\d{4})\s", title).group(1)
 
 
-def division_of(heading: str) -> str:
-    h = heading.strip()
-    if h.lower() in NATIONAL:
+def division_of(path: list[str]) -> str:
+    """Division name from a heading and the headings it sits under.
+
+    2020/21 is why this takes a path rather than one heading. That season the
+    lower leagues ran in two phases, and the article nests the groups:
+
+        ==North Division==
+        ===Sub-division A===
+
+    Reading only the innermost heading called that group "A", and South's
+    Sub-division A was also "A", so two separate nine-team groups were filed as
+    one eighteen-team division holding two clubs at every position from 1 to 9.
+    Qualifying it with the parent gives "North A" and "South A".
+
+    Only a sub-division is qualified, and only with an ancestor that is itself a
+    division. Qualifying everything pulled in whatever structural heading
+    happened to sit above the table - "League tables (as of 3 January 1948)",
+    "Regular season results" - and renamed 250 rows that were already right.
+    """
+    own = path[-1].strip() if path else ""
+    if own.lower() in NATIONAL:
         return ""
-    h = re.sub(r"\s+division$", "", h, flags=re.I)
+    if re.match(r"^sub-?division\b", own, flags=re.I):
+        parent = next((h for h in reversed(path[:-1])
+                       if re.search(r"\bdivision$", h.strip(), flags=re.I)
+                       and not re.match(r"^sub-?division\b", h.strip(), flags=re.I)),
+                      None)
+        if parent:
+            head = re.sub(r"\s+division$", "", parent.strip(), flags=re.I)
+            tail = re.sub(r"^sub-?division\s+", "", own, flags=re.I)
+            return f"{head} {tail}".strip()
+    h = re.sub(r"\s+division$", "", own, flags=re.I)
     h = re.sub(r"^sub-?division\s+", "", h, flags=re.I)
     return "" if h.lower() in NATIONAL else h
 
@@ -95,12 +122,21 @@ def club_of(value: str) -> str | None:
     return text or None
 
 
-def blocks(wiki: str) -> list[tuple[str, str]]:
-    """(heading, text) for each sports-table block, with its section heading."""
+def blocks(wiki: str) -> list[tuple[list[str], str]]:
+    """(heading path, text) for each sports-table block.
+
+    The path is the block's own heading plus the outer headings containing it,
+    outermost first, so a nested group keeps the region it belongs to.
+    """
     out = []
     for m in INVOKE.finditer(wiki):
-        heads = HEADING.findall(wiki[:m.start()])
-        heading = heads[-1] if heads else ""
+        heads = [(len(lvl), txt) for lvl, txt in HEADING.findall(wiki[:m.start()])]
+        heading: list[str] = []
+        depth = 10 ** 6
+        for lvl, txt in reversed(heads):
+            if lvl < depth:
+                heading.insert(0, txt)
+                depth = lvl
         # The block runs to the next invoke or the next heading, whichever first.
         rest = wiki[m.start():]
         nxt = INVOKE.search(rest, 1)
@@ -157,7 +193,11 @@ def main() -> None:
             skipped_league.add(f"{year} {league}")
             continue
         for heading, block in blocks(path.read_text()):
-            if SKIP_SECTION.search(heading):
+            # The block's own heading decides whether it is standings, not its
+            # ancestors: the 1941/42 championship decider sits as "Table" under
+            # "Championship play-off", and testing the whole path threw away the
+            # one national ranking that season has.
+            if SKIP_SECTION.search(heading[-1] if heading else ""):
                 continue
             div = division_of(heading)
             for pos, raw_club in rows_of(block):
@@ -178,6 +218,27 @@ def main() -> None:
             seen.add(key)
             deduped.append(r)
     deduped.sort(key=lambda r: (r[1], r[2], r[3], r[4]))
+
+    # Two clubs cannot share a position in one division. The existing dedupe is
+    # per club, so it happily kept two clubs at position 1; this is the check
+    # that catches a division label too coarse for the article's structure,
+    # which is exactly how the 2020/21 sub-divisions hid for as long as they did.
+    ranks: dict[tuple, dict[int, str]] = {}
+    clashes = []
+    for label, year, league, div, pos, club in deduped:
+        at = ranks.setdefault((label, league, div), {})
+        if pos in at:
+            clashes.append(f"{label} {league} {div or '(national)'}: "
+                           f"position {pos} held by {at[pos]} and {club}")
+        else:
+            at[pos] = club
+    if clashes:
+        print(f"{len(clashes)} duplicated position(s) - a division label is "
+              f"probably merging two groups:")
+        for c in clashes[:12]:
+            print(f"  {c}")
+        if len(clashes) > 12:
+            print(f"  ... and {len(clashes) - 12} more")
 
     with OUT.open("w", newline="") as f:
         w = csv.writer(f)

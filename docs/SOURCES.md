@@ -116,7 +116,20 @@ The only source for tiers 3 and below.
 - **No Haifa district.** The Mandate top-flight articles have Tel Aviv, Samaria and Southern
   only, which is why Maccabi Haifa has unknown seasons.
 - Below tier two nearly everything is regional, with headings like `North Division`,
-  `Samaria Division`, `Sub-division A`. Promotion and relegation play-offs are skipped.
+  `Samaria Division`, `Sub-division A`. Promotion and relegation play-offs are skipped —
+  on the block's **own** heading, never its ancestors: the 1941/42 championship decider is a
+  `===Table===` under `==Championship play-off==`, and testing the whole path throws away the
+  only national ranking that season has.
+- **Headings nest, and the inner one is not always enough.** In 2020/21 the groups sit as
+  `===Sub-division A===` under `==North Division==`, and South has a Sub-division A too, so
+  reading the inner heading alone filed two separate nine-team groups as one eighteen-team
+  division with two clubs at every position from 1 to 9. A sub-division is therefore
+  qualified with the nearest ancestor that is itself a division — `North A`, `South A`. Only
+  sub-divisions: qualifying every heading drags in whatever structural heading happens to sit
+  above the table, `League tables (as of 3 January 1948)` and the like.
+- `parse_en.py` now also reports **two clubs at the same position** in one division. The
+  dedupe is per club, so it was perfectly happy with two clubs at position 1; this is the
+  check that catches a division label too coarse for the article's structure.
 - Roughly 900 lower-tier club names keep their English spelling. Their rows are **kept, not
   dropped**: dropping a club understates its division's size and shifts every position below
   it. `parse_en.py` reports what is unmapped.
