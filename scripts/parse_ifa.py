@@ -19,6 +19,15 @@ only source that resolves the seasons Wikipedia skipped outright: 2016/17 and
 What a capture holds is one league-season's final table, already ordered.  The
 positions are therefore taken from the list order and checked against the
 position the site printed, the same rule parse.py applies to RSSSF.
+
+A capture marked `"abandoned": true` is different: it is where a division
+stopped, not where it finished.  Those contribute no positions at all - a
+partial table is not a final position, the same rule that drops the 1947/48 rows
+in build.py - but they are still worth committing, because they are the only
+record that a club was *playing* that season.  Without them a club whose last
+final position is 2024/25 renders as though it had ceased to exist, which for
+Shimshon Tel Aviv, Maccabi Kiryat Gat and four others would be plainly wrong.
+render.py reads them back for exactly that.
 """
 
 import csv
@@ -34,10 +43,24 @@ OUT = ROOT / "data" / "raw" / "parsed" / "seasons_ifa.csv"
 def main() -> None:
     aliases = json.loads(ALIASES.read_text())["aliases"]
     rows, unmapped, notes = [], set(), []
+    abandoned_clubs: set[tuple[str, str]] = set()
 
     for path in sorted(CAPTURES.glob("*.json")):
         cap = json.loads(path.read_text())
         standings = cap["standings"]
+
+        if cap.get("abandoned"):
+            # No positions from a table that never reached the end. The clubs in
+            # it are read directly from data/ifa/ by render.py; an unmapped name
+            # here is reported rather than fatal, because these divisions are
+            # full of clubs this project has no reason to name.
+            named = [s["club"] for s in standings if s["club"] in aliases]
+            notes.append(
+                f"  {path.name}: abandoned after ~{standings[0].get('games_played')} "
+                f"of {cap.get('full_schedule')} games - no positions taken, "
+                f"{len(named)} of {len(standings)} clubs recognised")
+            abandoned_clubs.update((cap["season"], aliases[n]) for n in named)
+            continue
 
         # The captures are ordered tables, so position is row order. The site's
         # own numbering is checked against it rather than trusted: RSSSF has a
@@ -75,6 +98,12 @@ def main() -> None:
 
     seasons = {(r["season"], r["league"], r["division"]) for r in rows}
     print(f"{len(rows)} rows from {len(seasons)} league-seasons -> {OUT}")
+    if abandoned_clubs:
+        by_season: dict[str, int] = {}
+        for season, _club in abandoned_clubs:
+            by_season[season] = by_season.get(season, 0) + 1
+        print("clubs recorded as playing in an abandoned season (no positions): "
+              + ", ".join(f"{s}: {n}" for s, n in sorted(by_season.items())))
     if notes:
         print("notes on the captures:")
         print("\n".join(notes))

@@ -1,0 +1,99 @@
+{
+ "league": "Liga Bet",
+ "division": "South A",
+ "season": "2025/2026",
+ "season_start": 2025,
+ "league_id": 73,
+ "season_id": 27,
+ "stage": "סבב 2",
+ "round": 26,
+ "full_schedule": 30,
+ "abandoned": true,
+ "reason": "The IFA halted Liga Alef, Bet and Gimel on 31 March 2026 because of the war with Iran, with no dates available to resume. Confirmed on 12 April: the clubs top of each district were promoted, and nobody was relegated. The table below is where each division stopped, not a final table.",
+ "sources": [
+  "ynet.co.il/sport/israelisoccer/article/pgcjtqvh2 (31 March 2026)",
+  "haaretz.co.il/sport/israel-soccer/2026-04-12 (12 April 2026)"
+ ],
+ "standings": [
+  {
+   "position": 1,
+   "club": "הפ' מחנה יהודה מאיה,אלירן",
+   "games_played": 23
+  },
+  {
+   "position": 2,
+   "club": "מ.ס. הפועל לוד בני רגב",
+   "games_played": 23
+  },
+  {
+   "position": 3,
+   "club": "מכבי ע. עמישב פ\"ת אלי",
+   "games_played": 23
+  },
+  {
+   "position": 4,
+   "club": "הפועל הוד השרון עירוני",
+   "games_played": 23
+  },
+  {
+   "position": 5,
+   "club": "בית\"ר ר\"ג",
+   "games_played": 23
+  },
+  {
+   "position": 6,
+   "club": "הכח מכבי עמידר ר\"ג",
+   "games_played": 23
+  },
+  {
+   "position": 7,
+   "club": "הפועל קרית אונו",
+   "games_played": 23
+  },
+  {
+   "position": 8,
+   "club": "בית\"ר כ\"ס שלומי",
+   "games_played": 23
+  },
+  {
+   "position": 9,
+   "club": "בית\"ר ת\"א חולון",
+   "games_played": 23
+  },
+  {
+   "position": 10,
+   "club": "מ.ס בני יפו אורתודוכסים",
+   "games_played": 23
+  },
+  {
+   "position": 11,
+   "club": "מכבי ע. כפר יונה",
+   "games_played": 23
+  },
+  {
+   "position": 12,
+   "club": "בית\"ר פ\"ת זאב רווח",
+   "games_played": 23
+  },
+  {
+   "position": 13,
+   "club": "א.ס. חולון מור",
+   "games_played": 22
+  },
+  {
+   "position": 14,
+   "club": "עירוני בית דגן",
+   "games_played": 23
+  },
+  {
+   "position": 15,
+   "club": "הפועל כ. קאסם שועאע",
+   "games_played": 23
+  },
+  {
+   "position": 16,
+   "club": "בני ג'לג'וליה",
+   "games_played": 22
+  }
+ ]
+}

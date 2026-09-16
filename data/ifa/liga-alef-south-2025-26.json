@@ -1,0 +1,99 @@
+{
+ "league": "Liga Alef",
+ "division": "South",
+ "season": "2025/2026",
+ "season_start": 2025,
+ "league_id": 62,
+ "season_id": 27,
+ "stage": "סבב 2",
+ "round": 25,
+ "full_schedule": 30,
+ "abandoned": true,
+ "reason": "The IFA halted Liga Alef, Bet and Gimel on 31 March 2026 because of the war with Iran, with no dates available to resume. Confirmed on 12 April: the clubs top of each district were promoted, and nobody was relegated. The table below is where each division stopped, not a final table.",
+ "sources": [
+  "ynet.co.il/sport/israelisoccer/article/pgcjtqvh2 (31 March 2026)",
+  "haaretz.co.il/sport/israel-soccer/2026-04-12 (12 April 2026)"
+ ],
+ "standings": [
+  {
+   "position": 1,
+   "club": "מכבי קריית גת",
+   "games_played": 21
+  },
+  {
+   "position": 2,
+   "club": "מ.כ. ירושלים",
+   "games_played": 22
+  },
+  {
+   "position": 3,
+   "club": "מ.ס. דימונה",
+   "games_played": 22
+  },
+  {
+   "position": 4,
+   "club": "מכבי יבנה",
+   "games_played": 22
+  },
+  {
+   "position": 5,
+   "club": "מכבי קרית מלאכי עירוני",
+   "games_played": 22
+  },
+  {
+   "position": 6,
+   "club": "מ.כ. צעירי טירה",
+   "games_played": 21
+  },
+  {
+   "position": 7,
+   "club": "שמשון פזטל ת\"א",
+   "games_played": 22
+  },
+  {
+   "position": 8,
+   "club": "מ.כ. בית\"ר יבנה",
+   "games_played": 22
+  },
+  {
+   "position": 9,
+   "club": "מ.כ. כפר סבא",
+   "games_played": 22
+  },
+  {
+   "position": 10,
+   "club": "מ.כ. חולון ירמיהו",
+   "games_played": 22
+  },
+  {
+   "position": 11,
+   "club": "הפועל מרמורק רחובות חיים",
+   "games_played": 22
+  },
+  {
+   "position": 12,
+   "club": "הפועל אזור",
+   "games_played": 21
+  },
+  {
+   "position": 13,
+   "club": "הפועל הרצליה עירוני",
+   "games_played": 22
+  },
+  {
+   "position": 14,
+   "club": "הפועל ניר רמה\"ש",
+   "games_played": 22
+  },
+  {
+   "position": 15,
+   "club": "מ.כ. מכבי ע. אשדוד",
+   "games_played": 22
+  },
+  {
+   "position": 16,
+   "club": "א.ס. נורדיה ירושלים",
+   "games_played": 22
+  }
+ ]
+}

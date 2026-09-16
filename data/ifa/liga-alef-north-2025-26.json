@@ -1,0 +1,99 @@
+{
+ "league": "Liga Alef",
+ "division": "North",
+ "season": "2025/2026",
+ "season_start": 2025,
+ "league_id": 61,
+ "season_id": 27,
+ "stage": "סבב 2",
+ "round": 25,
+ "full_schedule": 30,
+ "abandoned": true,
+ "reason": "The IFA halted Liga Alef, Bet and Gimel on 31 March 2026 because of the war with Iran, with no dates available to resume. Confirmed on 12 April: the clubs top of each district were promoted, and nobody was relegated. The table below is where each division stopped, not a final table.",
+ "sources": [
+  "ynet.co.il/sport/israelisoccer/article/pgcjtqvh2 (31 March 2026)",
+  "haaretz.co.il/sport/israel-soccer/2026-04-12 (12 April 2026)"
+ ],
+ "standings": [
+  {
+   "position": 1,
+   "club": "מכבי אחי נצרת",
+   "games_played": 21
+  },
+  {
+   "position": 2,
+   "club": "מ.ס. טירה",
+   "games_played": 22
+  },
+  {
+   "position": 3,
+   "club": "מכבי אתא ביאליק",
+   "games_played": 22
+  },
+  {
+   "position": 4,
+   "club": "מכבי נווה שאנן אלדד",
+   "games_played": 22
+  },
+  {
+   "position": 5,
+   "club": "הפועל עירוני כרמיאל",
+   "games_played": 22
+  },
+  {
+   "position": 6,
+   "club": "הפועל בני מוסמוס",
+   "games_played": 21
+  },
+  {
+   "position": 7,
+   "club": "הפועל בית שאן מסילות",
+   "games_played": 22
+  },
+  {
+   "position": 8,
+   "club": "הפועל ע. בקה אל גרבייה",
+   "games_played": 22
+  },
+  {
+   "position": 9,
+   "club": "צעירי א.א. פאחם",
+   "games_played": 22
+  },
+  {
+   "position": 10,
+   "club": "עירוני נשר",
+   "games_played": 22
+  },
+  {
+   "position": 11,
+   "club": "מ.כ. צעירי טמרה",
+   "games_played": 22
+  },
+  {
+   "position": 12,
+   "club": "הפועל עירוני עראבה",
+   "games_played": 22
+  },
+  {
+   "position": 13,
+   "club": "הפועל מגדל העמק",
+   "games_played": 22
+  },
+  {
+   "position": 14,
+   "club": "מכבי נוג'ידאת אחמד",
+   "games_played": 21
+  },
+  {
+   "position": 15,
+   "club": "הפועל טירת כרמל",
+   "games_played": 21
+  },
+  {
+   "position": 16,
+   "club": "הפועל א.א. פאחם",
+   "games_played": 22
+  }
+ ]
+}
