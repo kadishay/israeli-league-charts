@@ -193,12 +193,20 @@ champions, which is exactly the kind of claim a chart should not quietly make.
 
 ---
 
-## 11. Tiers 1–4 get bands; 5 and below share the floor
+## 11. Tiers 1–4 get bands; below that the chart stops
 
 Only tiers that **existed that season** are drawn, so the 1930s show two bands rather than
-four — four would imply a depth the pyramid did not have.
+four — four would imply a depth the pyramid did not have. Everything below the last band is
+bare page, for the same reason.
 
-The data for tiers 5–6 is in `seasons.csv` if you want to draw them.
+Tier 5 briefly had a strip of its own at the floor. It is gone: a strip that carries no rank
+is a band that looks like one, and below tier four a position is a place inside a regional
+group that is not comparable to anything above it. A fifth- or sixth-tier season is now
+marked like any other season the chart has no row for.
+
+The cost is honest and worth stating: the unknown-season total went from 142 to 221, and
+those 79 are not missing data — they are real positions in `seasons.csv` that the chart no
+longer has a row for. Maccabi Rehovot alone carries 31.
 
 ---
 
@@ -324,6 +332,35 @@ the reader was not using, at the cost of a legend row and two paragraphs of expl
 It is gone. The general test, which would have caught it earlier: **if explaining a mark
 takes more space than the mark conveys, drop the mark.** That is a better rule than "if a
 distinction is true, show it".
+
+---
+
+## 20. A second line is for a shared team, not for a merger
+
+A club's chart carries one line. The exception is a spell when its senior side took the
+field under **another club's name** and this project keeps the two apart — Shimshon Tel Aviv
+inside Beitar Shimshon Tel Aviv, 2000/01 to 2010/11. Those seasons are drawn as a dashed
+line in the other club's colour, with both lines named in the legend, because the
+alternative is eleven blank columns that say the club did not exist when in fact its players
+were on a pitch every week.
+
+It is **not** used when two clubs merged into a new one. Ashdod S.C. and Ironi Kiryat Shmona
+each have two predecessors with full independent records — Maccabi Ironi Ashdod and Hapoel
+Ashdod played 18 and 19 seasons, often in the same division as each other. Drawing one of
+them as the new club's earlier self picks a parent arbitrarily; drawing both says the club
+had two pasts. Neither is a claim the sources make, so the predecessors keep their own
+charts and the new club starts when it was founded.
+
+The test is whether there is still a "they" for the line to belong to. Shimshon survived the
+merger and left it; Hapoel Ashdod did not.
+
+Two nearby cases that are *not* this:
+
+- **A rename** — Hapoel Nazareth Illit to Hapoel Nof HaGalil — is one club and one line. The
+  alias files fold it in, and a second line would invent a discontinuity.
+- **A dormant spell with no successor** — Hapoel Yehud, 1998–2007 — stays blank. The 2004
+  revival, Hapoel Monosson Yehud, is in no source this project reads, and the other Yehud
+  clubs in the dataset are different clubs, not this one under another name.
 
 ---
 

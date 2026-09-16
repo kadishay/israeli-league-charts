@@ -42,7 +42,7 @@ move: "Liga Alef" on a 1960 column and on a 2015 column are different depths.
 
 | | |
 |---|---|
-| [`docs/DECISIONS.md`](docs/DECISIONS.md) | The 15 modelling decisions, each with its reason and what would change it. Several look like bugs until you know why. Read this before changing the schema. |
+| [`docs/DECISIONS.md`](docs/DECISIONS.md) | The 20 modelling decisions, each with its reason and what would change it. Several look like bugs until you know why. Read this before changing the schema. |
 | [`docs/SOURCES.md`](docs/SOURCES.md) | What each source covers, how each one breaks, and the sources that turned out not to help — so the dead ends are not re-walked. |
 | [`docs/CLUBS.md`](docs/CLUBS.md) | Club identity and lineage, a per-club table of what is known, and why each unknown season is unknown. |
 
