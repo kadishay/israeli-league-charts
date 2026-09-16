@@ -664,9 +664,16 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
             drew["notplayed"] = True
             prev = None
             continue
-        entry = None if s["label"] in renamed else history.get(s["label"])
+        # Inside a renamed span the club's own line yields to the earlier-name
+        # line, but only for the seasons that line actually draws. A season in
+        # the span with no usable position is still an unknown and still gets
+        # its mark: the club was there, the record is not.
+        raw = history.get(s["label"])
+        in_renamed = s["label"] in renamed
+        drawn_by_alt = (rank_of(raw, s) is not None) if (in_renamed and raw) else False
+        entry = None if in_renamed else raw
         rank = rank_of(entry, s) if entry else None
-        if rank is None and s["label"] in renamed:
+        if rank is None and drawn_by_alt:
             prev = None
             continue
         if rank is None:
