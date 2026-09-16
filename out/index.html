@@ -26,6 +26,7 @@
   .how div { background:var(--surface); padding:.85rem 1rem; }
   .how b { display:block; font-size:.85rem; margin-bottom:.15rem; }
   .how span { font-size:.82rem; color:var(--ink2); }
+  .pub-lead { font-size:.86rem; color:var(--ink2); max-width:60ch; }
   .charts { display:flex; flex-direction:column; gap:1.4rem; }
   figure { margin:0; border:1px solid var(--rule); border-radius:3px;
             background:var(--surface); overflow:hidden; scroll-margin-top:1rem; }
@@ -36,6 +37,18 @@
   figure h2 a:hover { text-decoration:underline; }
   figure h2 a:focus-visible { outline:2px solid var(--ink2);
                                outline-offset:2px; }
+  .pubs { margin:0; padding:.5rem .9rem .6rem; border-top:1px solid var(--rule);
+           display:flex; flex-wrap:wrap; gap:.4rem 1.2rem; font-size:.78rem; }
+  .pub { color:var(--ink2); }
+  /* State is carried by a word as well as the dot, so it survives being read
+     aloud or printed in greyscale. */
+  .pub::before { content:""; display:inline-block; width:.5rem; height:.5rem;
+                  border-radius:50%; margin-inline-end:.35rem;
+                  vertical-align:.02rem; }
+  .is-live::before { background:#2E7D32; }
+  .is-waiting::before { background:#B26A00; }
+  .pubs a { color:var(--ink); }
+  .pubs a:focus-visible { outline:2px solid var(--ink2); outline-offset:2px; }
   .scroll { overflow-x:auto; direction:ltr; }
   img { display:block; max-width:100%; height:auto; }
   footer { border-top:1px solid var(--rule-firm); padding-top:1.1rem;
@@ -45,6 +58,7 @@
   <header>
     <h1>Israeli league performance, 1929/1930–2025/2026</h1>
     <p>42 clubs across 96 season columns. Position is counted down the whole pyramid, so each tier continues the one above — the band boundaries step because the top flight has held anywhere between 10 and 18 clubs.</p>
+    <p class="pub-lead">Where these charts are published. A chart can be on Commons without being in any article — every Hebrew chart is in that state, because Hebrew Wikipedia's edit filter 109 requires 100 edits and the requests are sitting on the article talk pages.</p>
   </header>
   <div class="how">
     <div><b>One column per season, not per year</b><span>There is no 1967/68 — 1966/68 was a single two-year championship. Hatched columns are seasons never played; the line breaks rather than guessing across them.</span></div>
@@ -56,34 +70,42 @@
   <figure id="maccabi-tel-aviv">
     <h2><a href="#maccabi-tel-aviv">Maccabi Tel Aviv</a></h2>
     <div class="scroll"><img src="maccabi-tel-aviv.svg" alt="Maccabi Tel Aviv" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">English: <a href="https://en.wikipedia.org/wiki/Maccabi_Tel_Aviv_F.C.">in the article</a> · <a href="https://commons.wikimedia.org/wiki/File:Maccabi_Tel_Aviv_FC_League_Performance.svg">file</a></span><span class="pub is-waiting">Hebrew: <a href="https://commons.wikimedia.org/wiki/File:Maccabi_Tel_Aviv_FC_League_Performance_(Hebrew).svg">on Commons</a> — not yet in the article</span></p>
   </figure>
   <figure id="hapoel-tel-aviv">
     <h2><a href="#hapoel-tel-aviv">Hapoel Tel Aviv</a></h2>
     <div class="scroll"><img src="hapoel-tel-aviv.svg" alt="Hapoel Tel Aviv" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">English: <a href="https://en.wikipedia.org/wiki/Hapoel_Tel_Aviv_F.C.">in the article</a> · <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Tel_Aviv_FC_League_Performance.svg">file</a></span><span class="pub is-waiting">Hebrew: <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Tel_Aviv_FC_League_Performance_(Hebrew).svg">on Commons</a> — not yet in the article</span></p>
   </figure>
   <figure id="maccabi-petah-tikva">
     <h2><a href="#maccabi-petah-tikva">Maccabi Petah Tikva</a></h2>
     <div class="scroll"><img src="maccabi-petah-tikva.svg" alt="Maccabi Petah Tikva" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">English: <a href="https://en.wikipedia.org/wiki/Maccabi_Petah_Tikva_F.C.">in the article</a> · <a href="https://commons.wikimedia.org/wiki/File:Maccabi_Petah_Tikva_FC_League_Performance.svg">file</a></span><span class="pub is-waiting">Hebrew: <a href="https://commons.wikimedia.org/wiki/File:Maccabi_Petah_Tikva_FC_League_Performance_(Hebrew).svg">on Commons</a> — not yet in the article</span></p>
   </figure>
   <figure id="maccabi-haifa">
     <h2><a href="#maccabi-haifa">Maccabi Haifa</a></h2>
     <div class="scroll"><img src="maccabi-haifa.svg" alt="Maccabi Haifa" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">English: <a href="https://en.wikipedia.org/wiki/Maccabi_Haifa_F.C.">in the article</a> · <a href="https://commons.wikimedia.org/wiki/File:Maccabi_Haifa_FC_League_Performance.svg">file</a></span><span class="pub is-waiting">Hebrew: <a href="https://commons.wikimedia.org/wiki/File:Maccabi_Haifa_FC_League_Performance_(Hebrew).svg">on Commons</a> — not yet in the article</span></p>
   </figure>
   <figure id="maccabi-netanya">
     <h2><a href="#maccabi-netanya">Maccabi Netanya</a></h2>
     <div class="scroll"><img src="maccabi-netanya.svg" alt="Maccabi Netanya" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">English: <a href="https://en.wikipedia.org/wiki/Maccabi_Netanya_F.C.">in the article</a> · <a href="https://commons.wikimedia.org/wiki/File:Maccabi_Netanya_FC_League_Performance.svg">file</a></span><span class="pub is-waiting">Hebrew: <a href="https://commons.wikimedia.org/wiki/File:Maccabi_Netanya_FC_League_Performance_(Hebrew).svg">on Commons</a> — not yet in the article</span></p>
   </figure>
   <figure id="hapoel-haifa">
     <h2><a href="#hapoel-haifa">Hapoel Haifa</a></h2>
     <div class="scroll"><img src="hapoel-haifa.svg" alt="Hapoel Haifa" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">English: <a href="https://en.wikipedia.org/wiki/Hapoel_Haifa_F.C.">in the article</a> · <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Haifa_FC_League_Performance.svg">file</a></span><span class="pub is-waiting">Hebrew: <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Haifa_FC_League_Performance_(Hebrew).svg">on Commons</a> — not yet in the article</span></p>
   </figure>
   <figure id="hapoel-petah-tikva">
     <h2><a href="#hapoel-petah-tikva">Hapoel Petah Tikva</a></h2>
     <div class="scroll"><img src="hapoel-petah-tikva.svg" alt="Hapoel Petah Tikva" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">English: <a href="https://en.wikipedia.org/wiki/Hapoel_Petah_Tikva_F.C.">in the article</a> · <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Petah_Tikva_FC_League_Performance.svg">file</a></span><span class="pub is-waiting">Hebrew: <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Petah_Tikva_FC_League_Performance_(Hebrew).svg">on Commons</a> — not yet in the article</span></p>
   </figure>
   <figure id="beitar-jerusalem">
     <h2><a href="#beitar-jerusalem">Beitar Jerusalem</a></h2>
     <div class="scroll"><img src="beitar-jerusalem.svg" alt="Beitar Jerusalem" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">English: <a href="https://en.wikipedia.org/wiki/Beitar_Jerusalem_F.C.">in the article</a> · <a href="https://commons.wikimedia.org/wiki/File:Beitar_Jerusalem_FC_League_Performance.svg">file</a></span><span class="pub is-waiting">Hebrew: <a href="https://commons.wikimedia.org/wiki/File:Beitar_Jerusalem_FC_League_Performance_(Hebrew).svg">on Commons</a> — not yet in the article</span></p>
   </figure>
   <figure id="bnei-yehuda-tel-aviv">
     <h2><a href="#bnei-yehuda-tel-aviv">Bnei Yehuda Tel Aviv</a></h2>
@@ -92,10 +114,12 @@
   <figure id="hapoel-be-er-sheva">
     <h2><a href="#hapoel-be-er-sheva">Hapoel Be'er Sheva</a></h2>
     <div class="scroll"><img src="hapoel-be-er-sheva.svg" alt="Hapoel Be'er Sheva" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">English: <a href="https://en.wikipedia.org/wiki/Hapoel_Be'er_Sheva_F.C.">in the article</a> · <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Be'er_Sheva_FC_League_Performance.svg">file</a></span><span class="pub is-waiting">Hebrew: <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Be'er_Sheva_FC_League_Performance_(Hebrew).svg">on Commons</a> — not yet in the article</span></p>
   </figure>
   <figure id="hapoel-jerusalem">
     <h2><a href="#hapoel-jerusalem">Hapoel Jerusalem</a></h2>
     <div class="scroll"><img src="hapoel-jerusalem.svg" alt="Hapoel Jerusalem" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">English: <a href="https://en.wikipedia.org/wiki/Hapoel_Jerusalem_F.C.">in the article</a> · <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Jerusalem_FC_League_Performance.svg">file</a></span><span class="pub is-waiting">Hebrew: <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Jerusalem_FC_League_Performance_(Hebrew).svg">on Commons</a> — not yet in the article</span></p>
   </figure>
   <figure id="beitar-tel-aviv">
     <h2><a href="#beitar-tel-aviv">Beitar Tel Aviv</a></h2>
@@ -120,10 +144,12 @@
   <figure id="hapoel-ramat-gan">
     <h2><a href="#hapoel-ramat-gan">Hapoel Ramat Gan</a></h2>
     <div class="scroll"><img src="hapoel-ramat-gan.svg" alt="Hapoel Ramat Gan" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">English: <a href="https://en.wikipedia.org/wiki/Hapoel_Ramat_Gan_Givatayim_F.C.">in the article</a> · <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Ramat_Gan_FC_League_Performance.svg">file</a></span><span class="pub is-waiting">Hebrew: <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Ramat_Gan_FC_League_Performance_(Hebrew).svg">on Commons</a> — not yet in the article</span></p>
   </figure>
   <figure id="bnei-sakhnin">
     <h2><a href="#bnei-sakhnin">Bnei Sakhnin</a></h2>
     <div class="scroll"><img src="bnei-sakhnin.svg" alt="Bnei Sakhnin" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">English: <a href="https://en.wikipedia.org/wiki/Bnei_Sakhnin_F.C.">in the article</a> · <a href="https://commons.wikimedia.org/wiki/File:Bnei_Sakhnin_FC_League_Performance.svg">file</a></span><span class="pub is-waiting">Hebrew: <a href="https://commons.wikimedia.org/wiki/File:Bnei_Sakhnin_FC_League_Performance_(Hebrew).svg">on Commons</a> — not yet in the article</span></p>
   </figure>
   <figure id="hapoel-rishon-lezion">
     <h2><a href="#hapoel-rishon-lezion">Hapoel Rishon LeZion</a></h2>
@@ -136,6 +162,7 @@
   <figure id="ironi-kiryat-shmona">
     <h2><a href="#ironi-kiryat-shmona">Ironi Kiryat Shmona</a></h2>
     <div class="scroll"><img src="ironi-kiryat-shmona.svg" alt="Ironi Kiryat Shmona" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">English: <a href="https://en.wikipedia.org/wiki/Hapoel_Ironi_Kiryat_Shmona_F.C.">in the article</a> · <a href="https://commons.wikimedia.org/wiki/File:Ironi_Kiryat_Shmona_FC_League_Performance.svg">file</a></span><span class="pub is-waiting">Hebrew: <a href="https://commons.wikimedia.org/wiki/File:Ironi_Kiryat_Shmona_FC_League_Performance_(Hebrew).svg">on Commons</a> — not yet in the article</span></p>
   </figure>
   <figure id="hapoel-hadera">
     <h2><a href="#hapoel-hadera">Hapoel Hadera</a></h2>
@@ -196,6 +223,7 @@
   <figure id="ironi-tiberias">
     <h2><a href="#ironi-tiberias">Ironi Tiberias</a></h2>
     <div class="scroll"><img src="ironi-tiberias.svg" alt="Ironi Tiberias" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">English: <a href="https://en.wikipedia.org/wiki/Ironi_Tiberias_F.C.">in the article</a> · <a href="https://commons.wikimedia.org/wiki/File:Ironi_Tiberias_FC_League_Performance.svg">file</a></span><span class="pub is-waiting">Hebrew: <a href="https://commons.wikimedia.org/wiki/File:Ironi_Tiberias_FC_League_Performance_(Hebrew).svg">on Commons</a> — not yet in the article</span></p>
   </figure>
   <figure id="maccabi-kiryat-gat">
     <h2><a href="#maccabi-kiryat-gat">Maccabi Kiryat Gat</a></h2>

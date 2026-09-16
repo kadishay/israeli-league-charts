@@ -26,6 +26,7 @@
   .how div { background:var(--surface); padding:.85rem 1rem; }
   .how b { display:block; font-size:.85rem; margin-bottom:.15rem; }
   .how span { font-size:.82rem; color:var(--ink2); }
+  .pub-lead { font-size:.86rem; color:var(--ink2); max-width:60ch; }
   .charts { display:flex; flex-direction:column; gap:1.4rem; }
   figure { margin:0; border:1px solid var(--rule); border-radius:3px;
             background:var(--surface); overflow:hidden; scroll-margin-top:1rem; }
@@ -36,6 +37,18 @@
   figure h2 a:hover { text-decoration:underline; }
   figure h2 a:focus-visible { outline:2px solid var(--ink2);
                                outline-offset:2px; }
+  .pubs { margin:0; padding:.5rem .9rem .6rem; border-top:1px solid var(--rule);
+           display:flex; flex-wrap:wrap; gap:.4rem 1.2rem; font-size:.78rem; }
+  .pub { color:var(--ink2); }
+  /* State is carried by a word as well as the dot, so it survives being read
+     aloud or printed in greyscale. */
+  .pub::before { content:""; display:inline-block; width:.5rem; height:.5rem;
+                  border-radius:50%; margin-inline-end:.35rem;
+                  vertical-align:.02rem; }
+  .is-live::before { background:#2E7D32; }
+  .is-waiting::before { background:#B26A00; }
+  .pubs a { color:var(--ink); }
+  .pubs a:focus-visible { outline:2px solid var(--ink2); outline-offset:2px; }
   .scroll { overflow-x:auto; direction:ltr; }
   img { display:block; max-width:100%; height:auto; }
   footer { border-top:1px solid var(--rule-firm); padding-top:1.1rem;
@@ -45,6 +58,7 @@
   <header>
     <h1>מיקומי קבוצות בליגות בישראל, 1929/1930–2025/2026</h1>
     <p>42 קבוצות על פני 96 עונות. המיקום נמדד לאורך כל הפירמידה, כך שכל דרג ממשיך את זה שמעליו — גבולות הדרגים משתנים מפני שבליגה הבכירה שיחקו בין 10 ל-18 קבוצות.</p>
+    <p class="pub-lead">היכן הגרפים פורסמו. קובץ יכול להיות בוויקישיתוף בלי להופיע בשום ערך — זה מצבם של כל הגרפים בעברית, מפני שמסנן 109 בוויקיפדיה העברית דורש 100 עריכות, והבקשות מונחות בדפי השיחה של הערכים.</p>
   </header>
   <div class="how">
     <div><b>עמודה אחת לכל עונה, לא לכל שנה</b><span>אין עונת 1967/1968 — עונת 1966/1968 הייתה אליפות אחת על פני שתי שנים. עמודות מקווקוות הן עונות שלא התקיימו, והקו נקטע ולא מנחש.</span></div>
@@ -56,34 +70,42 @@
   <figure id="maccabi-tel-aviv">
     <h2><a href="#maccabi-tel-aviv">מכבי תל אביב · Maccabi Tel Aviv</a></h2>
     <div class="scroll"><img src="maccabi-tel-aviv.he.svg" alt="מכבי תל אביב" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">אנגלית: <a href="https://en.wikipedia.org/wiki/Maccabi_Tel_Aviv_F.C.">בערך</a> · <a href="https://commons.wikimedia.org/wiki/File:Maccabi_Tel_Aviv_FC_League_Performance.svg">הקובץ</a></span><span class="pub is-waiting">עברית: <a href="https://commons.wikimedia.org/wiki/File:Maccabi_Tel_Aviv_FC_League_Performance_(Hebrew).svg">בוויקישיתוף</a> — טרם נוסף לערך</span></p>
   </figure>
   <figure id="hapoel-tel-aviv">
     <h2><a href="#hapoel-tel-aviv">הפועל תל אביב · Hapoel Tel Aviv</a></h2>
     <div class="scroll"><img src="hapoel-tel-aviv.he.svg" alt="הפועל תל אביב" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">אנגלית: <a href="https://en.wikipedia.org/wiki/Hapoel_Tel_Aviv_F.C.">בערך</a> · <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Tel_Aviv_FC_League_Performance.svg">הקובץ</a></span><span class="pub is-waiting">עברית: <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Tel_Aviv_FC_League_Performance_(Hebrew).svg">בוויקישיתוף</a> — טרם נוסף לערך</span></p>
   </figure>
   <figure id="maccabi-petah-tikva">
     <h2><a href="#maccabi-petah-tikva">מכבי פתח תקווה · Maccabi Petah Tikva</a></h2>
     <div class="scroll"><img src="maccabi-petah-tikva.he.svg" alt="מכבי פתח תקווה" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">אנגלית: <a href="https://en.wikipedia.org/wiki/Maccabi_Petah_Tikva_F.C.">בערך</a> · <a href="https://commons.wikimedia.org/wiki/File:Maccabi_Petah_Tikva_FC_League_Performance.svg">הקובץ</a></span><span class="pub is-waiting">עברית: <a href="https://commons.wikimedia.org/wiki/File:Maccabi_Petah_Tikva_FC_League_Performance_(Hebrew).svg">בוויקישיתוף</a> — טרם נוסף לערך</span></p>
   </figure>
   <figure id="maccabi-haifa">
     <h2><a href="#maccabi-haifa">מכבי חיפה · Maccabi Haifa</a></h2>
     <div class="scroll"><img src="maccabi-haifa.he.svg" alt="מכבי חיפה" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">אנגלית: <a href="https://en.wikipedia.org/wiki/Maccabi_Haifa_F.C.">בערך</a> · <a href="https://commons.wikimedia.org/wiki/File:Maccabi_Haifa_FC_League_Performance.svg">הקובץ</a></span><span class="pub is-waiting">עברית: <a href="https://commons.wikimedia.org/wiki/File:Maccabi_Haifa_FC_League_Performance_(Hebrew).svg">בוויקישיתוף</a> — טרם נוסף לערך</span></p>
   </figure>
   <figure id="maccabi-netanya">
     <h2><a href="#maccabi-netanya">מכבי נתניה · Maccabi Netanya</a></h2>
     <div class="scroll"><img src="maccabi-netanya.he.svg" alt="מכבי נתניה" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">אנגלית: <a href="https://en.wikipedia.org/wiki/Maccabi_Netanya_F.C.">בערך</a> · <a href="https://commons.wikimedia.org/wiki/File:Maccabi_Netanya_FC_League_Performance.svg">הקובץ</a></span><span class="pub is-waiting">עברית: <a href="https://commons.wikimedia.org/wiki/File:Maccabi_Netanya_FC_League_Performance_(Hebrew).svg">בוויקישיתוף</a> — טרם נוסף לערך</span></p>
   </figure>
   <figure id="hapoel-haifa">
     <h2><a href="#hapoel-haifa">הפועל חיפה · Hapoel Haifa</a></h2>
     <div class="scroll"><img src="hapoel-haifa.he.svg" alt="הפועל חיפה" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">אנגלית: <a href="https://en.wikipedia.org/wiki/Hapoel_Haifa_F.C.">בערך</a> · <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Haifa_FC_League_Performance.svg">הקובץ</a></span><span class="pub is-waiting">עברית: <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Haifa_FC_League_Performance_(Hebrew).svg">בוויקישיתוף</a> — טרם נוסף לערך</span></p>
   </figure>
   <figure id="hapoel-petah-tikva">
     <h2><a href="#hapoel-petah-tikva">הפועל פתח תקווה · Hapoel Petah Tikva</a></h2>
     <div class="scroll"><img src="hapoel-petah-tikva.he.svg" alt="הפועל פתח תקווה" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">אנגלית: <a href="https://en.wikipedia.org/wiki/Hapoel_Petah_Tikva_F.C.">בערך</a> · <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Petah_Tikva_FC_League_Performance.svg">הקובץ</a></span><span class="pub is-waiting">עברית: <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Petah_Tikva_FC_League_Performance_(Hebrew).svg">בוויקישיתוף</a> — טרם נוסף לערך</span></p>
   </figure>
   <figure id="beitar-jerusalem">
     <h2><a href="#beitar-jerusalem">בית&quot;ר ירושלים · Beitar Jerusalem</a></h2>
     <div class="scroll"><img src="beitar-jerusalem.he.svg" alt="בית&quot;ר ירושלים" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">אנגלית: <a href="https://en.wikipedia.org/wiki/Beitar_Jerusalem_F.C.">בערך</a> · <a href="https://commons.wikimedia.org/wiki/File:Beitar_Jerusalem_FC_League_Performance.svg">הקובץ</a></span><span class="pub is-waiting">עברית: <a href="https://commons.wikimedia.org/wiki/File:Beitar_Jerusalem_FC_League_Performance_(Hebrew).svg">בוויקישיתוף</a> — טרם נוסף לערך</span></p>
   </figure>
   <figure id="bnei-yehuda-tel-aviv">
     <h2><a href="#bnei-yehuda-tel-aviv">בני יהודה תל אביב · Bnei Yehuda Tel Aviv</a></h2>
@@ -92,10 +114,12 @@
   <figure id="hapoel-be-er-sheva">
     <h2><a href="#hapoel-be-er-sheva">הפועל באר שבע · Hapoel Be'er Sheva</a></h2>
     <div class="scroll"><img src="hapoel-be-er-sheva.he.svg" alt="הפועל באר שבע" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">אנגלית: <a href="https://en.wikipedia.org/wiki/Hapoel_Be'er_Sheva_F.C.">בערך</a> · <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Be'er_Sheva_FC_League_Performance.svg">הקובץ</a></span><span class="pub is-waiting">עברית: <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Be'er_Sheva_FC_League_Performance_(Hebrew).svg">בוויקישיתוף</a> — טרם נוסף לערך</span></p>
   </figure>
   <figure id="hapoel-jerusalem">
     <h2><a href="#hapoel-jerusalem">הפועל ירושלים · Hapoel Jerusalem</a></h2>
     <div class="scroll"><img src="hapoel-jerusalem.he.svg" alt="הפועל ירושלים" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">אנגלית: <a href="https://en.wikipedia.org/wiki/Hapoel_Jerusalem_F.C.">בערך</a> · <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Jerusalem_FC_League_Performance.svg">הקובץ</a></span><span class="pub is-waiting">עברית: <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Jerusalem_FC_League_Performance_(Hebrew).svg">בוויקישיתוף</a> — טרם נוסף לערך</span></p>
   </figure>
   <figure id="beitar-tel-aviv">
     <h2><a href="#beitar-tel-aviv">בית&quot;ר תל אביב · Beitar Tel Aviv</a></h2>
@@ -120,10 +144,12 @@
   <figure id="hapoel-ramat-gan">
     <h2><a href="#hapoel-ramat-gan">הפועל רמת-גן גבעתיים · Hapoel Ramat Gan</a></h2>
     <div class="scroll"><img src="hapoel-ramat-gan.he.svg" alt="הפועל רמת-גן גבעתיים" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">אנגלית: <a href="https://en.wikipedia.org/wiki/Hapoel_Ramat_Gan_Givatayim_F.C.">בערך</a> · <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Ramat_Gan_FC_League_Performance.svg">הקובץ</a></span><span class="pub is-waiting">עברית: <a href="https://commons.wikimedia.org/wiki/File:Hapoel_Ramat_Gan_FC_League_Performance_(Hebrew).svg">בוויקישיתוף</a> — טרם נוסף לערך</span></p>
   </figure>
   <figure id="bnei-sakhnin">
     <h2><a href="#bnei-sakhnin">בני סכנין · Bnei Sakhnin</a></h2>
     <div class="scroll"><img src="bnei-sakhnin.he.svg" alt="בני סכנין" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">אנגלית: <a href="https://en.wikipedia.org/wiki/Bnei_Sakhnin_F.C.">בערך</a> · <a href="https://commons.wikimedia.org/wiki/File:Bnei_Sakhnin_FC_League_Performance.svg">הקובץ</a></span><span class="pub is-waiting">עברית: <a href="https://commons.wikimedia.org/wiki/File:Bnei_Sakhnin_FC_League_Performance_(Hebrew).svg">בוויקישיתוף</a> — טרם נוסף לערך</span></p>
   </figure>
   <figure id="hapoel-rishon-lezion">
     <h2><a href="#hapoel-rishon-lezion">הפועל ראשון לציון · Hapoel Rishon LeZion</a></h2>
@@ -136,6 +162,7 @@
   <figure id="ironi-kiryat-shmona">
     <h2><a href="#ironi-kiryat-shmona">עירוני קריית שמונה · Ironi Kiryat Shmona</a></h2>
     <div class="scroll"><img src="ironi-kiryat-shmona.he.svg" alt="עירוני קריית שמונה" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">אנגלית: <a href="https://en.wikipedia.org/wiki/Hapoel_Ironi_Kiryat_Shmona_F.C.">בערך</a> · <a href="https://commons.wikimedia.org/wiki/File:Ironi_Kiryat_Shmona_FC_League_Performance.svg">הקובץ</a></span><span class="pub is-waiting">עברית: <a href="https://commons.wikimedia.org/wiki/File:Ironi_Kiryat_Shmona_FC_League_Performance_(Hebrew).svg">בוויקישיתוף</a> — טרם נוסף לערך</span></p>
   </figure>
   <figure id="hapoel-hadera">
     <h2><a href="#hapoel-hadera">הפועל חדרה · Hapoel Hadera</a></h2>
@@ -196,6 +223,7 @@
   <figure id="ironi-tiberias">
     <h2><a href="#ironi-tiberias">עירוני טבריה · Ironi Tiberias</a></h2>
     <div class="scroll"><img src="ironi-tiberias.he.svg" alt="עירוני טבריה" loading="lazy"></div>
+    <p class="pubs"><span class="pub is-live">אנגלית: <a href="https://en.wikipedia.org/wiki/Ironi_Tiberias_F.C.">בערך</a> · <a href="https://commons.wikimedia.org/wiki/File:Ironi_Tiberias_FC_League_Performance.svg">הקובץ</a></span><span class="pub is-waiting">עברית: <a href="https://commons.wikimedia.org/wiki/File:Ironi_Tiberias_FC_League_Performance_(Hebrew).svg">בוויקישיתוף</a> — טרם נוסף לערך</span></p>
   </figure>
   <figure id="maccabi-kiryat-gat">
     <h2><a href="#maccabi-kiryat-gat">מכבי קריית גת · Maccabi Kiryat Gat</a></h2>

@@ -60,6 +60,7 @@ import argparse
 import csv
 import json
 import re
+import urllib.parse
 from collections import defaultdict
 from pathlib import Path
 
@@ -105,6 +106,15 @@ STRINGS = {
         "legend_stopped": "League abandoned mid-season",
         "legend_uncovered": "No position recorded",
         "legend_notplayed": "Season not played",
+        "pub_en": "English:", "pub_he": "Hebrew:",
+        "pub_in_article": "in the article",
+        "pub_file": "file",
+        "pub_uploaded": "on Commons",
+        "pub_not_placed": "not yet in the article",
+        "pub_lead": ("Where these charts are published. A chart can be on Commons "
+                     "without being in any article — every Hebrew chart is in that "
+                     "state, because Hebrew Wikipedia's edit filter 109 requires 100 "
+                     "edits and the requests are sitting on the article talk pages."),
         "gallery_title": "Israeli league performance, {first}–{last}",
         "gallery_lead": ("{clubs} clubs across {seasons} season columns. Position is "
                          "counted down the whole pyramid, so each tier continues the "
@@ -147,6 +157,14 @@ STRINGS = {
         "legend_stopped": "הליגה הופסקה באמצע העונה",
         "legend_uncovered": "לא נרשם מיקום",
         "legend_notplayed": "העונה לא התקיימה",
+        "pub_en": "אנגלית:", "pub_he": "עברית:",
+        "pub_in_article": "בערך",
+        "pub_file": "הקובץ",
+        "pub_uploaded": "בוויקישיתוף",
+        "pub_not_placed": "טרם נוסף לערך",
+        "pub_lead": ("היכן הגרפים פורסמו. קובץ יכול להיות בוויקישיתוף בלי להופיע "
+                     "בשום ערך — זה מצבם של כל הגרפים בעברית, מפני שמסנן 109 בוויקיפדיה "
+                     "העברית דורש 100 עריכות, והבקשות מונחות בדפי השיחה של הערכים."),
         "gallery_title": "מיקומי קבוצות בליגות בישראל, {first}–{last}",
         "gallery_lead": ("{clubs} קבוצות על פני {seasons} עונות. המיקום נמדד לאורך כל "
                          "הפירמידה, כך שכל דרג ממשיך את זה שמעליו — גבולות הדרגים "
@@ -820,9 +838,62 @@ def hebrew_names() -> dict[str, str]:
     return out
 
 
+def wiki_url(host: str, title: str) -> str:
+    # Colons and parentheses are legal in a wiki path and encoding them gives
+    # File%3AFoo%28Hebrew%29, which works but is unreadable in a status line.
+    return f"https://{host}/wiki/" + urllib.parse.quote(
+        title.replace(" ", "_"), safe=":()/'")
+
+
+def status_bar(entry: dict | None, S: dict) -> str:
+    """The publication line under a chart: where it is, and how far it got.
+
+    Three states, and the middle one is the point of having this at all - a file
+    can be on Commons without being in any article, which is where every Hebrew
+    chart currently sits.
+    """
+    if not entry:
+        return ""
+    bits = []
+    for lang_key, label in (("en", S["pub_en"]), ("he", S["pub_he"])):
+        side = entry.get(lang_key)
+        if not side:
+            continue
+        host = "en.wikipedia.org" if lang_key == "en" else "he.wikipedia.org"
+        file_url = wiki_url("commons.wikimedia.org", "File:" + side["commons"])
+        if side.get("placed"):
+            bits.append(
+                f'<span class="pub is-live">{esc(label)} '
+                f'<a href="{esc(wiki_url(host, side["article"]))}">'
+                f'{esc(S["pub_in_article"])}</a> · '
+                f'<a href="{esc(file_url)}">{esc(S["pub_file"])}</a></span>')
+        else:
+            bits.append(
+                f'<span class="pub is-waiting">{esc(label)} '
+                f'<a href="{esc(file_url)}">{esc(S["pub_uploaded"])}</a> — '
+                f'{esc(S["pub_not_placed"])}</span>')
+    if not bits:
+        return ""
+    return '    <p class="pubs">' + "".join(bits) + "</p>\n"
+
+
+def published() -> dict[str, dict]:
+    """Club -> where its chart is published, from data/wikipedia.json.
+
+    The gallery says so per club, because "is this one on Wikipedia, and is the
+    Hebrew one placed or only uploaded?" is the question this page gets asked and
+    the answer is otherwise only in a JSON file nobody opens.
+    """
+    path = DATA / "wikipedia.json"
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text())["clubs"]
+
+
 def gallery_html(clubs: list[str], seasons: list[dict], lang: str,
                  names: dict[str, str], suffix: str) -> str:
     S = STRINGS[lang]
+    pub = published()
     # The club name is drawn inside each SVG, but an <img> is opaque to
     # find-in-page and to a search engine. Repeating it as a real heading, with
     # an id, makes every club on this page searchable and linkable - and in the
@@ -836,10 +907,12 @@ def gallery_html(clubs: list[str], seasons: list[dict], lang: str,
             f'    <h2><a href="#{slug(c)}">{esc(both)}</a></h2>\n'
             f'    <div class="scroll"><img src="{slug(c)}{suffix}.svg" '
             f'alt="{esc(shown)}" loading="lazy"></div>\n'
+            f'{status_bar(pub.get(c), S)}'
             f'  </figure>')
     title = S["gallery_title"].format(first=seasons[0]["label"],
                                       last=seasons[-1]["label"])
     lead = S["gallery_lead"].format(clubs=len(clubs), seasons=len(seasons))
+    pub_note = (f'<p class="pub-lead">{esc(S["pub_lead"])}</p>' if pub else "")
     how = [f'    <div><b>{esc(h)}</b><span>{esc(t)}</span></div>'
            for h, t in S["how"]]
     return f"""<title>{esc(title)}</title>
@@ -867,6 +940,7 @@ def gallery_html(clubs: list[str], seasons: list[dict], lang: str,
   .how div {{ background:var(--surface); padding:.85rem 1rem; }}
   .how b {{ display:block; font-size:.85rem; margin-bottom:.15rem; }}
   .how span {{ font-size:.82rem; color:var(--ink2); }}
+  .pub-lead {{ font-size:.86rem; color:var(--ink2); max-width:60ch; }}
   .charts {{ display:flex; flex-direction:column; gap:1.4rem; }}
   figure {{ margin:0; border:1px solid var(--rule); border-radius:3px;
             background:var(--surface); overflow:hidden; scroll-margin-top:1rem; }}
@@ -877,6 +951,18 @@ def gallery_html(clubs: list[str], seasons: list[dict], lang: str,
   figure h2 a:hover {{ text-decoration:underline; }}
   figure h2 a:focus-visible {{ outline:2px solid var(--ink2);
                                outline-offset:2px; }}
+  .pubs {{ margin:0; padding:.5rem .9rem .6rem; border-top:1px solid var(--rule);
+           display:flex; flex-wrap:wrap; gap:.4rem 1.2rem; font-size:.78rem; }}
+  .pub {{ color:var(--ink2); }}
+  /* State is carried by a word as well as the dot, so it survives being read
+     aloud or printed in greyscale. */
+  .pub::before {{ content:""; display:inline-block; width:.5rem; height:.5rem;
+                  border-radius:50%; margin-inline-end:.35rem;
+                  vertical-align:.02rem; }}
+  .is-live::before {{ background:#2E7D32; }}
+  .is-waiting::before {{ background:#B26A00; }}
+  .pubs a {{ color:var(--ink); }}
+  .pubs a:focus-visible {{ outline:2px solid var(--ink2); outline-offset:2px; }}
   .scroll {{ overflow-x:auto; direction:ltr; }}
   img {{ display:block; max-width:100%; height:auto; }}
   footer {{ border-top:1px solid var(--rule-firm); padding-top:1.1rem;
@@ -886,6 +972,7 @@ def gallery_html(clubs: list[str], seasons: list[dict], lang: str,
   <header>
     <h1>{esc(title)}</h1>
     <p>{esc(lead)}</p>
+    {pub_note}
   </header>
   <div class="how">
 {chr(10).join(how)}

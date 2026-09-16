@@ -148,9 +148,11 @@ are uploaded, so placing them later is one line of wikitext each.
 Three ways through, in rising order of how much they ask of other people:
 
 1. **Make the edits.** 97 ordinary contributions and the filter stops firing.
-2. **Request the edit** on each article's talk page with `{{בקשת עריכה}}`, giving the file
-   name and the caption above. This is the normal route for exactly this situation.
-3. **Ask first** at [ויקיפדיה:הכיכר](https://he.wikipedia.org/wiki/ויקיפדיה:הכיכר) whether
+2. **Request the edit** on each article's talk page — **done on 16 September 2026**, one
+   section per article, each naming the file and giving the exact wikitext to paste. Note
+   there is no `{{בקשת עריכה}}` template on he.wikipedia; it does not exist, so a plain,
+   clearly written talk section is the form. Talk namespace is not filtered, only articles.
+3. **Ask more widely** at [ויקיפדיה:הכיכר](https://he.wikipedia.org/wiki/ויקיפדיה:הכיכר) whether
    the community wants the charts at all, which is worth doing before adding fourteen.
 
 ---
