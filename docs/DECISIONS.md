@@ -345,16 +345,3 @@ Flagged rather than decided:
   convention. The charts give Hapoel Tel Aviv 13 championships where a Hebrew source would
   say 14. English and Hebrew disagree on whether 1934/35, 1938, 1942/43 and 1944/45 produced
   champions at all; both readings are recorded in `structure.json`.
-- **The 2025/26 season below tier two.** On the IFA's own site both Liga Alef South and Liga
-  Bet South A stop at 22–23 games of 30 with none of the knockout stages a finished season
-  carries, while Ligat ha'Al that season completed normally and is in the dataset. That is the
-  same signature as the 2019/20 COVID freeze, which `structure.json` records under
-  `abandoned_below`. No 2025/26 rows were taken below tier two, but no `abandoned_below` entry
-  was added either: the pattern is clear and the reason is not, and inventing one would be
-  worse than leaving the seasons unknown. Find a source and the entry can be written.
-
-  It leaves a smaller problem behind. A club whose last recorded season is 2024/25 gets plain
-  background afterwards under decision 4 — "the club was not there to have a position" — which
-  is right for Hakoah Tel Aviv and wrong for Shimshon Tel Aviv, who are playing in Liga Alef
-  South now. Twelve of the 42 charted clubs have no 2025/26 row and the chart cannot currently
-  tell the two cases apart.

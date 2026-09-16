@@ -28,7 +28,14 @@
   .how span { font-size:.82rem; color:var(--ink2); }
   .charts { display:flex; flex-direction:column; gap:1.4rem; }
   figure { margin:0; border:1px solid var(--rule); border-radius:3px;
-            background:var(--surface); overflow:hidden; }
+            background:var(--surface); overflow:hidden; scroll-margin-top:1rem; }
+  figure h2 { font-size:.82rem; font-weight:600; letter-spacing:.04em;
+               text-transform:uppercase; color:var(--ink2); margin:0;
+               padding:.6rem .9rem; border-bottom:1px solid var(--rule); }
+  figure h2 a { color:inherit; text-decoration:none; }
+  figure h2 a:hover { text-decoration:underline; }
+  figure h2 a:focus-visible { outline:2px solid var(--ink2);
+                               outline-offset:2px; }
   .scroll { overflow-x:auto; direction:ltr; }
   img { display:block; max-width:100%; height:auto; }
   footer { border-top:1px solid var(--rule-firm); padding-top:1.1rem;
@@ -46,48 +53,174 @@
     <div><b>מתחת לדרג השני — מיקום אזורי</b><span>הליגות הנמוכות מחולקות לבתים אזוריים, ולכן הגובה בתוך אותם דרגים הוא דירוג בתוך בית ולא ארצי. הדרג הוא מה שהגרף מראה — קראו את העומק, לא את המיקום המדויק.</span></div>
   </div>
   <div class="charts">
-  <figure><div class="scroll"><img src="maccabi-tel-aviv.he.svg" alt="מכבי תל אביב" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-tel-aviv.he.svg" alt="הפועל תל אביב" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-petah-tikva.he.svg" alt="מכבי פתח תקווה" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-haifa.he.svg" alt="מכבי חיפה" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-netanya.he.svg" alt="מכבי נתניה" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-haifa.he.svg" alt="הפועל חיפה" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-petah-tikva.he.svg" alt="הפועל פתח תקווה" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="beitar-jerusalem.he.svg" alt="בית&quot;ר ירושלים" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="bnei-yehuda-tel-aviv.he.svg" alt="בני יהודה תל אביב" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-be-er-sheva.he.svg" alt="הפועל באר שבע" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-jerusalem.he.svg" alt="הפועל ירושלים" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="beitar-tel-aviv.he.svg" alt="בית&quot;ר תל אביב" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-kfar-saba.he.svg" alt="הפועל כפר סבא" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-jaffa.he.svg" alt="מכבי יפו" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="shimshon-tel-aviv.he.svg" alt="שמשון תל אביב" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="ashdod-s-c.he.svg" alt="מועדון ספורט אשדוד" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-ramat-gan.he.svg" alt="הפועל רמת-גן גבעתיים" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="bnei-sakhnin.he.svg" alt="בני סכנין" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-rishon-lezion.he.svg" alt="הפועל ראשון לציון" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hakoah-ramat-gan.he.svg" alt="הכח רמת עמידר" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="ironi-kiryat-shmona.he.svg" alt="עירוני קריית שמונה" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-hadera.he.svg" alt="הפועל חדרה" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-holon.he.svg" alt="הפועל חולון" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-rehovot.he.svg" alt="מכבי רחובות" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-nes-ziona.he.svg" alt="מכבי נס ציונה" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-acre.he.svg" alt="הפועל עכו" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-herzliya.he.svg" alt="מכבי הרצליה" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hakoah-tel-aviv.he.svg" alt="הכח תל אביב" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-ra-anana.he.svg" alt="הפועל רעננה" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-yehud.he.svg" alt="הפועל יהוד" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-ironi-herzliya.he.svg" alt="הפועל הרצליה" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-rishon-lezion.he.svg" alt="מכבי ראשון לציון" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-bnei-reineh.he.svg" alt="מכבי בני ריינה" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-nof-hagalil.he.svg" alt="הפועל נוף הגליל" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-ahi-nazareth.he.svg" alt="מכבי אחי נצרת" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="ironi-tiberias.he.svg" alt="עירוני טבריה" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-kiryat-gat.he.svg" alt="מכבי קריית גת" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-kfar-shalem.he.svg" alt="הפועל כפר שלם" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-afula.he.svg" alt="הפועל עפולה" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="ironi-modi-in.he.svg" alt="עירוני מודיעין" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="m-s-kafr-qasim.he.svg" alt="מועדון ספורט כפר קאסם" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="m-s-kiryat-yam.he.svg" alt="מועדון ספורט קריית ים" loading="eager"></div></figure>
+  <figure id="maccabi-tel-aviv">
+    <h2><a href="#maccabi-tel-aviv">מכבי תל אביב · Maccabi Tel Aviv</a></h2>
+    <div class="scroll"><img src="maccabi-tel-aviv.he.svg" alt="מכבי תל אביב" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-tel-aviv">
+    <h2><a href="#hapoel-tel-aviv">הפועל תל אביב · Hapoel Tel Aviv</a></h2>
+    <div class="scroll"><img src="hapoel-tel-aviv.he.svg" alt="הפועל תל אביב" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-petah-tikva">
+    <h2><a href="#maccabi-petah-tikva">מכבי פתח תקווה · Maccabi Petah Tikva</a></h2>
+    <div class="scroll"><img src="maccabi-petah-tikva.he.svg" alt="מכבי פתח תקווה" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-haifa">
+    <h2><a href="#maccabi-haifa">מכבי חיפה · Maccabi Haifa</a></h2>
+    <div class="scroll"><img src="maccabi-haifa.he.svg" alt="מכבי חיפה" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-netanya">
+    <h2><a href="#maccabi-netanya">מכבי נתניה · Maccabi Netanya</a></h2>
+    <div class="scroll"><img src="maccabi-netanya.he.svg" alt="מכבי נתניה" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-haifa">
+    <h2><a href="#hapoel-haifa">הפועל חיפה · Hapoel Haifa</a></h2>
+    <div class="scroll"><img src="hapoel-haifa.he.svg" alt="הפועל חיפה" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-petah-tikva">
+    <h2><a href="#hapoel-petah-tikva">הפועל פתח תקווה · Hapoel Petah Tikva</a></h2>
+    <div class="scroll"><img src="hapoel-petah-tikva.he.svg" alt="הפועל פתח תקווה" loading="lazy"></div>
+  </figure>
+  <figure id="beitar-jerusalem">
+    <h2><a href="#beitar-jerusalem">בית&quot;ר ירושלים · Beitar Jerusalem</a></h2>
+    <div class="scroll"><img src="beitar-jerusalem.he.svg" alt="בית&quot;ר ירושלים" loading="lazy"></div>
+  </figure>
+  <figure id="bnei-yehuda-tel-aviv">
+    <h2><a href="#bnei-yehuda-tel-aviv">בני יהודה תל אביב · Bnei Yehuda Tel Aviv</a></h2>
+    <div class="scroll"><img src="bnei-yehuda-tel-aviv.he.svg" alt="בני יהודה תל אביב" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-be-er-sheva">
+    <h2><a href="#hapoel-be-er-sheva">הפועל באר שבע · Hapoel Be'er Sheva</a></h2>
+    <div class="scroll"><img src="hapoel-be-er-sheva.he.svg" alt="הפועל באר שבע" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-jerusalem">
+    <h2><a href="#hapoel-jerusalem">הפועל ירושלים · Hapoel Jerusalem</a></h2>
+    <div class="scroll"><img src="hapoel-jerusalem.he.svg" alt="הפועל ירושלים" loading="lazy"></div>
+  </figure>
+  <figure id="beitar-tel-aviv">
+    <h2><a href="#beitar-tel-aviv">בית&quot;ר תל אביב · Beitar Tel Aviv</a></h2>
+    <div class="scroll"><img src="beitar-tel-aviv.he.svg" alt="בית&quot;ר תל אביב" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-kfar-saba">
+    <h2><a href="#hapoel-kfar-saba">הפועל כפר סבא · Hapoel Kfar Saba</a></h2>
+    <div class="scroll"><img src="hapoel-kfar-saba.he.svg" alt="הפועל כפר סבא" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-jaffa">
+    <h2><a href="#maccabi-jaffa">מכבי יפו · Maccabi Jaffa</a></h2>
+    <div class="scroll"><img src="maccabi-jaffa.he.svg" alt="מכבי יפו" loading="lazy"></div>
+  </figure>
+  <figure id="shimshon-tel-aviv">
+    <h2><a href="#shimshon-tel-aviv">שמשון תל אביב · Shimshon Tel Aviv</a></h2>
+    <div class="scroll"><img src="shimshon-tel-aviv.he.svg" alt="שמשון תל אביב" loading="lazy"></div>
+  </figure>
+  <figure id="ashdod-s-c">
+    <h2><a href="#ashdod-s-c">מועדון ספורט אשדוד · Ashdod S.C.</a></h2>
+    <div class="scroll"><img src="ashdod-s-c.he.svg" alt="מועדון ספורט אשדוד" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-ramat-gan">
+    <h2><a href="#hapoel-ramat-gan">הפועל רמת-גן גבעתיים · Hapoel Ramat Gan</a></h2>
+    <div class="scroll"><img src="hapoel-ramat-gan.he.svg" alt="הפועל רמת-גן גבעתיים" loading="lazy"></div>
+  </figure>
+  <figure id="bnei-sakhnin">
+    <h2><a href="#bnei-sakhnin">בני סכנין · Bnei Sakhnin</a></h2>
+    <div class="scroll"><img src="bnei-sakhnin.he.svg" alt="בני סכנין" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-rishon-lezion">
+    <h2><a href="#hapoel-rishon-lezion">הפועל ראשון לציון · Hapoel Rishon LeZion</a></h2>
+    <div class="scroll"><img src="hapoel-rishon-lezion.he.svg" alt="הפועל ראשון לציון" loading="lazy"></div>
+  </figure>
+  <figure id="hakoah-ramat-gan">
+    <h2><a href="#hakoah-ramat-gan">הכח רמת עמידר · Hakoah Ramat Gan</a></h2>
+    <div class="scroll"><img src="hakoah-ramat-gan.he.svg" alt="הכח רמת עמידר" loading="lazy"></div>
+  </figure>
+  <figure id="ironi-kiryat-shmona">
+    <h2><a href="#ironi-kiryat-shmona">עירוני קריית שמונה · Ironi Kiryat Shmona</a></h2>
+    <div class="scroll"><img src="ironi-kiryat-shmona.he.svg" alt="עירוני קריית שמונה" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-hadera">
+    <h2><a href="#hapoel-hadera">הפועל חדרה · Hapoel Hadera</a></h2>
+    <div class="scroll"><img src="hapoel-hadera.he.svg" alt="הפועל חדרה" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-holon">
+    <h2><a href="#hapoel-holon">הפועל חולון · Hapoel Holon</a></h2>
+    <div class="scroll"><img src="hapoel-holon.he.svg" alt="הפועל חולון" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-rehovot">
+    <h2><a href="#maccabi-rehovot">מכבי רחובות · Maccabi Rehovot</a></h2>
+    <div class="scroll"><img src="maccabi-rehovot.he.svg" alt="מכבי רחובות" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-nes-ziona">
+    <h2><a href="#maccabi-nes-ziona">מכבי נס ציונה · Maccabi Nes Ziona</a></h2>
+    <div class="scroll"><img src="maccabi-nes-ziona.he.svg" alt="מכבי נס ציונה" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-acre">
+    <h2><a href="#hapoel-acre">הפועל עכו · Hapoel Acre</a></h2>
+    <div class="scroll"><img src="hapoel-acre.he.svg" alt="הפועל עכו" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-herzliya">
+    <h2><a href="#maccabi-herzliya">מכבי הרצליה · Maccabi Herzliya</a></h2>
+    <div class="scroll"><img src="maccabi-herzliya.he.svg" alt="מכבי הרצליה" loading="lazy"></div>
+  </figure>
+  <figure id="hakoah-tel-aviv">
+    <h2><a href="#hakoah-tel-aviv">הכח תל אביב · Hakoah Tel Aviv</a></h2>
+    <div class="scroll"><img src="hakoah-tel-aviv.he.svg" alt="הכח תל אביב" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-ra-anana">
+    <h2><a href="#hapoel-ra-anana">הפועל רעננה · Hapoel Ra'anana</a></h2>
+    <div class="scroll"><img src="hapoel-ra-anana.he.svg" alt="הפועל רעננה" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-yehud">
+    <h2><a href="#hapoel-yehud">הפועל יהוד · Hapoel Yehud</a></h2>
+    <div class="scroll"><img src="hapoel-yehud.he.svg" alt="הפועל יהוד" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-ironi-herzliya">
+    <h2><a href="#hapoel-ironi-herzliya">הפועל הרצליה · Hapoel Ironi Herzliya</a></h2>
+    <div class="scroll"><img src="hapoel-ironi-herzliya.he.svg" alt="הפועל הרצליה" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-rishon-lezion">
+    <h2><a href="#maccabi-rishon-lezion">מכבי ראשון לציון · Maccabi Rishon LeZion</a></h2>
+    <div class="scroll"><img src="maccabi-rishon-lezion.he.svg" alt="מכבי ראשון לציון" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-bnei-reineh">
+    <h2><a href="#maccabi-bnei-reineh">מכבי בני ריינה · Maccabi Bnei Reineh</a></h2>
+    <div class="scroll"><img src="maccabi-bnei-reineh.he.svg" alt="מכבי בני ריינה" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-nof-hagalil">
+    <h2><a href="#hapoel-nof-hagalil">הפועל נוף הגליל · Hapoel Nof HaGalil</a></h2>
+    <div class="scroll"><img src="hapoel-nof-hagalil.he.svg" alt="הפועל נוף הגליל" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-ahi-nazareth">
+    <h2><a href="#maccabi-ahi-nazareth">מכבי אחי נצרת · Maccabi Ahi Nazareth</a></h2>
+    <div class="scroll"><img src="maccabi-ahi-nazareth.he.svg" alt="מכבי אחי נצרת" loading="lazy"></div>
+  </figure>
+  <figure id="ironi-tiberias">
+    <h2><a href="#ironi-tiberias">עירוני טבריה · Ironi Tiberias</a></h2>
+    <div class="scroll"><img src="ironi-tiberias.he.svg" alt="עירוני טבריה" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-kiryat-gat">
+    <h2><a href="#maccabi-kiryat-gat">מכבי קריית גת · Maccabi Kiryat Gat</a></h2>
+    <div class="scroll"><img src="maccabi-kiryat-gat.he.svg" alt="מכבי קריית גת" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-kfar-shalem">
+    <h2><a href="#hapoel-kfar-shalem">הפועל כפר שלם · Hapoel Kfar Shalem</a></h2>
+    <div class="scroll"><img src="hapoel-kfar-shalem.he.svg" alt="הפועל כפר שלם" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-afula">
+    <h2><a href="#hapoel-afula">הפועל עפולה · Hapoel Afula</a></h2>
+    <div class="scroll"><img src="hapoel-afula.he.svg" alt="הפועל עפולה" loading="lazy"></div>
+  </figure>
+  <figure id="ironi-modi-in">
+    <h2><a href="#ironi-modi-in">עירוני מודיעין · Ironi Modi'in</a></h2>
+    <div class="scroll"><img src="ironi-modi-in.he.svg" alt="עירוני מודיעין" loading="lazy"></div>
+  </figure>
+  <figure id="m-s-kafr-qasim">
+    <h2><a href="#m-s-kafr-qasim">מועדון ספורט כפר קאסם · M.S. Kafr Qasim</a></h2>
+    <div class="scroll"><img src="m-s-kafr-qasim.he.svg" alt="מועדון ספורט כפר קאסם" loading="lazy"></div>
+  </figure>
+  <figure id="m-s-kiryat-yam">
+    <h2><a href="#m-s-kiryat-yam">מועדון ספורט קריית ים · M.S. Kiryat Yam</a></h2>
+    <div class="scroll"><img src="m-s-kiryat-yam.he.svg" alt="מועדון ספורט קריית ים" loading="lazy"></div>
+  </figure>
   </div>
   <footer>RSSSF · English Wikipedia · Hebrew Wikipedia — see README.md</footer>
 </div>

@@ -78,38 +78,44 @@ life, excluding dormant spells and seasons with no table at that tier — see de
 | Hapoel Jerusalem | 1931/1932 | 78 | 43 | — | 1 | 7 | 7 | yes |
 | Beitar Tel Aviv | 1937 | 77 | 41 | — | 1 | 1 | — | — |
 | Hapoel Kfar Saba | 1946/1947 | 75 | 40 | 1 | 1 | — | — | yes |
-| Maccabi Jaffa | 1949/1950 | 73 | 32 | — | 1 | — | — | yes |
-| Shimshon Tel Aviv | 1949/1950 | 56 | 28 | — | 1 | 2 | — | — |
+| Maccabi Jaffa | 1949/1950 | 73 | 32 | — | 1 | 2 | — | yes |
+| Shimshon Tel Aviv | 1949/1950 | 56 | 28 | — | 1 | 5 | — | — |
 | Ashdod S.C. | 1999/2000 | 27 | 26 | — | 1 | — | — | yes |
 | Hapoel Ramat Gan | 1939 | 80 | 25 | 1 | 1 | — | — | yes |
 | Bnei Sakhnin | 1994/1995 | 32 | 21 | — | 1 | — | — | yes |
 | Hapoel Rishon LeZion | 1938 | 81 | 20 | — | 1 | — | — | yes |
-| Hakoah Ramat Gan | 1962/1963 | 57 | 20 | 2 | 1 | — | — | — |
+| Hakoah Ramat Gan | 1962/1963 | 57 | 20 | 2 | 1 | 5 | — | — |
 | Ironi Kiryat Shmona | 2000/2001 | 23 | 17 | 1 | 1 | 3 | — | yes |
-| Hapoel Hadera | 1939 | 77 | 16 | — | 1 | 3 | 3 | yes |
-| Hapoel Holon | 1949/1950 | 64 | 12 | — | 1 | 4 | — | — |
-| Maccabi Rehovot | 1933/1934 | 58 | 12 | — | 1 | 18 | 2 | — |
+| Hapoel Hadera | 1939 | 77 | 16 | — | 1 | 8 | 3 | yes |
+| Hapoel Holon | 1949/1950 | 64 | 12 | — | 1 | 5 | — | — |
+| Maccabi Rehovot | 1933/1934 | 58 | 12 | — | 1 | 31 | 2 | — |
 | Maccabi Nes Ziona | 1931/1932 | 13 | 12 | — | 1 | 1 | 1 | — |
 | Hapoel Acre | 1949/1950 | 72 | 10 | — | 1 | 2 | — | yes |
 | Maccabi Herzliya | 1939 | 63 | 10 | — | 1 | 16 | 5 | yes |
 | Hakoah Tel Aviv | 1934/1935 | 21 | 10 | — | 1 | — | — | — |
 | Hapoel Ra'anana | 1939 | 67 | 9 | — | 1 | 13 | 2 | yes |
-| Hapoel Yehud | 1954/1955 | 39 | 8 | — | 1 | 5 | — | — |
-| Hapoel Ironi Herzliya | 1937 | 68 | 7 | — | 1 | 12 | — | — |
-| Maccabi Rishon LeZion | 1939 | 9 | 7 | — | 1 | 22 | — | — |
-| Maccabi Bnei Reineh | 2005/2006 | 11 | 4 | — | 1 | 9 | — | yes |
+| Hapoel Yehud | 1954/1955 | 39 | 8 | — | 1 | 6 | — | — |
+| Hapoel Ironi Herzliya | 1937 | 68 | 7 | — | 1 | 14 | — | — |
+| Maccabi Rishon LeZion | 1939 | 9 | 7 | — | 1 | 23 | — | — |
+| Maccabi Bnei Reineh | 2005/2006 | 11 | 4 | — | 1 | 13 | — | yes |
 | Hapoel Nof HaGalil | 1962/1963 | 56 | 3 | — | 1 | 7 | — | yes |
-| Maccabi Ahi Nazareth | 1974/1975 | 49 | 2 | — | 1 | — | — | yes |
-| Ironi Tiberias | 2006/2007 | 18 | 2 | — | 1 | 1 | — | yes |
-| Maccabi Kiryat Gat | 1962/1963 | 54 | 1 | — | 1 | 3 | — | yes |
+| Maccabi Ahi Nazareth | 1974/1975 | 49 | 2 | — | 1 | 3 | — | yes |
+| Ironi Tiberias | 2006/2007 | 18 | 2 | — | 1 | 2 | — | yes |
+| Maccabi Kiryat Gat | 1962/1963 | 54 | 1 | — | 1 | 9 | — | yes |
 | Hapoel Kfar Shalem | 1962/1963 | 61 | — | — | 2 | 1 | — | yes |
-| Hapoel Afula | 1957/1958 | 49 | — | — | 2 | 19 | — | yes |
-| Ironi Modi'in | 2009/2010 | 13 | — | — | 2 | 3 | — | yes |
+| Hapoel Afula | 1957/1958 | 49 | — | — | 2 | 22 | — | yes |
+| Ironi Modi'in | 2009/2010 | 13 | — | — | 2 | 6 | — | yes |
 | M.S. Kafr Qasim | 2019/2020 | 7 | — | — | 2 | — | — | yes |
 | M.S. Kiryat Yam | 2025/2026 | 1 | — | — | 2 | — | — | yes |
 
-**16 of the 42 have no unknown seasons at all.** The other 26 account for 178 between them,
-36 before 1949 and 142 after.
+**14 of the 42 have no unknown seasons at all.** The other 28 account for 221 between them,
+36 before 1949 and 185 after.
+
+That total went up, not down, when the chart stopped banding tier five. A season in Liga
+Gimel used to sit on a strip at the floor and now has no row to sit on, so it is marked the
+same way a season with no source is — the position is still in `seasons.csv`, but the chart
+no longer places it. Maccabi Rehovot, who spent decades down there, carry 31 of the 221 for
+that reason alone.
 
 ## Why the unknown seasons are unknown
 
@@ -127,8 +133,9 @@ Worst affected: Maccabi Haifa 8, Hapoel Jerusalem 7, Maccabi Herzliya 5.
 **No football article at all — 38 seasons.** Maccabi Rishon LeZion (22) and Maccabi Rehovot
 (16 post-1949) have Hebrew pages that are sports-association stubs. Nothing to extract.
 
-**Tiers 4–6, where coverage is patchy.** Hapoel Afula 19, Maccabi Herzliya 13, Hapoel
-Ra'anana 11, Hapoel Ironi Herzliya 11, Maccabi Bnei Reineh 9. English Wikipedia has roughly
+**Tiers 4–6, where coverage is patchy, and tier 5–6 seasons the chart does not band.**
+Maccabi Rehovot 31, Maccabi Rishon LeZion 23, Hapoel Afula 22, Maccabi Herzliya 16,
+Hapoel Ironi Herzliya 14, Hapoel Ra'anana 13. English Wikipedia has roughly
 30 Liga Gimel seasons out of about 70 and whole years are absent — 1990–91 Liga Gimel has no
 article. These clubs' articles give founding years and narrate promotions and relegations but
 not finishing positions. In several cases the article does state the *tier* — Bnei Sakhnin
@@ -149,11 +156,17 @@ repeated: Shimshon Tel Aviv's 2000–2013 (merger, then dormant), Hapoel Yehud's
 2007/08 (RSSSF's pre-merger name), and Hakoah Ramat Gan's 1938–1946 rows (an over-merged
 alias — the club was founded in 1962).
 
-**Resolved by reading the IFA's own tables** — the six league-seasons in `data/ifa/` closed
-12 unknowns across six charted clubs, the ones Wikipedia has no article for at all: 2016/17
-and 2018/19 Liga Bet, and Liga Alef from 2021/22 on. Shimshon Tel Aviv went from 4 unknown
-seasons to 2, Hapoel Kfar Shalem from 4 to 1, Ironi Modi'in from 6 to 3, Maccabi Jaffa from 1
-to none.
+**Resolved by reading the IFA's own tables** — the league-seasons in `data/ifa/` closed 12
+unknowns across six charted clubs, the ones Wikipedia has no article for at all: 2016/17 and
+2018/19 Liga Bet, and Liga Alef from 2021/22 on.
+
+**Still playing, but in a season with no table.** The IFA stopped Liga Alef, Bet and Gimel in
+2025/26 because of the war (see `structure.json`), so five charted clubs — Shimshon Tel Aviv,
+Maccabi Kiryat Gat, Maccabi Ahi Nazareth, Hapoel Ironi Herzliya and Hakoah Ramat Gan — played
+a season that produced no final position. The abandoned captures in `data/ifa/` record that
+they were there, which is what stops the chart ending their line in 2024/25 and drawing the
+years since as though the club had folded. Their unknown counts rose as a result: this is a
+club whose whereabouts are unrecorded, not a club that does not exist.
 
 ## Open question: the Hakoah lineage
 

@@ -2,9 +2,11 @@
 <style>
   .bg{fill:var(--surface)} .ink{fill:var(--ink)} .ink2{fill:var(--ink2)}
   .ink3{fill:var(--ink3)} .rule{stroke:var(--rule)}
-  .line{stroke:var(--accent);stroke-width:2.6;fill:none;stroke-linecap:round;stroke-linejoin:round}
+  .line,.casing{fill:none;stroke-linecap:round;stroke-linejoin:round}
+  .casing{stroke:var(--casing);stroke-width:4.4}
+  .line{stroke:var(--accent);stroke-width:2.4}
   .champ{fill:var(--champion)}
-  :root{--surface:#FCFCFB;--ink:#1A1D1F;--ink2:#565F63;--ink3:#868F93;--rule:#C9CFD1;--accent:#D96B1A;--champion:#A06A0A;--hatch:#A9B2B6;--band1:#E9F0F2;--band2:#DBE5E8;--band3:#CBD8DC;--band4:#B9C9CF;--band5:#A7BAC1}
+  :root{--surface:#FCFCFB;--ink:#1A1D1F;--ink2:#565F63;--ink3:#868F93;--rule:#C9CFD1;--accent:#F1771D;--accent_casing:#004A5C;--champion:#A06A0A;--hatch:#A9B2B6;--band1:#E9F0F2;--band2:#DBE5E8;--band3:#CBD8DC;--band4:#B9C9CF;--casing:#914711}
 </style>
 <defs>
   <pattern id="notplayed" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="7" stroke="var(--hatch)" stroke-width="1.4"/></pattern>
@@ -114,7 +116,7 @@
 <rect x="481" y="160" width="13" height="84" fill="var(--band2)"/>
 <rect x="481" y="244" width="13" height="84" fill="var(--band3)"/>
 <rect x="481" y="328" width="13" height="112" fill="var(--band4)"/>
-<rect x="481" y="440" width="13" height="112" fill="var(--band5)"/>
+<rect x="481" y="440" width="13" height="112" fill="url(#notier)"/>
 <rect x="494" y="76" width="13" height="84" fill="var(--band1)"/>
 <rect x="494" y="160" width="13" height="98" fill="var(--band2)"/>
 <rect x="494" y="258" width="13" height="112" fill="var(--band3)"/>
@@ -164,287 +166,287 @@
 <rect x="611" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="611" y="300" width="13" height="112" fill="var(--band3)"/>
 <rect x="611" y="412" width="13" height="112" fill="var(--band4)"/>
-<rect x="611" y="524" width="13" height="28" fill="var(--band5)"/>
+<rect x="611" y="524" width="13" height="28" fill="url(#notier)"/>
 <rect x="624" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="624" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="624" y="300" width="13" height="112" fill="var(--band3)"/>
 <rect x="624" y="412" width="13" height="112" fill="var(--band4)"/>
-<rect x="624" y="524" width="13" height="28" fill="var(--band5)"/>
+<rect x="624" y="524" width="13" height="28" fill="url(#notier)"/>
 <rect x="637" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="637" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="637" y="300" width="13" height="112" fill="var(--band3)"/>
 <rect x="637" y="412" width="13" height="112" fill="var(--band4)"/>
-<rect x="637" y="524" width="13" height="28" fill="var(--band5)"/>
+<rect x="637" y="524" width="13" height="28" fill="url(#notier)"/>
 <rect x="650" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="650" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="650" y="300" width="13" height="112" fill="var(--band3)"/>
 <rect x="650" y="412" width="13" height="112" fill="var(--band4)"/>
-<rect x="650" y="524" width="13" height="28" fill="var(--band5)"/>
+<rect x="650" y="524" width="13" height="28" fill="url(#notier)"/>
 <rect x="663" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="663" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="663" y="300" width="13" height="112" fill="var(--band3)"/>
 <rect x="663" y="412" width="13" height="112" fill="var(--band4)"/>
-<rect x="663" y="524" width="13" height="28" fill="var(--band5)"/>
+<rect x="663" y="524" width="13" height="28" fill="url(#notier)"/>
 <rect x="676" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="676" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="676" y="300" width="13" height="112" fill="var(--band3)"/>
 <rect x="676" y="412" width="13" height="112" fill="var(--band4)"/>
-<rect x="676" y="524" width="13" height="28" fill="var(--band5)"/>
+<rect x="676" y="524" width="13" height="28" fill="url(#notier)"/>
 <rect x="689" y="76" width="13" height="126" fill="var(--band1)"/>
 <rect x="689" y="202" width="13" height="119" fill="var(--band2)"/>
 <rect x="689" y="321" width="13" height="105" fill="var(--band3)"/>
 <rect x="689" y="426" width="13" height="112" fill="var(--band4)"/>
-<rect x="689" y="538" width="13" height="14" fill="var(--band5)"/>
+<rect x="689" y="538" width="13" height="14" fill="url(#notier)"/>
 <rect x="702" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="702" y="188" width="13" height="84" fill="var(--band2)"/>
 <rect x="702" y="272" width="13" height="98" fill="var(--band3)"/>
 <rect x="702" y="370" width="13" height="98" fill="var(--band4)"/>
-<rect x="702" y="468" width="13" height="84" fill="var(--band5)"/>
+<rect x="702" y="468" width="13" height="84" fill="url(#notier)"/>
 <rect x="715" y="76" width="13" height="98" fill="var(--band1)"/>
 <rect x="715" y="174" width="13" height="98" fill="var(--band2)"/>
 <rect x="715" y="272" width="13" height="98" fill="var(--band3)"/>
 <rect x="715" y="370" width="13" height="98" fill="var(--band4)"/>
-<rect x="715" y="468" width="13" height="84" fill="var(--band5)"/>
+<rect x="715" y="468" width="13" height="84" fill="url(#notier)"/>
 <rect x="728" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="728" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="728" y="300" width="13" height="98" fill="var(--band3)"/>
 <rect x="728" y="398" width="13" height="98" fill="var(--band4)"/>
-<rect x="728" y="496" width="13" height="56" fill="var(--band5)"/>
+<rect x="728" y="496" width="13" height="56" fill="url(#notier)"/>
 <rect x="741" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="741" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="741" y="300" width="13" height="98" fill="var(--band3)"/>
 <rect x="741" y="398" width="13" height="98" fill="var(--band4)"/>
-<rect x="741" y="496" width="13" height="56" fill="var(--band5)"/>
+<rect x="741" y="496" width="13" height="56" fill="url(#notier)"/>
 <rect x="754" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="754" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="754" y="300" width="13" height="98" fill="var(--band3)"/>
 <rect x="754" y="398" width="13" height="98" fill="var(--band4)"/>
-<rect x="754" y="496" width="13" height="56" fill="var(--band5)"/>
+<rect x="754" y="496" width="13" height="56" fill="url(#notier)"/>
 <rect x="767" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="767" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="767" y="300" width="13" height="98" fill="var(--band3)"/>
 <rect x="767" y="398" width="13" height="98" fill="var(--band4)"/>
-<rect x="767" y="496" width="13" height="56" fill="var(--band5)"/>
+<rect x="767" y="496" width="13" height="56" fill="url(#notier)"/>
 <rect x="780" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="780" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="780" y="300" width="13" height="98" fill="var(--band3)"/>
 <rect x="780" y="398" width="13" height="98" fill="var(--band4)"/>
-<rect x="780" y="496" width="13" height="56" fill="var(--band5)"/>
+<rect x="780" y="496" width="13" height="56" fill="url(#notier)"/>
 <rect x="793" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="793" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="793" y="300" width="13" height="98" fill="var(--band3)"/>
 <rect x="793" y="398" width="13" height="98" fill="var(--band4)"/>
-<rect x="793" y="496" width="13" height="56" fill="var(--band5)"/>
+<rect x="793" y="496" width="13" height="56" fill="url(#notier)"/>
 <rect x="806" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="806" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="806" y="300" width="13" height="98" fill="var(--band3)"/>
 <rect x="806" y="398" width="13" height="98" fill="var(--band4)"/>
-<rect x="806" y="496" width="13" height="56" fill="var(--band5)"/>
+<rect x="806" y="496" width="13" height="56" fill="url(#notier)"/>
 <rect x="819" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="819" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="819" y="300" width="13" height="98" fill="var(--band3)"/>
 <rect x="819" y="398" width="13" height="98" fill="var(--band4)"/>
-<rect x="819" y="496" width="13" height="56" fill="var(--band5)"/>
+<rect x="819" y="496" width="13" height="56" fill="url(#notier)"/>
 <rect x="832" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="832" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="832" y="300" width="13" height="98" fill="var(--band3)"/>
 <rect x="832" y="398" width="13" height="98" fill="var(--band4)"/>
-<rect x="832" y="496" width="13" height="56" fill="var(--band5)"/>
+<rect x="832" y="496" width="13" height="56" fill="url(#notier)"/>
 <rect x="845" y="76" width="13" height="98" fill="var(--band1)"/>
 <rect x="845" y="174" width="13" height="98" fill="var(--band2)"/>
 <rect x="845" y="272" width="13" height="112" fill="var(--band3)"/>
 <rect x="845" y="384" width="13" height="98" fill="var(--band4)"/>
-<rect x="845" y="482" width="13" height="70" fill="var(--band5)"/>
+<rect x="845" y="482" width="13" height="70" fill="url(#notier)"/>
 <rect x="858" y="76" width="13" height="98" fill="var(--band1)"/>
 <rect x="858" y="174" width="13" height="98" fill="var(--band2)"/>
 <rect x="858" y="272" width="13" height="112" fill="var(--band3)"/>
 <rect x="858" y="384" width="13" height="98" fill="var(--band4)"/>
-<rect x="858" y="482" width="13" height="70" fill="var(--band5)"/>
+<rect x="858" y="482" width="13" height="70" fill="url(#notier)"/>
 <rect x="871" y="76" width="13" height="84" fill="var(--band1)"/>
 <rect x="871" y="160" width="13" height="112" fill="var(--band2)"/>
 <rect x="871" y="272" width="13" height="112" fill="var(--band3)"/>
 <rect x="871" y="384" width="13" height="112" fill="var(--band4)"/>
-<rect x="871" y="496" width="13" height="56" fill="var(--band5)"/>
+<rect x="871" y="496" width="13" height="56" fill="url(#notier)"/>
 <rect x="884" y="76" width="13" height="84" fill="var(--band1)"/>
 <rect x="884" y="160" width="13" height="112" fill="var(--band2)"/>
 <rect x="884" y="272" width="13" height="112" fill="var(--band3)"/>
 <rect x="884" y="384" width="13" height="112" fill="var(--band4)"/>
-<rect x="884" y="496" width="13" height="56" fill="var(--band5)"/>
+<rect x="884" y="496" width="13" height="56" fill="url(#notier)"/>
 <rect x="897" y="76" width="13" height="84" fill="var(--band1)"/>
 <rect x="897" y="160" width="13" height="112" fill="var(--band2)"/>
 <rect x="897" y="272" width="13" height="112" fill="var(--band3)"/>
 <rect x="897" y="384" width="13" height="112" fill="var(--band4)"/>
-<rect x="897" y="496" width="13" height="56" fill="var(--band5)"/>
+<rect x="897" y="496" width="13" height="56" fill="url(#notier)"/>
 <rect x="910" y="76" width="13" height="84" fill="var(--band1)"/>
 <rect x="910" y="160" width="13" height="112" fill="var(--band2)"/>
 <rect x="910" y="272" width="13" height="112" fill="var(--band3)"/>
 <rect x="910" y="384" width="13" height="112" fill="var(--band4)"/>
-<rect x="910" y="496" width="13" height="56" fill="var(--band5)"/>
+<rect x="910" y="496" width="13" height="56" fill="url(#notier)"/>
 <rect x="923" y="76" width="13" height="98" fill="var(--band1)"/>
 <rect x="923" y="174" width="13" height="112" fill="var(--band2)"/>
 <rect x="923" y="286" width="13" height="112" fill="var(--band3)"/>
 <rect x="923" y="398" width="13" height="112" fill="var(--band4)"/>
-<rect x="923" y="510" width="13" height="42" fill="var(--band5)"/>
+<rect x="923" y="510" width="13" height="42" fill="url(#notier)"/>
 <rect x="936" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="936" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="936" y="300" width="13" height="112" fill="var(--band3)"/>
 <rect x="936" y="412" width="13" height="112" fill="var(--band4)"/>
-<rect x="936" y="524" width="13" height="28" fill="var(--band5)"/>
+<rect x="936" y="524" width="13" height="28" fill="url(#notier)"/>
 <rect x="949" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="949" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="949" y="300" width="13" height="112" fill="var(--band3)"/>
 <rect x="949" y="412" width="13" height="112" fill="var(--band4)"/>
-<rect x="949" y="524" width="13" height="28" fill="var(--band5)"/>
+<rect x="949" y="524" width="13" height="28" fill="url(#notier)"/>
 <rect x="962" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="962" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="962" y="300" width="13" height="112" fill="var(--band3)"/>
 <rect x="962" y="412" width="13" height="112" fill="var(--band4)"/>
-<rect x="962" y="524" width="13" height="28" fill="var(--band5)"/>
+<rect x="962" y="524" width="13" height="28" fill="url(#notier)"/>
 <rect x="975" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="975" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="975" y="300" width="13" height="112" fill="var(--band3)"/>
 <rect x="975" y="412" width="13" height="112" fill="var(--band4)"/>
-<rect x="975" y="524" width="13" height="28" fill="var(--band5)"/>
+<rect x="975" y="524" width="13" height="28" fill="url(#notier)"/>
 <rect x="988" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="988" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="988" y="300" width="13" height="112" fill="var(--band3)"/>
 <rect x="988" y="412" width="13" height="112" fill="var(--band4)"/>
-<rect x="988" y="524" width="13" height="28" fill="var(--band5)"/>
+<rect x="988" y="524" width="13" height="28" fill="url(#notier)"/>
 <rect x="1001" y="76" width="13" height="98" fill="var(--band1)"/>
 <rect x="1001" y="174" width="13" height="70" fill="var(--band2)"/>
 <rect x="1001" y="244" width="13" height="84" fill="var(--band3)"/>
 <rect x="1001" y="328" width="13" height="98" fill="var(--band4)"/>
-<rect x="1001" y="426" width="13" height="126" fill="var(--band5)"/>
+<rect x="1001" y="426" width="13" height="126" fill="url(#notier)"/>
 <rect x="1014" y="76" width="13" height="84" fill="var(--band1)"/>
 <rect x="1014" y="160" width="13" height="84" fill="var(--band2)"/>
 <rect x="1014" y="244" width="13" height="84" fill="var(--band3)"/>
 <rect x="1014" y="328" width="13" height="105" fill="var(--band4)"/>
-<rect x="1014" y="433" width="13" height="119" fill="var(--band5)"/>
+<rect x="1014" y="433" width="13" height="119" fill="url(#notier)"/>
 <rect x="1027" y="76" width="13" height="84" fill="var(--band1)"/>
 <rect x="1027" y="160" width="13" height="84" fill="var(--band2)"/>
 <rect x="1027" y="244" width="13" height="84" fill="var(--band3)"/>
 <rect x="1027" y="328" width="13" height="105" fill="var(--band4)"/>
-<rect x="1027" y="433" width="13" height="119" fill="var(--band5)"/>
+<rect x="1027" y="433" width="13" height="119" fill="url(#notier)"/>
 <rect x="1040" y="76" width="13" height="84" fill="var(--band1)"/>
 <rect x="1040" y="160" width="13" height="84" fill="var(--band2)"/>
 <rect x="1040" y="244" width="13" height="84" fill="var(--band3)"/>
 <rect x="1040" y="328" width="13" height="98" fill="var(--band4)"/>
-<rect x="1040" y="426" width="13" height="126" fill="var(--band5)"/>
+<rect x="1040" y="426" width="13" height="126" fill="url(#notier)"/>
 <rect x="1053" y="76" width="13" height="84" fill="var(--band1)"/>
 <rect x="1053" y="160" width="13" height="84" fill="var(--band2)"/>
 <rect x="1053" y="244" width="13" height="84" fill="var(--band3)"/>
 <rect x="1053" y="328" width="13" height="98" fill="var(--band4)"/>
-<rect x="1053" y="426" width="13" height="126" fill="var(--band5)"/>
+<rect x="1053" y="426" width="13" height="126" fill="url(#notier)"/>
 <rect x="1066" y="76" width="13" height="84" fill="var(--band1)"/>
 <rect x="1066" y="160" width="13" height="84" fill="var(--band2)"/>
 <rect x="1066" y="244" width="13" height="84" fill="var(--band3)"/>
 <rect x="1066" y="328" width="13" height="98" fill="var(--band4)"/>
-<rect x="1066" y="426" width="13" height="126" fill="var(--band5)"/>
+<rect x="1066" y="426" width="13" height="126" fill="url(#notier)"/>
 <rect x="1079" y="76" width="13" height="84" fill="var(--band1)"/>
 <rect x="1079" y="160" width="13" height="84" fill="var(--band2)"/>
 <rect x="1079" y="244" width="13" height="84" fill="var(--band3)"/>
 <rect x="1079" y="328" width="13" height="98" fill="var(--band4)"/>
-<rect x="1079" y="426" width="13" height="126" fill="var(--band5)"/>
+<rect x="1079" y="426" width="13" height="126" fill="url(#notier)"/>
 <rect x="1092" y="76" width="13" height="84" fill="var(--band1)"/>
 <rect x="1092" y="160" width="13" height="84" fill="var(--band2)"/>
 <rect x="1092" y="244" width="13" height="84" fill="var(--band3)"/>
 <rect x="1092" y="328" width="13" height="98" fill="var(--band4)"/>
-<rect x="1092" y="426" width="13" height="126" fill="var(--band5)"/>
+<rect x="1092" y="426" width="13" height="126" fill="url(#notier)"/>
 <rect x="1105" y="76" width="13" height="84" fill="var(--band1)"/>
 <rect x="1105" y="160" width="13" height="84" fill="var(--band2)"/>
 <rect x="1105" y="244" width="13" height="84" fill="var(--band3)"/>
 <rect x="1105" y="328" width="13" height="98" fill="var(--band4)"/>
-<rect x="1105" y="426" width="13" height="126" fill="var(--band5)"/>
+<rect x="1105" y="426" width="13" height="126" fill="url(#notier)"/>
 <rect x="1118" y="76" width="13" height="84" fill="var(--band1)"/>
 <rect x="1118" y="160" width="13" height="84" fill="var(--band2)"/>
 <rect x="1118" y="244" width="13" height="84" fill="var(--band3)"/>
 <rect x="1118" y="328" width="13" height="98" fill="var(--band4)"/>
-<rect x="1118" y="426" width="13" height="126" fill="var(--band5)"/>
+<rect x="1118" y="426" width="13" height="126" fill="url(#notier)"/>
 <rect x="1131" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="1131" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="1131" y="300" width="13" height="112" fill="var(--band3)"/>
 <rect x="1131" y="412" width="13" height="112" fill="var(--band4)"/>
-<rect x="1131" y="524" width="13" height="28" fill="var(--band5)"/>
+<rect x="1131" y="524" width="13" height="28" fill="url(#notier)"/>
 <rect x="1144" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="1144" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="1144" y="300" width="13" height="112" fill="var(--band3)"/>
 <rect x="1144" y="412" width="13" height="112" fill="var(--band4)"/>
-<rect x="1144" y="524" width="13" height="28" fill="var(--band5)"/>
+<rect x="1144" y="524" width="13" height="28" fill="url(#notier)"/>
 <rect x="1157" y="76" width="13" height="112" fill="var(--band1)"/>
 <rect x="1157" y="188" width="13" height="112" fill="var(--band2)"/>
 <rect x="1157" y="300" width="13" height="112" fill="var(--band3)"/>
 <rect x="1157" y="412" width="13" height="112" fill="var(--band4)"/>
-<rect x="1157" y="524" width="13" height="28" fill="var(--band5)"/>
+<rect x="1157" y="524" width="13" height="28" fill="url(#notier)"/>
 <rect x="1170" y="76" width="13" height="98" fill="var(--band1)"/>
 <rect x="1170" y="174" width="13" height="112" fill="var(--band2)"/>
 <rect x="1170" y="286" width="13" height="112" fill="var(--band3)"/>
 <rect x="1170" y="398" width="13" height="112" fill="var(--band4)"/>
-<rect x="1170" y="510" width="13" height="42" fill="var(--band5)"/>
+<rect x="1170" y="510" width="13" height="42" fill="url(#notier)"/>
 <rect x="1183" y="76" width="13" height="98" fill="var(--band1)"/>
 <rect x="1183" y="174" width="13" height="112" fill="var(--band2)"/>
 <rect x="1183" y="286" width="13" height="112" fill="var(--band3)"/>
 <rect x="1183" y="398" width="13" height="112" fill="var(--band4)"/>
-<rect x="1183" y="510" width="13" height="42" fill="var(--band5)"/>
+<rect x="1183" y="510" width="13" height="42" fill="url(#notier)"/>
 <rect x="1196" y="76" width="13" height="98" fill="var(--band1)"/>
 <rect x="1196" y="174" width="13" height="112" fill="var(--band2)"/>
 <rect x="1196" y="286" width="13" height="112" fill="var(--band3)"/>
 <rect x="1196" y="398" width="13" height="112" fill="var(--band4)"/>
-<rect x="1196" y="510" width="13" height="42" fill="var(--band5)"/>
+<rect x="1196" y="510" width="13" height="42" fill="url(#notier)"/>
 <rect x="1209" y="76" width="13" height="98" fill="var(--band1)"/>
 <rect x="1209" y="174" width="13" height="112" fill="var(--band2)"/>
 <rect x="1209" y="286" width="13" height="112" fill="var(--band3)"/>
 <rect x="1209" y="398" width="13" height="112" fill="var(--band4)"/>
-<rect x="1209" y="510" width="13" height="42" fill="var(--band5)"/>
+<rect x="1209" y="510" width="13" height="42" fill="url(#notier)"/>
 <rect x="1222" y="76" width="13" height="98" fill="var(--band1)"/>
 <rect x="1222" y="174" width="13" height="112" fill="var(--band2)"/>
 <rect x="1222" y="286" width="13" height="112" fill="var(--band3)"/>
 <rect x="1222" y="398" width="13" height="112" fill="var(--band4)"/>
-<rect x="1222" y="510" width="13" height="42" fill="var(--band5)"/>
+<rect x="1222" y="510" width="13" height="42" fill="url(#notier)"/>
 <rect x="1235" y="76" width="13" height="98" fill="var(--band1)"/>
 <rect x="1235" y="174" width="13" height="112" fill="var(--band2)"/>
 <rect x="1235" y="286" width="13" height="112" fill="var(--band3)"/>
 <rect x="1235" y="398" width="13" height="112" fill="var(--band4)"/>
-<rect x="1235" y="510" width="13" height="42" fill="var(--band5)"/>
+<rect x="1235" y="510" width="13" height="42" fill="url(#notier)"/>
 <rect x="1248" y="76" width="13" height="98" fill="var(--band1)"/>
 <rect x="1248" y="174" width="13" height="112" fill="var(--band2)"/>
 <rect x="1248" y="286" width="13" height="112" fill="var(--band3)"/>
 <rect x="1248" y="398" width="13" height="112" fill="var(--band4)"/>
-<rect x="1248" y="510" width="13" height="42" fill="var(--band5)"/>
+<rect x="1248" y="510" width="13" height="42" fill="url(#notier)"/>
 <rect x="1261" y="76" width="13" height="98" fill="var(--band1)"/>
 <rect x="1261" y="174" width="13" height="112" fill="var(--band2)"/>
 <rect x="1261" y="286" width="13" height="112" fill="var(--band3)"/>
 <rect x="1261" y="398" width="13" height="112" fill="var(--band4)"/>
-<rect x="1261" y="510" width="13" height="42" fill="var(--band5)"/>
+<rect x="1261" y="510" width="13" height="42" fill="url(#notier)"/>
 <rect x="1274" y="76" width="13" height="98" fill="var(--band1)"/>
 <rect x="1274" y="174" width="13" height="112" fill="var(--band2)"/>
 <rect x="1274" y="286" width="13" height="63" fill="var(--band3)"/>
 <rect x="1274" y="349" width="13" height="63" fill="var(--band4)"/>
-<rect x="1274" y="412" width="13" height="140" fill="var(--band5)"/>
+<rect x="1274" y="412" width="13" height="140" fill="url(#notier)"/>
 <rect x="1287" y="76" width="13" height="98" fill="var(--band1)"/>
 <rect x="1287" y="174" width="13" height="112" fill="var(--band2)"/>
 <rect x="1287" y="286" width="13" height="126" fill="var(--band3)"/>
 <rect x="1287" y="412" width="13" height="112" fill="var(--band4)"/>
-<rect x="1287" y="524" width="13" height="28" fill="var(--band5)"/>
+<rect x="1287" y="524" width="13" height="28" fill="url(#notier)"/>
 <rect x="1300" y="76" width="13" height="98" fill="var(--band1)"/>
 <rect x="1300" y="174" width="13" height="112" fill="var(--band2)"/>
 <rect x="1300" y="286" width="13" height="112" fill="var(--band3)"/>
 <rect x="1300" y="398" width="13" height="112" fill="var(--band4)"/>
-<rect x="1300" y="510" width="13" height="42" fill="var(--band5)"/>
+<rect x="1300" y="510" width="13" height="42" fill="url(#notier)"/>
 <rect x="1313" y="76" width="13" height="98" fill="var(--band1)"/>
 <rect x="1313" y="174" width="13" height="112" fill="var(--band2)"/>
 <rect x="1313" y="286" width="13" height="112" fill="var(--band3)"/>
 <rect x="1313" y="398" width="13" height="112" fill="var(--band4)"/>
-<rect x="1313" y="510" width="13" height="42" fill="var(--band5)"/>
+<rect x="1313" y="510" width="13" height="42" fill="url(#notier)"/>
 <rect x="1326" y="76" width="13" height="98" fill="var(--band1)"/>
 <rect x="1326" y="174" width="13" height="112" fill="var(--band2)"/>
 <rect x="1326" y="286" width="13" height="119" fill="var(--band3)"/>
 <rect x="1326" y="405" width="13" height="112" fill="var(--band4)"/>
-<rect x="1326" y="517" width="13" height="35" fill="var(--band5)"/>
+<rect x="1326" y="517" width="13" height="35" fill="url(#notier)"/>
 <rect x="1339" y="76" width="13" height="98" fill="var(--band1)"/>
 <rect x="1339" y="174" width="13" height="112" fill="var(--band2)"/>
 <rect x="1339" y="286" width="13" height="112" fill="var(--band3)"/>
 <rect x="1339" y="398" width="13" height="112" fill="var(--band4)"/>
-<rect x="1339" y="510" width="13" height="42" fill="var(--band5)"/>
+<rect x="1339" y="510" width="13" height="42" fill="url(#notier)"/>
 <rect x="104" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="117" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="143" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
@@ -455,6 +457,13 @@
 <rect x="351" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="377" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="403" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
+<path class="casing" d="M214.5 174.0 C218.8 143.7 223.2 83.0 227.5 83.0 C231.8 83.0 236.2 120.3 240.5 139.0"/>
+<path class="casing" d="M260.0 153.0H273.0"/>
+<path class="casing" d="M292.5 146.0 C296.8 134.3 301.2 122.7 305.5 111.0"/>
+<path class="casing" d="M325.0 153.0H338.0"/>
+<path class="casing" d="M364.0 146.0H377.0"/>
+<path class="casing" d="M390.0 146.0H403.0"/>
+<path class="casing" d="M422.5 188.0 C426.8 241.7 431.2 349.0 435.5 349.0 C439.8 349.0 444.2 282.5 448.5 265.0 C452.8 247.5 457.2 244.0 461.5 244.0 C465.8 244.0 470.2 263.8 474.5 272.0 C478.8 280.2 483.2 293.0 487.5 293.0 C491.8 293.0 496.2 272.0 500.5 272.0 C504.8 272.0 509.2 286.0 513.5 286.0 C517.8 286.0 522.2 272.0 526.5 272.0 C530.8 272.0 535.2 293.0 539.5 293.0 C543.8 293.0 548.2 272.0 552.5 272.0 C556.8 272.0 561.2 300.0 565.5 300.0 C569.8 300.0 574.2 223.0 578.5 223.0 C582.8 223.0 587.2 244.0 591.5 244.0 C595.8 244.0 600.2 221.8 604.5 216.0 C608.8 210.2 613.2 209.0 617.5 209.0 C621.8 209.0 626.2 237.0 630.5 237.0 C634.8 237.0 639.2 237.0 643.5 237.0 C647.8 237.0 652.2 233.5 656.5 230.0 C660.8 226.5 665.2 220.7 669.5 216.0 C673.8 211.3 678.2 202.0 682.5 202.0 C686.8 202.0 691.2 217.2 695.5 223.0 C699.8 228.8 704.2 237.0 708.5 237.0 C712.8 237.0 717.2 204.3 721.5 195.0 C725.8 185.7 730.2 181.0 734.5 181.0 C738.8 181.0 743.2 202.0 747.5 202.0 C751.8 202.0 756.2 111.0 760.5 111.0 C764.8 111.0 769.2 149.5 773.5 167.0 C777.8 184.5 782.2 216.0 786.5 216.0 C790.8 216.0 795.2 209.0 799.5 209.0 C803.8 209.0 808.2 269.7 812.5 286.0 C816.8 302.3 821.2 300.0 825.5 307.0 C829.8 314.0 834.2 328.0 838.5 328.0 C842.8 328.0 847.2 286.0 851.5 279.0 C855.8 272.0 860.2 275.5 864.5 272.0 C868.8 268.5 873.2 258.0 877.5 258.0 C881.8 258.0 886.2 349.0 890.5 349.0 C894.8 349.0 899.2 298.8 903.5 286.0 C907.8 273.2 912.2 286.0 916.5 272.0 C920.8 258.0 925.2 197.3 929.5 174.0 C933.8 150.7 938.2 132.0 942.5 132.0 C946.8 132.0 951.2 132.0 955.5 132.0 C959.8 132.0 964.2 132.0 968.5 132.0 C972.8 132.0 977.2 139.0 981.5 139.0 C985.8 139.0 990.2 118.0 994.5 118.0 C998.8 118.0 1003.2 132.0 1007.5 132.0 C1011.8 132.0 1016.2 132.0 1020.5 132.0 C1024.8 132.0 1029.2 132.0 1033.5 132.0 C1037.8 132.0 1042.2 137.8 1046.5 153.0 C1050.8 168.2 1055.2 223.0 1059.5 223.0 C1063.8 223.0 1068.2 195.0 1072.5 195.0 C1076.8 195.0 1081.2 220.7 1085.5 230.0 C1089.8 239.3 1094.2 251.0 1098.5 251.0 C1102.8 251.0 1107.2 230.0 1111.5 230.0 C1115.8 230.0 1120.2 265.0 1124.5 265.0 C1128.8 265.0 1133.2 248.7 1137.5 237.0 C1141.8 225.3 1146.2 205.5 1150.5 195.0 C1154.8 184.5 1159.2 174.0 1163.5 174.0 C1167.8 174.0 1172.2 197.3 1176.5 209.0 C1180.8 220.7 1185.2 244.0 1189.5 244.0 C1193.8 244.0 1198.2 237.0 1202.5 237.0 C1206.8 237.0 1211.2 251.0 1215.5 251.0 C1219.8 251.0 1224.2 247.5 1228.5 237.0 C1232.8 226.5 1237.2 188.0 1241.5 188.0 C1245.8 188.0 1250.2 251.0 1254.5 251.0 C1258.8 251.0 1263.2 209.0 1267.5 202.0 C1271.8 195.0 1276.2 195.0 1280.5 195.0 C1284.8 195.0 1289.2 265.0 1293.5 265.0 C1297.8 265.0 1302.2 251.0 1306.5 251.0 C1310.8 251.0 1315.2 258.0 1319.5 258.0 C1323.8 258.0 1328.2 223.0 1332.5 223.0 C1336.8 223.0 1341.2 223.0 1345.5 223.0"/>
 <path class="line" d="M214.5 174.0 C218.8 143.7 223.2 83.0 227.5 83.0 C231.8 83.0 236.2 120.3 240.5 139.0"/>
 <path class="line" d="M260.0 153.0H273.0"/>
 <path class="line" d="M292.5 146.0 C296.8 134.3 301.2 122.7 305.5 111.0"/>
@@ -492,16 +501,8 @@
 <text class="ink" x="104" y="33" text-anchor="start" font-size="19" font-weight="600" letter-spacing="-.01em">Hapoel Rishon LeZion</text>
 <text class="ink2" x="104" y="54" text-anchor="start" font-size="11.5">20 of 86 seasons in the top flight · best finish 2nd</text>
 <text class="ink3" x="1352" y="33" text-anchor="end" font-size="9.5" letter-spacing=".08em">LEAGUE POSITION BY SEASON</text>
-<path class="line" d="M104 592.5h16"/>
+<path class="casing" d="M104 592.5h16"/><path class="line" d="M104 592.5h16"/>
 <text class="ink2" x="126" y="596" text-anchor="start" font-size="10.5">Final league position</text>
-<path class="champ" d="M320.0 588l4 4-4 4-4-4z"/>
-<text class="ink2" x="334.0" y="596" text-anchor="start" font-size="10.5">Champions</text>
-<rect x="520.0" y="587" width="16" height="11" fill="var(--band5)"/><path class="line" d="M520.0 592.5h16"/>
-<text class="ink2" x="542.0" y="596" text-anchor="start" font-size="10.5">Tier 5 or below</text>
-<rect x="728.0" y="587" width="16" height="11" fill="url(#uncovered)"/>
-<text class="ink2" x="750.0" y="596" text-anchor="start" font-size="10.5">No position recorded</text>
-<rect x="936.0" y="587" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
-<text class="ink2" x="958.0" y="596" text-anchor="start" font-size="10.5">Season not played</text>
-<rect x="1144.0" y="587" width="16" height="11" fill="var(--surface)" stroke="var(--rule)" stroke-width=".8"/>
-<text class="ink2" x="1166.0" y="596" text-anchor="start" font-size="10.5">No tier this deep</text>
+<rect x="728.0" y="587" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
+<text class="ink2" x="750.0" y="596" text-anchor="start" font-size="10.5">Season not played</text>
 </svg>

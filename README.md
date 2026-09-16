@@ -116,7 +116,7 @@ Three more consequences, spelled out in `docs/league-history.html`:
 |---|---|---|
 | 1 | 1931/32 – 2025/26 | Hebrew Wikipedia to 1946/47 and for 2025/26, English for districts it lacks, RSSSF 1949/50–2024/25 |
 | 2 | 1937 – 2025/26 | Hebrew Wikipedia to 2007/08, RSSSF from 2008/09 |
-| 3 | 1954/55 – 2024/25 | English Wikipedia to 2020/21 (Liga Artzit 1976–2009, Liga Alef otherwise), IFA for Liga Alef South from 2021/22 |
+| 3 | 1954/55 – 2024/25 | English Wikipedia to 2020/21 (Liga Artzit 1976–2009, Liga Alef otherwise), IFA for Liga Alef South from 2021/22. 2025/26 was abandoned — no final table |
 | 4 | 1954/55 – 2020/21 | English Wikipedia, plus the IFA for Liga Bet South A in 2016/17 and 2018/19, which Wikipedia has in neither language |
 | 5–6 | 1976/77 – 2020/21, scattered | English Wikipedia |
 
@@ -154,12 +154,15 @@ Gan was founded in 1962, yet the alias map was giving it Liga Bet rows from 1938
 and 1946/47 had *two* of them, a 2nd place and a 4th, which is two different clubs collapsed
 into one name.
 
-Together these took the unknown seasons across the charted clubs from 408 to **142**.
+Together these took the unknown seasons across the charted clubs from 408 to **142**. The
+figure has since risen to 221, because the chart stopped banding tier five: a Liga Gimel
+season is real data that the chart no longer has a row for. `docs/CLUBS.md` carries the
+per-club breakdown.
 
 ### What is still missing, and why
 
-Of the 34 clubs charted, **13 have no unknown seasons at all**. The remaining 142 are
-concentrated in two places, and both were checked rather than assumed:
+Of the 42 clubs charted, **14 have no unknown seasons at all**. The remaining 221 are
+concentrated in three places, all checked rather than assumed:
 
 - **Mandate-era districts that no article tabulates.** Between 1934/35 and 1946/47 both the
   top flight and the second tier were played district by district, and the sources cover
@@ -168,7 +171,7 @@ concentrated in two places, and both were checked rather than assumed:
   articles have Tel Aviv, Samaria and Southern only. The same holds one level down: Hapoel
   Jerusalem is named in the prose of the 1937 and 1946/47 Liga Bet articles but appears in
   none of their tables, which document only the northern and southern districts. That is
-  why Maccabi Haifa has 8 unknown seasons, Hapoel Jerusalem 7 and Hapoel Haifa 3, all
+  why Maccabi Haifa has 8 unknown seasons, Hapoel Jerusalem 7 and Maccabi Herzliya 5, all
   before 1949.
 - **~370 seasons in tiers 5–6** for clubs that spent decades down there. English Wikipedia
   has roughly 30 Liga Gimel seasons out of about 70, and whole years are simply absent
@@ -177,19 +180,28 @@ concentrated in two places, and both were checked rather than assumed:
   Tel Aviv, all zero tables. This is why Maccabi Nes Ziona (12 top-flight seasons in the
   1930s–50s, then decades in the lower divisions) renders mostly as "no position recorded".
 
-Those gaps are drawn as the dotted "no position recorded" band rather than interpolated or
-guessed at.
+- **Tier 5 and 6 seasons the chart does not band.** These are not gaps in the data at all —
+  the position is in `seasons.csv` — but the chart draws four tiers and a Liga Gimel season
+  has no row to sit on. Maccabi Rehovot carry 31 marks for this reason, Maccabi Rishon LeZion
+  23, Hapoel Afula 22.
+
+Those gaps are drawn as the dotted "no position recorded" mark rather than interpolated or
+guessed at. The mark appears in a chart's legend only when that club has one.
 
 Three deliberate scope limits:
 
-- **Only tiers 1–4 get a band.** Tier 5 and below share a two-row strip at the floor: the
-  line still runs along it, so the depth shows, but the chart makes no claim about a rank
-  inside a regional fifth tier. The positions are in `seasons.csv` if you want them.
-- **Where the pyramid was shallower, the rows below it are blank.** In 1935 the league was
-  two tiers deep, so rows 3 and 4 are bare page rather than shaded — the bands stop where the
+- **The chart stops at tier 4.** A fifth- or sixth-tier season has no row to sit on and is
+  marked like any other season with no position on the chart. The positions are still in
+  `seasons.csv`; below tier four a rank is a place inside a regional group, which is not
+  comparable to a national one anyway.
+- **Everything below the last band is bare page.** Where the pyramid was shallower than four
+  tiers — it was two deep in 1935 — nothing is shaded beneath it, so the bands stop where the
   pyramid stopped.
 - **2026/27 is excluded.** It is in progress, and a chart must not show a current partial
-  position as a final one.
+  position as a final one. The same rule takes 2025/26 out below tier two: the IFA stopped
+  Liga Alef, Bet and Gimel that season because of the war, so no final table exists. The
+  clubs that were playing are recorded anyway, in the abandoned captures under `data/ifa/`,
+  so a club still in Liga Alef today does not render as one that folded in 2024/25.
 
 **Minor clubs may appear under a source-specific spelling.** The alias files merge the
 lineages that matter, and `parse_en.py` reports what is still unmapped, but roughly 900

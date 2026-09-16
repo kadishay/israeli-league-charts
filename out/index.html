@@ -28,7 +28,14 @@
   .how span { font-size:.82rem; color:var(--ink2); }
   .charts { display:flex; flex-direction:column; gap:1.4rem; }
   figure { margin:0; border:1px solid var(--rule); border-radius:3px;
-            background:var(--surface); overflow:hidden; }
+            background:var(--surface); overflow:hidden; scroll-margin-top:1rem; }
+  figure h2 { font-size:.82rem; font-weight:600; letter-spacing:.04em;
+               text-transform:uppercase; color:var(--ink2); margin:0;
+               padding:.6rem .9rem; border-bottom:1px solid var(--rule); }
+  figure h2 a { color:inherit; text-decoration:none; }
+  figure h2 a:hover { text-decoration:underline; }
+  figure h2 a:focus-visible { outline:2px solid var(--ink2);
+                               outline-offset:2px; }
   .scroll { overflow-x:auto; direction:ltr; }
   img { display:block; max-width:100%; height:auto; }
   footer { border-top:1px solid var(--rule-firm); padding-top:1.1rem;
@@ -46,48 +53,174 @@
     <div><b>Below tier two, a position is a regional rank</b><span>The lower divisions run in regional groups, so the height within those bands is a rank inside a group rather than a national one. The tier is what the chart is for; read the depth, not the exact position.</span></div>
   </div>
   <div class="charts">
-  <figure><div class="scroll"><img src="maccabi-tel-aviv.svg" alt="Maccabi Tel Aviv" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-tel-aviv.svg" alt="Hapoel Tel Aviv" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-petah-tikva.svg" alt="Maccabi Petah Tikva" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-haifa.svg" alt="Maccabi Haifa" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-netanya.svg" alt="Maccabi Netanya" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-haifa.svg" alt="Hapoel Haifa" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-petah-tikva.svg" alt="Hapoel Petah Tikva" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="beitar-jerusalem.svg" alt="Beitar Jerusalem" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="bnei-yehuda-tel-aviv.svg" alt="Bnei Yehuda Tel Aviv" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-be-er-sheva.svg" alt="Hapoel Be'er Sheva" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-jerusalem.svg" alt="Hapoel Jerusalem" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="beitar-tel-aviv.svg" alt="Beitar Tel Aviv" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-kfar-saba.svg" alt="Hapoel Kfar Saba" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-jaffa.svg" alt="Maccabi Jaffa" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="shimshon-tel-aviv.svg" alt="Shimshon Tel Aviv" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="ashdod-s-c.svg" alt="Ashdod S.C." loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-ramat-gan.svg" alt="Hapoel Ramat Gan" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="bnei-sakhnin.svg" alt="Bnei Sakhnin" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-rishon-lezion.svg" alt="Hapoel Rishon LeZion" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hakoah-ramat-gan.svg" alt="Hakoah Ramat Gan" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="ironi-kiryat-shmona.svg" alt="Ironi Kiryat Shmona" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-hadera.svg" alt="Hapoel Hadera" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-holon.svg" alt="Hapoel Holon" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-rehovot.svg" alt="Maccabi Rehovot" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-nes-ziona.svg" alt="Maccabi Nes Ziona" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-acre.svg" alt="Hapoel Acre" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-herzliya.svg" alt="Maccabi Herzliya" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hakoah-tel-aviv.svg" alt="Hakoah Tel Aviv" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-ra-anana.svg" alt="Hapoel Ra'anana" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-yehud.svg" alt="Hapoel Yehud" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-ironi-herzliya.svg" alt="Hapoel Ironi Herzliya" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-rishon-lezion.svg" alt="Maccabi Rishon LeZion" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-bnei-reineh.svg" alt="Maccabi Bnei Reineh" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-nof-hagalil.svg" alt="Hapoel Nof HaGalil" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-ahi-nazareth.svg" alt="Maccabi Ahi Nazareth" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="ironi-tiberias.svg" alt="Ironi Tiberias" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="maccabi-kiryat-gat.svg" alt="Maccabi Kiryat Gat" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-kfar-shalem.svg" alt="Hapoel Kfar Shalem" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="hapoel-afula.svg" alt="Hapoel Afula" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="ironi-modi-in.svg" alt="Ironi Modi'in" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="m-s-kafr-qasim.svg" alt="M.S. Kafr Qasim" loading="eager"></div></figure>
-  <figure><div class="scroll"><img src="m-s-kiryat-yam.svg" alt="M.S. Kiryat Yam" loading="eager"></div></figure>
+  <figure id="maccabi-tel-aviv">
+    <h2><a href="#maccabi-tel-aviv">Maccabi Tel Aviv</a></h2>
+    <div class="scroll"><img src="maccabi-tel-aviv.svg" alt="Maccabi Tel Aviv" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-tel-aviv">
+    <h2><a href="#hapoel-tel-aviv">Hapoel Tel Aviv</a></h2>
+    <div class="scroll"><img src="hapoel-tel-aviv.svg" alt="Hapoel Tel Aviv" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-petah-tikva">
+    <h2><a href="#maccabi-petah-tikva">Maccabi Petah Tikva</a></h2>
+    <div class="scroll"><img src="maccabi-petah-tikva.svg" alt="Maccabi Petah Tikva" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-haifa">
+    <h2><a href="#maccabi-haifa">Maccabi Haifa</a></h2>
+    <div class="scroll"><img src="maccabi-haifa.svg" alt="Maccabi Haifa" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-netanya">
+    <h2><a href="#maccabi-netanya">Maccabi Netanya</a></h2>
+    <div class="scroll"><img src="maccabi-netanya.svg" alt="Maccabi Netanya" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-haifa">
+    <h2><a href="#hapoel-haifa">Hapoel Haifa</a></h2>
+    <div class="scroll"><img src="hapoel-haifa.svg" alt="Hapoel Haifa" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-petah-tikva">
+    <h2><a href="#hapoel-petah-tikva">Hapoel Petah Tikva</a></h2>
+    <div class="scroll"><img src="hapoel-petah-tikva.svg" alt="Hapoel Petah Tikva" loading="lazy"></div>
+  </figure>
+  <figure id="beitar-jerusalem">
+    <h2><a href="#beitar-jerusalem">Beitar Jerusalem</a></h2>
+    <div class="scroll"><img src="beitar-jerusalem.svg" alt="Beitar Jerusalem" loading="lazy"></div>
+  </figure>
+  <figure id="bnei-yehuda-tel-aviv">
+    <h2><a href="#bnei-yehuda-tel-aviv">Bnei Yehuda Tel Aviv</a></h2>
+    <div class="scroll"><img src="bnei-yehuda-tel-aviv.svg" alt="Bnei Yehuda Tel Aviv" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-be-er-sheva">
+    <h2><a href="#hapoel-be-er-sheva">Hapoel Be'er Sheva</a></h2>
+    <div class="scroll"><img src="hapoel-be-er-sheva.svg" alt="Hapoel Be'er Sheva" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-jerusalem">
+    <h2><a href="#hapoel-jerusalem">Hapoel Jerusalem</a></h2>
+    <div class="scroll"><img src="hapoel-jerusalem.svg" alt="Hapoel Jerusalem" loading="lazy"></div>
+  </figure>
+  <figure id="beitar-tel-aviv">
+    <h2><a href="#beitar-tel-aviv">Beitar Tel Aviv</a></h2>
+    <div class="scroll"><img src="beitar-tel-aviv.svg" alt="Beitar Tel Aviv" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-kfar-saba">
+    <h2><a href="#hapoel-kfar-saba">Hapoel Kfar Saba</a></h2>
+    <div class="scroll"><img src="hapoel-kfar-saba.svg" alt="Hapoel Kfar Saba" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-jaffa">
+    <h2><a href="#maccabi-jaffa">Maccabi Jaffa</a></h2>
+    <div class="scroll"><img src="maccabi-jaffa.svg" alt="Maccabi Jaffa" loading="lazy"></div>
+  </figure>
+  <figure id="shimshon-tel-aviv">
+    <h2><a href="#shimshon-tel-aviv">Shimshon Tel Aviv</a></h2>
+    <div class="scroll"><img src="shimshon-tel-aviv.svg" alt="Shimshon Tel Aviv" loading="lazy"></div>
+  </figure>
+  <figure id="ashdod-s-c">
+    <h2><a href="#ashdod-s-c">Ashdod S.C.</a></h2>
+    <div class="scroll"><img src="ashdod-s-c.svg" alt="Ashdod S.C." loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-ramat-gan">
+    <h2><a href="#hapoel-ramat-gan">Hapoel Ramat Gan</a></h2>
+    <div class="scroll"><img src="hapoel-ramat-gan.svg" alt="Hapoel Ramat Gan" loading="lazy"></div>
+  </figure>
+  <figure id="bnei-sakhnin">
+    <h2><a href="#bnei-sakhnin">Bnei Sakhnin</a></h2>
+    <div class="scroll"><img src="bnei-sakhnin.svg" alt="Bnei Sakhnin" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-rishon-lezion">
+    <h2><a href="#hapoel-rishon-lezion">Hapoel Rishon LeZion</a></h2>
+    <div class="scroll"><img src="hapoel-rishon-lezion.svg" alt="Hapoel Rishon LeZion" loading="lazy"></div>
+  </figure>
+  <figure id="hakoah-ramat-gan">
+    <h2><a href="#hakoah-ramat-gan">Hakoah Ramat Gan</a></h2>
+    <div class="scroll"><img src="hakoah-ramat-gan.svg" alt="Hakoah Ramat Gan" loading="lazy"></div>
+  </figure>
+  <figure id="ironi-kiryat-shmona">
+    <h2><a href="#ironi-kiryat-shmona">Ironi Kiryat Shmona</a></h2>
+    <div class="scroll"><img src="ironi-kiryat-shmona.svg" alt="Ironi Kiryat Shmona" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-hadera">
+    <h2><a href="#hapoel-hadera">Hapoel Hadera</a></h2>
+    <div class="scroll"><img src="hapoel-hadera.svg" alt="Hapoel Hadera" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-holon">
+    <h2><a href="#hapoel-holon">Hapoel Holon</a></h2>
+    <div class="scroll"><img src="hapoel-holon.svg" alt="Hapoel Holon" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-rehovot">
+    <h2><a href="#maccabi-rehovot">Maccabi Rehovot</a></h2>
+    <div class="scroll"><img src="maccabi-rehovot.svg" alt="Maccabi Rehovot" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-nes-ziona">
+    <h2><a href="#maccabi-nes-ziona">Maccabi Nes Ziona</a></h2>
+    <div class="scroll"><img src="maccabi-nes-ziona.svg" alt="Maccabi Nes Ziona" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-acre">
+    <h2><a href="#hapoel-acre">Hapoel Acre</a></h2>
+    <div class="scroll"><img src="hapoel-acre.svg" alt="Hapoel Acre" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-herzliya">
+    <h2><a href="#maccabi-herzliya">Maccabi Herzliya</a></h2>
+    <div class="scroll"><img src="maccabi-herzliya.svg" alt="Maccabi Herzliya" loading="lazy"></div>
+  </figure>
+  <figure id="hakoah-tel-aviv">
+    <h2><a href="#hakoah-tel-aviv">Hakoah Tel Aviv</a></h2>
+    <div class="scroll"><img src="hakoah-tel-aviv.svg" alt="Hakoah Tel Aviv" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-ra-anana">
+    <h2><a href="#hapoel-ra-anana">Hapoel Ra'anana</a></h2>
+    <div class="scroll"><img src="hapoel-ra-anana.svg" alt="Hapoel Ra'anana" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-yehud">
+    <h2><a href="#hapoel-yehud">Hapoel Yehud</a></h2>
+    <div class="scroll"><img src="hapoel-yehud.svg" alt="Hapoel Yehud" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-ironi-herzliya">
+    <h2><a href="#hapoel-ironi-herzliya">Hapoel Ironi Herzliya</a></h2>
+    <div class="scroll"><img src="hapoel-ironi-herzliya.svg" alt="Hapoel Ironi Herzliya" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-rishon-lezion">
+    <h2><a href="#maccabi-rishon-lezion">Maccabi Rishon LeZion</a></h2>
+    <div class="scroll"><img src="maccabi-rishon-lezion.svg" alt="Maccabi Rishon LeZion" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-bnei-reineh">
+    <h2><a href="#maccabi-bnei-reineh">Maccabi Bnei Reineh</a></h2>
+    <div class="scroll"><img src="maccabi-bnei-reineh.svg" alt="Maccabi Bnei Reineh" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-nof-hagalil">
+    <h2><a href="#hapoel-nof-hagalil">Hapoel Nof HaGalil</a></h2>
+    <div class="scroll"><img src="hapoel-nof-hagalil.svg" alt="Hapoel Nof HaGalil" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-ahi-nazareth">
+    <h2><a href="#maccabi-ahi-nazareth">Maccabi Ahi Nazareth</a></h2>
+    <div class="scroll"><img src="maccabi-ahi-nazareth.svg" alt="Maccabi Ahi Nazareth" loading="lazy"></div>
+  </figure>
+  <figure id="ironi-tiberias">
+    <h2><a href="#ironi-tiberias">Ironi Tiberias</a></h2>
+    <div class="scroll"><img src="ironi-tiberias.svg" alt="Ironi Tiberias" loading="lazy"></div>
+  </figure>
+  <figure id="maccabi-kiryat-gat">
+    <h2><a href="#maccabi-kiryat-gat">Maccabi Kiryat Gat</a></h2>
+    <div class="scroll"><img src="maccabi-kiryat-gat.svg" alt="Maccabi Kiryat Gat" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-kfar-shalem">
+    <h2><a href="#hapoel-kfar-shalem">Hapoel Kfar Shalem</a></h2>
+    <div class="scroll"><img src="hapoel-kfar-shalem.svg" alt="Hapoel Kfar Shalem" loading="lazy"></div>
+  </figure>
+  <figure id="hapoel-afula">
+    <h2><a href="#hapoel-afula">Hapoel Afula</a></h2>
+    <div class="scroll"><img src="hapoel-afula.svg" alt="Hapoel Afula" loading="lazy"></div>
+  </figure>
+  <figure id="ironi-modi-in">
+    <h2><a href="#ironi-modi-in">Ironi Modi'in</a></h2>
+    <div class="scroll"><img src="ironi-modi-in.svg" alt="Ironi Modi'in" loading="lazy"></div>
+  </figure>
+  <figure id="m-s-kafr-qasim">
+    <h2><a href="#m-s-kafr-qasim">M.S. Kafr Qasim</a></h2>
+    <div class="scroll"><img src="m-s-kafr-qasim.svg" alt="M.S. Kafr Qasim" loading="lazy"></div>
+  </figure>
+  <figure id="m-s-kiryat-yam">
+    <h2><a href="#m-s-kiryat-yam">M.S. Kiryat Yam</a></h2>
+    <div class="scroll"><img src="m-s-kiryat-yam.svg" alt="M.S. Kiryat Yam" loading="lazy"></div>
+  </figure>
   </div>
   <footer>RSSSF · English Wikipedia · Hebrew Wikipedia — see README.md</footer>
 </div>

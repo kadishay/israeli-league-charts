@@ -132,6 +132,7 @@ The only source for tiers 3 and below.
 |---|---|
 | Liga Alef South | 2021/22 – 2024/25 |
 | Liga Bet South A | 2016/17 – 2018/19 |
+| 2025/26, abandoned | Liga Alef North and South, Liga Bet South A — no positions, only who played |
 
 **Why it exists.** It is the only source for the seasons Wikipedia skips outright — 2016/17
 and 2018/19 Liga Bet have no article in *either* language — and the only one for tiers three
@@ -166,12 +167,13 @@ start year minus 1998 (2024/25 = 26). League ids are not guessable; take them fr
   17 clubs, one of which never played. The positions are still contiguous.
 - Standings are `div.table_row` with `div.table_col.place` and `div.team_name`; there is no
   `<table>` element, so an HTML table parser finds nothing.
-- **A frozen season looks exactly like a finished one at a glance.** 2019/20 Liga Bet South A
-  shows 25 of 30 games and no knockout stages — the COVID freeze `structure.json` already
-  records. 2025/26 has the same signature across both Liga Alef South and Liga Bet South A:
-  22–23 games of 30, no knockout stages, while Ligat ha'Al that season finished normally.
-  Nothing below tier two was taken from 2025/26 for that reason. See the open questions in
-  `DECISIONS.md`.
+- **A frozen season looks exactly like a finished one at a glance**, and the site gives no
+  hint which it is. Two tells: the round selector stops short of a full double round-robin,
+  and the stage selector offers none of the knockout rounds — `פלייאוף - גמר מחוזי`,
+  `מבחן עליה לליגה לאומית` — that a completed division carries. 2019/20 and 2025/26 both
+  show it; both were stopped, by COVID and by the war, and `structure.json` records both
+  under `abandoned_below`. Captures of a frozen season are marked `"abandoned": true` and
+  contribute no positions, only the fact that a club was playing.
 
 ---
 

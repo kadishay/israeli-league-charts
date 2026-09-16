@@ -4,9 +4,11 @@
   "parameters of its Hebrew Wikipedia infobox by scripts/fetch_colors.py.",
   "'from' records which kit parameter it came from, 'article' the page.",
   "",
-  "These are the source's values, unmodified. render.py darkens a colour",
-  "that cannot hold its own against the band behind it, so a club's line",
-  "may not be exactly this hex - the hue is preserved, the lightness is not.",
+  "'color' is drawn as-is: Maccabi Tel Aviv play in #FFFF00 and the chart",
+  "says #FFFF00. Legibility comes from an edge drawn under the line, which",
+  "is 'secondary' where the club's home kit has a second colour - Beitar",
+  "Jerusalem's black shorts under its yellow shirt - and otherwise the same",
+  "colour taken down to 4.5:1 against the lightest band by render.py.",
   "",
   "Clubs absent here fall back to the chart's default accent."
  ],
@@ -14,12 +16,16 @@
   "Ashdod S.C.": {
    "color": "#FFFF00",
    "from": "leftarm1",
-   "article": "מועדון ספורט אשדוד"
+   "article": "מועדון ספורט אשדוד",
+   "secondary": "#FF0000",
+   "secondary_from": "socks1"
   },
   "Beitar Jerusalem": {
    "color": "#FFFF00",
    "from": "leftarm1",
-   "article": "בית\"ר ירושלים (כדורגל)"
+   "article": "בית\"ר ירושלים (כדורגל)",
+   "secondary": "#000000",
+   "secondary_from": "socks1"
   },
   "Beitar Tel Aviv": {
    "color": "#191970",
@@ -29,7 +35,9 @@
   "Bnei Sakhnin": {
    "color": "#FF0000",
    "from": "body1",
-   "article": "בני סכנין"
+   "article": "בני סכנין",
+   "secondary": "#000000",
+   "secondary_from": "leftarm1"
   },
   "Bnei Yehuda Tel Aviv": {
    "color": "#FF6C00",
@@ -49,7 +57,9 @@
   "Hapoel Afula": {
    "color": "#0000FF",
    "from": "leftarm1",
-   "article": "הפועל עפולה (כדורגל)"
+   "article": "הפועל עפולה (כדורגל)",
+   "secondary": "#000060",
+   "secondary_from": "socks1"
   },
   "Hapoel Be'er Sheva": {
    "color": "#FF0000",
@@ -59,12 +69,16 @@
   "Hapoel Hadera": {
    "color": "#FF0000",
    "from": "body1",
-   "article": "הפועל חדרה"
+   "article": "הפועל חדרה",
+   "secondary": "#000000",
+   "secondary_from": "leftarm1"
   },
   "Hapoel Haifa": {
    "color": "#FF0000",
    "from": "leftarm1",
-   "article": "הפועל חיפה (כדורגל)"
+   "article": "הפועל חיפה (כדורגל)",
+   "secondary": "#000000",
+   "secondary_from": "socks1"
   },
   "Hapoel Holon": {
    "color": "#FBE311",
@@ -74,12 +88,16 @@
   "Hapoel Ironi Herzliya": {
    "color": "#FF0000",
    "from": "leftarm1",
-   "article": "הפועל הרצליה"
+   "article": "הפועל הרצליה",
+   "secondary": "#000000",
+   "secondary_from": "shorts2"
   },
   "Hapoel Jerusalem": {
    "color": "#DD000B",
    "from": "body1",
-   "article": "הפועל ירושלים (כדורגל)"
+   "article": "הפועל ירושלים (כדורגל)",
+   "secondary": "#000000",
+   "secondary_from": "leftarm1"
   },
   "Hapoel Kfar Saba": {
    "color": "#008000",
@@ -89,7 +107,9 @@
   "Hapoel Kfar Shalem": {
    "color": "#FF6600",
    "from": "leftarm1",
-   "article": "הפועל כפר שלם"
+   "article": "הפועל כפר שלם",
+   "secondary": "#000000",
+   "secondary_from": "leftarm2"
   },
   "Hapoel Nof HaGalil": {
    "color": "#00004D",
@@ -104,12 +124,16 @@
   "Hapoel Ra'anana": {
    "color": "#FF0000",
    "from": "leftarm1",
-   "article": "הפועל רעננה"
+   "article": "הפועל רעננה",
+   "secondary": "#000000",
+   "secondary_from": "leftarm2"
   },
   "Hapoel Ramat Gan": {
    "color": "#FF0000",
    "from": "body1",
-   "article": "הפועל רמת-גן גבעתיים (כדורגל)"
+   "article": "הפועל רמת-גן גבעתיים (כדורגל)",
+   "secondary": "#000000",
+   "secondary_from": "leftarm1"
   },
   "Hapoel Rishon LeZion": {
    "color": "#F1771D",
@@ -174,32 +198,44 @@
   "Maccabi Kiryat Gat": {
    "color": "#FFDF00",
    "from": "leftarm1",
-   "article": "מכבי קריית גת (כדורגל)"
+   "article": "מכבי קריית גת (כדורגל)",
+   "secondary": "#0000FF",
+   "secondary_from": "leftarm2"
   },
   "Maccabi Nes Ziona": {
    "color": "#F1771D",
    "from": "leftarm1",
-   "article": "מכבי נס ציונה"
+   "article": "מכבי נס ציונה",
+   "secondary": "#0000FF",
+   "secondary_from": "leftarm2"
   },
   "Maccabi Netanya": {
    "color": "#FFFF00",
    "from": "leftarm1",
-   "article": "מכבי נתניה"
+   "article": "מכבי נתניה",
+   "secondary": "#000000",
+   "secondary_from": "shorts1"
   },
   "Maccabi Petah Tikva": {
    "color": "#89CEE4",
    "from": "leftarm1",
-   "article": "מכבי פתח תקווה (כדורגל)"
+   "article": "מכבי פתח תקווה (כדורגל)",
+   "secondary": "#0000FF",
+   "secondary_from": "leftarm2"
   },
   "Maccabi Rehovot": {
    "color": "#FDE200",
    "from": "leftarm1",
-   "article": "מכבי רחובות (כדורגל)"
+   "article": "מכבי רחובות (כדורגל)",
+   "secondary": "#0000FF",
+   "secondary_from": "shorts1"
   },
   "Maccabi Tel Aviv": {
    "color": "#FFFF00",
    "from": "leftarm1",
-   "article": "מכבי תל אביב (כדורגל)"
+   "article": "מכבי תל אביב (כדורגל)",
+   "secondary": "#0066FF",
+   "secondary_from": "leftarm2"
   },
   "Shimshon Tel Aviv": {
    "color": "#008000",
