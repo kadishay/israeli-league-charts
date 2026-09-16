@@ -6,6 +6,7 @@
   .casing{stroke:#0000FF;stroke-width:4.4}
   .line{stroke:#FFDF00;stroke-width:2.4}
   .champ{fill:#A06A0A}
+  .grid{stroke:#FFFFFF;stroke-opacity:0.55;stroke-width:1;fill:none}
 </style>
 <defs>
   <pattern id="notplayed" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="7" stroke="#A9B2B6" stroke-width="1.4"/></pattern>
@@ -447,6 +448,16 @@
 <rect x="1339" y="286" width="13" height="112" fill="#CBD8DC"/>
 <rect x="1339" y="398" width="13" height="112" fill="#B9C9CF"/>
 <rect x="1339" y="510" width="13" height="42" fill="url(#notier)"/>
+<path class="grid" d="M117.5 76V552"/>
+<path class="grid" d="M234.5 76V552"/>
+<path class="grid" d="M377.5 76V552"/>
+<path class="grid" d="M507.5 76V552"/>
+<path class="grid" d="M624.5 76V552"/>
+<path class="grid" d="M754.5 76V552"/>
+<path class="grid" d="M884.5 76V552"/>
+<path class="grid" d="M1014.5 76V552"/>
+<path class="grid" d="M1144.5 76V552"/>
+<path class="grid" d="M1274.5 76V552"/>
 <rect x="104" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="117" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="143" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>

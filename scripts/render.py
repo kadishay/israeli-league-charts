@@ -85,6 +85,9 @@ THEME = {
         # One per drawn tier, light to dark with depth. Four, because the chart
         # bands four tiers and everything below them is bare page.
         "band": ["#E9F0F2", "#DBE5E8", "#CBD8DC", "#B9C9CF"],
+        # Light enough to sit under the bands without competing with the
+        # club's line, dark enough to survive being scaled down to a thumbnail.
+        "grid": "#FFFFFF", "grid_opacity": "0.55",
         "rule": "#C9CFD1", "accent": "#007C99", "accent_casing": "#004A5C",
         "champion": "#A06A0A", "hatch": "#A9B2B6",
     },
@@ -583,7 +586,7 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
     # is fixed per file - so the literals go straight into the rules.
     def lit(css: str) -> str:
         for _ in range(4):                       # vars may refer to vars
-            new = re.sub(r"var\(--([a-z0-9-]+)\)",
+            new = re.sub(r"var\(--([a-z0-9_-]+)\)",
                          lambda m: str(vars_light.get(m.group(1), "")), css)
             if new == css:
                 break
@@ -612,6 +615,8 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
            "  .alt{stroke:var(--alt);stroke-width:2.2;stroke-dasharray:5 3}"]
           if spells else []),
         "  .champ{fill:var(--champion)}",
+        "  .grid{stroke:var(--grid);stroke-opacity:var(--grid_opacity);"
+        "stroke-width:1;fill:none}",
 
         "</style>",
         "<defs>",
@@ -647,6 +652,18 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
         # Shading it implied a band, and the chart no longer claims one.
         out.append(f'<rect x="{x(i)}" y="{top}" width="{COL}" '
                    f'height="{floor - top}" fill="url(#notier)"/>')
+
+    # ── A rule every ten seasons, behind everything else.
+    # Without them a reader cannot count columns: 96 seasons across the plot puts
+    # each one about four pixels wide at the size an article renders, and a
+    # Hebrew Wikipedia editor reviewing these said plainly that it was hard to
+    # tell one season from the next. The decade lines give the eye something to
+    # count from. Drawn before the club's line so they never cross in front of it.
+    seen_dec: set[int] = set()
+    for i, s in enumerate(seasons):
+        if s["start"] % 10 == 0 and s["start"] not in seen_dec:
+            seen_dec.add(s["start"])
+            out.append(f'<path class="grid" d="M{x(i) + .5} {PAD_T}V{floor}"/>')
 
     # ── The club's own history.
     area, marks = [], []
