@@ -253,6 +253,20 @@ def renumber(rows: list[tuple[int, str]], label: str) -> list[tuple[int, str]]:
     return [(i, club) for i, (_, club) in enumerate(rows, start=1)]
 
 
+# Club identity comes from the wikilink target, which is normally the club's
+# current article and so resolves renames for free. It fails when the season
+# article itself points at the wrong club: the Liga Leumit articles from 2003/04
+# to 2005/06 link Kiryat Shmona to [[הפועל קריית שמונה]], but Hapoel and Maccabi
+# Kiryat Shmona had merged in 2000 into Ironi Kiryat Shmona, whose own article
+# calls 2003/04 "the club's first season in Liga Leumit". Hapoel had no senior
+# side by then. Same shape as CLUB_FIXUPS in parse.py, which corrects RSSSF's
+# 2007/08 table for the same club.
+#
+# Scoped from a season rather than applied outright: before 2000 the name is
+# correct and the rows belong to the predecessor.
+NAME_FROM = [("הפועל קריית שמונה", 2000, "Ironi Kiryat Shmona")]
+
+
 def main() -> None:
     OUT.parent.mkdir(parents=True, exist_ok=True)
     index = json.loads((ROOT / "data" / "seasons_index.json").read_text())
@@ -269,6 +283,9 @@ def main() -> None:
             if not club:
                 UNMAPPED[club_he] = UNMAPPED.get(club_he, 0) + 1
                 continue
+            for he, since, becomes in NAME_FROM:
+                if club_he == he and meta["start"] >= since:
+                    club = becomes
             rows.append((key.split("#")[0], meta["start"], meta["league"],
                          div, pos, club))
 

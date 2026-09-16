@@ -5,12 +5,16 @@
   .line,.casing{fill:none;stroke-linecap:round;stroke-linejoin:round}
   .casing{stroke:var(--casing);stroke-width:4.4}
   .line{stroke:var(--accent);stroke-width:2.4}
+  .alt,.alt-casing{fill:none;stroke-linecap:butt;stroke-linejoin:round}
+  .alt-casing{stroke:var(--alt-casing);stroke-width:4.2}
+  .alt{stroke:var(--alt);stroke-width:2.2;stroke-dasharray:5 3}
   .champ{fill:var(--champion)}
   :root{--surface:#FCFCFB;--ink:#1A1D1F;--ink2:#565F63;--ink3:#868F93;--rule:#C9CFD1;--accent:#FF0000;--accent_casing:#004A5C;--champion:#A06A0A;--hatch:#A9B2B6;--band1:#E9F0F2;--band2:#DBE5E8;--band3:#CBD8DC;--band4:#B9C9CF;--casing:#990000}
 </style>
 <defs>
   <pattern id="notplayed" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="7" stroke="var(--hatch)" stroke-width="1.4"/></pattern>
   <pattern id="uncovered" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="1.4" cy="1.4" r="1" fill="var(--hatch)"/></pattern>
+  <pattern id="stopped" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="var(--hatch)" fill-opacity=".55"/></pattern>
   <pattern id="notier" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="var(--surface)"/></pattern>
 </defs>
 <rect class="bg" width="1364" height="630"/>

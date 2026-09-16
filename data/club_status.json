@@ -1,67 +1,93 @@
 {
-  "_comment": [
-    "Spans in which a club existed on paper but fielded no senior side, so its",
-    "absence from the tables is a fact about the club rather than a hole in the",
-    "data. Seasons listed here are drawn as plain background, like the seasons",
-    "before a club was founded or after it folded - not as the dotted 'no",
-    "position recorded' mark, which would claim the record is missing.",
-    "",
-    "Only interior spans need an entry. A club's seasons before its first",
-    "recorded one and after its last are handled automatically by render.py,",
-    "which is what covers the clubs that simply folded: Hakoah Tel Aviv merged",
-    "into Hakoah Maccabi Ramat Gan, and Hapoel Yehud and Maccabi Rehovot are",
-    "written up in the past tense.",
-    "",
-    "'from'/'to' are the calendar years a season started, inclusive."
+ "_comment": [
+  "Spans in which a club existed on paper but fielded no senior side, so its",
+  "absence from the tables is a fact about the club rather than a hole in the",
+  "data. Seasons listed here are drawn as plain background, like the seasons",
+  "before a club was founded or after it folded - not as the dotted 'no",
+  "position recorded' mark, which would claim the record is missing.",
+  "",
+  "Only interior spans need an entry. A club's seasons before its first",
+  "recorded one and after its last are handled automatically by render.py,",
+  "which is what covers the clubs that simply folded: Hakoah Tel Aviv merged",
+  "into Hakoah Maccabi Ramat Gan, and Hapoel Yehud and Maccabi Rehovot are",
+  "written up in the past tense.",
+  "",
+  "'from'/'to' are the calendar years a season started, inclusive."
+ ],
+ "inactive": {
+  "Shimshon Tel Aviv": [
+   {
+    "from": 2000,
+    "to": 2013,
+    "reason": "Merged with Beitar Tel Aviv in 2000 as Beitar Shimshon Tel Aviv; Shimshon left the merger in 2011 and only re-formed a senior team in 2014. The merged club's seasons are recorded under Beitar Tel Aviv.",
+    "source": "he.wikipedia.org/wiki/שמשון תל אביב"
+   }
   ],
-  "inactive": {
-    "Shimshon Tel Aviv": [
-      {
-        "from": 2000,
-        "to": 2013,
-        "reason": "Merged with Beitar Tel Aviv in 2000 as Beitar Shimshon Tel Aviv; Shimshon left the merger in 2011 and only re-formed a senior team in 2014. The merged club's seasons are recorded under Beitar Tel Aviv.",
-        "source": "he.wikipedia.org/wiki/שמשון תל אביב"
-      }
-    ],
-    "Hapoel Yehud": [
-      {
-        "from": 1998,
-        "to": 2007,
-        "reason": "Relegated to Liga Bet in 1998 and dissolved. A 2004 revival as Hapoel Monosson Yehud folded within months in Liga Gimel; the club was re-founded in 2008.",
-        "source": "he.wikipedia.org/wiki/הפועל יהוד — infobox: dissolved 1998, and 2004 for Hapoel Monosson Yehud"
-      }
-    ]
-  },
-  "_founded_comment": [
-    "Founding years taken from each club's Hebrew Wikipedia infobox. build.py drops",
-    "any row dated before a club was founded and reports it: such a row is an",
-    "over-merged alias, not a fact. Hakoah Ramat Gan was founded in 1962, so the",
-    "1938-1946 Liga Bet rows the alias map was giving it belonged to predecessor",
-    "clubs - and 1946/47 had two of them at once, a 2nd place and a 4th."
-  ],
-  "founded": {
-    "Hakoah Ramat Gan": 1962,
-    "Maccabi Herzliya": 1932,
-    "Hapoel Ra'anana": 1938,
-    "Hapoel Ironi Herzliya": 1936,
-    "Hapoel Acre": 1949,
-    "Hapoel Yehud": 1950,
-    "Bnei Sakhnin": 1982,
-    "Shimshon Tel Aviv": 1949,
-    "Hapoel Jerusalem": 1926,
-    "Hakoah Tel Aviv": 1934,
-    "Ironi Kiryat Shmona": 2000,
-    "Ashdod S.C.": 1999
-  },
-  "_always_chart_comment": [
-    "Clubs in the current top two tiers that the dataset cannot see, because the",
-    "season they were promoted in is one this project deliberately excludes as",
-    "in-progress, or they came up through a tier whose coverage stops earlier.",
-    "render.py always charts these. Update when the leagues change.",
-    "Source: he.wikipedia.org/wiki/הליגה הלאומית בכדורגל (2026/27 line-up)."
-  ],
-  "always_chart": [
-    "Maccabi Ahi Nazareth",
-    "Maccabi Kiryat Gat"
+  "Hapoel Yehud": [
+   {
+    "from": 1998,
+    "to": 2007,
+    "reason": "Relegated to Liga Bet in 1998 and dissolved. A 2004 revival as Hapoel Monosson Yehud folded within months in Liga Gimel; the club was re-founded in 2008.",
+    "source": "he.wikipedia.org/wiki/הפועל יהוד — infobox: dissolved 1998, and 2004 for Hapoel Monosson Yehud"
+   }
   ]
+ },
+ "_founded_comment": [
+  "Founding years taken from each club's Hebrew Wikipedia infobox. build.py drops",
+  "any row dated before a club was founded and reports it: such a row is an",
+  "over-merged alias, not a fact. Hakoah Ramat Gan was founded in 1962, so the",
+  "1938-1946 Liga Bet rows the alias map was giving it belonged to predecessor",
+  "clubs - and 1946/47 had two of them at once, a 2nd place and a 4th."
+ ],
+ "founded": {
+  "Hakoah Ramat Gan": 1962,
+  "Maccabi Herzliya": 1932,
+  "Hapoel Ra'anana": 1938,
+  "Hapoel Ironi Herzliya": 1936,
+  "Hapoel Acre": 1949,
+  "Hapoel Yehud": 1950,
+  "Bnei Sakhnin": 1982,
+  "Shimshon Tel Aviv": 1949,
+  "Hapoel Jerusalem": 1926,
+  "Hakoah Tel Aviv": 1934,
+  "Ironi Kiryat Shmona": 2000,
+  "Ashdod S.C.": 1999
+ },
+ "_always_chart_comment": [
+  "Clubs in the current top two tiers that the dataset cannot see, because the",
+  "season they were promoted in is one this project deliberately excludes as",
+  "in-progress, or they came up through a tier whose coverage stops earlier.",
+  "render.py always charts these. Update when the leagues change.",
+  "Source: he.wikipedia.org/wiki/הליגה הלאומית בכדורגל (2026/27 line-up)."
+ ],
+ "always_chart": [
+  "Maccabi Ahi Nazareth",
+  "Maccabi Kiryat Gat"
+ ],
+ "_played_as_comment": [
+  "Spells when a club's senior side took the field under another club's name, so",
+  "its results for those seasons are recorded in this dataset under that other",
+  "club. The chart draws them as a second line in the other club's colour, the way",
+  "Wikipedia's English club charts draw 'as Newton Heath' before 'as Manchester",
+  "United' - the seasons happened, but not under this name.",
+  "",
+  "This is not the same as a rename, which the alias files already fold into one",
+  "lineage and one line. It is for the case where two clubs shared one team and",
+  "this project keeps them apart: 'from'/'to' are season start years and must sit",
+  "inside an inactive span, because the club had no side of its own meanwhile.",
+  "'name_he' is the name as the Hebrew charts should print it; without it the Hebrew legend reads 'בתור' followed by a Latin name."
+ ],
+ "played_as": {
+  "Shimshon Tel Aviv": [
+   {
+    "from": 2000,
+    "to": 2010,
+    "name": "Beitar Shimshon Tel Aviv",
+    "name_he": "בית\"ר שמשון תל אביב",
+    "rows_under": "Beitar Tel Aviv",
+    "reason": "Shimshon merged with Beitar Tel Aviv in 2000 and the joint club played as Beitar Shimshon Tel Aviv. In 2011 it merged again, with Ironi Ramla, and was renamed Beitar Tel Aviv Ramla; Shimshon withdrew at that point and fielded no senior side until 2014. So the shared spell ends with 2010/11, not with the dormant span, which runs on to 2013.",
+    "source": "he.wikipedia.org/wiki/שמשון תל אביב"
+   }
+  ]
+ }
 }

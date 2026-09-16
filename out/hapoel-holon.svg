@@ -5,12 +5,16 @@
   .line,.casing{fill:none;stroke-linecap:round;stroke-linejoin:round}
   .casing{stroke:var(--casing);stroke-width:4.4}
   .line{stroke:var(--accent);stroke-width:2.4}
+  .alt,.alt-casing{fill:none;stroke-linecap:butt;stroke-linejoin:round}
+  .alt-casing{stroke:var(--alt-casing);stroke-width:4.2}
+  .alt{stroke:var(--alt);stroke-width:2.2;stroke-dasharray:5 3}
   .champ{fill:var(--champion)}
   :root{--surface:#FCFCFB;--ink:#1A1D1F;--ink2:#565F63;--ink3:#868F93;--rule:#C9CFD1;--accent:#FBE311;--accent_casing:#004A5C;--champion:#A06A0A;--hatch:#A9B2B6;--band1:#E9F0F2;--band2:#DBE5E8;--band3:#CBD8DC;--band4:#B9C9CF;--casing:#796D08}
 </style>
 <defs>
   <pattern id="notplayed" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="7" stroke="var(--hatch)" stroke-width="1.4"/></pattern>
   <pattern id="uncovered" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="1.4" cy="1.4" r="1" fill="var(--hatch)"/></pattern>
+  <pattern id="stopped" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="var(--hatch)" fill-opacity=".55"/></pattern>
   <pattern id="notier" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="var(--surface)"/></pattern>
 </defs>
 <rect class="bg" width="1372" height="630"/>
@@ -462,6 +466,7 @@
 <rect x="455" y="433" width="13" height="119" fill="url(#uncovered)"/>
 <rect x="1118" y="426" width="13" height="126" fill="url(#uncovered)"/>
 <rect x="1222" y="510" width="13" height="42" fill="url(#uncovered)"/>
+<rect x="1261" y="286" width="13" height="266" fill="url(#stopped)"/>
 <path class="casing" d="M364.0 195.0H377.0"/>
 <path class="casing" d="M435.5 419.0 C439.8 388.7 444.2 358.3 448.5 328.0"/>
 <path class="casing" d="M474.5 258.0 C478.8 265.0 483.2 279.0 487.5 279.0 C491.8 279.0 496.2 265.0 500.5 265.0 C504.8 265.0 509.2 265.0 513.5 265.0 C517.8 265.0 522.2 261.5 526.5 258.0 C530.8 254.5 535.2 252.2 539.5 244.0 C543.8 235.8 548.2 209.0 552.5 209.0 C556.8 209.0 561.2 237.0 565.5 237.0 C569.8 237.0 574.2 209.0 578.5 209.0 C582.8 209.0 587.2 223.0 591.5 223.0 C595.8 223.0 600.2 214.8 604.5 209.0 C608.8 203.2 613.2 192.7 617.5 188.0 C621.8 183.3 626.2 181.0 630.5 181.0 C634.8 181.0 639.2 195.0 643.5 195.0 C647.8 195.0 652.2 195.0 656.5 195.0 C660.8 195.0 665.2 195.0 669.5 202.0 C673.8 209.0 678.2 272.0 682.5 272.0 C686.8 272.0 691.2 209.0 695.5 209.0 C699.8 209.0 704.2 223.0 708.5 223.0 C712.8 223.0 717.2 223.0 721.5 223.0 C725.8 223.0 730.2 209.0 734.5 209.0 C738.8 209.0 743.2 259.2 747.5 272.0 C751.8 284.8 756.2 272.0 760.5 286.0 C764.8 300.0 769.2 356.0 773.5 356.0 C777.8 356.0 782.2 330.3 786.5 314.0 C790.8 297.7 795.2 273.2 799.5 258.0 C803.8 242.8 808.2 231.2 812.5 223.0 C816.8 214.8 821.2 214.8 825.5 209.0 C829.8 203.2 834.2 202.0 838.5 188.0 C842.8 174.0 847.2 125.0 851.5 125.0 C855.8 125.0 860.2 160.0 864.5 160.0 C868.8 160.0 873.2 160.0 877.5 160.0 C881.8 160.0 886.2 137.8 890.5 132.0 C894.8 126.2 899.2 128.5 903.5 125.0 C907.8 121.5 912.2 111.0 916.5 111.0 C920.8 111.0 925.2 139.0 929.5 139.0 C933.8 139.0 938.2 118.0 942.5 118.0 C946.8 118.0 951.2 150.7 955.5 160.0 C959.8 169.3 964.2 168.2 968.5 174.0 C972.8 179.8 977.2 195.0 981.5 195.0 C985.8 195.0 990.2 167.0 994.5 167.0 C998.8 167.0 1003.2 174.0 1007.5 174.0 C1011.8 174.0 1016.2 153.0 1020.5 153.0 C1024.8 153.0 1029.2 230.0 1033.5 230.0 C1037.8 230.0 1042.2 216.0 1046.5 216.0 C1050.8 216.0 1055.2 226.5 1059.5 230.0 C1063.8 233.5 1068.2 230.0 1072.5 237.0 C1076.8 244.0 1081.2 293.0 1085.5 321.0 C1089.8 349.0 1094.2 405.0 1098.5 405.0 C1102.8 405.0 1107.2 405.0 1111.5 405.0"/>
@@ -506,8 +511,10 @@
 <text class="ink3" x="1352" y="33" text-anchor="end" font-size="9.5" letter-spacing=".08em">LEAGUE POSITION BY SEASON</text>
 <path class="casing" d="M104 592.5h16"/><path class="line" d="M104 592.5h16"/>
 <text class="ink2" x="126" y="596" text-anchor="start" font-size="10.5">Final league position</text>
-<rect x="520.0" y="587" width="16" height="11" fill="url(#uncovered)"/>
-<text class="ink2" x="542.0" y="596" text-anchor="start" font-size="10.5">No position recorded</text>
-<rect x="936.0" y="587" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
-<text class="ink2" x="958.0" y="596" text-anchor="start" font-size="10.5">Season not played</text>
+<rect x="416.0" y="587" width="16" height="11" fill="url(#stopped)"/>
+<text class="ink2" x="438.0" y="596" text-anchor="start" font-size="10.5">League abandoned mid-season</text>
+<rect x="728.0" y="587" width="16" height="11" fill="url(#uncovered)"/>
+<text class="ink2" x="750.0" y="596" text-anchor="start" font-size="10.5">No position recorded</text>
+<rect x="1040.0" y="587" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
+<text class="ink2" x="1062.0" y="596" text-anchor="start" font-size="10.5">Season not played</text>
 </svg>

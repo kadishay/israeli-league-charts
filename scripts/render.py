@@ -94,7 +94,9 @@ STRINGS = {
         "titles": "{n} championship", "titles_plural": "{n} championships",
         "best": "best finish {pos}",
         "legend_line": "Final league position",
+        "legend_as": "as {name}",
         "legend_champ": "Champions",
+        "legend_stopped": "League abandoned mid-season",
         "legend_uncovered": "No position recorded",
         "legend_notplayed": "Season not played",
         "gallery_title": "Israeli league performance, {first}–{last}",
@@ -134,7 +136,9 @@ STRINGS = {
         "titles": "אליפות אחת", "titles_plural": "{n} אליפויות",
         "best": "המקום הטוב ביותר: {pos}",
         "legend_line": "מיקום סופי בליגה",
+        "legend_as": "בתור {name}",
         "legend_champ": "אליפות",
+        "legend_stopped": "הליגה הופסקה באמצע העונה",
         "legend_uncovered": "לא נרשם מיקום",
         "legend_notplayed": "העונה לא התקיימה",
         "gallery_title": "מיקומי קבוצות בליגות בישראל, {first}–{last}",
@@ -427,6 +431,18 @@ def always_chart() -> list[str]:
     return json.loads(path.read_text()).get("always_chart", []) if path.exists() else []
 
 
+def played_as() -> dict[str, list[dict]]:
+    """Club -> spells it played under another club's name.
+
+    Shimshon Tel Aviv spent 2000/01 to 2010/11 inside Beitar Shimshon Tel Aviv,
+    and those seasons are in the dataset under Beitar Tel Aviv. The chart draws
+    them as a second line rather than leaving eleven blank columns: the seasons
+    were played, just not under this club's own name.
+    """
+    d = json.loads((DATA / "club_status.json").read_text())
+    return d.get("played_as", {})
+
+
 def played_without_table() -> dict[str, set[str]]:
     """Club -> seasons it is known to have played with no final position.
 
@@ -464,7 +480,8 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
            abandoned: dict[str, int] | None = None,
            accent: str | None = None,
            casing: str | None = None,
-           played: set[str] | None = None) -> str:
+           played: set[str] | None = None,
+           spells: list[dict] | None = None) -> str:
     S = STRINGS[lang]
     pad_l = S["pad_l"]
     label = name or club
@@ -506,8 +523,7 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
         # so it is not counted against a club that was playing at that depth -
         # unless the club is positively known to have played, in which case
         # "no position recorded" is the literal truth and worth drawing.
-        if (season["label"] in cut and nearest_tier(i) >= cut[season["label"]]
-                and season["label"] not in playing):
+        if season["label"] in cut and nearest_tier(i) >= cut[season["label"]]:
             return False
         return True
     maxrank = max(sum(s["bands"]) for s in seasons) + BOTTOM_BAND
@@ -517,8 +533,11 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
     y = lambda rank: PAD_T + (rank - 1) * ROW
     floor = PAD_T + plot_h
 
-    css_light = ";".join(f"--{k}:{v}"
-                         for k, v in _vars("light", accent, casing).items())
+    vars_light = _vars("light", accent, casing)
+    if spells:
+        vars_light["alt"] = spells[0]["color"]
+        vars_light["alt-casing"] = spells[0]["casing"]
+    css_light = ";".join(f"--{k}:{v}" for k, v in vars_light.items())
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
         f'viewBox="0 0 {width} {height}" font-family="ui-sans-serif, -apple-system, '
@@ -530,6 +549,9 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
         "  .line,.casing{fill:none;stroke-linecap:round;stroke-linejoin:round}",
         "  .casing{stroke:var(--casing);stroke-width:4.4}",
         "  .line{stroke:var(--accent);stroke-width:2.4}",
+        "  .alt,.alt-casing{fill:none;stroke-linecap:butt;stroke-linejoin:round}",
+        "  .alt-casing{stroke:var(--alt-casing);stroke-width:4.2}",
+        "  .alt{stroke:var(--alt);stroke-width:2.2;stroke-dasharray:5 3}",
         "  .champ{fill:var(--champion)}",
         f"  :root{{{css_light}}}",
         "</style>",
@@ -540,6 +562,11 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
         "</pattern>",
         '  <pattern id="uncovered" width="5" height="5" patternUnits="userSpaceOnUse">'
         '<circle cx="1.4" cy="1.4" r="1" fill="var(--hatch)"/></pattern>',
+        # Horizontal bars, so a stopped season cannot be mistaken for the
+        # diagonal hatch of a season never played or the dots of a missing one.
+        '  <pattern id="stopped" width="4" height="4" patternUnits="userSpaceOnUse">'
+        '<rect width="4" height="2" fill="var(--hatch)" fill-opacity=".55"/>'
+        "</pattern>",
         # Not a texture but the page itself: "there was no tier this deep" should
         # read as absence, and every other state on this chart is a marking.
         '  <pattern id="notier" width="4" height="4" patternUnits="userSpaceOnUse">'
@@ -568,7 +595,7 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
     # marks on the page, so an entry for a mark that is not there is noise: 14 of
     # the 42 clubs have no unknown season at all, and a third of them never won
     # anything.
-    drew = {"uncovered": False, "notplayed": False}
+    drew = {"uncovered": False, "notplayed": False, "stopped": False}
     runs: list[list[tuple[int, int]]] = []      # unbroken stretches of (column, rank)
     prev: tuple[int, int] | None = None
     for i, s in enumerate(seasons):
@@ -583,7 +610,18 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
         if rank is None:
             # No record, or a tier below the drawn bands. Mark it as an unknown
             # only while the club was actually competing.
-            if active(i, s):
+            # A season the league abandoned is not a gap in the record: there
+            # is no final table because none was ever produced. Drawn only for a
+            # club that was playing at or below the tier that stopped - Maccabi
+            # Tel Aviv finished 2019/20 as normal and should see nothing.
+            stopped = cut.get(s["label"])
+            if stopped and first <= i <= last and (
+                    s["label"] in playing or nearest_tier(i) >= stopped):
+                top = y(sum(s["bands"][: stopped - 1]) + 1)
+                area.append(f'<rect x="{x(i)}" y="{top}" width="{COL}" '
+                            f'height="{floor - top}" fill="url(#stopped)"/>')
+                drew["stopped"] = True
+            elif active(i, s):
                 top = y(sum(s["bands"]) + 1)
                 area.append(f'<rect x="{x(i)}" y="{top}" width="{COL}" '
                             f'height="{floor - top}" fill="url(#uncovered)"/>')
@@ -601,6 +639,33 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
         prev = (i, rank)
     curves = [smooth_path(r, x, y) for r in runs]
     out += area
+
+    # Seasons played under another club's name, drawn before the club's own line
+    # so that its own history stays the one on top. Dashed and in the other
+    # club's colour: the same shape of statement as "as Newton Heath" on the
+    # English club charts.
+    alt = []
+    for spell in (spells or []):
+        srun: list[tuple[int, int]] = []
+        runs_alt: list[list[tuple[int, int]]] = []
+        for i, s in enumerate(seasons):
+            entry = spell["history"].get(s["label"]) if s["played"] else None
+            rank = rank_of(entry, s) if entry else None
+            inside = spell["from"] <= s["start"] <= spell["to"]
+            if rank is None or not inside:
+                srun = []
+                continue
+            if srun and srun[-1][0] == i - 1:
+                srun.append((i, rank))
+            else:
+                srun = [(i, rank)]
+                runs_alt.append(srun)
+        for r in runs_alt:
+            alt.append(smooth_path(r, x, y))
+    if alt:
+        out += [f'<path class="alt-casing" d="{c}"/>' for c in alt]
+        out += [f'<path class="alt" d="{c}"/>' for c in alt]
+
     out += [f'<path class="casing" d="{c}"/>' for c in curves]
     out += [f'<path class="line" d="{c}"/>' for c in curves] + marks
 
@@ -670,9 +735,18 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
     # ── Legend: the states are distinguished by texture, not colour alone.
     # Equal-width slots rather than a width estimated from the string length,
     # which collided once the labels were translated.
-    items = [("line", S["legend_line"])]
+    if spells:
+        # The Hebrew chart needs the Hebrew name; falling through to the Latin
+        # one leaves "בתור" in front of a left-to-right string.
+        alt_name = spells[0].get(f"name_{lang}") or spells[0]["name"]
+        items = [("line", S["legend_as"].format(name=label)),
+                 ("alt", S["legend_as"].format(name=alt_name))]
+    else:
+        items = [("line", S["legend_line"])]
     if marks:
         items.append(("champ", S["legend_champ"]))
+    if drew["stopped"]:
+        items.append(("stopped", S["legend_stopped"]))
     if drew["uncovered"]:
         items.append(("uncovered", S["legend_uncovered"]))
     if drew["notplayed"]:
@@ -683,6 +757,9 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
         if kind == "line":
             swatch = (f'<path class="casing" d="M{lx} {ly - 3.5}h16"/>'
                       f'<path class="line" d="M{lx} {ly - 3.5}h16"/>')
+        elif kind == "alt":
+            swatch = (f'<path class="alt-casing" d="M{lx} {ly - 3.5}h16"/>'
+                      f'<path class="alt" d="M{lx} {ly - 3.5}h16"/>')
         elif kind == "champ":
             swatch = f'<path class="champ" d="M{lx + 8} {ly - 8}l4 4-4 4-4-4z"/>'
         else:
@@ -829,18 +906,31 @@ def main() -> None:
     dormant, cut = inactive_spans(), abandoned_below()
     colors = club_colors()
     still_playing = played_without_table()
+    shared = played_as()
     no_color = [c for c in clubs if c not in colors]
     for club in clubs:
         spans = dormant.get(club)
         accent, casing = colors.get(club, (None, None))
         plays = still_playing.get(club)
+        # The other club's rows, and its colour: the line says whose team this
+        # was as much as it says where they finished.
+        spells = []
+        for spell in shared.get(club, []):
+            alt_colour, alt_casing = colors.get(spell["rows_under"], (None, None))
+            spells.append({
+                **spell,
+                "history": by_club[spell["rows_under"]],
+                "color": alt_colour or THEME["light"]["accent"],
+                "casing": alt_casing or THEME["light"]["accent_casing"],
+            })
         (OUT / f"{slug(club)}.svg").write_text(
             render(club, seasons, by_club[club], "en", inactive=spans,
-                   abandoned=cut, accent=accent, casing=casing, played=plays))
+                   abandoned=cut, accent=accent, casing=casing, played=plays,
+                   spells=spells))
         (OUT / f"{slug(club)}.he.svg").write_text(
             render(club, seasons, by_club[club], "he", names.get(club, club),
                    inactive=spans, abandoned=cut, accent=accent, casing=casing,
-                   played=plays))
+                   played=plays, spells=spells))
     if no_color:
         print(f"  {len(no_color)} club(s) without a colour in "
               f"data/club_colors.json, drawn in the default accent: "

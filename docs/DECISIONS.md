@@ -327,6 +327,23 @@ distinction is true, show it".
 
 ---
 
+## Two corrections worth not repeating
+
+Both were found by asking, for every charted club, whether some *other* club in the dataset
+has rows exactly where this one has a gap. A gap that another name fills is usually not a
+gap at all.
+
+- **Ironi Kiryat Shmona, 2003/04 – 2005/06.** Hebrew Wikipedia's Liga Leumit articles link
+  Kiryat Shmona to `[[הפועל קריית שמונה]]` for those three seasons, and identity here comes
+  from the link target, so three Liga Leumit seasons landed on a club that had not existed
+  since the 2000 merger. Ironi's own article calls 2003/04 "the club's first season in Liga
+  Leumit". Corrected by `NAME_FROM` in `parse_he.py`, scoped from 2000 so the predecessor
+  keeps its earlier rows — the same shape as `CLUB_FIXUPS` in `parse.py`.
+- **Beitar Tel Aviv, 2001/02.** English Wikipedia spells the merged club
+  "Beitar/Shimshon Tel Aviv" with a slash in that one season. `aliases_en.json` had the
+  unslashed spelling only, so a third-place Liga Artzit finish went missing. The lesson is
+  that an alias map needs the punctuation variants, not just the name.
+
 ## Open questions
 
 Flagged rather than decided:

@@ -5,12 +5,16 @@
   .line,.casing{fill:none;stroke-linecap:round;stroke-linejoin:round}
   .casing{stroke:var(--casing);stroke-width:4.4}
   .line{stroke:var(--accent);stroke-width:2.4}
+  .alt,.alt-casing{fill:none;stroke-linecap:butt;stroke-linejoin:round}
+  .alt-casing{stroke:var(--alt-casing);stroke-width:4.2}
+  .alt{stroke:var(--alt);stroke-width:2.2;stroke-dasharray:5 3}
   .champ{fill:var(--champion)}
   :root{--surface:#FCFCFB;--ink:#1A1D1F;--ink2:#565F63;--ink3:#868F93;--rule:#C9CFD1;--accent:#FF6600;--accent_casing:#004A5C;--champion:#A06A0A;--hatch:#A9B2B6;--band1:#E9F0F2;--band2:#DBE5E8;--band3:#CBD8DC;--band4:#B9C9CF;--casing:#000000}
 </style>
 <defs>
   <pattern id="notplayed" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="7" stroke="var(--hatch)" stroke-width="1.4"/></pattern>
   <pattern id="uncovered" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="1.4" cy="1.4" r="1" fill="var(--hatch)"/></pattern>
+  <pattern id="stopped" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="var(--hatch)" fill-opacity=".55"/></pattern>
   <pattern id="notier" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="var(--surface)"/></pattern>
 </defs>
 <rect class="bg" width="1372" height="630"/>
@@ -458,6 +462,7 @@
 <rect x="377" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="403" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="858" y="482" width="13" height="70" fill="url(#uncovered)"/>
+<rect x="1261" y="286" width="13" height="266" fill="url(#stopped)"/>
 <path class="casing" d="M539.5 391.0 C543.8 363.0 548.2 314.0 552.5 307.0 C556.8 300.0 561.2 307.0 565.5 300.0 C569.8 293.0 574.2 258.0 578.5 258.0 C582.8 258.0 587.2 284.8 591.5 293.0 C595.8 301.2 600.2 307.0 604.5 307.0 C608.8 307.0 613.2 307.0 617.5 307.0 C621.8 307.0 626.2 307.0 630.5 314.0 C634.8 321.0 639.2 363.0 643.5 363.0 C647.8 363.0 652.2 321.0 656.5 314.0 C660.8 307.0 665.2 307.0 669.5 307.0 C673.8 307.0 678.2 318.7 682.5 328.0 C686.8 337.3 691.2 345.5 695.5 363.0 C699.8 380.5 704.2 433.0 708.5 433.0 C712.8 433.0 717.2 419.0 721.5 419.0 C725.8 419.0 730.2 426.0 734.5 426.0 C738.8 426.0 743.2 419.0 747.5 419.0 C751.8 419.0 756.2 440.0 760.5 440.0 C764.8 440.0 769.2 440.0 773.5 440.0 C777.8 440.0 782.2 475.0 786.5 475.0 C790.8 475.0 795.2 433.0 799.5 433.0 C803.8 433.0 808.2 440.0 812.5 440.0 C816.8 440.0 821.2 419.0 825.5 419.0 C829.8 419.0 834.2 419.0 838.5 419.0 C842.8 419.0 847.2 409.7 851.5 405.0"/>
 <path class="casing" d="M877.5 328.0 C881.8 337.3 886.2 356.0 890.5 356.0 C894.8 356.0 899.2 314.0 903.5 314.0 C907.8 314.0 912.2 321.0 916.5 321.0 C920.8 321.0 925.2 321.0 929.5 321.0 C933.8 321.0 938.2 304.7 942.5 300.0 C946.8 295.3 951.2 293.0 955.5 293.0 C959.8 293.0 964.2 349.0 968.5 356.0 C972.8 363.0 977.2 360.7 981.5 363.0 C985.8 365.3 990.2 367.7 994.5 370.0 C998.8 372.3 1003.2 377.0 1007.5 377.0 C1011.8 377.0 1016.2 377.0 1020.5 377.0 C1024.8 377.0 1029.2 391.0 1033.5 391.0 C1037.8 391.0 1042.2 370.0 1046.5 370.0 C1050.8 370.0 1055.2 370.0 1059.5 370.0 C1063.8 370.0 1068.2 370.0 1072.5 370.0 C1076.8 370.0 1081.2 398.0 1085.5 398.0 C1089.8 398.0 1094.2 347.8 1098.5 335.0 C1102.8 322.2 1107.2 321.0 1111.5 321.0 C1115.8 321.0 1120.2 377.0 1124.5 377.0 C1128.8 377.0 1133.2 342.0 1137.5 335.0 C1141.8 328.0 1146.2 328.0 1150.5 328.0 C1154.8 328.0 1159.2 377.0 1163.5 377.0 C1167.8 377.0 1172.2 328.0 1176.5 328.0 C1180.8 328.0 1185.2 335.0 1189.5 335.0 C1193.8 335.0 1198.2 330.3 1202.5 328.0 C1206.8 325.7 1211.2 325.7 1215.5 321.0 C1219.8 316.3 1224.2 300.0 1228.5 300.0 C1232.8 300.0 1237.2 324.5 1241.5 335.0 C1245.8 345.5 1250.2 353.7 1254.5 363.0"/>
 <path class="casing" d="M1280.5 279.0 C1284.8 283.7 1289.2 293.0 1293.5 293.0 C1297.8 293.0 1302.2 293.0 1306.5 293.0 C1310.8 293.0 1315.2 293.0 1319.5 286.0 C1323.8 279.0 1328.2 195.0 1332.5 195.0 C1336.8 195.0 1341.2 199.7 1345.5 202.0"/>
@@ -496,8 +501,10 @@
 <text class="ink3" x="1352" y="33" text-anchor="end" font-size="9.5" letter-spacing=".08em">LEAGUE POSITION BY SEASON</text>
 <path class="casing" d="M104 592.5h16"/><path class="line" d="M104 592.5h16"/>
 <text class="ink2" x="126" y="596" text-anchor="start" font-size="10.5">Final league position</text>
-<rect x="520.0" y="587" width="16" height="11" fill="url(#uncovered)"/>
-<text class="ink2" x="542.0" y="596" text-anchor="start" font-size="10.5">No position recorded</text>
-<rect x="936.0" y="587" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
-<text class="ink2" x="958.0" y="596" text-anchor="start" font-size="10.5">Season not played</text>
+<rect x="416.0" y="587" width="16" height="11" fill="url(#stopped)"/>
+<text class="ink2" x="438.0" y="596" text-anchor="start" font-size="10.5">League abandoned mid-season</text>
+<rect x="728.0" y="587" width="16" height="11" fill="url(#uncovered)"/>
+<text class="ink2" x="750.0" y="596" text-anchor="start" font-size="10.5">No position recorded</text>
+<rect x="1040.0" y="587" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
+<text class="ink2" x="1062.0" y="596" text-anchor="start" font-size="10.5">Season not played</text>
 </svg>

@@ -42,7 +42,7 @@ missing row:
 |---|---|---|
 | Hapoel + Maccabi Kiryat Shmona → *Hapoel Ironi* (2000–02) → *Ironi* Kiryat Shmona | Predecessors separate; 2000 onward is Ironi | The club was formed by the 2000 merger. RSSSF still heads the 2007/08 table with the pre-merger name |
 | Beitar Tel Aviv / Beitar Shimshon / Beitar Tel Aviv Bat Yam / Ramla | One club: Beitar Tel Aviv | Continuous club through renames and the Shimshon merger |
-| Shimshon Tel Aviv | Separate from Beitar | Left the merger in 2011 and re-formed; the merged club's seasons sit under Beitar |
+| Shimshon Tel Aviv | Separate from Beitar | Left the merger in 2011 and re-formed; the merged club's seasons sit under Beitar, and the chart draws them as a second line — see *Played as* below |
 | Hapoel Nazareth Illit / הפועל נצרת עילית | Hapoel Nof HaGalil | Renamed 2019 |
 | Hapoel Tzafririm Holon | Hapoel Holon | Same lineage |
 | Hapoel Ironi Rishon LeZion | Hapoel Rishon LeZion | Same lineage |
@@ -56,6 +56,25 @@ missing row:
 Roughly 900 lower-tier club names keep their English spelling rather than being merged. Their
 rows are kept: dropping a club understates its division's size and shifts every position
 below it.
+
+### Played as another club
+
+`club_status.json` carries a `played_as` block for the one case where a club's senior side
+took the field under another club's name and this project keeps the two apart:
+
+| Club | Seasons | Played as | Rows recorded under |
+|---|---|---|---|
+| Shimshon Tel Aviv | 2000/01 – 2010/11 | Beitar Shimshon Tel Aviv | Beitar Tel Aviv |
+
+The chart draws those seasons as a dashed second line in the other club's colour, and names
+both lines in the legend — the same statement English Wikipedia's club charts make with
+"as Newton Heath" before "as Manchester United". The spell ends in 2011, when the club
+merged with Ironi Ramla and Shimshon withdrew; the dormant span runs on to 2013 because
+Shimshon had no senior side of its own until 2014.
+
+This is deliberately not used for a merger of two clubs into a new one. Ashdod S.C. and
+Ironi Kiryat Shmona each have two predecessors with full records of their own, and drawing
+one of them as the new club's earlier self would pick a parent arbitrarily.
 
 ## Per club
 

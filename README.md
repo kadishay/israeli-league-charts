@@ -141,11 +141,15 @@ Interior dormant spells need a source, so they live in `data/club_status.json`, 
 reason and a citation:
 
 - **Shimshon Tel Aviv, 2000/01–2013/14.** Merged with Beitar Tel Aviv as Beitar Shimshon Tel
-  Aviv, left the merger in 2011, re-formed a senior team in 2014. Their gaps: 22 → 3.
+  Aviv, left the merger in 2011, re-formed a senior team in 2014. Their gaps: 22 → 3. The
+  eleven seasons inside the merger are drawn as a dashed second line in Beitar's blue,
+  labelled *as Beitar Shimshon Tel Aviv* — the team played, under another name.
 - **Hapoel Yehud, 1998/99–2007/08.** Relegated to Liga Bet in 1998 and dissolved; a 2004
   revival as Hapoel Monosson Yehud folded within months; re-founded 2008. Their gaps: 17 → 5.
 - **2019/20 below tier two.** The IFA froze the non-professional leagues after 25 rounds
-  because of COVID-19, so there is no final table to be missing from. This alone accounts
+  because of COVID-19, so there is no final table to be missing from. The chart marks those
+  columns *League abandoned mid-season*, and only on the 13 clubs that were actually playing
+  at that depth — a club that finished its own season sees nothing. This alone accounts
   for seven clubs' apparent gaps, and lives in `structure.json` as `abandoned_below`.
 
 The same file carries each club's **founding year**, and `build.py` drops any row dated

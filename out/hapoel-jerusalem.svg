@@ -5,12 +5,16 @@
   .line,.casing{fill:none;stroke-linecap:round;stroke-linejoin:round}
   .casing{stroke:var(--casing);stroke-width:4.4}
   .line{stroke:var(--accent);stroke-width:2.4}
+  .alt,.alt-casing{fill:none;stroke-linecap:butt;stroke-linejoin:round}
+  .alt-casing{stroke:var(--alt-casing);stroke-width:4.2}
+  .alt{stroke:var(--alt);stroke-width:2.2;stroke-dasharray:5 3}
   .champ{fill:var(--champion)}
   :root{--surface:#FCFCFB;--ink:#1A1D1F;--ink2:#565F63;--ink3:#868F93;--rule:#C9CFD1;--accent:#DD000B;--accent_casing:#004A5C;--champion:#A06A0A;--hatch:#A9B2B6;--band1:#E9F0F2;--band2:#DBE5E8;--band3:#CBD8DC;--band4:#B9C9CF;--casing:#000000}
 </style>
 <defs>
   <pattern id="notplayed" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="7" stroke="var(--hatch)" stroke-width="1.4"/></pattern>
   <pattern id="uncovered" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="1.4" cy="1.4" r="1" fill="var(--hatch)"/></pattern>
+  <pattern id="stopped" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="var(--hatch)" fill-opacity=".55"/></pattern>
   <pattern id="notier" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="var(--surface)"/></pattern>
 </defs>
 <rect class="bg" width="1372" height="630"/>
@@ -464,6 +468,7 @@
 <rect x="351" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="377" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="403" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect x="1261" y="286" width="13" height="266" fill="url(#stopped)"/>
 <path class="casing" d="M130.0 132.0H143.0"/>
 <path class="casing" d="M162.5 125.0 C166.8 129.7 171.2 134.3 175.5 139.0"/>
 <path class="casing" d="M234.0 83.0H247.0"/>
@@ -512,8 +517,10 @@
 <text class="ink3" x="1352" y="33" text-anchor="end" font-size="9.5" letter-spacing=".08em">LEAGUE POSITION BY SEASON</text>
 <path class="casing" d="M104 592.5h16"/><path class="line" d="M104 592.5h16"/>
 <text class="ink2" x="126" y="596" text-anchor="start" font-size="10.5">Final league position</text>
-<rect x="520.0" y="587" width="16" height="11" fill="url(#uncovered)"/>
-<text class="ink2" x="542.0" y="596" text-anchor="start" font-size="10.5">No position recorded</text>
-<rect x="936.0" y="587" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
-<text class="ink2" x="958.0" y="596" text-anchor="start" font-size="10.5">Season not played</text>
+<rect x="416.0" y="587" width="16" height="11" fill="url(#stopped)"/>
+<text class="ink2" x="438.0" y="596" text-anchor="start" font-size="10.5">League abandoned mid-season</text>
+<rect x="728.0" y="587" width="16" height="11" fill="url(#uncovered)"/>
+<text class="ink2" x="750.0" y="596" text-anchor="start" font-size="10.5">No position recorded</text>
+<rect x="1040.0" y="587" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
+<text class="ink2" x="1062.0" y="596" text-anchor="start" font-size="10.5">Season not played</text>
 </svg>
