@@ -6,30 +6,20 @@ What is already published, and how to add or update one without re-deriving any 
 
 ## What is live
 
-Ten files on Wikimedia Commons, uploaded 16 September 2026 by [User:Kadishay], all
-**CC BY-SA 4.0**, all `{{own}}` work:
+**`data/wikipedia.json` is the ledger** — every club, both languages, the Commons file name,
+the article, and whether the image is actually placed. Read it rather than this prose when
+deciding what to update; the summary below will drift.
 
-| Club | English file | Hebrew file |
-|---|---|---|
-| Maccabi Tel Aviv | `Maccabi Tel Aviv FC League Performance.svg` | `… (Hebrew).svg` |
-| Beitar Jerusalem | `Beitar Jerusalem FC League Performance.svg` | `… (Hebrew).svg` |
-| Maccabi Haifa | `Maccabi Haifa FC League Performance.svg` | `… (Hebrew).svg` |
-| Hapoel Tel Aviv | `Hapoel Tel Aviv FC League Performance.svg` | `… (Hebrew).svg` |
-| Hapoel Be'er Sheva | `Hapoel Be'er Sheva FC League Performance.svg` | `… (Hebrew).svg` |
+The scope is the **14 clubs of the 2026/27 Ligat ha'Al**. 28 files on Wikimedia Commons
+(English and Hebrew labels for each), uploaded 16 September 2026 by [User:Kadishay], all
+**CC BY-SA 4.0**, all `{{own}}` work. All 14 English charts are placed; **no Hebrew chart is
+placed**, for the reason below.
 
 The naming follows the precedent this project copied,
 [`File:Manchester United FC League Performance.svg`](https://commons.wikimedia.org/wiki/File:Manchester_United_FC_League_Performance.svg).
 Note the file names use `FC` with no full stops, while the English article titles use `F.C.`
 
-Placed in the **History** section of five English Wikipedia articles:
-
-| Article | Revision |
-|---|---|
-| Maccabi Tel Aviv F.C. | 1375175891 |
-| Beitar Jerusalem F.C. | 1375176954 |
-| Maccabi Haifa F.C. | 1375176961 |
-| Hapoel Tel Aviv F.C. | 1375176968 |
-| Hapoel Be'er Sheva F.C. | 1375176972 |
+Each chart sits in the **History** section of its article, directly after the heading.
 
 **The Hebrew files are uploaded but placed nowhere.** See *The Hebrew Wikipedia block* below.
 
@@ -152,7 +142,8 @@ Every Hebrew article edit was refused by **abuse filter 109**,
 be worked around; the filter is the community's answer, not an obstacle to route past.
 
 The requirement is **30 days since registration and 100 edits**. The account registered in
-2019, so only the edit count is short — 3 at the time of writing.
+2019, so only the edit count is short — 3 at the time of writing. All fourteen Hebrew files
+are uploaded, so placing them later is one line of wikitext each.
 
 Three ways through, in rising order of how much they ask of other people:
 
@@ -160,7 +151,7 @@ Three ways through, in rising order of how much they ask of other people:
 2. **Request the edit** on each article's talk page with `{{בקשת עריכה}}`, giving the file
    name and the caption above. This is the normal route for exactly this situation.
 3. **Ask first** at [ויקיפדיה:הכיכר](https://he.wikipedia.org/wiki/ויקיפדיה:הכיכר) whether
-   the community wants the charts at all, which is worth doing before adding five of them.
+   the community wants the charts at all, which is worth doing before adding fourteen.
 
 ---
 

@@ -1,0 +1,92 @@
+{
+ "_comment": [
+  "Where each club's chart has been published, so a later session can update the right",
+  "files instead of rediscovering them. Written by hand after each publishing run; there",
+  "is no script that produces it, because publishing is a deliberate act.",
+  "",
+  "An update is a Commons re-upload under the same 'commons' file name - the article",
+  "references a name and Commons serves whatever version that name holds - so 'revision'",
+  "is a record of when the chart was placed, not something to keep current.",
+  "",
+  "'placed': true means the image is in the article. Hebrew articles are all false: he.wikipedia",
+  "abuse filter 109 disallows article edits from an account with fewer than 100 edits. The",
+  "files are uploaded and ready; only the placement is outstanding. See docs/WIKIPEDIA.md."
+ ],
+ "license": "CC BY-SA 4.0",
+ "uploader": "User:Kadishay",
+ "published": "2026-09-16",
+ "scope": "The 14 clubs of the 2026/27 Ligat ha'Al",
+ "clubs": {
+  "Maccabi Tel Aviv": {
+   "slug": "maccabi-tel-aviv",
+   "en": {"commons": "Maccabi Tel Aviv FC League Performance.svg", "article": "Maccabi Tel Aviv F.C.", "placed": true, "revision": 1375175891},
+   "he": {"commons": "Maccabi Tel Aviv FC League Performance (Hebrew).svg", "article": "מכבי תל אביב (כדורגל)", "placed": false, "blocked_by": "he abuse filter 109"}
+  },
+  "Beitar Jerusalem": {
+   "slug": "beitar-jerusalem",
+   "en": {"commons": "Beitar Jerusalem FC League Performance.svg", "article": "Beitar Jerusalem F.C.", "placed": true, "revision": 1375176954},
+   "he": {"commons": "Beitar Jerusalem FC League Performance (Hebrew).svg", "article": "בית\"ר ירושלים", "placed": false, "blocked_by": "he abuse filter 109"}
+  },
+  "Maccabi Haifa": {
+   "slug": "maccabi-haifa",
+   "en": {"commons": "Maccabi Haifa FC League Performance.svg", "article": "Maccabi Haifa F.C.", "placed": true, "revision": 1375176961},
+   "he": {"commons": "Maccabi Haifa FC League Performance (Hebrew).svg", "article": "מכבי חיפה (כדורגל)", "placed": false, "blocked_by": "he abuse filter 109"}
+  },
+  "Hapoel Tel Aviv": {
+   "slug": "hapoel-tel-aviv",
+   "en": {"commons": "Hapoel Tel Aviv FC League Performance.svg", "article": "Hapoel Tel Aviv F.C.", "placed": true, "revision": 1375176968},
+   "he": {"commons": "Hapoel Tel Aviv FC League Performance (Hebrew).svg", "article": "הפועל תל אביב (כדורגל)", "placed": false, "blocked_by": "he abuse filter 109"}
+  },
+  "Hapoel Be'er Sheva": {
+   "slug": "hapoel-be-er-sheva",
+   "en": {"commons": "Hapoel Be'er Sheva FC League Performance.svg", "article": "Hapoel Be'er Sheva F.C.", "placed": true, "revision": 1375176972},
+   "he": {"commons": "Hapoel Be'er Sheva FC League Performance (Hebrew).svg", "article": "הפועל באר שבע", "placed": false, "blocked_by": "he abuse filter 109"}
+  },
+  "Bnei Sakhnin": {
+   "slug": "bnei-sakhnin",
+   "en": {"commons": "Bnei Sakhnin FC League Performance.svg", "article": "Bnei Sakhnin F.C.", "placed": true, "revision": 1375184876},
+   "he": {"commons": "Bnei Sakhnin FC League Performance (Hebrew).svg", "article": "בני סכנין", "placed": false, "blocked_by": "he abuse filter 109"}
+  },
+  "Hapoel Haifa": {
+   "slug": "hapoel-haifa",
+   "en": {"commons": "Hapoel Haifa FC League Performance.svg", "article": "Hapoel Haifa F.C.", "placed": true, "revision": 1375184888},
+   "he": {"commons": "Hapoel Haifa FC League Performance (Hebrew).svg", "article": "הפועל חיפה (כדורגל)", "placed": false, "blocked_by": "he abuse filter 109"}
+  },
+  "Hapoel Jerusalem": {
+   "slug": "hapoel-jerusalem",
+   "en": {"commons": "Hapoel Jerusalem FC League Performance.svg", "article": "Hapoel Jerusalem F.C.", "placed": true, "revision": 1375184893},
+   "he": {"commons": "Hapoel Jerusalem FC League Performance (Hebrew).svg", "article": "הפועל ירושלים (כדורגל)", "placed": false, "blocked_by": "he abuse filter 109"},
+   "note": "The chart treats the club as continuous across 2019-20, when the original club was wound up and the supporter-owned Hapoel Katamon bought the name. Both Wikipedias cover it as one article, so the chart matches their framing, but the lineage is an open question in docs/DECISIONS.md."
+  },
+  "Hapoel Petah Tikva": {
+   "slug": "hapoel-petah-tikva",
+   "en": {"commons": "Hapoel Petah Tikva FC League Performance.svg", "article": "Hapoel Petah Tikva F.C.", "placed": true, "revision": 1375184897},
+   "he": {"commons": "Hapoel Petah Tikva FC League Performance (Hebrew).svg", "article": "הפועל פתח תקווה (כדורגל)", "placed": false, "blocked_by": "he abuse filter 109"}
+  },
+  "Hapoel Ramat Gan": {
+   "slug": "hapoel-ramat-gan",
+   "en": {"commons": "Hapoel Ramat Gan FC League Performance.svg", "article": "Hapoel Ramat Gan Givatayim F.C.", "placed": true, "revision": 1375184906},
+   "he": {"commons": "Hapoel Ramat Gan FC League Performance (Hebrew).svg", "article": "הפועל רמת-גן גבעתיים (כדורגל)", "placed": false, "blocked_by": "he abuse filter 109"}
+  },
+  "Maccabi Netanya": {
+   "slug": "maccabi-netanya",
+   "en": {"commons": "Maccabi Netanya FC League Performance.svg", "article": "Maccabi Netanya F.C.", "placed": true, "revision": 1375184944},
+   "he": {"commons": "Maccabi Netanya FC League Performance (Hebrew).svg", "article": "מכבי נתניה", "placed": false, "blocked_by": "he abuse filter 109"}
+  },
+  "Maccabi Petah Tikva": {
+   "slug": "maccabi-petah-tikva",
+   "en": {"commons": "Maccabi Petah Tikva FC League Performance.svg", "article": "Maccabi Petah Tikva F.C.", "placed": true, "revision": 1375184955},
+   "he": {"commons": "Maccabi Petah Tikva FC League Performance (Hebrew).svg", "article": "מכבי פתח תקווה (כדורגל)", "placed": false, "blocked_by": "he abuse filter 109"}
+  },
+  "Ironi Tiberias": {
+   "slug": "ironi-tiberias",
+   "en": {"commons": "Ironi Tiberias FC League Performance.svg", "article": "Ironi Tiberias F.C.", "placed": true, "revision": 1375184961},
+   "he": {"commons": "Ironi Tiberias FC League Performance (Hebrew).svg", "article": "עירוני טבריה", "placed": false, "blocked_by": "he abuse filter 109"}
+  },
+  "Ironi Kiryat Shmona": {
+   "slug": "ironi-kiryat-shmona",
+   "en": {"commons": "Ironi Kiryat Shmona FC League Performance.svg", "article": "Hapoel Ironi Kiryat Shmona F.C.", "placed": true, "revision": 1375184968},
+   "he": {"commons": "Ironi Kiryat Shmona FC League Performance (Hebrew).svg", "article": "עירוני קריית שמונה", "placed": false, "blocked_by": "he abuse filter 109"}
+  }
+ }
+}

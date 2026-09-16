@@ -59,6 +59,7 @@ move: "Liga Alef" on a 1960 column and on a 2015 column are different depths.
 | `data/club_status.json` | Founding years, and spans where a club existed but fielded no senior side. |
 | `data/aliases*.json` | Source spelling → canonical club name, merging renames and mergers into one lineage. One file per source. |
 | `data/club_colors.json` | Each club's kit colour, read off its Hebrew Wikipedia infobox by `scripts/fetch_colors.py`. The chart draws each line in its club's colour. |
+| `data/wikipedia.json` | Where each chart is published — club, language, Commons file, article, and whether it is actually placed. |
 | `scripts/fetch*.py` | Cache the sources into `data/raw/` (gitignored). |
 | `scripts/parse*.py` | Raw pages → one CSV per source, under the gitignored `data/raw/parsed/`. |
 | `scripts/build.py` | Merge the sources, checking every row against `structure.json`. |
