@@ -251,6 +251,29 @@ Both languages carry all three forms.
 
 ---
 
+## 21. The SVG is written for librsvg, not for a browser
+
+Wikimedia Commons rasterises SVG with **librsvg**, at an SVG 1.0 / CSS 2 level. Three
+consequences shape the output, and none of them costs anything here:
+
+- **No CSS custom properties.** The charts used to declare `:root{--accent:…}` and reference
+  `var(--accent)` 351 times per file. On Commons every one of those resolves to nothing and
+  the chart renders colourless. The values are per-file constants anyway, so they are now
+  written as literals and the indirection is gone.
+- **A rule with an empty value is invalid**, not merely unused. Resolving the variables
+  turned the unused `.alt{stroke:var(--alt)}` into `.alt{stroke:}` on the 41 clubs with no
+  second line; those rules are now emitted only when there is a second line to style.
+- **The font stack has to end somewhere Wikimedia has.** `ui-sans-serif`, `-apple-system`
+  and `Segoe UI` exist on none of their servers. `DejaVu Sans` and `Liberation Sans` sit
+  after the system faces and before the generic, so browsers never reach them and Commons
+  lands on an installed face rather than guessing.
+
+The general rule: **this output is a document that other renderers will read, not a page in
+a browser.** Anything that depends on a modern engine is a bug waiting for a different
+viewer, and the charts lose nothing by being plain.
+
+---
+
 ## 14. Charts commit to one light palette
 
 No `prefers-color-scheme`. The club line (`#007C99`) and champion marker (`#A06A0A`) pass

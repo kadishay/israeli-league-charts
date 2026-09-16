@@ -34,26 +34,32 @@ which never bows past a position the club did not finish in.
 
 Colour: the tier bands are a sequential ramp (one hue, light to dark with
 depth), deliberately desaturated so that the one saturated thing on the chart is
-the club.  Each club's line is drawn in its own kit colour, read off Hebrew
-Wikipedia into data/club_colors.json, and darkened by `legible()` until it clears
-3:1 against the lightest band - a kit colour is picked to look good on a shirt,
-not on pale grey, and Maccabi Tel Aviv's yellow scores 1.07:1 untouched.  Clubs
-with no colour on file fall back to the default accent.  The champion marker
-keeps its own fixed amber so that it never becomes a second club colour.  These
-charts commit to one light palette rather than following the viewer's theme, so
-they read the same wherever they are embedded.
+the club.  Each club's line is its own kit colour exactly as data/club_colors.json
+gives it - Maccabi Tel Aviv play in #FFFF00 and the chart says #FFFF00 - and
+legibility comes from a casing drawn underneath rather than from altering the
+colour on top.  The casing is the club's second kit colour where it has one, and
+otherwise its own colour taken down to 4.5:1 against the lightest band.  The
+champion marker keeps its own fixed amber so that it never becomes a second club
+colour.  These charts commit to one light palette rather than following the
+viewer's theme, so they read the same wherever they are embedded.
 
-The chart bands tiers one to four.  Anything deeper runs along a two-row strip at
-the floor: the club's depth is known, its rank within a regional fifth or sixth
-tier is not comparable to anything above it, and drawing it as a band would imply
-otherwise.  Where the pyramid itself was shallower than four tiers - it was two
-deep in 1935 - the rows below the last real tier are left as bare page, because
-there was no such tier to be in.
+The chart bands tiers one to four and stops.  A fifth- or sixth-tier season has
+no row to sit on and is marked like any other season with no position on the
+chart; the rank is in seasons.csv, where below tier four it is a place inside a
+regional group and not comparable to anything above it.  Everything below the
+last band is bare page, which also covers the seasons when the pyramid itself was
+shallower - it was two tiers deep in 1935.
+
+The output is deliberately plain SVG: literal colours, no CSS custom properties,
+and a font stack that ends in faces Wikimedia installs.  Wikimedia Commons
+rasterises with librsvg at an SVG 1.0 / CSS 2 level, where a var() reference
+resolves to nothing and the whole chart comes out colourless.
 """
 
 import argparse
 import csv
 import json
+import re
 from collections import defaultdict
 from pathlib import Path
 
@@ -537,11 +543,28 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
     if spells:
         vars_light["alt"] = spells[0]["color"]
         vars_light["alt-casing"] = spells[0]["casing"]
-    css_light = ";".join(f"--{k}:{v}" for k, v in vars_light.items())
+    # Custom properties are resolved here rather than declared, because the
+    # charts have to survive Wikimedia Commons. Commons rasterises SVG with
+    # librsvg at an SVG 1.0 / CSS 2 level and does not implement CSS custom
+    # properties, so a var() reference resolves to nothing and the chart renders
+    # with no colour at all. The indirection bought nothing anyway - every value
+    # is fixed per file - so the literals go straight into the rules.
+    def lit(css: str) -> str:
+        for _ in range(4):                       # vars may refer to vars
+            new = re.sub(r"var\(--([a-z0-9-]+)\)",
+                         lambda m: str(vars_light.get(m.group(1), "")), css)
+            if new == css:
+                break
+            css = new
+        return css
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
+        # DejaVu and Liberation sit after the system faces and before the generic:
+        # browsers never reach them, and Wikimedia Commons - which has none of the
+        # system faces - lands on a font it actually installs instead of guessing.
         f'viewBox="0 0 {width} {height}" font-family="ui-sans-serif, -apple-system, '
-        f'\'Segoe UI\', Roboto, sans-serif" role="img" '
+        f'\'Segoe UI\', Roboto, \'DejaVu Sans\', \'Liberation Sans\', sans-serif" '
+        f'role="img" '
         f'aria-label="{esc(label)}, {seasons[0]["label"]} – {seasons[-1]["label"]}">',
         "<style>",
         "  .bg{fill:var(--surface)} .ink{fill:var(--ink)} .ink2{fill:var(--ink2)}",
@@ -549,11 +572,15 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
         "  .line,.casing{fill:none;stroke-linecap:round;stroke-linejoin:round}",
         "  .casing{stroke:var(--casing);stroke-width:4.4}",
         "  .line{stroke:var(--accent);stroke-width:2.4}",
-        "  .alt,.alt-casing{fill:none;stroke-linecap:butt;stroke-linejoin:round}",
-        "  .alt-casing{stroke:var(--alt-casing);stroke-width:4.2}",
-        "  .alt{stroke:var(--alt);stroke-width:2.2;stroke-dasharray:5 3}",
+        # Only when there is a second line to style. Emitting them regardless
+        # left "stroke:" with nothing after it once the variables were resolved,
+        # which is invalid CSS rather than a harmless unused rule.
+        *([" .alt,.alt-casing{fill:none;stroke-linecap:butt;stroke-linejoin:round}",
+           "  .alt-casing{stroke:var(--alt-casing);stroke-width:4.2}",
+           "  .alt{stroke:var(--alt);stroke-width:2.2;stroke-dasharray:5 3}"]
+          if spells else []),
         "  .champ{fill:var(--champion)}",
-        f"  :root{{{css_light}}}",
+
         "</style>",
         "<defs>",
         '  <pattern id="notplayed" width="7" height="7" patternUnits="userSpaceOnUse" '
@@ -770,7 +797,7 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
                 text_el(lx + 22, ly, text, cls="ink2", size=10.5, lang=lang)]
         lx += slot
     out.append("</svg>")
-    return "\n".join(out) + "\n"
+    return lit("\n".join(out)) + "\n"
 
 
 def slug(club: str) -> str:
