@@ -530,6 +530,15 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
     # life: without this a club still playing today ends on its last final
     # position and the chart draws the years since as though it had folded.
     playing = played or set()
+    # Seasons that belong to an earlier name rather than to the club's own line.
+    # Only for a spell drawn from the club's own rows: without this the main line
+    # covers exactly the same seasons and is painted straight over the second
+    # one, which is why Ironi Tiberias showed no "as Beitar Tiberias" segment at
+    # all. A spell that borrows another club's rows needs no such exclusion,
+    # because this club has none of its own to draw there.
+    renamed = {s["label"] for s in seasons
+               for sp in (spells or [])
+               if not sp.get("rows_under") and sp["from"] <= s["start"] <= sp["to"]}
     if playing:
         ends = [i for i, s in enumerate(seasons) if s["label"] in playing]
         if ends:
@@ -655,8 +664,11 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
             drew["notplayed"] = True
             prev = None
             continue
-        entry = history.get(s["label"])
+        entry = None if s["label"] in renamed else history.get(s["label"])
         rank = rank_of(entry, s) if entry else None
+        if rank is None and s["label"] in renamed:
+            prev = None
+            continue
         if rank is None:
             # No record, or a tier below the drawn bands. Mark it as an unknown
             # only while the club was actually competing.
