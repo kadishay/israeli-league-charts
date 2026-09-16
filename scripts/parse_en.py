@@ -58,6 +58,17 @@ SKIP_SECTION = re.compile(r"play-?off|promotion|relegation|qualif", re.I)
 # Headings that mean "this is the whole league", not a region.
 NATIONAL = {"final table", "league table", "table", "standings", "final standings"}
 
+# (English name, first season start) -> the club it had become by then. Same
+# shape as NAME_FROM in parse_he.py and CLUB_FIXUPS in parse.py.
+#
+# Beitar Tiberias merged with Hapoel Mo'atza Ezorit Galil Tahton in 2004; the
+# joint club played as Hapoel Galil Tahton/Tiberias and was renamed Ironi
+# Tiberias in 2006. English Wikipedia keeps filing the merged club under the
+# Lower Galilee name for its last two seasons, so those rows belong to Ironi.
+# Scoped from 2004 because the same name before that is the other parent, which
+# has its own record and stays separate.
+NAME_FROM = [("Hapoel Mo'atza Ezorit Galil Tahton", 2004, "Ironi Tiberias")]
+
 UNMAPPED: dict[str, int] = {}
 
 
@@ -201,6 +212,9 @@ def main() -> None:
                 continue
             div = division_of(heading)
             for pos, raw_club in rows_of(block):
+                for name, since, becomes in NAME_FROM:
+                    if raw_club == name and year >= since:
+                        raw_club = becomes
                 club = aliases.get(raw_club)
                 if not club:
                     club = raw_club

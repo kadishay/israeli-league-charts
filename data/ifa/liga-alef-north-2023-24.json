@@ -1,0 +1,77 @@
+{
+ "season": "2023/2024",
+ "season_start": 2023,
+ "league_id": 61,
+ "season_id": 25,
+ "stage": "מבחן עליה לליגה לאומית",
+ "round": 38,
+ "games_played": 30,
+ "league": "Liga Alef",
+ "division": "North",
+ "standings": [
+  {
+   "position": 1,
+   "club": "הפועל רעננה"
+  },
+  {
+   "position": 2,
+   "club": "מ.ס. טירה"
+  },
+  {
+   "position": 3,
+   "club": "מכבי אתא ביאליק"
+  },
+  {
+   "position": 4,
+   "club": "מ.ס. קרית ים"
+  },
+  {
+   "position": 5,
+   "club": "הפועל ע. בקה אל גרבייה"
+  },
+  {
+   "position": 6,
+   "club": "מכבי אחי נצרת"
+  },
+  {
+   "position": 7,
+   "club": "הפועל בני זלפה"
+  },
+  {
+   "position": 8,
+   "club": "מ.ס. צעירי כפר קנא"
+  },
+  {
+   "position": 9,
+   "club": "הפועל בועיינה"
+  },
+  {
+   "position": 10,
+   "club": "עירוני נשר"
+  },
+  {
+   "position": 11,
+   "club": "הפועל מגדל העמק"
+  },
+  {
+   "position": 12,
+   "club": "צעירי א.א. פאחם"
+  },
+  {
+   "position": 13,
+   "club": "הפועל כפר כנא"
+  },
+  {
+   "position": 14,
+   "club": "מכבי נוג'ידאת אחמד"
+  },
+  {
+   "position": 15,
+   "club": "מ.ס. צעירי טייבה"
+  },
+  {
+   "position": 16,
+   "club": "הפועל כאוכב"
+  }
+ ]
+}

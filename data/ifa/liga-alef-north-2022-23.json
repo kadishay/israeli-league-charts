@@ -1,0 +1,77 @@
+{
+ "season": "2022/2023",
+ "season_start": 2022,
+ "league_id": 61,
+ "season_id": 24,
+ "stage": "מבחן עליה לליגה לאומית",
+ "round": 38,
+ "games_played": 30,
+ "league": "Liga Alef",
+ "division": "North",
+ "standings": [
+  {
+   "position": 1,
+   "club": "איחוד בני שפרעם"
+  },
+  {
+   "position": 2,
+   "club": "מ.ס. צעירי כפר קנא"
+  },
+  {
+   "position": 3,
+   "club": "הפועל ע. בקה אל גרבייה"
+  },
+  {
+   "position": 4,
+   "club": "הפועל רעננה"
+  },
+  {
+   "position": 5,
+   "club": "הפועל בני זלפה"
+  },
+  {
+   "position": 6,
+   "club": "מכבי אתא ביאליק"
+  },
+  {
+   "position": 7,
+   "club": "עירוני נשר"
+  },
+  {
+   "position": 8,
+   "club": "מכבי נוג'ידאת אחמד"
+  },
+  {
+   "position": 9,
+   "club": "מ.ס. טירה"
+  },
+  {
+   "position": 10,
+   "club": "מ.ס. צעירי טייבה"
+  },
+  {
+   "position": 11,
+   "club": "הפועל מגדל העמק"
+  },
+  {
+   "position": 12,
+   "club": "הפועל כפר כנא"
+  },
+  {
+   "position": 13,
+   "club": "הפועל כאוכב"
+  },
+  {
+   "position": 14,
+   "club": "הפועל בועיינה"
+  },
+  {
+   "position": 15,
+   "club": "הפועל קלנסאוה"
+  },
+  {
+   "position": 16,
+   "club": "מכבי ע. טמרה"
+  }
+ ]
+}

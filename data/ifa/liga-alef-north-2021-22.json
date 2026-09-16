@@ -1,0 +1,85 @@
+{
+ "season": "2021/2022",
+ "season_start": 2021,
+ "league_id": 61,
+ "season_id": 23,
+ "stage": "מבחן עליה לליגה לאומית",
+ "round": 38,
+ "games_played": 34,
+ "league": "Liga Alef",
+ "division": "North",
+ "standings": [
+  {
+   "position": 1,
+   "club": "עירוני דורות טבריה"
+  },
+  {
+   "position": 2,
+   "club": "מ.ס. טירה"
+  },
+  {
+   "position": 3,
+   "club": "מ.ס. צעירי טייבה"
+  },
+  {
+   "position": 4,
+   "club": "הפועל הרצליה עירוני"
+  },
+  {
+   "position": 5,
+   "club": "הפועל בועיינה"
+  },
+  {
+   "position": 6,
+   "club": "הפועל בני זלפה"
+  },
+  {
+   "position": 7,
+   "club": "מכבי ע. טמרה"
+  },
+  {
+   "position": 8,
+   "club": "הפועל ע. בקה אל גרבייה"
+  },
+  {
+   "position": 9,
+   "club": "מכבי אתא ביאליק"
+  },
+  {
+   "position": 10,
+   "club": "מ.ס. צעירי כפר קנא"
+  },
+  {
+   "position": 11,
+   "club": "הפועל כפר כנא"
+  },
+  {
+   "position": 12,
+   "club": "עירוני נשר"
+  },
+  {
+   "position": 13,
+   "club": "הפועל כאוכב"
+  },
+  {
+   "position": 14,
+   "club": "הפועל מגדל העמק"
+  },
+  {
+   "position": 15,
+   "club": "הפ' בני פרדיס מ. עבדאלעאל"
+  },
+  {
+   "position": 16,
+   "club": "הפועל בני ערערה עארה"
+  },
+  {
+   "position": 17,
+   "club": "הפ' איכסל עמאד"
+  },
+  {
+   "position": 18,
+   "club": "מ.ס. חיפה רובי שפירא"
+  }
+ ]
+}

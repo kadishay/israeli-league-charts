@@ -457,15 +457,52 @@
 <rect x="343" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="369" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="395" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect x="447" y="433" width="13" height="119" fill="url(#uncovered)"/>
+<rect x="460" y="440" width="13" height="112" fill="url(#uncovered)"/>
+<rect x="473" y="440" width="13" height="112" fill="url(#uncovered)"/>
+<rect x="486" y="482" width="13" height="70" fill="url(#uncovered)"/>
+<rect x="499" y="482" width="13" height="70" fill="url(#uncovered)"/>
+<rect x="512" y="482" width="13" height="70" fill="url(#uncovered)"/>
+<rect x="707" y="468" width="13" height="84" fill="url(#uncovered)"/>
+<rect x="720" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="733" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="746" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="759" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="772" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="785" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="798" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="811" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="824" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="837" y="482" width="13" height="70" fill="url(#uncovered)"/>
+<rect x="850" y="482" width="13" height="70" fill="url(#uncovered)"/>
+<rect x="863" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="876" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="889" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="902" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="915" y="510" width="13" height="42" fill="url(#uncovered)"/>
+<rect x="928" y="524" width="13" height="28" fill="url(#uncovered)"/>
+<rect x="941" y="524" width="13" height="28" fill="url(#uncovered)"/>
+<rect x="954" y="524" width="13" height="28" fill="url(#uncovered)"/>
+<rect x="967" y="524" width="13" height="28" fill="url(#uncovered)"/>
+<rect x="993" y="426" width="13" height="126" fill="url(#uncovered)"/>
+<rect x="1006" y="433" width="13" height="119" fill="url(#uncovered)"/>
+<rect x="1019" y="433" width="13" height="119" fill="url(#uncovered)"/>
+<rect x="1032" y="426" width="13" height="126" fill="url(#uncovered)"/>
+<rect x="1045" y="426" width="13" height="126" fill="url(#uncovered)"/>
+<rect x="1058" y="426" width="13" height="126" fill="url(#uncovered)"/>
+<rect x="1071" y="426" width="13" height="126" fill="url(#uncovered)"/>
 <rect x="1084" y="426" width="13" height="126" fill="url(#uncovered)"/>
 <rect x="1253" y="286" width="13" height="266" fill="url(#stopped)"/>
-<rect x="1279" y="524" width="13" height="28" fill="url(#uncovered)"/>
+<path class="casing" d="M434.0 335.0H447.0"/>
+<path class="casing" d="M531.5 426.0 C535.8 423.7 540.2 419.0 544.5 419.0 C548.8 419.0 553.2 433.0 557.5 433.0 C561.8 433.0 566.2 422.5 570.5 419.0 C574.8 415.5 579.2 417.8 583.5 412.0 C587.8 406.2 592.2 394.5 596.5 384.0 C600.8 373.5 605.2 359.5 609.5 349.0 C613.8 338.5 618.2 326.8 622.5 321.0 C626.8 315.2 631.2 314.0 635.5 314.0 C639.8 314.0 644.2 342.0 648.5 342.0 C652.8 342.0 657.2 307.0 661.5 307.0 C665.8 307.0 670.2 339.7 674.5 356.0 C678.8 372.3 683.2 387.5 687.5 405.0 C691.8 422.5 696.2 442.3 700.5 461.0"/>
+<path class="casing" d="M980.0 510.0H993.0"/>
 <path class="casing" d="M1103.5 391.0 C1107.8 379.3 1112.2 364.2 1116.5 356.0 C1120.8 347.8 1125.2 346.7 1129.5 342.0 C1133.8 337.3 1138.2 333.8 1142.5 328.0 C1146.8 322.2 1151.2 307.0 1155.5 307.0 C1159.8 307.0 1164.2 321.0 1168.5 321.0 C1172.8 321.0 1177.2 301.2 1181.5 293.0 C1185.8 284.8 1190.2 272.0 1194.5 272.0 C1198.8 272.0 1203.2 294.2 1207.5 300.0 C1211.8 305.8 1216.2 304.7 1220.5 307.0 C1224.8 309.3 1229.2 307.0 1233.5 314.0 C1237.8 321.0 1242.2 346.7 1246.5 363.0"/>
-<path class="casing" d="M1266.0 335.0H1279.0"/>
-<path class="casing" d="M1298.5 188.0 C1302.8 185.7 1307.2 186.8 1311.5 181.0 C1315.8 175.2 1320.2 161.2 1324.5 153.0 C1328.8 144.8 1333.2 139.0 1337.5 132.0"/>
+<path class="casing" d="M1272.5 335.0 C1276.8 318.7 1281.2 310.5 1285.5 286.0 C1289.8 261.5 1294.2 195.0 1298.5 188.0 C1302.8 181.0 1307.2 186.8 1311.5 181.0 C1315.8 175.2 1320.2 161.2 1324.5 153.0 C1328.8 144.8 1333.2 139.0 1337.5 132.0"/>
+<path class="line" d="M434.0 335.0H447.0"/>
+<path class="line" d="M531.5 426.0 C535.8 423.7 540.2 419.0 544.5 419.0 C548.8 419.0 553.2 433.0 557.5 433.0 C561.8 433.0 566.2 422.5 570.5 419.0 C574.8 415.5 579.2 417.8 583.5 412.0 C587.8 406.2 592.2 394.5 596.5 384.0 C600.8 373.5 605.2 359.5 609.5 349.0 C613.8 338.5 618.2 326.8 622.5 321.0 C626.8 315.2 631.2 314.0 635.5 314.0 C639.8 314.0 644.2 342.0 648.5 342.0 C652.8 342.0 657.2 307.0 661.5 307.0 C665.8 307.0 670.2 339.7 674.5 356.0 C678.8 372.3 683.2 387.5 687.5 405.0 C691.8 422.5 696.2 442.3 700.5 461.0"/>
+<path class="line" d="M980.0 510.0H993.0"/>
 <path class="line" d="M1103.5 391.0 C1107.8 379.3 1112.2 364.2 1116.5 356.0 C1120.8 347.8 1125.2 346.7 1129.5 342.0 C1133.8 337.3 1138.2 333.8 1142.5 328.0 C1146.8 322.2 1151.2 307.0 1155.5 307.0 C1159.8 307.0 1164.2 321.0 1168.5 321.0 C1172.8 321.0 1177.2 301.2 1181.5 293.0 C1185.8 284.8 1190.2 272.0 1194.5 272.0 C1198.8 272.0 1203.2 294.2 1207.5 300.0 C1211.8 305.8 1216.2 304.7 1220.5 307.0 C1224.8 309.3 1229.2 307.0 1233.5 314.0 C1237.8 321.0 1242.2 346.7 1246.5 363.0"/>
-<path class="line" d="M1266.0 335.0H1279.0"/>
-<path class="line" d="M1298.5 188.0 C1302.8 185.7 1307.2 186.8 1311.5 181.0 C1315.8 175.2 1320.2 161.2 1324.5 153.0 C1328.8 144.8 1333.2 139.0 1337.5 132.0"/>
+<path class="line" d="M1272.5 335.0 C1276.8 318.7 1281.2 310.5 1285.5 286.0 C1289.8 261.5 1294.2 195.0 1298.5 188.0 C1302.8 181.0 1307.2 186.8 1311.5 181.0 C1315.8 175.2 1320.2 161.2 1324.5 153.0 C1328.8 144.8 1333.2 139.0 1337.5 132.0"/>
 <text class="ink2" x="85" y="128.0" text-anchor="start" font-size="10.5" font-weight="600" direction="rtl" letter-spacing=".05em">דרג 1</text>
 <text class="ink2" x="85" y="233.0" text-anchor="start" font-size="10.5" font-weight="600" direction="rtl" letter-spacing=".05em">דרג 2</text>
 <text class="ink2" x="85" y="345.0" text-anchor="start" font-size="10.5" font-weight="600" direction="rtl" letter-spacing=".05em">דרג 3</text>

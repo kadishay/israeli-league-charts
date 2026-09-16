@@ -49,6 +49,7 @@ missing row:
 | Maccabi Kabilio Jaffa | Maccabi Jaffa | Renamed |
 | M.S. Ashdod / Ashdod SC / Agudat Sport Ashdod / F.C. Ashdod | Ashdod S.C. | Same club; *Maccabi Ironi Ashdod* and *Hapoel Ashdod* are the 1999 merger partners and stay separate |
 | Hakoah Ramat Gan / Hakoah Amidar Ramat Gan | One club, founded 1962 | Infobox founding year. **Kept separate from Hakoah Tel Aviv** — see the open question below |
+| Beitar Tiberias → *Hapoel Galil Tahton/Tiberias* (2004) → Ironi Tiberias (2006) | One club: Ironi Tiberias | Its Hebrew article gives the founding year as 1950 "(בית\"ר טבריה)" and says the club was formerly called Beitar Tiberias. Treated like Beitar Tel Aviv: continuous through a rename and a merger it absorbed. English Wikipedia files the merged club's last two seasons under the *other* parent's name, so those are season-scoped in `parse_en.py` |
 | Maccabi Nes Tziona / Maccabi Nes Ziona | One club | Spelling split across sources |
 | British Police (המשטרה הבריטית) | **British Police** | Hebrew Wikipedia and RSSSF agree; only English Wikipedia's article title differs |
 | Sektzia Ness Ziona / Sektzia Nes Tziona | One club | Spelling split; distinct from *Maccabi* Nes Ziona |
@@ -87,7 +88,7 @@ life, excluding dormant spells and seasons with no table at that tier — see de
 | Maccabi Tel Aviv | 1931/1932 | 86 | 86 | 25 | 1 | — | — | yes |
 | Hapoel Tel Aviv | 1931/1932 | 86 | 83 | 13 | 1 | — | — | yes |
 | Maccabi Petah Tikva | 1931/1932 | 86 | 75 | — | 1 | — | — | yes |
-| Maccabi Haifa | 1931/1932 | 78 | 70 | 15 | 1 | 8 | 8 | yes |
+| Maccabi Haifa | 1931/1932 | 78 | 7— | 15 | 1 | 8 | 8 | yes |
 | Maccabi Netanya | 1939 | 80 | 69 | 5 | 1 | — | — | yes |
 | Hapoel Haifa | 1931/1932 | 83 | 68 | 1 | 1 | 3 | 3 | yes |
 | Hapoel Petah Tikva | 1934/1935 | 81 | 63 | 6 | 1 | 3 | 3 | yes |
@@ -95,37 +96,37 @@ life, excluding dormant spells and seasons with no table at that tier — see de
 | Bnei Yehuda Tel Aviv | 1941/1942 | 76 | 55 | 1 | 1 | 2 | 2 | yes |
 | Hapoel Be'er Sheva | 1954/1955 | 71 | 52 | 6 | 1 | — | — | yes |
 | Hapoel Jerusalem | 1931/1932 | 78 | 43 | — | 1 | 7 | 7 | yes |
-| Beitar Tel Aviv | 1937 | 77 | 41 | — | 1 | 1 | — | — |
-| Hapoel Kfar Saba | 1946/1947 | 75 | 40 | 1 | 1 | — | — | yes |
+| Beitar Tel Aviv | 1937 | 78 | 41 | — | 1 | — | — | — |
+| Hapoel Kfar Saba | 1946/1947 | 75 | 4— | 1 | 1 | — | — | yes |
 | Maccabi Jaffa | 1949/1950 | 73 | 32 | — | 1 | 2 | — | yes |
-| Shimshon Tel Aviv | 1949/1950 | 56 | 28 | — | 1 | 5 | — | — |
+| Shimshon Tel Aviv | 1949/1950 | 56 | 28 | — | 1 | 4 | — | — |
 | Ashdod S.C. | 1999/2000 | 27 | 26 | — | 1 | — | — | yes |
 | Hapoel Ramat Gan | 1939 | 80 | 25 | 1 | 1 | — | — | yes |
 | Bnei Sakhnin | 1994/1995 | 32 | 21 | — | 1 | — | — | yes |
-| Hapoel Rishon LeZion | 1938 | 81 | 20 | — | 1 | — | — | yes |
-| Hakoah Ramat Gan | 1962/1963 | 57 | 20 | 2 | 1 | 5 | — | — |
-| Ironi Kiryat Shmona | 2000/2001 | 23 | 17 | 1 | 1 | 3 | — | yes |
+| Hapoel Rishon LeZion | 1938 | 81 | 2— | — | 1 | — | — | yes |
+| Hakoah Ramat Gan | 1962/1963 | 57 | 2— | 2 | 1 | 4 | — | — |
+| Ironi Kiryat Shmona | 2000/2001 | 26 | 17 | 1 | 1 | — | — | yes |
 | Hapoel Hadera | 1939 | 77 | 16 | — | 1 | 8 | 3 | yes |
 | Hapoel Holon | 1949/1950 | 64 | 12 | — | 1 | 5 | — | — |
 | Maccabi Rehovot | 1933/1934 | 58 | 12 | — | 1 | 31 | 2 | — |
 | Maccabi Nes Ziona | 1931/1932 | 13 | 12 | — | 1 | 1 | 1 | — |
-| Hapoel Acre | 1949/1950 | 72 | 10 | — | 1 | 2 | — | yes |
-| Maccabi Herzliya | 1939 | 63 | 10 | — | 1 | 16 | 5 | yes |
-| Hakoah Tel Aviv | 1934/1935 | 21 | 10 | — | 1 | — | — | — |
-| Hapoel Ra'anana | 1939 | 67 | 9 | — | 1 | 13 | 2 | yes |
+| Hapoel Acre | 1949/1950 | 72 | 1— | — | 1 | 2 | — | yes |
+| Maccabi Herzliya | 1939 | 63 | 1— | — | 1 | 16 | 5 | yes |
+| Hakoah Tel Aviv | 1934/1935 | 21 | 1— | — | 1 | — | — | — |
+| Hapoel Ra'anana | 1939 | 69 | 9 | — | 1 | 11 | 2 | yes |
 | Hapoel Yehud | 1954/1955 | 39 | 8 | — | 1 | 6 | — | — |
-| Hapoel Ironi Herzliya | 1937 | 68 | 7 | — | 1 | 14 | — | — |
+| Hapoel Ironi Herzliya | 1937 | 69 | 7 | — | 1 | 12 | — | — |
 | Maccabi Rishon LeZion | 1939 | 9 | 7 | — | 1 | 23 | — | — |
 | Maccabi Bnei Reineh | 2005/2006 | 11 | 4 | — | 1 | 13 | — | yes |
 | Hapoel Nof HaGalil | 1962/1963 | 56 | 3 | — | 1 | 7 | — | yes |
-| Maccabi Ahi Nazareth | 1974/1975 | 49 | 2 | — | 1 | 3 | — | yes |
-| Ironi Tiberias | 2006/2007 | 18 | 2 | — | 1 | 2 | — | yes |
-| Maccabi Kiryat Gat | 1962/1963 | 54 | 1 | — | 1 | 9 | — | yes |
+| Maccabi Ahi Nazareth | 1974/1975 | 50 | 2 | — | 1 | 1 | — | yes |
+| Ironi Tiberias | 1955/1956 | 41 | 2 | — | 1 | 35 | — | yes |
+| Maccabi Kiryat Gat | 1962/1963 | 54 | 1 | — | 1 | 8 | — | yes |
 | Hapoel Kfar Shalem | 1962/1963 | 61 | — | — | 2 | 1 | — | yes |
 | Hapoel Afula | 1957/1958 | 49 | — | — | 2 | 22 | — | yes |
 | Ironi Modi'in | 2009/2010 | 13 | — | — | 2 | 6 | — | yes |
 | M.S. Kafr Qasim | 2019/2020 | 7 | — | — | 2 | — | — | yes |
-| M.S. Kiryat Yam | 2025/2026 | 1 | — | — | 2 | — | — | yes |
+| M.S. Kiryat Yam | 2023/2024 | 2 | — | — | 2 | 1 | — | yes |
 
 **14 of the 42 have no unknown seasons at all.** The other 28 account for 221 between them,
 36 before 1949 and 185 after.
@@ -178,6 +179,13 @@ alias — the club was founded in 1962).
 **Resolved by reading the IFA's own tables** — the league-seasons in `data/ifa/` closed 12
 unknowns across six charted clubs, the ones Wikipedia has no article for at all: 2016/17 and
 2018/19 Liga Bet, and Liga Alef from 2021/22 on.
+
+**Capturing a tier, not a club.** The IFA Liga Alef captures were originally South-only,
+because they were taken to close Shimshon Tel Aviv's gaps and Shimshon play in the South.
+That left every northern club with a hole nobody looked for — including Ironi Tiberias's
+2021/22, the season they won Liga Alef North and went up, on a chart already published to
+Wikipedia. Adding the three northern seasons closed six unknowns across five clubs. The
+lesson is in the heading: capture the division, not the club you happen to be looking at.
 
 **Still playing, but in a season with no table.** The IFA stopped Liga Alef, Bet and Gimel in
 2025/26 because of the war (see `structure.json`), so five charted clubs — Shimshon Tel Aviv,

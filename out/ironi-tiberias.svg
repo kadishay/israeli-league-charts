@@ -457,15 +457,52 @@
 <rect x="351" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="377" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
 <rect x="403" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect x="455" y="433" width="13" height="119" fill="url(#uncovered)"/>
+<rect x="468" y="440" width="13" height="112" fill="url(#uncovered)"/>
+<rect x="481" y="440" width="13" height="112" fill="url(#uncovered)"/>
+<rect x="494" y="482" width="13" height="70" fill="url(#uncovered)"/>
+<rect x="507" y="482" width="13" height="70" fill="url(#uncovered)"/>
+<rect x="520" y="482" width="13" height="70" fill="url(#uncovered)"/>
+<rect x="715" y="468" width="13" height="84" fill="url(#uncovered)"/>
+<rect x="728" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="741" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="754" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="767" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="780" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="793" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="806" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="819" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="832" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="845" y="482" width="13" height="70" fill="url(#uncovered)"/>
+<rect x="858" y="482" width="13" height="70" fill="url(#uncovered)"/>
+<rect x="871" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="884" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="897" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="910" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="923" y="510" width="13" height="42" fill="url(#uncovered)"/>
+<rect x="936" y="524" width="13" height="28" fill="url(#uncovered)"/>
+<rect x="949" y="524" width="13" height="28" fill="url(#uncovered)"/>
+<rect x="962" y="524" width="13" height="28" fill="url(#uncovered)"/>
+<rect x="975" y="524" width="13" height="28" fill="url(#uncovered)"/>
+<rect x="1001" y="426" width="13" height="126" fill="url(#uncovered)"/>
+<rect x="1014" y="433" width="13" height="119" fill="url(#uncovered)"/>
+<rect x="1027" y="433" width="13" height="119" fill="url(#uncovered)"/>
+<rect x="1040" y="426" width="13" height="126" fill="url(#uncovered)"/>
+<rect x="1053" y="426" width="13" height="126" fill="url(#uncovered)"/>
+<rect x="1066" y="426" width="13" height="126" fill="url(#uncovered)"/>
+<rect x="1079" y="426" width="13" height="126" fill="url(#uncovered)"/>
 <rect x="1092" y="426" width="13" height="126" fill="url(#uncovered)"/>
 <rect x="1261" y="286" width="13" height="266" fill="url(#stopped)"/>
-<rect x="1287" y="524" width="13" height="28" fill="url(#uncovered)"/>
+<path class="casing" d="M442.0 335.0H455.0"/>
+<path class="casing" d="M539.5 426.0 C543.8 423.7 548.2 419.0 552.5 419.0 C556.8 419.0 561.2 433.0 565.5 433.0 C569.8 433.0 574.2 422.5 578.5 419.0 C582.8 415.5 587.2 417.8 591.5 412.0 C595.8 406.2 600.2 394.5 604.5 384.0 C608.8 373.5 613.2 359.5 617.5 349.0 C621.8 338.5 626.2 326.8 630.5 321.0 C634.8 315.2 639.2 314.0 643.5 314.0 C647.8 314.0 652.2 342.0 656.5 342.0 C660.8 342.0 665.2 307.0 669.5 307.0 C673.8 307.0 678.2 339.7 682.5 356.0 C686.8 372.3 691.2 387.5 695.5 405.0 C699.8 422.5 704.2 442.3 708.5 461.0"/>
+<path class="casing" d="M988.0 510.0H1001.0"/>
 <path class="casing" d="M1111.5 391.0 C1115.8 379.3 1120.2 364.2 1124.5 356.0 C1128.8 347.8 1133.2 346.7 1137.5 342.0 C1141.8 337.3 1146.2 333.8 1150.5 328.0 C1154.8 322.2 1159.2 307.0 1163.5 307.0 C1167.8 307.0 1172.2 321.0 1176.5 321.0 C1180.8 321.0 1185.2 301.2 1189.5 293.0 C1193.8 284.8 1198.2 272.0 1202.5 272.0 C1206.8 272.0 1211.2 294.2 1215.5 300.0 C1219.8 305.8 1224.2 304.7 1228.5 307.0 C1232.8 309.3 1237.2 307.0 1241.5 314.0 C1245.8 321.0 1250.2 346.7 1254.5 363.0"/>
-<path class="casing" d="M1274.0 335.0H1287.0"/>
-<path class="casing" d="M1306.5 188.0 C1310.8 185.7 1315.2 186.8 1319.5 181.0 C1323.8 175.2 1328.2 161.2 1332.5 153.0 C1336.8 144.8 1341.2 139.0 1345.5 132.0"/>
+<path class="casing" d="M1280.5 335.0 C1284.8 318.7 1289.2 310.5 1293.5 286.0 C1297.8 261.5 1302.2 195.0 1306.5 188.0 C1310.8 181.0 1315.2 186.8 1319.5 181.0 C1323.8 175.2 1328.2 161.2 1332.5 153.0 C1336.8 144.8 1341.2 139.0 1345.5 132.0"/>
+<path class="line" d="M442.0 335.0H455.0"/>
+<path class="line" d="M539.5 426.0 C543.8 423.7 548.2 419.0 552.5 419.0 C556.8 419.0 561.2 433.0 565.5 433.0 C569.8 433.0 574.2 422.5 578.5 419.0 C582.8 415.5 587.2 417.8 591.5 412.0 C595.8 406.2 600.2 394.5 604.5 384.0 C608.8 373.5 613.2 359.5 617.5 349.0 C621.8 338.5 626.2 326.8 630.5 321.0 C634.8 315.2 639.2 314.0 643.5 314.0 C647.8 314.0 652.2 342.0 656.5 342.0 C660.8 342.0 665.2 307.0 669.5 307.0 C673.8 307.0 678.2 339.7 682.5 356.0 C686.8 372.3 691.2 387.5 695.5 405.0 C699.8 422.5 704.2 442.3 708.5 461.0"/>
+<path class="line" d="M988.0 510.0H1001.0"/>
 <path class="line" d="M1111.5 391.0 C1115.8 379.3 1120.2 364.2 1124.5 356.0 C1128.8 347.8 1133.2 346.7 1137.5 342.0 C1141.8 337.3 1146.2 333.8 1150.5 328.0 C1154.8 322.2 1159.2 307.0 1163.5 307.0 C1167.8 307.0 1172.2 321.0 1176.5 321.0 C1180.8 321.0 1185.2 301.2 1189.5 293.0 C1193.8 284.8 1198.2 272.0 1202.5 272.0 C1206.8 272.0 1211.2 294.2 1215.5 300.0 C1219.8 305.8 1224.2 304.7 1228.5 307.0 C1232.8 309.3 1237.2 307.0 1241.5 314.0 C1245.8 321.0 1250.2 346.7 1254.5 363.0"/>
-<path class="line" d="M1274.0 335.0H1287.0"/>
-<path class="line" d="M1306.5 188.0 C1310.8 185.7 1315.2 186.8 1319.5 181.0 C1323.8 175.2 1328.2 161.2 1332.5 153.0 C1336.8 144.8 1341.2 139.0 1345.5 132.0"/>
+<path class="line" d="M1280.5 335.0 C1284.8 318.7 1289.2 310.5 1293.5 286.0 C1297.8 261.5 1302.2 195.0 1306.5 188.0 C1310.8 181.0 1315.2 186.8 1319.5 181.0 C1323.8 175.2 1328.2 161.2 1332.5 153.0 C1336.8 144.8 1341.2 139.0 1345.5 132.0"/>
 <text class="ink2" x="93" y="128.0" text-anchor="end" font-size="10.5" font-weight="600" letter-spacing=".05em">TIER 1</text>
 <text class="ink2" x="93" y="233.0" text-anchor="end" font-size="10.5" font-weight="600" letter-spacing=".05em">TIER 2</text>
 <text class="ink2" x="93" y="345.0" text-anchor="end" font-size="10.5" font-weight="600" letter-spacing=".05em">TIER 3</text>
