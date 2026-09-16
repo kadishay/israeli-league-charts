@@ -458,10 +458,15 @@ def always_chart() -> list[str]:
 def played_as() -> dict[str, list[dict]]:
     """Club -> spells it played under another club's name.
 
-    Shimshon Tel Aviv spent 2000/01 to 2010/11 inside Beitar Shimshon Tel Aviv,
-    and those seasons are in the dataset under Beitar Tel Aviv. The chart draws
-    them as a second line rather than leaving eleven blank columns: the seasons
-    were played, just not under this club's own name.
+    Two shapes, told apart by whether the spell names a `rows_under` club:
+
+    * **Another club's rows.** Shimshon Tel Aviv spent 2000/01 to 2010/11 inside
+      Beitar Shimshon Tel Aviv, and those seasons sit under Beitar Tel Aviv. The
+      chart draws them rather than leaving eleven blank columns.
+    * **Its own rows, under an earlier name.** Ironi Tiberias played as Beitar
+      Tiberias until the 2004 merger, and the alias map folds those seasons into
+      one lineage - so the rows are already the club's own and only the label
+      changes. This is the "as Newton Heath" case on the English club charts.
     """
     d = json.loads((DATA / "club_status.json").read_text())
     return d.get("played_as", {})
@@ -1030,12 +1035,20 @@ def main() -> None:
         # was as much as it says where they finished.
         spells = []
         for spell in shared.get(club, []):
-            alt_colour, alt_casing = colors.get(spell["rows_under"], (None, None))
+            # No rows_under means the seasons are the club's own, under an
+            # earlier name; the line is the same history, relabelled.
+            source_club = spell.get("rows_under", club)
+            alt_colour, alt_casing = colors.get(
+                spell["rows_under"], (None, None)) if spell.get("rows_under") \
+                else (None, None)
             spells.append({
                 **spell,
-                "history": by_club[spell["rows_under"]],
-                "color": alt_colour or THEME["light"]["accent"],
-                "casing": alt_casing or THEME["light"]["accent_casing"],
+                "history": by_club[source_club],
+                # A former name with no colour on file is drawn in a neutral
+                # grey rather than borrowed from the club's modern kit: the
+                # point of the second line is that it was not yet this club.
+                "color": alt_colour or THEME["light"]["ink3"],
+                "casing": alt_casing or THEME["light"]["ink2"],
             })
         (OUT / f"{slug(club)}.svg").write_text(
             render(club, seasons, by_club[club], "en", inactive=spans,

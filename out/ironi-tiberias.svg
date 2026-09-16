@@ -5,6 +5,9 @@
   .line,.casing{fill:none;stroke-linecap:round;stroke-linejoin:round}
   .casing{stroke:#000099;stroke-width:4.4}
   .line{stroke:#0000FF;stroke-width:2.4}
+ .alt,.alt-casing{fill:none;stroke-linecap:butt;stroke-linejoin:round}
+  .alt-casing{stroke:#565F63;stroke-width:4.2}
+  .alt{stroke:#868F93;stroke-width:2.2;stroke-dasharray:5 3}
   .champ{fill:#A06A0A}
 </style>
 <defs>
@@ -493,6 +496,12 @@
 <rect x="1079" y="426" width="13" height="126" fill="url(#uncovered)"/>
 <rect x="1092" y="426" width="13" height="126" fill="url(#uncovered)"/>
 <rect x="1261" y="286" width="13" height="266" fill="url(#stopped)"/>
+<path class="alt-casing" d="M442.0 335.0H455.0"/>
+<path class="alt-casing" d="M539.5 426.0 C543.8 423.7 548.2 419.0 552.5 419.0 C556.8 419.0 561.2 433.0 565.5 433.0 C569.8 433.0 574.2 422.5 578.5 419.0 C582.8 415.5 587.2 417.8 591.5 412.0 C595.8 406.2 600.2 394.5 604.5 384.0 C608.8 373.5 613.2 359.5 617.5 349.0 C621.8 338.5 626.2 326.8 630.5 321.0 C634.8 315.2 639.2 314.0 643.5 314.0 C647.8 314.0 652.2 342.0 656.5 342.0 C660.8 342.0 665.2 307.0 669.5 307.0 C673.8 307.0 678.2 339.7 682.5 356.0 C686.8 372.3 691.2 387.5 695.5 405.0 C699.8 422.5 704.2 442.3 708.5 461.0"/>
+<path class="alt-casing" d="M988.0 510.0H1001.0"/>
+<path class="alt" d="M442.0 335.0H455.0"/>
+<path class="alt" d="M539.5 426.0 C543.8 423.7 548.2 419.0 552.5 419.0 C556.8 419.0 561.2 433.0 565.5 433.0 C569.8 433.0 574.2 422.5 578.5 419.0 C582.8 415.5 587.2 417.8 591.5 412.0 C595.8 406.2 600.2 394.5 604.5 384.0 C608.8 373.5 613.2 359.5 617.5 349.0 C621.8 338.5 626.2 326.8 630.5 321.0 C634.8 315.2 639.2 314.0 643.5 314.0 C647.8 314.0 652.2 342.0 656.5 342.0 C660.8 342.0 665.2 307.0 669.5 307.0 C673.8 307.0 678.2 339.7 682.5 356.0 C686.8 372.3 691.2 387.5 695.5 405.0 C699.8 422.5 704.2 442.3 708.5 461.0"/>
+<path class="alt" d="M988.0 510.0H1001.0"/>
 <path class="casing" d="M442.0 335.0H455.0"/>
 <path class="casing" d="M539.5 426.0 C543.8 423.7 548.2 419.0 552.5 419.0 C556.8 419.0 561.2 433.0 565.5 433.0 C569.8 433.0 574.2 422.5 578.5 419.0 C582.8 415.5 587.2 417.8 591.5 412.0 C595.8 406.2 600.2 394.5 604.5 384.0 C608.8 373.5 613.2 359.5 617.5 349.0 C621.8 338.5 626.2 326.8 630.5 321.0 C634.8 315.2 639.2 314.0 643.5 314.0 C647.8 314.0 652.2 342.0 656.5 342.0 C660.8 342.0 665.2 307.0 669.5 307.0 C673.8 307.0 678.2 339.7 682.5 356.0 C686.8 372.3 691.2 387.5 695.5 405.0 C699.8 422.5 704.2 442.3 708.5 461.0"/>
 <path class="casing" d="M988.0 510.0H1001.0"/>
@@ -534,11 +543,13 @@
 <text class="ink2" x="104" y="54" text-anchor="start" font-size="11.5">2 of 86 seasons in the top flight · best finish 9th</text>
 <text class="ink3" x="1352" y="33" text-anchor="end" font-size="9.5" letter-spacing=".08em">LEAGUE POSITION BY SEASON</text>
 <path class="casing" d="M104 592.5h16"/><path class="line" d="M104 592.5h16"/>
-<text class="ink2" x="126" y="596" text-anchor="start" font-size="10.5">Final league position</text>
-<rect x="416.0" y="587" width="16" height="11" fill="url(#stopped)"/>
-<text class="ink2" x="438.0" y="596" text-anchor="start" font-size="10.5">League abandoned mid-season</text>
-<rect x="728.0" y="587" width="16" height="11" fill="url(#uncovered)"/>
-<text class="ink2" x="750.0" y="596" text-anchor="start" font-size="10.5">No position recorded</text>
-<rect x="1040.0" y="587" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
-<text class="ink2" x="1062.0" y="596" text-anchor="start" font-size="10.5">Season not played</text>
+<text class="ink2" x="126" y="596" text-anchor="start" font-size="10.5">as Ironi Tiberias</text>
+<path class="alt-casing" d="M353.6 592.5h16"/><path class="alt" d="M353.6 592.5h16"/>
+<text class="ink2" x="375.6" y="596" text-anchor="start" font-size="10.5">as Beitar Tiberias</text>
+<rect x="603.2" y="587" width="16" height="11" fill="url(#stopped)"/>
+<text class="ink2" x="625.2" y="596" text-anchor="start" font-size="10.5">League abandoned mid-season</text>
+<rect x="852.8000000000001" y="587" width="16" height="11" fill="url(#uncovered)"/>
+<text class="ink2" x="874.8000000000001" y="596" text-anchor="start" font-size="10.5">No position recorded</text>
+<rect x="1102.4" y="587" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
+<text class="ink2" x="1124.4" y="596" text-anchor="start" font-size="10.5">Season not played</text>
 </svg>

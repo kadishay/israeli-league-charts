@@ -360,8 +360,18 @@ distinction is true, show it".
 
 ## 20. A second line is for a shared team, not for a merger
 
-A club's chart carries one line. The exception is a spell when its senior side took the
-field under **another club's name** and this project keeps the two apart — Shimshon Tel Aviv
+A club's chart carries one line. The exceptions both draw a dashed second line, and
+`played_as` in `club_status.json` tells them apart by whether the spell names a
+`rows_under` club.
+
+**Its own rows under an earlier name.** Ironi Tiberias was Beitar Tiberias until the 2004
+merger, and the alias map folds those seasons into one lineage — so the rows are already the
+club's, and only the label changes. This is the "as Newton Heath" case on the English club
+charts. A former name with no colour on file is drawn in neutral grey rather than the club's
+modern kit, because the point of the second line is that it was not yet this club.
+
+**Another club's rows.** A spell when a club's senior side took the field under **another
+club's name** and this project keeps the two apart — Shimshon Tel Aviv
 inside Beitar Shimshon Tel Aviv, 2000/01 to 2010/11. Those seasons are drawn as a dashed
 line in the other club's colour, with both lines named in the legend, because the
 alternative is eleven blank columns that say the club did not exist when in fact its players

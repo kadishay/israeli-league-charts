@@ -76,7 +76,11 @@
   "lineage and one line. It is for the case where two clubs shared one team and",
   "this project keeps them apart: 'from'/'to' are season start years and must sit",
   "inside an inactive span, because the club had no side of its own meanwhile.",
-  "'name_he' is the name as the Hebrew charts should print it; without it the Hebrew legend reads 'בתור' followed by a Latin name."
+  "'name_he' is the name as the Hebrew charts should print it; without it the Hebrew legend reads 'בתור' followed by a Latin name.",
+  "",
+  "A spell without 'rows_under' is the club's own history under an earlier name - the",
+  "alias map has already folded it into one lineage, so only the label changes. With",
+  "'rows_under' the rows belong to a different club entirely. Both draw a second line."
  ],
  "played_as": {
   "Shimshon Tel Aviv": [
@@ -88,6 +92,16 @@
     "rows_under": "Beitar Tel Aviv",
     "reason": "Shimshon merged with Beitar Tel Aviv in 2000 and the joint club played as Beitar Shimshon Tel Aviv. In 2011 it merged again, with Ironi Ramla, and was renamed Beitar Tel Aviv Ramla; Shimshon withdrew at that point and fielded no senior side until 2014. So the shared spell ends with 2010/11, not with the dormant span, which runs on to 2013.",
     "source": "he.wikipedia.org/wiki/שמשון תל אביב"
+   }
+  ],
+  "Ironi Tiberias": [
+   {
+    "from": 1955,
+    "to": 2005,
+    "name": "Beitar Tiberias",
+    "name_he": "בית\"ר טבריה",
+    "reason": "Founded in 1950 as Beitar Tiberias. It merged with Hapoel Mo'atza Ezorit Galil Tahton in 2004, played two seasons as Hapoel Galil Tahton/Tiberias, and took the name Ironi Tiberias in 2006. The span is drawn as one earlier-name segment and labelled with the name it carried for eighteen of those twenty recorded seasons; the two-season intermediate name is recorded here rather than given a third line and a third legend row, which would cost more than it tells.",
+    "source": "he.wikipedia.org/wiki/עירוני טבריה"
    }
   ]
  }
