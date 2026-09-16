@@ -217,7 +217,8 @@
     "commons": "Ironi Tiberias FC League Performance.svg",
     "article": "Ironi Tiberias F.C.",
     "placed": true,
-    "revision": 1375184961
+    "revision": 1375184961,
+    "caption_revision": 1375201313
    },
    "he": {
     "commons": "Ironi Tiberias FC League Performance (Hebrew).svg",
@@ -225,7 +226,8 @@
     "placed": false,
     "blocked_by": "he abuse filter 109",
     "requested_on_talk": "2026-09-16"
-   }
+   },
+   "note": "Re-uploaded 16 September 2026 after two data fixes: the 2021/22 Liga Alef North title, missing because the earlier IFA captures were South-only, and the club's history back to 1955/56 under its earlier name Beitar Tiberias. The Commons descriptions and the English article caption were updated to match, and the Hebrew talk-page request carries a follow-up note."
   },
   "Ironi Kiryat Shmona": {
    "slug": "ironi-kiryat-shmona",
