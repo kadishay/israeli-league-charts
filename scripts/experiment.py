@@ -60,12 +60,14 @@ def crop_y(seasons: list[dict], history: dict, keep_below: int = 1) -> list[dict
     return out
 
 
+# Fixed axes throughout: the shared x- and y-axis is what lets two clubs' charts
+# be compared side by side, and that comparability is the point of a set rather
+# than a single picture. The cropped variants stay available in crop_x/crop_y for
+# anyone who wants to weigh that trade again, but they are not offered here.
 VARIANTS = {
-    "1-current":      dict(),
-    "2-quiet":        dict(band_style="quiet"),
-    "3-cropped":      dict(crop="both"),
-    "4-cropped-quiet": dict(crop="both", band_style="quiet"),
-    "5-full":         dict(crop="both", band_style="quiet", positions="auto"),
+    "1-current": dict(),
+    "2-quiet":   dict(band_style="quiet"),
+    "3-modern":  dict(band_style="modern"),
 }
 
 
@@ -77,9 +79,10 @@ def main() -> None:
     names = R.hebrew_names()
 
     wanted = sys.argv[1:] or [
-        "Maccabi Tel Aviv",     # never left the top flight - the y-crop case
-        "Maccabi Bnei Reineh",  # founded 2005 - the x-crop case
-        "Hapoel Afula",         # moved between many leagues - said to be the best case
+        "Maccabi Tel Aviv",     # never relegated: one flat line near the top
+        "Hapoel Afula",         # moved between many leagues - the best case for a chart
+        "Maccabi Jaffa",        # the other case named in the review
+        "Hapoel Tel Aviv",      # a long record with a single relegation
     ]
     OUT.mkdir(parents=True, exist_ok=True)
     made = []

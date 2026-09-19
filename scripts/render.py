@@ -91,6 +91,11 @@ THEME = {
         # For band_style="quiet": two near-white tones alternating, so the tiers
         # are still countable without the grey mass dominating the picture.
         "quiet1": "#FAFBFB", "quiet2": "#F1F5F6", "tierline": "#D3DBDE",
+        # band_style="modern": no fills at all. The tiers are carried by a rule
+        # at each boundary and the label beside it, so the only filled thing on
+        # the chart is the club's line. Answers "the grey columns take up most
+        # of the area and it isn't clear what they mean" by removing them.
+        "modernline": "#E2E8EA",
         "rule": "#C9CFD1", "accent": "#007C99", "accent_casing": "#004A5C",
         "champion": "#A06A0A", "hatch": "#A9B2B6",
     },
@@ -627,9 +632,12 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
         "  .champ{fill:var(--champion)}",
         "  .grid{stroke:var(--grid);stroke-opacity:var(--grid_opacity);"
         "stroke-width:1;fill:none}",
+        *(["  .gridm{stroke:var(--modernline);stroke-width:1;fill:none}"]
+          if band_style == "modern" else []),
         # Only when used, so a chart that uses neither carries neither rule.
-        *(["  .tierline{stroke:var(--tierline);stroke-width:1;fill:none}"]
-          if band_style == "quiet" else []),
+        *([f"  .tierline{{stroke:var(--{'modernline' if band_style == 'modern' else 'tierline'});"
+           "stroke-width:1;fill:none}"]
+          if band_style in ("quiet", "modern") else []),
         *(["  .poslabel{fill:var(--ink2);font-size:6.5px;text-anchor:middle}"]
           if positions != "none" else []),
 
@@ -656,16 +664,25 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
 
     # ── Tier bands, per column, so the moving boundaries show as steps.
     quiet = band_style == "quiet"
+    modern = band_style == "modern"
     for i, s in enumerate(seasons):
         top = PAD_T
         for t, size in enumerate(s["bands"], start=1):
             bottom = y(sum(s["bands"][:t]) + 1)
-            fill = (f'var(--quiet{min(t, 2)})' if quiet else f'var(--band{t})')
-            out.append(f'<rect x="{x(i)}" y="{top}" width="{COL}" '
-                       f'height="{bottom - top}" fill="{fill}"/>')
-            if quiet and t > 1:
-                out.append(f'<path class="tierline" d="M{x(i)} {top + .5}'
-                           f'h{COL}"/>')
+            if modern:
+                # A boundary only, drawn per column so it still steps with the
+                # tier sizes the way the filled version does.
+                if t > 1:
+                    out.append(f'<path class="tierline" d="M{x(i)} {top + .5}'
+                               f'h{COL}"/>')
+            else:
+                fill = (f'var(--quiet{min(t, 2)})' if quiet
+                        else f'var(--band{t})')
+                out.append(f'<rect x="{x(i)}" y="{top}" width="{COL}" '
+                           f'height="{bottom - top}" fill="{fill}"/>')
+                if quiet and t > 1:
+                    out.append(f'<path class="tierline" d="M{x(i)} {top + .5}'
+                               f'h{COL}"/>')
             top = bottom
         # Everything below the last band is bare page, whether the pyramid
         # was shallower than four tiers - it was two deep in 1935 - or deeper.
@@ -683,7 +700,8 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
     for i, s in enumerate(seasons):
         if s["start"] % 10 == 0 and s["start"] not in seen_dec:
             seen_dec.add(s["start"])
-            out.append(f'<path class="grid" d="M{x(i) + .5} {PAD_T}V{floor}"/>')
+            cls = "gridm" if band_style == "modern" else "grid"
+            out.append(f'<path class="{cls}" d="M{x(i) + .5} {PAD_T}V{floor}"/>')
 
     # ── The club's own history.
     area, marks, out_pos = [], [], []

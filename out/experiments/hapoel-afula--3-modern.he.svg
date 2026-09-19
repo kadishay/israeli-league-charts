@@ -1,0 +1,441 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1364" height="630" viewBox="0 0 1364 630" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'DejaVu Sans', 'Liberation Sans', sans-serif" role="img" aria-label="הפועל עפולה, 1929/1930 – 2025/2026">
+<style>
+  .bg{fill:#FCFCFB} .ink{fill:#1A1D1F} .ink2{fill:#565F63}
+  .ink3{fill:#868F93} .rule{stroke:#C9CFD1}
+  .line,.casing{fill:none;stroke-linecap:round;stroke-linejoin:round}
+  .casing{stroke:#000060;stroke-width:4.4}
+  .line{stroke:#0000FF;stroke-width:2.4}
+  .champ{fill:#A06A0A}
+  .grid{stroke:#FFFFFF;stroke-opacity:0.55;stroke-width:1;fill:none}
+  .gridm{stroke:#E2E8EA;stroke-width:1;fill:none}
+  .tierline{stroke:#E2E8EA;stroke-width:1;fill:none}
+</style>
+<defs>
+  <pattern id="notplayed" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="7" stroke="#A9B2B6" stroke-width="1.4"/></pattern>
+  <pattern id="uncovered" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="1.4" cy="1.4" r="1" fill="#A9B2B6"/></pattern>
+  <pattern id="stopped" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#A9B2B6" fill-opacity=".55"/></pattern>
+  <pattern id="notier" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#FCFCFB"/></pattern>
+</defs>
+<rect class="bg" width="1364" height="630"/>
+<path class="tierline" d="M96 174.5h13"/>
+<rect x="96" y="286" width="13" height="266" fill="url(#notier)"/>
+<path class="tierline" d="M109 174.5h13"/>
+<rect x="109" y="286" width="13" height="266" fill="url(#notier)"/>
+<path class="tierline" d="M122 139.5h13"/>
+<rect x="122" y="251" width="13" height="301" fill="url(#notier)"/>
+<path class="tierline" d="M135 174.5h13"/>
+<rect x="135" y="286" width="13" height="266" fill="url(#notier)"/>
+<path class="tierline" d="M148 139.5h13"/>
+<rect x="148" y="251" width="13" height="301" fill="url(#notier)"/>
+<path class="tierline" d="M161 146.5h13"/>
+<rect x="161" y="258" width="13" height="294" fill="url(#notier)"/>
+<path class="tierline" d="M174 118.5h13"/>
+<rect x="174" y="230" width="13" height="322" fill="url(#notier)"/>
+<path class="tierline" d="M187 111.5h13"/>
+<rect x="187" y="146" width="13" height="406" fill="url(#notier)"/>
+<path class="tierline" d="M200 139.5h13"/>
+<rect x="200" y="181" width="13" height="371" fill="url(#notier)"/>
+<path class="tierline" d="M213 160.5h13"/>
+<rect x="213" y="272" width="13" height="280" fill="url(#notier)"/>
+<path class="tierline" d="M226 132.5h13"/>
+<rect x="226" y="202" width="13" height="350" fill="url(#notier)"/>
+<path class="tierline" d="M239 174.5h13"/>
+<rect x="239" y="286" width="13" height="266" fill="url(#notier)"/>
+<path class="tierline" d="M252 174.5h13"/>
+<rect x="252" y="223" width="13" height="329" fill="url(#notier)"/>
+<path class="tierline" d="M265 174.5h13"/>
+<rect x="265" y="286" width="13" height="266" fill="url(#notier)"/>
+<path class="tierline" d="M278 174.5h13"/>
+<rect x="278" y="272" width="13" height="280" fill="url(#notier)"/>
+<path class="tierline" d="M291 132.5h13"/>
+<rect x="291" y="244" width="13" height="308" fill="url(#notier)"/>
+<path class="tierline" d="M304 174.5h13"/>
+<rect x="304" y="286" width="13" height="266" fill="url(#notier)"/>
+<path class="tierline" d="M317 181.5h13"/>
+<rect x="317" y="272" width="13" height="280" fill="url(#notier)"/>
+<path class="tierline" d="M330 174.5h13"/>
+<rect x="330" y="286" width="13" height="266" fill="url(#notier)"/>
+<path class="tierline" d="M343 174.5h13"/>
+<rect x="343" y="286" width="13" height="266" fill="url(#notier)"/>
+<path class="tierline" d="M356 167.5h13"/>
+<rect x="356" y="230" width="13" height="322" fill="url(#notier)"/>
+<path class="tierline" d="M369 174.5h13"/>
+<rect x="369" y="286" width="13" height="266" fill="url(#notier)"/>
+<path class="tierline" d="M382 160.5h13"/>
+<path class="tierline" d="M382 258.5h13"/>
+<rect x="382" y="370" width="13" height="182" fill="url(#notier)"/>
+<path class="tierline" d="M395 174.5h13"/>
+<path class="tierline" d="M395 286.5h13"/>
+<rect x="395" y="398" width="13" height="154" fill="url(#notier)"/>
+<path class="tierline" d="M408 160.5h13"/>
+<path class="tierline" d="M408 258.5h13"/>
+<rect x="408" y="370" width="13" height="182" fill="url(#notier)"/>
+<path class="tierline" d="M421 174.5h13"/>
+<path class="tierline" d="M421 286.5h13"/>
+<path class="tierline" d="M421 370.5h13"/>
+<rect x="421" y="468" width="13" height="84" fill="url(#notier)"/>
+<path class="tierline" d="M434 160.5h13"/>
+<path class="tierline" d="M434 244.5h13"/>
+<path class="tierline" d="M434 328.5h13"/>
+<rect x="434" y="398" width="13" height="154" fill="url(#notier)"/>
+<path class="tierline" d="M447 146.5h13"/>
+<path class="tierline" d="M447 230.5h13"/>
+<path class="tierline" d="M447 321.5h13"/>
+<rect x="447" y="433" width="13" height="119" fill="url(#notier)"/>
+<path class="tierline" d="M460 160.5h13"/>
+<path class="tierline" d="M460 244.5h13"/>
+<path class="tierline" d="M460 328.5h13"/>
+<rect x="460" y="440" width="13" height="112" fill="url(#notier)"/>
+<path class="tierline" d="M473 160.5h13"/>
+<path class="tierline" d="M473 244.5h13"/>
+<path class="tierline" d="M473 328.5h13"/>
+<rect x="473" y="440" width="13" height="112" fill="url(#notier)"/>
+<path class="tierline" d="M486 160.5h13"/>
+<path class="tierline" d="M486 258.5h13"/>
+<path class="tierline" d="M486 370.5h13"/>
+<rect x="486" y="482" width="13" height="70" fill="url(#notier)"/>
+<path class="tierline" d="M499 160.5h13"/>
+<path class="tierline" d="M499 258.5h13"/>
+<path class="tierline" d="M499 370.5h13"/>
+<rect x="499" y="482" width="13" height="70" fill="url(#notier)"/>
+<path class="tierline" d="M512 160.5h13"/>
+<path class="tierline" d="M512 258.5h13"/>
+<path class="tierline" d="M512 370.5h13"/>
+<rect x="512" y="482" width="13" height="70" fill="url(#notier)"/>
+<path class="tierline" d="M525 160.5h13"/>
+<path class="tierline" d="M525 272.5h13"/>
+<path class="tierline" d="M525 384.5h13"/>
+<rect x="525" y="489" width="13" height="63" fill="url(#notier)"/>
+<path class="tierline" d="M538 181.5h13"/>
+<path class="tierline" d="M538 279.5h13"/>
+<path class="tierline" d="M538 391.5h13"/>
+<rect x="538" y="482" width="13" height="70" fill="url(#notier)"/>
+<path class="tierline" d="M551 188.5h13"/>
+<path class="tierline" d="M551 300.5h13"/>
+<path class="tierline" d="M551 412.5h13"/>
+<rect x="551" y="510" width="13" height="42" fill="url(#notier)"/>
+<path class="tierline" d="M564 188.5h13"/>
+<path class="tierline" d="M564 300.5h13"/>
+<path class="tierline" d="M564 412.5h13"/>
+<rect x="564" y="517" width="13" height="35" fill="url(#notier)"/>
+<path class="tierline" d="M577 188.5h13"/>
+<path class="tierline" d="M577 300.5h13"/>
+<path class="tierline" d="M577 412.5h13"/>
+<rect x="577" y="510" width="13" height="42" fill="url(#notier)"/>
+<path class="tierline" d="M590 188.5h13"/>
+<path class="tierline" d="M590 300.5h13"/>
+<path class="tierline" d="M590 412.5h13"/>
+<rect x="590" y="524" width="13" height="28" fill="url(#notier)"/>
+<path class="tierline" d="M603 188.5h13"/>
+<path class="tierline" d="M603 300.5h13"/>
+<path class="tierline" d="M603 412.5h13"/>
+<rect x="603" y="524" width="13" height="28" fill="url(#notier)"/>
+<path class="tierline" d="M616 188.5h13"/>
+<path class="tierline" d="M616 300.5h13"/>
+<path class="tierline" d="M616 412.5h13"/>
+<rect x="616" y="524" width="13" height="28" fill="url(#notier)"/>
+<path class="tierline" d="M629 188.5h13"/>
+<path class="tierline" d="M629 300.5h13"/>
+<path class="tierline" d="M629 412.5h13"/>
+<rect x="629" y="524" width="13" height="28" fill="url(#notier)"/>
+<path class="tierline" d="M642 188.5h13"/>
+<path class="tierline" d="M642 300.5h13"/>
+<path class="tierline" d="M642 412.5h13"/>
+<rect x="642" y="524" width="13" height="28" fill="url(#notier)"/>
+<path class="tierline" d="M655 188.5h13"/>
+<path class="tierline" d="M655 300.5h13"/>
+<path class="tierline" d="M655 412.5h13"/>
+<rect x="655" y="524" width="13" height="28" fill="url(#notier)"/>
+<path class="tierline" d="M668 188.5h13"/>
+<path class="tierline" d="M668 300.5h13"/>
+<path class="tierline" d="M668 412.5h13"/>
+<rect x="668" y="524" width="13" height="28" fill="url(#notier)"/>
+<path class="tierline" d="M681 202.5h13"/>
+<path class="tierline" d="M681 321.5h13"/>
+<path class="tierline" d="M681 426.5h13"/>
+<rect x="681" y="538" width="13" height="14" fill="url(#notier)"/>
+<path class="tierline" d="M694 188.5h13"/>
+<path class="tierline" d="M694 272.5h13"/>
+<path class="tierline" d="M694 370.5h13"/>
+<rect x="694" y="468" width="13" height="84" fill="url(#notier)"/>
+<path class="tierline" d="M707 174.5h13"/>
+<path class="tierline" d="M707 272.5h13"/>
+<path class="tierline" d="M707 370.5h13"/>
+<rect x="707" y="468" width="13" height="84" fill="url(#notier)"/>
+<path class="tierline" d="M720 188.5h13"/>
+<path class="tierline" d="M720 300.5h13"/>
+<path class="tierline" d="M720 398.5h13"/>
+<rect x="720" y="496" width="13" height="56" fill="url(#notier)"/>
+<path class="tierline" d="M733 188.5h13"/>
+<path class="tierline" d="M733 300.5h13"/>
+<path class="tierline" d="M733 398.5h13"/>
+<rect x="733" y="496" width="13" height="56" fill="url(#notier)"/>
+<path class="tierline" d="M746 188.5h13"/>
+<path class="tierline" d="M746 300.5h13"/>
+<path class="tierline" d="M746 398.5h13"/>
+<rect x="746" y="496" width="13" height="56" fill="url(#notier)"/>
+<path class="tierline" d="M759 188.5h13"/>
+<path class="tierline" d="M759 300.5h13"/>
+<path class="tierline" d="M759 398.5h13"/>
+<rect x="759" y="496" width="13" height="56" fill="url(#notier)"/>
+<path class="tierline" d="M772 188.5h13"/>
+<path class="tierline" d="M772 300.5h13"/>
+<path class="tierline" d="M772 398.5h13"/>
+<rect x="772" y="496" width="13" height="56" fill="url(#notier)"/>
+<path class="tierline" d="M785 188.5h13"/>
+<path class="tierline" d="M785 300.5h13"/>
+<path class="tierline" d="M785 398.5h13"/>
+<rect x="785" y="496" width="13" height="56" fill="url(#notier)"/>
+<path class="tierline" d="M798 188.5h13"/>
+<path class="tierline" d="M798 300.5h13"/>
+<path class="tierline" d="M798 398.5h13"/>
+<rect x="798" y="496" width="13" height="56" fill="url(#notier)"/>
+<path class="tierline" d="M811 188.5h13"/>
+<path class="tierline" d="M811 300.5h13"/>
+<path class="tierline" d="M811 398.5h13"/>
+<rect x="811" y="496" width="13" height="56" fill="url(#notier)"/>
+<path class="tierline" d="M824 188.5h13"/>
+<path class="tierline" d="M824 300.5h13"/>
+<path class="tierline" d="M824 398.5h13"/>
+<rect x="824" y="496" width="13" height="56" fill="url(#notier)"/>
+<path class="tierline" d="M837 174.5h13"/>
+<path class="tierline" d="M837 272.5h13"/>
+<path class="tierline" d="M837 384.5h13"/>
+<rect x="837" y="482" width="13" height="70" fill="url(#notier)"/>
+<path class="tierline" d="M850 174.5h13"/>
+<path class="tierline" d="M850 272.5h13"/>
+<path class="tierline" d="M850 384.5h13"/>
+<rect x="850" y="482" width="13" height="70" fill="url(#notier)"/>
+<path class="tierline" d="M863 160.5h13"/>
+<path class="tierline" d="M863 272.5h13"/>
+<path class="tierline" d="M863 384.5h13"/>
+<rect x="863" y="496" width="13" height="56" fill="url(#notier)"/>
+<path class="tierline" d="M876 160.5h13"/>
+<path class="tierline" d="M876 272.5h13"/>
+<path class="tierline" d="M876 384.5h13"/>
+<rect x="876" y="496" width="13" height="56" fill="url(#notier)"/>
+<path class="tierline" d="M889 160.5h13"/>
+<path class="tierline" d="M889 272.5h13"/>
+<path class="tierline" d="M889 384.5h13"/>
+<rect x="889" y="496" width="13" height="56" fill="url(#notier)"/>
+<path class="tierline" d="M902 160.5h13"/>
+<path class="tierline" d="M902 272.5h13"/>
+<path class="tierline" d="M902 384.5h13"/>
+<rect x="902" y="496" width="13" height="56" fill="url(#notier)"/>
+<path class="tierline" d="M915 174.5h13"/>
+<path class="tierline" d="M915 286.5h13"/>
+<path class="tierline" d="M915 398.5h13"/>
+<rect x="915" y="510" width="13" height="42" fill="url(#notier)"/>
+<path class="tierline" d="M928 188.5h13"/>
+<path class="tierline" d="M928 300.5h13"/>
+<path class="tierline" d="M928 412.5h13"/>
+<rect x="928" y="524" width="13" height="28" fill="url(#notier)"/>
+<path class="tierline" d="M941 188.5h13"/>
+<path class="tierline" d="M941 300.5h13"/>
+<path class="tierline" d="M941 412.5h13"/>
+<rect x="941" y="524" width="13" height="28" fill="url(#notier)"/>
+<path class="tierline" d="M954 188.5h13"/>
+<path class="tierline" d="M954 300.5h13"/>
+<path class="tierline" d="M954 412.5h13"/>
+<rect x="954" y="524" width="13" height="28" fill="url(#notier)"/>
+<path class="tierline" d="M967 188.5h13"/>
+<path class="tierline" d="M967 300.5h13"/>
+<path class="tierline" d="M967 412.5h13"/>
+<rect x="967" y="524" width="13" height="28" fill="url(#notier)"/>
+<path class="tierline" d="M980 188.5h13"/>
+<path class="tierline" d="M980 300.5h13"/>
+<path class="tierline" d="M980 412.5h13"/>
+<rect x="980" y="524" width="13" height="28" fill="url(#notier)"/>
+<path class="tierline" d="M993 174.5h13"/>
+<path class="tierline" d="M993 244.5h13"/>
+<path class="tierline" d="M993 328.5h13"/>
+<rect x="993" y="426" width="13" height="126" fill="url(#notier)"/>
+<path class="tierline" d="M1006 160.5h13"/>
+<path class="tierline" d="M1006 244.5h13"/>
+<path class="tierline" d="M1006 328.5h13"/>
+<rect x="1006" y="433" width="13" height="119" fill="url(#notier)"/>
+<path class="tierline" d="M1019 160.5h13"/>
+<path class="tierline" d="M1019 244.5h13"/>
+<path class="tierline" d="M1019 328.5h13"/>
+<rect x="1019" y="433" width="13" height="119" fill="url(#notier)"/>
+<path class="tierline" d="M1032 160.5h13"/>
+<path class="tierline" d="M1032 244.5h13"/>
+<path class="tierline" d="M1032 328.5h13"/>
+<rect x="1032" y="426" width="13" height="126" fill="url(#notier)"/>
+<path class="tierline" d="M1045 160.5h13"/>
+<path class="tierline" d="M1045 244.5h13"/>
+<path class="tierline" d="M1045 328.5h13"/>
+<rect x="1045" y="426" width="13" height="126" fill="url(#notier)"/>
+<path class="tierline" d="M1058 160.5h13"/>
+<path class="tierline" d="M1058 244.5h13"/>
+<path class="tierline" d="M1058 328.5h13"/>
+<rect x="1058" y="426" width="13" height="126" fill="url(#notier)"/>
+<path class="tierline" d="M1071 160.5h13"/>
+<path class="tierline" d="M1071 244.5h13"/>
+<path class="tierline" d="M1071 328.5h13"/>
+<rect x="1071" y="426" width="13" height="126" fill="url(#notier)"/>
+<path class="tierline" d="M1084 160.5h13"/>
+<path class="tierline" d="M1084 244.5h13"/>
+<path class="tierline" d="M1084 328.5h13"/>
+<rect x="1084" y="426" width="13" height="126" fill="url(#notier)"/>
+<path class="tierline" d="M1097 160.5h13"/>
+<path class="tierline" d="M1097 244.5h13"/>
+<path class="tierline" d="M1097 328.5h13"/>
+<rect x="1097" y="426" width="13" height="126" fill="url(#notier)"/>
+<path class="tierline" d="M1110 160.5h13"/>
+<path class="tierline" d="M1110 244.5h13"/>
+<path class="tierline" d="M1110 328.5h13"/>
+<rect x="1110" y="426" width="13" height="126" fill="url(#notier)"/>
+<path class="tierline" d="M1123 188.5h13"/>
+<path class="tierline" d="M1123 300.5h13"/>
+<path class="tierline" d="M1123 412.5h13"/>
+<rect x="1123" y="524" width="13" height="28" fill="url(#notier)"/>
+<path class="tierline" d="M1136 188.5h13"/>
+<path class="tierline" d="M1136 300.5h13"/>
+<path class="tierline" d="M1136 412.5h13"/>
+<rect x="1136" y="524" width="13" height="28" fill="url(#notier)"/>
+<path class="tierline" d="M1149 188.5h13"/>
+<path class="tierline" d="M1149 300.5h13"/>
+<path class="tierline" d="M1149 412.5h13"/>
+<rect x="1149" y="524" width="13" height="28" fill="url(#notier)"/>
+<path class="tierline" d="M1162 174.5h13"/>
+<path class="tierline" d="M1162 286.5h13"/>
+<path class="tierline" d="M1162 398.5h13"/>
+<rect x="1162" y="510" width="13" height="42" fill="url(#notier)"/>
+<path class="tierline" d="M1175 174.5h13"/>
+<path class="tierline" d="M1175 286.5h13"/>
+<path class="tierline" d="M1175 398.5h13"/>
+<rect x="1175" y="510" width="13" height="42" fill="url(#notier)"/>
+<path class="tierline" d="M1188 174.5h13"/>
+<path class="tierline" d="M1188 286.5h13"/>
+<path class="tierline" d="M1188 398.5h13"/>
+<rect x="1188" y="510" width="13" height="42" fill="url(#notier)"/>
+<path class="tierline" d="M1201 174.5h13"/>
+<path class="tierline" d="M1201 286.5h13"/>
+<path class="tierline" d="M1201 398.5h13"/>
+<rect x="1201" y="510" width="13" height="42" fill="url(#notier)"/>
+<path class="tierline" d="M1214 174.5h13"/>
+<path class="tierline" d="M1214 286.5h13"/>
+<path class="tierline" d="M1214 398.5h13"/>
+<rect x="1214" y="510" width="13" height="42" fill="url(#notier)"/>
+<path class="tierline" d="M1227 174.5h13"/>
+<path class="tierline" d="M1227 286.5h13"/>
+<path class="tierline" d="M1227 398.5h13"/>
+<rect x="1227" y="510" width="13" height="42" fill="url(#notier)"/>
+<path class="tierline" d="M1240 174.5h13"/>
+<path class="tierline" d="M1240 286.5h13"/>
+<path class="tierline" d="M1240 398.5h13"/>
+<rect x="1240" y="510" width="13" height="42" fill="url(#notier)"/>
+<path class="tierline" d="M1253 174.5h13"/>
+<path class="tierline" d="M1253 286.5h13"/>
+<path class="tierline" d="M1253 398.5h13"/>
+<rect x="1253" y="510" width="13" height="42" fill="url(#notier)"/>
+<path class="tierline" d="M1266 174.5h13"/>
+<path class="tierline" d="M1266 286.5h13"/>
+<path class="tierline" d="M1266 349.5h13"/>
+<rect x="1266" y="412" width="13" height="140" fill="url(#notier)"/>
+<path class="tierline" d="M1279 174.5h13"/>
+<path class="tierline" d="M1279 286.5h13"/>
+<path class="tierline" d="M1279 412.5h13"/>
+<rect x="1279" y="524" width="13" height="28" fill="url(#notier)"/>
+<path class="tierline" d="M1292 174.5h13"/>
+<path class="tierline" d="M1292 286.5h13"/>
+<path class="tierline" d="M1292 398.5h13"/>
+<rect x="1292" y="510" width="13" height="42" fill="url(#notier)"/>
+<path class="tierline" d="M1305 174.5h13"/>
+<path class="tierline" d="M1305 286.5h13"/>
+<path class="tierline" d="M1305 398.5h13"/>
+<rect x="1305" y="510" width="13" height="42" fill="url(#notier)"/>
+<path class="tierline" d="M1318 174.5h13"/>
+<path class="tierline" d="M1318 286.5h13"/>
+<path class="tierline" d="M1318 405.5h13"/>
+<rect x="1318" y="517" width="13" height="35" fill="url(#notier)"/>
+<path class="tierline" d="M1331 174.5h13"/>
+<path class="tierline" d="M1331 286.5h13"/>
+<path class="tierline" d="M1331 398.5h13"/>
+<rect x="1331" y="510" width="13" height="42" fill="url(#notier)"/>
+<path class="gridm" d="M109.5 76V552"/>
+<path class="gridm" d="M226.5 76V552"/>
+<path class="gridm" d="M369.5 76V552"/>
+<path class="gridm" d="M499.5 76V552"/>
+<path class="gridm" d="M616.5 76V552"/>
+<path class="gridm" d="M746.5 76V552"/>
+<path class="gridm" d="M876.5 76V552"/>
+<path class="gridm" d="M1006.5 76V552"/>
+<path class="gridm" d="M1136.5 76V552"/>
+<path class="gridm" d="M1266.5 76V552"/>
+<rect x="96" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect x="109" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect x="135" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect x="239" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect x="265" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect x="304" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect x="330" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect x="343" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect x="369" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect x="395" y="76" width="13" height="476" fill="url(#notplayed)" fill-opacity=".8"/>
+<rect x="707" y="468" width="13" height="84" fill="url(#uncovered)"/>
+<rect x="785" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="798" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="811" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="824" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="837" y="482" width="13" height="70" fill="url(#uncovered)"/>
+<rect x="850" y="482" width="13" height="70" fill="url(#uncovered)"/>
+<rect x="863" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="876" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="889" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="902" y="496" width="13" height="56" fill="url(#uncovered)"/>
+<rect x="915" y="510" width="13" height="42" fill="url(#uncovered)"/>
+<rect x="928" y="524" width="13" height="28" fill="url(#uncovered)"/>
+<rect x="941" y="524" width="13" height="28" fill="url(#uncovered)"/>
+<rect x="954" y="524" width="13" height="28" fill="url(#uncovered)"/>
+<rect x="967" y="524" width="13" height="28" fill="url(#uncovered)"/>
+<rect x="980" y="524" width="13" height="28" fill="url(#uncovered)"/>
+<rect x="993" y="426" width="13" height="126" fill="url(#uncovered)"/>
+<rect x="1006" y="433" width="13" height="119" fill="url(#uncovered)"/>
+<rect x="1019" y="433" width="13" height="119" fill="url(#uncovered)"/>
+<rect x="1032" y="426" width="13" height="126" fill="url(#uncovered)"/>
+<rect x="1045" y="426" width="13" height="126" fill="url(#uncovered)"/>
+<path class="casing" d="M466.5 223.0 C470.8 227.7 475.2 230.0 479.5 237.0 C483.8 244.0 488.2 252.2 492.5 265.0 C496.8 277.8 501.2 303.5 505.5 314.0 C509.8 324.5 514.2 328.0 518.5 328.0 C522.8 328.0 527.2 307.0 531.5 307.0 C535.8 307.0 540.2 335.0 544.5 335.0 C548.8 335.0 553.2 321.0 557.5 321.0 C561.8 321.0 566.2 384.0 570.5 384.0 C574.8 384.0 579.2 342.0 583.5 342.0 C587.8 342.0 592.2 391.0 596.5 391.0 C600.8 391.0 605.2 368.8 609.5 356.0 C613.8 343.2 618.2 314.0 622.5 314.0 C626.8 314.0 631.2 384.0 635.5 384.0 C639.8 384.0 644.2 335.0 648.5 328.0 C652.8 321.0 657.2 321.0 661.5 321.0 C665.8 321.0 670.2 370.0 674.5 377.0 C678.8 384.0 683.2 377.0 687.5 384.0 C691.8 391.0 696.2 435.3 700.5 461.0"/>
+<path class="casing" d="M726.5 405.0 C730.8 416.7 735.2 440.0 739.5 440.0 C743.8 440.0 748.2 440.0 752.5 440.0 C756.8 440.0 761.2 440.0 765.5 440.0 C769.8 440.0 774.2 430.7 778.5 426.0"/>
+<path class="casing" d="M1064.5 356.0 C1068.8 356.0 1073.2 356.0 1077.5 356.0 C1081.8 356.0 1086.2 356.0 1090.5 356.0 C1094.8 356.0 1099.2 370.0 1103.5 377.0 C1107.8 384.0 1112.2 398.0 1116.5 398.0 C1120.8 398.0 1125.2 314.0 1129.5 314.0 C1133.8 314.0 1138.2 321.0 1142.5 321.0 C1146.8 321.0 1151.2 319.8 1155.5 314.0 C1159.8 308.2 1164.2 303.5 1168.5 286.0 C1172.8 268.5 1177.2 223.0 1181.5 209.0 C1185.8 195.0 1190.2 195.0 1194.5 195.0 C1198.8 195.0 1203.2 244.0 1207.5 244.0 C1211.8 244.0 1216.2 244.0 1220.5 244.0 C1224.8 244.0 1229.2 230.0 1233.5 223.0 C1237.8 216.0 1242.2 202.0 1246.5 202.0 C1250.8 202.0 1255.2 265.0 1259.5 265.0 C1263.8 265.0 1268.2 230.0 1272.5 230.0 C1276.8 230.0 1281.2 237.0 1285.5 237.0 C1289.8 237.0 1294.2 237.0 1298.5 237.0 C1302.8 237.0 1307.2 245.2 1311.5 251.0 C1315.8 256.8 1320.2 272.0 1324.5 272.0 C1328.8 272.0 1333.2 253.3 1337.5 244.0"/>
+<path class="line" d="M466.5 223.0 C470.8 227.7 475.2 230.0 479.5 237.0 C483.8 244.0 488.2 252.2 492.5 265.0 C496.8 277.8 501.2 303.5 505.5 314.0 C509.8 324.5 514.2 328.0 518.5 328.0 C522.8 328.0 527.2 307.0 531.5 307.0 C535.8 307.0 540.2 335.0 544.5 335.0 C548.8 335.0 553.2 321.0 557.5 321.0 C561.8 321.0 566.2 384.0 570.5 384.0 C574.8 384.0 579.2 342.0 583.5 342.0 C587.8 342.0 592.2 391.0 596.5 391.0 C600.8 391.0 605.2 368.8 609.5 356.0 C613.8 343.2 618.2 314.0 622.5 314.0 C626.8 314.0 631.2 384.0 635.5 384.0 C639.8 384.0 644.2 335.0 648.5 328.0 C652.8 321.0 657.2 321.0 661.5 321.0 C665.8 321.0 670.2 370.0 674.5 377.0 C678.8 384.0 683.2 377.0 687.5 384.0 C691.8 391.0 696.2 435.3 700.5 461.0"/>
+<path class="line" d="M726.5 405.0 C730.8 416.7 735.2 440.0 739.5 440.0 C743.8 440.0 748.2 440.0 752.5 440.0 C756.8 440.0 761.2 440.0 765.5 440.0 C769.8 440.0 774.2 430.7 778.5 426.0"/>
+<path class="line" d="M1064.5 356.0 C1068.8 356.0 1073.2 356.0 1077.5 356.0 C1081.8 356.0 1086.2 356.0 1090.5 356.0 C1094.8 356.0 1099.2 370.0 1103.5 377.0 C1107.8 384.0 1112.2 398.0 1116.5 398.0 C1120.8 398.0 1125.2 314.0 1129.5 314.0 C1133.8 314.0 1138.2 321.0 1142.5 321.0 C1146.8 321.0 1151.2 319.8 1155.5 314.0 C1159.8 308.2 1164.2 303.5 1168.5 286.0 C1172.8 268.5 1177.2 223.0 1181.5 209.0 C1185.8 195.0 1190.2 195.0 1194.5 195.0 C1198.8 195.0 1203.2 244.0 1207.5 244.0 C1211.8 244.0 1216.2 244.0 1220.5 244.0 C1224.8 244.0 1229.2 230.0 1233.5 223.0 C1237.8 216.0 1242.2 202.0 1246.5 202.0 C1250.8 202.0 1255.2 265.0 1259.5 265.0 C1263.8 265.0 1268.2 230.0 1272.5 230.0 C1276.8 230.0 1281.2 237.0 1285.5 237.0 C1289.8 237.0 1294.2 237.0 1298.5 237.0 C1302.8 237.0 1307.2 245.2 1311.5 251.0 C1315.8 256.8 1320.2 272.0 1324.5 272.0 C1328.8 272.0 1333.2 253.3 1337.5 244.0"/>
+<text class="ink2" x="85" y="128.0" text-anchor="start" font-size="10.5" font-weight="600" direction="rtl" letter-spacing=".05em">דרג 1</text>
+<text class="ink2" x="85" y="233.0" text-anchor="start" font-size="10.5" font-weight="600" direction="rtl" letter-spacing=".05em">דרג 2</text>
+<text class="ink2" x="85" y="345.0" text-anchor="start" font-size="10.5" font-weight="600" direction="rtl" letter-spacing=".05em">דרג 3</text>
+<text class="ink2" x="85" y="457.0" text-anchor="start" font-size="10.5" font-weight="600" direction="rtl" letter-spacing=".05em">דרג 4</text>
+<path class="rule" d="M96 552.5h1248" fill="none"/>
+<path class="rule" d="M96 552v5" fill="none"/>
+<text class="ink3" x="96" y="569" text-anchor="start" font-size="10.5">29/30</text>
+<path class="rule" d="M232.5 552v5" fill="none"/>
+<text class="ink3" x="232.5" y="569" text-anchor="middle" font-size="10.5">1940</text>
+<path class="rule" d="M375.5 552v5" fill="none"/>
+<text class="ink3" x="375.5" y="569" text-anchor="middle" font-size="10.5">1950</text>
+<path class="rule" d="M505.5 552v5" fill="none"/>
+<text class="ink3" x="505.5" y="569" text-anchor="middle" font-size="10.5">1960</text>
+<path class="rule" d="M622.5 552v5" fill="none"/>
+<text class="ink3" x="622.5" y="569" text-anchor="middle" font-size="10.5">1970</text>
+<path class="rule" d="M752.5 552v5" fill="none"/>
+<text class="ink3" x="752.5" y="569" text-anchor="middle" font-size="10.5">1980</text>
+<path class="rule" d="M882.5 552v5" fill="none"/>
+<text class="ink3" x="882.5" y="569" text-anchor="middle" font-size="10.5">1990</text>
+<path class="rule" d="M1012.5 552v5" fill="none"/>
+<text class="ink3" x="1012.5" y="569" text-anchor="middle" font-size="10.5">2000</text>
+<path class="rule" d="M1142.5 552v5" fill="none"/>
+<text class="ink3" x="1142.5" y="569" text-anchor="middle" font-size="10.5">2010</text>
+<path class="rule" d="M1272.5 552v5" fill="none"/>
+<text class="ink3" x="1272.5" y="569" text-anchor="middle" font-size="10.5">2020</text>
+<path class="rule" d="M1344 552v5" fill="none"/>
+<text class="ink3" x="1344" y="569" text-anchor="end" font-size="10.5">25/26</text>
+<text class="ink" x="96" y="33" text-anchor="end" font-size="19" font-weight="600" direction="rtl" letter-spacing="-.01em">הפועל עפולה</text>
+<text class="ink2" x="96" y="54" text-anchor="end" font-size="11.5" direction="rtl">49 עונות רשומות · הדרג הגבוה ביותר: דרג 2</text>
+<text class="ink3" x="1344" y="33" text-anchor="start" font-size="9.5" direction="rtl" letter-spacing=".08em">מיקום בליגה לפי עונה</text>
+<path class="casing" d="M96 592.5h16"/><path class="line" d="M96 592.5h16"/>
+<text class="ink2" x="118" y="596" text-anchor="end" font-size="10.5" direction="rtl">מיקום סופי בליגה</text>
+<rect x="512.0" y="587" width="16" height="11" fill="url(#uncovered)"/>
+<text class="ink2" x="534.0" y="596" text-anchor="end" font-size="10.5" direction="rtl">לא נרשם מיקום</text>
+<rect x="928.0" y="587" width="16" height="11" fill="url(#notplayed)" fill-opacity=".8"/>
+<text class="ink2" x="950.0" y="596" text-anchor="end" font-size="10.5" direction="rtl">העונה לא התקיימה</text>
+</svg>

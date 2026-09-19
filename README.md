@@ -65,6 +65,66 @@ move: "Liga Alef" on a 1960 column and on a 2015 column are different depths.
 | `scripts/build.py` | Merge the sources, checking every row against `structure.json`. |
 | `scripts/render.py` | `data/seasons.csv` → one SVG per club, plus the gallery page. |
 
+## Running it, and updating a season
+
+No dependencies beyond Python 3 — no packages to install, no build step. Every script is
+standard library only.
+
+```sh
+git clone https://github.com/kadishay/israeli-league-charts
+cd israeli-league-charts
+python3 scripts/render.py          # rebuild every chart from the committed dataset
+```
+
+That last line is the whole thing if you only want the pictures: `data/seasons.csv` is
+committed, so rendering needs no network at all.
+
+### Adding a finished season
+
+```sh
+python3 scripts/fetch.py           # cache RSSSF
+python3 scripts/fetch_he.py        # cache the Hebrew Wikipedia season articles
+python3 scripts/fetch_en.py        # cache the English ones
+python3 scripts/parse.py           # each source -> data/raw/parsed/*.csv
+python3 scripts/parse_he.py
+python3 scripts/parse_en.py
+python3 scripts/parse_ifa.py       # the hand-captured IFA tables; no fetch, see SOURCES.md
+python3 scripts/build.py           # merge, validate -> data/seasons.csv
+python3 scripts/render.py          # -> out/*.svg and the two gallery pages
+```
+
+Three things to do first, or the new season will not appear:
+
+1. Bump `LAST_SEASON` in `scripts/render.py`.
+2. Wait until every position is final. A league still in progress must not be charted as
+   though it had finished — that is decision 17.
+3. Check `always_chart` in `data/club_status.json` if a club was promoted into the top two
+   tiers from a tier whose coverage has stopped.
+
+`build.py` checks every row against `data/structure.json` and refuses anything impossible —
+a league that did not exist at that tier in that season, a season that was never played, a
+position predating the club. Those checks are the reason to run the pipeline rather than
+edit the CSV by hand.
+
+### Updating the charts already on Wikipedia
+
+**An update is a Commons re-upload under the same file name.** No article is edited: the
+article references a name, and Commons serves whatever version that name currently holds.
+`data/wikipedia.json` lists every published chart — club, language, Commons file, article —
+and `docs/WIKIPEDIA.md` has the procedure. So a season update is: run the pipeline, commit,
+re-upload the changed files.
+
+### Trying a different design
+
+```sh
+python3 scripts/experiment.py                   # a few clubs, every band style
+python3 scripts/experiment.py "Maccabi Haifa"   # one club
+```
+
+Writes to `out/experiments/`, which nothing publishes. `scripts/render.py` takes
+`band_style` (`solid`, `quiet`, `modern`) and `positions`; `scripts/experiment.py` also has
+`crop_x` and `crop_y` for the axis-cropping question discussed in `docs/DESIGN.md`.
+
 ## Picking this up again
 
 Where things stand, and what is worth knowing before changing anything:

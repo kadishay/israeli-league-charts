@@ -1,0 +1,35 @@
+<title>הצעות עיצוב לגרפי מיקומי קבוצות</title>
+<style>
+ :root{--paper:#F6F4EF;--surface:#FFFDF9;--ink:#191C1E;--ink2:#4C5559;--rule:#DDD8CD;color-scheme:light}
+ body{background:var(--paper);color:var(--ink);margin:0;direction:rtl;
+   padding:clamp(1.5rem,5vw,3rem) clamp(1rem,4vw,2rem) 4rem;
+   font:16px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Roboto,"DejaVu Sans",sans-serif}
+ .wrap{max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:2rem}
+ h1{font-size:clamp(1.4rem,4vw,2rem);line-height:1.2;margin:0;font-weight:600}
+ p.lead{margin:0;max-width:62ch;color:var(--ink2)}
+ section{display:flex;flex-direction:column;gap:.8rem}
+ h2{font-size:1.05rem;margin:0;font-weight:600;border-bottom:1px solid var(--rule);padding-bottom:.4rem}
+ h2 small{font-weight:400;color:var(--ink2);font-size:.85rem}
+ .row{display:flex;flex-direction:column;gap:1rem}
+ figure{margin:0;background:var(--surface);border:1px solid var(--rule);border-radius:3px;overflow:hidden}
+ figcaption{padding:.5rem .8rem;border-bottom:1px solid var(--rule);font-size:.82rem;
+   display:flex;gap:.6rem;align-items:baseline}
+ figcaption span{color:var(--ink2)}
+ .s{overflow-x:auto;direction:ltr} img{display:block;max-width:100%;height:auto}
+ footer{border-top:1px solid var(--rule);padding-top:1rem;font-size:.85rem;color:var(--ink2)}
+ a{color:inherit}
+</style>
+<div class="wrap">
+<header>
+<h1>הצעות עיצוב לגרפי מיקומי קבוצות</h1>
+<p class="lead">שלוש גרסאות של אותו גרף, אותם נתונים בדיוק — רק הטיפול הגרפי משתנה.
+הציר האופקי והאנכי קבועים בכל הגרסאות, כדי שאפשר יהיה להשוות בין קבוצות.
+הנימוקים המלאים, כולל מה כל בחירה עולה, נמצאים ב־<a href="https://github.com/kadishay/israeli-league-charts/blob/main/docs/DESIGN.md">docs/DESIGN.md</a>.</p>
+</header>
+<section><h2>מכבי תל אביב <small>Maccabi Tel Aviv — never relegated — the flat case</small></h2><div class="row"><figure><figcaption><b>נוכחי · current</b><span>פסים אפורים מלאים</span></figcaption><div class="s"><img loading="lazy" src="experiments/maccabi-tel-aviv--1-current.he.svg" alt="מכבי תל אביב — נוכחי · current"></div></figure><figure><figcaption><b>שקט · quiet</b><span>שני גוונים בהירים וקו הפרדה</span></figcaption><div class="s"><img loading="lazy" src="experiments/maccabi-tel-aviv--2-quiet.he.svg" alt="מכבי תל אביב — שקט · quiet"></div></figure><figure><figcaption><b>מודרני · modern</b><span>ללא מילוי כלל — רק קו הפרדה</span></figcaption><div class="s"><img loading="lazy" src="experiments/maccabi-tel-aviv--3-modern.he.svg" alt="מכבי תל אביב — מודרני · modern"></div></figure></div></section><section><h2>הפועל עפולה <small>Hapoel Afula — moved between many leagues</small></h2><div class="row"><figure><figcaption><b>נוכחי · current</b><span>פסים אפורים מלאים</span></figcaption><div class="s"><img loading="lazy" src="experiments/hapoel-afula--1-current.he.svg" alt="הפועל עפולה — נוכחי · current"></div></figure><figure><figcaption><b>שקט · quiet</b><span>שני גוונים בהירים וקו הפרדה</span></figcaption><div class="s"><img loading="lazy" src="experiments/hapoel-afula--2-quiet.he.svg" alt="הפועל עפולה — שקט · quiet"></div></figure><figure><figcaption><b>מודרני · modern</b><span>ללא מילוי כלל — רק קו הפרדה</span></figcaption><div class="s"><img loading="lazy" src="experiments/hapoel-afula--3-modern.he.svg" alt="הפועל עפולה — מודרני · modern"></div></figure></div></section><section><h2>מכבי יפו <small>Maccabi Jaffa — the other case named in the review</small></h2><div class="row"><figure><figcaption><b>נוכחי · current</b><span>פסים אפורים מלאים</span></figcaption><div class="s"><img loading="lazy" src="experiments/maccabi-jaffa--1-current.he.svg" alt="מכבי יפו — נוכחי · current"></div></figure><figure><figcaption><b>שקט · quiet</b><span>שני גוונים בהירים וקו הפרדה</span></figcaption><div class="s"><img loading="lazy" src="experiments/maccabi-jaffa--2-quiet.he.svg" alt="מכבי יפו — שקט · quiet"></div></figure><figure><figcaption><b>מודרני · modern</b><span>ללא מילוי כלל — רק קו הפרדה</span></figcaption><div class="s"><img loading="lazy" src="experiments/maccabi-jaffa--3-modern.he.svg" alt="מכבי יפו — מודרני · modern"></div></figure></div></section><section><h2>הפועל תל אביב <small>Hapoel Tel Aviv — a long record, one relegation</small></h2><div class="row"><figure><figcaption><b>נוכחי · current</b><span>פסים אפורים מלאים</span></figcaption><div class="s"><img loading="lazy" src="experiments/hapoel-tel-aviv--1-current.he.svg" alt="הפועל תל אביב — נוכחי · current"></div></figure><figure><figcaption><b>שקט · quiet</b><span>שני גוונים בהירים וקו הפרדה</span></figcaption><div class="s"><img loading="lazy" src="experiments/hapoel-tel-aviv--2-quiet.he.svg" alt="הפועל תל אביב — שקט · quiet"></div></figure><figure><figcaption><b>מודרני · modern</b><span>ללא מילוי כלל — רק קו הפרדה</span></figcaption><div class="s"><img loading="lazy" src="experiments/hapoel-tel-aviv--3-modern.he.svg" alt="הפועל תל אביב — מודרני · modern"></div></figure></div></section>
+<footer>
+כל הגרפים נוצרים מקוד פתוח:
+<a href="https://github.com/kadishay/israeli-league-charts">github.com/kadishay/israeli-league-charts</a>.
+להרצה: <code dir="ltr">python3 scripts/render.py</code>. לגרסאות: <code dir="ltr">python3 scripts/experiment.py</code>.
+</footer>
+</div>
