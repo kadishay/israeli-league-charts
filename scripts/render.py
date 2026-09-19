@@ -88,6 +88,9 @@ THEME = {
         # Light enough to sit under the bands without competing with the
         # club's line, dark enough to survive being scaled down to a thumbnail.
         "grid": "#FFFFFF", "grid_opacity": "0.55",
+        # For band_style="quiet": two near-white tones alternating, so the tiers
+        # are still countable without the grey mass dominating the picture.
+        "quiet1": "#FAFBFB", "quiet2": "#F1F5F6", "tierline": "#D3DBDE",
         "rule": "#C9CFD1", "accent": "#007C99", "accent_casing": "#004A5C",
         "champion": "#A06A0A", "hatch": "#A9B2B6",
     },
@@ -513,7 +516,14 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
            accent: str | None = None,
            casing: str | None = None,
            played: set[str] | None = None,
-           spells: list[dict] | None = None) -> str:
+           spells: list[dict] | None = None,
+           band_style: str = "solid",
+           positions: str = "none") -> str:
+    """band_style: "solid" is the filled ramp; "quiet" is near-white bands with a
+    hairline at each boundary, for when the grey mass competes with the line.
+    positions: "none", "all", or "auto" to label only when the columns are wide
+    enough to carry a number.
+    """
     S = STRINGS[lang]
     pad_l = S["pad_l"]
     label = name or club
@@ -617,6 +627,11 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
         "  .champ{fill:var(--champion)}",
         "  .grid{stroke:var(--grid);stroke-opacity:var(--grid_opacity);"
         "stroke-width:1;fill:none}",
+        # Only when used, so a chart that uses neither carries neither rule.
+        *(["  .tierline{stroke:var(--tierline);stroke-width:1;fill:none}"]
+          if band_style == "quiet" else []),
+        *(["  .poslabel{fill:var(--ink2);font-size:6.5px;text-anchor:middle}"]
+          if positions != "none" else []),
 
         "</style>",
         "<defs>",
@@ -640,12 +655,17 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
     ]
 
     # ── Tier bands, per column, so the moving boundaries show as steps.
+    quiet = band_style == "quiet"
     for i, s in enumerate(seasons):
         top = PAD_T
         for t, size in enumerate(s["bands"], start=1):
             bottom = y(sum(s["bands"][:t]) + 1)
+            fill = (f'var(--quiet{min(t, 2)})' if quiet else f'var(--band{t})')
             out.append(f'<rect x="{x(i)}" y="{top}" width="{COL}" '
-                       f'height="{bottom - top}" fill="var(--band{t})"/>')
+                       f'height="{bottom - top}" fill="{fill}"/>')
+            if quiet and t > 1:
+                out.append(f'<path class="tierline" d="M{x(i)} {top + .5}'
+                           f'h{COL}"/>')
             top = bottom
         # Everything below the last band is bare page, whether the pyramid
         # was shallower than four tiers - it was two deep in 1935 - or deeper.
@@ -666,7 +686,7 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
             out.append(f'<path class="grid" d="M{x(i) + .5} {PAD_T}V{floor}"/>')
 
     # ── The club's own history.
-    area, marks = [], []
+    area, marks, out_pos = [], [], []
     # Which states this club's chart actually contains. A legend is a key to the
     # marks on the page, so an entry for a mark that is not there is noise: 14 of
     # the 42 clubs have no unknown season at all, and a third of them never won
@@ -718,6 +738,13 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
             runs[-1].append((i, rank))
         else:
             runs.append([(i, rank)])
+        # Optional per-season position label. The complaint it answers is real -
+        # "I cannot tell whether they finished 2nd, 3rd or 4th in 1989" - but it
+        # only fits once the x-axis is short enough to give each column room.
+        if positions == "all" or (positions == "auto" and COL >= 11):
+            out_pos.append(
+                f'<text class="poslabel" x="{x(i) + COL / 2:.1f}" '
+                f'y="{y(rank) - 4.5:.1f}">{entry["position"]}</text>')
         if entry["tier"] == 1 and entry["position"] == 1 and not entry["division"]:
             cx, cy = x(i) + COL / 2, y(rank) - 5
             marks.append(f'<path class="champ" d="M{cx} {cy - 3.6}l3.8 3.6-3.8 3.6'
@@ -753,7 +780,7 @@ def render(club: str, seasons: list[dict], history: dict[str, dict],
         out += [f'<path class="alt" d="{c}"/>' for c in alt]
 
     out += [f'<path class="casing" d="{c}"/>' for c in curves]
-    out += [f'<path class="line" d="{c}"/>' for c in curves] + marks
+    out += [f'<path class="line" d="{c}"/>' for c in curves] + marks + out_pos
 
     # ── Tier labels, numbered, aligned to the most recent season's bands.
     last = seasons[-1]

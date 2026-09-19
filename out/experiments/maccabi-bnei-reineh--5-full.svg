@@ -1,0 +1,253 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="423" height="616" viewBox="0 0 423 616" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'DejaVu Sans', 'Liberation Sans', sans-serif" role="img" aria-label="Maccabi Bnei Reineh, 2003/2004 – 2025/2026">
+<style>
+  .bg{fill:#FCFCFB} .ink{fill:#1A1D1F} .ink2{fill:#565F63}
+  .ink3{fill:#868F93} .rule{stroke:#C9CFD1}
+  .line,.casing{fill:none;stroke-linecap:round;stroke-linejoin:round}
+  .casing{stroke:#00527D;stroke-width:4.4}
+  .line{stroke:#0089D0;stroke-width:2.4}
+  .champ{fill:#A06A0A}
+  .grid{stroke:#FFFFFF;stroke-opacity:0.55;stroke-width:1;fill:none}
+  .tierline{stroke:#D3DBDE;stroke-width:1;fill:none}
+  .poslabel{fill:#565F63;font-size:6.5px;text-anchor:middle}
+</style>
+<defs>
+  <pattern id="notplayed" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="7" stroke="#A9B2B6" stroke-width="1.4"/></pattern>
+  <pattern id="uncovered" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="1.4" cy="1.4" r="1" fill="#A9B2B6"/></pattern>
+  <pattern id="stopped" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#A9B2B6" fill-opacity=".55"/></pattern>
+  <pattern id="notier" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#FCFCFB"/></pattern>
+</defs>
+<rect class="bg" width="423" height="616"/>
+<rect x="104" y="76" width="13" height="84" fill="#FAFBFB"/>
+<rect x="104" y="160" width="13" height="84" fill="#F1F5F6"/>
+<path class="tierline" d="M104 160.5h13"/>
+<rect x="104" y="244" width="13" height="84" fill="#F1F5F6"/>
+<path class="tierline" d="M104 244.5h13"/>
+<rect x="104" y="328" width="13" height="98" fill="#F1F5F6"/>
+<path class="tierline" d="M104 328.5h13"/>
+<rect x="104" y="426" width="13" height="112" fill="url(#notier)"/>
+<rect x="117" y="76" width="13" height="84" fill="#FAFBFB"/>
+<rect x="117" y="160" width="13" height="84" fill="#F1F5F6"/>
+<path class="tierline" d="M117 160.5h13"/>
+<rect x="117" y="244" width="13" height="84" fill="#F1F5F6"/>
+<path class="tierline" d="M117 244.5h13"/>
+<rect x="117" y="328" width="13" height="98" fill="#F1F5F6"/>
+<path class="tierline" d="M117 328.5h13"/>
+<rect x="117" y="426" width="13" height="112" fill="url(#notier)"/>
+<rect x="130" y="76" width="13" height="84" fill="#FAFBFB"/>
+<rect x="130" y="160" width="13" height="84" fill="#F1F5F6"/>
+<path class="tierline" d="M130 160.5h13"/>
+<rect x="130" y="244" width="13" height="84" fill="#F1F5F6"/>
+<path class="tierline" d="M130 244.5h13"/>
+<rect x="130" y="328" width="13" height="98" fill="#F1F5F6"/>
+<path class="tierline" d="M130 328.5h13"/>
+<rect x="130" y="426" width="13" height="112" fill="url(#notier)"/>
+<rect x="143" y="76" width="13" height="84" fill="#FAFBFB"/>
+<rect x="143" y="160" width="13" height="84" fill="#F1F5F6"/>
+<path class="tierline" d="M143 160.5h13"/>
+<rect x="143" y="244" width="13" height="84" fill="#F1F5F6"/>
+<path class="tierline" d="M143 244.5h13"/>
+<rect x="143" y="328" width="13" height="98" fill="#F1F5F6"/>
+<path class="tierline" d="M143 328.5h13"/>
+<rect x="143" y="426" width="13" height="112" fill="url(#notier)"/>
+<rect x="156" y="76" width="13" height="84" fill="#FAFBFB"/>
+<rect x="156" y="160" width="13" height="84" fill="#F1F5F6"/>
+<path class="tierline" d="M156 160.5h13"/>
+<rect x="156" y="244" width="13" height="84" fill="#F1F5F6"/>
+<path class="tierline" d="M156 244.5h13"/>
+<rect x="156" y="328" width="13" height="98" fill="#F1F5F6"/>
+<path class="tierline" d="M156 328.5h13"/>
+<rect x="156" y="426" width="13" height="112" fill="url(#notier)"/>
+<rect x="169" y="76" width="13" height="84" fill="#FAFBFB"/>
+<rect x="169" y="160" width="13" height="84" fill="#F1F5F6"/>
+<path class="tierline" d="M169 160.5h13"/>
+<rect x="169" y="244" width="13" height="84" fill="#F1F5F6"/>
+<path class="tierline" d="M169 244.5h13"/>
+<rect x="169" y="328" width="13" height="98" fill="#F1F5F6"/>
+<path class="tierline" d="M169 328.5h13"/>
+<rect x="169" y="426" width="13" height="112" fill="url(#notier)"/>
+<rect x="182" y="76" width="13" height="112" fill="#FAFBFB"/>
+<rect x="182" y="188" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M182 188.5h13"/>
+<rect x="182" y="300" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M182 300.5h13"/>
+<rect x="182" y="412" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M182 412.5h13"/>
+<rect x="182" y="524" width="13" height="14" fill="url(#notier)"/>
+<rect x="195" y="76" width="13" height="112" fill="#FAFBFB"/>
+<rect x="195" y="188" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M195 188.5h13"/>
+<rect x="195" y="300" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M195 300.5h13"/>
+<rect x="195" y="412" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M195 412.5h13"/>
+<rect x="195" y="524" width="13" height="14" fill="url(#notier)"/>
+<rect x="208" y="76" width="13" height="112" fill="#FAFBFB"/>
+<rect x="208" y="188" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M208 188.5h13"/>
+<rect x="208" y="300" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M208 300.5h13"/>
+<rect x="208" y="412" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M208 412.5h13"/>
+<rect x="208" y="524" width="13" height="14" fill="url(#notier)"/>
+<rect x="221" y="76" width="13" height="98" fill="#FAFBFB"/>
+<rect x="221" y="174" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M221 174.5h13"/>
+<rect x="221" y="286" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M221 286.5h13"/>
+<rect x="221" y="398" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M221 398.5h13"/>
+<rect x="221" y="510" width="13" height="28" fill="url(#notier)"/>
+<rect x="234" y="76" width="13" height="98" fill="#FAFBFB"/>
+<rect x="234" y="174" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M234 174.5h13"/>
+<rect x="234" y="286" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M234 286.5h13"/>
+<rect x="234" y="398" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M234 398.5h13"/>
+<rect x="234" y="510" width="13" height="28" fill="url(#notier)"/>
+<rect x="247" y="76" width="13" height="98" fill="#FAFBFB"/>
+<rect x="247" y="174" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M247 174.5h13"/>
+<rect x="247" y="286" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M247 286.5h13"/>
+<rect x="247" y="398" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M247 398.5h13"/>
+<rect x="247" y="510" width="13" height="28" fill="url(#notier)"/>
+<rect x="260" y="76" width="13" height="98" fill="#FAFBFB"/>
+<rect x="260" y="174" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M260 174.5h13"/>
+<rect x="260" y="286" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M260 286.5h13"/>
+<rect x="260" y="398" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M260 398.5h13"/>
+<rect x="260" y="510" width="13" height="28" fill="url(#notier)"/>
+<rect x="273" y="76" width="13" height="98" fill="#FAFBFB"/>
+<rect x="273" y="174" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M273 174.5h13"/>
+<rect x="273" y="286" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M273 286.5h13"/>
+<rect x="273" y="398" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M273 398.5h13"/>
+<rect x="273" y="510" width="13" height="28" fill="url(#notier)"/>
+<rect x="286" y="76" width="13" height="98" fill="#FAFBFB"/>
+<rect x="286" y="174" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M286 174.5h13"/>
+<rect x="286" y="286" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M286 286.5h13"/>
+<rect x="286" y="398" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M286 398.5h13"/>
+<rect x="286" y="510" width="13" height="28" fill="url(#notier)"/>
+<rect x="299" y="76" width="13" height="98" fill="#FAFBFB"/>
+<rect x="299" y="174" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M299 174.5h13"/>
+<rect x="299" y="286" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M299 286.5h13"/>
+<rect x="299" y="398" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M299 398.5h13"/>
+<rect x="299" y="510" width="13" height="28" fill="url(#notier)"/>
+<rect x="312" y="76" width="13" height="98" fill="#FAFBFB"/>
+<rect x="312" y="174" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M312 174.5h13"/>
+<rect x="312" y="286" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M312 286.5h13"/>
+<rect x="312" y="398" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M312 398.5h13"/>
+<rect x="312" y="510" width="13" height="28" fill="url(#notier)"/>
+<rect x="325" y="76" width="13" height="98" fill="#FAFBFB"/>
+<rect x="325" y="174" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M325 174.5h13"/>
+<rect x="325" y="286" width="13" height="63" fill="#F1F5F6"/>
+<path class="tierline" d="M325 286.5h13"/>
+<rect x="325" y="349" width="13" height="63" fill="#F1F5F6"/>
+<path class="tierline" d="M325 349.5h13"/>
+<rect x="325" y="412" width="13" height="126" fill="url(#notier)"/>
+<rect x="338" y="76" width="13" height="98" fill="#FAFBFB"/>
+<rect x="338" y="174" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M338 174.5h13"/>
+<rect x="338" y="286" width="13" height="126" fill="#F1F5F6"/>
+<path class="tierline" d="M338 286.5h13"/>
+<rect x="338" y="412" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M338 412.5h13"/>
+<rect x="338" y="524" width="13" height="14" fill="url(#notier)"/>
+<rect x="351" y="76" width="13" height="98" fill="#FAFBFB"/>
+<rect x="351" y="174" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M351 174.5h13"/>
+<rect x="351" y="286" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M351 286.5h13"/>
+<rect x="351" y="398" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M351 398.5h13"/>
+<rect x="351" y="510" width="13" height="28" fill="url(#notier)"/>
+<rect x="364" y="76" width="13" height="98" fill="#FAFBFB"/>
+<rect x="364" y="174" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M364 174.5h13"/>
+<rect x="364" y="286" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M364 286.5h13"/>
+<rect x="364" y="398" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M364 398.5h13"/>
+<rect x="364" y="510" width="13" height="28" fill="url(#notier)"/>
+<rect x="377" y="76" width="13" height="98" fill="#FAFBFB"/>
+<rect x="377" y="174" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M377 174.5h13"/>
+<rect x="377" y="286" width="13" height="119" fill="#F1F5F6"/>
+<path class="tierline" d="M377 286.5h13"/>
+<rect x="377" y="405" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M377 405.5h13"/>
+<rect x="377" y="517" width="13" height="21" fill="url(#notier)"/>
+<rect x="390" y="76" width="13" height="98" fill="#FAFBFB"/>
+<rect x="390" y="174" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M390 174.5h13"/>
+<rect x="390" y="286" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M390 286.5h13"/>
+<rect x="390" y="398" width="13" height="112" fill="#F1F5F6"/>
+<path class="tierline" d="M390 398.5h13"/>
+<rect x="390" y="510" width="13" height="28" fill="url(#notier)"/>
+<path class="grid" d="M195.5 76V538"/>
+<path class="grid" d="M325.5 76V538"/>
+<rect x="130" y="426" width="13" height="112" fill="url(#uncovered)"/>
+<rect x="143" y="426" width="13" height="112" fill="url(#uncovered)"/>
+<rect x="156" y="426" width="13" height="112" fill="url(#uncovered)"/>
+<rect x="169" y="426" width="13" height="112" fill="url(#uncovered)"/>
+<rect x="182" y="524" width="13" height="14" fill="url(#uncovered)"/>
+<rect x="195" y="524" width="13" height="14" fill="url(#uncovered)"/>
+<rect x="208" y="524" width="13" height="14" fill="url(#uncovered)"/>
+<rect x="221" y="510" width="13" height="28" fill="url(#uncovered)"/>
+<rect x="234" y="510" width="13" height="28" fill="url(#uncovered)"/>
+<rect x="247" y="510" width="13" height="28" fill="url(#uncovered)"/>
+<rect x="260" y="510" width="13" height="28" fill="url(#uncovered)"/>
+<rect x="273" y="510" width="13" height="28" fill="url(#uncovered)"/>
+<rect x="299" y="510" width="13" height="28" fill="url(#uncovered)"/>
+<rect x="312" y="286" width="13" height="252" fill="url(#stopped)"/>
+<path class="casing" d="M286.0 454.0H299.0"/>
+<path class="casing" d="M331.5 293.0 C335.8 253.3 340.2 198.5 344.5 174.0 C348.8 149.5 353.2 157.7 357.5 146.0 C361.8 134.3 366.2 104.0 370.5 104.0 C374.8 104.0 379.2 114.5 383.5 125.0 C387.8 135.5 392.2 153.0 396.5 167.0"/>
+<path class="line" d="M286.0 454.0H299.0"/>
+<path class="line" d="M331.5 293.0 C335.8 253.3 340.2 198.5 344.5 174.0 C348.8 149.5 353.2 157.7 357.5 146.0 C361.8 134.3 366.2 104.0 370.5 104.0 C374.8 104.0 379.2 114.5 383.5 125.0 C387.8 135.5 392.2 153.0 396.5 167.0"/>
+<text class="poslabel" x="292.5" y="449.5">9</text>
+<text class="poslabel" x="331.5" y="288.5">2</text>
+<text class="poslabel" x="344.5" y="169.5">1</text>
+<text class="poslabel" x="357.5" y="141.5">11</text>
+<text class="poslabel" x="370.5" y="99.5">5</text>
+<text class="poslabel" x="383.5" y="120.5">8</text>
+<text class="poslabel" x="396.5" y="162.5">14</text>
+<text class="ink2" x="93" y="128.0" text-anchor="end" font-size="10.5" font-weight="600" letter-spacing=".05em">TIER 1</text>
+<text class="ink2" x="93" y="233.0" text-anchor="end" font-size="10.5" font-weight="600" letter-spacing=".05em">TIER 2</text>
+<text class="ink2" x="93" y="345.0" text-anchor="end" font-size="10.5" font-weight="600" letter-spacing=".05em">TIER 3</text>
+<text class="ink2" x="93" y="457.0" text-anchor="end" font-size="10.5" font-weight="600" letter-spacing=".05em">TIER 4</text>
+<path class="rule" d="M104 538.5h299" fill="none"/>
+<path class="rule" d="M104 538v5" fill="none"/>
+<text class="ink3" x="104" y="555" text-anchor="start" font-size="10.5">03/04</text>
+<path class="rule" d="M201.5 538v5" fill="none"/>
+<text class="ink3" x="201.5" y="555" text-anchor="middle" font-size="10.5">2010</text>
+<path class="rule" d="M331.5 538v5" fill="none"/>
+<text class="ink3" x="331.5" y="555" text-anchor="middle" font-size="10.5">2020</text>
+<path class="rule" d="M403 538v5" fill="none"/>
+<text class="ink3" x="403" y="555" text-anchor="end" font-size="10.5">25/26</text>
+<text class="ink" x="104" y="33" text-anchor="start" font-size="19" font-weight="600" letter-spacing="-.01em">Maccabi Bnei Reineh</text>
+<text class="ink2" x="104" y="54" text-anchor="start" font-size="11.5">4 of 23 seasons in the top flight · best finish 5th</text>
+<text class="ink3" x="403" y="33" text-anchor="end" font-size="9.5" letter-spacing=".08em">LEAGUE POSITION BY SEASON</text>
+<path class="casing" d="M104 578.5h16"/><path class="line" d="M104 578.5h16"/>
+<text class="ink2" x="126" y="582" text-anchor="start" font-size="10.5">Final league position</text>
+<rect x="203.66666666666669" y="573" width="16" height="11" fill="url(#stopped)"/>
+<text class="ink2" x="225.66666666666669" y="582" text-anchor="start" font-size="10.5">League abandoned mid-season</text>
+<rect x="303.33333333333337" y="573" width="16" height="11" fill="url(#uncovered)"/>
+<text class="ink2" x="325.33333333333337" y="582" text-anchor="start" font-size="10.5">No position recorded</text>
+</svg>
